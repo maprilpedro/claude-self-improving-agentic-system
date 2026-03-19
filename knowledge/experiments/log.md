@@ -14,34 +14,31 @@
 - **Analyzing**: Data collected, being interpreted
 - **Complete**: Results documented and applied
 
-<!-- Template:
-## EXP-[number]: [Experiment Name]
+## EXP-001: First Book Ingestion into PM Knowledge System
 
-- **Type**: Product / Discovery / Process / Knowledge
-- **Status**: Designed / Running / Analyzing / Complete
-- **Date started**: YYYY-MM-DD
-- **Date completed**: YYYY-MM-DD (if applicable)
+- **Type**: Knowledge
+- **Status**: Complete
+- **Date started**: 2026-03-19
+- **Date completed**: 2026-03-19
 
 ### Hypothesis
-> What we believe and why (link to hypotheses/active.md if applicable)
+> Book ingestion can systematically extract actionable PM knowledge and populate the knowledge system with source-attributed, structured insights.
 
 ### Design
-- **What we're testing**: [clear description]
-- **Control**: [baseline condition]
-- **Variant**: [what's different]
-- **Success metric**: [primary metric]
-- **Guardrail metrics**: [metrics that shouldn't degrade]
-- **Sample size needed**: [calculated minimum]
-- **Duration**: [estimated time]
+- **What we're testing**: Whether a full book (Gallo, *Presentation Secrets of Steve Jobs*, ~9,400 lines) can be processed into the knowledge taxonomy (domain, patterns, false beliefs, tools, hypotheses)
+- **Control**: Empty knowledge system
+- **Variant**: Knowledge system populated with book insights
+- **Success metric**: All knowledge files populated with source-attributed entries that follow the established templates
+- **Guardrail metrics**: No copyright-infringing full-text reproduction. Only extracted insights and frameworks.
+- **Duration**: Single session
 
 ### Results
-- **Primary metric**: [result vs. baseline]
-- **Guardrail metrics**: [all within bounds? Y/N]
-- **Statistical significance**: [confidence level]
-- **Unexpected findings**: [anything surprising]
+- **Primary metric**: All 7 knowledge files updated with structured entries
+- **Files updated**: domain/README.md (11 entries across 6 categories), patterns/README.md (9 entries: 2 decision patterns, 6 frameworks, 2 stakeholder templates, 3 anti-patterns), false-beliefs/catalog.md (5 cataloged beliefs), tools/decision-matrix.md (6 new communication tools + updated tables), hypotheses/active.md (3 hypotheses), experiments/log.md (this entry)
+- **Guardrail metrics**: All entries are synthesized insights, not reproduced text. Source attributed throughout.
+- **Unexpected findings**: The book is overwhelmingly about communication and stakeholder management. Almost every insight maps directly to the user's Senior Director visibility gap. Hypothesis H-003 emerged organically.
 
 ### Decision
-- **Action taken**: [what we did with the results]
-- **Knowledge updated**: [which knowledge files were updated]
-- **Follow-up**: [next experiment if any]
--->
+- **Action taken**: Knowledge system populated. Git commit to follow.
+- **Knowledge updated**: All knowledge files
+- **Follow-up**: Apply H-003 (visibility gap hypothesis) in real presentations. Consider ingesting additional books on executive presence, stakeholder influence, or strategic communication.

@@ -15,28 +15,59 @@
 | Card Sorting | Information architecture | Visual design | 15-30 | Low | Medium |
 | Contextual Inquiry | Workflow understanding | Remote users | 5-10 | High | Slow |
 
-## Prioritization Frameworks
+## Presentation & Communication Tools
 
-<!-- Template:
-### [Framework Name]
-- **Date evaluated**: YYYY-MM-DD
-- **Best for**: [specific context]
-- **Fails when**: [context where it breaks]
-- **Key inputs**: What data you need
-- **Common misuse**: How teams get it wrong
-- **Verdict**: [use/avoid/conditional]
--->
+### The Headline Technique
+- **Date evaluated**: 2026-03-19
+- **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 4
+- **Best for**: Product launches, positioning, investor pitches, any moment where you need consistent messaging across channels
+- **How to use**: Write one sentence, under 140 characters, that is concise, specific, and offers a personal benefit. Examples: "1,000 songs in your pocket" (27 chars). "The world's thinnest notebook" (30 chars). "Google provides access to the world's information in one click" (63 chars, 10 words).
+- **Test**: If your audience can't repeat your headline after the presentation, it wasn't good enough.
+- **Common misuse**: Making the headline about you/your company instead of the benefit to the audience.
+- **Verdict**: Use always. Non-negotiable for any product launch.
 
-## Strategy Tools
+### The Rule of Three
+- **Date evaluated**: 2026-03-19
+- **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 5; George Miller's research; U.S. Marine Corps organizational research
+- **Best for**: Structuring any communication: presentations, pitches, memos, roadmaps, meeting agendas
+- **How to use**: Distill your message to three key points. Provide a verbal "road map" at the start. Return to each point in sequence. Summarize at the end. Even within points, group sub-items in threes.
+- **Test**: Can your audience recall all three points without notes? If not, you either have too many or they aren't distinct enough.
+- **Common misuse**: Forcing five items into three artificially. Using four when three is more natural.
+- **Verdict**: Use by default. This is the single most powerful communication structure.
 
-<!-- Template:
-### [Tool Name]
-- **Date evaluated**: YYYY-MM-DD
-- **Purpose**: What it's designed for
-- **Works when**: [conditions for success]
-- **Fails when**: [conditions for failure]
-- **Alternatives**: [what to use instead in failure cases]
--->
+### The Antagonist-Hero Framework
+- **Date evaluated**: 2026-03-19
+- **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scenes 6-7
+- **Best for**: Product launches, sales pitches, investor presentations, change management
+- **How to use**: (1) Describe the current pain/problem (the antagonist). (2) Make the pain tangible and specific. (3) Introduce your solution (the hero). (4) Show how the hero defeats the pain. (5) Describe specific benefits in plain language.
+- **One-sentence version**: "Why do we need this?" establishes the antagonist. The answer reveals the hero.
+- **Common misuse**: Making the competitor the villain in a way that sounds petty. Over-dramatizing minor improvements.
+- **Verdict**: Use for any persuasive communication. Even internal feature pitches benefit from problem framing.
+
+### The Elevator Pitch (Four Questions)
+- **Date evaluated**: 2026-03-19
+- **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 6
+- **Best for**: First conversations, networking, quick stakeholder updates, writing product one-pagers
+- **How to use**: Answer in one sentence each: (1) What do you do? (2) What problem do you solve? (3) How are you different? (4) Why should I care?
+- **Common misuse**: Answering question 1 with jargon. Skipping question 2 entirely.
+- **Verdict**: Essential. Every PM should have this ready for their product at all times.
+
+### The Bucket Method (Q&A Preparation)
+- **Date evaluated**: 2026-03-19
+- **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 15
+- **Best for**: Preparing for exec Q&A, board meetings, analyst calls, press interviews, customer meetings
+- **How to use**: (1) List likely questions. (2) Categorize into ~7 buckets. (3) Create one great answer per bucket that works regardless of question phrasing. (4) Listen for trigger words. (5) Respond confidently. Key: the answer must make sense no matter how the question is phrased.
+- **Common misuse**: Memorizing specific answers to specific questions instead of category responses.
+- **Verdict**: Use for any high-stakes Q&A. Henry Kissinger: "What questions do you have for my answers?"
+
+### Picture Superiority Effect (PSE) Applied to Slides
+- **Date evaluated**: 2026-03-19
+- **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 8; Medina, *Brain Rules*
+- **Best for**: Any presentation where you want the audience to remember what you said
+- **How to use**: Replace text-heavy slides with photographs and images. One theme per slide. Words should complement what you say verbally, not duplicate it. Use signaling (simple arrows or highlights) to direct attention.
+- **Evidence**: 10% recall for text after 72 hours. 65% recall for text + pictures. "The brain sees words as tiny pictures" so text overloads visual processing.
+- **Common misuse**: Using clip art or generic stock photos instead of meaningful images.
+- **Verdict**: Use always. Burn your bullet points.
 
 ## Communication Tools
 
@@ -47,3 +78,18 @@
 | Saying no | "Not now" with criteria for yes | Preserves relationship |
 | Bad news | Data first, then interpretation | Removes defensiveness |
 | Cross-team dependency | Written agreement with milestones | Memory fades, docs don't |
+| Product launch | Headline + Rule of Three + Demo | Jobs's proven formula |
+| Investor pitch | Elevator Pitch + Antagonist-Hero | Problem before solution |
+| Tough Q&A | Bucket Method | Category answers > memorized answers |
+| Any presentation >10 min | Break every 10 minutes | Neuroscience-backed attention limit |
+| Feature explanation | "What this means to you is..." | Jobs's bridge from feature to benefit |
+
+## Strategy Tools
+
+### Passion Statement
+- **Date evaluated**: 2026-03-19
+- **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 1
+- **Purpose**: Fill in: "I'm excited about this [product/initiative] because it ___." Share it openly. Your passion statement will be remembered long after your company's mission statement is forgotten.
+- **Works when**: You genuinely believe in what you're selling.
+- **Fails when**: It's forced or inauthentic. People can tell.
+- **Alternatives**: If you can't complete the sentence with genuine excitement, reconsider your involvement.

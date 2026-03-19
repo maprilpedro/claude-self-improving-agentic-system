@@ -4,50 +4,107 @@
 
 ## Decision Patterns
 
-<!-- How PMs make decisions in different contexts -->
-<!-- Template:
-### [Pattern Name]
-- **Date identified**: YYYY-MM-DD
-- **Observations**: [list of 2+ times this pattern appeared]
-- **Pattern**: What happens repeatedly
-- **When it works**: Context where this pattern succeeds
-- **When it fails**: Context where this pattern breaks down
-- **Related**: [links to other patterns or hypotheses]
--->
+### Plan in Analog Before Digital
+- **Date identified**: 2026-03-19
+- **Observations**: (1) Jobs storyboarded presentations on paper/whiteboards before opening Keynote. (2) Nancy Duarte recommends spending 2/3 of prep time on story, only 1/3 on slides. (3) Southwest Airlines was founded on a napkin sketch of three cities. (4) Cranium board game was sketched on a cocktail napkin.
+- **Pattern**: The best ideas take shape on paper first. Jumping straight to digital tools (slides, Figma, code) constrains thinking.
+- **When it works**: Early-stage ideation, product vision, presentation planning, strategy sessions.
+- **When it fails**: When the problem is well-defined and execution speed matters more than creative exploration.
+- **Related**: Headline Technique, Story-First frameworks
+
+### The Antagonist-Hero Narrative
+- **Date identified**: 2026-03-19
+- **Observations**: (1) 1984 Mac launch: IBM as villain, Mac as hero. (2) iPhone launch: existing smartphones as villain, iPhone as hero. (3) Safari launch: slow browsers as villain, Safari as hero. (4) iPod launch: clunky MP3 players as villain, iPod as hero. (5) Al Gore's An Inconvenient Truth: fossil fuels as villain.
+- **Pattern**: Every compelling product story follows problem-then-solution structure. Introduce the antagonist (pain point, competitor, limitation) before revealing the hero (your product/solution). The brain craves meaning before details.
+- **When it works**: Product launches, sales pitches, investor presentations, stakeholder buy-in for new initiatives.
+- **When it fails**: Internal technical reviews where the audience already knows the problem. Over-dramatizing minor improvements.
+- **Related**: "Why Should I Care?" principle, Elevator Pitch framework
 
 ## Frameworks in Practice
 
-<!-- PM frameworks and how they actually perform vs. theory -->
-<!-- Template:
-### [Framework Name] (e.g., RICE, ICE, Jobs-to-be-Done)
-- **Date added**: YYYY-MM-DD
-- **Source**: [where learned/observed]
-- **Theory**: What the framework promises
-- **Reality**: How it actually works in practice
-- **Best for**: Specific situations where it excels
-- **Pitfalls**: Common mistakes when applying it
--->
+### The Rule of Three
+- **Date added**: 2026-03-19
+- **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 5
+- **Theory**: Human short-term memory retains 3-4 items optimally. Structure any communication around three key points.
+- **Reality**: Astonishingly consistent in practice. Jobs used it in virtually every presentation: three revolutionary products (iPhone launch), three parts to Apple (Mac, iPod/iTunes, iPhone), three stories (Stanford commencement). Kennedy's speeches, Obama's speeches, Marine Corps organizational structure, DuPont's crisis response all use groups of three.
+- **Best for**: Any communication that needs to be remembered. Product messaging, feature prioritization for pitches, roadmap themes, meeting agendas.
+- **Pitfalls**: Forcing unrelated items into three groups. Using it so mechanically it becomes predictable. Four is acceptable when natural.
+
+### The Headline Technique
+- **Date added**: 2026-03-19
+- **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 4
+- **Theory**: Create a one-sentence description of your product/initiative that is concise (<140 characters), specific, and offers a personal benefit. Repeat it consistently across all channels.
+- **Reality**: Jobs's headlines drove media coverage verbatim. "1,000 songs in your pocket" became the AP headline. "The world's thinnest notebook" appeared in 30,000+ articles. Google's pitch to Sequoia: "Google provides access to the world's information in one click" (10 words).
+- **Best for**: Product launches, positioning statements, investor pitches, internal initiatives that need organizational buy-in.
+- **Pitfalls**: Headline too generic ("innovative solution"). Headline that describes features instead of benefits. Inconsistent use across channels.
+
+### Aristotle's Five-Point Persuasion Plan
+- **Date added**: 2026-03-19
+- **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 1
+- **Theory**: (1) Arouse interest with a story or statement. (2) Pose a problem. (3) Offer a solution. (4) Describe specific benefits. (5) State a call to action.
+- **Reality**: Jobs followed this exact structure. Every keynote opened with an engaging hook, established a problem, introduced Apple's solution, described benefits in plain language, and ended with "Now go out and buy one!"
+- **Best for**: Any persuasive communication: exec reviews, product pitches, change management.
+- **Pitfalls**: Skipping step 2 (the problem). Going straight from problem to call-to-action without clearly articulating benefits.
+
+### Nine Elements of Great Presentations
+- **Date added**: 2026-03-19
+- **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 1
+- **Theory**: Every powerful presentation incorporates: (1) Headline, (2) Passion statement, (3) Three key messages, (4) Metaphors/analogies, (5) Demonstrations, (6) Partners, (7) Customer evidence, (8) Video clips, (9) Props/show-and-tell.
+- **Reality**: Jobs used all nine consistently. Most business presentations use zero to two of these.
+- **Best for**: Checklist when preparing any high-stakes presentation.
+- **Pitfalls**: Trying to cram all nine into a short presentation. Missing the most important ones (headline, three key messages, customer evidence).
+
+### The Holy Shit Moment
+- **Date added**: 2026-03-19
+- **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 13
+- **Theory**: Script one emotionally charged, unexpected moment per presentation. It creates a dopamine release that acts as a "chemical Post-it note" in the brain, making the experience memorable.
+- **Reality**: MacBook Air from a manila envelope. iPod from Jobs's pocket. Macintosh speaking for itself in 1984. These moments dominated news coverage and became the images people remembered for decades.
+- **Best for**: Product launches, major announcements, keynotes. Even simple presentations benefit from one unexpected reveal.
+- **Pitfalls**: Making the moment about spectacle rather than reinforcing the core message. Failing to rehearse the moment so it falls flat.
+
+### Simplicity as Design Principle (Kanso)
+- **Date added**: 2026-03-19
+- **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 8
+- **Theory**: Zen concept of kanso (simplicity). Remove everything that isn't essential. Applies to products, slides, and language.
+- **Reality**: Average PowerPoint slide has 40 words. Jobs's first four slides at Macworld 2008 had 7 words total. His products stripped away buttons, features, complexity. Hans Hofmann: "The ability to simplify means to eliminate the unnecessary so that the necessary may speak."
+- **Best for**: Slide design, product design, messaging, writing.
+- **Pitfalls**: Oversimplifying to the point of being vague. Removing necessary context.
 
 ## Stakeholder Templates
 
-<!-- Repeatable approaches for stakeholder situations -->
-<!-- Template:
-### [Situation] (e.g., "Saying no to exec requests")
-- **Date added**: YYYY-MM-DD
-- **Context**: When this situation arises
-- **Template**: Step-by-step approach
-- **Key phrases**: Language that works
-- **Variations**: How to adapt for different stakeholders
--->
+### The Elevator Pitch (Four Questions)
+- **Date added**: 2026-03-19
+- **Context**: When you need to explain your product/initiative in 30 seconds.
+- **Template**: Answer four questions in one sentence each: (1) What do you do? (2) What problem do you solve? (3) How are you different? (4) Why should I care?
+- **Key phrases**: "What that means to you is..." (Jobs's signature bridge from feature to benefit)
+- **Variations**: For investors, emphasize market size after the four questions. For customers, lead with the problem. For executives, lead with the business impact.
+
+### The Bucket Method for Q&A
+- **Date added**: 2026-03-19
+- **Context**: Preparing for tough questions in any setting: exec reviews, board meetings, press, customer meetings.
+- **Template**: (1) Identify the most common questions likely to be raised. (2) Categorize them into ~7 buckets. (3) Create the best answer for each category (answer must work regardless of how the question is phrased). (4) Listen for trigger words that map to a bucket. (5) Respond with confidence.
+- **Key phrases**: "Our view on [trigger topic] is..." "What's important to understand about [trigger topic] is..."
+- **Variations**: Works for product Q&A, analyst calls, media interviews, stakeholder pushback.
 
 ## Anti-Patterns
 
-<!-- Things that look right but consistently fail -->
-<!-- Template:
-### [Anti-Pattern Name]
-- **Date identified**: YYYY-MM-DD
-- **Observations**: [list of times this failed]
-- **Looks like**: Why it seems like a good idea
-- **Actually**: Why it fails
-- **Instead**: What to do instead
--->
+### Death by Bullet Points
+- **Date identified**: 2026-03-19
+- **Observations**: (1) Neuroscience research (Mayer, Medina) proves bullet points are the least effective way to deliver information. (2) Text recall after 72 hours: 10%. Text + picture: 65%. (3) Jobs never used bullet points. Not once. (4) Garr Reynolds calls bullet-heavy slides "slideuments" that kill effective communication.
+- **Looks like**: Filling slides with text seems thorough and comprehensive.
+- **Actually**: The brain sees words as tiny pictures, overloading cognitive processing. Bullet points demand note-taking, not attention. "The minute you put bullets on the screen you are announcing, 'Write this down, but don't really pay attention to it now.'" (Seth Godin)
+- **Instead**: One theme per slide. Use photographs and images. Deliver information verbally. Let slides complement, not duplicate, your words.
+
+### Solution Before Problem
+- **Date identified**: 2026-03-19
+- **Observations**: (1) Most entrepreneurs at TechCrunch 50 and DEMO failed because they jumped into their product without explaining the problem. (2) VC investor: "You need to create a new space in my brain to hold the information. It turns me off when entrepreneurs offer a solution without setting up the problem." (3) Most press releases fail because they announce products without establishing why anyone should care.
+- **Looks like**: Getting excited about your solution and wanting to share it immediately.
+- **Actually**: Without context (the problem), the brain has no bucket to place new information in. Primitive brain asks "Will it eat me?" not "How many teeth does it have?" Meaning before details.
+- **Instead**: Establish the antagonist first. Even 30 seconds of problem framing transforms audience receptivity.
+
+### Jargon as a Sign of Insecurity
+- **Date identified**: 2026-03-19
+- **Observations**: (1) Jobs vs Gates language analysis: Jobs scored dramatically better on every readability metric. (2) Jack Welch despised jargon and fired a leader who couldn't explain his business simply. (3) Suze Orman: "It's our fear of not being important that leads us to communicate in a more complex way than we need to." (4) Mission statements are the worst culprits.
+- **Looks like**: Using complex language sounds smart and authoritative.
+- **Actually**: It signals insecurity and creates distance. Einstein: "If you can't explain it simply, you don't understand it well enough."
+- **Instead**: Use simple, concrete, emotional words. Run text through readability tools. If a high schooler can't understand it, rewrite it.

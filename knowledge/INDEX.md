@@ -6,13 +6,19 @@
 
 | Folder | Purpose | Status | Entries |
 |--------|---------|--------|---------|
-| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Empty | 0 |
-| `patterns/` | Recurring PM frameworks, decision patterns, templates | Empty | 0 |
-| `hypotheses/active.md` | Hypotheses currently being tested | Empty | 0 |
+| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 11 |
+| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 9 |
+| `hypotheses/active.md` | Hypotheses currently being tested | Active | 3 |
 | `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Empty | 0 |
-| `false-beliefs/` | PM conventional wisdom proven wrong | Empty | 0 |
-| `tools/` | Decision matrix: when to use which PM method/tool | Empty | 0 |
-| `experiments/` | Experiment tracking and results | Empty | 0 |
+| `false-beliefs/` | PM conventional wisdom proven wrong | Active | 5 |
+| `tools/` | Decision matrix: when to use which PM method/tool | Active | 6 |
+| `experiments/` | Experiment tracking and results | Active | 1 |
+
+## Sources Ingested
+
+| Source | Date | Type | Key Contributions |
+|--------|------|------|-------------------|
+| Gallo, *Presentation Secrets of Steve Jobs* | 2026-03-19 | Book | Communication frameworks, presentation patterns, false beliefs about presenting, stakeholder management techniques |
 
 ## Routing Table
 
@@ -26,6 +32,9 @@
 | Challenging assumptions | `false-beliefs/` | `hypotheses/resolved.md` |
 | Learning from new material | Route by content type to relevant folders |
 | Pattern recognition | `patterns/` | `hypotheses/active.md` |
+| Preparing a presentation | `tools/` (Headline, Rule of Three, PSE) | `patterns/` (Nine Elements, Holy Shit Moment) |
+| Stakeholder communication | `domain/` (Stakeholder Management) | `tools/` (Bucket Method, Elevator Pitch) |
+| Senior Director visibility | `hypotheses/active.md` (H-003) | `domain/` (Rally People, Dress for Leader) |
 
 ## Access Log
 
@@ -33,3 +42,4 @@
 | Date | Folders Accessed | Task |
 |------|-----------------|------|
 | 2026-03-19 | all | System initialization |
+| 2026-03-19 | all | Book ingestion: Presentation Secrets of Steve Jobs |
