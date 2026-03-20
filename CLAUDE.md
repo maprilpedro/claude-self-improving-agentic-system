@@ -1,4 +1,6 @@
-# CLAUDE.md - Self-Improving PM Knowledge System
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## About the User
 
@@ -97,11 +99,11 @@ git commit -m "learn: [concise description of what was learned]"
 
 Use prefixes: `learn:`, `hypothesis:`, `pattern:`, `correct:`, `experiment:`
 
-## Integration with Daddy Memory
+## Memory Systems
 
-- **daddy memory** = ephemeral, conversation-scoped context
-- **knowledge/** = persistent, compounding PM knowledge
-- Use daddy for "what are we doing right now"
+- **Claude auto memory** (`~/.claude/projects/`) = ephemeral, conversation-scoped context managed by Claude Code
+- **knowledge/** = persistent, compounding PM knowledge committed to git
+- Use auto memory for "what are we doing right now"
 - Use knowledge/ for "what do we know about PM"
 
 ## Knowledge Quality Rules
@@ -123,3 +125,6 @@ Use prefixes: `learn:`, `hypothesis:`, `pattern:`, `correct:`, `experiment:`
 | Experiment design | `experiments/log.md` + `hypotheses/active.md` |
 | Myth-busting | `false-beliefs/catalog.md` |
 | Pattern recognition | `patterns/` + `hypotheses/active.md` |
+| Preparing a presentation | `tools/` (Headline, Rule of Three, PSE) | `patterns/` (Nine Elements, Holy Shit Moment) |
+| Stakeholder communication | `domain/` (Stakeholder Management) | `tools/` (Bucket Method, Elevator Pitch) |
+| Senior Director visibility | `hypotheses/active.md` (H-003) | `domain/` (Rally People, Dress for Leader) |
