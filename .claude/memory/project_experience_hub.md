@@ -8,9 +8,10 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 
 **Current PM:** User (took over from Shankari in March 2026)
 
-**Why:** Shankari is moving out. User is taking over a high-visibility project directly watched by Bertrand (Senior Director PM) and Loni (VP Product Management for AEM).
+**Why:** Shankari is on the user's team (peer PM, not a direct report) and is moving off the project. User is taking over a high-visibility project directly watched by Bertrand (Senior Director PM, user's boss) and Loni (VP Product Management for AEM).
 
 **Team:**
+- Shankari: peer PM on the team, currently still driving Summit deliverables before handing off fully
 - Sorin: lead engineer (key person, strong technical judgment)
 - Open headcount: backfill for Mihai who left (hiring in progress)
 - Eugene: UX Designer, US timezone, reports to Silvia Mulet
@@ -20,7 +21,7 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 **Org:**
 - User → Bertrand (Senior Director PM) → Loni (VP PM for AEM)
 
-**Top priority for 2026:** Integrating AEM agents into Experience Hub. Agent prompts surfaced inside Experience Hub via the Prompt Library Platform. Five agents: Production (page editing), Discovery (asset search), Optimization (renditions), Governance (brand/DRM compliance), Developer (pipeline troubleshooting).
+**Top priority for 2026:** Integrating AEM agents into Experience Hub. Agent prompts surfaced inside Experience Hub via the Prompt Library Platform. Five agents: Production (page editing), Discovery (asset search), Optimization (renditions), Governance (brand/DRM compliance), Developer Agent (EDA — Experience Developer Agent, owned by Brian Chaikelson who reports to Bertrand). Pipeline troubleshooting is a skillset within Developer Agent, not a standalone agent.
 
 **Prompt Library Platform:** Backend infrastructure for curating and serving AI prompts. Admin UI + end-user UI embedded in AI Assistant. Supports role filtering, similarity detection, B2B/B2C detection. PM: Cole Connelly. EM: Joshua Hailpern.
 
@@ -29,7 +30,7 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 2. Vision-reality gap: employee meeting demo showed vision mock, not actual product. Multiple stakeholders have false expectations.
 3. Capacity: 2 engineers vs 15+ stakeholder teams with competing asks.
 4. No contribution model: teams ask for features but don't build them.
-5. Agent quality: ~40-50% bad responses, no standardized quality measurement across Adobe.
+5. Agent quality: ~40-50% bad responses, no standardized quality measurement across Adobe. Confirmed in Agent Owner Alignment meeting 2026-03-17. Root causes: no defined success criteria per agent, LangFuse piloted by some teams only (not centralized), Grafana covers usage not quality, Prompt Library has no review/approval process before prompts reach customers, conversations derail and users don't return. User flagged this to Horia (CXO Skills Catalog owner) with a quality caveat for AEM Content skills 27-35 and a wiki note. This is a known risk that could undermine Summit credibility if "A = Available" is interpreted as production-ready.
 6. Unified Shell alignment: boundary between Experience Hub and Unified Shell still unclear.
 
 **Immediate context (March 2026):**
