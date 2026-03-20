@@ -26,7 +26,7 @@ Make Experience Hub the default, trusted starting point for all AEM users, and t
 
 **Experience Hub (Home Screen)** — The landing page at experience.adobe.com. Features widgets, recents, quick actions, announcements, and role-based navigation. Detects licenses automatically and surfaces only what is relevant to the user. Fully customizable per persona.
 
-**AI Assistant + Agents** — Six agents now in early access: Production (page editing), Discovery (asset search), Optimization (renditions), Governance (brand and DRM compliance), Developer (pipeline troubleshooting), sixth agent TBD. Accessed via the prompting window inside Experience Hub. Agent prompts are surfaced through the Prompt Library Platform.
+**AI Assistant + Agents** — Six agents now in early access: Production (page editing), Discovery (asset search), Optimization (renditions), Governance (brand and DRM compliance, PM: Philippe Kapfer), EDA/Experience Developer Agent (pipeline troubleshooting, PM: Brian Chaikelson), sixth agent TBD. Accessed via the prompting window inside Experience Hub. Agent prompts are surfaced through the Prompt Library Platform.
 
 **Prompting Window and Prompt Project** — The specific feature owned directly. This is the customer-facing surface where users interact with agents via prompts. Controls how prompts are displayed and how agent routing works. Weekly Agent Owner Alignment meeting (Mondays) syncs all six agent teams on the customer-facing experience. Notes in Obsidian: 020 Professional/Adobe/Projects/2026/Experience Hub/Agent Owner Alignement.
 
