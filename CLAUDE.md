@@ -101,10 +101,13 @@ Use prefixes: `learn:`, `hypothesis:`, `pattern:`, `correct:`, `experiment:`
 
 ## Memory Systems
 
-- **Claude auto memory** (`~/.claude/projects/`) = ephemeral, conversation-scoped context managed by Claude Code
+- **Claude auto memory** lives at `.claude/memory/` in this repo — committed to git, this is the source of truth
+- `~/.claude/projects/.../memory/` is a symlink pointing to `.claude/memory/` — do not change this
 - **knowledge/** = persistent, compounding PM knowledge committed to git
-- Use auto memory for "what are we doing right now"
+- Use auto memory for "who the user is and how we work together"
 - Use knowledge/ for "what do we know about PM"
+
+**After every session that writes or updates memory files, commit and push `.claude/memory/`.**
 
 ## Knowledge Quality Rules
 
