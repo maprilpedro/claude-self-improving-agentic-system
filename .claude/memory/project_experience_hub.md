@@ -42,11 +42,23 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 
 **Slack channels:** #experience-hub, #experience-hub-ai-assistant, #aem-home-platform-team, #aem-home-core-team, #temp-experiencehub-dxue, #dx-product-measurement, #tmp_aem_missing_prompt_library
 
-**Historical context (August 2025, around GA launch):**
-- User previously agreed with @adulvac to place Security widget at top of dashboard for Security & Dev persona. Shankari disagreed — she believes Security Admin is not the most important persona. Unresolved. Needs data to settle post-Summit.
-- Duplicate Detection feature was shown in Summit demo but not released. @jmallory confirmed it was "not beyond a Summit demo." This is a concrete example of the vision-reality gap.
-- Loni gave positive signal on Sites Optimizer being connected to Experience Hub. Her framing: PLG (Product-Led Growth) in-product nudge. She sees Experience Hub as a growth driver, not just navigation.
-- Product Announcement widget was blank on a Volkswagen customer screen. Bug in production at GA.
+**Product history (Sep 2024 - Nov 2025, from #aem-home-core-team Slack):**
+- GA launched August 26, 2025. Named "AEM Launchpad" briefly (Nov 2024), then renamed Experience Hub.
+- Roles → Intentions shift decided by Bertrand in December 2024. Navigation labels moved from role names (Content Author, Developer) to intention-based (Authoring content, Building experiences, Writing code, Security). Wiki: Launchpad Intent vs Role Matrix.
+- User previously agreed with @adulvac to place Security widget at top for Security & Dev persona. Shankari disagreed. Unresolved.
+- Loni signal (Aug 16, 2025): "Great to see Sites Optimizer connected into Experience Hub. Good we are trying to look at in-product nudge for PLG." She watches preset defaults closely.
+- Loni asked for specific GA date (not just "summer") in May 2025, and asked "What is our plan to redirect users to Experience Hub?" — no clear answer on file.
+- A/B test result (Nov 2025): SIMPLE onboarding variant won decisively (17.9% CTR vs 0.36%). Decision to roll to 100%.
+
+**Known open problems (post-GA, unresolved as of Nov 2025):**
+1. Value proposition not clear to users. Shankari's own diagnosis: "The value of Experience Hub is not presented upfront to users."
+2. Multiple entry points (Experience Home, Experience Hub, Cloud Manager, bookmarks) causing navigation confusion. No migration/redirect plan confirmed.
+3. Environments widget only shows after user logs in once — defeats the wayfinding purpose for new users. Bertrand flagged: "We're going to miss big time on the whole point of the widget."
+4. Recents widget inaccurate. Customer (Mark Schulz) flagged directly: "Recents widget needs some love. It's not accurate."
+5. Security & Compliance features not discoverable. Even asset librarians can't find them.
+6. Left nav structure unresolved post-Summit. Sorin flagged: "There are concerns about lack of structure and categories seeming random."
+7. Bounce rate analytics accuracy questioned. "Looks fishy" — under investigation, no resolution on file.
+8. Trial environment conflict: enabling Experience Hub breaks Headless Trial experience.
 
 **CXO Agentic Skills Catalog (March 2026):**
 - User flagged to Horia that AEM Content skills 27-35 are marked "A" but agent quality is ~40-50% failure rate with no standardized measurement. Risk of overstating readiness to Amit.
