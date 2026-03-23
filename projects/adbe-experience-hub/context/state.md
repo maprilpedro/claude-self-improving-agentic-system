@@ -39,7 +39,19 @@ The gap between perception and reality is the biggest risk on this project.
 
 ## Agent Quality Issue
 
-Roughly 40 to 50 percent of agent responses are poor or unsupported today. Metrics for agent quality are not standardized across Adobe. Grafana covers usage but not quality. LangFuse is being evaluated for quality measurement. This must be resolved before driving adoption at scale.
+Roughly 40 to 50 percent of agent responses are poor or unsupported today. Metrics for agent quality are not standardized across Adobe. Grafana covers usage but not quality. LangFuse is being evaluated for quality measurement — Brian Chaikelson proposed prompt clustering via Jupyter notebooks to understand unsupported queries (Agent Owner Alignment, March 23, 2026). Current value/functionality scoring across agents is subjective. Agreed in March 2026 to formalize metrics distinguishing functionality (does it work?) from customer value (do customers come back?). This must be resolved before driving adoption at scale.
+
+## Seven Agents (as of March 2026)
+
+| Agent | PM Owner | Summit Status |
+|---|---|---|
+| Experience Production | CR | In progress — blockers: file upload, context awareness, bugs |
+| Governance | Bertrand / CR | Functional gaps, customer adoption issues |
+| Discovery | Apoorva | On track — interoperability with EPA uncertain |
+| Onboarding | Nick | Not yet in production |
+| Modernization | Gabriel / Mike | On track — Crosswalk, Figma support |
+| Development (EDA) | Brian Chaikelson | Public beta upcoming, pipeline troubleshooting + AI IDE |
+| Content Optimization | Apoorva | On track |
 
 ## Tech Notes
 

@@ -2,17 +2,19 @@
 
 ## Top Priority for 2026
 
-**Agent prompt integration.** AEM agents are now in early access. Experience Hub is where customers will discover and launch agents. Prompts from all five agents (Production, Discovery, Optimization, Governance, Developer) need to be surfaced inside Experience Hub through the Prompt Library Platform. This is the top product bet for the year.
+**Agent prompt integration.** AEM agents are now in early access. Experience Hub is where customers will discover and launch agents. Prompts from all seven agents need to be surfaced inside Experience Hub through the Prompt Library Platform. This is the top product bet for the year.
 
-## Five Agents
+## Seven Agents (as of March 2026)
 
-| Agent | Persona | What it does |
-|---|---|---|
-| Production | Content Authors | Edit pages with natural language instructions. Preview, approve, push to branch. |
-| Discovery | Content Authors, Asset Librarians | Find assets matching natural language criteria. |
-| Optimization | Content Authors, Asset Librarians | Generate renditions for specific channels and dimensions. |
-| Governance | Business Owners | Brand and tone compliance, DRM, expiring asset management, DAM permissions. |
-| Developer | Developers | Pipeline troubleshooting, root cause analysis, fix guidance. |
+| Agent | PM Owner | Persona | What it does |
+|---|---|---|---|
+| Experience Production | CR | Content Authors | Edit pages with natural language. Content updater, creator, form creation, Figma fragment import. |
+| Governance | Bertrand / CR | Business Owners | Brand and tone compliance, DRM, expiring asset management, DAM permissions. |
+| Discovery | Apoorva | Content Authors, Asset Librarians | Find assets matching natural language criteria. |
+| Onboarding | Nick | New users | Guide new users through AEM setup. Pending first production release as of March 2026. |
+| Modernization | Gabriel / Mike | Developers | Site modernization. Crosswalk and Figma support. |
+| Development (EDA) | Brian Chaikelson | Developers | Pipeline troubleshooting is one skillset within this agent. AI IDE tooling. Public beta upcoming. |
+| Content Optimization | Apoorva | Content Authors, Asset Librarians | Generate renditions and optimize content for channels. |
 
 Access requires signing the Gen AI writer agreement. A new credit-based SKU is coming in 2026 that bundles all DX AP agents.
 

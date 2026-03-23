@@ -17,7 +17,13 @@ Two engineers. 15+ stakeholder teams with competing asks. More initiatives than 
 Experience Hub is being treated as a service team. Teams ask for features but do not build them. With two engineers, this is unsustainable. A contribution model where other teams build and own their own widgets is the only way to scale.
 
 **Agent quality**
-40 to 50 percent of agent responses are bad or unsupported today. Customers are hitting a wall. There is no standardized way to measure or improve this across Adobe. Driving adoption of agents through Experience Hub before this is resolved would backfire.
+40 to 50 percent of agent responses are bad or unsupported today. Customers are hitting a wall. There is no standardized way to measure or improve this across Adobe. Driving adoption of agents through Experience Hub before this is resolved would backfire. Additional risks confirmed in Agent Owner Alignment meetings (March 2026): current value/functionality scoring is subjective with no objective measurement, the Onboarding agent has no usage metrics yet (not in production), and the EPA + Discovery interoperability demo may be dropped from Summit due to unresolved blockers.
+
+**Security discoverability — live customer bug**
+Customer @geco cannot see the Security and Compliance section in Experience Manager (Feb 11, 2026). The role switcher does not provide a nav path to security features even for asset librarians. Flagged by Bertrand and Andrei Dulvac in September 2025 as a UX concern, now a production issue. Needs a fix, not a roadmap entry.
+
+**Environments widget invisible to new users**
+The "My Authoring Environments" widget only appears after a user logs in at least once. First-time users see nothing. Bertrand called this critical in September 2025: "We're going to miss big time on the whole point of the widget." Root cause identified by Sorin. No fix deployed as of March 2026.
 
 **Unified Shell alignment**
 The boundary between Experience Hub and Unified Shell is unclear. Both teams are building overlapping things around navigation, widgets, and personalization. Promises were made to align that were never delivered. This creates confusion for stakeholders and potential rework.
