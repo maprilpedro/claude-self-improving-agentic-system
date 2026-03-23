@@ -21,7 +21,14 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 **Org:**
 - User → Bertrand (Senior Director PM) → Loni (VP PM for AEM)
 
-**Top priority for 2026:** Integrating AEM agents into Experience Hub. Agent prompts surfaced inside Experience Hub via the Prompt Library Platform. Five agents: Production (page editing), Discovery (asset search), Optimization (renditions), Governance (brand/DRM compliance), Developer Agent (EDA — Experience Developer Agent, owned by Brian Chaikelson who reports to Bertrand). Pipeline troubleshooting is a skillset within Developer Agent, not a standalone agent.
+**Top priority for 2026:** Integrating AEM agents into Experience Hub. Agent prompts surfaced inside Experience Hub via the Prompt Library Platform. Seven agents in total as of March 2026: Experience Production (CR), Governance (Bertrand/CR), Discovery (Apoorva), Onboarding (Nick), Modernization (Gabriel/Mike), Development/EDA (Brian Chaikelson, reports to Bertrand — pipeline troubleshooting is a skillset within it), Content Optimization (Apoorva).
+
+**Agent Owner Alignment meeting (2026-03-23):**
+- Summit readiness round robin: EPA has blockers (file upload, context awareness, bugs). Interoperability demo between EPA and Discovery uncertain — may be dropped from Summit.
+- Scoring debate: current agent value/functionality scoring is subjective. Bertrand, Apoorva, Shankari, Brian agreed to formalize metrics. Key distinction needed: functionality vs actual customer value (repeat usage, stickiness).
+- LangFuse: Brian proposed prompt clustering via Jupyter notebooks to understand unsupported/incorrectly answered questions.
+- AMS risk: managed services customers will ask about agent availability at Summit. PMs need roadmaps ready.
+- Tracing work stream must close by end of week (CR).
 
 **Prompt Library Platform:** Backend infrastructure for curating and serving AI prompts. Admin UI + end-user UI embedded in AI Assistant. Supports role filtering, similarity detection, B2B/B2C detection. PM: Cole Connelly. EM: Joshua Hailpern.
 
