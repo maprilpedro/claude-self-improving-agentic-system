@@ -42,4 +42,16 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 
 **Slack channels:** #experience-hub, #experience-hub-ai-assistant, #aem-home-platform-team, #aem-home-core-team, #temp-experiencehub-dxue, #dx-product-measurement, #tmp_aem_missing_prompt_library
 
+**Historical context (August 2025, around GA launch):**
+- User previously agreed with @adulvac to place Security widget at top of dashboard for Security & Dev persona. Shankari disagreed — she believes Security Admin is not the most important persona. Unresolved. Needs data to settle post-Summit.
+- Duplicate Detection feature was shown in Summit demo but not released. @jmallory confirmed it was "not beyond a Summit demo." This is a concrete example of the vision-reality gap.
+- Loni gave positive signal on Sites Optimizer being connected to Experience Hub. Her framing: PLG (Product-Led Growth) in-product nudge. She sees Experience Hub as a growth driver, not just navigation.
+- Product Announcement widget was blank on a Volkswagen customer screen. Bug in production at GA.
+
+**CXO Agentic Skills Catalog (March 2026):**
+- User flagged to Horia that AEM Content skills 27-35 are marked "A" but agent quality is ~40-50% failure rate with no standardized measurement. Risk of overstating readiness to Amit.
+- Ian Boston (principal architect) raised a bigger concern: AO 2.0 is a completely new architecture. Teams would need to port existing agent code to ship real skills — significant engineering work, not just writing SKILL.md. 4 weeks to Summit is tight.
+- Developer Agent (EDA) has no row in the catalog. User flagged to Brian Chaikelson and Bertrand.
+- User asked Shankari for clarity on what specifically she needs reviewed/updated.
+
 **How to apply:** When working on any Experience Hub task, start with this context. The user is new to the project, ramping up, and trying to establish credibility with Bertrand and Loni. Every artifact should help close the vision-reality gap or advance the agent integration priority.
