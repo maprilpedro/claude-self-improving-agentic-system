@@ -41,6 +41,23 @@ The gap between perception and reality is the biggest risk on this project.
 
 Roughly 40 to 50 percent of agent responses are poor or unsupported today. Metrics for agent quality are not standardized across Adobe. Grafana covers usage but not quality. LangFuse is being evaluated for quality measurement — Brian Chaikelson proposed prompt clustering via Jupyter notebooks to understand unsupported queries (Agent Owner Alignment, March 23, 2026). Current value/functionality scoring across agents is subjective. Agreed in March 2026 to formalize metrics distinguishing functionality (does it work?) from customer value (do customers come back?). This must be resolved before driving adoption at scale.
 
+Root cause confirmed in Loni's working session (March 23, 2026): the current agents do not reason — they look for a direct path to a solution and fail if the path breaks. This is an architecture ceiling, not a prompt quality problem. AO 2.0 introduces agent loop reasoning that resolves this, but production availability is May at earliest, June-July more realistic (confirmed by Cedric Huesler). Driving adoption before AO 2.0 lands risks compounding the quality perception problem.
+
+## Architecture Direction (from Loni's Working Session, March 23, 2026)
+
+Loni convened a first-principles working session on agents with a small senior group (Bertrand, Conrad, Cedric, Corey, Pedro, Michael, Ian). Key conclusions:
+
+- **A2A is dead.** Agent-to-agent direct communication was assumed to be the coordination model. It never materialized. MCP and API won. This is confirmed, not speculated.
+- **Agent loop over A2A.** Multi-agent coordination via reasoning loops is the working pattern. AO 2.0 is built on this. Cedric confirmed agent loops work significantly better than discrete A2A orchestration.
+- **Skills are the right direction.** AO 2.0 is skills-based and composable. SKILL.md files are becoming the standard for portability. Conrad and the architects are reworking agents toward smaller, more API-based skill sets with MCP for experience surfaces.
+- **The seven agent categories are not grounded in customer reality.** Loni said this explicitly. They reflect PM intuition about jobs-to-be-done, not observed customer behavior. They will evolve as the 1200 real customer questions (held by Corey) are analyzed.
+- **Durable themes replace rigid roadmaps.** Loni reframed roadmap philosophy: no more brittle 6-month plans. Directional themes that hold while features evolve underneath. Example: AEM moving from content management to context management.
+
+Next steps Loni called out at close of session:
+1. Corey analyzes the 1200 customer questions — separate what people say they want from what they're observed doing.
+2. Conrad documents agentic design patterns in writing.
+3. Separate AO limitations from first principles architecture, then design from first principles.
+
 ## Seven Agents (as of March 2026)
 
 | Agent | PM Owner | Summit Status |

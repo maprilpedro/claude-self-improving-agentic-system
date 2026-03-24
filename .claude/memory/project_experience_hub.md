@@ -28,7 +28,19 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 - Scoring debate: current agent value/functionality scoring is subjective. Bertrand, Apoorva, Shankari, Brian agreed to formalize metrics. Key distinction needed: functionality vs actual customer value (repeat usage, stickiness).
 - LangFuse: Brian proposed prompt clustering via Jupyter notebooks to understand unsupported/incorrectly answered questions.
 - AMS risk: managed services customers will ask about agent availability at Summit. PMs need roadmaps ready.
-- Tracing work stream must close by end of week (CR).
+- Tracing work stream must close by end of week.
+
+**Loni's AEM PM Virtual Working Session I — Agents (2026-03-23):**
+- Loni convened a first-principles session on agent strategy. Small senior group: Pedro, Bertrand, Conrad, Cedric, Corey, Michael, Ian.
+- A2A is dead. Confirmed by Conrad and not contested. MCP + API won as integration model.
+- No agent loop in current architecture. Agents route, they don't reason. AO 2.0 adds reasoning loops — May at earliest, June-July realistic (Cedric). This is the structural root cause of the 40-50% failure rate.
+- Seven agent categories are "made up" per Loni. They reflect PM intuition, not customer reality. Will evolve based on analysis of 1200 real customer questions (Corey holds this data).
+- No documented personas or jobs-to-be-done for any agent (Michael raised this, Conrad confirmed from log analysis).
+- Conrad: security patterns too hot to advance — LLM access needs to be separated from certain data first.
+- Durable themes replace brittle 6-month roadmaps. Loni's frame: AEM moving from content management to context management.
+- Pedro contributed at 58:25: persona-based interaction model — technical users via MCP/API, UI-based users (e.g. security) via guided product surfaces. Conrad validated this in front of Loni.
+- Next steps Loni named at close: (1) Corey analyzes 1200 questions, (2) Conrad documents agent patterns, (3) first-principles architecture review separate from AO limitations.
+- Note: "CR SJ ET15/Kettering VC" in the transcript is a conference room mic. All those lines are Loni speaking.
 
 **Prompt Library Platform:** Backend infrastructure for curating and serving AI prompts. Admin UI + end-user UI embedded in AI Assistant. Supports role filtering, similarity detection, B2B/B2C detection. PM: Cole Connelly. EM: Joshua Hailpern.
 

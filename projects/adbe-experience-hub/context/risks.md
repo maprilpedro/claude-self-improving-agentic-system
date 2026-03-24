@@ -19,6 +19,11 @@ Experience Hub is being treated as a service team. Teams ask for features but do
 **Agent quality**
 40 to 50 percent of agent responses are bad or unsupported today. Customers are hitting a wall. There is no standardized way to measure or improve this across Adobe. Driving adoption of agents through Experience Hub before this is resolved would backfire. Additional risks confirmed in Agent Owner Alignment meetings (March 2026): current value/functionality scoring is subjective with no objective measurement, the Onboarding agent has no usage metrics yet (not in production), and the EPA + Discovery interoperability demo may be dropped from Summit due to unresolved blockers.
 
+Root cause confirmed in Loni's working session (March 23, 2026): the current architecture does not support agent reasoning. Agents route to solutions — they don't reason through them. The fix is AO 2.0's agent loop, expected in production May at earliest, June-July realistically. Until then, quality has a structural ceiling that prompt improvements cannot raise. The risk for Experience Hub: surfacing agents prominently before the architecture improves accelerates the trust erosion instead of building it.
+
+**AO 2.0 migration risk**
+AO 2.0 is a new architecture, not an upgrade. Teams must port existing agent code into the skills-based model — this is significant engineering work. Ian Boston flagged this in the CXO Skills Catalog context: writing a SKILL.md file is not the same as porting a working agent. Timeline pressure (Summit + May production target) increases the risk that agents are declared ready before the migration is complete or tested.
+
 **Security discoverability — live customer bug**
 Customer @geco cannot see the Security and Compliance section in Experience Manager (Feb 11, 2026). The role switcher does not provide a nav path to security features even for asset librarians. Flagged by Bertrand and Andrei Dulvac in September 2025 as a UX concern, now a production issue. Needs a fix, not a roadmap entry.
 

@@ -4,6 +4,10 @@
 
 **Agent prompt integration.** AEM agents are now in early access. Experience Hub is where customers will discover and launch agents. Prompts from all seven agents need to be surfaced inside Experience Hub through the Prompt Library Platform. This is the top product bet for the year.
 
+**Strategic context from Loni (March 23, 2026):** Roadmaps shift to durable themes rather than brittle 6-month feature lists. The stable directional bet is AEM moving from content management to context management — inclusive of content, but also the broader context agents and humans need to create performant, on-brand experiences. Everything Experience Hub builds should connect to this theme. Agent integration is the near-term expression of it.
+
+**Architecture direction confirmed:** MCP is the right integration mechanism (validated). A2A is dead. AO 2.0 brings agent loop reasoning (May-July 2026). Design for personas: technical users get direct MCP/API access; UI-based users (e.g. security persona) get guided experience through product surfaces. This split was raised by Pedro in Loni's session and validated by Conrad.
+
 ## Seven Agents (as of March 2026)
 
 | Agent | PM Owner | Persona | What it does |
