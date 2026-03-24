@@ -1,0 +1,29 @@
+# Bertrand 1:1
+- 1200 prompts captures par Gilles et Felix sur leurs raports - la question pour toi Pedro est de comment formaliser des dashboard report toujours a jour qui remontent les questions (prompts) qu'on sait pas repondre, top 10, frequence, questions que les gens posent et les agents plantent, top 10 aussi.
+- vue par agent analyse de ce que les gens font avec les agents
+- Distribution Channels: 4 facons d'avoir acces aux agents (distribution channels) (façon d'avoir access aux agents 
+	- playground avec AEM.NOW (a faire) 
+	- try before you buy 10k credit/ mois /client. 
+	- par un SKU (achat option AEMCS
+	- Clients co-innovation (actuellement 20 clients environ)
+- Dahsboard pour les 4 distributions channels (attention sans aem.now qui n'est pas encore pret)
+	- quel distribition channel, 
+	- combien de prompts par mois/semaine 
+	- combien ont marché, pas marché, 
+	- combien de fonctions utiles ou pas
+	- et s'y tenir (comment les regenerer a la demande ou par semaine. 
+	- Regarder avec shankari qui avait un peu travaillé dessus, mais y'en a partout (trop confu)
+	- Personnes clefs:
+		- Raoul Eda
+		- Ian Boston
+		- Yanira
+		- Gilles et Felix qui depuis les données graphana vers Claude >>> pour tout les clients, mais Production Agent only.
+- AO >> Review tool par agent owners (philippe + brian +)
+- JIRA MCP - SITES 
+	- Sufaces: Copilot, Experience Hub, MCP, 
+- Slides enablement agent
+- AO 1.0 >> 2.0 >> channels P42 innovation, architecture, program, business >> boucle de resonnement >> liens de shankari >> immite claude code et auters agents sur bases mcp et skills >> lead conrad >> plus ou moins actif
+- Prompt library >> Gullies a montre >> a recuperer >> etends le concept >> je me cree un agent utilisier qui va utiliser discovery - trouve les pages perimees>> super interessant a pluger and Experience Hub.
+- Bon boulot, cycles de 21 jours de reports, a continuer a tracker a changer reste
+- Sorin: Modele d'expensibilite d'experience hub - documente, client etc? Vibe code ++ skills 
+- Program Light up de brand consierge >> lien vers un wizard pour installer/tester >>> product enhancements 
