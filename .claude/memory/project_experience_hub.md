@@ -50,7 +50,7 @@ Felix built the full measurement stack for EPA — not just the weekly report:
 - Python pipeline `analyze_chats.py` — fetches multi-region: VA, NLD2, AUS5, CAN2, GBRS, IND1
 - Weekly report generator (`aem-agent-report.skill`)
 
-The pipeline already collects regional data — just not surfaced in the current report format. Felix's tag taxonomy already distinguishes Technical Success from Business Success, directly addressing Bertrand's and Loni's asks. His LLM-suggested tags are equivalent to Brian Chaikelson's prompt clustering proposal — Felix is ahead. Extending to other 6 agents is an engineering effort (not design). Key dependencies: Raoul Eda, Ian Boston, Yanira for backend data access.
+The pipeline already collects regional data — just not surfaced in the current report format. Felix's tagging system already distinguishes Technical Success from Business Success, directly addressing Bertrand's and Loni's asks. His LLM-suggested tags are equivalent to Brian Chaikelson's prompt clustering proposal — Felix is ahead. Extending to other 6 agents is an engineering effort (not design). Key dependencies: Raoul Eda, Ian Boston, Yanira for backend data access.
 
 **Prompt Library Platform:** Backend infrastructure for curating and serving AI prompts. Admin UI + end-user UI embedded in AI Assistant. Supports role filtering, similarity detection, B2B/B2C detection. PM: Cole Connelly. EM: Joshua Hailpern.
 
