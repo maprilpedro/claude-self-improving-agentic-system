@@ -42,6 +42,16 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 - Next steps Loni named at close: (1) Corey analyzes 1200 questions, (2) Conrad documents agent patterns, (3) first-principles architecture review separate from AO limitations.
 - Note: "CR SJ ET15/Kettering VC" in the transcript is a conference room mic. All those lines are Loni speaking.
 
+**Felix Delval's EPA measurement infrastructure (confirmed 2026-03-25 1:1):**
+Felix built the full measurement stack for EPA — not just the weekly report:
+- Co-Pilot Review UI (manual interaction review interface at experience.adobe.com)
+- Chat Analysis tool (LLM auto-classification via AWS Bedrock — suggests tags per conversation)
+- Tag Management system: human-defined + LLM-suggested tags, categorized by intent (content-introspection, asset-generation, content-update, content-translation, seo-optimization, bulk-update), status (launch-promotion = success, failure, incomplete), and environment qualifiers
+- Python pipeline `analyze_chats.py` — fetches multi-region: VA, NLD2, AUS5, CAN2, GBRS, IND1
+- Weekly report generator (`aem-agent-report.skill`)
+
+The pipeline already collects regional data — just not surfaced in the current report format. Felix's tag taxonomy already distinguishes Technical Success from Business Success, directly addressing Bertrand's and Loni's asks. His LLM-suggested tags are equivalent to Brian Chaikelson's prompt clustering proposal — Felix is ahead. Extending to other 6 agents is an engineering effort (not design). Key dependencies: Raoul Eda, Ian Boston, Yanira for backend data access.
+
 **Prompt Library Platform:** Backend infrastructure for curating and serving AI prompts. Admin UI + end-user UI embedded in AI Assistant. Supports role filtering, similarity detection, B2B/B2C detection. PM: Cole Connelly. EM: Joshua Hailpern.
 
 **Key risks as of March 2026:**
