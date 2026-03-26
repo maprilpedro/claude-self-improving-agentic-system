@@ -60,3 +60,35 @@ Observe signal --> Propose hypothesis --> Design test --> Collect evidence --> R
 - **Evidence against**:
   - (none yet, hypothesis is fresh)
 - **Next step**: Select the next high-visibility presentation and apply the three techniques. Document results.
+
+## H-004: Naming a Hero Surface and Backing It with PLG Investment Will Measurably Improve Feature Discovery
+
+- **Status**: Proposed
+- **Date proposed**: 2026-03-26
+- **Category**: AI Product / Platform Strategy
+- **Source signal**: Loni's hero surfaces concept (Session IV, March 26). Current state: AEM users reach the product through 4+ entry points with no PLG investment focused on any one of them. Adoption reviews show slow feature discovery and high bounce rates.
+- **Hypothesis**: "We believe that naming Experience Hub as the canonical hero surface and concentrating PLG investment (nudges, announcements, onboarding flows, agent prompt discovery) on that single surface will measurably improve feature discovery rates and adoption cohort retention, because compounding PLG investment in one place produces more signal and more habit than diluted investment across many surfaces."
+- **Test design**: Define Experience Hub as hero surface (get Bertrand + Loni alignment). Consolidate next three PLG experiments to run through Experience Hub only. Compare adoption cohort metrics (CTR, return visits, feature activation) to prior period when experiments were distributed.
+- **Evidence for**:
+  - Steve Jobs / Apple concentrated all marketing on a small number of hero products and hero stores — retail became a Times Square for Apple's brand
+  - Loni's explicit framing: identify hero surfaces to monitor, promote, and run PLG on
+  - Experience Hub A/B test (SIMPLE variant, Nov 2025): 17.9% vs 0.36% CTR — focused PLG experiment on one surface produced clear signal
+- **Evidence against**:
+  - (none yet)
+- **Next step**: Get Bertrand validation on hero surfaces one-pager. Then bring to Loni's next session.
+
+## H-005: Owning Cross-Agent Measurement Standardization Creates Structural Cross-Org Influence for the Experience Hub PM
+
+- **Status**: Proposed
+- **Date proposed**: 2026-03-26
+- **Category**: Leadership / Strategy
+- **Source signal**: No cross-agent measurement standard exists as of March 2026. Each agent team measures success differently. Bertrand, Conrad, and Loni have all expressed frustration with this. Felix Delval's platform can solve it technically.
+- **Hypothesis**: "We believe that the Experience Hub PM owning the cross-agent measurement standard — by driving adoption of a shared TSR/VRR baseline across all agent teams — will create durable cross-org influence, because measurement standards become infrastructure that every team depends on. The owner of the standard gets visibility into every agent's performance and a seat at every agent roadmap conversation."
+- **Test design**: Propose the standard (1-page). Validate with Bertrand. Get Conrad/Gilles alignment. Onboard EGA (Philippe) as first new agent on Felix's platform. Track: (1) how many agent teams adopt the standard; (2) whether Pedro is consulted on agent roadmap conversations he wasn't previously in.
+- **Evidence for**:
+  - Conrad told all agent owners to build equivalent reports to EPA (March 24 Slack). No one has done it yet — the position is open.
+  - Bertrand specifically asked for standardized agent dashboards in 1:1 (March 24). Pedro has the tool (Felix's platform) to deliver it.
+  - Infrastructure owners have cross-org influence by definition — every team that depends on the infrastructure needs a relationship with the owner.
+- **Evidence against**:
+  - Felix built the platform — it's his infrastructure. Pedro's role is PM adoption driver, not technical owner. Credit-sharing and positioning matters here.
+- **Next step**: Finalize standard dashboard one-pager. Sync with Felix on EGA extension. Use Bertrand's ask as the mandate.

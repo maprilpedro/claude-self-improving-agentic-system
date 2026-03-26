@@ -91,6 +91,47 @@ Cataloging these prevents repeating industry-wide mistakes.
 - **Nuance**: Internal demos for engineering teams can be more comprehensive. But customer-facing demos should always be curated.
 - **Implication**: Before any demo, ask: "What is the one thing I want them to remember?" Demo that. Cut everything else.
 
+## FB-006: "Agent categories reflect what customers actually want"
+
+- **Rating**: Misleading
+- **Date cataloged**: 2026-03-23
+- **Source**: Loni Stark, AEM PM Virtual Working Session I (Agents, March 23, 2026)
+- **Why people believe it**: PMs spend months naming and structuring agent categories. They feel considered and intentional. Teams organize their work around them.
+- **Evidence against**:
+  - Loni said explicitly in a senior strategy session: "The seven agent categories are not grounded in customer reality. They reflect PM intuition."
+  - Conrad Woltge confirmed from log analysis: most activity looks like systematic exploration by technical users testing capabilities, not productive use by target personas.
+  - No documented personas or jobs-to-be-done for any agent existed as of March 2026, despite multiple agents being in market.
+  - 1200 real customer questions (held by Corey Dulimba) had not yet been analyzed — the actual design input was sitting unused.
+- **What's actually true**: Agent categories emerge from how product orgs are structured and what PMs intuit about their domain. Customer behavior may not map to those categories at all. The only way to know is to analyze real usage data.
+- **Implication**: Before any roadmap or surface is built around agent categories, analyze actual usage logs. Let observed behavior reshape the categories.
+
+## FB-007: "High agent failure rate means bad prompts"
+
+- **Rating**: Dangerous
+- **Date cataloged**: 2026-03-23
+- **Source**: Cedric Huesler confirmation, Loni's Session I (Agents, March 23, 2026). EPA 40-50% failure rate analysis.
+- **Why people believe it**: Prompts are visible and editable. Improving them feels like progress. It's accessible work.
+- **Evidence against**:
+  - Cedric Huesler (AO architect) confirmed that current agents route to a solution — they don't reason through one. This is a structural ceiling, not a prompt quality problem.
+  - AO 2.0 adds agent loop reasoning. Until it ships (May-July 2026), prompt improvements cannot move failure rate below the architecture floor.
+  - EPA failure rate is dominated by unsupported request types (bulk actions, form creation) and configuration gaps — not prompt phrasing.
+- **What's actually true**: Agent failure rate has two components: (1) architecture ceiling (fixed only by AO 2.0), and (2) scope/configuration gaps (fixable by better scoping and onboarding). Prompt quality is a tertiary factor.
+- **Implication**: Diagnose before optimizing. Map failures by root cause. Don't burn sprint capacity on prompt tuning if the ceiling is architectural.
+
+## FB-008: "Building a new UI surface solves discovery problems"
+
+- **Rating**: Misleading
+- **Date cataloged**: 2026-03-26
+- **Source**: Loni's AEM PM Virtual Working Session IV (Surfaces, March 26, 2026). Strong team consensus.
+- **Why people believe it**: If users can't find a feature, adding a dedicated surface for it feels like a targeted fix.
+- **Evidence against**:
+  - Strong team consensus in Session IV: "we cannot keep creating new UIs — we already have too many."
+  - AEM users already navigate Experience Hub, Experience Home, Cloud Manager, and direct product URLs. Adding a surface adds a navigation decision, it doesn't remove one.
+  - PLG motions can't compound if discovery budget and feature nudges are spread across many surfaces.
+  - Customer feedback: "I keep getting to Experience Hub via Experience Home and wonder why I need both?"
+- **What's actually true**: A new surface fragments the audience further unless it clearly replaces an existing surface. The solution to discovery problems is better instrumentation and PLG investment on the existing hero surface — not a new surface.
+- **Implication**: Default answer to "let's build a new surface" is "does this belong inside the existing hero surface?" New surface requires explicit justification.
+
 ## Seed Beliefs to Investigate
 
 > These are commonly held PM beliefs worth examining. Move to entries above once evidence is gathered.

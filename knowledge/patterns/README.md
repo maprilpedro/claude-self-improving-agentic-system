@@ -102,6 +102,21 @@
 - **Actually**: Without context (the problem), the brain has no bucket to place new information in. Primitive brain asks "Will it eat me?" not "How many teeth does it have?" Meaning before details.
 - **Instead**: Establish the antagonist first. Even 30 seconds of problem framing transforms audience receptivity.
 
+### The Capacity-Ask Mismatch
+- **Date identified**: 2026-03-19
+- **Observations**: (1) Experience Hub: 2 engineers, 15+ stakeholder teams with active requests. (2) Mihai (former lead engineer) left partly because PM-level work landed on engineering. (3) Security was the only team that actually contributed back — all others expected Experience Hub to build for them.
+- **Pattern**: Small platform teams accumulate disproportionate ask volume because their product is high-leverage and visible. Without a formal contribution model and intake process, the team operates as a service desk. The PM spends all time managing requests, not setting direction. Engineers burn out. Good people leave.
+- **When it works**: Naming the pattern explicitly to leadership ("we are a platform, not a service desk") creates the conditions to set boundaries and build a contribution model.
+- **When it fails**: When the PM tries to say yes to everything to avoid conflict. The team loses, and the PM loses credibility for not protecting capacity.
+- **Fix**: (1) Explicit contribution model — teams that want features must build them. (2) Formal intake process with written prioritization criteria. (3) Leadership backing to say no.
+
+### The Vision-Reality Gap Pattern
+- **Date identified**: 2026-03-23
+- **Observations**: (1) AEM employee meeting showed a vision mock of Experience Hub, not the actual product. Multiple stakeholders formed expectations the team cannot meet. (2) Shankari's own diagnosis: "The value of Experience Hub is not presented upfront to users." (3) AI products especially prone to this because controlled demo environments don't expose architectural limitations.
+- **Pattern**: A compelling vision demo is shown before the product exists. Stakeholders internalize the vision as the product. Every real interaction with the actual product disappoints relative to the memory of the demo. Trust erodes gradually and silently.
+- **Why it happens**: It's tempting to show what's possible rather than what exists. Vision demos inspire; product demos disappoint. Leaders want to be inspired. Product teams want to impress.
+- **Fix**: Name the gap explicitly and early. "What you saw was a vision mock. Here is what exists today. Here is the gap. Here is when it closes." The reset is uncomfortable once. The alternative is permanent credibility erosion.
+
 ### Jargon as a Sign of Insecurity
 - **Date identified**: 2026-03-19
 - **Observations**: (1) Jobs vs Gates language analysis: Jobs scored dramatically better on every readability metric. (2) Jack Welch despised jargon and fired a leader who couldn't explain his business simply. (3) Suze Orman: "It's our fear of not being important that leads us to communicate in a more complex way than we need to." (4) Mission statements are the worst culprits.
