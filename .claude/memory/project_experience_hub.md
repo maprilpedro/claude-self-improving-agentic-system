@@ -32,7 +32,7 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 
 **Loni's AEM PM Virtual Working Session I — Agents (2026-03-23):**
 - Loni convened a first-principles session on agent strategy. Small senior group: Pedro, Bertrand, Conrad, Cedric, Corey, Michael, Ian.
-- A2A is dead. Confirmed by Conrad and not contested. MCP + API won as integration model.
+- A2A is dead — per Conrad in this session. MCP + API won as integration model. (Note: Session IV nuanced this — see below. Don't use "A2A is dead" as a flat statement in communications.)
 - No agent loop in current architecture. Agents route, they don't reason. AO 2.0 adds reasoning loops — May at earliest, June-July realistic (Cedric). This is the structural root cause of the 40-50% failure rate.
 - Seven agent categories are "made up" per Loni. They reflect PM intuition, not customer reality. Will evolve based on analysis of 1200 real customer questions (Corey holds this data).
 - No documented personas or jobs-to-be-done for any agent (Michael raised this, Conrad confirmed from log analysis).
