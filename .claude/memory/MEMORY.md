@@ -7,6 +7,7 @@
 - [Session start behavior](feedback_session_start.md) — Always pick up where we left off on Experience Hub when starting a conversation
 - [Transcript room mic attribution](feedback_transcript_attribution.md) — "CR" room labels in Teams transcripts are conference room mics, not people. In the March 23 2026 session, all CR lines = Loni Stark
 - [Update trio after every meeting analysis](feedback_update_trio.md) — After every analysis, always update Stakeholder Map, State of the Project, and Questions for Next 1-1 with Sorin in the Obsidian vault
+- [Knowledge folder update cadence](feedback_knowledge_updates.md) — Always update knowledge/, INDEX.md, and README.md when asked and proactively at least once every 2 days. Commit with learn: prefix.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — Full project context: what it is, team, org, state, risks, top priorities, Obsidian vault location
