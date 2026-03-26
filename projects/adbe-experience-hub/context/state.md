@@ -47,8 +47,8 @@ Root cause confirmed in Loni's working session (March 23, 2026): the current age
 
 Loni convened a first-principles working session on agents with a small senior group (Bertrand, Conrad, Cedric, Corey, Pedro, Michael, Ian). Key conclusions:
 
-- **A2A is dead.** Agent-to-agent direct communication was assumed to be the coordination model. It never materialized. MCP and API won. This is confirmed, not speculated.
-- **Agent loop over A2A.** Multi-agent coordination via reasoning loops is the working pattern. AO 2.0 is built on this. Cedric confirmed agent loops work significantly better than discrete A2A orchestration.
+- **A2A — nuanced (updated Session IV, March 26).** In Session I, Conrad confirmed A2A never materialized for AEM customers — MCP + API won. In Session IV, Loni updated: Google released A2A v1.0 and there are two narrow real use cases: security/trust gradients (a trusted write-capable agent called by a more flexible but untrusted agent) and specialized agent chaining. For AEM customers, Skills/MCP remains the primary path. Do not use "A2A is dead" in communications. Correct framing: A2A has narrow real use cases; Skills and MCP are right for most AEM scenarios.
+- **Agent loop reasoning.** Multi-agent coordination via reasoning loops is the working pattern. AO 2.0 is built on this. Cedric confirmed agent loops work significantly better than discrete A2A orchestration.
 - **Skills are the right direction.** AO 2.0 is skills-based and composable. SKILL.md files are becoming the standard for portability. Conrad and the architects are reworking agents toward smaller, more API-based skill sets with MCP for experience surfaces.
 - **The seven agent categories are not grounded in customer reality.** Loni said this explicitly. They reflect PM intuition about jobs-to-be-done, not observed customer behavior. They will evolve as the 1200 real customer questions (held by Corey) are analyzed.
 - **Durable themes replace rigid roadmaps.** Loni reframed roadmap philosophy: no more brittle 6-month plans. Directional themes that hold while features evolve underneath. Example: AEM moving from content management to context management.
