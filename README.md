@@ -14,6 +14,8 @@ The system routes knowledge into the right bucket automatically:
 - Conventional wisdom that's wrong → `knowledge/false-beliefs/`
 - Tool or method comparison → `knowledge/tools/`
 - Experiment design or result → `knowledge/experiments/`
+- Senior Director operating patterns → `knowledge/leadership/`
+- AI product management knowledge → `knowledge/ai-product/`
 
 ## Structure
 
@@ -28,6 +30,8 @@ knowledge/
   false-beliefs/        # PM conventional wisdom proven wrong
   tools/                # Decision matrix for PM methods and tools
   experiments/          # Experiment tracking and results
+  leadership/           # Senior Director operating patterns: cross-org influence, strategic narrative
+  ai-product/           # AI-native product management: measurement, surface strategy, agent dynamics
 ```
 
 ## How to Use It
@@ -48,3 +52,6 @@ Everything is filtered through one lens: a Director PM building visibility and c
 | Source | Type | Date |
 |--------|------|------|
 | Gallo, *Presentation Secrets of Steve Jobs* | Book | 2026-03-19 |
+| Loni's AEM PM Working Sessions I & IV | Live strategy sessions | 2026-03-23 / 2026-03-26 |
+| Felix Delval 1:1 + aem-agent-reports repo | Technical deep dive | 2026-03-25 |
+| EPA vs EGA cross-analysis | Internal report analysis | 2026-03-24 |

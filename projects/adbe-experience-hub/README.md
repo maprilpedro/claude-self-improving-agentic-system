@@ -10,7 +10,9 @@ Previous PM was Shankari. I am taking over as of March 2026.
 
 ## Goal
 
-Make Experience Hub the default, trusted starting point for all AEM users, and the primary surface where AI agents and prompts are discovered and launched.
+Make Experience Hub the hero surface for human AEM practitioners — the Times Square of AEM. The canonical UI where AI agents are discovered, PLG motions run, and new capabilities land first. For agents and technical users, the path is MCP and API. For human practitioners, it is Experience Hub.
+
+This goal connects to Project 42 (launched July 2025): AEM moving from content management to context management. Hero surfaces are the human layer of that transition.
 
 ## Audience
 
@@ -26,7 +28,7 @@ Make Experience Hub the default, trusted starting point for all AEM users, and t
 
 **Experience Hub (Home Screen)** — The landing page at experience.adobe.com. Features widgets, recents, quick actions, announcements, and role-based navigation. Detects licenses automatically and surfaces only what is relevant to the user. Fully customizable per persona.
 
-**AI Assistant + Agents** — Six agents now in early access: Production (page editing), Discovery (asset search), Optimization (renditions), Governance (brand and DRM compliance, PM: Philippe Kapfer), EDA/Experience Developer Agent (pipeline troubleshooting, PM: Brian Chaikelson), sixth agent TBD. Accessed via the prompting window inside Experience Hub. Agent prompts are surfaced through the Prompt Library Platform.
+**AI Assistant + Agents** — Seven agents now in early access: Production (page editing, PM: Corey Dulimba), Discovery (asset search, PM: Apoorva Gupta), Content Optimization (renditions, PM: Apoorva Gupta), Governance (brand and DRM compliance, PM: Philippe Kapfer), EDA/Experience Developer Agent (pipeline troubleshooting, PM: Brian Chaikelson), Modernization (site migration, PM: Gabriel/Mike), Onboarding (new user guidance, PM: Nick). Accessed via the prompting window inside Experience Hub. Agent prompts are surfaced through the Prompt Library Platform.
 
 **Prompting Window and Prompt Project** — The specific feature owned directly. This is the customer-facing surface where users interact with agents via prompts. Controls how prompts are displayed and how agent routing works. Weekly Agent Owner Alignment meeting (Mondays) syncs all six agent teams on the customer-facing experience. Notes in Obsidian: 020 Professional/Adobe/Projects/2026/Experience Hub/Agent Owner Alignement.
 
@@ -54,7 +56,7 @@ Shankari reported to Bertrand. I report to Bertrand. Bertrand (Senior Director P
 
 **What is not ready:** Full personalization based on user role is not implemented. Most POCs started over the past year were never completed or formally killed. No external team has shipped a custom widget inside Experience Hub.
 
-**Agent quality issue:** Roughly 40 to 50 percent of agent responses are poor or unsupported. Metrics for agent quality are not standardized across Adobe. Grafana covers usage but not quality. LangFuse is being evaluated.
+**Agent quality issue:** Roughly 40 to 50 percent of agent responses are poor or unsupported. Root cause is architectural — current agents route to solutions without reasoning through them. AO 2.0 adds agent loop reasoning (May at earliest, June-July realistic). Until then, this is a ceiling prompt improvements cannot raise. Felix Delval has built a full Python measurement platform (aem-agent-reports) that standardizes reporting across agents with TSR and Value Realization Rate as first-class metrics. Cross-agent measurement standardization is in progress.
 
 **Immediate risk:** TJ, who built and owns the Adobe Analytics dashboard, has left the company. If his account is deactivated before ownership is transferred, we lose our primary measurement tool. This is the most urgent item right now.
 
