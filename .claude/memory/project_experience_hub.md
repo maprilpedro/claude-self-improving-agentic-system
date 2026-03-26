@@ -121,4 +121,7 @@ Pedro and Felix have a daily working session (as of 2026-03-26). Felix is the pr
 - Developer Agent (EDA) has no row in the catalog. User flagged to Brian Chaikelson and Bertrand.
 - User asked Shankari for clarity on what specifically she needs reviewed/updated.
 
+**Hero Surfaces one-pager (drafted 2026-03-26, not yet sent):**
+Draft saved at: `AEM Experience Hub - Project Folder/Hero Surfaces - Experience Hub as the Times Square for AEM.md`. Waiting for Pedro's review before sending to Bertrand. Goal: get Bertrand's alignment + his name on it, then bring to Loni's next session. Three asks to Bertrand: (1) confirm EH is the right candidate, (2) align on "callable from other contexts" requirement, (3) permission to bring to Loni with his name on it.
+
 **How to apply:** When working on any Experience Hub task, start with this context. The user is new to the project, ramping up, and trying to establish credibility with Bertrand and Loni. Every artifact should help close the vision-reality gap or advance the agent integration priority.
