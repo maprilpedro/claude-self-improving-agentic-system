@@ -42,17 +42,41 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 - Next steps Loni named at close: (1) Corey analyzes 1200 questions, (2) Conrad documents agent patterns, (3) first-principles architecture review separate from AO limitations.
 - Note: "CR SJ ET15/Kettering VC" in the transcript is a conference room mic. All those lines are Loni speaking.
 
+**Loni's AEM PM Virtual Working Session IV — Surfaces (2026-03-26):**
+- Small senior group: Loni, Pedro, Bertrand, Corey Dulimba, Haresh Kumar, Arun Taneja.
+- Project 42: launched July 2025 as a strategic map (not a project). Core assertion: content management becomes context, for agents and humans. Explicitly said different experiences are needed for agents vs. humans. Agents were originally described at functional/business levels; industry has since broken them into skills. Pedro should reference Project 42 by name in all strategic documents.
+- Hero Surfaces / "Times Square" concept: Loni's directive to identify canonical human UIs to drive people toward, run PLG on, and ensure are callable from other contexts. Experience Hub is the natural candidate. Action item left open — Pedro should own this definition.
+- "Talk to the CMS": Corey surfaced that users want an administrative agent for bulk actions (find pages, delete launches, etc.) via conversation instead of Groovy scripts. Open chat box is doing real discovery but also generating frustration via hallucinations. Recommendation: scope-limit, be explicit about what the agent cannot do.
+- A2A nuance: in Session I (March 23), A2A was "dead." In Session IV, Loni noted Google released A2A v1.0. Two narrow real use cases: (1) security/trust gradients — trusted write agent called by untrusted flexible agent; (2) specialized agent chaining. For AEM customers, Skills/MCP remains the primary path. Do not say "A2A is dead" flatly in any communication.
+- AEM velocity constraint: Bertrand confirmed monthly release cycle is physics. Any MCP/API capability addition must go through release validation. DA (Document Authoring / Edge Delivery) is the confirmed future stack, proven with early customers. Long adoption curve, no migration button.
+- Modernization agent field risk: Haresh Kumar shared that a major customer (carpet company in Atlanta) rejected ~$500K in additional licensing to access new capabilities. Modernization agent story is fragile — enterprise-scale evidence missing.
+- Monetization gap: seat-based pricing doesn't work when agents replace seats. MCP/skills metering model undefined. Haresh + another stakeholder working through non-seat-based model. Do not raise externally until internal strategy is landed.
+- Pedro's visibility: Pedro's point about avoiding scattered UIs was echoed by Loni in the session synthesis. Repeated cross-session credibility signal.
+- CAPS action item: Arun Taneja structuring surfaces/LLM apps for CAB/CAPS customer discussion. Needs slides/POV first. Opportunity for Pedro to contribute and gain cross-org visibility.
+
 **Felix Delval's EPA measurement infrastructure (confirmed 2026-03-25 1:1):**
-Felix built the full measurement stack for EPA — not just the weekly report:
-- Co-Pilot Review UI (manual interaction review interface at experience.adobe.com)
-- Chat Analysis tool (LLM auto-classification via AWS Bedrock — suggests tags per conversation)
-- Tag Management system: human-defined + LLM-suggested tags, categorized by intent (content-introspection, asset-generation, content-update, content-translation, seo-optimization, bulk-update), status (launch-promotion = success, failure, incomplete), and environment qualifiers
-- Python pipeline `analyze_chats.py` — fetches multi-region: VA, NLD2, AUS5, CAN2, GBRS, IND1
-- Weekly report generator (`aem-agent-report.skill`)
+Felix built a full Python reporting platform — not a skill. Repo: `/Users/pedrofer/GitHub/aem-agent-reports`.
 
-The pipeline already collects regional data — just not surfaced in the current report format. Felix's tagging system already distinguishes Technical Success from Business Success, directly addressing Bertrand's and Loni's asks. His LLM-suggested tags are equivalent to Brian Chaikelson's prompt clustering proposal — Felix is ahead. Extending to other 6 agents is an engineering effort (not design). Key dependencies: Raoul Eda, Ian Boston, Yanira for backend data access.
+**Architecture:** CSVs → loader.py (normalize) → metrics/funnels/journeys/trends modules → LLM insights (Claude Haiku via Bedrock, YAML fallback) → Jinja2 HTML with Chart.js. Generates reports/week_YYYYMMDD/[agent].html + index.html.
 
-Pedro and Felix now have a daily working session (as of 2026-03-26). Felix is the primary technical collaborator on the agent reporting standardization effort.
+**Already in the system:**
+- Technical Success Rate AND Value Realization Rate — both first-class metrics
+- Funnel per capability (Interactions → Customers → Users, SR%, VR%, WoW)
+- Customer journeys: top 10 orgs, pattern mining, sample prompts
+- 6-8 week trends, retention rate, new/repeated users, adoption blockers
+- LLM insights (signals/watch/action needed) with YAML fallback — report always generates
+
+**6 agents already configured in agents.yaml:** Discovery, EPA, EDA, Content Optimization, Governance, Experimentation. Adding an agent = 2 lines YAML + CSV data. It's a data problem, not an engineering problem.
+
+**Mandatory + custom dashboard concept already in design:** standard HTML template (mandatory) + per-agent YAML insights (custom).
+
+**Gap vs Bertrand's ask:** Distribution channel breakdown (playground/try-before-you-buy/SKU/co-innovation) is not yet in the system. Everything else is.
+
+**For EGA extension:** Governance Agent is already configured. Missing = EGA interaction CSVs in the right format. Question for Philippe: can EGA data be exported to match loader.py schema?
+
+**Data team role (Shweta/Jean-Claude):** Feed clean data into the pipeline from the data platform. Felix has done the design work — they don't need to rebuild it.
+
+Pedro and Felix have a daily working session (as of 2026-03-26). Felix is the primary technical collaborator on agent reporting standardization.
 
 **Prompt Library Platform:** Backend infrastructure for curating and serving AI prompts. Admin UI + end-user UI embedded in AI Assistant. Supports role filtering, similarity detection, B2B/B2C detection. PM: Cole Connelly. EM: Joshua Hailpern.
 
