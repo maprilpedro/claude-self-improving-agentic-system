@@ -6,7 +6,7 @@ type: project
 
 AEM Experience Hub is the unified home screen / landing page for AEM Cloud Service at experience.adobe.com. Launched August 2024. Previously named AEM Home and AEM Launchpad. Not a replacement for existing AEM UIs. An action-oriented entry point that surfaces the right tools per persona.
 
-**Current PM:** User (took over from Shankari in March 2026)
+**Current PM:** User (took over from Shankari in March 2026 — approximately 2 weeks on the project as of March 26, 2026. No prior history with this product.)
 
 **Why:** Shankari is on the user's team (peer PM, not a direct report) and is moving off the project. User is taking over a high-visibility project directly watched by Bertrand (Senior Director PM, user's boss) and Loni (VP Product Management for AEM).
 
