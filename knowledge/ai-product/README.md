@@ -98,6 +98,25 @@
 - **Signal to watch for**: "It works well in contained environments" = not yet validated at enterprise scale. Treat as pre-GA until proven otherwise.
 - **Application**: Before recommending an agent to a customer, ask: what is the largest real-world deployment we have evidence from? If the answer is a pilot or a demo, say so.
 
+### Adoption Cadence as a PLG Instrument — The "Netflix Effect"
+- **Date identified**: 2026-03-27
+- **Source**: Shankari 1:1 handoff, March 27.
+- **Insight**: A regular adoption review meeting that shows real usage data can become a high-engagement ritual — Shankari's EH adoption reviews had people showing up "like the next episode of Netflix." This is not accidental. It works when: (1) the data is live and surprising, (2) the PM frames results as "what we learned" not "what we did", (3) the rhythm is consistent enough that missing it feels like missing something important.
+- **Application**: Adoption reviews are both a measurement tool and a visibility mechanism. The PM running them gets credit for transparency and rigor. Set the cadence early and hold it.
+
+### PLG Checkbox Antipattern — Announcement Without Ownership
+- **Date identified**: 2026-03-27
+- **Source**: Shankari 1:1 handoff, March 27.
+- **Insight**: In a product with a shared surface (like Experience Hub), teams will request real estate for PLG announcements and then disappear. They add the announcement, check the box, move on. The surface becomes stale and users stop trusting it. Loni and Jean-Michel are pushing company-wide: see usage in production before GA, and watch adoption after GA.
+- **Rule that works**: Announcement goes live with a conversion metric and a 4-week review commitment. If the PM doesn't return with results, it gets pulled. No exceptions.
+- **Why it matters**: Protecting the signal quality of a shared surface is a PM governance responsibility. If every team gets a slot, the surface becomes noise. Enforcing the rule is the product manager's job, not leadership's.
+
+### Personalization in AI Products — Start Small or Not at All
+- **Date identified**: 2026-03-27
+- **Source**: Shankari 1:1 handoff, March 27.
+- **Insight**: Enterprise personalization infrastructure is almost always more complex than it looks. The DX-level profile at Adobe requires integrating with Target, conforming to a specific framework, and dealing with data platform dependencies. Two years of pushing for this at Experience Hub produced nothing. The right approach for a resource-constrained team: identify two simple proxy data points (e.g. template setting + licenses owned) and run a small experiment. Don't wait for the full infrastructure.
+- **Application**: When personalization comes up in roadmap discussions, ask: what is the smallest version of this we can test? Can we run it as a hack on a cohort of 1000 users before committing to a platform integration?
+
 ### Monetization Is Unresolved When Agents Replace Seats
 - **Date identified**: 2026-03-26
 - **Source**: Loni's Session IV (Surfaces, March 26). Haresh Kumar raised; Loni and Bertrand acknowledged.

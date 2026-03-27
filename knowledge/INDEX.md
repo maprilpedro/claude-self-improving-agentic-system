@@ -13,8 +13,8 @@
 | `false-beliefs/` | PM conventional wisdom proven wrong | Active | 8 |
 | `tools/` | Decision matrix: when to use which PM method/tool | Active | 6 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
-| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 7 |
-| `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 8 |
+| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 8 |
+| `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 11 |
 
 ## Sources Ingested
 
@@ -22,6 +22,7 @@
 |--------|------|------|-------------------|
 | Gallo, *Presentation Secrets of Steve Jobs* | 2026-03-19 | Book | Communication frameworks, presentation patterns, false beliefs about presenting, stakeholder management techniques |
 | AEM Experience Hub — Loni Working Sessions I & IV | 2026-03-23 / 2026-03-26 | Live strategy sessions | Hero surfaces concept, agent measurement gaps, TSR vs VRR, architecture ceiling insight, cross-org influence patterns, durable themes |
+| Shankari 1:1 handoff | 2026-03-27 | PM handoff conversation | Adoption cadence as PLG instrument, PLG checkbox antipattern, governance posture as leadership signal, personalization experiment approach, EH North Star vision |
 | Felix Delval 1:1 + aem-agent-reports repo analysis | 2026-03-25 | Technical deep dive | Mandatory + custom dashboard pattern, agent onboarding as data problem, measurement infrastructure design |
 | EPA vs EGA cross-analysis | 2026-03-24 | Internal report analysis | Success metric definition divergence, why cross-agent comparison fails without shared definition |
 
@@ -54,3 +55,4 @@
 | 2026-03-19 | all | System initialization |
 | 2026-03-19 | all | Book ingestion: Presentation Secrets of Steve Jobs |
 | 2026-03-26 | leadership/, ai-product/, patterns/, false-beliefs/, hypotheses/ | Session IV analysis, Experience Hub week 1 learnings |
+| 2026-03-27 | leadership/, ai-product/ | Shankari 1:1 handoff analysis — PLG governance, adoption cadence, personalization, EH North Star |

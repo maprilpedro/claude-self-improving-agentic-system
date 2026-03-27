@@ -124,4 +124,16 @@ Pedro and Felix have a daily working session (as of 2026-03-26). Felix is the pr
 **Hero Surfaces one-pager (drafted 2026-03-26, not yet sent):**
 Draft saved at: `AEM Experience Hub - Project Folder/Hero Surfaces - Experience Hub as the Times Square for AEM.md`. Waiting for Pedro's review before sending to Bertrand. Goal: get Bertrand's alignment + his name on it, then bring to Loni's next session. Three asks to Bertrand: (1) confirm EH is the right candidate, (2) align on "callable from other contexts" requirement, (3) permission to bring to Loni with his name on it.
 
-**How to apply:** When working on any Experience Hub task, start with this context. The user is new to the project, ramping up, and trying to establish credibility with Bertrand and Loni. Every artifact should help close the vision-reality gap or advance the agent integration priority.
+**Shankari 1:1 handoff (2026-03-27):**
+Full transcript analyzed. Key transfers:
+- North Star per Shankari: single prompt bar, everything agentic, minimal UI. Like Claude. Identical to Loni's Times Square concept.
+- Operational items now Pedro's: 21-day adoption report (send it, keep simple), trials Slack channel + Excel list (check every 2 days), Gainsight management on EH, announcement widget governance (4-week rule with conversion metric — get the wiki from Shankari).
+- Content Hub entry point opportunity: ask Sorin when entry points went live, pull adoption data, show cross-product impact. Shankari called it a "huge win" if proven.
+- ~300 orgs still on old gem stack (right rail). Needs migration to new next-gen UI. Dan's team owns it. Do not talk to Dan directly — confusing communicator. Go to Raul Hudea or Adi.
+- Fuji (San Jose): built personalized prompt recommendation experiment. Relationship at risk of feeling abandoned. Shankari got her team visibility via AP team. Pedro must handle carefully — make a decision (continue lean or pause) and communicate clearly.
+- Prompt library: each agent team must own their prompts, test them, maintain them. Not Pedro's responsibility to fill.
+- Adoption report cadence: people used to come to Shankari's reviews "like the next episode of Netflix." Rebuilding that rhythm is a high-visibility opportunity.
+- Governance posture: Pedro has explicit permission and expectation to push back on lazy feature requests without design homework. Enforce the announcement widget 4-week rule. Hold the line against PLG checkbox behavior.
+- New stakeholders: Fuji (prompt experiment), Jeddah (historical adoption reports — ask her for access), Dan (old stack owner — avoid), Adi (Dan's team, safe to talk to), Jim Stoklosa (PM Shankari pushed back on — know the pattern).
+
+**How to apply:** When working on any Experience Hub task, start with this context. The user is new to the project (~3 weeks as of March 27), ramping up, and trying to establish credibility with Bertrand and Loni. Every artifact should help close the vision-reality gap or advance the agent integration priority.
