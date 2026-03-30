@@ -74,6 +74,29 @@
 - **Custom layer examples**: For EPA — file upload success rate, content change acceptance by content type. For Governance — rules/access intent breakdown, "cannot help" pattern analysis.
 - **Why this matters**: Without the mandatory layer, no one can compare agents or spot cross-agent patterns. Without the custom layer, the report doesn't serve the agent team.
 
+### Failure Taxonomy Needs an Explicit Quality vs Gap Split
+- **Date identified**: 2026-03-30
+- **Source**: Bertrand de Coatpont's response to W13 agent reports, March 30.
+- **Insight**: When presenting agent failure data to senior stakeholders, mixing quality failures (agent tried, something broke) with capability gaps (agent structurally cannot do this) in a single table forces the reader to do the classification work themselves. Bertrand's first refinement request was to split these explicitly. The distinction matters because the response is different: quality failures go to engineering, capability gaps go to the roadmap.
+- **Two failure types to surface explicitly:**
+  - Quality = `failed-update`, `routing-issue`, `not-enabled`, `not-configured` tags. Agent tried. Fixable.
+  - Gap = `unsupported` tag + explicit refusals. Agent cannot. Requires product decision.
+- **Application**: Any top failed requests table should have a Type column. One word — Quality or Gap — that removes the inference burden from the reader.
+
+### Connecting Failure Data to Engineering Tracking (JIRA Column)
+- **Date identified**: 2026-03-30
+- **Source**: Bertrand de Coatpont's response to W13 agent reports, March 30.
+- **Insight**: A failure report that doesn't say whether the failure is already tracked is incomplete for an engineering stakeholder. Bertrand's ask: add a JIRA column (number if tracked, "not tracked" if not). This closes the loop between product observation and engineering action.
+- **Important caveat**: This column cannot be automated from interaction data alone. It requires a human step — agent PMs mapping known failures to existing JIRAs. Build the column structure first, fill it manually, then automate as tracking matures.
+- **Application**: Design failure tables with a JIRA column from the start, even if empty. An empty column signals awareness that tracking is expected. A missing column signals it hasn't been thought about.
+
+### Report Infrastructure Needs a Stable Home Before Broader Distribution
+- **Date identified**: 2026-03-30
+- **Source**: Bertrand de Coatpont's response to W13 agent reports, March 30.
+- **Insight**: When a senior stakeholder sees useful data for the first time, their first instinct is not to consume it — it's to ask where it lives permanently. Bertrand's first ask after "a lot of good information" was a stable URL, not a deeper analysis request. A report sent as a file implies it's a one-off. A report at a permanent URL implies it's infrastructure.
+- **Secondary signal**: "Agents will consume this data" — Bertrand is already thinking about machine-readable access, not just human dashboards. The hosting question and the data format question are connected.
+- **Application**: Before sharing reports broadly, have a hosting answer ready. It changes how people perceive the maturity of the system.
+
 ### Adding a New Agent to a Measurement Pipeline Is a Data Problem, Not an Engineering Problem
 - **Date identified**: 2026-03-25
 - **Source**: Felix Delval's aem-agent-reports architecture (agents.yaml, loader.py).
