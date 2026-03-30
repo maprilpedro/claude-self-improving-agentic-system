@@ -136,6 +136,17 @@ Full transcript analyzed. Key transfers:
 - Governance posture: Pedro has explicit permission and expectation to push back on lazy feature requests without design homework. Enforce the announcement widget 4-week rule. Hold the line against PLG checkbox behavior.
 - New stakeholders: Fuji (prompt experiment), Jeddah (historical adoption reports — ask her for access), Dan (old stack owner — avoid), Adi (Dan's team, safe to talk to), Jim Stoklosa (PM Shankari pushed back on — know the pattern).
 
+**Two parallel reporting tracks (confirmed Yanira 1:1, ~March 2026):**
+- Track 1 (Felix/Pedro): fast iteration, product-focused, current active work. Goal is ~80% stable version to learn from.
+- Track 2 (DAS team): Jean-Claude, Andre, Ian. Long-term data infrastructure. Motivation is cost tracking. Building IMS org + required metrics foundation. Andre connecting DAS to AO data resources. Don't block Track 1 on Track 2.
+- Key alignment artifact: Yanira's success definition wiki — per-agent definitions of technical success and VRR, built by PMs + engineers. Pedro must align Felix dashboard to this.
+- Agent availability matrix: Yanira has it. Outdated. Which agents work in AEMCS / AMS / EDS / DA/Crosswalk.
+- Monday meeting planned: Felix shows report status. Yanira forwarding invite.
+
+**Yanira's role (clarified March 2026):** Program Manager for EPA and Modernization Agent. Took over Project 42 coordination from Jacqueline. Key bridge between agent teams, DAS, and Pedro's reporting work.
+
+**Sorin 1:1 additional context (March 19):** Custom widget framework (not Pueblo — more customization needed). Navigation uses Assets pattern not Unified Shell. 2026 OKR was personalization but never executed — no teams contribute custom widgets so nothing to personalize. Announcements widget gets ~200 clicks, modest PLG results.
+
 **Agent reports sent to Bertrand (2026-03-30):**
 Pedro sent W13 reports to Bertrand (zip of HTML reports from Felix's platform + .md product reports). Email framed as first draft — both numbers and categorization still need review. Bertrand responded positively ("a lot of good information") and raised 4 specific follow-up asks:
 

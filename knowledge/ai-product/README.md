@@ -74,6 +74,20 @@
 - **Custom layer examples**: For EPA — file upload success rate, content change acceptance by content type. For Governance — rules/access intent breakdown, "cannot help" pattern analysis.
 - **Why this matters**: Without the mandatory layer, no one can compare agents or spot cross-agent patterns. Without the custom layer, the report doesn't serve the agent team.
 
+### Two-Track Reporting Infrastructure — Fast Iteration vs Stable Foundation
+- **Date identified**: 2026-03-30
+- **Source**: Yanira 1:1, AEM agent reporting setup.
+- **Insight**: When building measurement infrastructure for an AI product, two tracks often need to run in parallel: (1) a fast-iteration track (manual, PM-driven, quick to change) that produces learning quickly; (2) a stable-foundation track (engineering-backed, data-platform integrated, scalable) that takes months. Confusing the two stalls both. The fast track should not wait for the foundation track to be ready. The foundation track should use the fast track's output as a spec.
+- **Pattern**: Get the fast track to ~80% stable first. Use it to learn what the report needs to contain. Then hand that spec to the infrastructure team. This way the infrastructure team builds the right thing, not a guess.
+- **Risk**: If the foundation team (DAS in this case) has a different motivation (cost tracking vs product quality), their natural output will not match what PMs need. Explicit alignment on requirements before they build is critical.
+
+### Success Definitions Must Be Agreed Before Metrics Are Scaled
+- **Date identified**: 2026-03-30
+- **Source**: Yanira 1:1; Yanira's success definition wiki.
+- **Insight**: Scaling a measurement dashboard before success definitions are aligned across teams creates a false picture. Each agent team may define "technical success" and "value realization" differently. When those definitions are different but the report shows them side by side, every comparison is misleading.
+- **The right asset**: A per-agent success definition document, built jointly by PM and engineering, validated before the dashboard goes broad. In AEM, Yanira holds this as a wiki. Pedro must align Felix's dashboard column definitions to that wiki before presenting to leadership.
+- **Application**: Before any cross-agent measurement goes to a senior audience, ask: "Do we have a shared definition of success for each agent in this report?" If no, the numbers are not ready to compare.
+
 ### Failure Taxonomy Needs an Explicit Quality vs Gap Split
 - **Date identified**: 2026-03-30
 - **Source**: Bertrand de Coatpont's response to W13 agent reports, March 30.
