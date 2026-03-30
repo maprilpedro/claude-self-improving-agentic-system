@@ -24,7 +24,7 @@ Quick reference:
 - **Felix Delval** — Built aem-agent-reports platform. Daily session with Pedro as of March 26.
 - **Haresh Kumar** — Field/customer-facing PM. Real-world readiness and pricing pushback.
 - **Arun Taneja** — Surfaces/LLM apps for CAB/CAPS customer discussion. Needs slides/POV.
-- **Shankari** — Previous EH PM, transitioning out post-Summit.
+- **Shankari** — Previous EH PM. Handoff complete March 27, 2026. Pedro is now fully in the seat.
 - **Sorin** — Lead engineer, Experience Hub. Primary technical source of truth.
 
 **How to apply:** Use for quick reporting chain lookup. For full stakeholder map, read org.md or the Obsidian Stakeholder Map.

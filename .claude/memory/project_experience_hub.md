@@ -136,4 +136,14 @@ Full transcript analyzed. Key transfers:
 - Governance posture: Pedro has explicit permission and expectation to push back on lazy feature requests without design homework. Enforce the announcement widget 4-week rule. Hold the line against PLG checkbox behavior.
 - New stakeholders: Fuji (prompt experiment), Jeddah (historical adoption reports — ask her for access), Dan (old stack owner — avoid), Adi (Dan's team, safe to talk to), Jim Stoklosa (PM Shankari pushed back on — know the pattern).
 
-**How to apply:** When working on any Experience Hub task, start with this context. The user is new to the project (~3 weeks as of March 27), ramping up, and trying to establish credibility with Bertrand and Loni. Every artifact should help close the vision-reality gap or advance the agent integration priority.
+**Agent reports sent to Bertrand (2026-03-30):**
+Pedro sent W13 reports to Bertrand (zip of HTML reports from Felix's platform + .md product reports). Email framed as first draft — both numbers and categorization still need review. Bertrand responded positively ("a lot of good information") and raised 4 specific follow-up asks:
+
+1. **Microsite / stable URL** — wants reports hosted at a permanent URL, not sent as files. Notes that agents should be able to consume this data. Action: discuss hosting options with Felix.
+2. **Quality vs Gap split** — top failed requests table needs an explicit "Type" column: Quality (agent tried, something broke) vs Gap (agent structurally cannot do this). Current sections (Top Failed Requests, Explicit Refusals, Top Unanswered Requests) capture the data but mix both types. Also wants a JIRA column (tracked or not + JIRA number). Action: add to report spec for Felix.
+3. **Historical trends in consolidated all-agents report** — Felix has 8-week trends per agent, but Bertrand wants this prominent in the all-agents consolidated view. Action: check with Felix if this exists or needs to be built.
+4. **JIRA tracking** — completely absent from all reports today. Requires manual input from agent PMs.
+
+Tracking document: `/Users/pedrofer/GitHub/aem-agent-data/REPORTS_MISSING-FOR-BERTRAND.md`
+
+**How to apply:** When working on any Experience Hub task, start with this context. The user is ~3 weeks into the project as of March 30, ramping up, and trying to establish credibility with Bertrand and Loni. Every artifact should help close the vision-reality gap or advance the agent integration priority.
