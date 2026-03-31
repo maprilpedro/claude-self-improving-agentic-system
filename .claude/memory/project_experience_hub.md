@@ -147,6 +147,15 @@ Full transcript analyzed. Key transfers:
 
 **Sorin 1:1 additional context (March 19):** Custom widget framework (not Pueblo — more customization needed). Navigation uses Assets pattern not Unified Shell. 2026 OKR was personalization but never executed — no teams contribute custom widgets so nothing to personalize. Announcements widget gets ~200 clicks, modest PLG results.
 
+**Agent Owner Alignment — March 20, 2026:**
+Felix demoed the aem-agent-reports platform to the group for the first time. This is where Bertrand first publicly stated his asks (the March 30 email was a follow-up, not the origin). Key new information:
+- **Entitlement routing:** AAP team asked all agent teams to update agent cards with org-level entitlement/service codes so the AO router doesn't route to agents the org isn't licensed for. Service code SDK not yet fully implemented (Raul Hudea waiting). Currently org-level only — user-level entitlement is a future state. Georgiana Koppel is the contact for agent card PR process.
+- **Greg Klebus** proposed AEM agents should share one set of entitlement checks rather than each repeating the same logic.
+- **JIRA MCP idea:** Gilles Knobloch proposed using JIRA's MCP to auto-link LLM report insights to existing JIRA tickets. Bertrand loved this. Pedro committed to exploring.
+- **Sergiu Coman** is on the EDA (Experience Developer Agent) team. Flagged that EDA report showed wrong capability tags — content creation instead of dev work. Confirmed per-agent data calibration is needed.
+- **VRR note:** 0.6% for Brand Governance = chat involved both that agent and Contact Updater where a change was published. Cross-agent VRR metric needs refinement.
+- Next meeting: Easter Monday canceled. Pushed 1 hour + reduced to 30 min due to conflict with Loni's KR review.
+
 **Agent reports sent to Bertrand (2026-03-30):**
 Pedro sent W13 reports to Bertrand (zip of HTML reports from Felix's platform + .md product reports). Email framed as first draft — both numbers and categorization still need review. Bertrand responded positively ("a lot of good information") and raised 4 specific follow-up asks. Status after re-analysis of Felix's all_agents.html (week_20260316):
 
