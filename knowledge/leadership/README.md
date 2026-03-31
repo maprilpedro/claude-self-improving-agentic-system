@@ -82,6 +82,15 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **Why this is a leadership signal**: Directors tend to accommodate incoming requests to maintain relationships. Senior Directors enforce standards that protect the product's integrity even when it creates tension. The willingness to say "not without the homework" in a room with more senior people is a demonstration of conviction.
 - **How to hold the line**: Be consistent, not arbitrary. When you push back, always cite the principle, not the person. "Here's what we require of every team that adds to Experience Hub" is harder to argue with than "I don't think this is ready."
 
+### Reframe a Deprioritized Item as a Mechanism, Not a Standalone Priority
+- **Date identified**: 2026-03-31
+- **Source**: Bertrand's position on EH personalization vs Pedro's view. EH Evolutions proposal, March 31.
+- **Pattern**: When a manager deprioritizes X and you believe X matters, the weakest argument is "it's still important, just not top priority." That loop never closes — they can always say "agreed, but not now."
+- **The stronger move**: Identify whether X is actually the mechanism that makes something they already want work better. If so, stop arguing for X as a feature and reframe it as the prerequisite for Y.
+- **The EH example**: Bertrand deprioritized personalization. Pedro's reframe: "I'm not asking to prioritize personalization. I'm asking to define 4-5 profiles so that the skills surface we're building is contextual from day one. The profiling work is small. Without it, a Developer and a Content Author see the same skills list — that's not a hero surface." Profiling stops being a competing priority and becomes part of what makes the agreed priority land correctly.
+- **When to use it**: When you're asked to deprioritize something and you believe removing it degrades something they DO care about. The reframe only works if the dependency is real — don't manufacture the connection.
+- **Sequencing matters**: Win the parent priority first. Once it's committed, the mechanism conversation becomes "here's what we need to do it right." The order matters. Profiling before Skills+MCP is validated = competing priority. Profiling after Skills+MCP is validated = obvious prerequisite.
+
 ### Durable Themes Beat Brittle Roadmaps
 - **Date identified**: 2026-03-26
 - **Source**: Loni's direction in Session I and Session IV. AEM moving from "here are the 12 features we'll ship in H1" to "content management to context management" as the organizing frame.

@@ -7,13 +7,13 @@
 | Folder | Purpose | Status | Entries |
 |--------|---------|--------|---------|
 | `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 11 |
-| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 15 |
+| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 17 |
 | `hypotheses/active.md` | Hypotheses currently being tested | Active | 5 |
 | `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Empty | 0 |
 | `false-beliefs/` | PM conventional wisdom proven wrong | Active | 8 |
 | `tools/` | Decision matrix: when to use which PM method/tool | Active | 6 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
-| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 8 |
+| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 9 |
 | `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 20 |
 
 ## Sources Ingested
@@ -25,6 +25,7 @@
 | Shankari 1:1 handoff | 2026-03-27 | PM handoff conversation | Adoption cadence as PLG instrument, PLG checkbox antipattern, governance posture as leadership signal, personalization experiment approach, EH North Star vision |
 | Bertrand W13 report exchange + gap re-analysis | 2026-03-30 / 2026-03-31 | Email exchange with Sr Director + artifact audit | Failure taxonomy quality vs gap split, JIRA tracking column pattern, stable hosting before broad distribution, trends in consolidated view, auth-walled hosting incompatible with agent consumption, parallel artifact stream divergence |
 | Bertrand 1:1 + Agent Owner Alignment March 20 + Pedro voice notes | 2026-03-31 | 1:1 notes, meeting transcript, voice memos | VRR is a tiered metric not a scalar, skills vs prompts interaction model distinction, cross-region data aggregation compliance risk, contribution model with quality gate pattern, TTL+priority+role-linking card system |
+| Eugene Bannykh Slack + personalization tension with Bertrand | 2026-03-31 | Slack conversation + stakeholder alignment | Pilot via existing feature not new build, identify scaling constraint before committing to model, reframe deprioritized item as mechanism for agreed priority |
 | Yanira 1:1 + Sorin 1:1 (March 19) | 2026-03-30 | Meeting notes | Two-track reporting infra pattern, success definitions before scaling metrics, DAS team context, custom widget framework, personalization OKR history |
 | Felix Delval 1:1 + aem-agent-reports repo analysis | 2026-03-25 | Technical deep dive | Mandatory + custom dashboard pattern, agent onboarding as data problem, measurement infrastructure design |
 | EPA vs EGA cross-analysis | 2026-03-24 | Internal report analysis | Success metric definition divergence, why cross-agent comparison fails without shared definition |
@@ -63,3 +64,4 @@
 | 2026-03-30 | ai-product/ | Yanira 1:1 + Sorin 1:1 — two-track infra, success definitions, DAS team, personalization OKR |
 | 2026-03-31 | ai-product/, patterns/ | Memory consolidation + learning reflection — auth-walled hosting incompatible with agent consumption, parallel artifact stream divergence pattern |
 | 2026-03-31 | ai-product/, patterns/, hypotheses/ | Session wrap — skills vs prompts, VRR tiered metric, cross-region compliance risk, contribution model pattern, TTL card system, H-005 VRR complication |
+| 2026-03-31 | leadership/, patterns/ | Final consolidation — reframe deprioritized as mechanism, pilot via existing feature, identify scaling constraint before committing to model |

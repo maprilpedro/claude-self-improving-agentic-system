@@ -131,6 +131,20 @@
 - **Fix**: Before declaring something missing, check the latest version of every artifact stream. Read the HTML, not just the markdown. The stream you didn't write moves independently.
 - **Application**: Whenever doing a gap analysis against someone else's artifact, read their artifact first. Not the version you remember from last week — the current file.
 
+### Pilot a New Model Through an Existing Feature, Not a New Build
+- **Date identified**: 2026-03-31
+- **Observations**: (1) Eugene Bannykh proposed using +Add Extension (an existing EH feature) as the pilot mechanism for the contribution model — instead of building a new contribution infrastructure from scratch. (2) The feature already exists; the model being tested is the governance and collaboration process around it.
+- **Pattern**: When proposing a new operating model (contribution model, collaboration process, review workflow), find the feature that already exists and run the pilot through it. This reduces engineering risk, shortens the feedback loop, and produces evidence with real constraints rather than hypothetical ones.
+- **Why it works**: A pilot through an existing feature fails fast on the real friction (permission model, quality gate, team adoption) without waiting for new infrastructure to be built. If the model doesn't work with the existing feature, building a new surface for it won't fix the underlying problem.
+- **Application**: Before committing to build new tooling for a process change, ask: is there an existing feature that could carry a pilot version of this? Use it. Build new only once the process is proven.
+
+### Identify the Scaling Constraint Before Committing to a Model
+- **Date identified**: 2026-03-31
+- **Observations**: (1) Pedro's immediate response to Eugene's contribution model proposal: "Can we build an automated quality check? If yes, model works. If not, we'd be the bottleneck." (2) Manual quality gates in platform teams always become the bottleneck at volume — the PM reviewing every contribution becomes the ceiling.
+- **Pattern**: Before committing to any operational model that involves a review or gate, ask explicitly: what happens at 10x volume? Who or what does the checking? If the answer is "a human on the PM or design team," the model has a built-in ceiling. Identify the scaling constraint before the model is ratified, not after you've already committed to teams.
+- **The automation question**: In 2026, many manual quality gates can be partly or fully automated. AI/Claude can check design standard compliance, accessibility basics, metadata completeness, conversion metric declaration. The question "can this be automated?" should be asked at model design time, not after the bottleneck appears.
+- **Application**: When designing any review-gated contribution model, write out explicitly: (1) what does the gate check; (2) who/what does the checking; (3) what is the expected volume; (4) at what volume does the gate become a bottleneck; (5) what is the automation path?
+
 ### Platform Contribution Model with Quality Gate
 - **Date identified**: 2026-03-31
 - **Observations**: (1) Experience Hub had 15+ teams requesting features from 2 engineers — unsustainable service desk dynamic. (2) Security was the only team that contributed back — proved self-service is possible. (3) EH Evolution proposal explicitly separates what EH gates (design, metric, lifecycle, testing) from what contributing teams own (build, data, monitoring).

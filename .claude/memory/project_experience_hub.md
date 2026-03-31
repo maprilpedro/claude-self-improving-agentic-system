@@ -178,4 +178,14 @@ Six new items. Several are urgent:
 
 **New contacts from March 31:** Sergei Generalov (AEP 2.0 validation), Mark Szulc (demo owner, Austria), Guliz Sicotte (MCP/Skills UI direction — was a declined RSVP on Agent Owner Alignment but is relevant here).
 
+**EH product direction — 3 priorities proposed (March 31, 2026):**
+Full detail in `202603 - EH Evolutions proposal.md` and `EH as the Skills and MCP Surface - Bertrand brief.md`.
+1. **Prompting → Skills + MCP** — replace generic prompt grid with skills-aware, MCP-connection-aware surface. Bertrand brief drafted, not yet sent. Eugene's first design view received — pending Pedro's review before going to Guliz Sicotte.
+2. **Contribution model** — teams build, EH quality gates. Eugene proposed +Add Extension as the pilot mechanism (March 31 Slack). Permission model for cross-org widget deployment needs Sorin's confirmation. Quality gate automation (AI/Claude) is the unlock condition — if manual, EH becomes the bottleneck. Success metric: 10 widgets EOY. Scope: widgets only → pages later. Sorin hasn't responded yet.
+3. **Customer profiling** — 5 profiles (General, Content Author, Asset Librarian, Developer, Admin). Bertrand does NOT see this as a key priority. Pedro's reframe: profiling is the mechanism that makes skills surfacing contextual, not a standalone priority. Don't argue for it directly — win Skills+MCP first, then profiling follows as the prerequisite.
+
+**Demo coordination:** Started with Mark Szulc on March 31. Need to loop in Corey (EPA/PDF upload), Philippe (Governance), and find Discovery Agent update owner.
+
+**JIRA with Felix:** Targeted early week of April 7.
+
 **How to apply:** When working on any Experience Hub task, start with this context. The user is ~3 weeks into the project as of March 31, ramping up, and trying to establish credibility with Bertrand and Loni. Every artifact should help close the vision-reality gap or advance the agent integration priority.
