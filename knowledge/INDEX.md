@@ -7,15 +7,14 @@
 | Folder | Purpose | Status | Entries |
 |--------|---------|--------|---------|
 | `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 11 |
-| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 11 |
+| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 13 |
 | `hypotheses/active.md` | Hypotheses currently being tested | Active | 5 |
 | `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Empty | 0 |
 | `false-beliefs/` | PM conventional wisdom proven wrong | Active | 8 |
 | `tools/` | Decision matrix: when to use which PM method/tool | Active | 6 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
 | `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 8 |
-| `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 16 |
-| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 12 |
+| `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 17 |
 
 ## Sources Ingested
 
@@ -24,7 +23,7 @@
 | Gallo, *Presentation Secrets of Steve Jobs* | 2026-03-19 | Book | Communication frameworks, presentation patterns, false beliefs about presenting, stakeholder management techniques |
 | AEM Experience Hub — Loni Working Sessions I & IV | 2026-03-23 / 2026-03-26 | Live strategy sessions | Hero surfaces concept, agent measurement gaps, TSR vs VRR, architecture ceiling insight, cross-org influence patterns, durable themes |
 | Shankari 1:1 handoff | 2026-03-27 | PM handoff conversation | Adoption cadence as PLG instrument, PLG checkbox antipattern, governance posture as leadership signal, personalization experiment approach, EH North Star vision |
-| Bertrand W13 report exchange | 2026-03-30 | Email exchange with Sr Director | Failure taxonomy quality vs gap split, JIRA tracking column pattern, stable hosting before broad distribution, trends in consolidated view |
+| Bertrand W13 report exchange + gap re-analysis | 2026-03-30 / 2026-03-31 | Email exchange with Sr Director + artifact audit | Failure taxonomy quality vs gap split, JIRA tracking column pattern, stable hosting before broad distribution, trends in consolidated view, auth-walled hosting incompatible with agent consumption, parallel artifact stream divergence |
 | Yanira 1:1 + Sorin 1:1 (March 19) | 2026-03-30 | Meeting notes | Two-track reporting infra pattern, success definitions before scaling metrics, DAS team context, custom widget framework, personalization OKR history |
 | Felix Delval 1:1 + aem-agent-reports repo analysis | 2026-03-25 | Technical deep dive | Mandatory + custom dashboard pattern, agent onboarding as data problem, measurement infrastructure design |
 | EPA vs EGA cross-analysis | 2026-03-24 | Internal report analysis | Success metric definition divergence, why cross-agent comparison fails without shared definition |
@@ -61,3 +60,4 @@
 | 2026-03-27 | leadership/, ai-product/ | Shankari 1:1 handoff analysis — PLG governance, adoption cadence, personalization, EH North Star |
 | 2026-03-30 | ai-product/, patterns/ | Bertrand W13 report exchange — failure taxonomy, JIRA column, hosting pattern |
 | 2026-03-30 | ai-product/ | Yanira 1:1 + Sorin 1:1 — two-track infra, success definitions, DAS team, personalization OKR |
+| 2026-03-31 | ai-product/, patterns/ | Memory consolidation + learning reflection — auth-walled hosting incompatible with agent consumption, parallel artifact stream divergence pattern |

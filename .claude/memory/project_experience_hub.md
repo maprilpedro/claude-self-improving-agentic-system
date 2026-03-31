@@ -148,13 +148,14 @@ Full transcript analyzed. Key transfers:
 **Sorin 1:1 additional context (March 19):** Custom widget framework (not Pueblo — more customization needed). Navigation uses Assets pattern not Unified Shell. 2026 OKR was personalization but never executed — no teams contribute custom widgets so nothing to personalize. Announcements widget gets ~200 clicks, modest PLG results.
 
 **Agent reports sent to Bertrand (2026-03-30):**
-Pedro sent W13 reports to Bertrand (zip of HTML reports from Felix's platform + .md product reports). Email framed as first draft — both numbers and categorization still need review. Bertrand responded positively ("a lot of good information") and raised 4 specific follow-up asks:
+Pedro sent W13 reports to Bertrand (zip of HTML reports from Felix's platform + .md product reports). Email framed as first draft — both numbers and categorization still need review. Bertrand responded positively ("a lot of good information") and raised 4 specific follow-up asks. Status after re-analysis of Felix's all_agents.html (week_20260316):
 
-1. **Microsite / stable URL** — wants reports hosted at a permanent URL, not sent as files. Notes that agents should be able to consume this data. Action: discuss hosting options with Felix.
-2. **Quality vs Gap split** — top failed requests table needs an explicit "Type" column: Quality (agent tried, something broke) vs Gap (agent structurally cannot do this). Current sections (Top Failed Requests, Explicit Refusals, Top Unanswered Requests) capture the data but mix both types. Also wants a JIRA column (tracked or not + JIRA number). Action: add to report spec for Felix.
-3. **Historical trends in consolidated all-agents report** — Felix has 8-week trends per agent, but Bertrand wants this prominent in the all-agents consolidated view. Action: check with Felix if this exists or needs to be built.
-4. **JIRA tracking** — completely absent from all reports today. Requires manual input from agent PMs.
+1. **Microsite / stable URL** — ❌ STILL MISSING. Wants reports at a permanent URL, not sent as files. Agents should be able to consume this data. Best option: GitHub Pages on the aem-agent-reports repo. SharePoint is not suitable (auth wall blocks agent consumption). Discuss with Felix Monday.
+2. **Quality vs Gap split** — ✅ ALREADY IN FELIX'S HTML. all_agents.html has color-coded Type badges (red=Gap, orange=Quality), separate sub-tables (Gap Issues / Quality Issues / Unanswered), and clear definitions. Was not in the .md reports Pedro sent — the HTML reports are the right artifact.
+3. **Historical trends in consolidated all-agents report** — ✅ ALREADY IN FELIX'S HTML. 8-week TSR/VRR/Retention line charts are present in all_agents.html.
+4. **JIRA tracking** — ⚠️ STRUCTURE EXISTS, VALUES EMPTY. The `<th>JIRA</th>` column is built in all three failure tables. All values show "—". Needs manual input from each agent PM mapping known failures to JIRAs. Not automatable from interaction data.
 
 Tracking document: `/Users/pedrofer/GitHub/aem-agent-data/REPORTS_MISSING-FOR-BERTRAND.md`
+Key lesson: The .md product reports (Pedro's) and HTML reports (Felix's) are two separate artifact streams. Felix's HTML is more advanced. Always check the HTML before concluding something is missing.
 
 **How to apply:** When working on any Experience Hub task, start with this context. The user is ~3 weeks into the project as of March 30, ramping up, and trying to establish credibility with Bertrand and Loni. Every artifact should help close the vision-reality gap or advance the agent integration priority.
