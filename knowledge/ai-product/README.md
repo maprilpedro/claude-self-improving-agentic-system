@@ -14,6 +14,14 @@
 - **VRR (Value Realization Rate)**: Did the user actually get value? Higher bar. Requires behavioral signal (user accepted, acted on, returned to use again). Harder to define and measure. The metric that matters to customers and leadership.
 - **Application**: Any cross-agent measurement standard must agree on TSR and VRR definitions before publishing numbers. Without this, comparing agents misleads everyone, including the agents' own teams.
 
+### VRR Is a Tiered Metric — Collapsing to One Number Misleads
+- **Date identified**: 2026-03-31
+- **Source**: Bertrand de Coatpont, 1:1 March 31, 2026.
+- **Insight**: Value Realization Rate is not a binary. In AEM's measurement context, VRR is structured as a 5-tier classification (tiers not yet fully defined as of March 31 — Yanira's wiki holds the definition). Collapsing a tiered distribution into a single aggregated percentage hides the shape of the data. If 80% of interactions are tier-1 (minimal value) and 5% are tier-5 (high value), the average number could read as "good" while the distribution is actually poor.
+- **Consequence**: Every VRR number reported as a single figure before the tier definitions are applied is potentially misleading. Cross-agent VRR comparison with a single number is especially dangerous — the tiers may be defined differently per agent.
+- **Fix**: Get the 5-tier definition (from Yanira's success definition wiki). Report VRR as a distribution, not a single percentage. Aggregate only within a tier or across comparable tiers.
+- **Application**: Any AI product measuring "user value" should ask: is this a scalar or a distribution? Before presenting a single VRR number to leadership, verify you know what it's averaging over.
+
 ### The Open Chat Box as Discovery Mechanism
 - **Date identified**: 2026-03-26
 - **Source**: Corey Dulimba in Loni's Session IV (Surfaces, March 26).
@@ -160,6 +168,25 @@
 - **Source**: Shankari 1:1 handoff, March 27.
 - **Insight**: Enterprise personalization infrastructure is almost always more complex than it looks. The DX-level profile at Adobe requires integrating with Target, conforming to a specific framework, and dealing with data platform dependencies. Two years of pushing for this at Experience Hub produced nothing. The right approach for a resource-constrained team: identify two simple proxy data points (e.g. template setting + licenses owned) and run a small experiment. Don't wait for the full infrastructure.
 - **Application**: When personalization comes up in roadmap discussions, ask: what is the smallest version of this we can test? Can we run it as a hack on a cohort of 1000 users before committing to a platform integration?
+
+### Skills vs Prompts — A Fundamental Interaction Model Distinction
+- **Date identified**: 2026-03-31
+- **Source**: Pedro's voice notes (March 30); Bertrand brief drafted March 31; Agent Owner Alignment March 20.
+- **Insight**: Prompts and skills are not the same thing, and surfacing them interchangeably in an AI product surface is a structural mistake.
+  - **A prompt** is an open-ended intent expression. It invites the user to try something. It says nothing about whether the agent can reliably execute it.
+  - **A skill** is a scoped, tested, packaged workflow. It communicates what the agent can do, what it cannot, and what a successful outcome looks like.
+- **Why this matters for surface design**: A surface that shows prompt suggestions against agents with a 40-50% failure rate trains users to expect things the product can't reliably deliver. Every hallucinated or out-of-scope response after clicking a suggested prompt is a trust hit. Skills change the contract — users interact with defined capabilities, not an open box.
+- **The evolution**: Prompt suggestions → skills discovery → skills + MCP connection awareness. Each step narrows the gap between what's surfaced and what's reliably executable.
+- **Design implication**: The right interaction surface for a maturing AI product shows: (1) what skills are active for this user's license and environment; (2) what MCP connections are live (what tools/data the agent can reach); (3) what it cannot do. Not a generic grid of prompts.
+- **Application**: When designing or evaluating any AI assistant surface, ask: are these suggestions grounded in what this system can actually reliably do for this user? If not, you are surfacing promises you can't keep.
+
+### Cross-Region Data Aggregation Is a Compliance Risk in AI Measurement
+- **Date identified**: 2026-03-31
+- **Source**: Ian Boston (via Bertrand 1:1, March 31, 2026).
+- **Insight**: AI agent interaction data is collected per region (in AEM: VA, NLD2, AUS5, CAN2, GBRS, IND1). Re-aggregating that data across regions for a unified report may violate data residency laws or contractual data governance agreements — especially in EU regions (GDPR) and regulated industries. The data pipeline may be technically capable of cross-region aggregation while being legally prohibited from doing so.
+- **The specific question raised**: Does the team have the right to pull and re-aggregate across all regions? Optel (likely OpenTelemetry) may be a layer in the pipeline where this aggregation happens. Raul Hudea holds the technical context.
+- **Why PMs need to own this**: PMs who commission reporting infrastructure are often unaware of data governance constraints. Engineering builds what is technically possible. Legal and data governance teams are not automatically in the loop. The PM asking "do we have the right to do this?" is the right check.
+- **Application**: Before scaling any cross-region AI measurement pipeline, explicitly ask: what data residency rules apply to each region? Has legal signed off on cross-region aggregation? If using an observability layer (OpenTelemetry, Langfuse, etc.), does that tool's data handling match the governance requirements?
 
 ### Monetization Is Unresolved When Agents Replace Seats
 - **Date identified**: 2026-03-26

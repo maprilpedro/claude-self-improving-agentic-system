@@ -91,4 +91,5 @@ Observe signal --> Propose hypothesis --> Design test --> Collect evidence --> R
   - Infrastructure owners have cross-org influence by definition — every team that depends on the infrastructure needs a relationship with the owner.
 - **Evidence against**:
   - Felix built the platform — it's his infrastructure. Pedro's role is PM adoption driver, not technical owner. Credit-sharing and positioning matters here.
-- **Next step**: Finalize standard dashboard one-pager. Sync with Felix on EGA extension. Use Bertrand's ask as the mandate.
+  - **VRR complexity (2026-03-31)**: Bertrand raised that VRR has 5 tiers and is being collapsed to one number. This means the "shared measurement standard" is more complex than initially framed — TSR and VRR are not flat metrics. The standard needs to specify tier definitions, not just metric names. This is a complication but not a hypothesis killer.
+- **Next step**: Get the 5-tier VRR definition from Yanira's wiki. Update Felix's platform to show VRR distribution, not just average. Then the standard is credible. Until then, presenting VRR numbers to Bertrand risks the same correction again.

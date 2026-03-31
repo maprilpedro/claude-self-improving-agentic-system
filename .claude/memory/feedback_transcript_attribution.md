@@ -9,3 +9,7 @@ When reading Teams meeting transcripts, room-based microphone entries (e.g., "CR
 **Why:** Pedro corrected this after I attributed all "CR" lines to an unknown person. In the March 23, 2026 AEM PM Virtual Working Session I, all "CR" lines were Loni Stark (VP PM AEM), who was presenting from a conference room.
 
 **How to apply:** When a transcript shows a room-style label (contains "VC", "ET", room numbers, location names), infer from context who was in that room and attribute accordingly. Do not treat the room label as a person's name or initials.
+
+**Known attributions:**
+- March 23, 2026 AEM PM Virtual Working Session I — all "CR SJ ET15/Kettering VC" lines = Loni Stark
+- March 20, 2026 Agent Owner Alignment — "CR BUCH 04/Basalt VC (5)" = Raul Hudea (confirmed when Yanira said "go ahead, Raul" and that label responded)

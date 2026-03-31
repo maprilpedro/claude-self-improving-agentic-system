@@ -131,6 +131,21 @@
 - **Fix**: Before declaring something missing, check the latest version of every artifact stream. Read the HTML, not just the markdown. The stream you didn't write moves independently.
 - **Application**: Whenever doing a gap analysis against someone else's artifact, read their artifact first. Not the version you remember from last week — the current file.
 
+### Platform Contribution Model with Quality Gate
+- **Date identified**: 2026-03-31
+- **Observations**: (1) Experience Hub had 15+ teams requesting features from 2 engineers — unsustainable service desk dynamic. (2) Security was the only team that contributed back — proved self-service is possible. (3) EH Evolution proposal explicitly separates what EH gates (design, metric, lifecycle, testing) from what contributing teams own (build, data, monitoring).
+- **Pattern**: Small platform teams cannot scale by building everything for consuming teams. The right model: define a contribution framework where consuming teams own their own features, and the platform team owns the quality bar. Platform team provides standards, component library, and approval gate. Consuming teams provide the build and the maintenance.
+- **Three conditions for it to work**: (1) A published standard — teams need to know what "good" looks like before they build. (2) A gate with teeth — platform PM must be willing to reject contributions that don't meet the standard. (3) At least one proof point — one team that successfully contributed validates the model for others. Security in EH is that proof point.
+- **What the gate covers**: Design standards, conversion metric, time-to-live (TTL) commitment, test evidence.
+- **When it fails**: When the platform PM says yes to everything to avoid friction. The surface becomes noise, users stop trusting it, and the original problem (too many asks, too few engineers) is worse than before.
+
+### TTL + Priority + Role-Linking — The Shared Surface Card System
+- **Date identified**: 2026-03-31
+- **Observations**: (1) EH announcement widget managed manually — teams asked EH engineers to create/update cards. (2) Experience Hub voice note (Pedro, March 30): proposed automated card creation with TTL, priority ranking, and role-linked display. (3) Shankari's 4-week rule enforced manually — TTL automates the enforcement.
+- **Pattern**: In any shared surface where multiple teams want to publish content (announcements, cards, prompts, widgets), a four-mechanic system prevents the surface from becoming noise: (1) Self-service creation — teams submit, PM approves; (2) Priority ranking — set by platform PM, not contributing team; (3) Time To Live — every item expires automatically unless renewed with performance data; (4) Role-linking — items display only to the profiles they're relevant for.
+- **Why this works**: It turns a human governance process (Shankari manually enforcing the 4-week rule) into an automated one. The PM's role shifts from "enforcer of expiry dates" to "setter of the system rules." Teams know the rules upfront and self-select accordingly.
+- **Connection to contribution model**: This is the contribution model applied to content publishing. The same principles (teams own, platform gates) apply to both widgets and cards.
+
 ### Jargon as a Sign of Insecurity
 - **Date identified**: 2026-03-19
 - **Observations**: (1) Jobs vs Gates language analysis: Jobs scored dramatically better on every readability metric. (2) Jack Welch despised jargon and fired a leader who couldn't explain his business simply. (3) Suze Orman: "It's our fear of not being important that leads us to communicate in a more complex way than we need to." (4) Mission statements are the worst culprits.
