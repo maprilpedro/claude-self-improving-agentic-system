@@ -3,6 +3,9 @@
 ## References
 - [Claude improvement tools](claude-improvement-tools.md) — Recommended MCP servers, skills, editor extensions, and architecture improvements for the PM knowledge system
 
+## User
+- [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
+
 ## Feedback
 - [Session setup commands](feedback_session_setup.md) — Always run /color blue and /rename Adobe-PM-Assistant at session start
 - [Session start behavior](feedback_session_start.md) — Always pick up where we left off on Experience Hub when starting a conversation
