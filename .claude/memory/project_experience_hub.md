@@ -167,4 +167,15 @@ Pedro sent W13 reports to Bertrand (zip of HTML reports from Felix's platform + 
 Tracking document: `/Users/pedrofer/GitHub/aem-agent-data/REPORTS_MISSING-FOR-BERTRAND.md`
 Key lesson: The .md product reports (Pedro's) and HTML reports (Felix's) are two separate artifact streams. Felix's HTML is more advanced. Always check the HTML before concluding something is missing.
 
-**How to apply:** When working on any Experience Hub task, start with this context. The user is ~3 weeks into the project as of March 30, ramping up, and trying to establish credibility with Bertrand and Loni. Every artifact should help close the vision-reality gap or advance the agent integration priority.
+**Bertrand 1:1 — March 31, 2026:**
+Six new items. Several are urgent:
+1. **Data pipeline compliance risk** — Ian raised whether the team has the right to re-aggregate interaction data across all regions. Optel (likely OpenTelemetry) is somewhere in the pipeline. Raul knows details. Must clarify before reporting scales. Suspected flow: AEP → Optel/Langfuse → regional stores.
+2. **JIRA integration** — third ask. Not optional anymore. Create JIRA from product gap or link to existing.
+3. **VRR has 5 tiers** — current reports collapse to one number. All VRR reporting to date may be misleading. Get 5-tier definition from Yanira's wiki and fix Felix's platform.
+4. **Demo regeneration** — re-run the 5-7 AEM Agent demos Mark Szulc did in Austria. New content: PDF upload (Corey/EPA), Discovery Agent Assets List, Governance Agent (Philippe Kapfer — absent from original).
+5. **AEP 2.0** — validate backward compatibility on stage. Contact: Sergei Generalov.
+6. **MCP/Skills UI** — check with Guliz Sicotte. First design pass through Eugene.
+
+**New contacts from March 31:** Sergei Generalov (AEP 2.0 validation), Mark Szulc (demo owner, Austria), Guliz Sicotte (MCP/Skills UI direction — was a declined RSVP on Agent Owner Alignment but is relevant here).
+
+**How to apply:** When working on any Experience Hub task, start with this context. The user is ~3 weeks into the project as of March 31, ramping up, and trying to establish credibility with Bertrand and Loni. Every artifact should help close the vision-reality gap or advance the agent integration priority.
