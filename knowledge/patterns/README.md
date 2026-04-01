@@ -175,6 +175,22 @@
 - **Pattern**: When reaching out to technical or legal stakeholders on a risk question, do the pre-work first. Understand enough about the architecture and the regulatory context to ask a specific question. Specific questions are easier to answer — and harder to dismiss. They also signal that you've done homework, which earns a more thorough response.
 - **Application**: Before sending a Slack or email to an SME on a risk topic, write down the specific mechanism you're asking about. "Is X happening? If yes, does it violate Y?" beats "any thoughts on the data stuff?"
 
+### Preview Link Pattern — Ship Fast for a Fixed Event Without a Production Commitment
+- **Date identified**: 2026-04-01
+- **Source**: Sorin Slavic in April 1 EH refinement sync — Brand Concierge Summit options discussion.
+- **Observations**: (1) Summit deadline (April 19-22) made full production implementation impossible in 2 weeks. Sorin proposed using a preview link — automatically generated for in-progress changes, gives full integration and real behavior, but is not merged to production. (2) Security team previously used a similar approach for early demos. (3) The pattern separates "does it work?" validation from "is it production-ready?" quality assurance.
+- **Pattern**: When a fixed event (summit, exec demo, customer pilot) creates a hard deadline that production quality cannot meet, use the preview link approach: write the code, bypass production guardrails, generate a preview link for the specific demo context. After the event, decide whether to invest in making it production-ready or remove it.
+- **Conditions**: (1) The audience is known and controlled — you know exactly who will click it and in what sequence. (2) The event is time-bounded — it's not a permanent commitment. (3) There's an explicit plan for what happens after — either productionize or remove.
+- **Risk**: If the preview version leaks or gets treated as a commitment, you've created expectations you haven't shipped to. Be explicit upfront: "This is a Summit-only preview, not a product commitment."
+- **Application**: Before saying "we can't do this in time for the event," ask whether a preview link version is viable. It often is, and it lets the event happen without blocking a production decision.
+
+### Hard Deadlines Force Scope Clarity Faster Than Any Planning Process
+- **Date identified**: 2026-04-01
+- **Source**: Brand Concierge Summit discussion, April 1 EH refinement sync.
+- **Observations**: (1) Brand Concierge light-up had been ambiguous for weeks — full implementation vs announcement card vs wizard, no decision. Summit on April 19-22 forced a clear three-option framework and a decision by tomorrow. (2) The same pattern appears in every release cycle: the week before a deadline, more decisions get made than in the prior month.
+- **Pattern**: If a decision has been stuck for weeks, create or name a forcing event. The constraint of a real deadline — especially an external one like a summit or customer meeting — collapses the option space faster than any internal planning discussion.
+- **Application**: When a decision is drifting, ask: is there an upcoming event that makes the cost of not deciding concrete? If yes, use it. Frame the decision in terms of what the event requires, not in abstract terms.
+
 ### Jargon as a Sign of Insecurity
 - **Date identified**: 2026-03-19
 - **Observations**: (1) Jobs vs Gates language analysis: Jobs scored dramatically better on every readability metric. (2) Jack Welch despised jargon and fired a leader who couldn't explain his business simply. (3) Suze Orman: "It's our fear of not being important that leads us to communicate in a more complex way than we need to." (4) Mission statements are the worst culprits.

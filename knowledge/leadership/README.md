@@ -113,6 +113,13 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **Why Senior Directors use this**: It compresses the timeline for the foundation build (they're not guessing at requirements), it legitimizes the fast track (it wasn't a throwaway — it was a prototype), and it positions the PM as someone who planned for the handoff. That reads as operational maturity.
 - **Application**: When a fast-track solution is at ~80% stability, document what it does. That documentation is the foundation team's spec. Hand it explicitly, not implicitly.
 
+### Fix It Quietly — Remediate Before Legal Gets Involved
+- **Date identified**: 2026-04-01
+- **Source**: Ian Boston's Slack response, April 1, 2026.
+- **Pattern**: Ian explicitly said he wants to avoid flagging the current compliance state to legal — not to hide it, but because involving legal triggers mandatory stop, mandatory fix, and potential additional remediation requirements. The window to fix it cleanly is before it becomes a formal legal matter. Pedro's move of escalating to Bertrand immediately (rather than sitting on it) is the right call: the escalation path is internal and constructive, not adversarial.
+- **Why Senior Directors do this**: They don't wait for problems to surface through compliance teams or external auditors. They find the problem, scope it, propose the fix, and escalate with a path — not just a warning. The difference between "we have a problem" and "we have a problem, here's the fix, here's the timeline" is the difference between creating panic and creating confidence.
+- **Application**: When you discover a compliance, legal, or governance risk: (1) confirm it with the right SME (Ian); (2) scope the blast radius; (3) propose a fix path; (4) escalate to your manager with all three. Don't escalate without a proposed path. Don't sit on it waiting for it to become someone else's problem.
+
 ### Durable Themes Beat Brittle Roadmaps
 - **Date identified**: 2026-03-26
 - **Source**: Loni's direction in Session I and Session IV. AEM moving from "here are the 12 features we'll ship in H1" to "content management to context management" as the organizing frame.

@@ -20,7 +20,7 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 Pedro is PM of record. Team: Sorin Slavic (lead engineer), Eugene Bannykh (UX, US timezone), Mircea Salan (engineer, internship project lead), Anna Maria (new intern, started April 1 — cannot contribute meaningfully near-term).
 
 **Workstream 2 — Agent Assistant (contributor, not PM)**
-AEP AI Assistant is built and owned by the AEP team. PM of record: `hanessia`. QI DRI: Ilya Grafutko (Sr PM, AEP Agent Orchestrator Platform). AEM AI Assistant is program-managed by WEM. Pedro is not in any ownership chain. His role: EH surface integration (integrating the AEP prompt bar), AEM agent reporting contributor, EH as the hero surface for AEM agents. Pedro must confirm this framing with Bertrand.
+AEP AI Assistant is built and owned by the AEP team. PM of record: `hanessia`. QI DRI: Ilya Grafutko (Sr PM, AEP Agent Orchestrator Platform). AEM AI Assistant is program-managed by WEM. Pedro is not in any ownership chain. His role: EH surface integration (integrating the AEP prompt bar), AEM agent reporting contributor, EH as the hero surface for AEM agents. Pedro must confirm this framing with Bertrand. Sorin asked directly in the April 1 refinement sync — still unresolved.
 
 ---
 
@@ -49,22 +49,60 @@ FULL ALIGNMENT across Pedro + Eugene + Sorin (April 1). Sorin was independently 
 
 ## 2H Roadmap
 
-Working draft: `Home 2H2026 Roadmap - Experience Hub EH.md`. Two carry-over buckets from 1H (Personalization + Adoption) plus contribution model / agentic framework. Real H2 breakdown starts June 1. Pedro to draft items this week, send to Sorin, then session to define epics. Pedro still needs to find the Canva roadmap planning doc and share with Sorin.
+HOME-832 created in Jira (April 1, 2026) — four H2 initiative descriptions captured: AI Assistant Integration Improvements, Collaboration Model Implementation, User Profiling Research, Supporting Teams and Promotional Surface. Sent to Sorin April 1. Working draft: `Home 2H2026 Roadmap - Experience Hub EH.md`. Pedro still needs to find the Canva roadmap planning doc and share with Sorin.
 
 ---
 
 ## Data Compliance — CONFIRMED RISK (Ian Boston, April 1, 2026)
 
-Ian confirmed two legal risks with Felix's pipeline:
+Ian confirmed two legal risks with the reporting pipeline:
 
 1. **Data Residency (contractual breach):** Cross-region pull (VA, NLD2, AUS5, CAN2, GBRS, IND1) breaks contractual requirements for some customers — storage and processing must stay in region.
 2. **Data Governance (deposition risk):** Datasets not registered in Data Governance Catalog — legal exposure if called to provide a deposition. AI class action risk explicitly named.
 
 Felix extracts from AEP Co-pilot Report. Lara Nonino also extracts from AEP Co-Pilot Report for Governance Agent — same source, not a different platform. Same compliance problem. Other agent self-reports may have the same issue.
 
-Ian's warning: someone outside AEM BU could shut this down and AEM loses the right to handle prompt data — 100% dependent on AEP. His framing: "prompt data is the most valuable output of everything in P42."
+Ian's warning: someone outside AEM BU could shut this down and AEM loses the right to handle prompt data — 100% dependent on AEP. His framing: "prompt data is the most valuable output of everything in P42." Ian strongly prefers fixing this quietly before it surfaces to legal.
 
-Proposed path escalated to Bertrand April 1: scope blast radius (how many orgs have residency requirements, are they active users?), accelerate DAS to build compliant infrastructure using Felix's pipeline as the spec.
+**Anonymization does not solve residency** (confirmed by Ian, April 1): as long as a prompt is readable it remains customer data, and residency obligations follow it. Anonymizing to the point it's no longer customer data breaks data lifecycle (can't delete on customer termination). Operational data classification loophole exists but restricts use to service uptime only — useless for evaluation. Bertrand suggested anonymization; Pedro has response drafted, will deliver face-to-face.
+
+Proposed path escalated to Bertrand April 1: scope blast radius, accelerate DAS to build compliant infrastructure using Felix's pipeline as the spec.
+
+---
+
+## Brand Concierge Light-up — Summit Deadline (April 19-22, 2026)
+
+Three options discussed in April 1 refinement sync. Sorin confirmed full production implementation is too late. Options:
+1. Full implementation for all customers — too late.
+2. Mock wizard on a preview link for Summit only (Bertrand's instance). Doable. Not production-ready. Remove after Summit and rebuild.
+3. Static announcement card redirecting to URL — 1 day if static, more if conditions/permissions needed.
+
+Eugene designed the wizard ~1 month ago. Bertrand contributed to shaping it. Content AI indexing takes hours — can't be faked on customer side. Cloud Manager micro frontend PR (Peter's team) still open, not in current release.
+
+Message sent to Bertrand + Peter asking which option. Effective deadline for answer: tomorrow (April 2).
+
+---
+
+## Experimentation Page Integration (Jim Stoklosa's team)
+
+From April 1 refinement sync:
+- Experimentation page is a full-screen landing page + sub-pages (not a widget). True to Eugene's mockups.
+- Not all customers get it — contextual experimentation is an extension, not a default entitlement. Available across all AEM flavors.
+- EH responsibility: feature flag + navigation button visibility logic. Business logic (which tenants see it) must be defined by experiments team via an API condition — EH maintains it but cannot define it alone.
+- Micro frontend implementation: fully experiments team's responsibility (same model as security team).
+- Sub-pages: experiments team must declare them so EH can manage pathing.
+- Recent widget: experiments team should onboard their noun to unified shell recent service.
+- Unified search: currently only assets (Content AI semantic search). Doesn't know about experiments, pages, content fragments, etc. Gap to address separately.
+
+Jim's team: Dereje Dilnesaw (required), Julien Ramboz (required), Sanjeev Verma (optional).
+Slack sent April 1 to @stoklosa @dilnesaw — invited to call, walked through open questions, set micro frontend ownership expectation.
+
+---
+
+## Prompt Search Gaps (identified April 1 refinement sync)
+
+1. Search only works for assets (Content AI semantic search). Doesn't search pages, content fragments, experiments, launches, etc. Needs: identify what nouns exist, what teams own them, what search APIs are available.
+2. Context bug: search doesn't pass current environment context into the search API. For multi-environment users, defaults to first production environment found — wrong results possible. Known gap, not blocking initial iteration.
 
 ---
 
@@ -75,7 +113,10 @@ Proposed path escalated to Bertrand April 1: scope blast radius (how many orgs h
 | Ilya Grafutko | QI program synergy | Sent April 1, 11:24 AM — awaiting response |
 | Ian Boston + Raul Hudea | Regional data aggregation | Sent April 1 — Ian responded; Raul awaiting |
 | Raul Hudea | VRR multi-tier definition | Sent April 1 — awaiting response |
-| Bertrand | Data compliance escalation | Sent April 1 — awaiting response |
+| Bertrand | Data compliance escalation | Sent April 1 — Bertrand suggested anonymization; Ian confirmed it doesn't fix residency; face-to-face response pending |
+| Bertrand + Peter | Brand Concierge light-up option | Sent April 1 — awaiting response (deadline tomorrow) |
+| Jim Stoklosa + team | Experimentation page onboarding call | Sent April 1 — awaiting response |
+| Philippe Kapfer | Demo prompts | Responded April 1 |
 
 ---
 
@@ -91,22 +132,23 @@ Proposed path escalated to Bertrand April 1: scope blast radius (how many orgs h
 | Onboarding | Nick Whittenburg |
 | Modernization | Gabriel Walt / Mike Tilburg |
 
-Demo regeneration: message sent April 1 to all owners + Mark Szulc (based in Australia). Asked for 1-2 prompts per agent by end of week / early next week.
+Demo regeneration: message sent April 1 to all owners + Mark Szulc (based in Australia). Philippe responded. Reminder set for April 2 noon to chase the rest.
 
 ---
 
 ## Active Actions This Week
 
-- 🔴 Draft 2H roadmap items + find Canva → send to Sorin
-- 🔴 Follow up on demo prompts from agent owners (deadline end of week)
-- 🔴 Resolve Brand Concierge AEM light-up — get Peter/Bertrand to confirm EH scope
+- 🔴 Brand Concierge: get Bertrand + Peter answer on option (deadline April 2)
+- 🔴 Data compliance: deliver anonymization response to Bertrand face-to-face
+- 🔴 Follow up on demo prompts — reminder set April 2 noon (Philippe answered, chase the rest)
 - 🟠 Get on Sorin + Eugene email thread on UX AI framework
 - 🟠 Review Eugene's design view on Skills/MCP before going to Guliz
 - 🟠 Sync with Felix early week of April 7 on JIRA integration
 - 🟠 Get VRR tier definition from Raul / Yanira's wiki
-- 🟠 Give Jim Stoklosa experimentation team feedback (after EH refinement session)
 - 🟠 Clarify Agent Assistant PM role with Bertrand next 1:1
 - 🟠 Join "AEM experience hub extension builder" Slack channel
+- 🟠 Find Canva roadmap planning doc → share with Sorin
+- 🟠 Address prompt search gaps (assets only + context bug) — add to backlog
 
 ---
 
