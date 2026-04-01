@@ -138,6 +138,7 @@ Demo regeneration: message sent April 1 to all owners + Mark Szulc (based in Aus
 
 ## Active Actions This Week
 
+- 🔴 Report hosting — create AEM EDS program for aem-agent-reports, then work with Quentin to add CDN front + Okta auth. Sidekick requirement is a deal breaker for Loni. Current URL: https://main--aem-agent-reports--aem-epa.aem.live/ — Bertrand directed this on April 1.
 - 🔴 Brand Concierge: get Bertrand + Peter answer on option (deadline April 2)
 - 🔴 Data compliance: deliver anonymization response to Bertrand face-to-face
 - 🔴 Follow up on demo prompts — reminder set April 2 noon (Philippe answered, chase the rest)
