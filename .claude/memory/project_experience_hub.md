@@ -60,7 +60,7 @@ Ian confirmed two legal risks with the reporting pipeline:
 1. **Data Residency (contractual breach):** Cross-region pull (VA, NLD2, AUS5, CAN2, GBRS, IND1) breaks contractual requirements for some customers — storage and processing must stay in region.
 2. **Data Governance (deposition risk):** Datasets not registered in Data Governance Catalog — legal exposure if called to provide a deposition. AI class action risk explicitly named.
 
-Felix extracts from AEP Co-pilot Report. Lara Nonino also extracts from AEP Co-Pilot Report for Governance Agent — same source, not a different platform. Same compliance problem. Other agent self-reports may have the same issue.
+AEP Co-Pilot Report provides per-region data — the source is clean. Felix and Lara both extract from it and then aggregate across regions on their side. The compliance breach is in the aggregation step, not at the AEP source. Both pipelines have the same behavior. The fix is a shared compliant aggregation layer, not an AEP platform change. Other agent self-reports may have the same aggregation pattern.
 
 Ian's warning: someone outside AEM BU could shut this down and AEM loses the right to handle prompt data — 100% dependent on AEP. His framing: "prompt data is the most valuable output of everything in P42." Ian strongly prefers fixing this quietly before it surfaces to legal.
 
