@@ -64,9 +64,9 @@ AEP Co-Pilot Report provides per-region data — the source is clean. Felix and 
 
 Ian's warning: someone outside AEM BU could shut this down and AEM loses the right to handle prompt data — 100% dependent on AEP. His framing: "prompt data is the most valuable output of everything in P42." Ian strongly prefers fixing this quietly before it surfaces to legal.
 
-**Anonymization does not solve residency** (confirmed by Ian, April 1): as long as a prompt is readable it remains customer data, and residency obligations follow it. Anonymizing to the point it's no longer customer data breaks data lifecycle (can't delete on customer termination). Operational data classification loophole exists but restricts use to service uptime only — useless for evaluation. Bertrand suggested anonymization; Pedro has response drafted, will deliver face-to-face.
+**Anonymization does not solve residency** (confirmed by Ian, April 1): as long as a prompt is readable it remains customer data, and residency obligations follow it. Anonymizing to the point it's no longer customer data breaks data lifecycle (can't delete on customer termination). Operational data classification loophole exists but restricts use to service uptime only — useless for evaluation.
 
-Proposed path escalated to Bertrand April 1: scope blast radius, accelerate DAS to build compliant infrastructure using Felix's pipeline as the spec.
+**Bertrand's decision (April 1, 2026):** "Ian's comments are important but not critical. We continue with Felix." Pedro escalated correctly with Ian's confirmation and a proposed path. Bertrand made the call to accept the risk and continue. This decision belongs to Bertrand, not Pedro. Pedro's escalation is on record. Decision logged in `/decisions/2026-04-01-data-compliance-continue-felix.md`.
 
 ---
 
