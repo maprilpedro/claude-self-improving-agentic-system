@@ -117,6 +117,53 @@ Use prefixes: `learn:`, `hypothesis:`, `pattern:`, `correct:`, `experiment:`
 - False beliefs need **evidence** for why they're wrong
 - Never delete knowledge -- mark as outdated with reasoning if superseded
 
+## Decision Log
+
+When about to make a decision that affects more than today's task, first grep `/decisions/` for prior decisions in that area. Follow them unless new information invalidates the reasoning.
+
+If no prior decision exists — or you're replacing one — log it:
+
+**File:** `/decisions/YYYY-MM-DD-{topic}.md`
+
+**Format:**
+```
+## Decision: {what you decided}
+## Context: {why this came up}
+## Alternatives considered: {what else was on the table}
+## Reasoning: {why this option won}
+## Trade-offs accepted: {what you gave up}
+## Supersedes: {link to prior decision, if replacing}
+```
+
+---
+
+## Quality Criteria
+
+Before marking any task complete, evaluate it against the quality criteria for this project.
+
+**File:** `/quality/criteria.md`
+
+**Format:**
+```
+# Category: {area — e.g., API design, UI, data}
+## Criteria:
+- {specific, testable check}
+- {specific, testable check}
+## Severity: blocking | warning
+# Source: {where this criterion came from}
+# Last triggered: {date, or "never"}
+```
+
+If `/quality/criteria.md` doesn't exist, create it with initial criteria based on the project's domain and standards. Ask the user to review.
+
+After evaluation, update criteria:
+- Criteria that caught a real issue: note the date
+- Criteria triggered 3+ times: promote to "always check" (run automatically, don't just list)
+- Never triggered after 10+ evaluations: suggest pruning
+- New failure pattern found: flag it and propose a new criterion. Don't add silently.
+
+---
+
 ## Common PM Tasks Routing
 
 | Task | Start Here |

@@ -160,6 +160,21 @@
 - **Why this works**: It turns a human governance process (Shankari manually enforcing the 4-week rule) into an automated one. The PM's role shifts from "enforcer of expiry dates" to "setter of the system rules." Teams know the rules upfront and self-select accordingly.
 - **Connection to contribution model**: This is the contribution model applied to content publishing. The same principles (teams own, platform gates) apply to both widgets and cards.
 
+### Nominal Capacity vs Real Capacity — Plan to What's Actually Available
+- **Date identified**: 2026-04-01
+- **Source**: Sorin 1:1 April 1 — confirmed effectively 1 engineer despite 3 names on the team roster.
+- **Observations**: (1) Experience Hub headcount: Sorin (split across multiple projects), Anna Maria (new intern, not yet ramped), Mircea Salan (internship project, limited scope). Nominal count is 3. Real capacity is ~1. (2) Hiring pipeline best-case adds capacity in May-June — worst case not until summer or positions closed. (3) Sorin's own framing: "We are not a big house, but we are a proud house."
+- **Pattern**: Team headcount in org charts and project charters describes the nominal team — the people assigned. Real capacity is determined by: (1) effective bandwidth per person (how much of each person's time is actually allocated to this work); (2) ramp time for new hires and interns; (3) in-flight commitments that can't be dropped. The gap between nominal and real is usually 40-60% in large orgs.
+- **Why this matters for roadmaps**: A roadmap built to nominal capacity will miss. A roadmap built to real capacity will ship. Planning to nominal looks ambitious. Planning to real looks like leadership.
+- **Application**: Before finalizing any roadmap or quarterly plan, convert headcount to effective bandwidth. For each team member: what % of their time is actually available for new work in this cycle? That number is the planning constraint. Declare 3 engineers for planning purposes if 5 is the minimum needed — but build the roadmap to 3.
+
+### Precise Question Gets Precise Compliance Answer
+- **Date identified**: 2026-04-01
+- **Source**: Pedro's outreach to Ian Boston April 1 — framed as specific data compliance questions, received detailed legal risk confirmation.
+- **Observations**: (1) Vague PM questions ("do you have any concerns?") generate vague responses ("yeah, a few things to watch"). Precise technical questions ("does cross-region aggregation of AEP prompt data violate data residency requirements?") generate precise answers with legal framing and specific risks named. (2) Ian's response confirmed two distinct legal risks — Data Residency (contractual) and Data Governance (deposition) — because the question was scoped enough to draw out both.
+- **Pattern**: When reaching out to technical or legal stakeholders on a risk question, do the pre-work first. Understand enough about the architecture and the regulatory context to ask a specific question. Specific questions are easier to answer — and harder to dismiss. They also signal that you've done homework, which earns a more thorough response.
+- **Application**: Before sending a Slack or email to an SME on a risk topic, write down the specific mechanism you're asking about. "Is X happening? If yes, does it violate Y?" beats "any thoughts on the data stuff?"
+
 ### Jargon as a Sign of Insecurity
 - **Date identified**: 2026-03-19
 - **Observations**: (1) Jobs vs Gates language analysis: Jobs scored dramatically better on every readability metric. (2) Jack Welch despised jargon and fired a leader who couldn't explain his business simply. (3) Suze Orman: "It's our fear of not being important that leads us to communicate in a more complex way than we need to." (4) Mission statements are the worst culprits.

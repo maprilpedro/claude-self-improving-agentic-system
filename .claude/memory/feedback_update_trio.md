@@ -4,11 +4,12 @@ description: After every analysis of meeting notes, transcript, or document — 
 type: feedback
 ---
 
-After every analysis of meeting notes, a transcript, a Slack export, or any significant document — always update these three files in the Obsidian vault without waiting to be asked:
+After every analysis of meeting notes, a transcript, a Slack export, or any significant document — always update these four files in the Obsidian vault without waiting to be asked:
 
 1. `Experience Hub - Stakeholder Map.md` — update roles, status, notes for anyone mentioned
 2. `Experience Hub - State of the Project.md` — update what's working, what's not, risks, architecture direction
 3. `Experience Hub - Questions for Next 1-1 with Sorin.md` — add new questions surfaced by the analysis
+4. `Experience Hub - Questions for Next 1-1 with Bertrand.md` — add/update open asks and items to raise (created April 1, 2026)
 
 **Why:** User set this as a standing rule on 2026-03-24. These three files are the living operational documents for the project. Keeping them current after every new input is the expected default behavior.
 

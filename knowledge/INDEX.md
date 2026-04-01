@@ -13,8 +13,8 @@
 | `false-beliefs/` | PM conventional wisdom proven wrong | Active | 8 |
 | `tools/` | Decision matrix: when to use which PM method/tool | Active | 6 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
-| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 9 |
-| `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 20 |
+| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 12 |
+| `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 22 |
 
 ## Sources Ingested
 
@@ -65,3 +65,4 @@
 | 2026-03-31 | ai-product/, patterns/ | Memory consolidation + learning reflection — auth-walled hosting incompatible with agent consumption, parallel artifact stream divergence pattern |
 | 2026-03-31 | ai-product/, patterns/, hypotheses/ | Session wrap — skills vs prompts, VRR tiered metric, cross-region compliance risk, contribution model pattern, TTL card system, H-005 VRR complication |
 | 2026-03-31 | leadership/, patterns/ | Final consolidation — reframe deprioritized as mechanism, pilot via existing feature, identify scaling constraint before committing to model |
+| 2026-04-01 | ai-product/, leadership/, patterns/ | Full-day EH session — ownership research before acting, regional failure concentration as signal, surface risk before leadership asks, two-consumer platform root cause pattern, fast track as spec for foundation, nominal vs real capacity, precise question gets precise compliance answer |

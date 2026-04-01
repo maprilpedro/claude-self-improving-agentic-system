@@ -91,6 +91,28 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **When to use it**: When you're asked to deprioritize something and you believe removing it degrades something they DO care about. The reframe only works if the dependency is real — don't manufacture the connection.
 - **Sequencing matters**: Win the parent priority first. Once it's committed, the mechanism conversation becomes "here's what we need to do it right." The order matters. Profiling before Skills+MCP is validated = competing priority. Profiling after Skills+MCP is validated = obvious prerequisite.
 
+### Surface the Risk Before Leadership Has to Ask
+- **Date identified**: 2026-04-01
+- **Source**: Ian Boston's data compliance response; Pedro's escalation to Bertrand April 1.
+- **Pattern**: Ian flagged two confirmed legal risks (data residency, data governance deposition) that no one else had raised. Pedro's move was to escalate to Bertrand before Bertrand encountered it through another channel. This is a Senior Director behavior — surfacing a problem before it surfaces itself.
+- **Why it matters**: When leadership discovers a risk on their own or through someone else, the PM is reactive. When the PM surfaces it first — with a diagnosis and a proposed path — they are the person who saw it coming. That's the difference between being reported to and being relied on.
+- **How to execute**: Don't just raise the problem. Come with a proposed path and a framing. "Here's what Ian found. Here's how bad it could be. Here's what I think we do short-term and long-term. I need your read before I move." That's not reporting up — that's leading across.
+- **The failure mode**: Sitting on risk information because it's uncomfortable to bring, or because it's not "officially your problem." If it touches your product, it's yours to raise.
+
+### Two-Consumer Pattern Proves Platform-Level Root Cause
+- **Date identified**: 2026-04-01
+- **Source**: Felix's cross-region report + Lara Nonino's Governance Agent report — both pulling from the same AEP source with the same compliance exposure.
+- **Pattern**: When a problem appears in one consuming system, the root cause could be in that system. When the same problem appears in a second, independent consuming system, the root cause is almost certainly in the shared upstream platform. Pedro correctly reframed the compliance risk from "Felix's pipeline issue" to "AEP platform problem" once Lara's separate pipeline showed the same exposure.
+- **Strategic value**: The two-consumer framing changes the conversation from "fix this team's engineering" to "the platform needs to address this." That's a different escalation path, a different owner, and a different solution scope. It also prevents point-fix solutions that leave the root cause intact.
+- **Application**: Whenever you're diagnosing a shared infrastructure problem, ask: who else consumes this upstream source? If two independent consumers have the same problem, you have a platform issue. Frame it that way to leadership.
+
+### Use the Fast Track as the Spec for the Foundation Track
+- **Date identified**: 2026-04-01
+- **Source**: Two-track reporting infrastructure pattern applied to DAS compliance path.
+- **Pattern**: In any situation where a quick-iteration solution exists alongside a longer infrastructure build, the fast track's output can become the spec for the foundation. Felix's Python pipeline — already built and demonstrating what the reports need to contain — becomes the requirements document for DAS building compliant infrastructure. Don't let the fast track and the foundation track run independently; feed one into the other.
+- **Why Senior Directors use this**: It compresses the timeline for the foundation build (they're not guessing at requirements), it legitimizes the fast track (it wasn't a throwaway — it was a prototype), and it positions the PM as someone who planned for the handoff. That reads as operational maturity.
+- **Application**: When a fast-track solution is at ~80% stability, document what it does. That documentation is the foundation team's spec. Hand it explicitly, not implicitly.
+
 ### Durable Themes Beat Brittle Roadmaps
 - **Date identified**: 2026-03-26
 - **Source**: Loni's direction in Session I and Session IV. AEM moving from "here are the 12 features we'll ship in H1" to "content management to context management" as the organizing frame.

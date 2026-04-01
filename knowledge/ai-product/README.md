@@ -188,6 +188,19 @@
 - **Why PMs need to own this**: PMs who commission reporting infrastructure are often unaware of data governance constraints. Engineering builds what is technically possible. Legal and data governance teams are not automatically in the loop. The PM asking "do we have the right to do this?" is the right check.
 - **Application**: Before scaling any cross-region AI measurement pipeline, explicitly ask: what data residency rules apply to each region? Has legal signed off on cross-region aggregation? If using an observability layer (OpenTelemetry, Langfuse, etc.), does that tool's data handling match the governance requirements?
 
+### Confirm Ownership Before Acting — Research First, Assume Nothing
+- **Date identified**: 2026-04-01
+- **Source**: AI-Assistant-Findings.md analysis; hanessia and igrafutko ownership chain confirmed.
+- **Insight**: In cross-functional AI programs, PM ownership chains are rarely clean. Adjacent PMs often don't know who owns what. Pedro's situation: he was 3 weeks in and unclear whether he was a contributor or PM of record on Agent Assistant. The right move was to read the available documentation before taking a position in a Bertrand 1:1. The findings file confirmed hanessia owns the master PRDs and igrafutko owns QI — Pedro is a contributor on the EH integration surface, not PM of record.
+- **Pattern**: Before claiming, disclaiming, or negotiating scope in any cross-team AI program, identify: who has a published PRD? Who runs the QI review? Who do agents on the program report to? Those answers define PM of record. You are a contributor until proven otherwise.
+- **Application**: Entering a scope conversation with a stated read ("my read is X — is that yours?") is far stronger than entering with an open question ("so what exactly is my role?"). Research the org before the meeting.
+
+### Regional Failure Concentration Is a Diagnostic Signal
+- **Date identified**: 2026-04-01
+- **Source**: AI-Assistant-Findings.md — NLD2 46% failure rate across agent interactions.
+- **Insight**: When failure rate data is available by region, look for concentration before averaging. NLD2 showing a 46% failure rate while overall rates are lower means the aggregate number understates the problem in that region and overstates it in others. A regionally concentrated failure pattern suggests an infrastructure, latency, or configuration issue specific to that region — not a prompt quality or agent logic problem.
+- **Application**: Any cross-region AI product should segment failure data by region before drawing conclusions. If one region is significantly worse, investigate root cause (data residency, latency, regional model deployment) before averaging it away.
+
 ### Monetization Is Unresolved When Agents Replace Seats
 - **Date identified**: 2026-03-26
 - **Source**: Loni's Session IV (Surfaces, March 26). Haresh Kumar raised; Loni and Bertrand acknowledged.
