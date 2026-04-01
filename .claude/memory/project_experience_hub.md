@@ -139,12 +139,13 @@ Demo regeneration: message sent April 1 to all owners + Mark Szulc (based in Aus
 ## Active Actions This Week
 
 - 🔴 Report hosting — create AEM EDS program for aem-agent-reports, then work with Quentin to add CDN front + Okta auth. Sidekick requirement is a deal breaker for Loni. Current URL: https://main--aem-agent-reports--aem-epa.aem.live/ — Bertrand directed this on April 1.
+- 🟡 Report to JIRA pipeline — project started: `/Users/pedrofer/GitHub/adbe-agent-report-to-jira`. First trial complete: PROCEDURE.md written, EGA epic AEMAGT-1240 created and updated (description + Philippe Kapfer as assignee), two stories auto-generated (AEMAGT-1241, AEMAGT-1242). Agent-Owner-Epic-Mapping.md at `/setup/`. Email sent to Philippe + Bertrand for feedback. Next: incorporate feedback, expand to other agents.
 - 🔴 Brand Concierge: get Bertrand + Peter answer on option (deadline April 2)
 - 🔴 Data compliance: deliver anonymization response to Bertrand face-to-face
 - 🔴 Follow up on demo prompts — reminder set April 2 noon (Philippe answered, chase the rest)
 - 🟠 Get on Sorin + Eugene email thread on UX AI framework
 - 🟠 Review Eugene's design view on Skills/MCP before going to Guliz
-- 🟠 Sync with Felix early week of April 7 on JIRA integration
+- 🟠 Sync with Felix early week of April 7 on report-to-JIRA pipeline progress
 - 🟠 Get VRR tier definition from Raul / Yanira's wiki
 - 🟠 Clarify Agent Assistant PM role with Bertrand next 1:1
 - 🟠 Join "AEM experience hub extension builder" Slack channel

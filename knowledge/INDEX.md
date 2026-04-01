@@ -67,3 +67,4 @@
 | 2026-03-31 | leadership/, patterns/ | Final consolidation — reframe deprioritized as mechanism, pilot via existing feature, identify scaling constraint before committing to model |
 | 2026-04-01 | ai-product/, leadership/, patterns/ | Full-day EH session — ownership research before acting, regional failure concentration as signal, surface risk before leadership asks, two-consumer platform root cause pattern, fast track as spec for foundation, nominal vs real capacity, precise question gets precise compliance answer |
 | 2026-04-01 | ai-product/, leadership/, patterns/ | EH afternoon — anonymization doesn't fix residency (Ian's stolen data framing), fix it quietly before legal, preview link pattern for summit demos, hard deadlines force scope clarity |
+| 2026-04-01 | ai-product/ | Report-to-backlog pipeline trial — auto-generating JIRA stories from HTML report output, epic-per-agent triage structure, agent-owner-epic mapping |
