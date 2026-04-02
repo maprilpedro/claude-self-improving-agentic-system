@@ -183,3 +183,43 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **Date**: 2026-04-02
 - **Insight**: Greene argues that how you conclude something matters as much as how you begin it. A messy exit — from a project, a partnership, an initiative — creates lingering enemies and unresolved obligations that resurface at the worst moments. The highest strategic wisdom is avoiding entanglements that have no clean exit from the start.
 - **PM Application**: Before committing to a new cross-org initiative, integration, or dependency, ask: what does the exit look like if this doesn't work? Features that can't be removed create permanent maintenance obligations. Partnerships with no defined end state drift forever. The PM who can articulate the success criteria and the wind-down condition before signing up is operating at a different level than the one who just says yes to get alignment.
+
+---
+
+## Influence and Presence (from Greene, *The Art of Seduction*)
+
+### Attention Is the Currency — Redirect It Away from Yourself
+- **Source**: Greene, *The Art of Seduction*, The Charmer chapter
+- **Date**: 2026-04-02
+- **Insight**: Charmers gain power by directing attention outward, not inward. Their targets become the center of interest. Benjamin Disraeli's method with Queen Victoria: ask about her ideas, praise her judgment in front of others, present his own political accomplishments as realizations of her vision. The target feels elevated, not flattered. As Disraeli noted: "Talk to a man about himself and he will listen for hours." People become dependent on whoever makes them feel like the most interesting person in the room.
+- **PM Application**: In exec conversations, the instinct is to demonstrate your own knowledge. The Senior Director move is to demonstrate that you understand theirs. Ask Bertrand or Loni the question that shows you've thought about their problem, not just your answer. Make them feel like their perspective shaped the solution. This is not sycophancy — it's a form of respect that creates alignment faster than any argument.
+
+### Mirror the Room — Adapt Your Style to Disarm Resistance
+- **Source**: Greene, *The Art of Seduction*, The Charmer chapter (Zhou Enlai example)
+- **Date**: 2026-04-02
+- **Insight**: Zhou Enlai disarmed Stalin not by arguing but by adapting — agreeing that China had much to learn from the Soviets, praising Soviet guidance, showing genuine appreciation for their vodka. He got better terms than China's position warranted because he made Stalin feel superior. The technique: show the other party that you share their values and language. Let them feel they are leading. Get what you need through indirection.
+- **PM Application**: When walking into a cross-org alignment meeting with a stakeholder who is skeptical or resistant, don't open with your position. Open by demonstrating that you understand their world — their constraints, their language, their priorities. The resistance drops before the conversation starts. At Adobe, this means speaking in content management terms when talking to AEM engineers, and in business outcomes terms when talking to VP-level stakeholders. Same message, different code.
+
+### Withhold Slightly — Availability Destroys Gravity
+- **Source**: Greene, *The Art of Seduction*, The Coquette chapter (Josephine Bonaparte pattern)
+- **Date**: 2026-04-02
+- **Insight**: The Coquette's power comes from selective unavailability. Josephine kept Napoleon in a perpetual state of uncertainty — warm, then distant; engaged, then withdrawn. This created pursuit rather than complacency. Greene's principle: total availability destroys desire and gravity. The person who is always accessible, always responsive, always present gets taken for granted. Controlled absence creates value.
+- **PM Application**: A PM who responds to every Slack message within minutes, accepts every meeting request, and makes themselves constantly available to every stakeholder trains people to expect that. Selective delays — finishing your own work before responding, declining non-essential meetings, being harder to reach on the days you need deep work — signal that your time has value. This is not anti-social behavior. It is a form of professional gravity. Applied to Bertrand and Loni: brief, high-quality interactions > constant low-quality presence.
+
+### Charisma Is a Learnable Signal — Purpose, Mystery, Calm
+- **Source**: Greene, *The Art of Seduction*, The Charismatic chapter
+- **Date**: 2026-04-02
+- **Insight**: Greene identifies the core components of charisma as learnable: Purpose (people follow those who seem to know where they're going, regardless of whether the direction is correct), Mystery (contradictions and things left unexplained make you harder to dismiss), Calm under pressure (Olympian composure in turbulent situations reads as competence far beyond its actual source), and Fervency (genuine belief in a cause, which cannot be fully faked). De Gaulle's charisma in the Algeria crisis came not from passion but from theatrical calm — the one still person in a panicking system.
+- **PM Application**: At Adobe, this translates to: have a clear point of view about where the product is going (purpose); don't explain every decision immediately — let some things speak for themselves (mystery); be the calmest person in the room when the roadmap is on fire (calm); and actually believe in the Experience Hub vision (fervency). The first three can be worked on consciously. The fourth either is or isn't there.
+
+### Soft Sell — Appear as a Trend, Not a Pitch
+- **Source**: Greene, *The Art of Seduction*, Appendix B: Soft Seduction
+- **Date**: 2026-04-02
+- **Insight**: The hard sell — direct argument, statistics, expert quotes, explicit persuasion — triggers resistance. The soft sell works through indirection: create positive associations around your message first, let people discover the argument themselves, make the adoption look like everyone is already doing it. Edward Bernays understood this in 1929: manufacture an event that the media covers as news, and you've bypassed every advertising defense the audience has. The key rules are: appear as news not as publicity; stir basic emotions not analytical thought; make the medium (the visual, the setting, the story) do the work the content cannot.
+- **PM Application**: When you want to shift a strategic direction at Adobe, don't write a memo arguing for it. Create conditions where the conclusion feels inevitable. Show up to Loni's session having already done the analysis, already having talked to three stakeholders, already having a draft one-pager. Make the idea look like it has momentum before it officially exists. Don't pitch the narrative — create evidence that the narrative is already true. This is the PM version of the soft sell.
+
+### The Anti-Seducer Audit — Traits That Kill Influence
+- **Source**: Greene, *The Art of Seduction*, The Anti-Seducer chapter
+- **Date**: 2026-04-02
+- **Insight**: Greene identifies anti-seductive behaviors that repel rather than attract: The Brute (impatience, zero tolerance for delay, visible self-absorption); The Windbag (talking too much, especially about yourself, breaking the spell with excess words); The Reactor (hypersensitivity to slights, visible ego bruising); The Moralizer (rigid standards, relentless judgment of others' work); The Bumbler (self-consciousness that becomes contagious, making everyone around you uncertain). Each of these stems from insecurity.
+- **PM Application**: Run this as a quarterly self-audit. Do you talk more than you listen in exec meetings? Do you visibly react when your ideas get challenged? Do you lecture team members about quality standards rather than demonstrating them? Do you move so fast you break others' ability to commit? The insecurity signals are the most damaging because they're invisible to the person displaying them. Ask someone you trust to give you honest feedback on which of these shows up in your behavior.

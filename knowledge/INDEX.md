@@ -14,6 +14,7 @@
 | `tools/` | Decision matrix: when to use which PM method/tool | Active | 6 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
 | `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 22 |
+| `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries | Active | 0 |
 | `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 23 |
 
 ## Sources Ingested
@@ -45,8 +46,13 @@
 | Pattern recognition | `patterns/` | `hypotheses/active.md` |
 | Preparing a presentation | `tools/` (Headline, Rule of Three, PSE) | `patterns/` (Nine Elements, Holy Shit Moment) |
 | Stakeholder communication | `domain/` (Stakeholder Management) | `tools/` (Bucket Method, Elevator Pitch) |
+| Reading a specific person | `interpersonal/` | `leadership/` |
+| Managing up (Bertrand, Loni) | `interpersonal/` (Managing Up) | `leadership/` |
+| Managing laterally (peers, cross-org) | `interpersonal/` (Managing Laterally) | `leadership/` (Cross-Org Influence) |
+| Dealing with an adversary or difficult person | `interpersonal/` (Conflict and Adversaries) | `false-beliefs/` |
+| Building trust with a new team or stakeholder | `interpersonal/` (Building Trust) | `patterns/` |
 | Senior Director visibility | `leadership/` | `hypotheses/active.md` (H-003, H-005) |
-| Cross-org influence | `leadership/` (Cross-Org Influence Without Authority) | `patterns/` (Capacity-Ask Mismatch) |
+| Cross-org influence | `leadership/` (Cross-Org Influence Without Authority) | `interpersonal/`, `patterns/` (Capacity-Ask Mismatch) |
 | AI product / agent work | `ai-product/` | `false-beliefs/` (FB-006, FB-007, FB-008) |
 | Agent measurement | `ai-product/` (Measurement section) | `hypotheses/active.md` (H-005) |
 | Surface strategy | `ai-product/` (Surface Strategy section) | `leadership/` (Pick Up the Open Action Item) |
