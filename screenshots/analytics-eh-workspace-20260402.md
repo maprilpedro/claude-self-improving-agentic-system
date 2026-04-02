@@ -95,6 +95,25 @@
 
 ---
 
+---
+
+## AEM User Base - Experience Hub Adoption Funnel (Screenshot 8)
+**Segment:** AEM All Surfaces + external users only (User is internal flag = False)
+**Date range:** Last 7 days — Mar 27–Apr 2, 2026
+
+| Step | People | % of total |
+|---|---|---|
+| All AEM external users | 48,450 | 100% |
+| Loaded EH (eventual path) | 17,583 | 36.3% |
+| Selected a profile | 16,926 | 34.9% |
+
+**Key ratios:**
+- EH penetration of AEM user base: **36.3%**
+- EH → profile selection conversion: **96.3%** (16,926 / 17,583)
+- Drop-off happens BEFORE EH, not inside it
+
+---
+
 ## Gaps noted
 - experienceManagerUI (old EH) = 0 path views — confirms migration to aem-home-ui complete
 - experience-platform-self-service-ui-landing = 0 people — that surface has no traffic
