@@ -266,6 +266,30 @@ Directors own their product area. Senior Directors shape decisions across areas 
 
 ---
 
+## Leverage and Influence Architecture (from McIntyre, *Organizational Politics*)
+
+### The Leverage Equation — Why Some People Get What They Want
+- **Source**: McIntyre, *Organizational Politics* (Ch 3 — Leverage)
+- **Date**: 2026-04-02
+- **Insight**: McIntyre's central model for organizational effectiveness is leverage: the degree to which others need, value, or depend on what you provide. Leverage is not manipulation — it is the honest assessment of what makes you worth listening to, worth sponsoring, worth promoting. The leverage equation: what you have that others value, divided by how easily it can be replaced. High leverage means high value and low substitutability. Low leverage means easily replaceable regardless of effort level.
+- **Leverage Boosters** (McIntyre's specific factors that increase leverage):
+  1. Results — delivering outcomes others can point to
+  2. Knowledge — domain expertise others don't have and can't easily acquire
+  3. Attitude — being someone people want to work with, which is separate from skill
+  4. Empathy — reading what people actually need and delivering it
+  5. Networks — relationships that give you access others don't have
+  6. Inclusion — making others feel part of your work and victories
+  7. Detachment — not needing the outcome so badly that you'll compromise to get it
+- **The Detachment insight**: McIntyre is clear that emotional detachment from outcomes is itself a leverage booster. The person who desperately needs the promotion, the approval, the deal — is less effective in pursuing it than the person who wants it but can live without it. Desperation is visible and it makes others uncomfortable.
+- **PM application at Adobe**: Map your leverage against each relevant decision-maker. For Bertrand: Results + Knowledge + Networks = strong leverage. For Loni: Knowledge is growing, Results are beginning to be visible, but Inclusion and Empathy in her world need to be built. The weakest leverage link determines the outcome. Strengthen the weakest link, not the strongest.
+
+### Organizational Facts of Life — The System You Cannot Change
+- **Source**: McIntyre, *Organizational Politics* (Ch 2 — Organizational Facts of Life)
+- **Date**: 2026-04-02
+- **Insight**: McIntyre lists five facts about how organizations work that most people spend energy resisting instead of working within. (1) Decisions are made by humans who have biases, preferences, and personal agendas — logic alone doesn't move them. (2) Resources are always finite, and who gets them is a political question, not a meritocratic one. (3) Some people will dislike you regardless of your behavior — you cannot earn your way out of a personal incompatibility. (4) The informal organization matters more than the formal one: who talks to whom before meetings, whose concerns actually stop proposals, who gets cc'd and why. (5) Organizations are slow to recognize mistakes and even slower to fix them.
+- **Political Intelligence (PI)**: McIntyre's concept for the skill of operating effectively within these facts without being corrupted by them. High PI means you understand the system, work within it strategically, and maintain your integrity. Low PI means you're constantly surprised by the system and interpret its behavior as personal.
+- **PM application**: The list of Organizational Facts of Life is a diagnostic. Every time you're frustrated by the org's behavior, identify which fact you're encountering. That shifts the response from "this is unfair" to "this is predictable — how do I work with it?"
+
 ## Political Success and Systemic Visibility (from McIntyre, *Organizational Politics*)
 
 ### The Four P's of Political Success
@@ -301,3 +325,34 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **The discipline**: Run this as a quarterly review, not a one-time exercise. Organizational dynamics shift. Sponsors get promoted, move on, or change their priorities. The plan tracks with reality.
 - **Why most people don't do this**: It feels calculating. The Purist in every senior PM resists treating their career as a game with explicit strategy. McIntyre's response: the game is being played whether you play it or not. The only variable is whether you're playing intentionally or just showing up and hoping.
 - **PM application**: Current game plan state — Bertrand sponsorship is solid and active. Loni sponsorship is being built; the Surfaces session contribution and Hero Surfaces one-pager are the leading edges. The 90-day window is the Skills+MCP launch. That launch needs to be legible, visible, and attributable.
+
+### Strategy 5 — Increase Your Leverage When You Can't Get What You Want Alone
+- **Source**: McIntyre, *Organizational Politics* (Ch 11 — Political Game Plan, Strategy 5)
+- **Date**: 2026-04-02
+- **Insight**: When your current leverage is insufficient to achieve your goal, the answer is not to push harder with what you have. It's to systematically build leverage by running the Four P's through the lens of your specific goal. McIntyre's framework applied to leverage-building: (1) Power Assessment: who are the decision-makers for this specific outcome? What factors move them in your favor? What could reduce your leverage? (2) Performance: do you have the specific credentials, track record, and visible accomplishments that these decision-makers view as necessary? If not, what work builds them? (3) Perception: how are you viewed by the people who control the outcome? If they don't know you, you're a risk. If they know you as wrong for it, you have to change the perception. (4) Partnerships: whose support increases your probability of success? Who is already your ally, and who needs to be cultivated?
+- **The Power Elite filter**: When building leverage, always run your plan through the Power Elite's values first. They hold veto power over almost any decision that matters. If your leverage-building activities are invisible to or irrelevant to the Power Elite, they won't produce the outcome you need.
+- **PM application**: Pedro's goal is Senior Director. The decision-makers for that outcome are Bertrand (immediate) and Loni (directional). Bertrand needs: reliable execution + strategic framing. Loni needs: credible AI product leadership. The leverage-building activity for Q2 2026 is the Skills+MCP launch — it hits both Bertrand and Loni's criteria simultaneously. That's why it's the right 90-day bet.
+
+### The Stop, Start, Continue Tool — Turning Strategy into Behavior
+- **Source**: McIntyre, *Organizational Politics* (Ch 11 — Political Game Plan: Stop, Start, Continue)
+- **Date**: 2026-04-02
+- **Insight**: McIntyre's practical tool for translating political strategy into specific behavior changes. Three questions: (1) Stop — what behaviors or activities are you currently doing that work against your goals? (2) Start — what new behaviors would help you reach your goals that you're not currently doing? (3) Continue — what are you already doing that is working and should be maintained? The power of the tool is specificity. "Communicate better" is not useful. "Stop giving context to Loni before the headline" is actionable.
+- **Why it works**: Most people can identify strategic goals but cannot translate them into the specific behaviors that would actually accomplish them. The Stop/Start/Continue format forces that translation. It also prevents the common failure of only adding new behaviors while keeping all the counterproductive ones.
+- **Applying it to Pedro's situation**:
+  - Stop: Over-explaining context before the headline in exec sessions. Accepting low-value meetings that fragment focus time. Defaulting to frameworks when a direct position is what's needed.
+  - Start: Naming Experience Hub wins with your name explicitly attached in artifacts. Building one meaningful lateral relationship per week. Running the Four P's check at the start of each quarter.
+  - Continue: Surfacing risks before leadership has to ask. Validating with Bertrand before sharing broadly. Connecting every artifact to the Project 42 frame.
+- **Review cadence**: Run this quarterly or when a significant strategic situation changes. Grade yourself on the Stop behaviors especially — they are the hardest to change and the most likely to undermine progress.
+
+### The 7 Fundamentals of Political Success — McIntyre's Core Principles
+- **Source**: McIntyre, *Organizational Politics* (Ch 12 — A Personal Political Note)
+- **Date**: 2026-04-02
+- **Insight**: McIntyre closes with seven principles she identifies as shared by every genuinely effective person she has observed across careers. These are not strategies — they are character foundations that make all the strategies sustainable.
+  1. Be honest and ethical. Reputation for trustworthiness is the slowest to build and fastest to destroy. People forgive mistakes; they don't forgive dishonesty.
+  2. Believe in yourself. Insecure people compensate in politically destructive ways — either through aggression or through endless approval-seeking. Self-confidence is not arrogance; it's the absence of the need to prove yourself constantly.
+  3. Believe in your work. If you can find genuine purpose in what you're building, you become more effective and more resilient. Cynicism about your own work is visible and contagious.
+  4. Do the best job you can. High performers are rare. The people who always deliver — regardless of circumstances, recognition, or reward — stand out. Organizations are full of people who give 70%.
+  5. Keep your commitments. Undependability is a career-killer that accumulates quietly. One broken commitment is recoverable. A reputation for unreliability is not.
+  6. Be a pleasant person. People are drawn to rewarding interactions and avoid punishing ones. A PM who is difficult, tense, or exhausting to be around creates invisible costs that eventually price them out of rooms.
+  7. Feel genuine respect for everyone. Not the performance of respect — the actual belief that everyone has worth. McIntyre saw this in the people she most admired: "Money, status, position, titles — none of that mattered. What did matter was the way someone lived their life and treated other people."
+- **PM application**: This list is a character diagnostic, not a tactic list. Run it as an honest self-assessment annually. The ones that are hardest to hold up to are the most important. For the promotion path specifically: items 2, 4, and 5 directly affect how leadership sees Pedro at the Senior Director level. Item 6 matters more at higher levels because the work becomes more people-dependent and less artifact-dependent.

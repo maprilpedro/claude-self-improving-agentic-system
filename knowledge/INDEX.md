@@ -6,14 +6,14 @@
 
 | Folder | Purpose | Status | Entries |
 |--------|---------|--------|---------|
-| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 19 |
-| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 28 |
+| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 24 |
+| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 34 |
 | `hypotheses/active.md` | Hypotheses currently being tested | Active | 5 |
 | `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Empty | 0 |
-| `false-beliefs/` | PM conventional wisdom proven wrong | Active | 14 |
+| `false-beliefs/` | PM conventional wisdom proven wrong | Active | 18 |
 | `tools/` | Decision matrix: when to use which PM method/tool | Active | 6 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
-| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 32 |
+| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 38 |
 | `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries | Active | 12 |
 | `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 23 |
 
@@ -21,6 +21,7 @@
 
 | Source | Date | Type | Key Contributions |
 |--------|------|------|-------------------|
+| Greene, *The 48 Laws of Power* | 2026-04-02 | Book | Reputation as infrastructure, never outshine the master, absence increases value, managing envy as visibility rises, stop at the goal, formlessness as career strategy, self-interest as persuasion key, reform gradually, isolate key blockers, hearts before arguments, false beliefs about transparency/verbosity/availability/timidity |
 | McIntyre, *Organizational Politics* | 2026-04-02 | Book | Four political types, recognizing supporters/adversaries, dealing with annoyances vs adversaries, toxic workplace signals, political suicide patterns (emotion hazards, victim framing, bridge burning), position vs personal power, managing up/laterally/down, Four P's of political success, visible results, Power Grid mapping, Political Game Plan |
 | Greene, *The Art of Seduction* | 2026-04-02 | Book | Attention redirection, mirroring, strategic withdrawal, charisma components, soft sell, anti-seducer audit, myth over logic, purpose creates followership, reading people vs stated preferences |
 | Greene, *The 33 Strategies of War* | 2026-04-02 | Book | Strategic positioning, polarity strategy, grand strategy, coalition-building, alliance strategy, negotiation while advancing, counterattack strategy, presence of mind, exit strategy, false beliefs about consensus/retreat/first-mover |
@@ -83,3 +84,4 @@
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | 33 Strategies of War ingestion — strategic positioning (polarity, grand strategy, intelligence), coalition patterns, false beliefs about consensus/retreat/first-mover advantage |
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | Art of Seduction ingestion — attention redirection, mirroring, charisma components, soft sell, anti-seducer audit, purpose creates followership, myth over logic, FB-013 directness, FB-014 charisma |
 | 2026-04-02 | interpersonal/, leadership/ | McIntyre ingestion — Four political types, supporters/adversaries, toxic signals, political suicide patterns, position vs personal power → interpersonal/; Four P's, visible results, Power Grid, Political Game Plan → leadership/ |
+| 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | 48 Laws of Power ingestion — reputation, never outshine, formlessness, stop at goal, envy management, self-interest persuasion, gradual reform, isolate blockers, win hearts first, mirror to disarm; FB-015 through FB-018 |

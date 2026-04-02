@@ -299,3 +299,55 @@
 - **Pattern**: In corporate environments, most people over-promise and under-deliver, or make implicit commitments that evaporate. The PM who consistently does what they said — returns the email, writes the doc, follows up on the action item, remembers the conversation — stands out not by being dramatic but by being reliable. Over time, reliability becomes trust, and trust becomes influence.
 - **When it works**: Always. This is a compounding behavior.
 - **When it fails**: The only failure mode is promising things you don't do. The solution is to under-promise and over-deliver, or simply to say no upfront rather than yes with no follow-through.
+
+---
+
+## Power Patterns (from Greene, *The 48 Laws of Power*)
+
+### Concentrate Force at One Point — Single Decisive Blow
+- **Source**: Greene, *The 48 Laws of Power*, Law 23 (Concentrate Your Forces) and Law 29 (Plan All the Way to the End)
+- **Date**: 2026-04-02
+- **Observations**: (1) Rothschild's fortune was built on concentration, not diversification — single source, the British government debt, rather than spreading across markets. (2) Rommel's desert campaign succeeded through concentrated mobile force, not static defense. (3) Greene: "Intensity defeats extensity every time."
+- **Pattern**: In resource-constrained environments (which all PM environments are), spreading attention creates average results everywhere. Concentrating all available force on one goal or one product surface creates breakthrough results that compound. The temptation is to cover everything. The discipline is to choose one thing and make it undeniable.
+- **When it works**: When you can correctly identify the one thing that has the highest leverage. When the organization will let you focus.
+- **When it fails**: When the "single point" is wrong. When dependencies on other workstreams are so tight that concentration ignores real constraints.
+
+### Court Attention — Absence and Presence as Instruments
+- **Source**: Greene, *The 48 Laws of Power*, Law 6 (Court Attention at All Cost) and Law 16 (Use Absence to Increase Respect and Honor)
+- **Date**: 2026-04-02
+- **Observations**: (1) P.T. Barnum manufactured controversy and spectacle because in his world indifference was the only real death. (2) Geronimo's value to the US cavalry rose dramatically after his surrender — his absence from the field made his presence at exhibitions mythic. (3) The Duke of Deuxponts example: refused to be seen in public during a period of unpopularity, returned to a court hungry for his presence.
+- **Pattern**: Visibility must be managed, not maximized. Too much presence and you become background noise. Strategic absence — not attending every meeting, being selectively unavailable — increases demand for your presence. The goal is not constant visibility but memorable visibility. Every appearance should be deliberate.
+- **When it works**: When you have established a baseline of presence and credibility. Strategic absence only works if people know what they're missing.
+- **When it fails**: Before you've established value. Absence from people who don't yet know your worth is just absence.
+
+### Isolate the Key Blocker — Separate Before Confronting
+- **Source**: Greene, *The 48 Laws of Power*, Law 42 (Strike the Shepherd and the Sheep Will Scatter)
+- **Date**: 2026-04-02
+- **Observations**: (1) Pope Boniface VIII isolated Dante Alighieri from the White faction in Florence — removing Dante from Florence destroyed the Whites as a political force. (2) Athens used formal ostracism to neutralize its most powerful citizens precisely when they were most dangerous. (3) Greene: "One resolute person can turn a flock of sheep into a den of lions."
+- **Pattern**: When a cross-org initiative faces organized resistance, the resistance is almost never uniform. It has one or two people driving it. Identify who is the "shepherd" — the person whose energy and will sustain the opposition. Neutralize that person first (through alignment, isolation, or reframing), and the rest of the opposition loses cohesion. Do not fight the broad coalition; address the driving force.
+- **When it works**: When the blocking force is genuinely concentrated in one person or small group. When you can reach that person through legitimate channels.
+- **When it fails**: When resistance is genuinely distributed and principled, not driven by one champion. When isolating the shepherd makes them a martyr.
+
+### Win Hearts Before Winning Arguments — Emotional Conversion First
+- **Source**: Greene, *The 48 Laws of Power*, Law 43 (Work on the Hearts and Minds of Others)
+- **Date**: 2026-04-02
+- **Observations**: (1) Chuko Liang captured and released the enemy general Menghuo seven times, winning genuine loyalty rather than forced submission. Each release was a demonstration of strength and generosity. (2) Marie-Antoinette ignored the hearts of the French people and paid with her head. Coercion always creates a larger resistance behind the surface compliance. (3) Greene: "The quickest way to secure people's minds is by demonstrating, in actions rather than words, how an action will benefit them."
+- **Pattern**: Technical correctness and logical arguments do not move people. What moves people is the belief that you understand them, care about their interests, and are acting in their favor. The PM who wins alignment by making the other party feel seen and benefited gets durable buy-in. The PM who wins by being logically right gets grudging compliance that evaporates when convenient.
+- **When it works**: In any alignment situation where the other party has sufficient autonomy to resist. Cross-org stakeholders, platform consumers, product teams.
+- **When it fails**: When you don't have the time or enough access to understand what the other party actually cares about. In crisis situations where speed requires directive behavior.
+
+### Mirror to Disarm — Reflect Back to Neutralize
+- **Source**: Greene, *The 48 Laws of Power*, Law 44 (Disarm and Infuriate with the Mirror Effect)
+- **Date**: 2026-04-02
+- **Observations**: (1) Fouché dismantled Napoleon's spy network by building his own that mirrored it exactly — Napoleon could not attack what looked like his own work. (2) The Narcissus Effect: Marie Mancini reflected Louis XIV's idealized self back to him — he fell in love with the vision. (3) Ivan the Terrible placed Simeon on the throne as a mirror, demonstrating to the boyars what they claimed to want — it horrified them into compliance. (4) The Hallucinatory Effect: Yellow Kid Weil recreated a fake bank with such accuracy that the illusion was indistinguishable from reality.
+- **Pattern**: People cannot easily attack what looks like their own behavior or values reflected back at them. When faced with resistance, adopt the other party's language, framework, and stated values — then show how your initiative is a logical extension of what they already believe. They are fighting their own reflection.
+- **When it works**: In cross-org situations where the other party has publicly stated values or priorities you can align with.
+- **When it fails**: When the mirroring is obvious or feels manipulative. When there is no genuine connection between your goal and their stated values.
+
+### Reform Gradually — Borrow From the Past to Change the Present
+- **Source**: Greene, *The 48 Laws of Power*, Law 45 (Preach the Need for Change, but Never Reform Too Much at Once)
+- **Date**: 2026-04-02
+- **Observations**: (1) Cromwell's radical Protestant revolution — destroying every vestige of the past — triggered such massive resistance that it collapsed into chaos and his execution. (2) Mao cloaked Communist revolution in Robin Hood imagery from Chinese history ("Water Margin"), making radical change feel like a return to Chinese tradition. (3) Greene: "People are creatures of habit. Too much innovation can disturb them and destroy the familiar patterns they rely on."
+- **Pattern**: Change is easiest when it looks like continuity. Frame new directions as extensions or improvements on existing practice, not departures from it. Connect the new to something the audience already values. The most successful product pivots are framed as "the natural next step" rather than "something completely different." The radicalism is in the execution, not the framing.
+- **When it works**: In large orgs with established norms and risk-averse cultures. When you need broad buy-in from people who are comfortable with the status quo.
+- **When it fails**: When the change is genuinely incompatible with the past and the framing becomes dishonest. When speed is required and gradual introduction creates its own risks.

@@ -97,6 +97,20 @@
 - **The cardinal rule**: Never let an adversary see that they've affected you emotionally. Emotional reaction is the confirmation they were looking for. Respond with calm and facts. Return to the work.
 - **PM application**: Before escalating any interpersonal tension to Bertrand, assess: is this an annoyance or an adversary? If annoyance, handle it directly first. Only escalate true adversarial behavior, and only with documented examples, not frustration.
 
+### Converting Adversaries — When It's Worth Trying
+- **Source**: McIntyre, *Organizational Politics* (Ch 4 — Converting Adversaries)
+- **Date**: 2026-04-02
+- **Insight**: Most adversarial relationships exist because two people have conflicting goals or one person is threatening the other's path to success. Adversaries are not always enemies — they're people running a different calculation. Change the calculation and you can change the relationship. The conversion protocol: (1) Consider their point of view genuinely. What are their goals? Are you threatening them? (2) Test whether conversion is possible — people with common goals are potential allies unless one is a Sociopath or Dimwit. (3) If conversion is possible, have the direct conversation: agree to focus on the future, not the past, share each side's perspective without debate, identify strategies for assisting each other. (4) If conversion fails, increase your leverage so they cannot impede you. (5) If leverage-building also fails, direct containment — insist on clear boundaries of responsibility — and escalate only as an absolute last resort. Escalation involving higher-level managers always generates unintended consequences.
+- **The adversary math**: Converting an adversary to neutral improves your situation twice — you lose an obstacle and remove a potential recruit against you. Even a modest chance of conversion is worth attempting.
+- **PM application**: Before writing off any organizational adversary, run the conversion test: can I identify their goals? Are any compatible with mine? If yes, try the conversation. If no, move to leverage-building. Never skip straight to escalation.
+
+### The AMISH Behavior Change Framework
+- **Source**: McIntyre, *Organizational Politics* (Ch 6 — AMISH)
+- **Date**: 2026-04-02
+- **Insight**: When McIntyre's political suicide audit (Ch 6) identifies a behavior you need to change, she provides a five-step change model to make that change durable rather than temporary. The model: (A) Awareness — you must first be able to see the behavior happening as it happens, not just in retrospect. (M) Motivation — you need a reason that matters enough to sustain the effort. Abstract reasons fail; concrete consequences succeed. "If I keep doing this, I won't get promoted" is stronger than "it's unprofessional." (I) Identification — identify the specific trigger situations. The behavior doesn't happen randomly; it happens in particular contexts. Name them. (S) Substitution — identify the replacement behavior you'll use in those trigger situations. Not "stop doing X" but "when X arises, do Y instead." (H) Habits — practice the substitution until it becomes automatic. New behaviors feel effortful until they don't.
+- **Why it matters for self-awareness**: Most behavior change fails because people identify what they should stop without designing what they should do instead. The substitution step is where most attempts fail.
+- **PM application**: If the Anti-Seducer Audit (from Greene) or the political suicide warning patterns (McIntyre Ch 6) flag a behavior, run AMISH on it. Pick one behavior at a time. The awareness step alone is valuable — many people have never learned to see their own patterns in real time.
+
 ### Signs of a Toxic Workplace
 - **Source**: McIntyre, *Organizational Politics* (Ch 5 — Signs of a Toxic Workplace)
 - **Date**: 2026-04-02

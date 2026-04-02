@@ -157,3 +157,37 @@
 - **Context**: Team leadership, executive communication, roadmap framing.
 - **Insight**: Greene on charismatic purpose: "If people believe you have a plan, that you know where you are going, they will follow you instinctively. The direction does not matter: pick a cause, an ideal, a vision and show that you will not sway from your goal. People will imagine that your confidence comes from something real." Purposefulness is doubly effective in times of trouble — when others are hesitating, single-minded self-assurance pulls attention toward you.
 - **Application**: At Adobe, this means having a clear and repeatable articulation of where Experience Hub is going — not just what it's shipping next quarter. "Content management to context management, with the practitioner at the center" is a directional statement. Say it first in every roadmap conversation. Let it orient everything that follows.
+
+---
+
+## Power Dynamics in Stakeholder Relationships (from Greene, *The 48 Laws of Power*)
+
+### Protect Your Reputation as Infrastructure
+- **Source**: Greene, *The 48 Laws of Power*, Law 5 (So Much Depends on Reputation — Guard It with Your Life)
+- **Date**: 2026-04-02
+- **Insight**: P.T. Barnum's reputation as a showman made everything he touched news. Greene: reputation is the cornerstone of power; with a strong reputation you can accomplish things that would otherwise require force. A single attack on your reputation, unanswered, can undo years of trust-building.
+- **Application**: In org politics, your reputation as a PM is made of three things: do you deliver on commitments, do you have good judgment on what matters, do you operate well with others? Every stakeholder interaction is a data point in their model of your reputation. Correct inaccurate data points quickly. Never let a false narrative about your work sit unchallenged.
+
+### Use Selective Generosity to Create Obligation
+- **Source**: Greene, *The 48 Laws of Power*, Law 12 and Law 40 (Despise the Free Lunch — Pay the Full Price)
+- **Date**: 2026-04-02
+- **Insight**: Aretino built his influence by spending freely — gifts, patronage, parties — making his patrons feel indebted through generosity. Rothschild threw lavish parties to buy social access to French aristocracy. Louis XIV softened courtiers with unexpected gifts before asking favors. Strategic generosity is a tool for creating goodwill and obligation, not altruism.
+- **Application**: Sharing credit publicly, giving a stakeholder a visible win before asking for something, running a well-prepared meeting that saves someone's time — these are all forms of strategic generosity. The gift that costs you little but benefits the recipient significantly is the most powerful kind.
+
+### Make Their Interest Your Strategy — The Self-Interest Principle
+- **Source**: Greene, *The 48 Laws of Power*, Law 13 (When Asking for Help, Appeal to People's Self-Interest, Never to Their Mercy or Gratitude)
+- **Date**: 2026-04-02
+- **Insight**: History is full of people who appealed to mercy or loyalty and were ignored — then appealed to self-interest and got immediate results. Greene: "Most men are more moved by fear of losing something than by hope of gaining it." Mercifulness is a luxury; self-interest is a constant.
+- **Application**: When asking for a stakeholder's support, translate the ask into their language: what do they get from helping? "This supports your team's OKR" lands harder than "we need your help." Know what they are trying to accomplish before making the ask.
+
+### Win People Through Their Emotions, Not Your Logic
+- **Source**: Greene, *The 48 Laws of Power*, Law 43 (Work on the Hearts and Minds of Others)
+- **Date**: 2026-04-02
+- **Insight**: Chuko Liang captured and released the enemy general Menghuo seven times to win genuine loyalty rather than forced submission. Marie-Antoinette ignored the hearts of the French people and paid with her head. Coercion creates resistance; seduction creates loyal allies. Greene: "The quickest way to secure people's minds is by demonstrating, in actions rather than words, how an action will benefit them."
+- **Application**: Technical correctness and logical arguments do not move people. What moves people is the belief that you understand them, care about their interests, and are acting in their favor. The PM who wins alignment by making the other party feel seen and benefited gets durable buy-in. The PM who wins by being logically right gets grudging compliance that evaporates when convenient.
+
+### Create Value Through Deliberate Scarcity
+- **Source**: Greene, *The 48 Laws of Power*, Law 20 (Do Not Commit to Anyone) and Law 16 (Use Absence to Increase Respect and Honor)
+- **Date**: 2026-04-02
+- **Insight**: Queen Elizabeth I held dozens of suitors at bay for decades — never committing, staying the center of everyone's orbit — and her power grew from the pursuit itself. Greene: the moment you commit fully to one side, the other side no longer needs to court you. Non-commitment keeps all parties competing for your favor.
+- **Application**: In cross-org stakeholder dynamics, avoid being fully committed to one faction before you have built sufficient leverage. Being seen as "Bertrand's person" or "Loni's person" prematurely limits your influence. Maintain genuine usefulness to multiple parties.

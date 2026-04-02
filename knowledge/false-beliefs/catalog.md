@@ -198,6 +198,65 @@ Cataloging these prevents repeating industry-wide mistakes.
 - **Caveat**: Some people start with more natural ease. The gap between natural and practiced is real but much smaller than the gap between practiced and unpracticed.
 - **Implication**: Run the checklist: Do you have a clear, repeatable point of view? Do you stay calm when challenged? Do you believe in what you're building? If not, fix those first. The rest (presence, language, mystery) follow.
 
+## FB-015: "Transparency builds trust — share your thinking openly"
+
+- **Rating**: Nuanced
+- **Date cataloged**: 2026-04-02
+- **Source**: Greene, *The 48 Laws of Power*, Law 3 (Conceal Your Intentions)
+- **Why people believe it**: "Radical transparency" and "default to openness" are corporate values at many tech companies. Sharing your reasoning openly feels honest and trustworthy. Concealment feels manipulative.
+- **Evidence against**:
+  - Otto von Bismarck deliberately concealed his intentions from both allies and opponents throughout the unification of Germany — revealed only what served him at the moment of strategic necessity.
+  - Greene: people who telegraph their next move give opponents time to prepare counter-moves. Announcing your strategy invites resistance before you've built the momentum to overcome it.
+  - In org politics, sharing that you're building toward X before X is built gives the opposition time to organize. Many initiatives die before they exist because they were announced before they were real.
+  - Sharing uncertainty or incomplete thinking with senior stakeholders signals lack of readiness, not transparency.
+- **What's actually true**: Transparency about values and principles builds trust. Transparency about tactics and in-progress strategy can kill initiatives. There is a difference between being honest (not lying) and being fully open (sharing everything). The first is non-negotiable; the second is a strategic choice.
+- **Nuance**: With your direct manager, high transparency about uncertainty is generally right — they need to make decisions and need your actual picture. With senior stakeholders, present finished thinking, not in-progress thinking. With peers in competitive situations, be thoughtful about what you share and when.
+- **Implication**: Before sharing a plan or initiative, ask: is this baked enough to share? If not, work it until it is. The right time to tell Bertrand about a new idea is after you've thought through the core objections, not when the idea first occurs to you.
+
+## FB-016: "Always say more — detail and explanation build credibility"
+
+- **Rating**: Dangerous
+- **Date cataloged**: 2026-04-02
+- **Source**: Greene, *The 48 Laws of Power*, Law 4 (Always Say Less Than Necessary)
+- **Why people believe it**: Detailed explanations feel thorough. In many professional contexts, over-explaining feels like diligence. Being laconic feels arrogant or evasive.
+- **Evidence against**:
+  - Coriolanus — Shakespeare's example and Greene's — lost the consulship by saying too much. His words gave opponents ammunition they would not otherwise have had.
+  - Henry Kissinger's negotiating power came largely from deliberate ambiguity: "We'll see" and "interesting" were more powerful than clear positions because they left the other party guessing and gave him room to maneuver.
+  - Louis XIV answered questions of great consequence with "I'll think about it" — the most powerful reply available. It gave away nothing and preserved all options.
+  - Greene: "The more you say, the more common you appear, and the less in control." Power appears self-contained.
+- **What's actually true**: Saying less creates more impact when each word is weighted. In high-authority-differential situations, long explanations often signal defensiveness — the powerful say less because they don't need to justify themselves. Strategic silence is not evasion; it is economy.
+- **Nuance**: In trusted peer conversations and in direct report relationships, fuller explanation is often the right move for collaborative thinking. The principle applies most powerfully in high-stakes upward or lateral communication.
+- **Implication**: In any important meeting, before speaking, ask: is this necessary? If the answer isn't clearly yes, hold it. After a win, resist the urge to explain how it happened.
+
+## FB-017: "Busy, responsive people are valued — maximize availability"
+
+- **Rating**: Misleading
+- **Date cataloged**: 2026-04-02
+- **Source**: Greene, *The 48 Laws of Power*, Law 16 (Use Absence to Increase Respect and Honor)
+- **Why people believe it**: Responsiveness is a visible signal of engagement and work ethic. Being available to everyone feels like good stakeholder management. Fast replies feel professional.
+- **Evidence against**:
+  - Deporetes (the jester) was highly visible at the court of Philip II of Spain — until he became so ubiquitous that the king finally said "I never want to see this man again." Total availability led to contempt.
+  - Greene: "Once you cannot be had for love or money, people will begin to push toward you." Value is created partly by scarcity. The scarce person is sought; the always-available person is taken for granted.
+  - The Art of Seduction's Coquette chapter confirms: controlled unavailability creates desire and pursuit. Total availability kills it.
+- **What's actually true**: Strategic unavailability — not always available, not always the first to respond, selectively present — creates gravity. It signals that your time is a finite resource worth competing for.
+- **Nuance**: Availability matters during trust-building phases and in crisis situations. This principle applies most powerfully after you have established your value.
+- **Implication**: Do not respond to every Slack within minutes. Decline low-value meetings. Be visibly present at the things that matter and visibly absent at the things that don't. The gap creates value.
+
+## FB-018: "Timidity is safer than boldness in corporate environments"
+
+- **Rating**: Dangerous
+- **Date cataloged**: 2026-04-02
+- **Source**: Greene, *The 48 Laws of Power*, Law 28 (Enter Action with Boldness)
+- **Why people believe it**: Being cautious and measured feels safe. Bold moves feel risky. In a large org with lots of stakeholders, a small mistake made boldly seems worse than a large mistake made cautiously.
+- **Evidence against**:
+  - Greene's consistent historical evidence: bold entry into any endeavor creates an impression of power and self-assurance that timid moves never create. Bold actions seem right because confidence is contagious.
+  - Timidity in leadership positions signals that you're not sure you belong there — and stakeholders read that signal immediately.
+  - Cats stalk prey only after a moment of stillness — not timidity, but controlled boldness. "The boldness of the cat creates its own fear in the prey."
+  - The opposite of bold is not careful — it's hesitant. Hesitation in leadership is visible and toxic: it makes others hesitate too.
+- **What's actually true**: In execution, boldness creates momentum and inhibits opposition before it organizes. In communication, confident, direct language lands harder than hedged language. In stakeholder dynamics, taking a position earns more respect than seeking consensus.
+- **Nuance**: Boldness must be grounded. Boldness without competence behind it is bluster and it fails fast. The preparation must be there before the boldness.
+- **Implication**: When entering a new role, making a new proposal, or presenting to senior leadership — commit fully. Do not hedge, do not qualify excessively, do not retreat from a position the first time it's challenged. Enter with conviction.
+
 ## Seed Beliefs to Investigate
 
 > These are commonly held PM beliefs worth examining. Move to entries above once evidence is gathered.
