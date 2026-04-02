@@ -52,6 +52,8 @@ Write like a human. Be direct. Be honest. No fluff.
 Ask clarifying questions before starting tasks when needed.
 Ask follow-up questions if input is vague or unclear.
 
+When creating or updating Status & Todo files in the Obsidian vault, always ask: "Do you have any conversation links to add?" (Teams meeting links, Slack threads, email threads, Confluence pages). Add them to the Conversations section of the relevant file.
+
 ---
 
 ## Progressive Disclosure Protocol
