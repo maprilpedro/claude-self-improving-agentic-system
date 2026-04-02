@@ -8,6 +8,29 @@ Directors own their product area. Senior Directors shape decisions across areas 
 
 ---
 
+## Communicating Strategy Upward (from Lafley & Martin, *Playing to Win*)
+
+### Use the Cascade as Your Executive Communication Frame
+- **Source**: Lafley & Martin, *Playing to Win*, Chapters 1 and 7
+- **Date**: 2026-04-02
+- **Pattern**: Senior executives think in strategy. When you walk into a roadmap review and present features, you're communicating at the wrong level. When you walk in with a coherent five-choice cascade — winning aspiration, where to play, how to win, capabilities, management systems — and show how your roadmap serves those choices, you're communicating at the executive level. The cascade also provides a natural challenge structure: "Given that we agreed to play here, here's why this investment makes sense." It moves the conversation from "should we build X" to "does X serve our strategic choices."
+- **How to use at Adobe**: In any roadmap discussion with Bertrand or Loni, open with the cascade-level framing: "Our winning aspiration is [X]. We've chosen to play in [segment/surface]. Our how-to-win is [differentiation approach]. This quarter's roadmap bets serve that because [connect each bet to the cascade]." This positions you as a strategist, not a feature manager. Directors talk about features. Senior Directors talk about choices.
+- **Anti-pattern**: Presenting the cascade as a formality and then immediately descending into feature lists. The cascade must actually constrain the feature list — anything not serving the cascade shouldn't be on the roadmap.
+
+### Strategy Reviews Should Be Inquiry, Not Theater
+- **Source**: Lafley & Martin, *Playing to Win*, Chapter 6 (Manage What Matters)
+- **Date**: 2026-04-02
+- **Pattern**: Lafley found P&G's strategy reviews had become "corporate theater" — teams prepared polished presentations designed to deflect challenge rather than invite it. The fix: shift from advocacy to "assertive inquiry." Present your view, then genuinely seek challenge. Ask: "What would have to be true for this not to work?" In senior meetings, the leader who opens by acknowledging uncertainty and inviting real input earns more credibility than the one who defends a perfect-looking plan. Defensiveness signals fragility; inquiry signals confidence.
+- **Application**: In Loni-level sessions, close your strategy section with one genuine question: "What am I missing in this framing?" or "Where does this not hold up from your view?" This is not weakness. It is strategic confidence — you're inviting the best available thinking into your plan before committing to it.
+
+### The Cascade Reveals Your Strategic Maturity to Executives
+- **Source**: Lafley & Martin, *Playing to Win*, Chapter 1
+- **Date**: 2026-04-02
+- **Pattern**: Most PMs can answer "what are you building?" Most can answer "why?" Fewer can answer "what are you explicitly NOT building, and why?" The ability to articulate deliberate exclusions is the mark of strategic thinking. When you can say "we chose NOT to serve the admin segment in this surface because winning there requires different capabilities we don't have and would dilute focus from the practitioner segment where we have a path to winning" — that is executive-level communication. Lafley: choosing where to play is simultaneously choosing where NOT to play. The "not" is as important as the "yes."
+- **Application**: Before any senior roadmap meeting, prepare one clear "where we are not playing" statement for Experience Hub. "We are not building capabilities for cloud admins in this platform — that's Cloud Manager's job. We are not competing on feature breadth — we are competing on practitioner workflow intelligence." These exclusions communicate strategic clarity more than any roadmap item.
+
+---
+
 ## Cross-Org Influence Without Authority
 
 ### Pick Up the Open Action Item

@@ -2,6 +2,25 @@
 
 > Recurring patterns in product management. Each pattern needs at least 2 supporting observations.
 
+## Strategy Patterns
+
+### The Strategy Cascade — Five Integrated Choices
+- **Date identified**: 2026-04-02
+- **Source**: Lafley & Martin, *Playing to Win*, all chapters
+- **Observations**: (1) P&G's Olay transformation: masstige segment (WTP) + women 35+ (customer) + superior formulation + retail partnerships (HTW) + R&D and brand-building (capabilities) + innovation tracking (systems) — all five choices reinforced each other and the brand went from declining to $2.5B+. (2) GM's Saturn: aspired to "participate" in small-car segment → under-invested relative to Toyota/Honda → dismantled. (3) P&G's Gillette acquisition: screened for growth accretiveness, structural attractiveness, and strategic fit — worked because capabilities aligned. AOL Time Warner merger: no capability alignment → destroyed value.
+- **Pattern**: A strategy that cannot answer all five cascade questions — or answers them inconsistently — is not a strategy. It is a wish list. The diagnostic power of the cascade is in the coherence test: change any one choice and verify the other four still hold. Where they don't, there is a gap that must be explicitly addressed. Choosing where NOT to play is as important as where to play. Low winning aspirations guarantee under-investment and competitive failure.
+- **When it works**: Annual strategy reviews, roadmap prioritization, new product or initiative planning, when an org argument keeps cycling without resolution.
+- **When it fails**: When used as a template to fill in rather than as a coherence diagnostic. When the aspiration is defined vaguely. When the management systems question is skipped (most common failure mode).
+- **Related**: Strategy Choice Cascade in tools/decision-matrix.md, FB-023 (playing not to lose), FB-024 (strategy as plan)
+
+### Low Aspiration Guarantees Under-Investment
+- **Date identified**: 2026-04-02
+- **Source**: Lafley & Martin, *Playing to Win*, Chapter 2; confirmed by Saturn/P&G contrast
+- **Observations**: (1) Saturn aimed to participate, not win → did not invest to beat Toyota/Honda → discontinued. (2) P&G's outsourcing strategy under Passerini: aimed to win (best-of-breed, not conventional single-vendor) → lower costs + higher employee satisfaction + better service. Same external market, different aspiration, different investment level, different outcome.
+- **Pattern**: The aspiration level determines the investment ceiling. Organizations that set modest aspirations explicitly or implicitly limit their investment below what winning requires. This is not a conscious choice — it's a consequence of the aspiration. "Good enough" as an unstated aspiration produces "good enough" resource allocation.
+- **When it works**: Recognizing this pattern allows you to challenge under-investment by challenging the underlying aspiration: "Are we aiming to win here, or to participate? Because the investment we're putting in implies participation."
+- **Related**: FB-023 (playing not to lose), Winning Aspiration in domain/ Strategy section
+
 ## Decision Patterns
 
 ### Plan in Analog Before Digital

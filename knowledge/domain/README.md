@@ -107,6 +107,46 @@
 
 ---
 
+## Product Strategy (from Lafley & Martin, *Playing to Win*)
+
+### The Strategy Choice Cascade — Five Integrated Choices
+- **Source**: Lafley & Martin, *Playing to Win*, Chapter 1 (Strategy Is Choice)
+- **Date**: 2026-04-02
+- **Insight**: Strategy is not a vision, a plan, or a budget. It is a set of five integrated choices that must be answered as a coherent whole: (1) What is our Winning Aspiration? (2) Where will we Play? (3) How will we Win? (4) What Capabilities must be in place? (5) What Management Systems are required? The five choices cascade — upper-level choices constrain and enable lower ones. An answer to any one of the five questions that contradicts another is not a strategy. P&G's Olay transformation is the primary illustration: each choice (masstige segment, women 35+, superior formulation + retail partnerships, R&D + brand-building, innovation tracking systems) reinforced all the others.
+- **PM Application**: Apply this as a diagnostic to any product strategy. If you can't answer all five for AEM Experience Hub, you have gaps — not a strategy. The cascade also tells you where to push back in roadmap discussions: "We agreed to play here (Where to Play) — does this feature serve that bet?" Use it to communicate upward; the cascade is the kind of crisp framework Loni and Bertrand recognize and respect.
+
+### Winning Aspiration — Not "Participate" but "Win"
+- **Source**: Lafley & Martin, *Playing to Win*, Chapter 2 (What Is Winning)
+- **Date**: 2026-04-02
+- **Insight**: The first choice in the cascade is defining what winning looks like in terms of customer service and competitive advantage — not financial targets. Aspirations guide strategy; mission statements are only the starting point. GM's Saturn brand is the cautionary tale: it aimed to participate in the small-car segment without the investment to win against Toyota and Honda. It was dismantled. Companies that aim to participate often fail to compete effectively because they don't make the required trade-offs and investments. Winning aspirations must also consider all potential competitors, not just obvious ones — P&G required teams to identify the best competitor even if unfamiliar, to surface performance gaps.
+- **PM Application**: For Experience Hub, "winning" is not shipping quarterly features. Winning is defined as: practitioners choose EH as their primary starting point over direct product navigation, and Loni measures EH's success as PLG lift across the AEM portfolio. If that's the winning aspiration, it constrains every roadmap decision. Anything that doesn't advance practitioner centrality is noise.
+
+### Where to Play — Choice as Exclusion
+- **Source**: Lafley & Martin, *Playing to Win*, Chapter 3 (Where to Play)
+- **Date**: 2026-04-02
+- **Insight**: Where to Play narrows the competitive landscape by specifying markets, geographies, customer segments, product categories, and channels where the company will concentrate. The key insight: choosing WHERE TO PLAY is simultaneously choosing where NOT to play. P&G's Bounty case shows this clearly — when the brand tried to expand globally and diversify products without focus, it struggled. When the new leadership mapped three distinct consumer segments (absorbency-focused, cloth-feel seekers, price-sensitive), they could target each deliberately. Where to Play is not the same as Where you currently exist; it is a deliberate bet on the arena where you can win.
+- **PM Application**: The hardest question for Experience Hub's Where to Play is customer segment. Who is the primary customer — the enterprise admin, the content practitioner, or the business buyer? The cascade requires a clear answer before How to Win can be chosen. If the answer is "the practitioner," everything about the surface design, the agent scoping, and the PLG instrumentation flows from that. If you try to serve all three equally, you've made no Where to Play choice.
+
+### How to Win — Cost Leadership or Differentiation, Not Both
+- **Source**: Lafley & Martin, *Playing to Win*, Chapter 4 (How to Win)
+- **Date**: 2026-04-02
+- **Insight**: How to Win specifies the source of competitive advantage within the chosen playing field. Lafley identifies two fundamental approaches: cost leadership (lower cost structure that enables lower prices or reinvestment) and differentiation (unique value that commands a price premium or preference). Starbucks and Toyota exemplify differentiation despite commodity-level cost structures. While some companies manage both strategies, it is rare and usually temporary — most companies ultimately choose one. The P&G/Clorox joint venture for Glad ForceFlex bags is a How to Win example: rather than entering directly against a stronger incumbent, P&G chose a partnership that captured value from their R&D capability without requiring full market competition.
+- **PM Application**: For AEM Experience Hub, the How to Win choice is differentiation — specifically, practitioner experience and AI-assisted workflow intelligence that Adobe's competitors cannot replicate because they lack the cross-product data (Sites + Assets + DAM). Cost leadership is not available in an enterprise B2B platform. Once differentiation is the chosen route, every roadmap item should be evaluated: does this create a differentiated experience? Or is it table stakes?
+
+### Capabilities — Activity Systems, Not Isolated Competencies
+- **Source**: Lafley & Martin, *Playing to Win*, Chapter 5 (Play to Your Strengths)
+- **Date**: 2026-04-02
+- **Insight**: Capabilities are the activities and competencies required to execute the How to Win choices in the chosen arenas. The critical insight from Michael Porter (cited by Lafley): sustainable competitive advantage comes from a set of supportive and reinforcing capabilities — an activity system — not from individual strengths. The whole system is stronger than any individual component. P&G's acquisition of Gillette succeeded because P&G applied its core capabilities (consumer understanding, brand-building, innovation, global scale) to Gillette's existing strengths rather than trying to replace them. Activity systems must meet three criteria: feasible (can actually be built or acquired), distinctive (not easily replicated by competitors), and defensible (hard to dismantle once in place).
+- **PM Application**: For EH, the relevant capabilities are: cross-product data integration (distinctive), practitioner-centered UX design (needs investment), PLG instrumentation (being built), and AI-agent orchestration at scale (defensible if built before competitors). The capability audit should ask: which of these does Adobe already have, which need building, and which should be acquired or partnered? This maps directly to roadmap investment decisions.
+
+### Management Systems — The Most Neglected Choice
+- **Source**: Lafley & Martin, *Playing to Win*, Chapter 6 (Manage What Matters)
+- **Date**: 2026-04-02
+- **Insight**: Management systems are the structures, processes, and measures that support strategic choices and enable continuous learning. This is the most overlooked element of the cascade. Lafley found that P&G's prior strategy review process was "corporate theater" — performance rather than genuine strategy discussion. The fix required a shift from advocacy to "assertive inquiry": presenting your view while actively seeking to understand others' views. P&G used the OGSM framework (Objectives, Goals, Strategies, Measures) as a framing structure for strategic conversations. Management systems must reinforce capabilities and track what matters strategically — not just what's easy to measure.
+- **PM Application**: The management systems question for EH is: what review cadence, what metrics, and what decision processes ensure the cascade stays coherent over time? VRR (Value Realization Rate) is the right strategic metric — not task completion or volume. The bi-weekly agent owner syncs and monthly Loni working sessions are the management system structure. The risk is that these become performance theater rather than real strategy conversations. The Lafley fix: start each review by asking a genuine strategic question, not by presenting a status update.
+
+---
+
 ## Coalition Building & Alliances (from Greene, *The 33 Strategies of War*)
 
 ### Build Networks That Have Mutual Interest, Not Just Loyalty

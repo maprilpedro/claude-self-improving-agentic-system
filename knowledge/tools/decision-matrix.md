@@ -131,6 +131,26 @@
 
 ## Strategy Tools
 
+### The Strategy Choice Cascade (Lafley & Martin)
+- **Date evaluated**: 2026-04-02
+- **Source**: Lafley & Martin, *Playing to Win*, Chapters 1–7
+- **Best for**: Defining or evaluating product strategy at any level — product line, feature area, or platform. Diagnosing why a strategy is failing. Communicating strategy upward to executives. Roadmap prioritization filters.
+- **How to use**: Answer five questions in order, checking that each answer is consistent with the others:
+  1. **Winning Aspiration** — What does winning look like in customer terms? (Not "be the best" — be specific about what winning means for which customers.)
+  2. **Where to Play** — Which customer segments, geographies, channels, and use cases? Equally important: where are you explicitly NOT playing?
+  3. **How to Win** — What is your source of competitive advantage in those arenas? Cost leadership (lower structure enabling lower prices or reinvestment) or differentiation (unique value that competitors cannot match)?
+  4. **Capabilities** — What activities and competencies are required to deliver the how-to-win in those arenas? Map as a system, not a list.
+  5. **Management Systems** — What metrics, review cadences, and decision processes keep the choices coherent over time?
+- **The cascade test**: Change any one answer and check whether the other four remain consistent. If they don't, you have a strategy gap.
+- **For AEM Experience Hub**:
+  - Winning Aspiration: Practitioners choose EH as their primary starting point; AEM's PLG conversion improves as a result.
+  - Where to Play: Enterprise content practitioners in the AEM user base (Sites + Assets primary). Not admins, not business buyers as primary.
+  - How to Win: Differentiation through cross-product AI orchestration and practitioner-centered UX that disconnected-product experiences cannot match.
+  - Capabilities: Cross-product data integration, agent orchestration, PLG instrumentation, practitioner UX research.
+  - Management Systems: VRR as primary metric, bi-weekly agent owner syncs, monthly working sessions structured as strategic inquiry not status updates.
+- **Common misuse**: Using the cascade as a template to fill in rather than as a diagnostic to test coherence. Answering aspirations vaguely ("be the best platform"). Treating the cascade as a one-time exercise rather than a recurring health check.
+- **When to use it**: At the start of any annual planning cycle. When a roadmap argument keeps repeating. When a new stakeholder asks "what's the strategy?" When a team seems to be pulling in different directions on priorities.
+
 ### Passion Statement
 - **Date evaluated**: 2026-03-19
 - **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 1

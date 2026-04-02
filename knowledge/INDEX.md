@@ -6,12 +6,12 @@
 
 | Folder | Purpose | Status | Entries |
 |--------|---------|--------|---------|
-| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 24 |
-| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 34 |
+| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 30 |
+| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 36 |
 | `hypotheses/active.md` | Hypotheses currently being tested | Active | 5 |
 | `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Empty | 0 |
-| `false-beliefs/` | PM conventional wisdom proven wrong | Active | 22 |
-| `tools/` | Decision matrix: when to use which PM method/tool | Active | 10 |
+| `false-beliefs/` | PM conventional wisdom proven wrong | Active | 26 |
+| `tools/` | Decision matrix: when to use which PM method/tool | Active | 11 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
 | `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 43 |
 | `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries | Active | 19 |
@@ -26,6 +26,7 @@
 | Greene, *The Art of Seduction* | 2026-04-02 | Book | Attention redirection, mirroring, strategic withdrawal, charisma components, soft sell, anti-seducer audit, myth over logic, purpose creates followership, reading people vs stated preferences |
 | Greene, *The 33 Strategies of War* | 2026-04-02 | Book | Strategic positioning, polarity strategy, grand strategy, coalition-building, alliance strategy, negotiation while advancing, counterattack strategy, presence of mind, exit strategy, false beliefs about consensus/retreat/first-mover |
 | Gallo, *Presentation Secrets of Steve Jobs* | 2026-03-19 | Book | Communication frameworks, presentation patterns, false beliefs about presenting, stakeholder management techniques |
+| Lafley & Martin, *Playing to Win* | 2026-04-02 | Book (Bookey summary) | Strategy Choice Cascade (5 questions), winning aspiration vs participation trap, where to play as exclusion choice, cost leadership vs differentiation, activity systems as capabilities, management systems as strategy reinforcement, playing not to lose as dangerous false belief |
 | AEM Experience Hub — Loni Working Sessions I & IV | 2026-03-23 / 2026-03-26 | Live strategy sessions | Hero surfaces concept, agent measurement gaps, TSR vs VRR, architecture ceiling insight, cross-org influence patterns, durable themes |
 | Shankari 1:1 handoff | 2026-03-27 | PM handoff conversation | Adoption cadence as PLG instrument, PLG checkbox antipattern, governance posture as leadership signal, personalization experiment approach, EH North Star vision |
 | Bertrand W13 report exchange + gap re-analysis | 2026-03-30 / 2026-03-31 | Email exchange with Sr Director + artifact audit | Failure taxonomy quality vs gap split, JIRA tracking column pattern, stable hosting before broad distribution, trends in consolidated view, auth-walled hosting incompatible with agent consumption, parallel artifact stream divergence |
@@ -43,7 +44,8 @@
 | Competitive analysis | `domain/` | `false-beliefs/`, `patterns/` |
 | Choosing a method/framework | `tools/decision-matrix.md` | `patterns/` |
 | Designing an experiment | `experiments/log.md` | `hypotheses/active.md` |
-| Strategy / roadmap work | `patterns/` | `domain/`, `tools/` |
+| Strategy / roadmap work | `patterns/` (Strategy Cascade) | `domain/` (Product Strategy section), `tools/` (Strategy Choice Cascade), `false-beliefs/` (FB-023, FB-024) |
+| Communicating strategy upward | `leadership/` (Communicating Strategy Upward) | `tools/` (Strategy Choice Cascade), `domain/` (Product Strategy) |
 | Challenging assumptions | `false-beliefs/` | `hypotheses/resolved.md` |
 | Learning from new material | Route by content type to relevant folders | |
 | Pattern recognition | `patterns/` | `hypotheses/active.md` |
@@ -81,6 +83,7 @@
 | 2026-04-02 | patterns/ | PM as gating layer in automated pipelines — manual trigger as trust-building step, Slack as lightweight gate, trust ladder model |
 | 2026-04-02 | ai-product/, patterns/ | MCP early adoption is developer-tool-led (Cursor 15.6% vs Claude 0.5%); explicit sequence as protection against spread |
 | 2026-04-02 | domain/ | Bertrand metric framing — adoption metrics should be ratios vs baseline (MCP edits vs CM UI edits), not absolutes |
+| 2026-04-02 | domain/, false-beliefs/, tools/, patterns/, leadership/ | Playing to Win ingestion — Strategy Choice Cascade, winning aspiration, where to play, how to win, capabilities, management systems; FB-023 through FB-026; cascade added to tools/; strategy patterns added; leadership section for communicating strategy upward |
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | 33 Strategies of War ingestion — strategic positioning (polarity, grand strategy, intelligence), coalition patterns, false beliefs about consensus/retreat/first-mover advantage |
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | Art of Seduction ingestion — attention redirection, mirroring, charisma components, soft sell, anti-seducer audit, purpose creates followership, myth over logic, FB-013 directness, FB-014 charisma |
 | 2026-04-02 | interpersonal/, leadership/ | McIntyre ingestion — Four political types, supporters/adversaries, toxic signals, political suicide patterns, position vs personal power → interpersonal/; Four P's, visible results, Power Grid, Political Game Plan → leadership/ |

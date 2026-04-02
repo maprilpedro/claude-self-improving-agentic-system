@@ -297,6 +297,42 @@ Cataloging these prevents repeating industry-wide mistakes.
 - **What to do instead**: Diagnose which leverage dimension is weakest before increasing effort. Is it Results (you need better outputs), Knowledge (you need a capability others don't have), Perception (you're not known by the right people), or Partnerships (you lack sponsors who advocate for you)? Target the weakest link. More output when Perception is the problem is wasted effort.
 - **Caveat**: A minimum threshold of real performance is required — leverage built entirely on perception without substance collapses fast. The point is that performance alone is necessary but not sufficient.
 
+## FB-023: "Playing not to lose is a safe strategy — minimize risk and protect position"
+
+- **Source**: Lafley & Martin, *Playing to Win*, Chapters 1–2
+- **Date**: 2026-04-02
+- **Common belief**: In uncertain markets or under pressure, the prudent approach is to minimize exposure — don't overcommit, keep options open, stay in the game. "Participating" is safer than "winning."
+- **Why it's wrong**: Lafley's Saturn case dismantles this completely. GM launched Saturn to participate in the small-car segment without investing adequately to win. Toyota and Honda, which aimed to win, made hard choices and significant investments. Saturn was eventually discontinued. Lafley: "Companies that aim merely to participate often fail to compete effectively." Playing not to lose is not a neutral posture — it is a guarantee of inadequate investment, which makes you uncompetitive against players who committed. The aspiration determines the investment level; low aspiration produces under-investment.
+- **What to do instead**: Define what winning looks like in customer terms (not financial terms). Then make the investments that winning requires. If you can't make those investments, explicitly exit the arena rather than half-entering it. A conscious no-play is better than a low-ambition play.
+- **Caveat**: "Playing not to lose" is appropriate in secondary arenas where you have no path to winning — the right answer there is exit, not defense. The trap is applying this posture in your primary arena where winning is possible with full commitment.
+
+## FB-024: "Strategy is a plan — write it once, execute against it"
+
+- **Source**: Lafley & Martin, *Playing to Win*, Chapters 1 and 7
+- **Date**: 2026-04-02
+- **Common belief**: Strategy is a document or plan created in a planning cycle, handed down, and executed. Once the strategy is set, the work is execution. Revisiting the strategy signals indecision.
+- **Why it's wrong**: Lafley explicitly frames strategy as iterative, not static. The five choices must be revisited as insights emerge — capabilities constrain where you can play, which may force a revision to the winning aspiration, which changes how to win, and so on. P&G's Olay transformation didn't happen in one planning cycle; it evolved as market insight accumulated. Chapter 7 (Think Through Strategy) emphasizes starting with the winning aspiration but being willing to refine it as other cascade elements are developed. Treating strategy as a fixed plan creates rigidity — you end up executing against choices that conditions have made wrong.
+- **What to do instead**: Treat strategy as a living set of choices with explicit re-evaluation triggers. When market conditions change, when capabilities are discovered to be weaker than thought, or when competitive moves shift the landscape — revisit the relevant cascade choice and check what it implies for the others. Document the revision with reasoning.
+- **Caveat**: Constant strategy revision is as bad as none. The right cadence for an annual planning org is quarterly strategy health checks (are the five choices still coherent?) and annual resets. Tactical pivots should not be confused with strategy changes.
+
+## FB-025: "Capabilities are resources you need to acquire — budget and headcount solve the gap"
+
+- **Source**: Lafley & Martin, *Playing to Win*, Chapter 5 (Play to Your Strengths)
+- **Date**: 2026-04-02
+- **Common belief**: When a capability gap is identified, the fix is resource: hire more people, buy a company, or fund a new team. Capabilities are assets you either have or acquire.
+- **Why it's wrong**: Lafley shows through the Gillette acquisition that capabilities are systems of mutually reinforcing activities — not isolated assets. P&G's acquisition of Gillette succeeded because P&G applied its consumer understanding and brand-building system to Gillette's existing strengths. Acquisitions that fail (AOL Time Warner, DaimlerChrysler) treat capabilities as individual assets that can be combined. But sustainable competitive advantage comes from activity systems where each component strengthens the others. You can't acquire the system; you have to build the connections.
+- **What to do instead**: Map capabilities as activity systems: what activities are required, how do they connect, which ones are already strong, and which gaps would break the reinforcing connections? Then invest in filling the gaps that serve the system — not just the gaps that look biggest in isolation. Also evaluate feasibility, distinctiveness, and defensibility before investing in building any capability.
+- **Caveat**: Sometimes a genuine capability gap (missing technical expertise, missing data) does require hiring or acquisition. The point is that acquiring the resource without integrating it into the activity system produces a fragmented capability that doesn't compound.
+
+## FB-026: "Good strategy comes from rigorous analysis — run the numbers, use the frameworks"
+
+- **Source**: Lafley & Martin, *Playing to Win*, Chapter 7 (Think Through Strategy) and Chapter 8 (Shorten Your Odds)
+- **Date**: 2026-04-02
+- **Common belief**: Strategy is an analytic exercise. SWOT analysis, BCG matrix, Porter's Five Forces, VRIN model — the tools produce the answer if you populate them rigorously. The better the analysis, the better the strategy.
+- **Why it's wrong**: Lafley acknowledges that analytical tools (SWOT, BCG matrix, VRIN) are useful for informing strategy discussions, but they don't produce strategy. The five cascade choices still require judgment under uncertainty — and that uncertainty is irreducible. The trap is mistaking analytical rigor for strategic clarity. Organizations that over-rely on analysis often produce strategies that are internally consistent but disconnected from real competitive dynamics or actual capabilities. Lafley: the goal is not to find a perfect strategy but to find approaches that align with your unique context.
+- **What to do instead**: Use analytical tools to structure the thinking within each of the five cascade questions — not to generate the answers. The real work is building shared conviction among decision-makers about which choices to make and why. That requires conversation and judgment, not more analysis. Chapter 8's "shorten your odds" approach: run strategic experiments to reduce uncertainty in the most critical bets rather than trying to analyze your way to certainty.
+- **Caveat**: Insufficient analysis is also a failure mode. The point is not to skip analytics — it is to not substitute analysis for decision-making. Frame the analysis as input to the strategic conversation, not output of the strategy process.
+
 ## Seed Beliefs to Investigate
 
 > These are commonly held PM beliefs worth examining. Move to entries above once evidence is gathered.
