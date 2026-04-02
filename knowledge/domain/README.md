@@ -50,6 +50,12 @@
 
 ## Metrics & Analytics
 
+### Adoption Metrics Should Be Ratios, Not Absolutes
+- **Source**: Bertrand de Coatpont (Sr Director PM, Adobe AEM), Slack exchange April 2, 2026
+- **Date**: 2026-04-02
+- **Insight**: When measuring adoption of a new channel or modality (e.g. MCP tool usage), the meaningful metric is the ratio against baseline behavior — not the absolute count. "How many content edits via MCP vs. via the UI" is more useful than "how many MCP calls." The ratio shows displacement and real adoption; the absolute number just shows activity.
+- **Application**: When proposing metrics for new AI or agent features, always pair the new channel metric with the existing baseline metric. Ratios tell the adoption story. Absolutes don't.
+
 ### Numbers Without Context Are Meaningless
 - **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 9
 - **Date**: 2026-03-19
