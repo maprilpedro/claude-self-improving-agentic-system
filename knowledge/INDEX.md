@@ -13,7 +13,7 @@
 | `false-beliefs/` | PM conventional wisdom proven wrong | Active | 26 |
 | `tools/` | Decision matrix: when to use which PM method/tool | Active | 11 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
-| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 43 |
+| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 44 |
 | `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries | Active | 20 |
 | `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 23 |
 
@@ -91,6 +91,7 @@
 | 2026-04-02 | domain/, tools/, patterns/, leadership/, false-beliefs/ | Playing to Win ingestion — Strategy Choice Cascade, where to play/how to win, EH cascade instantiation, FB-023 through FB-026 |
 | 2026-04-02 | interpersonal/ | New folder created — one-on-one relationship dynamics, routing table updated |
 | 2026-04-02 | interpersonal/, patterns/ | Session learnings — confusing warmth for alignment (Philippe pattern), high conversion + low penetration = awareness problem (EH analytics) |
+| 2026-04-02 | leadership/ | Validate-then-scale executive response pattern — Bertrand duplicate check exchange. Personal fiche Pedro Ferreira created in Obsidian. Visibility path to Loni via reports confirmed. |
 | 2026-04-02 | interpersonal/, leadership/ | McIntyre ingestion — Four political types, supporters/adversaries, toxic signals, political suicide patterns, position vs personal power → interpersonal/; Four P's, visible results, Power Grid, Political Game Plan → leadership/ |
 | 2026-04-02 | leadership/, interpersonal/, false-beliefs/, tools/ | McIntyre full completion — leverage equation, Organizational Facts of Life, AMISH framework, Paradox of Influence, Influence Toolbox, adversary conversion, Strategy 5 (leverage-building), Stop/Start/Continue, 7 fundamentals; FB-019 through FB-022; Power Grid, AMISH, Influence Toolbox, Stop/Start/Continue added to tools/ |
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | 48 Laws of Power ingestion — reputation, never outshine, formlessness, stop at goal, envy management, self-interest persuasion, gradual reform, isolate blockers, win hearts first, mirror to disarm; FB-015 through FB-018 |

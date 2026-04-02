@@ -151,6 +151,7 @@ Demo regeneration: message sent April 1 to all owners + Mark Szulc (based in Aus
 ## Active Actions This Week
 
 - 🟡 Report hosting — blocked on Felix report updates first. Once Felix done, work with Quentin on CDN front + Okta auth. Sidekick requirement is a deal breaker for Loni. Current URL: https://main--aem-agent-reports--aem-epa.aem.live/ — Bertrand directed this on April 1.
+- 🔑 VISIBILITY PATH TO LONI: (1) Felix fixes reports + EDS hosting done, (2) Pedro validates with Corey Dulimba (not Philippe), (3) Bertrand shows reports to Loni. First concrete Loni visibility vector. Do not skip Corey validation step — reports must be solid and endorsed by a trusted agent owner before going up.
 - 🟡 Report to JIRA pipeline — blocked on Felix report updates. Next steps in order: (1) get Felix report updates done, (2) update the Claude skill to pull data from Felix's updated reports, (3) package as a skill and distribute to all agent PMs, (4) collect feedback from PMs. Slack notification mechanism still to be designed.
 - 🟡 Brand Concierge: Peter + Bertrand answered. Waiting on Sorin's feedback on Peter's Confluence proposal for Summit-viable scope.
 - ✅ Data compliance: Bertrand confirmed April 2 — move on with Felix, keep Ian's comments in mind. Closed.
