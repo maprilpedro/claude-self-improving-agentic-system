@@ -59,6 +59,7 @@ Observe signal --> Propose hypothesis --> Design test --> Collect evidence --> R
   - Buckingham: "Great leaders rally people to a better future." This is a communication skill.
 - **Evidence against**:
   - (none yet, hypothesis is fresh)
+- **Supporting observation (2026-04-02)**: Pedro self-diagnosed two linked behavioral patterns — execution bias and validation-seeking — both of which are expressions of the visibility gap hypothesis. The execution bias (defaulting to solving rather than framing) keeps him perceived as operational. The validation-seeking (measuring value by what he produces rather than what he influences) makes him dependent on external confirmation rather than positional authority. Both are communication/positioning problems, not capability problems. This confirms the hypothesis at the behavioral root level, not just the presentation level.
 - **Next step**: Select the next high-visibility presentation and apply the three techniques. Document results.
 
 ## H-004: Naming a Hero Surface and Backing It with PLG Investment Will Measurably Improve Feature Discovery

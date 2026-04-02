@@ -125,6 +125,31 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **When to use it**: When you're asked to deprioritize something and you believe removing it degrades something they DO care about. The reframe only works if the dependency is real — don't manufacture the connection.
 - **Sequencing matters**: Win the parent priority first. Once it's committed, the mechanism conversation becomes "here's what we need to do it right." The order matters. Profiling before Skills+MCP is validated = competing priority. Profiling after Skills+MCP is validated = obvious prerequisite.
 
+### Frame the Problem Before Solving It
+- **Source**: Pedro Ferreira / rapport-JIRA case study, April 2, 2026
+- **Date**: 2026-04-02
+- **Insight**: Directors deliver solutions. Senior Directors name the problem correctly first. The same deliverable lands differently depending on whether you frame the problem before showing the solution. Without framing: you look like someone who executed a request well. With framing: you look like someone who understood the deeper problem and chose the right solution.
+- **The rapport-JIRA example**: Bertrand asked for a sync rapport → JIRA. Pedro built it. Correct execution. The framing layer would have been: "The real question is whether AEM's agent PMs have a coherent system for tracking pipeline signals into action. This is a PM infrastructure problem, not just a report delivery problem. The rapport-JIRA pipeline is my answer to that." Same deliverable. Entirely different signal.
+- **Before every deliverable, ask**: What is the real problem this solves? Have I said it explicitly, or did I just hand over the solution?
+- **When someone pushbacks**: Philippe's "you're polluting my thing" is a scope challenge, not a content challenge. The response is not to go consult all stakeholders — it's to reiterate the problem frame. "This was built to solve Bertrand's tracking need: problem in report → action in JIRA. If your system already does that, great — no conflict." You don't defend the solution, you defend the problem definition.
+
+### Distribution vs Validation for Tool Rollout
+- **Source**: Pedro Ferreira / rapport-JIRA rollout to agent PMs, April 2, 2026
+- **Date**: 2026-04-02
+- **Insight**: When rolling out a tool or system to peers, there are two modes: distribution (the solution exists, I'm making it available) and validation (I built something, please tell me if it's good). The first is a leadership move. The second signals insecurity and invites pushback.
+- **The distinction**: "Bertrand asked for this, I built it, here it is for anyone who wants it" is distribution. "I built this, what do you think, should I do it differently?" is validation-seeking. The first doesn't need consensus — it just needs access. The second restarts the entire conversation.
+- **The message frame**: "I've built a pipeline that syncs report signals to JIRA, in response to a Bertrand ask. It's available for any PM who doesn't already have a system for this." No justification, no feedback request, just a door open.
+- **Who you DO NOT ask**: Philippe, who has his own system and will use any early access to identify weaknesses. Who you DO invite: Corey Dulimba — trusted, not territorial, gives you clean signal.
+
+### Accessibility as a Level Signal — Resource vs Leader
+- **Source**: 48 Laws of Power (Law 16) + live observation, April 2, 2026
+- **Date**: 2026-04-02
+- **Insight**: When you are available to everyone, immediately, in any context, you signal that your time is cheap. People come to you because it's easy, not because you have something rare to offer. You become a resource — useful, appreciated, and underpromoted.
+- **The visibility inversion**: Constant presence becomes background noise. Selective presence becomes memorable. The goal is not to be visible often — it is to be visible deliberately. One prepared appearance in a Loni session is worth ten casual Slack exchanges.
+- **The Philippe example**: He texted Pedro during a Loni all-hands meeting because he assumed Pedro would respond in any context. Pedro did. That assumption — that you're accessible regardless of what's happening — is worth resisting.
+- **Practical rule**: Pick 2-3 moments per week to be deliberately not immediately reachable. Not hiding — just not instant. In high-stakes meetings, put the phone down. The signal builds slowly but compounds.
+- **The resource vs leader frame**: Useful without influence = resource. Visible when it matters + hard to reach otherwise = leader. The difference is not the work — it's the accessibility pattern.
+
 ### Surface the Risk Before Leadership Has to Ask
 - **Date identified**: 2026-04-01
 - **Source**: Ian Boston's data compliance response; Pedro's escalation to Bertrand April 1.

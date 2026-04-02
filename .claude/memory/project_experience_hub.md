@@ -101,10 +101,19 @@ Slack sent April 1 to @stoklosa @dilnesaw — invited to call, walked through op
 
 ---
 
-## Prompt Search Gaps (identified April 1 refinement sync)
+## Prompt Search (updated April 2 EH Demo)
 
-1. Search only works for assets (Content AI semantic search). Doesn't search pages, content fragments, experiments, launches, etc. Needs: identify what nouns exist, what teams own them, what search APIs are available.
-2. Context bug: search doesn't pass current environment context into the search API. For multi-environment users, defaults to first production environment found — wrong results possible. Known gap, not blocking initial iteration.
+Unified search for assets via AI assistant prompt (click +) is almost done. Returns results from first production repository user has access to — same as semantic search in AEM Assets. Bug confirmed: pulls from first prod repo only (context bug, already known). Working with CJ analytics team on separate tracking gap between displayed and recorded prompts.
+
+Remaining gaps: search still only covers assets. Pages, content fragments, experiments, launches not included. Context bug (multi-environment users default to first prod env) still open.
+
+## Adoption Data (April 2 EH Demo)
+
+- Growth stable but stuck — Sorin described it as "stuck at 85%"
+- Return users stable at ~62%
+- New user count is dropping
+- Prompt suggestions: steady views. "Content or knowledge" prompts are most used.
+- Analytics tracking bug: gap between what's shown and what's recorded — working with CJ analytics team
 
 ---
 
@@ -120,7 +129,7 @@ Slack sent April 1 to @stoklosa @dilnesaw — invited to call, walked through op
 | Jim Stoklosa + team | Experimentation page onboarding call | Sent April 1 — awaiting response |
 | Philippe Kapfer | Report-to-JIRA feedback | Responded April 2 — positive, pipeline rules confirmed |
 | Corey Dulimba | Demo prompt regeneration | Responded April 2 |
-| Apoorva Gupta | Demo prompt regeneration (Discovery agent) | Not yet responded — chase |
+| Apoorva Gupta | Demo prompt regeneration (Discovery agent) | Chased April 2 |
 
 ---
 
@@ -128,7 +137,7 @@ Slack sent April 1 to @stoklosa @dilnesaw — invited to call, walked through op
 
 | Person | Dynamic | Notes |
 |---|---|---|
-| Philippe Kapfer | Active political mover — confirmed | Agreed privately on report-to-JIRA filtering process, then pushed back on the same point once Bertrand was on the email thread. Pedro retracted publicly — bad move. Philippe's tactic: agree 1:1, create dissent in front of the boss. His tactic worked once (April 2). Pattern to break: hold position under public pressure, don't retract. Recovery path: reintroduce tracking concern at implementation as a technical requirement, not a debate. Pedro also tends to use Philippe as first go-to for new trials (report-to-JIRA, new report sections) — stop this. Use Corey Dulimba as first testeur instead. Giving Philippe early access to unpolished work hands him the weak points. |
+| Philippe Kapfer | Senior PM under Bertrand. Scope: Governance Agent + Security. Arrived 2 years after Pedro. Took security perimeter from Pedro. Potential promotion competitor — actively building Loni visibility (Governance Agent / Enterprise Context getting named in Loni meetings, backed by Michael Marth). | Agreed privately on report-to-JIRA filtering process, then pushed back on the same point once Bertrand was on the email thread. Pedro retracted publicly — bad move. Philippe's tactic: agree 1:1, create dissent in front of the boss. His tactic worked once (April 2). Pattern to break: hold position under public pressure, don't retract. Recovery path: reintroduce tracking concern at implementation as a technical requirement, not a debate. Pedro also tends to use Philippe as first go-to for new trials (report-to-JIRA, new report sections) — stop this. Use Corey Dulimba as first testeur instead. Giving Philippe early access to unpolished work hands him the weak points. Post-divorce, very focused on women / social life — side-chats heavily during meetings. Per Pedro's own framing: "friends obsessed with girls will drop you for whatever is good for them in the moment." Treat as a colleague, not an ally. Second pattern confirmed April 2: uses Pedro as a real-time mirror — gets Pedro to validate his positioning in side-chat during a Loni meeting. Pedro said "very much on dirait hein cool!" on governance/enterprise context, Philippe closed with "C'est gentil mon loulou." Pedro became an active supporter without realising it. He doesn't attack — he makes you applaud him. Pedro confirmed April 2: Philippe is positioning for promotion. Treat as a competitor, not just a colleague. |
 
 ---
 
@@ -137,7 +146,7 @@ Slack sent April 1 to @stoklosa @dilnesaw — invited to call, walked through op
 | Agent | Owner |
 |---|---|
 | Experience Production | Corey Dulimba |
-| Governance | Philippe Kapfer |
+| Governance | Philippe Kapfer (PM) — devs: Alejandro Ramirez Cheves, Cornel Isbiceanu |
 | Discovery | Apoorva Gupta |
 | Content Optimization | Greg Klebus |
 | Development / EDA | Brian Chaikelson |
@@ -152,10 +161,11 @@ Demo regeneration: message sent April 1 to all owners + Mark Szulc (based in Aus
 
 - 🟡 Report hosting — blocked on Felix report updates first. Once Felix done, work with Quentin on CDN front + Okta auth. Sidekick requirement is a deal breaker for Loni. Current URL: https://main--aem-agent-reports--aem-epa.aem.live/ — Bertrand directed this on April 1.
 - 🔑 VISIBILITY PATH TO LONI: (1) Felix fixes reports + EDS hosting done, (2) Pedro validates with Corey Dulimba (not Philippe), (3) Bertrand shows reports to Loni. First concrete Loni visibility vector. Do not skip Corey validation step — reports must be solid and endorsed by a trusted agent owner before going up.
-- 🟡 Report to JIRA pipeline — blocked on Felix report updates. Next steps in order: (1) get Felix report updates done, (2) update the Claude skill to pull data from Felix's updated reports, (3) package as a skill and distribute to all agent PMs, (4) collect feedback from PMs. Slack notification mechanism still to be designed.
+- 📅 SCHEDULE: Pedro off April 3 (Fri) + April 6 (Mon). Back Tuesday April 7. Felix off April 2–3. Back April 6. Sync with Felix earliest Monday April 6, realistically week of April 7.
+- 🟡 Report to JIRA pipeline — Philippe's comments incorporated April 2. Bertrand added as GitHub contributor April 2, Slack sent. Blocked on Felix report updates for next steps. Next steps in order: (1) get Felix report updates done, (2) update the Claude skill to pull data from Felix's updated reports, (3) distribute to agent PMs as availability (not validation-seeking), (4) Corey Dulimba as first testeur, not Philippe. Slack notification mechanism still to be designed.
 - 🟡 Brand Concierge: Peter + Bertrand answered. Waiting on Sorin's feedback on Peter's Confluence proposal for Summit-viable scope.
 - ✅ Data compliance: Bertrand confirmed April 2 — move on with Felix, keep Ian's comments in mind. Closed.
-- 🟠 Follow up on demo prompts — Corey + Philippe answered. Chase Apoorva Gupta (Discovery agent), and remaining owners.
+- 🟠 Follow up on demo prompts — Corey + Philippe + Apoorva (chased) answered. Awaiting remaining owners.
 - 🟠 Get on Sorin + Eugene email thread on UX AI framework
 - 🟠 Waiting on Eugene's feedback on Skills/MCP design — Pedro proposed, Eugene to review. Once aligned, involve Guliz.
 - 🟠 Sync with Felix early week of April 7 on report-to-JIRA pipeline progress

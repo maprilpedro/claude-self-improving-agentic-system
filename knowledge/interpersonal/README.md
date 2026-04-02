@@ -111,6 +111,24 @@
 - **The adversary math**: Converting an adversary to neutral improves your situation twice — you lose an obstacle and remove a potential recruit against you. Even a modest chance of conversion is worth attempting.
 - **PM application**: Before writing off any organizational adversary, run the conversion test: can I identify their goals? Are any compatible with mine? If yes, try the conversation. If no, move to leverage-building. Never skip straight to escalation.
 
+### The Mirror Move — Being Made to Applaud Without Knowing It
+- **Source**: Live observation — Philippe Kapfer side-chat during Loni meeting, April 2, 2026
+- **Date**: 2026-04-02
+- **Insight**: A political operator doesn't always attack directly. The subtler move is to recruit you as a supporter without your awareness. The pattern: they open a warm side channel (text, chat, hallway), share their positioning news casually ("Loni just named my work as important"), wait for you to react warmly, then close with your validation baked in. You become a witness and endorser of their narrative — without ever agreeing to be one.
+- **The moment it happened**: Philippe side-chatted Pedro during a Loni all-hands. He told Pedro that Governance/Enterprise Context was in his hands, Loni confirmed its importance. Pedro responded "very much on dirait hein cool!" — a genuine, reflexive reaction. Philippe closed with "C'est gentil mon loulou." Pedro had just endorsed Philippe's positioning to himself, in a recorded chat, without realizing it.
+- **Why it's hard to catch**: It doesn't feel like manipulation. It feels like friendly chat. The warmth is real. The information-sharing is real. The effect — you as validator — is the political payload.
+- **The counter**: Warm responses to positioning news should be brief and non-specific. "Cool" is fine. "Very much, that's great, you're so important" is validation you didn't intend to give. The rule: react to the person, not the positioning. "Sounds like a good meeting" vs "Loni really gets how important your work is."
+- **PM Application**: Recognize when someone is sharing positioning news in a side channel during a high-stakes meeting. That combination — informal channel + strategic content + senior audience nearby — is always deliberate. Engage minimally and return to the main room.
+
+### The Validation-Seeking Execution Bias — A Personal Pattern
+- **Source**: Pedro Ferreira self-diagnosis, April 2, 2026
+- **Date**: 2026-04-02
+- **Insight**: Two linked biases that slow career progression: (1) measuring personal value by what you produce rather than what you influence, leading to constant need for external confirmation that the work was good; (2) defaulting to execution over framing — plonging into problems is comfortable because it leads to a deliverable and a validation signal. Framing is uncomfortable because it involves stating a position without a guaranteed result.
+- **The effect**: You produce a lot, you help a lot, people appreciate you. And you stay at the same level. You are perceived as reliable and operational, not as someone who sees further than the work in front of them.
+- **The two biases are connected**: The execution bias exists partly because it reliably produces the validation signal. Framing doesn't — you can cadre a problem well and still get pushback. So the brain defaults to the path with a known reward.
+- **The AMISH application**: Awareness — notice when the impulse to solve arrives before the impulse to frame. Substitution — before starting to solve, write one sentence: "The real problem here is..." Motivation — every time you deliver without framing, you confirm the operational label. Every time you frame first, you shift it.
+- **PM Application**: After any project debrief, ask: did I add a layer of insight to the brief, or did I just execute it well? The goal is to make the framing visible — not just the delivery.
+
 ### The AMISH Behavior Change Framework
 - **Source**: McIntyre, *Organizational Politics* (Ch 6 — AMISH)
 - **Date**: 2026-04-02
