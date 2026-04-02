@@ -69,3 +69,4 @@
 | 2026-04-01 | ai-product/, leadership/, patterns/ | EH afternoon — anonymization doesn't fix residency (Ian's stolen data framing), fix it quietly before legal, preview link pattern for summit demos, hard deadlines force scope clarity |
 | 2026-04-01 | ai-product/ | Report-to-backlog pipeline trial — auto-generating JIRA stories from HTML report output, epic-per-agent triage structure, agent-owner-epic mapping |
 | 2026-04-02 | patterns/ | PM as gating layer in automated pipelines — manual trigger as trust-building step, Slack as lightweight gate, trust ladder model |
+| 2026-04-02 | ai-product/, patterns/ | MCP early adoption is developer-tool-led (Cursor 15.6% vs Claude 0.5%); explicit sequence as protection against spread |

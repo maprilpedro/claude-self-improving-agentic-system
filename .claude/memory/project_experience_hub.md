@@ -18,9 +18,11 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 
 **Workstream 1 — Experience Hub (fully owned)**
 Pedro is PM of record. Team: Sorin Slavic (lead engineer), Eugene Bannykh (UX, US timezone), Mircea Salan (engineer, internship project lead), Anna Maria (new intern, started April 1 — cannot contribute meaningfully near-term).
+Scope: EH product priorities (Skills+MCP surface, Contribution Model, Customer Profiling), Brand Concierge Summit light-up, Experimentation page integration, report hosting (CDN + Okta).
 
 **Workstream 2 — Agent Assistant (contributor, not PM)**
 AEP AI Assistant is built and owned by the AEP team. PM of record: `hanessia`. QI DRI: Ilya Grafutko (Sr PM, AEP Agent Orchestrator Platform). AEM AI Assistant is program-managed by WEM. Pedro is not in any ownership chain. His role: EH surface integration (integrating the AEP prompt bar), AEM agent reporting contributor, EH as the hero surface for AEM agents. Pedro must confirm this framing with Bertrand. Sorin asked directly in the April 1 refinement sync — still unresolved.
+Scope: Felix's reporting pipeline, report-to-JIRA project, data compliance (Bertrand accepted risk April 1), report hosting (CDN + Okta path with Quentin).
 
 ---
 
@@ -106,17 +108,17 @@ Slack sent April 1 to @stoklosa @dilnesaw — invited to call, walked through op
 
 ---
 
-## Open Outreach (as of April 1, 2026)
+## Open Outreach (updated April 2, 2026)
 
 | Person | Topic | Status |
 |---|---|---|
-| Ilya Grafutko | QI program synergy | Sent April 1, 11:24 AM — awaiting response |
-| Ian Boston + Raul Hudea | Regional data aggregation | Sent April 1 — Ian responded; Raul awaiting |
-| Raul Hudea | VRR multi-tier definition | Sent April 1 — awaiting response |
-| Bertrand | Data compliance escalation | Sent April 1 — Bertrand suggested anonymization; Ian confirmed it doesn't fix residency; face-to-face response pending |
-| Bertrand + Peter | Brand Concierge light-up option | Sent April 1 — awaiting response (deadline tomorrow) |
+| Ilya Grafutko | QI program synergy | Responded April 2 — open to meeting, Teams call week of April 7 |
+| Ian Boston | Regional data aggregation | Responded April 1 — confirmed two legal risks |
+| Raul Hudea | Regional data aggregation + VRR tier definition | Sent April 1 — awaiting response |
+| Bertrand | Data compliance | Accepted risk April 1 — continue with Felix. Closed. |
+| Peter Klassen | Brand Concierge light-up option | Responded April 2 — shared full product Confluence proposal. Waiting on Sorin's feedback on Summit-viable scope. |
 | Jim Stoklosa + team | Experimentation page onboarding call | Sent April 1 — awaiting response |
-| Philippe Kapfer | Demo prompts | Responded April 1 |
+| Philippe Kapfer | Report-to-JIRA feedback | Responded April 2 — positive, pipeline rules confirmed |
 
 ---
 
@@ -144,7 +146,7 @@ Demo regeneration: message sent April 1 to all owners + Mark Szulc (based in Aus
 - 🔴 Data compliance: deliver anonymization response to Bertrand face-to-face
 - 🔴 Follow up on demo prompts — reminder set April 2 noon (Philippe answered, chase the rest)
 - 🟠 Get on Sorin + Eugene email thread on UX AI framework
-- 🟠 Review Eugene's design view on Skills/MCP before going to Guliz
+- 🟠 Waiting on Eugene's feedback on Skills/MCP design — Pedro proposed, Eugene to review. Once aligned, involve Guliz.
 - 🟠 Sync with Felix early week of April 7 on report-to-JIRA pipeline progress
 - 🟠 Get VRR tier definition from Raul / Yanira's wiki
 - 🟠 Clarify Agent Assistant PM role with Bertrand next 1:1
@@ -154,7 +156,18 @@ Demo regeneration: message sent April 1 to all owners + Mark Szulc (based in Aus
 
 ---
 
+## Status & Todo Files (Obsidian)
+
+- EH: `AEM EH Status and Roadmap/EH - Status and Todo.md`
+- AI Assistant: `AI-Assistant/AI-Assistant Status and Roadmap/AI-Assistant - Status and Todo.md`
+- Both files: rolling status, todo with person + date captured, key dates, key people, conversations + links, session log.
+- CLAUDE.md rule: always ask for conversation links when updating these files.
+
+---
+
 ## Key Meetings / Documents
+
+All paths relative to: `/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.com/My Drive/ObsidianVault/020 Professional/Adobe/Projects/2026/Experience Hub/AEM Experience Hub - Project Folder/`
 
 - Bertrand questions: `AEM EH - Key Files/Experience Hub - Questions for Next 1-1 with Bertrand.md`
 - Sorin questions: `AEM EH - Key Files/Experience Hub - Questions for Next 1-1 with Sorin.md`
@@ -166,6 +179,7 @@ Demo regeneration: message sent April 1 to all owners + Mark Szulc (based in Aus
 - Ian's compliance response: `AEM Experience Agent Reports/20260401 - Ian Issues on Felix Report data localisation.md`
 - AI Assistant findings: `../AI-Assistant/AI-Assistant-Findings.md`
 - MOC: `🎯 AEM Experience Hub MOC.md`
+- Meeting notes folder: `Adobe Projects 2026 Meeting Notes/` (renamed from `EH Meeting Notes/`)
 
 ---
 
