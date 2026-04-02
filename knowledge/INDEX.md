@@ -6,7 +6,7 @@
 
 | Folder | Purpose | Status | Entries |
 |--------|---------|--------|---------|
-| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 11 |
+| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 12 |
 | `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 17 |
 | `hypotheses/active.md` | Hypotheses currently being tested | Active | 5 |
 | `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Empty | 0 |
@@ -70,3 +70,4 @@
 | 2026-04-01 | ai-product/ | Report-to-backlog pipeline trial — auto-generating JIRA stories from HTML report output, epic-per-agent triage structure, agent-owner-epic mapping |
 | 2026-04-02 | patterns/ | PM as gating layer in automated pipelines — manual trigger as trust-building step, Slack as lightweight gate, trust ladder model |
 | 2026-04-02 | ai-product/, patterns/ | MCP early adoption is developer-tool-led (Cursor 15.6% vs Claude 0.5%); explicit sequence as protection against spread |
+| 2026-04-02 | domain/ | Bertrand metric framing — adoption metrics should be ratios vs baseline (MCP edits vs CM UI edits), not absolutes |

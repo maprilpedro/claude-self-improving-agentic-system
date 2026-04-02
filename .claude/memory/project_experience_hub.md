@@ -116,9 +116,11 @@ Slack sent April 1 to @stoklosa @dilnesaw — invited to call, walked through op
 | Ian Boston | Regional data aggregation | Responded April 1 — confirmed two legal risks |
 | Raul Hudea | Regional data aggregation + VRR tier definition | Sent April 1 — awaiting response |
 | Bertrand | Data compliance | Accepted risk April 1 — continue with Felix. Closed. |
-| Peter Klassen | Brand Concierge light-up option | Responded April 2 — shared full product Confluence proposal. Waiting on Sorin's feedback on Summit-viable scope. |
+| Peter Klassen | Brand Concierge light-up option | Responded April 2 — shared full product Confluence proposal. Bertrand also answered. Waiting on Sorin's feedback on Summit-viable scope. |
 | Jim Stoklosa + team | Experimentation page onboarding call | Sent April 1 — awaiting response |
 | Philippe Kapfer | Report-to-JIRA feedback | Responded April 2 — positive, pipeline rules confirmed |
+| Corey Dulimba | Demo prompt regeneration | Responded April 2 |
+| Apoorva Gupta | Demo prompt regeneration (Discovery agent) | Not yet responded — chase |
 
 ---
 
@@ -140,15 +142,16 @@ Demo regeneration: message sent April 1 to all owners + Mark Szulc (based in Aus
 
 ## Active Actions This Week
 
-- 🔴 Report hosting — create AEM EDS program for aem-agent-reports, then work with Quentin to add CDN front + Okta auth. Sidekick requirement is a deal breaker for Loni. Current URL: https://main--aem-agent-reports--aem-epa.aem.live/ — Bertrand directed this on April 1.
-- 🟡 Report to JIRA pipeline — in progress. EGA trial done. Pipeline rules confirmed with Philippe (gaps-report label, empty assignee, Philippe as reporter, manual trigger, sub-components). Bertrand on the thread, no reply yet. Next steps in order: (1) get Felix report updates done, (2) update the Claude skill to pull data from Felix's updated reports, (3) package as a skill and distribute to all agent PMs, (4) collect feedback from PMs. Slack notification mechanism still to be designed (gating step before JIRA creation).
-- 🔴 Brand Concierge: get Bertrand + Peter answer on option (deadline April 2)
-- 🔴 Data compliance: deliver anonymization response to Bertrand face-to-face
-- 🔴 Follow up on demo prompts — reminder set April 2 noon (Philippe answered, chase the rest)
+- 🟡 Report hosting — blocked on Felix report updates first. Once Felix done, work with Quentin on CDN front + Okta auth. Sidekick requirement is a deal breaker for Loni. Current URL: https://main--aem-agent-reports--aem-epa.aem.live/ — Bertrand directed this on April 1.
+- 🟡 Report to JIRA pipeline — blocked on Felix report updates. Next steps in order: (1) get Felix report updates done, (2) update the Claude skill to pull data from Felix's updated reports, (3) package as a skill and distribute to all agent PMs, (4) collect feedback from PMs. Slack notification mechanism still to be designed.
+- 🟡 Brand Concierge: Peter + Bertrand answered. Waiting on Sorin's feedback on Peter's Confluence proposal for Summit-viable scope.
+- ✅ Data compliance: Bertrand confirmed April 2 — move on with Felix, keep Ian's comments in mind. Closed.
+- 🟠 Follow up on demo prompts — Corey + Philippe answered. Chase Apoorva Gupta (Discovery agent), and remaining owners.
 - 🟠 Get on Sorin + Eugene email thread on UX AI framework
 - 🟠 Waiting on Eugene's feedback on Skills/MCP design — Pedro proposed, Eugene to review. Once aligned, involve Guliz.
 - 🟠 Sync with Felix early week of April 7 on report-to-JIRA pipeline progress
 - 🟠 Get VRR tier definition from Raul / Yanira's wiki
+- 🟠 Find owner of Content Management UI activity metrics — needed to build MCP vs CM UI ratio (Bertrand ask, April 2). MCP side tracked in Splunk (api_router - mcp_usage dashboard). CM = Content Management (page/CF/asset edits via AEM authoring UI), NOT Cloud Manager. Raul is the wrong contact. Try #dx-product-measurement or ask Sorin.
 - 🟠 Clarify Agent Assistant PM role with Bertrand next 1:1
 - 🟠 Join "AEM experience hub extension builder" Slack channel
 - 🟠 Find Canva roadmap planning doc → share with Sorin

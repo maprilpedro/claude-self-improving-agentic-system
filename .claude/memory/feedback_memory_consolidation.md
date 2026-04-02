@@ -11,5 +11,8 @@ Memory consolidation and learning reflection are the same wrap-up step. Never do
 **How to apply:**
 - "review and consolidate memory files" → update memory files AND route new learnings to knowledge/ AND update INDEX.md AND commit with `learn:` prefix
 - "wrap up the session" → same as above
+- "what have you learned?" → reflects AND updates knowledge/ for any generalizable insight, AND saves operational details (URLs, data sources, contacts) to reference memory — not just verbal reflection
 - Any end-of-session signal triggers the full protocol, not just half of it
 - The user should never have to ask separately for the reflection step
+
+**Known gap (April 2, 2026):** When reflecting verbally on learnings, I tend to capture the clean, generalizable insight but underweight operational details (URLs, data source names, key contacts) that also need saving. The fix: after any verbal reflection, explicitly check — "is there a reference or operational detail here that needs saving too?"
