@@ -145,6 +145,22 @@
 
 ---
 
+## Influence Skills (from McIntyre, *Organizational Politics*, Ch 9)
+
+### The Paradox of Influence — Change Your Behavior First
+- **Source**: McIntyre, *Organizational Politics* (Ch 9 — The Paradox of Influence)
+- **Date**: 2026-04-02
+- **Insight**: McIntyre's central insight about influence: "To get other people to change their behavior, you have to change your own first." Most people approach influence backwards — they try to get the other person to change while keeping their own behavior constant. The paradox is that your behavior creates a significant portion of the other person's behavior. Change how you show up, and you change the dynamic without any direct request for change from them. This requires: (1) Self-observation — watching your own patterns neutrally, as if observing someone else. (2) Self-control — choosing your response rather than reacting automatically. (3) Selective behavior — deploying different behaviors in different contexts rather than having one default mode.
+- **Application at Adobe**: Before any difficult stakeholder conversation, ask: what am I doing that might be producing the behavior I find frustrating? This is not self-blame — it's system-thinking. The conversation you've been having probably has a pattern. Break the pattern on your side, and the other person is forced to respond differently.
+
+### The Influence Toolbox — Matching Method to Situation
+- **Source**: McIntyre, *Organizational Politics* (Ch 9 — Influence Skills)
+- **Date**: 2026-04-02
+- **Insight**: McIntyre organizes influence approaches on a continuum from least to most assertive: Observe & Wait (gather information, watch patterns, hold your move) → Ask & Listen (understand their perspective before asserting yours; facts can be wrong, but opinions are simply different — never tell someone their opinion is wrong) → Persuade & Convince (present your case with evidence, find shared interests, make it easy to agree) → Order & Act (use positional authority, invoke process or policy, or simply decide and move). Most people default to either end of the continuum and miss the middle.
+- **The calibration principle**: The appropriate position on the continuum depends on your leverage with this person and the urgency of the situation. With low leverage and low urgency, Observe & Wait is often right. With high leverage and high urgency, Order & Act may be necessary. The failure mode is applying high-assertiveness approaches when low-assertiveness would work better — it creates resistance and resentment unnecessarily.
+- **The "facts vs opinions" distinction**: One of McIntyre's most practical points. In most workplace conflicts, the dispute is between different opinions, not facts. Treating someone's opinion as a factual error makes them feel dismissed and digs in the resistance. Saying "I see it differently" opens a conversation. Saying "you're wrong about that" closes it.
+- **PM application**: Map your default influence approach. If you lead with persuasion in every situation, you're missing the power of asking and listening first. In cross-org alignment meetings, spend the first half asking questions and genuinely listening before presenting your position. You'll usually find that the resistance is rooted in something you didn't know, and your position can be adjusted to remove it.
+
 ## Emotional Intelligence in Professional Contexts
 
 ### Position Power vs Personal Power — Which One Actually Moves People

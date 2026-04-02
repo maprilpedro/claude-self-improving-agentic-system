@@ -10,11 +10,11 @@
 | `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 34 |
 | `hypotheses/active.md` | Hypotheses currently being tested | Active | 5 |
 | `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Empty | 0 |
-| `false-beliefs/` | PM conventional wisdom proven wrong | Active | 18 |
-| `tools/` | Decision matrix: when to use which PM method/tool | Active | 6 |
+| `false-beliefs/` | PM conventional wisdom proven wrong | Active | 22 |
+| `tools/` | Decision matrix: when to use which PM method/tool | Active | 10 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
-| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 38 |
-| `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries | Active | 12 |
+| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 43 |
+| `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries | Active | 19 |
 | `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 23 |
 
 ## Sources Ingested
@@ -84,4 +84,5 @@
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | 33 Strategies of War ingestion — strategic positioning (polarity, grand strategy, intelligence), coalition patterns, false beliefs about consensus/retreat/first-mover advantage |
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | Art of Seduction ingestion — attention redirection, mirroring, charisma components, soft sell, anti-seducer audit, purpose creates followership, myth over logic, FB-013 directness, FB-014 charisma |
 | 2026-04-02 | interpersonal/, leadership/ | McIntyre ingestion — Four political types, supporters/adversaries, toxic signals, political suicide patterns, position vs personal power → interpersonal/; Four P's, visible results, Power Grid, Political Game Plan → leadership/ |
+| 2026-04-02 | leadership/, interpersonal/, false-beliefs/, tools/ | McIntyre full completion — leverage equation, Organizational Facts of Life, AMISH framework, Paradox of Influence, Influence Toolbox, adversary conversion, Strategy 5 (leverage-building), Stop/Start/Continue, 7 fundamentals; FB-019 through FB-022; Power Grid, AMISH, Influence Toolbox, Stop/Start/Continue added to tools/ |
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | 48 Laws of Power ingestion — reputation, never outshine, formlessness, stop at goal, envy management, self-interest persuasion, gradual reform, isolate blockers, win hearts first, mirror to disarm; FB-015 through FB-018 |

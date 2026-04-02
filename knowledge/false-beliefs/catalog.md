@@ -257,6 +257,46 @@ Cataloging these prevents repeating industry-wide mistakes.
 - **Nuance**: Boldness must be grounded. Boldness without competence behind it is bluster and it fails fast. The preparation must be there before the boldness.
 - **Implication**: When entering a new role, making a new proposal, or presenting to senior leadership — commit fully. Do not hedge, do not qualify excessively, do not retreat from a position the first time it's challenged. Enter with conviction.
 
+## FB-019: "Good work eventually gets noticed — you don't need to promote yourself"
+
+- **Rating**: Dangerous
+- **Date cataloged**: 2026-04-02
+- **Source**: McIntyre, *Organizational Politics* (Ch 6, Ch 8 — Political Suicide / Visible Results)
+- **Common belief**: Doing excellent work is sufficient for career advancement. Self-promotion feels uncomfortable and unnecessary. The right people will notice eventually.
+- **Why it's wrong**: Organizations do not automatically surface good work to the people who make promotion decisions. Decision-makers have hundreds of inputs competing for their attention. The PM who does excellent work in a closed room has effectively opted out of the promotion conversation. McIntyre calls this one of the most reliable political suicide patterns — not dramatic failure but quiet invisibility. "Invisible contributions have no political value."
+- **What to do instead**: Ensure contributions are legible to the right people. Name your work in artifacts. Follow up in writing after verbal contributions are adopted. Connect your results to the metrics your sponsors care about. The goal is not bragging — it is making your contribution attributable.
+- **Caveat**: Self-promotion without underlying substance is immediately detected and damages credibility. The sequence must be: do excellent work, then make it visible. Not visible first.
+
+## FB-020: "To change someone's behavior, you have to address them directly"
+
+- **Rating**: Nuanced
+- **Date cataloged**: 2026-04-02
+- **Source**: McIntyre, *Organizational Politics* (Ch 9 — The Paradox of Influence)
+- **Common belief**: If someone is doing something you need to change, the most effective path is to address them directly — point out the behavior and request the change.
+- **Why it's wrong**: McIntyre's paradox of influence establishes that the most reliable way to change someone else's behavior is to change your own first. Your behavior creates a significant portion of the other person's behavioral context. When you change your approach, their behavior changes in response — often without any direct request. Direct addressing triggers defensiveness in proportion to the magnitude of the request.
+- **What to do instead**: Before any direct conversation about someone's behavior, run the self-observation step first. What are you doing that is contributing to the pattern? Change that and observe the response. If direct conversation becomes necessary after that, come from a position of having already changed your side of the dynamic.
+- **Caveat**: True adversarial behavior — deliberate undermining, systematic credit-stealing — cannot be resolved through self-modification alone. The paradox applies to friction in collaborative relationships, not to hostile acts.
+
+## FB-021: "Emotional reactions signal authenticity and passion — they build trust"
+
+- **Rating**: Dangerous
+- **Date cataloged**: 2026-04-02
+- **Source**: McIntyre, *Organizational Politics* (Ch 6 — Hazards of Uncontrolled Emotion)
+- **Common belief**: Showing emotion in professional settings signals genuine investment and authenticity. Vulnerability and passion make you more relatable and trustworthy.
+- **Why it's wrong**: McIntyre establishes a sharp asymmetry: one emotional outburst in a senior meeting can undo months of credibility building. There is no equivalent positive emotional event. Frustration signals loss of control; defensiveness signals insecurity; excitement that becomes pressure signals the ego is staked on the outcome. All of these make observers uncomfortable in high-stakes settings. The "authenticity" interpretation of emotional display is almost entirely a myth in hierarchical professional environments — what observers actually see is: can this person hold themselves together under pressure?
+- **What to do instead**: Equanimity is the signal of senior-level readiness. Receive criticism calmly, absorb setbacks without visible distress, hold your ground on a challenged position without getting heated. The emotion can be real — the expression of it in public is a separate choice.
+- **Caveat**: Genuine enthusiasm in appropriate contexts (team celebration, early-stage brainstorming, informal conversations) has real value. The rule applies specifically to high-stakes meetings with evaluating audiences.
+
+## FB-022: "If you don't have the political leverage you need, work harder"
+
+- **Rating**: Misleading
+- **Date cataloged**: 2026-04-02
+- **Source**: McIntyre, *Organizational Politics* (Ch 3 — Leverage Equation, Ch 11 — Political Game Plan)
+- **Common belief**: If your career isn't advancing or your initiatives keep getting blocked, the answer is to perform better and deliver more. Results always win eventually.
+- **Why it's wrong**: McIntyre's leverage equation shows that what matters is not raw output but valued output — output that is visible to decision-makers, attributable to you, and relevant to their priorities. Working harder on the wrong things, or doing excellent work that no one above you can see, does not change the leverage calculation. The director who doubles their output in a closed room remains invisible.
+- **What to do instead**: Diagnose which leverage dimension is weakest before increasing effort. Is it Results (you need better outputs), Knowledge (you need a capability others don't have), Perception (you're not known by the right people), or Partnerships (you lack sponsors who advocate for you)? Target the weakest link. More output when Perception is the problem is wasted effort.
+- **Caveat**: A minimum threshold of real performance is required — leverage built entirely on perception without substance collapses fast. The point is that performance alone is necessary but not sufficient.
+
 ## Seed Beliefs to Investigate
 
 > These are commonly held PM beliefs worth examining. Move to entries above once evidence is gathered.

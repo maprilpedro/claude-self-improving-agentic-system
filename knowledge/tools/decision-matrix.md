@@ -84,6 +84,51 @@
 | Any presentation >10 min | Break every 10 minutes | Neuroscience-backed attention limit |
 | Feature explanation | "What this means to you is..." | Jobs's bridge from feature to benefit |
 
+## Organizational Politics Tools (from McIntyre, *Organizational Politics*)
+
+### The Power Grid (2x2)
+- **Date evaluated**: 2026-04-02
+- **Source**: McIntyre, *Organizational Politics*, Ch 7
+- **Best for**: Mapping who actually holds power in your organization before any major initiative or alignment push. Distinguishing formal authority from real influence.
+- **How to use**: Map each key stakeholder on two axes: (X) formal positional authority, (Y) informal degree of influence (who people actually consult, whose concerns block proposals). The four quadrants:
+  - High position / High influence: Power Elite (the real decision-makers)
+  - High position / Low influence: Empty Suits (title without trust)
+  - Low position / High influence: Persuaders (dangerous blockers or powerful allies)
+  - Low position / Low influence: Weaklings (safe to ignore)
+- **Priority**: Win the Power Elite first. Neutralize Persuaders who oppose you. Ignore Empty Suits except for formal sign-off.
+- **Test**: If a stakeholder has a high title but you could get something done over their objection, they're an Empty Suit. If someone with no title can kill your initiative with a comment, they're a Persuader.
+- **Common misuse**: Confusing title with influence. Spending time winning Empty Suits' approval while ignoring the Persuader who is quietly building resistance.
+
+### The AMISH Behavior Change Framework
+- **Date evaluated**: 2026-04-02
+- **Source**: McIntyre, *Organizational Politics*, Ch 6
+- **Best for**: Changing a specific behavior you've identified as harmful to your career or relationships. Not for general development — for targeted behavior modification.
+- **How to use**: (A) Awareness — can you see the behavior happening in real time? (M) Motivation — identify a concrete consequence that makes change worth the effort. (I) Identification — name the specific trigger situations. (S) Substitution — design the replacement behavior to use when triggered. (H) Habits — practice until the substitution is automatic.
+- **When it works**: When you can identify a single specific behavior, name its triggers, and design a concrete substitute.
+- **When it fails**: When the "behavior" is too vague ("communicate better"). When motivation is abstract ("it's unprofessional"). When multiple behaviors are tackled simultaneously.
+- **Verdict**: Use for the output of the Anti-Seducer Audit or political suicide pattern review. One behavior at a time.
+
+### The Influence Toolbox (Continuum)
+- **Date evaluated**: 2026-04-02
+- **Source**: McIntyre, *Organizational Politics*, Ch 9
+- **Best for**: Choosing the right level of assertiveness for any specific influence situation.
+- **How to use**: Position on a continuum from least to most assertive: Observe & Wait → Ask & Listen → Persuade & Convince → Order & Act. Match position to your leverage with this person and urgency of the situation.
+  - Observe & Wait: low leverage, low urgency. Gather information before committing.
+  - Ask & Listen: medium leverage. Lead with genuine curiosity about their view before presenting yours.
+  - Persuade & Convince: medium-high leverage. Present evidence, find shared interests, make it easy to agree.
+  - Order & Act: high leverage, high urgency. Use authority or simply decide and move.
+- **Key rule**: Never use Ask & Listen to secretly get to Persuade. If you're asking, actually listen. The distinction between facts (can be wrong) and opinions (are simply different) is critical — never correct an opinion as if it were a fact error.
+- **Common misuse**: Defaulting to Persuade & Convince in every situation. Missing the power of Observe & Wait when leverage is unclear.
+
+### The Stop, Start, Continue Game Plan
+- **Date evaluated**: 2026-04-02
+- **Source**: McIntyre, *Organizational Politics*, Ch 11
+- **Best for**: Translating a strategic political goal into specific behavioral changes. Annual or quarterly career review.
+- **How to use**: For your current political goal, answer three questions: (1) Stop — what behaviors are working against the goal right now? (2) Start — what new behaviors would accelerate progress? (3) Continue — what's already working that you should protect? Be specific. "Communicate better" is useless. "Stop giving Loni context before the headline" is actionable.
+- **Test**: If you can't describe a Stop behavior as a concrete action someone could observe, it's too vague.
+- **Cadence**: Run at the start of each quarter. Grade yourself on Stop items especially — they're the hardest to change and cause the most damage when unaddressed.
+- **Common misuse**: Only listing Start items without addressing Stop items. The improvements you add are often negated by the harmful behaviors you keep.
+
 ## Strategy Tools
 
 ### Passion Statement
