@@ -139,7 +139,7 @@ Demo regeneration: message sent April 1 to all owners + Mark Szulc (based in Aus
 ## Active Actions This Week
 
 - 🔴 Report hosting — create AEM EDS program for aem-agent-reports, then work with Quentin to add CDN front + Okta auth. Sidekick requirement is a deal breaker for Loni. Current URL: https://main--aem-agent-reports--aem-epa.aem.live/ — Bertrand directed this on April 1.
-- 🟡 Report to JIRA pipeline — project started: `/Users/pedrofer/GitHub/adbe-agent-report-to-jira`. First trial complete: PROCEDURE.md written, EGA epic AEMAGT-1240 created and updated (description + Philippe Kapfer as assignee), two stories auto-generated (AEMAGT-1241, AEMAGT-1242). Agent-Owner-Epic-Mapping.md at `/setup/`. Email sent to Philippe + Bertrand for feedback. Next: incorporate feedback, expand to other agents.
+- 🟡 Report to JIRA pipeline — in progress. EGA trial done. Pipeline rules confirmed with Philippe (gaps-report label, empty assignee, Philippe as reporter, manual trigger, sub-components). Bertrand on the thread, no reply yet. Next steps in order: (1) get Felix report updates done, (2) update the Claude skill to pull data from Felix's updated reports, (3) package as a skill and distribute to all agent PMs, (4) collect feedback from PMs. Slack notification mechanism still to be designed (gating step before JIRA creation).
 - 🔴 Brand Concierge: get Bertrand + Peter answer on option (deadline April 2)
 - 🔴 Data compliance: deliver anonymization response to Bertrand face-to-face
 - 🔴 Follow up on demo prompts — reminder set April 2 noon (Philippe answered, chase the rest)

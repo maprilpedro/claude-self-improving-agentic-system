@@ -191,6 +191,16 @@
 - **Pattern**: If a decision has been stuck for weeks, create or name a forcing event. The constraint of a real deadline — especially an external one like a summit or customer meeting — collapses the option space faster than any internal planning discussion.
 - **Application**: When a decision is drifting, ask: is there an upcoming event that makes the cost of not deciding concrete? If yes, use it. Frame the decision in terms of what the event requires, not in abstract terms.
 
+### PM as Gating Layer in Automated Pipelines
+- **Date identified**: 2026-04-02
+- **Source**: Philippe Kapfer's feedback on the report-to-JIRA trial, April 2, 2026.
+- **Observations**: (1) Auto-created JIRA stories from the EGA report trial created overhead — some were duplicates, some partially relevant. Philippe's first ask was a manual trigger, not better filters. (2) The "fluffyjaw" reference signals a prior experience with noisy auto-created tickets that eroded trust in an automated system. (3) His framing: "Once the quality improves, we can decide to automate." The gate is a trust-building step, not a permanent constraint.
+- **Pattern**: When automation creates work items that land directly in a PM's or engineer's backlog, the PM needs a review gate before creation — not after. Automating past that gate produces noise, creates cleanup work, and erodes trust in the pipeline. The right model: pipeline generates *candidates*, PM reviews and approves, then artifacts are created. The gate is the product.
+- **Why this matters**: A backlog is a prioritized, trusted list. Every low-quality item added to it degrades the signal of the whole list. PMs protect their backlogs the way engineers protect their codebase — and for the same reason.
+- **The trust ladder**: Manual trigger (PM approves every story) → curated auto (PM sets rules, reviews exceptions) → full auto (proven quality, PM spot-checks). Don't skip steps.
+- **Lightweight gating mechanism**: Slack notification with candidate list before JIRA creation. PM responds with approval or filters. Only confirmed items become stories. No additional tooling required.
+- **Application**: Before automating any workflow that creates work items for another team, ask: does this person's backlog have a trust contract? If yes, get their approval on the gating model before running the first batch. Start with manual trigger regardless of what's technically easier.
+
 ### Jargon as a Sign of Insecurity
 - **Date identified**: 2026-03-19
 - **Observations**: (1) Jobs vs Gates language analysis: Jobs scored dramatically better on every readability metric. (2) Jack Welch despised jargon and fired a leader who couldn't explain his business simply. (3) Suze Orman: "It's our fear of not being important that leads us to communicate in a more complex way than we need to." (4) Mission statements are the worst culprits.
