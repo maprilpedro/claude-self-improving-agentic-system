@@ -215,3 +215,55 @@
 - **Looks like**: Using complex language sounds smart and authoritative.
 - **Actually**: It signals insecurity and creates distance. Einstein: "If you can't explain it simply, you don't understand it well enough."
 - **Instead**: Use simple, concrete, emotional words. Run text through readability tools. If a high schooler can't understand it, rewrite it.
+
+---
+
+## Strategic Patterns (from Greene, *The 33 Strategies of War*)
+
+### Polarity Creates Momentum — Vagueness Kills It
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 1: The Polarity Strategy
+- **Date**: 2026-04-02
+- **Observations**: (1) Thatcher won elections by drawing sharp ideological lines that most politicians avoided. Her clarity repelled some voters but activated others far more strongly. Her poll numbers were lower than her opponents', yet she won. (2) Xenophon's Greeks found direction only when they defined who their enemy was — before that they were dissolving into argument and despair. Without polarity, there is no energy.
+- **Pattern**: Clear positions — even controversial ones — generate more movement than careful hedging. In product work, a sharp "we will not do X" is more energizing than "we'll consider everything." Choosing what you're against creates definition. Definition creates momentum.
+- **When it works**: When you have enough credibility and context to take the position. When the organization needs direction more than it needs consensus.
+- **When it fails**: When the position is taken without relationships or evidence to back it. When you polarize before you've built the coalition you need.
+
+### Adapt the Approach, Hold the Objective
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 2: Do Not Fight the Last War
+- **Date**: 2026-04-02
+- **Observations**: (1) Musashi changed his weapons, timing, and tactics with each duel — arriving late for some, early for others, using a wooden oar instead of a sword against Ganryu. He won every time by reading the specific opponent rather than applying a formula. (2) Napoleon's genius was precisely that he had no fixed principles — he adapted to circumstances completely.
+- **Pattern**: The best strategists separate the unchanging objective (get home, win the duel, ship the feature) from the changeable method (how you get there). Past success at a method is a liability if you apply it mechanically to a new situation. The method should always be provisional; the goal should not be.
+- **When it works**: In fast-changing environments (AI, new markets, new org structures). When the opponent/situation is novel.
+- **When it fails**: When mistaking tactical flexibility for strategic drift — changing objectives as often as methods produces nothing.
+
+### Thorough Preparation = Permission to Appear Unflappable
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 3: Do Not Lose Your Presence of Mind (The Counterbalance Strategy)
+- **Date**: 2026-04-02
+- **Observations**: (1) Hitchcock's famous on-set calm was not temperamental — it was earned. He had storyboarded every shot, designed every costume, blocked every scene before cameras rolled. His nonchalance was preparation made visible. (2) Nelson at Copenhagen could ignore the order to retreat because he had studied the sandbar maps, knew the winds, and had already war-gamed the scenario. He had earned his confidence.
+- **Pattern**: The PM who appears calm under fire isn't naturally unflappable — they prepared more than everyone else. Presence of mind in high-stakes moments (exec reviews, escalations, unexpected challenges) is the output of pre-work: anticipating objections, knowing the data, understanding the stakeholder. The calm is a signal of preparation, not temperament.
+- **When it works**: When you've done the work before the meeting, not during it.
+- **When it fails**: When the preparation was shallow and the calm is fake — it breaks under real pressure and the credibility hit is worse than admitting uncertainty upfront.
+
+### The Alliance Strategy — Build Coalitions That Do Your Work
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 27: Seem to Work for the Interests of Others While Furthering Your Own (The Alliance Strategy)
+- **Date**: 2026-04-02
+- **Observations**: (1) The most effective political players in any organization create networks of people who want the same outcome for their own reasons. (2) Greene's examples show that alliances built on apparent mutual benefit last longer than those built on pure loyalty. People stay in alliances when they see what they get from it.
+- **Pattern**: Cross-org influence at scale doesn't work by convincing everyone of your vision. It works by identifying what each stakeholder already wants, finding the overlap with your goal, and framing your initiative as the thing that gives them what they want. You're not changing their minds — you're showing them a path to their own objectives.
+- **When it works**: When you genuinely understand what the other party cares about. When your initiative really does help them, not just as rhetoric.
+- **When it fails**: When the alignment is artificial. When the benefit to the ally evaporates once your goal is achieved — they'll remember.
+
+### Take Small Bites — The Fait Accompli Pattern
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 29: Take Small Bites (The Fait Accompli Strategy)
+- **Date**: 2026-04-02
+- **Observations**: (1) Greene demonstrates through historical examples that overt power grabs trigger resistance and resentment, while gradual accumulation of territory goes largely unnoticed until it's too late to reverse. (2) John D. Rockefeller's consolidation of the oil industry happened through dozens of small acquisitions before anyone understood the scale of what he was building.
+- **Pattern**: Large organizational changes that are proposed and announced as large changes get blocked or diluted. The same changes, introduced as a series of small, reasonable steps, each individually defensible, accumulate without triggering the immune response. This is not manipulation — it is sequencing strategy in a way that lets each step be absorbed before the next is proposed.
+- **When it works**: When the end state is genuinely beneficial but would face political resistance if proposed all at once. When you have patience.
+- **When it fails**: When the small steps don't actually build toward the goal (drift). When the incremental nature is used to obscure a genuinely bad end state from people who should evaluate it.
+
+### Penetrate Minds Indirectly — Communication Strategies for Influence
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 30: Penetrate Their Minds (Communication Strategies)
+- **Date**: 2026-04-02
+- **Observations**: (1) Greene argues that direct argument activates defensiveness — the recipient starts looking for reasons to disagree. Indirect communication bypasses this reflex: stories, demonstrations, letting people arrive at the conclusion themselves. (2) The most effective influence is when the other person thinks they had the idea.
+- **Pattern**: The PM who walks into a room and says "here is what we should do" will fight resistance. The PM who asks the right questions, presents the right data, tells the right story, and lets the senior person "discover" the conclusion gets the same outcome with a tenth the friction. This is not manipulation — it is reading how human persuasion actually works and working with it, not against it.
+- **When it works**: In high-authority-differential situations (skip-levels, C-suite). When you need durable commitment, not just compliance.
+- **When it fails**: When speed is paramount and indirect routes take too long. When the other party prefers directness and finds indirectness evasive.

@@ -104,3 +104,31 @@
 - **Context**: Any visible leadership moment.
 - **Approach**: Jobs wore suits to the bank and jeans in the office. Army Ranger Matt Eversmann: "Great leaders dress a little better than everyone else." Men's Wearhouse founder George Zimmer added: "appropriate for the culture." Your wardrobe signals the role you're stepping into.
 - **Anti-pattern**: Dressing down for important moments. Or dressing way above the culture norms in a way that creates distance.
+
+---
+
+## Coalition Building & Alliances (from Greene, *The 33 Strategies of War*)
+
+### Build Networks That Have Mutual Interest, Not Just Loyalty
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 27: The Alliance Strategy
+- **Date**: 2026-04-02
+- **Insight**: The best alliances are not built on personal loyalty but on aligned self-interest. When people stay in a coalition because they personally gain from it — not just because they like you — the coalition is durable. Loyalty fades; self-interest is more reliable. The strategist's job is to identify the overlapping interests and make them explicit.
+- **Application**: Before any cross-org initiative, map what each key stakeholder actually wants. Not what they say they want in a roadmap session — what they care about in terms of their own goals, their team's visibility, their org's metrics. Find the genuine overlap. Make your ask feel like it helps them get what they were already trying to get.
+
+### Sow Dissension in Opposing Coalitions by Isolating Members
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 17: Defeat Them in Detail (The Divide-and-Conquer Strategy)
+- **Date**: 2026-04-02
+- **Insight**: When facing a large, unified opposing force — whether a competing team, a hostile coalition, or an org that has aligned against your initiative — the worst strategy is a frontal attack. The better approach is to identify the weakest member or the most detachable component and work on that first. By separating the parts and addressing them individually, a formidable unified force becomes a series of manageable individual conversations.
+- **Application**: When a cross-org initiative faces broad resistance, don't try to change everyone's mind at once. Find the one stakeholder who is closest to agreeable and win them first. Use that win as social proof for the next. The sequence matters: easiest first, hardest last. Each conversion changes the math for everyone who hasn't yet been won.
+
+### Occupy the Moral High Ground — The Righteous Strategy
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 25: Occupy the Moral High Ground (The Righteous Strategy)
+- **Date**: 2026-04-02
+- **Insight**: In political and organizational environments, the side that appears to be fighting for a just cause has a structural advantage. It is harder to attack someone who clearly holds the moral or principled position. By framing your work in terms of what's right for the customer, the user, the team — not what's right for you — you make it costly for opponents to attack without appearing self-interested.
+- **Application**: Frame every major initiative in terms of user benefit and company mission, not personal/team wins. "This is what our customers need" is harder to argue against than "I think we should do this." When under organizational attack, don't respond defensively — hold the principle. The person defending the principled position earns the benefit of the doubt from observers who are undecided.
+
+### Read Behavior, Not Intent — Judge People by Their Actions
+- **Source**: Greene, *The 33 Strategies of War*, Preface and Strategy 1 (Keys to Warfare section)
+- **Date**: 2026-04-02
+- **Insight**: Greene's preface establishes a foundational principle: "What people say about themselves does not matter; people will say anything. Look at what they have done; deeds do not lie." In organizations especially, where political maneuvering is disguised as collaboration and allies sometimes work against you indirectly, the ability to read behavior patterns rather than stated intent is a critical skill.
+- **Application**: When evaluating whether a stakeholder is genuinely aligned or performing alignment, watch the pattern of their actions over 3-4 weeks. Do their decisions consistently support the shared goal, or do small moves consistently disadvantage your initiative while their stated support stays warm? The pattern tells the truth. Mao detected Lin Biao's plotting not from evidence of conspiracy but from a change in behavior — effusive praise that was too fervent. Register changes in emotional temperature. That is where the signal is.

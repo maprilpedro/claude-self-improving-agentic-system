@@ -132,6 +132,42 @@ Cataloging these prevents repeating industry-wide mistakes.
 - **What's actually true**: A new surface fragments the audience further unless it clearly replaces an existing surface. The solution to discovery problems is better instrumentation and PLG investment on the existing hero surface — not a new surface.
 - **Implication**: Default answer to "let's build a new surface" is "does this belong inside the existing hero surface?" New surface requires explicit justification.
 
+## FB-009: "Being liked is more important than being respected in org politics"
+
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 1: The Polarity Strategy
+- **Date**: 2026-04-02
+- **Common belief**: To advance in a corporate org, you need to be liked. Avoid antagonizing people. Seek consensus. Don't make enemies.
+- **Why it's wrong**: Greene's Thatcher analysis is definitive on this. Thatcher's personal popularity numbers were consistently lower than Callaghan's. She was disliked by large portions of the electorate. She won three elections anyway, and dominated British politics for a decade. Pundits tracked popularity; she tracked a different metric — the clarity and intensity of her support base. Dominating presence has more pull than likability. "Let some of the public hate you; you cannot please everyone."
+- **What to do instead**: Build a base of people who are genuinely committed to your direction — not a broad pool of people who mildly approve. A Senior Director with 5 strongly aligned advocates is more powerful than one with 20 lukewarm ones. Take positions. Be clear about what you're for and against.
+- **Caveat**: The "don't seek to be liked" principle has limits in corporate environments where you depend on the same people repeatedly. The goal is respect and trust, not antagonism for its own sake. Thatcher eventually fell because she polarized too broadly and too rigidly — the reversal at the end of Strategy 1 makes this explicit.
+
+## FB-010: "Consensus means alignment — get everyone to agree before moving"
+
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 5: Avoid the Snares of Groupthink (The Command-and-Control Strategy)
+- **Date**: 2026-04-02
+- **Common belief**: Good product leaders build consensus before moving. If everyone agrees, the path is clear. Decisions made with full buy-in are more durable.
+- **Why it's wrong**: Greene shows that groupthink — the irrationality of collective decision-making — produces the worst outcomes. Groups default to the safe, familiar, uncontroversial option. Genuine creative or strategic insight almost never emerges from consensus. It emerges from individuals with clear vision who can then bring others along. The leader who waits for full consensus before moving has already been outmaneuvered by the leader who moved and let others catch up.
+- **What to do instead**: Separate two things: (1) the decision itself, and (2) the process of communicating and executing it. Decisions should be made by the person with the clearest view and most accountability. Communication and execution benefit from involvement. "Create a sense of participation, but do not fall into groupthink."
+- **Caveat**: For decisions that genuinely require others' knowledge to make well — technical feasibility, cross-team dependencies — collaborative input improves the decision. The trap is treating input-gathering as consensus-building, or using "alignment" to defer a decision that one person should make.
+
+## FB-011: "Moving first gives you the advantage — get there before competitors"
+
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 9: Turn the Tables (The Counterattack Strategy)
+- **Date**: 2026-04-02
+- **Common belief**: First-mover advantage is decisive. In competitive situations — org politics, product bets, market positioning — moving first is almost always better.
+- **Why it's wrong**: Greene's counterattack strategy argues the opposite: moving first exposes your strategy and limits your options. The person who holds back, lets the opponent move, and then responds from a position of full information often has the structural advantage. "Moving first — initiating the attack — will often put you at a disadvantage: You are exposing your strategy and limiting your options." The defensive player knows what the attacker wants; the attacker does not know what the defender has held back.
+- **What to do instead**: In adversarial or competitive situations, learn to hold and observe before committing. Let others play their hand. Reserve your move for when you have enough information to respond decisively. "Discover the power of holding back and letting the other side move first."
+- **Caveat**: In non-adversarial situations (product launches, feature development, greenfield opportunity), speed genuinely matters and first-mover advantages are real. This principle applies specifically to competitive dynamics and adversarial negotiations, not to product execution.
+
+## FB-012: "Retreat signals weakness — always hold your ground"
+
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 11: Trade Space for Time (The Nonengagement Strategy)
+- **Date**: 2026-04-02
+- **Common belief**: Giving ground — whether in a negotiation, a prioritization debate, or an organizational conflict — signals weakness and invites further pressure.
+- **Why it's wrong**: Greene demonstrates through examples including Fabius Maximus (the Roman general who refused to engage Hannibal directly) that strategic retreat is often the highest form of strength. By refusing to fight on the opponent's terms, Fabius denied Hannibal the decisive battle he needed and let time and supply lines do the work. "Retreat in the face of a strong enemy is a sign not of weakness but of strength." Sometimes you can accomplish the most by doing nothing.
+- **What to do instead**: When an adversary is strong and the timing is wrong, disengage deliberately. Don't fight the battle today if the terrain will be better in three months. Buy time. Let the opponent's momentum exhaust itself. Return when conditions have shifted.
+- **Caveat**: Perpetual non-engagement is just avoidance — it only works as a deliberate strategy with a specific purpose and return condition. And in organizational contexts, being seen as someone who never takes a stand has its own costs. The principle applies to specific battles, not to a general posture of retreat.
+
 ## Seed Beliefs to Investigate
 
 > These are commonly held PM beliefs worth examining. Move to entries above once evidence is gathered.

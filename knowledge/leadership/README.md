@@ -125,3 +125,61 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **Source**: Loni's direction in Session I and Session IV. AEM moving from "here are the 12 features we'll ship in H1" to "content management to context management" as the organizing frame.
 - **Pattern**: In fast-moving areas (AI, platform evolution), 6-month feature roadmaps are liabilities. They create commitments you can't honor and expectations you'll miss. Directional themes hold. Features underneath them evolve. The theme stays true even as specifics change.
 - **Application**: When asked for a roadmap, offer two things: (1) the durable theme that will be true regardless of what ships, and (2) the near-term bets that express the theme. This is harder to argue with than a feature list.
+
+---
+
+## Strategic Positioning (from Greene, *The 33 Strategies of War*)
+
+### Declare Your Strategic Position — Use Clarity as Fuel
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 1: Declare War on Your Enemies (The Polarity Strategy)
+- **Date**: 2026-04-02
+- **Insight**: Greene argues that most people drift in vagueness, unable to commit to a clear position because they fear conflict. Thatcher's rise demonstrates the opposite: she won precisely because she drew sharp lines, named her enemies (socialism, the wets, the Argentines), and made her position unambiguous. This gave her supporters clarity and her opponents no room to quietly undermine her. Xenophon's Greeks only found their will to march home once they named the Persians as the enemy and stopped being confused mercenaries.
+- **PM Application**: A Director PM who refuses to take clear positions — always seeking consensus, never calling out what's wrong — is invisible. Senior Directors are remembered for their positions, not their agreeableness. Name the problem concretely. Name what you're against. "We cannot keep fragmenting the surface" is a position. "We should probably think about consolidation" is noise. Visibility requires polarity.
+
+### Do Not Fight the Last War — Stay Present to the Current Landscape
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 2: Do Not Fight the Last War (The Guerrilla-War-of-the-Mind Strategy)
+- **Date**: 2026-04-02
+- **Insight**: The Prussian generals at the Battle of Jena (1806) were destroyed not by inferior forces but by fighting with tactics 50 years out of date. They had studied Frederick the Great so thoroughly that when Napoleon's fluid, fast-moving army appeared, they couldn't adapt. Past success hardens into doctrine, doctrine into rigidity, rigidity into defeat. Musashi, by contrast, changed his approach with every opponent — never repeating the same method twice.
+- **PM Application**: The product playbook that worked at your last company, or even in your last role, is a liability if you apply it without reading the present situation. In AI product management especially, the "standard" approaches (user story templates, quarterly roadmaps, traditional success metrics) are often fighting the last war. The Senior Director signal is adaptability: reading what the moment actually requires, not applying the last playbook.
+
+### Presence of Mind — Prepare So Thoroughly You Can Appear Detached
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 3: Amidst the Turmoil of Events, Do Not Lose Your Presence of Mind (The Counterbalance Strategy)
+- **Date**: 2026-04-02
+- **Insight**: Hitchcock appeared to sleep through film shoots because he had done the preparation so thoroughly — scripts, blocking, camera positions, lighting — that nothing could surprise him. Nelson at Copenhagen chose to ignore the signal to retreat not from recklessness but from a calm reading of the battlefield others couldn't see. Presence of mind is not natural serenity; it is preparation that earns the right to be calm.
+- **PM Application**: The Director who panics in an exec review, who gets flustered by a tough question, who responds emotionally to a VP's pushback — that person is not yet operating at Senior Director level. Preparation is the answer: before any high-stakes meeting, do the Hitchcock move. Script the likely objections. Know your data cold. Pre-read every attendee. When the meeting gets chaotic, your preparation is what lets you stay the calmest person in the room.
+
+### Create a Forcing Event — Put Your Back Against the Wall
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 4: Create a Sense of Urgency and Desperation (The Death-Ground Strategy)
+- **Date**: 2026-04-02
+- **Insight**: Cortes burned his ships upon landing in Mexico — not as a dramatic gesture but as a strategic move to eliminate the option of retreat, forcing his men to commit completely. Greene's principle: humans perform best when the cost of not acting is existential. Half-commitment produces half-results. The death-ground strategy is about deliberately closing off the easy exit.
+- **PM Application**: When a product initiative is drifting — no urgency, vague timelines, perpetual "alignment" conversations — the PM can create a forcing event. Commit publicly to a summit demo, an exec review, a customer pilot. The moment the exit ramp closes, the team finds its focus. This connects directly to the Hard Deadlines Force Scope Clarity pattern already in this system. Death-ground is the strategic principle behind that tactical pattern.
+
+### Grand Strategy — Keep the End Goal in Sight When Others Are Reactive
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 12: Lose Battles but Win the War (Grand Strategy)
+- **Date**: 2026-04-02
+- **Insight**: Grand strategy is the art of looking beyond the immediate battle and calculating toward the final goal. Most people get pulled into the tactics of the moment, winning or losing small engagements while losing sight of where they are headed. The grand strategist willingly concedes ground in the short term if it serves the longer arc. Lincoln absorbed enormous political costs, including battlefield defeats, while keeping the end state (union preservation, then emancipation) consistently in view.
+- **PM Application**: A Director PM who fights every prioritization battle, who treats every roadmap cycle as a final verdict, who reacts to every stakeholder push — is tactical. The Senior Director holds the end state and decides which battles are worth fighting. Sometimes the right move is to let a feature get cut knowing you'll reintroduce it in a stronger position in two quarters. The question is not "am I winning today?" but "am I moving toward the outcome that matters?"
+
+### Know Your Stakeholder's Mind — The Intelligence Strategy
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 13: Know Your Enemy (The Intelligence Strategy)
+- **Date**: 2026-04-02
+- **Insight**: Greene argues that the real target is never the army you face but the mind of the person running it. Understanding how that mind works — what they fear, what they value, what their blind spots are — gives you the key to influencing and anticipating them. Reading people requires patience, systematic observation, and willingness to see them as they are rather than as you wish they were.
+- **PM Application**: Before any major stakeholder interaction — Bertrand 1:1, Loni working session, cross-team alignment — do the intelligence work. What does this person care about most right now? What are they afraid of? What language do they use? What gets them excited versus what makes them retreat? The PM who walks in knowing the stakeholder's mental model will run circles around the PM who prepares only content.
+
+### Pick Your Battles Carefully — The Perfect-Economy Strategy
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 8: Pick Your Battles Carefully (The Perfect-Economy Strategy)
+- **Date**: 2026-04-02
+- **Insight**: Every conflict has hidden costs beyond the obvious ones: time lost, political goodwill spent, an embittered opponent who will find ways to retaliate. The strategist who fights every battle depletes their resources and makes enemies of people who could have been neutral. Sometimes the best move is deliberate non-engagement — waiting, consolidating, letting the opponent exhaust themselves.
+- **PM Application**: At Director level, the temptation is to fight every prioritization battle, to push back on every misalignment, to correct every wrong read in every meeting. This is expensive. Senior Directors choose their moments. The question before any pushback is: is this battle worth the political capital it costs? If the answer is no, find a way to let it pass or route around it. Save the capital for the fights that actually determine the outcome.
+
+### Negotiate While Advancing — Never Stop Momentum During Alignment
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 21: Negotiate While Advancing (The Diplomatic-War Strategy)
+- **Date**: 2026-04-02
+- **Insight**: Greene's principle is that the moment you stop advancing to negotiate, you have given away your leverage. The other side's willingness to settle on your terms is directly proportional to the pressure you continue to apply. Creating a reputation for being tough and uncompromising means people approach negotiations already prepared to concede.
+- **PM Application**: In cross-org alignment situations, don't pause product work while alignment discussions continue. Keep shipping, keep building evidence, keep generating artifacts. The PM who shows up to an alignment conversation with working software, real metrics, and a shipped prototype negotiates from a fundamentally different position than the one who shows up with a deck. Momentum is leverage. Never voluntarily give it up to wait for consensus.
+
+### Know How to End Things — The Exit Strategy
+- **Source**: Greene, *The 33 Strategies of War*, Strategy 22: Know How to End Things (The Exit Strategy)
+- **Date**: 2026-04-02
+- **Insight**: Greene argues that how you conclude something matters as much as how you begin it. A messy exit — from a project, a partnership, an initiative — creates lingering enemies and unresolved obligations that resurface at the worst moments. The highest strategic wisdom is avoiding entanglements that have no clean exit from the start.
+- **PM Application**: Before committing to a new cross-org initiative, integration, or dependency, ask: what does the exit look like if this doesn't work? Features that can't be removed create permanent maintenance obligations. Partnerships with no defined end state drift forever. The PM who can articulate the success criteria and the wind-down condition before signing up is operating at a different level than the one who just says yes to get alignment.

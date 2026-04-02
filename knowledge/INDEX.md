@@ -6,20 +6,21 @@
 
 | Folder | Purpose | Status | Entries |
 |--------|---------|--------|---------|
-| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 12 |
-| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 17 |
+| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 16 |
+| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 23 |
 | `hypotheses/active.md` | Hypotheses currently being tested | Active | 5 |
 | `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Empty | 0 |
-| `false-beliefs/` | PM conventional wisdom proven wrong | Active | 8 |
+| `false-beliefs/` | PM conventional wisdom proven wrong | Active | 12 |
 | `tools/` | Decision matrix: when to use which PM method/tool | Active | 6 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
-| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 13 |
+| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 22 |
 | `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 23 |
 
 ## Sources Ingested
 
 | Source | Date | Type | Key Contributions |
 |--------|------|------|-------------------|
+| Greene, *The 33 Strategies of War* | 2026-04-02 | Book | Strategic positioning, polarity strategy, grand strategy, coalition-building, alliance strategy, negotiation while advancing, counterattack strategy, presence of mind, exit strategy, false beliefs about consensus/retreat/first-mover |
 | Gallo, *Presentation Secrets of Steve Jobs* | 2026-03-19 | Book | Communication frameworks, presentation patterns, false beliefs about presenting, stakeholder management techniques |
 | AEM Experience Hub — Loni Working Sessions I & IV | 2026-03-23 / 2026-03-26 | Live strategy sessions | Hero surfaces concept, agent measurement gaps, TSR vs VRR, architecture ceiling insight, cross-org influence patterns, durable themes |
 | Shankari 1:1 handoff | 2026-03-27 | PM handoff conversation | Adoption cadence as PLG instrument, PLG checkbox antipattern, governance posture as leadership signal, personalization experiment approach, EH North Star vision |
@@ -71,3 +72,4 @@
 | 2026-04-02 | patterns/ | PM as gating layer in automated pipelines — manual trigger as trust-building step, Slack as lightweight gate, trust ladder model |
 | 2026-04-02 | ai-product/, patterns/ | MCP early adoption is developer-tool-led (Cursor 15.6% vs Claude 0.5%); explicit sequence as protection against spread |
 | 2026-04-02 | domain/ | Bertrand metric framing — adoption metrics should be ratios vs baseline (MCP edits vs CM UI edits), not absolutes |
+| 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | 33 Strategies of War ingestion — strategic positioning (polarity, grand strategy, intelligence), coalition patterns, false beliefs about consensus/retreat/first-mover advantage |
