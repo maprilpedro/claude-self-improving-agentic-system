@@ -263,3 +263,41 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **Date**: 2026-04-02
 - **Insight**: Sparta built the most feared army in the ancient world through rigid specialization, then collapsed when that rigidity encountered Athenian money and flexibility. Mao's Communist forces defeated a technically superior Nationalist army by moving "like mercury" — never fixed in one place, never repeating a pattern, impossible to target. Athens won over Sparta not on the battlefield but through cultural and economic fluidity that eroded Spartan discipline from within. The lesson: taking a fixed form gives opponents something to attack. Staying fluid and adaptable removes the target.
 - **PM Application**: A Director PM who becomes known for one approach, one style, one type of work is easy to categorize and easy to sideline. The Senior Director is harder to label. They can run strategy and execution. They can write narratives and read spreadsheets. They adapt their communication style to the room. Formlessness in career terms means not locking yourself into "the AI PM" or "the reporting PM" or "the execution PM" — keep moving, keep surprising, stay ungraspable. This is especially relevant for Pedro at Adobe: be the person no one can fully place.
+
+---
+
+## Political Success and Systemic Visibility (from McIntyre, *Organizational Politics*)
+
+### The Four P's of Political Success
+- **Source**: McIntyre, *Organizational Politics* (Ch 8 — Four P's of Political Success)
+- **Date**: 2026-04-02
+- **Insight**: McIntyre's framework for sustainable political effectiveness at the organizational level — Purpose, Perception, Performance, Persistence. Purpose: knowing what you're trying to achieve and being consistent about it. People who project a clear agenda have more credibility than those who appear directionless or reactive. Perception: you are not judged by your intent; you are judged by how your behavior reads to others. Managing perception is not dishonesty — it's awareness. Performance: actual results that are visible and attributable to you. Political skill without performance is fragile; performance without political skill is invisible. Persistence: the ability to absorb setbacks, maintain relationships through conflict, and keep moving. Most wins come from staying in the game longer than the opposition.
+- **The failure modes for each P**:
+  - Purpose: Changing your position with every shift in leadership direction. Being whoever you're talking to. No remembered positions.
+  - Perception: Assuming good work speaks for itself. Not managing how you're seen in lateral and upward relationships.
+  - Performance: All political capital, no deliverable. Or great deliverables that no one above you knows about.
+  - Persistence: Burning out after a setback. Taking a reassignment or deprioritization as a final verdict.
+- **PM application**: Before each quarter, run a quick Four P's check. What Purpose are you consistently projecting? What does your Perception look like to Bertrand, Loni, cross-org peers? What Performance is attributable to you this quarter? Where is your Persistence being tested?
+
+### Make Your Visible Results Sparkle
+- **Source**: McIntyre, *Organizational Politics* (Ch 8 — Visible Results)
+- **Date**: 2026-04-02
+- **Insight**: There is a difference between doing good work and being known for doing good work. The gap between them is not self-promotion — it's deliberate communication of results to the people who need to know about them. The tactics: (1) Name your contributions explicitly in the artifacts they produce. Don't let a proposal circulate without your name on it. (2) When a recommendation you made is adopted, note it in writing — in a follow-up email, a project doc update, or a 1:1 summary. (3) Connect your work to results at the level your audience cares about. Bertrand cares about AEM's position in Loni's priorities. Frame your contributions there.
+- **The anti-pattern**: Assuming that doing good work in a room that includes people who can promote you is sufficient. The work needs a second act — a moment where the contribution is legible as yours.
+- **What makes results "sparkle"**: McIntyre's term for work that earns sponsor attention and retelling. Not perfection — distinctiveness. Work that solves a problem others couldn't articulate, frames something so a complex issue becomes suddenly simple, or arrives earlier than expected. The sparkle is the part that gets retold by others.
+- **PM application**: After every major artifact (one-pager, strategy doc, session contribution), ask: is this something Bertrand would retell to Loni? If yes — make sure your name is on it and he knows it exists. If no — either raise it or accept that it won't build your visibility.
+
+### Power Grid Mapping — Reading Org-Level Power
+- **Source**: McIntyre, *Organizational Politics* (Ch 7 — Power Grid)
+- **Date**: 2026-04-02
+- **Insight**: The Power Grid maps real power (as opposed to positional power) across an organization. Two axes: formal authority (title, budget, headcount) and informal influence (who people actually listen to, who gets consulted before decisions are made, whose concerns stop proposals from moving forward). The people with high formal authority and high informal influence are the core power holders. The dangerous ones are those with low formal authority but high informal influence — they can block your agenda without ever appearing in the org chart. The interesting ones are those with high formal authority but low informal influence — they hold a title but not the room.
+- **How to build the grid**: Map the stakeholders relevant to your initiative. For each, ask: (a) what formal authority do they hold over decisions I need? (b) who do they influence informally? (c) who influences them? The answers reveal who you need to cultivate, who you need to neutralize, and who is irrelevant despite their title.
+- **PM application for Experience Hub**: Apply this to the Skills and MCP launch. Formal authority: Bertrand (greenlight), Loni (direction). Informal influence: Eugene (engineering signal), Felix (reporting credibility), Ian (compliance clearance). Map who influences each of them — that's the layer that matters before any major alignment push.
+
+### The Political Game Plan — Systemic Strategy for Career Advancement
+- **Source**: McIntyre, *Organizational Politics* (Ch 11 — Political Game Plan)
+- **Date**: 2026-04-02
+- **Insight**: McIntyre's Political Game Plan is a structured approach to career advancement that works at the organizational level, not just relationship by relationship. Components: (1) Define the outcome you're working toward and be explicit about it, at least to yourself. (2) Identify the two or three people whose sponsorship is decisive — not just approval, but active advocacy in rooms you're not in. For Pedro, that's Bertrand and Loni. (3) Map what each sponsor needs to see to advocate for you. Bertrand needs Pedro operating strategically and executing reliably. Loni needs to see Experience Hub as a credible AI surface and Pedro as the reason it is. (4) Create a 90-day visibility plan with specific artifacts, sessions, and moments when each sponsor will see you operating at the next level. (5) Identify the political risks — who could undermine the narrative — and proactively manage them.
+- **The discipline**: Run this as a quarterly review, not a one-time exercise. Organizational dynamics shift. Sponsors get promoted, move on, or change their priorities. The plan tracks with reality.
+- **Why most people don't do this**: It feels calculating. The Purist in every senior PM resists treating their career as a game with explicit strategy. McIntyre's response: the game is being played whether you play it or not. The only variable is whether you're playing intentionally or just showing up and hoping.
+- **PM application**: Current game plan state — Bertrand sponsorship is solid and active. Loni sponsorship is being built; the Surfaces session contribution and Hero Surfaces one-pager are the leading edges. The 90-day window is the Skills+MCP launch. That launch needs to be legible, visible, and attributable.

@@ -13,14 +13,15 @@
 | `false-beliefs/` | PM conventional wisdom proven wrong | Active | 14 |
 | `tools/` | Decision matrix: when to use which PM method/tool | Active | 6 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
-| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 28 |
-| `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries | Active | 0 |
+| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 32 |
+| `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries | Active | 12 |
 | `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 23 |
 
 ## Sources Ingested
 
 | Source | Date | Type | Key Contributions |
 |--------|------|------|-------------------|
+| McIntyre, *Organizational Politics* | 2026-04-02 | Book | Four political types, recognizing supporters/adversaries, dealing with annoyances vs adversaries, toxic workplace signals, political suicide patterns (emotion hazards, victim framing, bridge burning), position vs personal power, managing up/laterally/down, Four P's of political success, visible results, Power Grid mapping, Political Game Plan |
 | Greene, *The Art of Seduction* | 2026-04-02 | Book | Attention redirection, mirroring, strategic withdrawal, charisma components, soft sell, anti-seducer audit, myth over logic, purpose creates followership, reading people vs stated preferences |
 | Greene, *The 33 Strategies of War* | 2026-04-02 | Book | Strategic positioning, polarity strategy, grand strategy, coalition-building, alliance strategy, negotiation while advancing, counterattack strategy, presence of mind, exit strategy, false beliefs about consensus/retreat/first-mover |
 | Gallo, *Presentation Secrets of Steve Jobs* | 2026-03-19 | Book | Communication frameworks, presentation patterns, false beliefs about presenting, stakeholder management techniques |
@@ -81,3 +82,4 @@
 | 2026-04-02 | domain/ | Bertrand metric framing — adoption metrics should be ratios vs baseline (MCP edits vs CM UI edits), not absolutes |
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | 33 Strategies of War ingestion — strategic positioning (polarity, grand strategy, intelligence), coalition patterns, false beliefs about consensus/retreat/first-mover advantage |
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | Art of Seduction ingestion — attention redirection, mirroring, charisma components, soft sell, anti-seducer audit, purpose creates followership, myth over logic, FB-013 directness, FB-014 charisma |
+| 2026-04-02 | interpersonal/, leadership/ | McIntyre ingestion — Four political types, supporters/adversaries, toxic signals, political suicide patterns, position vs personal power → interpersonal/; Four P's, visible results, Power Grid, Political Game Plan → leadership/ |
