@@ -124,6 +124,14 @@ Slack sent April 1 to @stoklosa @dilnesaw — invited to call, walked through op
 
 ---
 
+## Interpersonal Watch
+
+| Person | Dynamic | Notes |
+|---|---|---|
+| Philippe Kapfer | Active political mover — confirmed | Agreed privately on report-to-JIRA filtering process, then pushed back on the same point once Bertrand was on the email thread. Pedro retracted publicly — bad move. Philippe's tactic: agree 1:1, create dissent in front of the boss. His tactic worked once (April 2). Pattern to break: hold position under public pressure, don't retract. Recovery path: reintroduce tracking concern at implementation as a technical requirement, not a debate. Pedro also tends to use Philippe as first go-to for new trials (report-to-JIRA, new report sections) — stop this. Use Corey Dulimba as first testeur instead. Giving Philippe early access to unpolished work hands him the weak points. |
+
+---
+
 ## Agent Owners (AEM)
 
 | Agent | Owner |

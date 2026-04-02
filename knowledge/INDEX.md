@@ -7,14 +7,14 @@
 | Folder | Purpose | Status | Entries |
 |--------|---------|--------|---------|
 | `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 30 |
-| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 36 |
+| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 37 |
 | `hypotheses/active.md` | Hypotheses currently being tested | Active | 5 |
 | `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Empty | 0 |
 | `false-beliefs/` | PM conventional wisdom proven wrong | Active | 26 |
 | `tools/` | Decision matrix: when to use which PM method/tool | Active | 11 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
 | `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 43 |
-| `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries | Active | 19 |
+| `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries | Active | 20 |
 | `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 23 |
 
 ## Sources Ingested
@@ -86,6 +86,11 @@
 | 2026-04-02 | domain/, false-beliefs/, tools/, patterns/, leadership/ | Playing to Win ingestion — Strategy Choice Cascade, winning aspiration, where to play, how to win, capabilities, management systems; FB-023 through FB-026; cascade added to tools/; strategy patterns added; leadership section for communicating strategy upward |
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | 33 Strategies of War ingestion — strategic positioning (polarity, grand strategy, intelligence), coalition patterns, false beliefs about consensus/retreat/first-mover advantage |
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | Art of Seduction ingestion — attention redirection, mirroring, charisma components, soft sell, anti-seducer audit, purpose creates followership, myth over logic, FB-013 directness, FB-014 charisma |
+| 2026-04-02 | leadership/, interpersonal/, false-beliefs/, tools/ | 48 Laws of Power ingestion — never outshine master, manage envy as visibility grows, formlessness, power patterns, FB-015 through FB-018 |
+| 2026-04-02 | leadership/, interpersonal/, false-beliefs/, tools/ | McIntyre Office Politics ingestion — four political types, leverage equation, four P's, upward/lateral influence, power grid, political suicide patterns, FB-019 through FB-022 |
+| 2026-04-02 | domain/, tools/, patterns/, leadership/, false-beliefs/ | Playing to Win ingestion — Strategy Choice Cascade, where to play/how to win, EH cascade instantiation, FB-023 through FB-026 |
+| 2026-04-02 | interpersonal/ | New folder created — one-on-one relationship dynamics, routing table updated |
+| 2026-04-02 | interpersonal/, patterns/ | Session learnings — confusing warmth for alignment (Philippe pattern), high conversion + low penetration = awareness problem (EH analytics) |
 | 2026-04-02 | interpersonal/, leadership/ | McIntyre ingestion — Four political types, supporters/adversaries, toxic signals, political suicide patterns, position vs personal power → interpersonal/; Four P's, visible results, Power Grid, Political Game Plan → leadership/ |
 | 2026-04-02 | leadership/, interpersonal/, false-beliefs/, tools/ | McIntyre full completion — leverage equation, Organizational Facts of Life, AMISH framework, Paradox of Influence, Influence Toolbox, adversary conversion, Strategy 5 (leverage-building), Stop/Start/Continue, 7 fundamentals; FB-019 through FB-022; Power Grid, AMISH, Influence Toolbox, Stop/Start/Continue added to tools/ |
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | 48 Laws of Power ingestion — reputation, never outshine, formlessness, stop at goal, envy management, self-interest persuasion, gradual reform, isolate blockers, win hearts first, mirror to disarm; FB-015 through FB-018 |

@@ -6,6 +6,13 @@
 
 ## Reading People
 
+### Confusing Warmth for Alignment
+- **Source**: Live observation — Philippe Kapfer dynamic, April 2, 2026
+- **Date**: 2026-04-02
+- **Insight**: A person can be warm, responsive, and collegial in direct conversation while simultaneously optimizing against your interests when an audience is present. Tone and behavior are different channels. Warmth in 1:1 is not evidence of alignment — it is just tone. The alignment signal is what they do when there's something to gain or lose in front of others.
+- **The trap**: When someone is pleasant to work with, it's natural to extend them the benefit of the doubt. This creates a blind spot. You stop reading their moves because the relationship feels collaborative. The moment you stop reading is when they can act.
+- **PM Application**: Separate the relationship register from the political register. You can enjoy working with someone and still track their behavior pattern objectively. The question to ask after any shared interaction: did they advance my position or complicate it? Do that over 3-4 interactions and the pattern becomes clear.
+
 ### How Political Types Signal Themselves
 - **Source**: McIntyre, *Organizational Politics* (Ch 1 — Four Political Types)
 - **Date**: 2026-04-02

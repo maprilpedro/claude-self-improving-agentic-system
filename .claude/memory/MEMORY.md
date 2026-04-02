@@ -8,6 +8,7 @@
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
 
 ## Feedback
+- [Save screenshots to project folder](feedback_screenshots.md) — Always save screenshots to /screenshots in the project repo so they persist across sessions
 - [Session setup commands](feedback_session_setup.md) — Always run /color blue and /rename Adobe-PM-Assistant at session start
 - [Session start behavior](feedback_session_start.md) — Always pick up where we left off on Experience Hub when starting a conversation
 - [Transcript room mic attribution](feedback_transcript_attribution.md) — "CR" room labels in Teams transcripts are conference room mics, not people. In the March 23 2026 session, all CR lines = Loni Stark
