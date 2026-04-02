@@ -132,3 +132,28 @@
 - **Date**: 2026-04-02
 - **Insight**: Greene's preface establishes a foundational principle: "What people say about themselves does not matter; people will say anything. Look at what they have done; deeds do not lie." In organizations especially, where political maneuvering is disguised as collaboration and allies sometimes work against you indirectly, the ability to read behavior patterns rather than stated intent is a critical skill.
 - **Application**: When evaluating whether a stakeholder is genuinely aligned or performing alignment, watch the pattern of their actions over 3-4 weeks. Do their decisions consistently support the shared goal, or do small moves consistently disadvantage your initiative while their stated support stays warm? The pattern tells the truth. Mao detected Lin Biao's plotting not from evidence of conspiracy but from a change in behavior — effusive praise that was too fervent. Register changes in emotional temperature. That is where the signal is.
+
+---
+
+## Reading People and Tailoring Approach (from Greene, *The Art of Seduction*)
+
+### Read the Surface, Not the Statement
+- **Source**: Greene, *The Art of Seduction*, The Ideal Lover chapter
+- **Date**: 2026-04-02
+- **Context**: Stakeholder interactions, 1:1s, executive conversations.
+- **Insight**: Casanova's method was not to listen to what people said they wanted, but to read what they actually needed. Pompadour didn't ask Louis XV what would make him happy; she observed his boredom with court formality and created the opposite. Greene: "read people's tone of voice, their non-verbal signals, not their stated words." What people say they want and what would actually move them are often different.
+- **Application**: Before any important stakeholder meeting, ask: what does this person actually care about right now, separate from what they said in the last email? Read the room. Tailor the message to what they actually respond to, not what you think they should care about.
+
+### Myth Over Logic — People Respond to Story Not Argument
+- **Source**: Greene, *The Art of Seduction*, The Star chapter (Kennedy); Appendix B (Soft Seduction)
+- **Date**: 2026-04-02
+- **Context**: Product positioning, stakeholder communication, executive updates.
+- **Insight**: Kennedy's success wasn't his policy platform — his positions were often vague. It was the mythic frame he inhabited: the young hero confronting the old order, Camelot, America's new frontier. Nixon had better policy knowledge but lost because he answered questions while Kennedy told a story. Greene: "You are not talking about the truth, or about reality; you are forging a myth." The Jackson 1828 campaign was won not on tariff policy but on the story of the wronged war hero vs the corrupt aristocracy.
+- **Application**: When preparing an exec update or roadmap presentation, identify the mythic frame first. What story is Experience Hub living? Probably: practitioners are overwhelmed, the tools are fragmented, EH gives them their time back. That story, told consistently, does more to build stakeholder commitment than any metric. Metrics live inside the story, not alongside it.
+
+### Purpose Creates Followership — Before Tactics, Announce the Direction
+- **Source**: Greene, *The Art of Seduction*, The Charismatic chapter
+- **Date**: 2026-04-02
+- **Context**: Team leadership, executive communication, roadmap framing.
+- **Insight**: Greene on charismatic purpose: "If people believe you have a plan, that you know where you are going, they will follow you instinctively. The direction does not matter: pick a cause, an ideal, a vision and show that you will not sway from your goal. People will imagine that your confidence comes from something real." Purposefulness is doubly effective in times of trouble — when others are hesitating, single-minded self-assurance pulls attention toward you.
+- **Application**: At Adobe, this means having a clear and repeatable articulation of where Experience Hub is going — not just what it's shipping next quarter. "Content management to context management, with the practitioner at the center" is a directional statement. Say it first in every roadmap conversation. Let it orient everything that follows.

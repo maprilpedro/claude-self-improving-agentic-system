@@ -6,14 +6,14 @@
 
 | Folder | Purpose | Status | Entries |
 |--------|---------|--------|---------|
-| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 16 |
-| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 23 |
+| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 19 |
+| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 28 |
 | `hypotheses/active.md` | Hypotheses currently being tested | Active | 5 |
 | `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Empty | 0 |
-| `false-beliefs/` | PM conventional wisdom proven wrong | Active | 12 |
+| `false-beliefs/` | PM conventional wisdom proven wrong | Active | 14 |
 | `tools/` | Decision matrix: when to use which PM method/tool | Active | 6 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
-| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 22 |
+| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 28 |
 | `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries | Active | 0 |
 | `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 23 |
 
@@ -21,6 +21,7 @@
 
 | Source | Date | Type | Key Contributions |
 |--------|------|------|-------------------|
+| Greene, *The Art of Seduction* | 2026-04-02 | Book | Attention redirection, mirroring, strategic withdrawal, charisma components, soft sell, anti-seducer audit, myth over logic, purpose creates followership, reading people vs stated preferences |
 | Greene, *The 33 Strategies of War* | 2026-04-02 | Book | Strategic positioning, polarity strategy, grand strategy, coalition-building, alliance strategy, negotiation while advancing, counterattack strategy, presence of mind, exit strategy, false beliefs about consensus/retreat/first-mover |
 | Gallo, *Presentation Secrets of Steve Jobs* | 2026-03-19 | Book | Communication frameworks, presentation patterns, false beliefs about presenting, stakeholder management techniques |
 | AEM Experience Hub — Loni Working Sessions I & IV | 2026-03-23 / 2026-03-26 | Live strategy sessions | Hero surfaces concept, agent measurement gaps, TSR vs VRR, architecture ceiling insight, cross-org influence patterns, durable themes |
@@ -79,3 +80,4 @@
 | 2026-04-02 | ai-product/, patterns/ | MCP early adoption is developer-tool-led (Cursor 15.6% vs Claude 0.5%); explicit sequence as protection against spread |
 | 2026-04-02 | domain/ | Bertrand metric framing — adoption metrics should be ratios vs baseline (MCP edits vs CM UI edits), not absolutes |
 | 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | 33 Strategies of War ingestion — strategic positioning (polarity, grand strategy, intelligence), coalition patterns, false beliefs about consensus/retreat/first-mover advantage |
+| 2026-04-02 | leadership/, patterns/, false-beliefs/, domain/ | Art of Seduction ingestion — attention redirection, mirroring, charisma components, soft sell, anti-seducer audit, purpose creates followership, myth over logic, FB-013 directness, FB-014 charisma |

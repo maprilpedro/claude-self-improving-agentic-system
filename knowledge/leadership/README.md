@@ -223,3 +223,43 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **Date**: 2026-04-02
 - **Insight**: Greene identifies anti-seductive behaviors that repel rather than attract: The Brute (impatience, zero tolerance for delay, visible self-absorption); The Windbag (talking too much, especially about yourself, breaking the spell with excess words); The Reactor (hypersensitivity to slights, visible ego bruising); The Moralizer (rigid standards, relentless judgment of others' work); The Bumbler (self-consciousness that becomes contagious, making everyone around you uncertain). Each of these stems from insecurity.
 - **PM Application**: Run this as a quarterly self-audit. Do you talk more than you listen in exec meetings? Do you visibly react when your ideas get challenged? Do you lecture team members about quality standards rather than demonstrating them? Do you move so fast you break others' ability to commit? The insecurity signals are the most damaging because they're invisible to the person displaying them. Ask someone you trust to give you honest feedback on which of these shows up in your behavior.
+
+---
+
+## Power and Reputation (from Greene, *The 48 Laws of Power*)
+
+### Never Outshine the Master — Position Your Wins as Their Wins
+- **Source**: Greene, *The 48 Laws of Power*, Law 1
+- **Date**: 2026-04-02
+- **Insight**: Nicolas Fouquet threw the most lavish party of 17th-century France to impress Louis XIV. He was arrested three weeks later. Making your superior feel superior is survival. Making them feel inferior — even unintentionally — triggers the most dangerous emotion: wounded vanity. The courtier who makes the king feel he could not have succeeded without them keeps their head. The one who eclipses the king loses it.
+- **PM Application**: When presenting work to Bertrand or Loni, frame your wins as outputs of their strategic direction, not your individual brilliance. "This worked because of the framework you set up" keeps powerful people on your side. This is not dishonesty — it is reading the political physics of hierarchy. The recognition comes later and compounds.
+
+### Make Your Superiors Dependent on Your Knowledge
+- **Source**: Greene, *The 48 Laws of Power*, Law 11 (Keep Others in Suspended Terror: Cultivate an Air of Unpredictability) and Law 7 (Get Others to Do the Work for You)
+- **Date**: 2026-04-02
+- **Insight**: Power flows to those who hold indispensable knowledge. The advisor who knows what no one else knows cannot be removed without cost. Bismarck built his indispensability not through obedience but through expertise so specialized that the Kaiser could not function without him. The goal is not to be a good employee — it is to become structurally necessary.
+- **PM Application**: In the AEM context, Pedro's ownership of the agent measurement framework, the reporting infrastructure, and the Experience Hub vision makes him harder to replace than someone who executes well on assigned tasks. Deepen the specialization. Be the person who knows the compliance risk, the architecture ceiling, the agent success metric definition — things no one else tracks. Knowledge asymmetry is leverage.
+
+### Establish Your Own Identity — Never Live in a Predecessor's Shadow
+- **Source**: Greene, *The 48 Laws of Power*, Law 41 (Avoid Stepping Into a Great Man's Shoes)
+- **Date**: 2026-04-02
+- **Insight**: Louis XV inherited the Sun King's court and spent his reign maintaining it — and watching it decay. Alexander the Great looked at Philip's victories and deliberately did the opposite: new style, new campaigns, new symbols, new standard of conquest. The first success defines the reference point; the successor who merely maintains it is always second. To build a reputation, you must create distance from what came before, not continue it.
+- **PM Application**: When inheriting a product, a team, or a role, resist the pull to be the "good steward" of the last person's work. That is Director behavior. Senior Directors define the new frame, rename the initiative, set a new vision. Do it early, before the previous identity hardens around you. In Experience Hub, the opportunity is to define the Experience Hub 2.0 vision on your own terms — not as a continuation of Shankari's work.
+
+### Manage Envy as Visibility Increases
+- **Source**: Greene, *The 48 Laws of Power*, Law 46 (Never Appear Too Perfect)
+- **Date**: 2026-04-02
+- **Insight**: Joe Orton's talent and charisma were so visible that his partner Kenneth Halliwell — who had introduced him to the theater world — murdered him out of envy. Cosimo de Medici kept a deliberately low profile while secretly controlling Florence: always the humblest man in the room, attributing success to luck, deferring to others publicly. The more visibly successful you become, the more you must actively disarm the envy your success generates.
+- **PM Application**: As Pedro's visibility increases on the path to Senior Director, the envy risk increases alongside it. Counter it actively: attribute wins publicly to collaborators, mention good fortune openly, avoid the performance of effortlessness. The goal is not to hide your work but to diffuse the resentment it generates. This is directly relevant to the promotion campaign — more visibility means more management of how that visibility lands on peers.
+
+### Stop at the Goal — Do Not Overreach After a Win
+- **Source**: Greene, *The 48 Laws of Power*, Law 47 (Do Not Go Past the Mark You Aimed For; In Victory, Learn When to Stop)
+- **Date**: 2026-04-02
+- **Insight**: Cyrus the Great conquered the known world, then pushed one campaign too far and was killed by Tomyris. Madame de Pompadour survived 20 years as Louis XV's mistress by knowing when to stop pressing good fortune — she never demanded too much at once, always left the king space, and reinvented her value before it expired. Success makes you feel invulnerable; that feeling is the moment of maximum danger. "The greatest danger occurs at the moment of victory."
+- **PM Application**: After a major win — a successful summit demo, a good exec review, a product shipped — resist the impulse to immediately push for the next thing. Let the win settle. Build the new position from the win before extending. The PM who always needs the next victory loses the leverage from the last one. Stop, assess, consolidate. Then advance.
+
+### Assume Formlessness — Adapt Without Becoming Predictable
+- **Source**: Greene, *The 48 Laws of Power*, Law 48 (Assume Formlessness)
+- **Date**: 2026-04-02
+- **Insight**: Sparta built the most feared army in the ancient world through rigid specialization, then collapsed when that rigidity encountered Athenian money and flexibility. Mao's Communist forces defeated a technically superior Nationalist army by moving "like mercury" — never fixed in one place, never repeating a pattern, impossible to target. Athens won over Sparta not on the battlefield but through cultural and economic fluidity that eroded Spartan discipline from within. The lesson: taking a fixed form gives opponents something to attack. Staying fluid and adaptable removes the target.
+- **PM Application**: A Director PM who becomes known for one approach, one style, one type of work is easy to categorize and easy to sideline. The Senior Director is harder to label. They can run strategy and execution. They can write narratives and read spreadsheets. They adapt their communication style to the room. Formlessness in career terms means not locking yourself into "the AI PM" or "the reporting PM" or "the execution PM" — keep moving, keep surprising, stay ungraspable. This is especially relevant for Pedro at Adobe: be the person no one can fully place.

@@ -168,6 +168,36 @@ Cataloging these prevents repeating industry-wide mistakes.
 - **What to do instead**: When an adversary is strong and the timing is wrong, disengage deliberately. Don't fight the battle today if the terrain will be better in three months. Buy time. Let the opponent's momentum exhaust itself. Return when conditions have shifted.
 - **Caveat**: Perpetual non-engagement is just avoidance — it only works as a deliberate strategy with a specific purpose and return condition. And in organizational contexts, being seen as someone who never takes a stand has its own costs. The principle applies to specific battles, not to a general posture of retreat.
 
+## FB-013: "Being direct and transparent is always more persuasive than being indirect"
+
+- **Rating**: Nuanced
+- **Date cataloged**: 2026-04-02
+- **Source**: Greene, *The Art of Seduction*, Appendix B (Soft Seduction); The Charmer chapter; The Charismatic chapter
+- **Why people believe it**: "Radical candor" and "transparency" have become corporate values. Direct communication feels honest. Indirect communication feels manipulative.
+- **Evidence against**:
+  - Edward Bernays's Easter parade stunt (1929) sold cigarettes to millions of women by disguising a sales pitch as a news event. Explicit ads for the same product had minimal effect.
+  - Reagan's 1984 campaign: CBS reporter Lesley Stahl aired a 4.5-minute critical piece over flattering visuals. A Reagan aide called to thank her — the images completely overpowered the critical words.
+  - Zhou Enlai negotiated better terms for China from a position of weakness by appearing to concede supremacy to Stalin. Direct assertion would have failed.
+  - Greene: "The less you seem to be selling something — including yourself — the better."
+- **What's actually true**: Directness works when the other party already trusts you and is ready to receive the message. In most influence situations involving new stakeholders or senior audiences, indirect approaches (stories, demonstrations, emotion before logic, letting people arrive at the conclusion themselves) work better. The medium often carries more weight than the content.
+- **Caveat**: Pure indirectness without substance fails eventually. The soft sell only works if there is something genuine behind it. Transparency with people who have already opted in is powerful.
+- **Implication**: Before any important influence attempt, ask: is this a situation where directness will land or trigger resistance? If resistance is likely, story first. Emotion first. Evidence second. Explicit argument last.
+
+## FB-014: "Charisma is a personality trait you either have or don't"
+
+- **Rating**: Misleading
+- **Date cataloged**: 2026-04-02
+- **Source**: Greene, *The Art of Seduction*, The Charismatic chapter (Joan of Arc, Lenin, de Gaulle, Roosevelt, Krishnamurti)
+- **Why people believe it**: Charismatic people seem to radiate something innate. It feels genetic, unchosen.
+- **Evidence against**:
+  - Napoleon spent hours practicing his gaze in a mirror, modeling it on the actor Talma.
+  - De Gaulle deliberately cultivated Olympian composure as a strategic tool — it was not his natural state.
+  - Lenin had zero charisma one-on-one; his charisma emerged only when he had a clear message, a cause, and a crisis to dramatize.
+  - Greene identifies specific learnable components: Purpose (have a clear direction), Mystery (reveal contradictions slowly), Calm under pressure, Eloquence, Theatricality, Fervency.
+- **What's actually true**: Charisma is the impression created by a cluster of behaviors, most of which can be practiced. The components that can't be faked (genuine belief in something) require actually caring — but that's a choice, not a trait.
+- **Caveat**: Some people start with more natural ease. The gap between natural and practiced is real but much smaller than the gap between practiced and unpracticed.
+- **Implication**: Run the checklist: Do you have a clear, repeatable point of view? Do you stay calm when challenged? Do you believe in what you're building? If not, fix those first. The rest (presence, language, mystery) follow.
+
 ## Seed Beliefs to Investigate
 
 > These are commonly held PM beliefs worth examining. Move to entries above once evidence is gathered.
