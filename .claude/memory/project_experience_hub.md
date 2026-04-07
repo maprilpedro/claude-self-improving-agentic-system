@@ -157,24 +157,31 @@ Demo regeneration: message sent April 1 to all owners + Mark Szulc (based in Aus
 
 ---
 
-## Active Actions This Week
+## Active Actions (updated April 7, 2026)
 
-- 🟡 Report hosting — blocked on Felix report updates first. Once Felix done, work with Quentin on CDN front + Okta auth. Sidekick requirement is a deal breaker for Loni. Current URL: https://main--aem-agent-reports--aem-epa.aem.live/ — Bertrand directed this on April 1.
-- 🔑 VISIBILITY PATH TO LONI: (1) Felix fixes reports + EDS hosting done, (2) Pedro validates with Corey Dulimba (not Philippe), (3) Bertrand shows reports to Loni. First concrete Loni visibility vector. Do not skip Corey validation step — reports must be solid and endorsed by a trusted agent owner before going up.
-- 📅 SCHEDULE: Pedro off April 3 (Fri) + April 6 (Mon). Back Tuesday April 7. Felix off April 2–3. Back April 6. Sync with Felix earliest Monday April 6, realistically week of April 7.
-- 🟡 Report to JIRA pipeline — Philippe's comments incorporated April 2. Bertrand added as GitHub contributor April 2, Slack sent. Blocked on Felix report updates for next steps. Next steps in order: (1) get Felix report updates done, (2) update the Claude skill to pull data from Felix's updated reports, (3) distribute to agent PMs as availability (not validation-seeking), (4) Corey Dulimba as first testeur, not Philippe. Slack notification mechanism still to be designed.
-- 🟡 Brand Concierge: Peter + Bertrand answered. Waiting on Sorin's feedback on Peter's Confluence proposal for Summit-viable scope.
-- ✅ Data compliance: Bertrand confirmed April 2 — move on with Felix, keep Ian's comments in mind. Closed.
-- 🟠 Follow up on demo prompts — Corey + Philippe + Apoorva (chased) answered. Awaiting remaining owners.
+- 🟡 **Felix reports** — regenerating with updated tags. PM section being re-enabled. ETA: mid-day April 7 or April 8. Once ready: review, validate with Corey Dulimba (not Philippe), then Bertrand shows to Loni.
+- 🔑 VISIBILITY PATH TO LONI: (1) Felix reports live with PM section + updated tags, (2) Pedro validates with Corey, (3) Bertrand shows reports to Loni. Do not skip Corey step.
+- 🟡 **Report hosting** — Quentin helping with certificates. Unblocked. CDN + Okta in progress.
+- 🟡 **JIRA pipeline** — tested with Governance agent, works. Update script once PM section live, then package as skill for other PMs next week.
+- 🆕 **Priority consolidation view** — Bertrand ask April 7. Top 5-10 gaps with closure status. Build once reports live.
+- 🆕 **Stable metrics deck** — Bertrand ask April 7. 2-3 slides, same format monthly. Draft with approximate values first.
+- 🆕 **Grafana cross-check** — Bertrand ask April 7. Get IDP access (#aem-agent Slack). Verify numbers align with Felix reports before publishing broadly.
+- 🆕 **AO 2.0 engagement** — engage Conrad, Ian Boston, Carsten, Sergey Generalov (not Sorin). Form a point of view on plugin/skills model for EH.
+- 🟠 **Ilya Grafutko call** — responded April 2, open week of April 7. Schedule. Bertrand also meeting Ilya separately.
+- 🟠 Other PMs on tags — next week after reports validated
 - 🟠 Get on Sorin + Eugene email thread on UX AI framework
-- 🟠 Waiting on Eugene's feedback on Skills/MCP design — Pedro proposed, Eugene to review. Once aligned, involve Guliz.
-- 🟠 Sync with Felix early week of April 7 on report-to-JIRA pipeline progress
-- 🟠 Get VRR tier definition from Raul / Yanira's wiki
-- 🟠 Find owner of Content Management UI activity metrics — needed to build MCP vs CM UI ratio (Bertrand ask, April 2). MCP side tracked in Splunk (api_router - mcp_usage dashboard). CM = Content Management (page/CF/asset edits via AEM authoring UI), NOT Cloud Manager. Raul is the wrong contact. Try #dx-product-measurement or ask Sorin.
-- 🟠 Clarify Agent Assistant PM role with Bertrand next 1:1
+- 🟠 Get VRR tier definition from Yanira's wiki
+- 🟠 Find owner of CM UI activity metrics — try #dx-product-measurement
 - 🟠 Join "AEM experience hub extension builder" Slack channel
-- 🟠 Find Canva roadmap planning doc → share with Sorin
-- 🟠 Address prompt search gaps (assets only + context bug) — add to backlog
+- 🟠 Find Canva roadmap doc → share with Sorin
+- ✅ Tag review — done April 7, feedback provided to Felix
+- ✅ Data compliance — Bertrand confirmed April 2. Closed.
+- ✅ Brand Concierge — better defined between Peter and Sorin. No action needed.
+
+## Logistics (April 7, 2026)
+- April 8: Cloud Foundation sync — NOT Loni's call (Loni's is PM leads only)
+- Check-in with Bertrand: next week — Bertrand away the week after
+- Org reporting: still under Shankari on paper for 6 months, but check-ins go directly to Bertrand
 
 ---
 

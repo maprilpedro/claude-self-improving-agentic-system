@@ -33,6 +33,20 @@
 - **Ethical Politician**: The model. Politically aware AND integrity-driven. They build relationships, manage perception, and advance their agenda — but not at others' expense. They're the ones who get the most done in complex organizations because they work with the system rather than against it or above it.
 - **Key test**: When threatened, the Street Fighter attacks, the Purist complains to the wrong people, the Maneuverer retreats to recalculate, and the Ethical Politician problem-solves. Watch how someone behaves under pressure and you know their type.
 
+### The Mirror Tactic — Getting Validated Without Asking
+- **Source**: Live observation — Philippe Kapfer dynamic, April 7, 2026 (second pattern confirmed)
+- **Date**: 2026-04-07
+- **Insight**: Some political operators get colleagues to actively endorse their positioning without ever making a direct ask. The mechanic: in a group setting with high-stakes audience (Loni meeting, Bertrand present), they open a side-chat with you during a moment when they're being discussed positively. They share a remark that implies "we agree on this, right?" — and if you respond warmly ("très bien hein, cool!"), you've become an active supporter on record, visible to no one but reinforcing their confidence and closing the loop in their favor. They close with something warm ("c'est gentil mon loulou") that makes it feel collegial. You thought you were being friendly. They were collecting a signature.
+- **How to break it**: Go silent in side-chats during group settings. A non-response costs nothing. A warm validation is a political endorsement. The rule: in any high-stakes meeting, do not validate someone's positioning in a side-channel — even if the remark seems innocent.
+- **Connected to**: Confusing Warmth for Alignment (above)
+
+### Agree 1:1, Reframe Publicly
+- **Source**: Live observation — Philippe Kapfer dynamic, April 2 + April 7, 2026
+- **Date**: 2026-04-07
+- **Insight**: A specific Street Fighter tactic: agree with your proposal privately (validates the idea, builds your trust), then introduce doubt or objection once the boss is in the room. The goal is not to kill the idea — it's to position themselves as the more careful or critical thinker in front of leadership while you look like you rushed ahead without full alignment. The trap is that you agreed earlier, so you feel the need to defend yourself, which looks defensive. Or you retract publicly — which is worse.
+- **The counter**: Hold position. Don't retract. Say "I hear the concern, let me check that at implementation" and move on. You can revisit later. Public retraction is what they need to win the point. The 1:1 agreement is not a contract — they know that. Treat it as directional, not final, and don't bet your public position on it.
+- **What happened**: Pedro retracted publicly on the report-to-JIRA filtering point April 2. Philippe pushed back in front of Bertrand after agreeing 1:1. Pedro folded. Don't repeat.
+
 ---
 
 ## Building and Repairing Trust
