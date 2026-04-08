@@ -126,7 +126,7 @@ Remaining gaps: search still only covers assets. Pages, content fragments, exper
 | Raul Hudea | Regional data aggregation + VRR tier definition | Sent April 1 — awaiting response |
 | Bertrand | Data compliance | Accepted risk April 1 — continue with Felix. Closed. |
 | Peter Klassen | Brand Concierge light-up option | Responded April 2 — shared full product Confluence proposal. Bertrand also answered. Waiting on Sorin's feedback on Summit-viable scope. |
-| Jim Stoklosa + team | Experimentation page onboarding call | Sent April 1 — awaiting response |
+| Jim Stoklosa + team | Experimentation page onboarding call | Dereje responded April 8 — open early next week. Pedro to confirm. |
 | Philippe Kapfer | Report-to-JIRA feedback | Responded April 2 — positive, pipeline rules confirmed |
 | Corey Dulimba | Demo prompt regeneration | Responded April 2 |
 | Apoorva Gupta | Demo prompt regeneration (Discovery agent) | Chased April 2 |
@@ -157,17 +157,42 @@ Demo regeneration: message sent April 1 to all owners + Mark Szulc (based in Aus
 
 ---
 
-## Active Actions (updated April 7, 2026)
+## Fu Chi (AEP Personalization)
 
-- 🟡 **Felix reports** — regenerating with updated tags. PM section being re-enabled. ETA: mid-day April 7 or April 8. Once ready: review, validate with Corey Dulimba (not Philippe), then Bertrand shows to Loni.
+Fu Chi is a female AEP team member who built the personalized prompt recommendation pipeline. Regular 1:1 with Pedro (weekly sync set up). Shankari was invited to first sessions.
+
+**Architecture she owns:**
+- Pipeline: user prompts → clean → embeddings → K-means clustering → topic reports
+- Signal blending: user history (primary) → org signals (fallback) → global signals
+- Output: CSV/table of user IDs + ranked prompt recommendations
+- EH owns prompt bar + buttons. AEP owns right rail.
+- Prompt library is centralized — agent owners can enrich it
+
+**Already exists in her data:** behavioral cluster analysis (content authoring, asset focus, cloud manager usage) — raw material for Priority 3 (Customer Profiling). This data is real, not hypothetical.
+
+**Workflow-aware recommendations** (suggest next action based on prior steps) on her roadmap, not yet prioritized.
+
+**Open actions with Fu Chi (as of April 8):**
+- Fu Chi to share prompt recommendation file (April 7 ask)
+- Fu Chi to share Analytics DB wiki page for widget recommendation analysis (April 7 ask)
+- Fu Chi to send draft email + spreadsheet for agent owner prompt review (March 25 ask — status unclear)
+- Fu Chi to share Workfront persona use case (March 25 ask)
+- Pedro to review prompt file with Sorin + schedule follow-up call
+
+---
+
+## Active Actions (updated April 8, 2026)
+
+- 🟡 **Felix reports** — live with PM section + updated tags (April 8). Under review. Corey Dulimba validation sent. Awaiting response.
 - 🔑 VISIBILITY PATH TO LONI: (1) Felix reports live with PM section + updated tags, (2) Pedro validates with Corey, (3) Bertrand shows reports to Loni. Do not skip Corey step.
-- 🟡 **Report hosting** — Quentin helping with certificates. Unblocked. CDN + Okta in progress.
+- 🟡 **Report hosting** — Quentin helping with certificates. CDN + Okta in progress. CONFIRMED BLOCKER: Greg Klebus got 401 on Content Optimization report (April 8) — Chrome Sidekick plugin required, not installed. Every agent owner validation will hit this until hosting is fixed. Pedro checking if Greg can install Sidekick as interim workaround.
 - 🟡 **JIRA pipeline** — tested with Governance agent, works. Update script once PM section live, then package as skill for other PMs next week.
-- 🆕 **Priority consolidation view** — Bertrand ask April 7. Top 5-10 gaps with closure status. Build once reports live.
-- 🆕 **Stable metrics deck** — Bertrand ask April 7. 2-3 slides, same format monthly. Draft with approximate values first.
-- 🆕 **Grafana cross-check** — Bertrand ask April 7. Get IDP access (#aem-agent Slack). Verify numbers align with Felix reports before publishing broadly.
-- 🆕 **AO 2.0 engagement** — engage Conrad, Ian Boston, Carsten, Sergey Generalov (not Sorin). Form a point of view on plugin/skills model for EH.
+- 🟠 **Priority consolidation view** — Bertrand ask April 7. Top 5-10 gaps with closure status. Build once reports live.
+- 🟠 **Stable metrics deck** — Bertrand ask April 7. 2-3 slides, same format monthly. Draft with approximate values first.
+- 🟢 **Grafana access** — obtained April 8 via IAM group GRP-AEP-GENAI-METRICS-VIEWER (Sweta). Cross-check against Felix reports still to do.
+- 🟠 **AO 2.0 engagement** — engage Conrad, Ian Boston, Carsten, Sergey Generalov (not Sorin). Form a point of view on plugin/skills model for EH.
 - 🟠 **Ilya Grafutko call** — responded April 2, open week of April 7. Schedule. Bertrand also meeting Ilya separately.
+- 🟠 **Fu Chi deliverables** — await prompt file + Analytics DB wiki page. Then review with Sorin.
 - 🟠 Other PMs on tags — next week after reports validated
 - 🟠 Get on Sorin + Eugene email thread on UX AI framework
 - 🟠 Get VRR tier definition from Yanira's wiki

@@ -245,3 +245,32 @@
 - **Source**: Loni's Session IV (Surfaces, March 26). Haresh Kumar raised; Loni and Bertrand acknowledged.
 - **Insight**: Traditional seat-based SaaS pricing breaks when agents replace human users. If one agent does the work of ten humans, and you charge per seat, your revenue collapses as adoption succeeds. MCP/skills metering (charge per capability invocation) is the emerging model but is not yet defined or tested. This is a company-level strategic gap.
 - **PM implication**: Do not position agent capabilities in customer conversations using a pricing frame until internal strategy is landed. The cost conversation can kill the capability conversation before it starts (see Haresh's $500K customer story).
+
+### Personalized Prompt Pipeline Architecture — Signal Blending Model
+- **Date identified**: 2026-04-08
+- **Source**: Fu Chi (AEP) 1:1s, March 25 and April 7, 2026.
+- **Insight**: A real-world personalized prompt recommendation system for an enterprise AI product runs on three layers of signal, dynamically blended. In AEP's implementation for AEM: (1) user history — each user's own past prompts and topics, most weight when history is sufficient; (2) org signals — aggregate behavior of peers in the same org, used as fallback when user history is thin; (3) global signals — product-wide behavior, used when neither user nor org history is available. The blend shifts automatically based on how much signal exists for each user.
+- **Pipeline structure**: Prompts collected → cleaned (remove irrelevant/out-of-scope) → converted to embeddings → K-means clustering → topic reports per app. Output: ranked CSV/table of user IDs + top relevant prompts per user.
+- **Variety mechanism**: The system penalizes overly similar prompts in the ranking to avoid a narrow recommendation set. Users are exposed to both highly relevant and adjacent topics.
+- **Persona limitation**: As of April 2026, the system does not model personas or detailed user profiles — only behavioral clusters (content authoring, asset focus, Cloud Manager usage). Persona modeling is planned but not yet prioritized.
+- **Critical distinction — prompts vs widgets**: Prompt recommendations come from this pipeline. Widget recommendations require separate work: query the Analytics DB directly, aggregate agent usage per user, then map to widget suggestions. These are two different data flows with two different outputs.
+- **Application**: When designing a personalization layer for an AI product surface, separate the prompt recommendation problem from the widget/navigation recommendation problem early. They have different data sources, different models, and different engineering paths.
+
+### Tag Taxonomy Design for AI Agent Measurement
+- **Date identified**: 2026-04-08
+- **Source**: Tag review of suggested_tags.csv with Felix Delval, April 8, 2026.
+- **Insight**: Tag taxonomies for AI agent measurement fail in predictable ways. The common failure modes, and their fixes:
+  1. **Duplicate intent** — multiple tags with identical descriptions (e.g., Check-status, View-status, Progress-tracking all meaning "check translation status"). Produces noise, not signal. Fix: consolidate to one canonical tag per intent.
+  2. **Object name vs intent name** — tags named after data objects (Languages, Locale) rather than what the user was trying to do. Misleads analysts and makes filtering unreliable. Fix: name tags by user intent, not by the object the user mentioned.
+  3. **Overpromising scope** — tag names that imply a broader meaning than the description provides (e.g., asset-lifecycle implies creation + versioning + archiving, but description only covers expiration). Fix: align name to actual scope, or broaden the scope to match the name.
+  4. **Naming convention mismatch** — mixing Title-Case and lowercase-kebab in the same system makes grouping, filtering, and display inconsistent. Fix: normalize to one convention. lowercase-kebab is standard for machine-readable tags.
+  5. **Tag names as sentences** — long descriptive names (e.g., search-result-used-in-next-interaction) are unsearchable and unwieldy. Fix: compress to 2-3 word concepts (chained-search, search-result-reused).
+  6. **Shadow tags** — a broad catch-all tag that overlaps with multiple specific tags. The catch-all gets applied first and the specific tags get underused. Fix: either remove the catch-all or make it the parent in a hierarchy.
+- **Application**: Before publishing a tag taxonomy for cross-agent measurement, run it through these six failure modes. If any apply, fix before rollout — retroactive taxonomy cleanup is expensive.
+
+### Auth-Walled Hosting Blocks PM Validation Workflows, Not Just Agent Consumption
+- **Date identified**: 2026-04-08
+- **Source**: Greg Klebus 401 error on Content Optimization report (April 8, 2026). Chrome Sidekick plugin required.
+- **Extension of**: "Auth-Walled Hosting Is Incompatible with Agent-Consumable Reports" (2026-03-31)
+- **New signal**: The auth-wall problem is not limited to agent consumption. It blocks human PM validation workflows too. When agent owners can't access the report to validate their data, the PM review cycle stalls. In this case, Sidekick is required to authenticate — a plugin most PMs don't have installed. Every agent owner Pedro tried to loop in for validation hit this wall.
+- **Application**: Report hosting requirements must be validated with the intended audience before distribution starts. "Can a script fetch this URL?" is the agent test. "Can any PM with a browser access this without a special plugin or account?" is the human test. Both must pass before a report goes broad.
