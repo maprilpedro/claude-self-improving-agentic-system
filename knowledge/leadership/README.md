@@ -52,6 +52,14 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **How to execute**: Write the one-pager fast. Validate with your manager before sharing broadly. Bring it back to the next session with your name and your manager's name on it.
 - **Why it works**: You're not claiming territory you don't own. You're filling a vacuum that exists because senior leaders don't have time to do it themselves. They want someone to. Be that person.
 
+### H2 Planning Visibility — Own the Narrative Before It Gets Written Without You
+- **Date identified**: 2026-04-09
+- **Source**: Jaclyn Eckersley / Bertrand H2 planning Slack thread, April 9, 2026.
+- **Pattern**: In H2 planning cycles, individual contributors often miss the window where their work gets embedded in leadership slides. If you don't insert your work's context into the planning narrative early, someone else writes your story — or it's absent entirely.
+- **For EH context**: Bertrand confirmed agents are embedded across team presentations. HC and capacity are in Bertrand's slide. External dependencies (AO, AI Assistant) get dedicated treatment. If Pedro doesn't confirm he's represented in those slides, the H2 story of EH could be written by others.
+- **The senior director move**: Don't wait to be included. Ask Bertrand specifically: "What do you need from me for the H2 planning slides on EH and external dependencies?" That question gets you in the room and shows you think at the planning level.
+- **Timing**: H2 planning slides are being built now. The window closes fast.
+
 ### Validate with N Before Sharing to N+1
 - **Date identified**: 2026-03-24
 - **Source**: Agent dashboard standardization plan. Pedro validated with Bertrand first ("Fully Aligned") before sending to the broader Slack channel.

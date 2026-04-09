@@ -113,6 +113,25 @@
   - Gap = `unsupported` tag + explicit refusals. Agent cannot. Requires product decision.
 - **Application**: Any top failed requests table should have a Type column. One word — Quality or Gap — that removes the inference burden from the reader.
 
+### Product Gap vs Quality — The Plain-Language Definition for Stakeholders
+- **Date identified**: 2026-04-09
+- **Source**: AEM Agent Reports Slack communication to Bertrand, agent owners, Ian, Yanira. April 9, 2026.
+- **Insight**: When communicating the PM section of agent reports to a broad stakeholder audience (including non-technical), the Quality/Gap split needs plain language anchors, not tag names.
+  - **Product Gap** = the agent structurally cannot handle this. It's a missing capability. Roadmap item.
+  - **Quality** = the agent tried but something broke. It's a fixable failure. Engineering item.
+- **Why this matters**: Agent owners, program managers, and leadership don't read tags. They read plain English. "Quality issue" and "product gap" are words they can immediately route to the right queue. Using tag-level language (unsupported, routing-issue) in external communication creates an interpretation gap.
+- **Application**: In any stakeholder communication about agent report data, use these two labels. Define them once at the top. Everything after that is self-routing.
+
+### External Dependency Framing in H2 Planning
+- **Date identified**: 2026-04-09
+- **Source**: Jaclyn Eckersley / Bertrand H2 planning Slack thread, April 9, 2026.
+- **Insight**: When agents are embedded across team roadmaps (not a standalone team), leadership doesn't create a dedicated agents slide. Instead, Bertrand's framing is: agents are covered within team presentations (Forms, Sites, Assets, Cloud). The only dedicated slides for agent work are for **external dependencies** — things the team depends on but doesn't control.
+- **For EH, those are**:
+  - AO (Agent Orchestrator 2.0) — EH Skills + MCP surface depends on AO 2.0 landing. If AO slips, EH Priority 1 slips.
+  - AI Assistant — EH is the hero surface for the AEM AI Assistant prompt bar. EH is an integrator, not the builder.
+- **Why it matters**: In H2 planning, these slides exist so leadership can see cross-team risk. If EH's dependency on AO or AI Assistant isn't named, it's invisible. If something slips, it looks like your roadmap failed, not an upstream miss.
+- **Action trigger**: Before H2 planning closes, confirm with Bertrand what EH owns on external dependency framing. Don't build slides without alignment on ownership.
+
 ### Report-to-Backlog Pipeline — Auto-Generating Stories from Structured Report Output
 - **Date identified**: 2026-04-01
 - **Source**: Pedro's adbe-agent-report-to-jira project trial, April 1, 2026.

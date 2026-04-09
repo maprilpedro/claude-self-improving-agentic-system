@@ -2,8 +2,8 @@
 name: AEM Experience Hub project context
 description: Full context on the Experience Hub project - what it is, who owns it, team, org, state, risks, top priorities, Obsidian vault location
 type: project
+originSessionId: 298c09b0-7372-4e27-9660-87019bb7d26c
 ---
-
 AEM Experience Hub is the unified home screen / landing page for AEM Cloud Service at experience.adobe.com. Launched August 2024. Previously named AEM Home and AEM Launchpad. Not a replacement for existing AEM UIs. An action-oriented entry point that surfaces the right tools per persona.
 
 **Current PM:** User (took over from Shankari in March 2026 — ~3 weeks in as of April 1, 2026.)
@@ -185,7 +185,7 @@ Fu Chi is a female AEP team member who built the personalized prompt recommendat
 
 - 🟡 **Felix reports** — live with PM section + updated tags (April 8). Under review. Corey Dulimba validation sent. Awaiting response.
 - 🔑 VISIBILITY PATH TO LONI: (1) Felix reports live with PM section + updated tags, (2) Pedro validates with Corey, (3) Bertrand shows reports to Loni. Do not skip Corey step.
-- 🟡 **Report hosting** — Quentin helping with certificates. CDN + Okta in progress. CONFIRMED BLOCKER: Greg Klebus got 401 on Content Optimization report (April 8) — Chrome Sidekick plugin required, not installed. Every agent owner validation will hit this until hosting is fixed. Pedro checking if Greg can install Sidekick as interim workaround.
+- 🟡 **Report hosting** — Certificate approved by Shankari (April 9). Felix and Quentin now configuring. CDN + Okta path unblocked. Target: early next week.
 - 🟡 **JIRA pipeline** — tested with Governance agent, works. Update script once PM section live, then package as skill for other PMs next week.
 - 🟠 **Priority consolidation view** — Bertrand ask April 7. Top 5-10 gaps with closure status. Build once reports live.
 - 🟠 **Stable metrics deck** — Bertrand ask April 7. 2-3 slides, same format monthly. Draft with approximate values first.
@@ -203,10 +203,23 @@ Fu Chi is a female AEP team member who built the personalized prompt recommendat
 - ✅ Data compliance — Bertrand confirmed April 2. Closed.
 - ✅ Brand Concierge — better defined between Peter and Sorin. No action needed.
 
-## Logistics (April 7, 2026)
+## Logistics (updated April 9, 2026)
 - April 8: Cloud Foundation sync — NOT Loni's call (Loni's is PM leads only)
 - Check-in with Bertrand: next week — Bertrand away the week after
 - Org reporting: still under Shankari on paper for 6 months, but check-ins go directly to Bertrand
+- Ilya Grafutko call: booked for next Tuesday (week of April 14)
+
+## H2 Planning — Agents (April 9, 2026)
+
+Jaclyn Eckersley (planning/finance) asked @lebescon @pedrofer about HC tracking for Agent Investment for H2 — flagged as absolute requirement, needed it for H1 same day. Also asked who is presenting Agents in the H2 planning session.
+
+Bertrand's response:
+- Agents are covered within individual team presentations (Forms, Sites, Assets, Cloud) — no dedicated Agents team
+- HC/capacity IS in their slide (to be created, or Canva for now) — Jaclyn can aggregate across teams
+- Bertrand's guidance: dedicated slides only needed for **external dependencies** (AO, AI Assistant)
+- Conrad W cc'd on the thread
+
+Action for Pedro: ensure EH capacity is reflected in Bertrand's slide. External dependency slides needed for AO and AI Assistant.
 
 ---
 

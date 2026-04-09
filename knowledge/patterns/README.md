@@ -14,6 +14,33 @@
 - **Anti-patterns to avoid**: (1) Tags that track failures at the orchestrator level (e.g. wrong-agent-routed) belong to the routing layer, not individual agent reports. (2) Value-realization tags that are just past-tense versions of request_type tags add no signal. (3) Input format tags (user provided an ID, user referenced by position) are operational noise for PM purposes. (4) Capability tags ("CF model retrieved") are not value outcomes — something has to land for a tag to be value-realization.
 - **When it applies**: Any AI agent or LLM-powered product where you want to understand usage patterns, measure outcomes, and communicate performance to product leadership.
 
+## Stakeholder Communication Patterns
+
+### Gap Recovery Framing — When You Don't Have What You Said You Had
+- **Date identified**: 2026-04-09
+- **Source**: Pedro/Bertrand org numbers situation, April 9, 2026.
+- **Pattern**: When you've overpromised information you don't have, the recovery move is to reframe the gap as diligence, not confession. Don't say "I don't have it." Say "I want to give you accurate numbers, not fast ones — give me until [specific time]."
+- **Why it works**: It reframes the gap from "he didn't have it" to "he has standards." The person waiting gets a timeline and a signal that you're being rigorous, not sloppy.
+- **What to avoid**: Over-explaining why you don't have it, apologizing more than once, or adding "I thought I had it but..." — all of these draw more attention to the miss than the reframe does.
+- **Variation**: If you have partial data, lead with that. "I have X and Y confirmed, still validating Z" is stronger than asking for time with nothing in hand.
+- **Connected to**: Managing up, validate-then-scale response pattern.
+
+### "We" vs Named Person in Stakeholder Communications
+- **Date identified**: 2026-04-09
+- **Source**: AEM Agent Reports Slack message revision, April 9, 2026.
+- **Pattern**: When communicating an initiative to a group that includes people outside your manager's direct line, attribute it to "we" rather than naming the manager as the originator. "We want to track product gaps" instead of "Bertrand asked us to track product gaps."
+- **Why it works**: (1) Naming your manager as the driver positions you as executing someone else's ask — not as a leader with a point of view. (2) "We" signals joint ownership with leadership, which is better for your visibility. (3) It avoids making people who aren't in Bertrand's org feel like they're receiving a directive.
+- **When to use**: In any Slack message, email, or public communication where you're announcing work that originated from a manager ask but you are the one executing and owning it.
+- **Exception**: In a direct 1:1 with Bertrand, attributing something back to him is fine and appropriate. The rule applies to outward communications.
+
+### Compliance Risk Stays Out of Adoption Messages
+- **Date identified**: 2026-04-09
+- **Source**: AEM Agent Reports Slack drafting, April 9, 2026. Ian Boston's data residency risk.
+- **Pattern**: When a compliance risk exists but the decision-maker has accepted it and work continues, do not include the risk in broad adoption communications. It belongs in 1:1s and decision logs, not status Slack messages.
+- **Why**: The adoption message is designed to drive engagement and confidence. A compliance caveat in that message creates alarm in people who have no decision power over it, and undermines the adoption you're trying to drive.
+- **The test**: Ask "does including this change anyone's behavior who is reading this message?" If no — because the decision is already made — leave it out. If yes — because action is needed — include it with precision.
+- **Connected to**: Bertrand's April 1 risk acceptance decision (data compliance). Ian's "fix it quietly" framing.
+
 ## Product Analytics Patterns
 
 ### High Conversion + Low Penetration = Awareness Problem, Not Product Problem
