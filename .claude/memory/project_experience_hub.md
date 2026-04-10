@@ -181,27 +181,40 @@ Fu Chi is a female AEP team member who built the personalized prompt recommendat
 
 ---
 
-## Active Actions (updated April 8, 2026)
+## Active Actions (updated April 10, 2026)
 
-- 🟡 **Felix reports** — live with PM section + updated tags (April 8). Under review. Corey Dulimba validation sent. Awaiting response.
-- 🔑 VISIBILITY PATH TO LONI: (1) Felix reports live with PM section + updated tags, (2) Pedro validates with Corey, (3) Bertrand shows reports to Loni. Do not skip Corey step.
-- 🟡 **Report hosting** — Certificate approved by Shankari (April 9). Felix and Quentin now configuring. CDN + Okta path unblocked. Target: early next week.
-- 🟡 **JIRA pipeline** — tested with Governance agent, works. Update script once PM section live, then package as skill for other PMs next week.
-- 🟠 **Priority consolidation view** — Bertrand ask April 7. Top 5-10 gaps with closure status. Build once reports live.
-- 🟠 **Stable metrics deck** — Bertrand ask April 7. 2-3 slides, same format monthly. Draft with approximate values first.
-- 🟢 **Grafana access** — obtained April 8 via IAM group GRP-AEP-GENAI-METRICS-VIEWER (Sweta). Cross-check against Felix reports still to do.
-- 🟠 **AO 2.0 engagement** — engage Conrad, Ian Boston, Carsten, Sergey Generalov (not Sorin). Form a point of view on plugin/skills model for EH.
-- 🟠 **Ilya Grafutko call** — responded April 2, open week of April 7. Schedule. Bertrand also meeting Ilya separately.
-- 🟠 **Fu Chi deliverables** — await prompt file + Analytics DB wiki page. Then review with Sorin.
-- 🟠 Other PMs on tags — next week after reports validated
+- 🟢 **Felix reports** — LIVE. Shared with Bertrand (April 9). PRs #20-#24 implemented from Jim Stoklosa feedback. Waiting on Felix to merge (April 10).
+- 🔑 VISIBILITY PATH TO LONI: (1) Felix reports live ✅, (2) Jim validates data accuracy + Corey signs off as PM owner, (3) Bertrand shows to Loni. Do not skip Corey step — his sign-off is what makes the path credible.
+- 🟡 **Report hosting** — Certificate approved by Shankari (April 9). Felix and Quentin configuring. CDN + Okta path unblocked.
+- 🟡 **JIRA pipeline** — tested with Governance agent, works. Package as skill for other PMs once validation done.
+- 🟡 **Jim Stoklosa PRs** — waiting Felix merge (April 10). PRs: #20 nav bug, #21 home icon, #22 agent name standardization, #23 PM descriptions in gaps, #24 thread context (5 prior prompts per row). Also: show agent answer feature in progress.
+- 🟠 **Validation sequence** — Jim (data accuracy + features), then Corey (PM owner sign-off, lighter ask). Draft both messages before Felix merges.
+- 🟠 **Expand to all agent owners** — after Corey/Jim validation. Include: how to read reports, JIRA pipeline access.
+- 🟠 **Priority consolidation view** — Bertrand ask. Top 5-10 gaps with closure status.
+- 🟠 **Stable metrics deck** — Bertrand ask. 2-3 slides, monthly format.
+- 🟢 **Grafana access** — obtained April 8. Cross-check vs Felix reports still to do.
+- 🟠 **AO 2.0 engagement** — Conrad, Ian Boston, Carsten, Sergey Generalov.
+- 🟠 **Ilya Grafutko call** — Tuesday April 14.
+- 🟠 **Fu Chi deliverables** — prompt file + Analytics DB wiki page.
+- 🟠 Other PMs on tags — after validation
 - 🟠 Get on Sorin + Eugene email thread on UX AI framework
 - 🟠 Get VRR tier definition from Yanira's wiki
-- 🟠 Find owner of CM UI activity metrics — try #dx-product-measurement
+- 🟠 Find owner of CM UI activity metrics — #dx-product-measurement
 - 🟠 Join "AEM experience hub extension builder" Slack channel
 - 🟠 Find Canva roadmap doc → share with Sorin
-- ✅ Tag review — done April 7, feedback provided to Felix
+- 🟠 H2 planning — confirm with Bertrand what EH owns on external dependency slides (AO, AI Assistant)
+- ✅ Reports live and shared with Bertrand — April 9
+- ✅ Status deck built and shared with Bertrand — April 9
+- ✅ Slack sent to Bertrand, agent owners, Ian, Yanira — April 9
+- ✅ Tag review — done April 7
 - ✅ Data compliance — Bertrand confirmed April 2. Closed.
 - ✅ Brand Concierge — better defined between Peter and Sorin. No action needed.
+
+## Jim Stoklosa — Report Contributor (Experience Production Agent)
+
+Jim Stoklosa prepares reports on the Experience Production Agent for Corey Dulimba. Called April 9. Very talkative — good ideas but needs filtering. Provided feedback that drove PRs #20-#24 and the show-agent-answer feature. 
+
+Validation role: Jim = data accuracy and feature behavior. Corey = PM owner sign-off (lighter ask, but required for Loni path).
 
 ## Logistics (updated April 9, 2026)
 - April 8: Cloud Foundation sync — NOT Loni's call (Loni's is PM leads only)

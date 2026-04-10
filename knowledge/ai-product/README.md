@@ -122,6 +122,21 @@
 - **Why this matters**: Agent owners, program managers, and leadership don't read tags. They read plain English. "Quality issue" and "product gap" are words they can immediately route to the right queue. Using tag-level language (unsupported, routing-issue) in external communication creates an interpretation gap.
 - **Application**: In any stakeholder communication about agent report data, use these two labels. Define them once at the top. Everything after that is self-routing.
 
+### Thread Context Changes What a Product Gap Means
+- **Date identified**: 2026-04-09
+- **Source**: Jim Stoklosa call + PR #24 (product-gaps-thread-context branch), April 9, 2026.
+- **Insight**: A product gap row in an agent report has different meaning depending on what came before it. A user hitting "I can't do that" after one cold prompt is different from hitting it after 5 attempts at rephrasing. Thread context (up to 5 prior prompts) transforms the gap list from isolated signals into conversational evidence. It tells you whether users are exploring, frustrated, or blocked structurally.
+- **Companion feature**: "Show agent answer" — displays what the agent actually said. Without this, the Quality/Gap split relies on tags alone. With it, you can read the agent's response and verify the classification. A clean "I cannot do that" is a gap. A weird hallucinated answer is a quality failure even if tagged as a gap.
+- **UX consideration**: Default collapsed per row. A "show thread" toggle keeps the table readable while making detail available on demand. Always-expanded kills scannability.
+- **Application**: Any agent report with a product gaps section should have thread context and agent answer as available detail. They are the difference between a report that shows what happened and one that shows why.
+
+### Two-Validator Pattern for Report Rollout
+- **Date identified**: 2026-04-09
+- **Source**: Jim Stoklosa / Corey Dulimba dynamic, AEM Experience Production Agent reports.
+- **Insight**: When an agent report is prepared by someone other than the PM owner (e.g. Jim prepares for Corey), two separate validation roles exist: (1) the preparer validates data accuracy and feature behavior — they know the data; (2) the PM owner validates as sign-off — they need to have seen it before it goes to leadership. These are different asks with different depths. Conflating them into one message to one person either over-asks the owner or under-validates the data.
+- **Pattern**: Send detailed validation ask to preparer first. Once clean, send a lighter "does this look right to you?" to the PM owner. The owner's sign-off is what makes the visibility path credible — Bertrand won't show Loni a report the PM owner hasn't seen.
+- **Application**: Map preparer vs owner for every agent report before sending any validation request.
+
 ### External Dependency Framing in H2 Planning
 - **Date identified**: 2026-04-09
 - **Source**: Jaclyn Eckersley / Bertrand H2 planning Slack thread, April 9, 2026.
