@@ -78,6 +78,22 @@ Observe signal --> Propose hypothesis --> Design test --> Collect evidence --> R
   - (none yet)
 - **Next step**: Get Bertrand validation on hero surfaces one-pager. Then bring to Loni's next session.
 
+## H-006: Agent Adoption Failure Is Primarily a Trigger Problem, Not a Friction Problem
+
+- **Status**: Proposed
+- **Date proposed**: 2026-04-10
+- **Category**: AI Product / Adoption
+- **Source signal**: Apoorva Gupta (H2 Prelim Part 3, April 2026) — Content Optimization Agent and DM Templates both have near-zero adoption despite reduced friction. Loni Stark's "sensor + hero" framing in the same session.
+- **Hypothesis**: "We believe that low adoption of AI agent features is more often caused by users not knowing they have a problem worth solving (trigger failure) than by the feature being too hard to use (friction failure). Fixing the UX before fixing the trigger is wasted investment."
+- **Test design**: For any AEM agent with <5% adoption despite UX simplification, interview 5 users. Ask: did you know this feature existed? Did you have a moment in the last month where you needed this but didn't use it? What triggered you to try it (if ever)? Classify responses as trigger failure (never knew or never felt the need) vs friction failure (knew, tried, gave up). If >60% of non-adopters are trigger failures, hypothesis is confirmed.
+- **Evidence for**:
+  - Content Optimization Agent: simplified rendition creation, still negligible adoption (Apoorva, April 2026)
+  - DM Templates: 14 months near-zero adoption despite refreshed editor (Apoorva, April 2026)
+  - Loni: "How does a human get the aha moment without even having to invoke any agent?" — framing the problem as trigger-first
+- **Evidence against**:
+  - (none yet)
+- **Next step**: Use Greg Klebus 1:1 as first test. Ask: who is using Content Optimization Agent? What triggered their first use? What blocks non-adopters?
+
 ## H-005: Owning Cross-Agent Measurement Standardization Creates Structural Cross-Org Influence for the Experience Hub PM
 
 - **Status**: Proposed

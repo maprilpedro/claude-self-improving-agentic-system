@@ -30,6 +30,32 @@
 - **Right response**: Don't close the box. Improve the failure behavior. Be explicit about what the agent cannot do. "I can't help with that yet, but here's what I can do" is far better than a hallucinated answer.
 - **Application**: Treat the open chat box as a qualitative research instrument. Log and analyze what users ask for. The things the agent can't answer are your next roadmap inputs.
 
+### Agents Need to Surface Problems, Not Just Solve Them — The "Sensor + Hero" Model
+- **Date identified**: 2026-04-10
+- **Source**: Loni Stark, H2 Prelim In/Out Priorities Part 3 (April 2026). Dynamic Media Templates / Content Optimization Agent discussion.
+- **Insight**: Agents fail to drive adoption not because they're hard to use, but because users don't know they have a problem worth solving. The leaky pipe analogy: there may be a broken pipe in your home right now — it's urgent, but you're calm because you don't know about it. Agents that only execute on demand miss the upstream problem: no one thought to ask.
+- **The two-part model Loni described**:
+  1. **Sensor**: The agent (or surface) proactively surfaces a signal — "your 10 banner ads are underperforming and it's costing you $1M in revenue." Without this, the human never triggers the workflow.
+  2. **Hero**: When the problem is surfaced, fixing it needs to be trivially easy and make the human look good. Not just "easy to use" — easy *and* career-positive. Marketers who find a problem but know fixing it means more work won't raise it.
+- **The exec dashboard corollary**: The sensor signal needs to surface to leadership, not just the practitioner. A marketer who knows their banner is underperforming won't raise it if it creates work. Surface it directly to an exec dashboard so the pressure to act comes from above, not from the user discovering it themselves.
+- **Application**: When evaluating why an AI feature has low adoption, ask first: does the user know they have a problem this feature solves? If the trigger is purely user-initiated, you haven't solved the awareness problem. The feature needs a proactive signal — an alert, a notification, an inline indicator — that surfaces the need before the user thinks to ask. This applies to EH: showing agent capabilities isn't enough. EH needs to surface that the capability is relevant *right now* for *this user*.
+
+### Removing Friction Is Not Enough — Agent Adoption Can Still Fail
+- **Date identified**: 2026-04-10
+- **Source**: Apoorva Gupta, H2 Prelim In/Out Priorities Part 3 (April 2026). Content Optimization Agent + DM Templates adoption analysis.
+- **Insight**: Apoorva's Content Optimization Agent simplified rendition creation (no need to know smart crop presets). Adoption is still negligible. DM Templates launched 18 months ago, 14 months of near-zero adoption. In both cases: feature exists, friction was removed, adoption still didn't come. Apoorva's own words: "even if you remove the friction, the adoption is not happening to the level we want."
+- **Why this happens**: The friction that's visible to PMs (the UI is hard, the steps are complex) is not always the friction that blocks users. The invisible friction is: they don't know they need this, they don't have a workflow trigger that pulls them to the feature, and the moment of need doesn't happen in the surface where the feature lives.
+- **Loni's reframe**: It's not that we targeted the wrong persona. It's that we built a car with controls too hard for the driver to use. The persona was right — the execution didn't serve them. But even with a fixed UI, if there's no trigger pulling that persona to the feature, adoption won't follow.
+- **Application**: Before investing in friction reduction for a low-adoption AI feature, validate that the awareness and trigger problems are solved. Friction removal on an unknown feature produces nothing.
+
+### The Cold Start Problem for AI Agents
+- **Date identified**: 2026-04-10
+- **Source**: Loni Stark, H2 Prelim In/Out Priorities Part 3 (April 2026). Brand-aware metadata + onboarding agent discussion.
+- **Insight**: Loni's explicit question: "How does a human get the aha moment without even having to invoke any agent?" A feature that requires user initiation to show value has a cold start problem — the user has to take an action to see why they should take an action. This is circular. The feature has to be useful from the moment the user lands in the surface, before they've done anything.
+- **Concrete form**: If a user lands on a screen and sees nothing relevant to them until they click something, you've failed the cold start test. The contextual value has to be visible from state zero — relevant, timely, requiring no configuration or invocation.
+- **Connected pattern**: This is why the "Sensor + Hero" model matters — proactive surface of relevant signal solves the cold start problem. The user lands and sees: "Here's what matters for you right now." No click required.
+- **Application**: For every new AI feature or agent capability added to EH, ask: what does the user see before they do anything? If the answer is a blank box or a generic grid of prompts, you haven't solved cold start.
+
 ### Agent Failure Rate Is Often an Architecture Ceiling, Not a Prompt Quality Problem
 - **Date identified**: 2026-03-23
 - **Source**: Loni's AEM PM Virtual Working Session I (Agents, March 23). Cedric Huesler confirmed.
