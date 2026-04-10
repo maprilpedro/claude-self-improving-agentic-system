@@ -35,7 +35,8 @@
 | Yanira 1:1 + Sorin 1:1 (March 19) | 2026-03-30 | Meeting notes | Two-track reporting infra pattern, success definitions before scaling metrics, DAS team context, custom widget framework, personalization OKR history |
 | Felix Delval 1:1 + aem-agent-reports repo analysis | 2026-03-25 | Technical deep dive | Mandatory + custom dashboard pattern, agent onboarding as data problem, measurement infrastructure design |
 | EPA vs EGA cross-analysis | 2026-03-24 | Internal report analysis | Success metric definition divergence, why cross-agent comparison fails without shared definition |
-| H2 Prelim In/Out Priorities Part 3 | 2026-04-10 | Live strategy session (Loni + Apoorva + Shankari) | Sensor+hero adoption model, trigger vs friction failure, cold start problem, Content Optimization Agent adoption analysis, DM Templates failure pattern, two-frontend antipattern |
+| H2 Prelim In/Out Priorities Part 3 | 2026-04-10 | Live strategy session (Loni + Apoorva + Shankari) | Sensor+hero adoption model, trigger vs friction failure, cold start problem, Content Optimization Agent adoption analysis, DM Templates failure pattern, two-frontend antipattern, Loni first-principles research protocol |
+| Agent Owner Alignment March 16 + March 23 + State of Project (cross-synthesis) | 2026-04-10 | Cross-file synthesis | Repeating users = primary value signal; Grafana vs LangFuse; Apoorva daily prompt monitoring; prompt library ownership per agent team |
 
 ## Routing Table
 
@@ -101,3 +102,4 @@
 | 2026-04-09 | ai-product/, patterns/, leadership/ | Session learnings — Product Gap vs Quality plain-language definition for stakeholders, external dependency framing in H2 planning, gap recovery framing (reframe as diligence not confession), "we" vs named person in stakeholder comms, compliance risk stays out of adoption messages, H2 planning visibility pattern |
 | 2026-04-10 | ai-product/ | Session learnings — thread context transforms gap meaning, show-agent-answer as Quality/Gap classifier, two-validator pattern (preparer vs PM owner), report rollout sequencing |
 | 2026-04-10 | ai-product/, hypotheses/ | H2 Prelim Part 3 (Loni + Apoorva) — sensor+hero model for agent adoption, trigger failure vs friction failure, cold start problem for AI agents, Content Optimization Agent adoption failure. H-006 added. |
+| 2026-04-10 | ai-product/, patterns/ | Cross-file synthesis — repeating users as primary value signal, Grafana vs LangFuse split, Apoorva daily prompt monitoring, two-frontend antipattern, Loni first-principles research protocol |

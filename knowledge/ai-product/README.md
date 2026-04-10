@@ -123,6 +123,40 @@
 - **Pattern**: Get the fast track to ~80% stable first. Use it to learn what the report needs to contain. Then hand that spec to the infrastructure team. This way the infrastructure team builds the right thing, not a guess.
 - **Risk**: If the foundation team (DAS in this case) has a different motivation (cost tracking vs product quality), their natural output will not match what PMs need. Explicit alignment on requirements before they build is critical.
 
+### "Do Customers Come Back?" Is the Primary Value Signal for AI Agents
+- **Date identified**: 2026-03-23 (Agent Owner Alignment) + 2026-04-10 (H2 Prelim Part 3)
+- **Source**: Bertrand + Apoorva + Shankari + Brian debate on agent scoring, March 23. Apoorva's adoption analysis, April 10.
+- **Insight**: The most honest single signal for whether an AI agent is delivering value is whether users return. Not whether it completed the task, not whether it returned content, but: does the same user come back? Repeating users indicate realized value — the user found the interaction worth repeating. One-time users could be curious testers. Repeat users are believers.
+- **Why this matters**: This was the explicit dividing line in the March 23 scoring debate — functionality (does it work?) vs customer value (do customers come back?). Both matter, but they answer different questions. Functionality is a floor. Return rate is the ceiling.
+- **Connected to Apoorva's approach**: Apoorva monitors the Discovery agent daily — tracking which prompts are being used and whether users are returning. She is the only agent PM doing this consistently as of April 2026. Loni praised this explicitly at the close of the April 10 session.
+- **Application**: In any AI product review, the first two questions should be: (1) what is the weekly repeat user rate? (2) what are the top 3-5 prompts that repeat users are sending? Those two numbers tell you more than any dashboard.
+
+### Grafana vs LangFuse — Two Different Measurement Jobs
+- **Date identified**: 2026-03-16
+- **Source**: Agent Owner Alignment March 16, 2026. Felix, Conrad, Bertrand discussion on tool selection for AI measurement.
+- **Insight**: These tools answer different questions and should not be conflated.
+  - **Grafana** = usage metrics. Interaction volume, active users, returning users, weekly trends. Good for answering "are people using it?" and "is usage growing?" Does not measure quality.
+  - **LangFuse** = quality measurement. LLM-as-judge scoring, prompt clustering, failure mode analysis, multi-turn conversation evaluation. Answers "is the agent doing the right thing?" and "what types of prompts are failing?"
+- **The gap**: Neither tool alone is sufficient for a PM-facing agent health view. Grafana tells you how much. LangFuse tells you how well. You need both — and each team must define their own success criteria before either tool produces meaningful signal.
+- **Brian's addition**: LangFuse can cluster prompts to understand which categories of prompts are going unanswered or incorrectly answered — this is a direct roadmap input. Unsupported prompt clusters = capability gaps to address.
+- **Application**: When building AI measurement infrastructure, decide upfront which tool answers which question. Don't ask Grafana to evaluate quality. Don't expect LangFuse to replace usage dashboards.
+
+### Prompt Library Monitoring as Early Adoption Signal
+- **Date identified**: 2026-03-16 + 2026-04-10
+- **Source**: March 16 Agent Owner Alignment (Shankari + Bertrand prompt library discussion). State of Project (Apoorva's prompt management). H2 Prelim Part 3 April 10 (Loni's closing praise for Apoorva).
+- **Insight**: Daily monitoring of which prompts are actually being triggered is one of the earliest adoption signals available. It tells you what users are trying to do, not what you told them they could do. For a PM who owns an agent, the two things to track daily are: (1) which of my prompts are being used and (2) which new prompts are users writing that I didn't anticipate.
+- **Apoorva's approach**: She monitors the Discovery agent's prompt usage daily and tracks repeating users. She is one of the only agent PMs doing this as of April 2026. Loni explicitly praised this behavior.
+- **Prompt library ownership model**: Prompt library is cross-product (AP team owns the platform). AEM-specific prompts are each agent team's responsibility — test, preview, add, remove. This is not optional. Prompts that go unmanaged drift out of alignment with what the agent can actually do, which directly fuels the trigger failure problem.
+- **Application**: Any agent PM should have a daily 5-minute prompt review routine. What got used? What got ignored? What did users ask for that isn't in the library? This is faster signal than any weekly report.
+
+### Two-Frontend Antipattern — Never Run Two Competing UI Surfaces in Parallel
+- **Date identified**: 2026-04-10
+- **Source**: Loni Stark, H2 Prelim Part 3 (April 2026). Content Hub React vs EDS discussion with Apoorva.
+- **Insight**: When a product team maintains two active front-end surfaces for the same capability, every downstream consequence is worse than making either choice. Loni's position: "neither one of those choices is worse than having two of them live."
+- **What happens when you run two surfaces**: (1) Engineering is split — both frontends need maintenance, both fall behind. (2) Partners must build extensions for both or pick one and support half the users. (3) Demos become inconsistent — you show React, customer wants EDS behavior or vice versa. (4) Customer escalations multiply — "that feature is GA on one but not the other." (5) You've pushed an architectural decision onto the customer instead of making it yourself.
+- **The right move**: Pick one. Commit. Migrate. The transition pain is finite. The two-surface pain compounds indefinitely.
+- **Application**: When evaluating any surface consolidation decision, frame the question correctly: "What is the total cost of NOT deciding?" It is always higher than it looks. Loni's framing is decisive: one bad choice beats two permanent ones.
+
 ### Success Definitions Must Be Agreed Before Metrics Are Scaled
 - **Date identified**: 2026-03-30
 - **Source**: Yanira 1:1; Yanira's success definition wiki.
