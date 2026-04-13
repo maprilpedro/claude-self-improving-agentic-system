@@ -194,6 +194,7 @@ Fu Chi is a female AEP team member who built the personalized prompt recommendat
 - 🟠 **Stable metrics deck** — Bertrand ask. 2-3 slides, monthly format.
 - 🟢 **Grafana access** — obtained April 8. Cross-check vs Felix reports still to do.
 - 🟠 **AO 2.0 engagement** — Conrad, Ian Boston, Carsten, Sergey Generalov.
+- 🟠 **Greg Klebus 1:1** — schedule early next week (after Felix merge review). Agenda: review reports + test H-006 (ask: who is using Content Optimization Agent and what triggered their first use?).
 - 🟠 **Ilya Grafutko call** — Tuesday April 14.
 - 🟠 **Fu Chi deliverables** — prompt file + Analytics DB wiki page.
 - 🟠 Other PMs on tags — after validation

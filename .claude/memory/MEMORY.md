@@ -9,7 +9,8 @@
 
 ## Feedback
 - [Save screenshots to project folder](feedback_screenshots.md) — Always save screenshots to /screenshots in the project repo so they persist across sessions
-- [Session setup commands](feedback_session_setup.md) — Always run /color blue and /rename Adobe-PM-Assistant at session start
+- [Session setup commands](feedback_session_setup.md) — Remind user to run /color orange and /rename ADBE-PM-ASSISTANT (UI commands, user must run them)
+- [No meeting setup help](feedback_no_meeting_setup.md) — Never offer to help schedule or set up meetings
 - [Session start behavior](feedback_session_start.md) — Always pick up where we left off on Experience Hub when starting a conversation
 - [Transcript room mic attribution](feedback_transcript_attribution.md) — "CR" room labels in Teams transcripts are conference room mics, not people. In the March 23 2026 session, all CR lines = Loni Stark
 - [Update trio after every meeting analysis](feedback_update_trio.md) — After every analysis, always update Stakeholder Map, State of the Project, and Questions for Next 1-1 with Sorin in the Obsidian vault
