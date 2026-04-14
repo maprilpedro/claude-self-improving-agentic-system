@@ -14,6 +14,18 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 
 ---
 
+## 2026 Yearly Review Goals (drafted with Bertrand, April 2026)
+
+**G1 — Agent Intelligence & Reporting:** Build and own the agent intelligence layer that gives every AEM agent PM a clear view of what customers need, where agents fall short, and where they create measurable value. Drive improvement in Technical Success Rate and Value Realization across the AEM agent portfolio.
+
+**G2 — EH Platform Integration:** Own Experience Hub's integration with AEP and Adobe DX, including AO 2.0 migration and the new agent prompting surface. Ensure EH remains a reliable and current entry point as the underlying platform evolves.
+
+**G3 — Experience Hub Adoption & Growth:** Establish Experience Hub as the measurable driver of AEM practitioner adoption growth, with data and narrative that leadership can point to at any level. Document and attribute EH's contribution to AEM monthly active user growth. Deliver the contribution model and user profiling that make EH contextual and extensible, and enable other teams to surface their work through EH as a shared platform.
+
+File: `AEM EH - Key Files/Experience Hub - 2026 Yearly Review Goals.md`
+
+---
+
 ## Two Workstreams
 
 **Workstream 1 — Experience Hub (fully owned)**
@@ -181,22 +193,28 @@ Fu Chi is a female AEP team member who built the personalized prompt recommendat
 
 ---
 
-## Active Actions (updated April 13, 2026)
+## Active Actions (updated April 14, 2026)
 
-- 🟢 **Felix reports** — LIVE. Shared with Bertrand (April 9). PRs #20-#24 merged April 13 by Pedro (Felix gave repo rights, Felix did not merge himself).
-- 🔑 VISIBILITY PATH TO LONI: (1) Felix reports live ✅, (2) Jim validates data accuracy + Corey signs off as PM owner, (3) Bertrand shows to Loni. Do not skip Corey step — his sign-off is what makes the path credible.
+### TOP PRIORITY — Answer Loni's Question
+- 🔴 **Loni's unanswered question (April 13):** "Do we have a view of what percentage of the top requests and stuff are making it into the agent?" Bertrand said no. Pedro's JIRA pipeline + priority consolidation view answers this. Goal: package it so Bertrand can take it back to Loni. This is the visibility move.
+- 🟠 **Priority consolidation view** — Bertrand ask. Top 5-10 gaps with closure status. Now directly serves Loni's question — this is P1.
+- 🟠 **JIRA pipeline** — tested with Governance agent, works. Package as skill for other PMs once validation done. Core mechanism for answering Loni's question.
+- 🟠 **Validation sequence** — Jim (data accuracy + features) done. Corey not answering — pivoted to Apoorva. Outreach sent April 14: shared live report URL, framed as serving her reporting needs, call to be set this week. Sequence for call: (1) does the report give her what she needs, (2) data validation, (3) JIRA. Must complete before taking answer to Bertrand.
+
+### SECOND PRIORITY — EH as MAU Driver
+- 🔴 **EH = key MAU driver (Bertrand, April 13 Loni meeting):** Bertrand said "I would like to think that what we did with Experience Hub has been a key driver in expanding the number of monthly active users for AEM." >60% customer base. This is Pedro's product. Surface this claim explicitly — own it, back it with data, make it a narrative Pedro controls not just a line Bertrand said once.
+- 🟠 **Stable metrics deck** — Bertrand ask. 2-3 slides, monthly format. Now also the vehicle to substantiate the MAU driver claim. P2.
+- 🟢 **Grafana access** — obtained April 8. Cross-check vs Felix reports still to do. Needed to back the MAU narrative.
+
+### In Progress
+- 🟢 **Felix reports** — LIVE. Shared with Bertrand (April 9). Jim feedback incorporated (April 13). Bertrand named Pedro and the dashboard in Loni's H2 planning meeting (April 13) — public sponsorship at VP level. Conrad also validated in Agent Owner alignment call same day.
 - 🟡 **Report hosting** — Certificate approved by Shankari (April 9). Felix and Quentin configuring. CDN + Okta path unblocked.
-- 🟡 **JIRA pipeline** — tested with Governance agent, works. Package as skill for other PMs once validation done.
-- ✅ **Jim Stoklosa PRs** — #20 nav bug, #21 home icon, #22 agent name standardization, #23 PM descriptions in gaps, #24 thread context (5 prior prompts per row). Merged April 13 by Pedro.
-- 🟠 **Validation sequence** — Jim (data accuracy + features) done. Corey (PM owner sign-off) not answering as of April 13 — moving to Apoorva Gupta for review instead.
-- ✅ **Agent reports upgrade doc** — Created April 13. Full review of existing reports with Exec_PM priorities (P0–P3), two-audience split (Exec PM report vs Agent Owner reports), and wave-based tech roadmap (W1–W4 + Hold). PM Exec Summary spec included. File: `adbe-agent-dashboard-validation/20260413 - Agent Reports Upgrades.md`.
-- 🟠 **Agent reports coding — W1 in progress** — Coding agent started W1 quick wins April 13. Two open items for next session: (1) Open PR on OneAdobe/aem-agent-reports from branch `add-other-capability-note`. (2) Merge aem-epa/aem-agent-reports#1.
+- 🟠 **Agent reports W1 upgrade** — Quick wins in progress (April 13). Two-audience split (Exec PM vs Agent Owner), P0-P3 priorities, W1-W4 wave roadmap defined. File: `adbe-agent-dashboard-validation/20260413 - Agent Reports Upgrades.md`.
 - 🟠 **Expand to all agent owners** — after Corey/Jim validation. Include: how to read reports, JIRA pipeline access.
-- 🟠 **Priority consolidation view** — Bertrand ask. Top 5-10 gaps with closure status.
-- 🟠 **Stable metrics deck** — Bertrand ask. 2-3 slides, monthly format.
 - 🟢 **Grafana access** — obtained April 8. Cross-check vs Felix reports still to do.
-- 🟠 **AO 2.0 engagement** — Conrad, Ian Boston, Carsten, Sergey Generalov.
-- 🟠 **Greg Klebus 1:1** — schedule early next week (after Felix merge review). Agenda: review reports + test H-006 (ask: who is using Content Optimization Agent and what triggered their first use?).
+- 🟠 **AO 2.0 engagement** — Conrad, Ian Boston, Carsten, Sergey Generalov. Loni confirmed AO 2.0 is a different stack (April 13 Loni meeting) — she pushed for modular architecture. This engagement is now more urgent.
+- 🟠 **AO CSO (April 13)** — File attachments broke due to AO deploying breaking change with no proper notification (private channel, no lead time). Felix diagnosis: organizational failure, not technical. Follow-the-sun coverage also failed (bank holiday in Bucharest). Adds to trust deficit Bertrand mentioned at VP level.
+- 🟠 **Greg Klebus 1:1** — Greg at Summit this week + next. Schedule for week of April 28. Agenda: review reports + test H-006 (ask: who is using Content Optimization Agent and what triggered their first use?).
 - 🟠 **Ilya Grafutko call** — Tuesday April 14.
 - 🟠 **Fu Chi deliverables** — prompt file + Analytics DB wiki page.
 - 🟠 Other PMs on tags — after validation
@@ -219,7 +237,11 @@ Jim Stoklosa prepares reports on the Experience Production Agent for Corey Dulim
 
 Validation role: Jim = data accuracy and feature behavior. Corey = PM owner sign-off (lighter ask, but required for Loni path).
 
-## Logistics (updated April 9, 2026)
+## Try-Before-You-Buy Scoping (confirmed April 13, 2026)
+
+Cloud Service + EDS customers = eligible (minus HIPAA / AI gen waiver exclusions). Managed Services = playgrounds only, not hooked up. Scope reports and validation accordingly.
+
+## Logistics (updated April 13, 2026)
 - April 8: Cloud Foundation sync — NOT Loni's call (Loni's is PM leads only)
 - Check-in with Bertrand: next week — Bertrand away the week after
 - Org reporting: still under Shankari on paper for 6 months, but check-ins go directly to Bertrand

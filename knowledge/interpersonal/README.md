@@ -33,6 +33,15 @@
 - **Ethical Politician**: The model. Politically aware AND integrity-driven. They build relationships, manage perception, and advance their agenda — but not at others' expense. They're the ones who get the most done in complex organizations because they work with the system rather than against it or above it.
 - **Key test**: When threatened, the Street Fighter attacks, the Purist complains to the wrong people, the Maneuverer retreats to recalculate, and the Ethical Politician problem-solves. Watch how someone behaves under pressure and you know their type.
 
+### Competitor Proximity Monitoring — Reaching Out After Your Boss Mentions Your Work
+- **Source**: Live observation — Philippe Kapfer dynamic, April 14, 2026
+- **Date**: 2026-04-14
+- **Insight**: When a competitor reaches out about your work immediately after a 1:1 with your shared manager, the trigger is almost certainly that meeting. The boss mentioned your work and the competitor is now moving to claim proximity, probe for gaps, or control the narrative before you get more visibility. This is not casual curiosity — the timing is the signal.
+- **Why they do it**: (1) They want to understand what your work is before Bertrand/Loni references it again and they look uninformed. (2) They want early access to find weak points while the work is still unpolished. (3) They want to position themselves as aligned with the initiative — as a contributor or collaborator — before it becomes established.
+- **The response pattern**: Acknowledge quickly and warmly by the lightweight channel (Slack). Do not go deep in writing — anything you share is on record. Set a face-to-face conversation on your terms and your timing. Go in prepared with only what is live and stable. Do not share roadmap, upcoming upgrades, or anything still being built. If they identify issues, note them and bring them back to your manager yourself — do not let them surface problems in your work to the boss.
+- **The cardinal rule**: Share what is done. Never share what is in progress with someone who is tracking your vulnerabilities.
+- **Connected to**: Agree 1:1 Reframe Publicly (above), The Mirror Tactic (above), Giving Philippe early access to unpolished work.
+
 ### The Mirror Tactic — Getting Validated Without Asking
 - **Source**: Live observation — Philippe Kapfer dynamic, April 7, 2026 (second pattern confirmed)
 - **Date**: 2026-04-07
