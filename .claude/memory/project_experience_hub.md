@@ -181,14 +181,16 @@ Fu Chi is a female AEP team member who built the personalized prompt recommendat
 
 ---
 
-## Active Actions (updated April 10, 2026)
+## Active Actions (updated April 13, 2026)
 
-- 🟢 **Felix reports** — LIVE. Shared with Bertrand (April 9). PRs #20-#24 implemented from Jim Stoklosa feedback. Waiting on Felix to merge (April 10).
+- 🟢 **Felix reports** — LIVE. Shared with Bertrand (April 9). PRs #20-#24 merged April 13 by Pedro (Felix gave repo rights, Felix did not merge himself).
 - 🔑 VISIBILITY PATH TO LONI: (1) Felix reports live ✅, (2) Jim validates data accuracy + Corey signs off as PM owner, (3) Bertrand shows to Loni. Do not skip Corey step — his sign-off is what makes the path credible.
 - 🟡 **Report hosting** — Certificate approved by Shankari (April 9). Felix and Quentin configuring. CDN + Okta path unblocked.
 - 🟡 **JIRA pipeline** — tested with Governance agent, works. Package as skill for other PMs once validation done.
-- 🟡 **Jim Stoklosa PRs** — waiting Felix merge (April 10). PRs: #20 nav bug, #21 home icon, #22 agent name standardization, #23 PM descriptions in gaps, #24 thread context (5 prior prompts per row). Also: show agent answer feature in progress.
-- 🟠 **Validation sequence** — Jim (data accuracy + features), then Corey (PM owner sign-off, lighter ask). Draft both messages before Felix merges.
+- ✅ **Jim Stoklosa PRs** — #20 nav bug, #21 home icon, #22 agent name standardization, #23 PM descriptions in gaps, #24 thread context (5 prior prompts per row). Merged April 13 by Pedro.
+- 🟠 **Validation sequence** — Jim (data accuracy + features) done. Corey (PM owner sign-off) not answering as of April 13 — moving to Apoorva Gupta for review instead.
+- ✅ **Agent reports upgrade doc** — Created April 13. Full review of existing reports with Exec_PM priorities (P0–P3), two-audience split (Exec PM report vs Agent Owner reports), and wave-based tech roadmap (W1–W4 + Hold). PM Exec Summary spec included. File: `adbe-agent-dashboard-validation/20260413 - Agent Reports Upgrades.md`.
+- 🟠 **Agent reports coding — W1 in progress** — Coding agent started W1 quick wins April 13. Two open items for next session: (1) Open PR on OneAdobe/aem-agent-reports from branch `add-other-capability-note`. (2) Merge aem-epa/aem-agent-reports#1.
 - 🟠 **Expand to all agent owners** — after Corey/Jim validation. Include: how to read reports, JIRA pipeline access.
 - 🟠 **Priority consolidation view** — Bertrand ask. Top 5-10 gaps with closure status.
 - 🟠 **Stable metrics deck** — Bertrand ask. 2-3 slides, monthly format.

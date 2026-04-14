@@ -104,3 +104,4 @@
 | 2026-04-10 | ai-product/, hypotheses/ | H2 Prelim Part 3 (Loni + Apoorva) — sensor+hero model for agent adoption, trigger failure vs friction failure, cold start problem for AI agents, Content Optimization Agent adoption failure. H-006 added. |
 | 2026-04-10 | ai-product/, patterns/ | Cross-file synthesis — repeating users as primary value signal, Grafana vs LangFuse split, Apoorva daily prompt monitoring, two-frontend antipattern, Loni first-principles research protocol |
 | 2026-04-10 | hypotheses/ | Session close — Greg Klebus 1:1 designated as first H-006 test. Active Actions updated with Greg 1:1 + H-006 framing. Memory consolidated and committed. |
+| 2026-04-13 | patterns/ | Session learnings — two-audience artifact split (operator vs exec reports), exec report design principles (7-point framework: verdict first, define metrics, show baselines, name owners, patterns not names, emphasize primary signal, surface decisions). |

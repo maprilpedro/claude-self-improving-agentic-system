@@ -56,6 +56,29 @@
 - **The test**: Ask "does including this change anyone's behavior who is reading this message?" If no — because the decision is already made — leave it out. If yes — because action is needed — include it with precision.
 - **Connected to**: Bertrand's April 1 risk acceptance decision (data compliance). Ian's "fix it quietly" framing.
 
+### Two-Audience Artifact Split — Operator Reports vs Exec Reports
+- **Date identified**: 2026-04-13
+- **Source**: AEM agent report review (adbe-agent-dashboard-validation). All-agents report and per-agent reports used the same template. Neither audience was served well.
+- **Pattern**: When a report or document serves two audiences with fundamentally different needs, one template will fail both. The fix is not to add more sections — it is to build separate artifacts.
+  - **Operator artifact**: customer-level, named entities, action-oriented, detailed funnels. Designed to be acted on by the person who owns the agent or feature.
+  - **Executive artifact**: pattern-level, verdict-first, strategic synthesis, portfolio view. Designed to inform judgment at the VP or Senior Director level.
+- **Diagnostic signs**: Execs find the report too detailed. Operators find it too abstract. The same section reads differently depending on who's reading it. The "insights" section names customers or orgs the exec doesn't recognize.
+- **Application**: Before building any shared report, ask: who are the two audiences, and are their needs compatible? If not, separate the artifacts from the start. Retrofitting is harder and usually produces a frankenstein. The split also creates a natural accountability structure — operator report owned by agent owner, exec report owned by the PM who coordinates across agents.
+- **Observed at AEM**: All-agents report was built like a bigger version of per-agent reports. Same nav, same sections, same level of detail. Loni needed fleet-level patterns and a one-sentence verdict. Corey needed LG Electronics' failure breakdown. The same template delivered neither cleanly.
+
+### Exec Report Design Principles — What Makes a VP-Level Report Work
+- **Date identified**: 2026-04-13
+- **Source**: AEM agent report review, April 13, 2026. Synthesized from Loni and Bertrand's known preferences and what was missing from the existing reports.
+- **Pattern**: Seven principles that consistently distinguish exec-grade reports from operator-grade reports:
+  1. **Verdict first** — open with one sentence of judgment, not data narration. "Users are growing but outcomes are not following" beats "W14 saw strong top-of-funnel growth with customers up 9.3%." The exec reads the first sentence and decides if the report is worth their time.
+  2. **Define all metrics at first use** — executives cannot be expected to know your internal acronyms. TSR, VRR, EPA — add one line near the KPI strip. The five seconds it takes to add eliminates a credibility risk in every meeting.
+  3. **Baseline beside every number** — a number without a reference point is not actionable. "23.2% TSR" with no target or historical average means nothing. Show the all-time average, the target, or the benchmark. Bertrand explicitly asked for "ratios vs baseline," not absolute numbers.
+  4. **Name an owner on every recommendation** — a recommendation without an owner is an observation. Executives will always ask "who owns this?" If the answer isn't in the report, the report is incomplete.
+  5. **Patterns not named entities** — VP-level stakeholders don't process individual customer names as signal. "LG Electronics has 2.6% SR" is noise. "High-volume new customers are failing at 3x the fleet average" is signal. The PM's job is to do this synthesis before the exec has to.
+  6. **Emphasize the metric leadership declared primary** — if Loni said repeating users are the primary value signal, that metric needs to visually dominate the KPI strip, not sit equal to seven others. What the exec said matters most should appear as if it matters most.
+  7. **Surface decisions, not just data** — include a "What Needs a Decision" section. Two to three items max. Each with: the situation, the recommendation, the owner. This positions the PM as a decision-surfacer rather than a reporter. Senior Director behavior, not Director behavior.
+- **Application**: When preparing any artifact for VP or Senior Director review, run through these seven. Missing any one of them is a gap that the exec will notice, even if they don't name it.
+
 ## Product Analytics Patterns
 
 ### High Conversion + Low Penetration = Awareness Problem, Not Product Problem
