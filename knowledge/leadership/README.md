@@ -66,6 +66,21 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **Pattern**: Any proposal going to a broader audience should be pre-validated with your direct manager first. This does two things: (1) you don't get publicly corrected by your own chain, which is damaging; (2) your manager becomes a co-owner, which amplifies the signal — it arrives backed by two levels of the org, not one.
 - **Anti-pattern**: Sending something directly to a VP or senior audience without looping in your manager. Even if the content is good, the process signal is bad.
 
+### Public Naming as Scope Expansion Signal
+- **Date identified**: 2026-04-14
+- **Source**: AO 2.0 Strategy Meeting. Jaclyn asked "who is responsible for AO, the connection with AO?" Bertrand answered "It's Pedro" in front of Conrad, Jaclyn, Yanira.
+- **Pattern**: When a manager names you publicly as the owner of a scope in a cross-functional meeting — especially when the question was not "who in your org," but "who is the person" — that is a scope expansion, not just an assignment. It is said in front of peers so it becomes a shared understanding. Once named, you are the person. The ownership survives the meeting.
+- **How to recognize it**: The question comes from outside your manager's chain. Your manager answers with your name without qualification. Nobody in the room contests it.
+- **How to execute**: Accept it without overclaiming. Don't say "well, I'm primarily EH and this is adjacent" — that gives the role back. Start operating in the scope immediately: reach out to your new counterpart on the other side (here: Sergei Generalov), draft the first artifact, show up prepared at the next meeting. Scope is kept by showing up to it.
+- **Why it matters for Senior Director path**: Directors own an area. Senior Directors are named as the connector across areas. A public liaison naming — "Pedro is our person on AO" — is the exact shape of scope Senior Directors operate in. Don't let it fade by staying only in your EH lane.
+
+### The Clarifying Question from the New Person
+- **Date identified**: 2026-04-14
+- **Source**: AO 2.0 Strategy Meeting. In a room where Bertrand and Conrad disagreed implicitly on AO 2.0 compatibility, Pedro asked: "Will AEP impose their AO 2.0 deployment if we aren't ready?" The question reframed the discussion from technical compatibility to strategic agency.
+- **Pattern**: When you are new to a conversation between senior people who have context you don't have, the most strategic move is often to ask the scope-defining question, not to take sides. A scope question ("is this forced on us?") tells the room what actually matters — and makes you look like you're thinking about the right thing.
+- **How to execute**: Frame it as "I'm new to this and you know better, but..." — this is not weakness, it is permission to ask the naive question without losing credibility. Then ask the question that forces the room to clarify what's actually at stake.
+- **Anti-pattern**: Staying silent because you don't have context. Silence in a senior room reads as no value added. A good clarifying question reads as strategic thinking.
+
 ### Get Leadership's Name Alongside Yours
 - **Date identified**: 2026-03-26
 - **Source**: Hero Surfaces one-pager. Third ask to Bertrand: "Permission to bring this to Loni's next working session as a position, with your name on it alongside mine."

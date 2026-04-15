@@ -199,7 +199,9 @@ Fu Chi is a female AEP team member who built the personalized prompt recommendat
 - 🔴 **Loni's unanswered question (April 13):** "Do we have a view of what percentage of the top requests and stuff are making it into the agent?" Bertrand said no. Pedro's JIRA pipeline + priority consolidation view answers this. Goal: package it so Bertrand can take it back to Loni. This is the visibility move.
 - 🟠 **Priority consolidation view** — Bertrand ask. Top 5-10 gaps with closure status. Now directly serves Loni's question — this is P1.
 - 🟠 **JIRA pipeline** — tested with Governance agent, works. Package as skill for other PMs once validation done. Core mechanism for answering Loni's question.
-- 🟠 **Validation sequence** — Jim (data accuracy + features) done. Corey not answering — pivoted to Apoorva. Outreach sent April 14: shared live report URL, framed as serving her reporting needs, call to be set this week. Sequence for call: (1) does the report give her what she needs, (2) data validation, (3) JIRA. Must complete before taking answer to Bertrand.
+- 🟡 **Validation sequence** — Jim done. Apoorva confirmed call Thursday April 17. Sequence for call: (1) does the report give her what she needs, (2) data validation, (3) JIRA. Pedro updating reports with key indicators April 14-15 with Felix before the call. Must complete before taking answer to Bertrand.
+- 🟡 **Greg Klebus** — mentioned needing an agent report (April 14). Not received yet. TBD if directed at Pedro. Watch — could be natural entry point for expanding pipeline to Content Optimization Agent.
+- 🟡 **Ilya Grafutko 1:1 (April 14):** Goal was to understand what Ilya is working on (QI program, AEP side). Compliance came up as a side note. Full notes coming April 15.
 
 ### SECOND PRIORITY — EH as MAU Driver
 - 🔴 **EH = key MAU driver (Bertrand, April 13 Loni meeting):** Bertrand said "I would like to think that what we did with Experience Hub has been a key driver in expanding the number of monthly active users for AEM." >60% customer base. This is Pedro's product. Surface this claim explicitly — own it, back it with data, make it a narrative Pedro controls not just a line Bertrand said once.
@@ -241,7 +243,74 @@ Validation role: Jim = data accuracy and feature behavior. Corey = PM owner sign
 
 Cloud Service + EDS customers = eligible (minus HIPAA / AI gen waiver exclusions). Managed Services = playgrounds only, not hooked up. Scope reports and validation accordingly.
 
-## Logistics (updated April 13, 2026)
+## Loni + Jean-Michel Meeting (~April 28, 2026)
+
+Present: state of agents + Project 42 status. High-visibility moment — first time Pedro presents directly to Loni on this work.
+
+**Framing decided (April 14):** Show the report as-is. Be transparent — not compliant, to be handed off to DaaS team once formalized. Don't hide the compliance gap. This is the honest position and the right one for a VP audience. Priority consolidation view also to be ready.
+
+**Timing update (April 14 AO 2.0 meeting):** The Loni + Jean-Michel meeting is now sequenced after a 2-hour internal strategy session on AO 2.0, planned for Wednesday afternoon the week after Summit (likely April 29). Loni + Jean-Michel follows the week after that (week of May 4). Pedro's ~April 28 date was an earlier estimate.
+
+---
+
+## AO 2.0 Strategy Meeting — April 14, 2026
+
+Attendees: Bertrand, Conrad, Jaclyn, Yanira, Pedro (+ Speaker 1, likely Yanira's colleague).
+
+### MAJOR: Pedro named PM of record for AEM–AO connection
+
+When Jaclyn asked "who's responsible for AO, the connection with AO?", Bertrand answered: **"It's Pedro."** Sergei is PM on the AO side. Scope expansion beyond EH — Pedro is now the AEM-side PM liaison to AO. Explicit, public, in front of Conrad, Jaclyn, Yanira. Significant visibility signal.
+
+### AO 2.0 — What it actually is (per Conrad)
+
+Not backward-compatible in the way Bertrand initially described. It is a fundamentally different product.
+- AO 1: central orchestration, central code base, central team trying to incorporate all changes.
+- AO 2.0: a harness. Different surfaces. Different build model. Small subsets, can run in Adobe environment or customer cloud. Teams contribute skills and take responsibility for making them work.
+- Usage pattern changes. Central orchestration assumption goes away.
+- V1 stays operational in parallel — no forced migration, no time bound.
+
+Bertrand's initial read ("we can plug our agents, it's compatible") is partially right on technical level but misses the strategic shift Conrad is flagging.
+
+### Conrad's view on AO 1 adoption
+
+"Widely not flying based on usage data. Nobody's using really heavily except maybe EPA. And EPA has JIRA surface and not even orchestrator — or it does not need orchestrator or assistant in core." Strong internal claim that AO 1 hasn't landed with customers. Important context for how aggressive AEM should be about reshaping strategy around AO 2.0.
+
+### Loni's position (via Jaclyn, from KR review)
+
+"We cannot just be at the mercy of somebody else. We need to have our own strategy of what we want to do." AEM must own its agent strategy, not follow AEP by default. This will be the frame for the Loni + Jean-Michel meeting.
+
+### Decisions made
+
+1. No update to Loni/Jean-Michel in the meantime. Communication line: "We are revisiting the impact of AO 2.0 and the opportunities it opens, after Summit."
+2. Architects have the task to readout the impact of AO 2.0 on their agents. Call out 2 weeks ago, reinforced yesterday. Readout after Summit.
+3. 2-hour strategy block Wednesday afternoon, week after Summit (likely April 29). Pedro + Conrad draft agenda; Bertrand + Conrad review by end of this week.
+4. Then Loni + Jean-Michel meeting week after (week of May 4).
+
+### Jaclyn's SLA ask (triggered by recent AO CSO)
+
+The CSO response from AO was too slow. Pedro to clarify: do we have defined SLAs between AEM and AO as an internal vendor? What are they? This becomes Pedro's second scope item as AO liaison, alongside AO 2.0 strategy.
+
+### Post-Summit AO call — attendees
+
+Conrad: "I try to keep it small so we can actually think. We don't need more opinions, we need contributions to the goal."
+- Yes: Pedro, Conrad, Bertrand, Ian Boston (check capacity — on SAM Rush), Trent Davis (engineering, preferred over Ken Russell), Sergei (AO PM).
+- Excluded: Raul ("not sure we need Raul"), Apoorva (no), Shankari (Bertrand: "that's not the guidance she's getting from me or Loni").
+
+### Pedro's actions (this week)
+
+- Align with Sergei Generalov on AO 2.0 — understand functionally and technically what it means for AEM.
+- Draft post-Summit agenda with Conrad. Review with Bertrand + Conrad by end of week.
+- Schedule calendar invites once aligned on attendees.
+- Pull together AEM–AO SLA picture.
+
+### New contacts
+
+- **Trent Davis** — engineering, AO side. Conrad's preferred technical contact for AO 2.0 conversations.
+- **Ken Russell** ("the Scottish guy") — engineering, AO side. Bertrand's suggestion; Conrad prefers Trent Davis.
+
+---
+
+## Logistics (updated April 14, 2026)
 - April 8: Cloud Foundation sync — NOT Loni's call (Loni's is PM leads only)
 - Check-in with Bertrand: next week — Bertrand away the week after
 - Org reporting: still under Shankari on paper for 6 months, but check-ins go directly to Bertrand
