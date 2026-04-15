@@ -258,6 +258,14 @@
 - **What the gate covers**: Design standards, conversion metric, time-to-live (TTL) commitment, test evidence.
 - **When it fails**: When the platform PM says yes to everything to avoid friction. The surface becomes noise, users stop trusting it, and the original problem (too many asks, too few engineers) is worse than before.
 
+### Dashboard as Platform, Not Bulletin Board
+- **Date identified**: 2026-04-15
+- **Source**: Mike Tilburg (Modernization Agent PM) asked Pedro to merge his more complete report into the agent dashboard. Mike's report doesn't go through AO; uses different data pipeline. Motivation: personal visibility.
+- **Pattern**: The moment your dashboard starts being seen as valuable, other PMs will ask to be included for visibility. If you say yes without conditions, you turn a platform into a bulletin board — a collection of whatever people want to post, with mismatched methodologies, inconsistent data sources, and no shared standard. Executives who look at the dashboard assume internal consistency; inconsistency confuses them and destroys trust in the artifact.
+- **Three reasons to refuse an ad hoc merge**: (1) Architecture: different pipelines in the same surface without clear labeling mislead readers who assume comparability. (2) Identity: the dashboard is defined by what it is AND by what it isn't — letting any agent in dilutes the "what it is." (3) Governance hypocrisy: if you're asking other teams to meet shared standards (contribution model), you can't apply looser rules to your own platform.
+- **Right response (the platform move)**: Do not refuse the person — refuse the ad hoc merge. Offer two paths: (1) indexed link from the dashboard, with a methodology note, for immediate visibility; (2) full integration later, conditional on meeting shared metrics and data source standards. This preserves architectural integrity, gives the requester visibility, sets precedent for future asks, and positions the PM as the platform's gatekeeper rather than its concierge.
+- **Why it matters for Senior Director path**: Directors run service desks. Senior Directors run platforms with rules. The first time someone asks you to bend the rules for their visibility is the test — saying no (with a clean alternative) is the act that makes the platform a platform.
+
 ### TTL + Priority + Role-Linking — The Shared Surface Card System
 - **Date identified**: 2026-03-31
 - **Observations**: (1) EH announcement widget managed manually — teams asked EH engineers to create/update cards. (2) Experience Hub voice note (Pedro, March 30): proposed automated card creation with TTL, priority ranking, and role-linked display. (3) Shankari's 4-week rule enforced manually — TTL automates the enforcement.
