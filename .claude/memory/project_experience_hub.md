@@ -310,6 +310,33 @@ Conrad: "I try to keep it small so we can actually think. We don't need more opi
 
 ---
 
+## Rubin — CXO-wide AI Assistant Usage Dashboard (April 15, 2026)
+
+Angela Han owns Rubin. Silvia Mulet Ferre reached out asking Pedro to help tag AEM users. URL: https://rubin.adobe.io/dashboard/login
+
+**Definition gap:** Rubin tags AEM user = session started in Experience Hub. Felix tags AEM user = any user interacting with an AEM-owned agent, regardless of entry point. Silvia confirmed Felix pulls from AEP Co-Pilot Report. Rubin's source still unconfirmed.
+
+**Canonical AEM-owned agent list (shared with Angela/Silvia April 15):**
+- experience_governance_agent
+- governance_agent
+- aem_experience_development_agent
+- aem_experience_production_agent
+- discovery_agent
+- content_optimization_agent
+- experimentation_agent
+
+**Pedro's move (April 15):** Replied asking if Rubin also pulls from Co-Pilot Report, shared the agent list, proposed 30 min sync to align definition and understand what Rubin is meant to surface about AEM. Risk framing: "two different AEM user counts landing in leadership views." Soft scope question tucked into sync purpose ("understand what Rubin is ultimately meant to tell us about AEM — helps make sure tagging and breakdowns fit what you're trying to show").
+
+**Parallel FYI to Bertrand (April 15):** Slack using AO liaison scope frame — Rubin is cross-Cloud tooling touching AEM data. "Reporting back after."
+
+**Strategic intent:** Pedro owns G1 (Agent Intelligence) and AO liaison role. Rubin is exec-visible infrastructure where AEM's definition could be set by AEP if Pedro doesn't claim it. Definition ownership is the moat on shared-data infrastructure — both likely consume AEP data, so the only independent AEM identity is in how AEM gets defined and filtered. This sync is the move to make the definition AEM-owned.
+
+**New contacts:**
+- Angela Han — Rubin owner (AEP side)
+- Silvia Mulet Ferre — AEP, coordinator on Rubin
+
+---
+
 ## Logistics (updated April 14, 2026)
 - April 8: Cloud Foundation sync — NOT Loni's call (Loni's is PM leads only)
 - Check-in with Bertrand: next week — Bertrand away the week after

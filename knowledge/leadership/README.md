@@ -95,6 +95,15 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **Pattern**: When you're taking something to a skip-level, your manager's name on the document is not just courtesy — it's structural legitimacy. It signals alignment, not just advocacy. And it gives your manager a stake in the outcome, which makes them more likely to support it actively rather than passively.
 - **Nuance**: Only ask for this when you genuinely have alignment. If Bertrand hasn't validated the content, don't claim his name. That backfires fast.
 
+### Definition Ownership Is the Moat on Shared Data Infrastructure
+- **Date identified**: 2026-04-15
+- **Source**: Rubin tool outreach — Silvia Mulet Ferre + Angela Han (AEP team) asking Pedro to help tag AEM users in a CXO-wide AI Assistant usage dashboard. Pedro's initial reaction was to fear data "theft" because other teams were building similar dashboards.
+- **Pattern**: When your team and an adjacent org both consume the same upstream data source (in this case AEP Co-Pilot Report), there is nothing in the data layer to protect — they already have access. The only place your product exists as a distinct entity in shared tooling is in the **definition layer**: who counts as a product user, which entities belong to your product, how the data is filtered and aggregated. If you don't own the definition, another team defines your product for you, and their definition becomes canonical in exec-visible tools. That is the real risk, not theft.
+- **Why the fear misreads the situation**: Gatekeeping shared-source data is both impossible and self-defeating. Impossible because they can rebuild from the same source. Self-defeating because hiding makes you invisible in the CXO tool where VPs actually look, while someone else's narrower definition gets coded in. The inversion: the scarier outcome is being absent from the canonical definition, not being copied.
+- **The Senior Director move**: Lean in, not out. Offer the canonical entity list (for Pedro: the 7 AEM-owned agent identifiers). Frame the sync around exec-risk prevention ("two different AEM user counts landing in leadership views"), not territorial control. Ask soft scope questions ("what is Rubin ultimately meant to tell us about AEM") that position you as a thoughtful contributor while giving you roadmap visibility. Publish a definition artifact afterward, dated and authored, linked from both your dashboard and theirs.
+- **Loni's frame applies directly**: *"We cannot just be at the mercy of somebody else. We need to have our own strategy."* On shared data, strategy = the definition. It's the only place your product asserts independent identity.
+- **Anti-pattern**: Responding to tagging requests with gatekeeping language ("before we lock..."), hoarding the entity list, or skipping the sync. Each of these cedes the definition layer to the asking team.
+
 ---
 
 ## Strategic Narrative

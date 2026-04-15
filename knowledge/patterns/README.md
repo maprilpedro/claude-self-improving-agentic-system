@@ -38,6 +38,21 @@
 - **Why it works**: It reframes the gap from "he didn't have it" to "he has standards." The person waiting gets a timeline and a signal that you're being rigorous, not sloppy.
 - **What to avoid**: Over-explaining why you don't have it, apologizing more than once, or adding "I thought I had it but..." — all of these draw more attention to the miss than the reframe does.
 - **Variation**: If you have partial data, lead with that. "I have X and Y confirmed, still validating Z" is stronger than asking for time with nothing in hand.
+
+### Self-Gate, Don't Gate Their Work
+- **Date identified**: 2026-04-15
+- **Source**: Drafting Rubin reply to Silvia/Angela. Initial phrasing "Before we lock the AEM user tagging..." read as gatekeeping a brake on their work. Pedro flagged it.
+- **Pattern**: When you need alignment before an adjacent team codes something that affects your product, the framing has to put the gate on you, not on them. "Before we lock X" = you are blocking their work. "Before I send suggestions, I'd find it useful to understand Y" = you are self-gating your own contribution to serve them better. Same outcome, opposite tone.
+- **Why it matters**: Cross-org asks are relationship-sensitive. If your first response reads as a brake, the next request goes to someone else or gets coded without you. Self-gating signals humility and diligence while still securing the alignment moment.
+- **How to apply**: Audit any cross-org reply for phrases like "before we lock," "before we proceed," "we need to align first." Replace with "before I send suggestions," "so my input fits what you're building," "happy to dig in, one thing I'd find useful first." The tone flips from controlling to contributing.
+- **Related**: Soft sell (Art of Seduction), Distribution vs Validation for Tool Rollout (leadership/).
+
+### Save Scoping Questions for the Live Call, Not the Written Reply
+- **Date identified**: 2026-04-15
+- **Source**: Rubin reply drafting. First version included four scoping questions in the email (scope, audience, source, roadmap). Pedro pulled back.
+- **Pattern**: Written scoping questions let the other side answer in writing and skip the meeting. You lose the live conversation where real information flows. In writing, stake claims and flag risks — but hold the deep questions for the call. Strip the reply to the minimum needed to justify the walkthrough.
+- **Why it works**: In writing, they craft polished answers that close the loop. On a call, questions breathe — answers branch, context emerges, you see the tool, you read body language. The scoping questions stay in your head as the call agenda, not as email content.
+- **How to apply**: Draft the reply with full scoping questions first to clarify your own thinking. Then delete everything that can be asked on the call. Keep only: the answer to their direct question, one or two flags that justify a sync, the call ask. Bring the deleted questions into the meeting as your agenda.
 - **Connected to**: Managing up, validate-then-scale response pattern.
 
 ### "We" vs Named Person in Stakeholder Communications
