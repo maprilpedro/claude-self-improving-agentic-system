@@ -310,13 +310,13 @@ Conrad: "I try to keep it small so we can actually think. We don't need more opi
 
 ---
 
-## Rubin — CXO-wide AI Assistant Usage Dashboard (April 15, 2026)
+## Rubin — CXO-wide AI Assistant Usage Dashboard (April 15-16, 2026)
 
-Angela Han owns Rubin. Silvia Mulet Ferre reached out asking Pedro to help tag AEM users. URL: https://rubin.adobe.io/dashboard/login
+Angela Han owns Rubin. Silvia Mulet Ferre (AEP coordinator) reached out asking Pedro to help tag AEM users. URL: https://rubin.adobe.io/dashboard/login
 
-**Definition gap:** Rubin tags AEM user = session started in Experience Hub. Felix tags AEM user = any user interacting with an AEM-owned agent, regardless of entry point. Silvia confirmed Felix pulls from AEP Co-Pilot Report. Rubin's source still unconfirmed.
+**Rubin's actual source (confirmed April 16 by Karthik Penikalapati):** AEP AO chats DB. Not AEP Co-Pilot Report. Different pipeline from Felix but same AEP infrastructure neighborhood. Karthik: "we are ingesting all the AI prompt / response events, so regardless of their origin, if they touch AEP AO -> we should have it in Rubin." This directly contradicts Silvia's earlier "EH entry only" framing — Rubin is not designed as EH-scoped, it's platform-wide.
 
-**Canonical AEM-owned agent list (shared with Angela/Silvia April 15):**
+**Canonical AEM-owned agent list (shared April 15, confirmed by Karthik April 16):**
 - experience_governance_agent
 - governance_agent
 - aem_experience_development_agent
@@ -325,15 +325,28 @@ Angela Han owns Rubin. Silvia Mulet Ferre reached out asking Pedro to help tag A
 - content_optimization_agent
 - experimentation_agent
 
-**Pedro's move (April 15):** Replied asking if Rubin also pulls from Co-Pilot Report, shared the agent list, proposed 30 min sync to align definition and understand what Rubin is meant to surface about AEM. Risk framing: "two different AEM user counts landing in leadership views." Soft scope question tucked into sync purpose ("understand what Rubin is ultimately meant to tell us about AEM — helps make sure tagging and breakdowns fit what you're trying to show").
+Karthik: "yes, we have these agents you gave above." Definition layer landed in one exchange.
 
-**Parallel FYI to Bertrand (April 15):** Slack using AO liaison scope frame — Rubin is cross-Cloud tooling touching AEM data. "Reporting back after."
+**The inversion — Rubin needs something AEM has:** Karthik flagged that the AEP provisioning API doesn't return org status (COMMERCIAL, NFR, etc.) for AEM-only orgs. Rubin can't cleanly count commercial AEM users. Angela confirmed Felix has a local Prod orgs list. Karthik explicitly wants "a scalable way... it would be great, if this can flow into AEP provisioning." Felix's artifact = cross-org leverage.
 
-**Strategic intent:** Pedro owns G1 (Agent Intelligence) and AO liaison role. Rubin is exec-visible infrastructure where AEM's definition could be set by AEP if Pedro doesn't claim it. Definition ownership is the moat on shared-data infrastructure — both likely consume AEP data, so the only independent AEM identity is in how AEM gets defined and filtered. This sync is the move to make the definition AEM-owned.
+**Angela's ask before the sync (April 16):** "Check out the Digest tab in Rubin and create a report on the My Digest tab. Would love to get your feedback on if you're able to configure the data sufficiently or need more AEM specific tweaks." That's an invitation to co-shape Rubin's AEM view. Pedro to configure and evaluate before the sync.
 
-**New contacts:**
+**Pedro's move (April 15):** Replied asking if Rubin pulls from Co-Pilot Report (source question), shared the agent list, proposed 30 min sync framed around "two different AEM user counts landing in leadership views." Soft scope question tucked in: "understand what Rubin is ultimately meant to tell us about AEM — helps make sure tagging and breakdowns fit what you're trying to show."
+
+**Parallel FYI to Bertrand (April 15):** Slack using AO liaison scope frame. "Reporting back after."
+
+**Strategic intent:** Pedro owns G1 (Agent Intelligence) and AO liaison role. Definition ownership is the moat on shared-data infrastructure — the 7-agent list is now locked in both tools. Next move is the Prod org list contribution, positioning AEM as the team that closes an AEP provisioning gap. That's Senior Director-level cross-org contribution, not extraction defense.
+
+**Next steps:**
+- Felix sync April 16 AM: brief on Rubin thread, plan Prod org list contribution
+- Configure Digest + My Digest tab in Rubin before the sync (Angela's ask)
+- Book 30 min sync with Angela, Silvia, Karthik (bring Felix)
+- Follow-up Slack to Bertrand post-sync: definition alignment landed + AEM contributing provisioning fix
+
+**Contacts:**
 - Angela Han — Rubin owner (AEP side)
 - Silvia Mulet Ferre — AEP, coordinator on Rubin
+- Karthik Penikalapati — Rubin technical lead, ingests from AEP AO chats DB, owns the provisioning gap
 
 ---
 
