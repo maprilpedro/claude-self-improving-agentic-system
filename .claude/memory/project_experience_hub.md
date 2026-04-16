@@ -197,11 +197,28 @@ Fu Chi is a female AEP team member who built the personalized prompt recommendat
 
 ### TOP PRIORITY — Answer Loni's Question
 - 🔴 **Loni's unanswered question (April 13):** "Do we have a view of what percentage of the top requests and stuff are making it into the agent?" Bertrand said no. Pedro's JIRA pipeline + priority consolidation view answers this. Goal: package it so Bertrand can take it back to Loni. This is the visibility move.
-- 🟠 **Priority consolidation view** — Bertrand ask. Top 5-10 gaps with closure status. Now directly serves Loni's question — this is P1.
-- 🟠 **JIRA pipeline** — tested with Governance agent, works. Package as skill for other PMs once validation done. Core mechanism for answering Loni's question.
-- 🟡 **Validation sequence** — Jim done. Apoorva confirmed call Thursday April 17. Sequence for call: (1) does the report give her what she needs, (2) data validation, (3) JIRA. Pedro updating reports with key indicators April 14-15 with Felix before the call. Must complete before taking answer to Bertrand.
-- 🟡 **Greg Klebus** — mentioned needing an agent report (April 14). Not received yet. TBD if directed at Pedro. Watch — could be natural entry point for expanding pipeline to Content Optimization Agent.
-- 🟡 **Ilya Grafutko 1:1 (April 14):** Goal was to understand what Ilya is working on (QI program, AEP side). Compliance came up as a side note. Full notes coming April 15.
+- 🔴 **Apoorva review outcome (April 16) — NOT validated yet. Punch list found.** Meeting with Apoorva + Ankur Arora (senior filter) + Varun Kalra (technical validator on her team) revealed blocking issues. Validation NOT secured. Must close the punch list before taking answer to Bertrand/Loni. Notes: `Adobe Projects 2026 Meeting Notes/Agent Owner Alignement/20260416 - Review Agent Report.md`.
+- 🔴 **Apoorva fix list — BLOCKING:**
+  1. **50-60% data gap vs Grafana.** Varun CSV: ~800-900 interactions for a week where report shows 1400-1500. Source is same (AEP Co-Pilot). Issue in tagging logic, window, or filtering. Investigate with Felix.
+  2. **TSR counts "no result found" as success.** Apoorva: "this is then not a great metric to reflect." Redefine or split. For Discovery Agent, result-found rate is the right signal.
+  3. **Tag classification bleeding across agents.** Discovery page showing pipeline troubleshooting (EDA), content update, brand validation (Governance). Per-agent tag filtering broken. Needs Lara + Felix on taxonomy.
+- 🔴 **Apoorva fix list — HIGH PRIORITY:**
+  4. **First Useful Result Rate missing.** This is the value realization metric Apoorva explicitly named for Discovery Agent (column N in her Excel). "We don't want users to do multi-turn prompts to be able to get to the right asset." GIFT from the meeting — maps directly to Loni's adoption framing.
+  5. **Content-type breakdown for Discovery Agent:** assets / pages / content fragments / forms. Each has different team ownership. Without split, gaps can't be routed.
+  6. **Aggregated metrics transparency.** Pedro admitted "aggregating things that don't make sense." Split or remove. Flag which are North Star vs operational/mature.
+- 🟡 **Apoorva fix list — MEDIUM (track, don't commit):**
+  7. **Promo SKU + Try Before You Buy credit utilization view.** Apoorva asked; not today's scope.
+  8. **Calculation logic documentation per metric.** Apoorva asked how VR, SR, Adoption Blockers compute. Answers were thin.
+- 🟠 **Next actions from Apoorva meeting (by end of week):**
+  - ✅ Share repo + Python scripts with Ankur and Varun (done April 16)
+  - ✅ Slack Lara + Felix into a dedicated channel with Ankur/Varun's team for taxonomy + data validation (done April 16)
+  - 🔴 Kick off data discrepancy investigation with Felix (50-60% gap root cause first) — NEXT
+  - 🟠 Schedule next Connect with Ankur's team next week (they asked)
+- 🟠 **Priority consolidation view** — Bertrand ask. Top 5-10 gaps with closure status. Serves Loni's question.
+- 🟠 **JIRA pipeline** — tested with Governance agent, works. Package as skill for other PMs once validation done.
+- 🔴 **Calibrate Loni path expectation.** Apoorva's team has NOT signed off. Do not walk into Bertrand with "Apoorva validated." Walk in with "Apoorva's team stress-tested, found gaps, we're closing them. First Useful Result Rate incorporated. Report credible for Loni path after fixes."
+- 🟡 **Greg Klebus** — mentioned needing an agent report (April 14). Watch — could be natural entry point for expanding pipeline to Content Optimization Agent.
+- 🟡 **Ilya Grafutko 1:1 (April 14):** Compliance came up as a side note. Full notes pending.
 
 ### SECOND PRIORITY — EH as MAU Driver
 - 🔴 **EH = key MAU driver (Bertrand, April 13 Loni meeting):** Bertrand said "I would like to think that what we did with Experience Hub has been a key driver in expanding the number of monthly active users for AEM." >60% customer base. This is Pedro's product. Surface this claim explicitly — own it, back it with data, make it a narrative Pedro controls not just a line Bertrand said once.
