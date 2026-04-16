@@ -243,7 +243,13 @@ Validation role: Jim = data accuracy and feature behavior. Corey = PM owner sign
 
 Cloud Service + EDS customers = eligible (minus HIPAA / AI gen waiver exclusions). Managed Services = playgrounds only, not hooked up. Scope reports and validation accordingly.
 
-## Loni + Jean-Michel Meeting (~April 28, 2026)
+## Loni + Jean-Michel Meeting (week of May 4, 2026)
+
+**Jean-Michel = Jean-Michel Pittet, VP of Engineering AEM (Basel)** — confirmed April 16, 2026. He is the engineering-side VP peer to Loni (VP AEM & Commerce PM). The meeting is the top AEM leadership pair — Pedro's highest-visibility moment to date, not a generic "Loni meeting."
+
+Jean-Michel's chain is separate from Loni's: Shantanu → Anil Chakravarthy → Sridhar Gantimahapatruni → Jean-Michel. Loni's chain: Shantanu → Anil Chakravarthy → Amit Ahuja → Loni.
+
+Jean-Michel's team includes the full AEM Engineering leadership: Alexander Saar (VP Eng AEM Remote Germany, Ian Boston + Jaclyn Eckersley + Carsten Ziegeler under him), Michael Marth (VP AEM Engineering Basel, Gilles Knobloch + Felix + Mihai Corlan under him), Conrad Woltge (Sr Principal Architect direct report), Gitesh Malik, Mitch Nelson, Philipp Koch.
 
 Present: state of agents + Project 42 status. High-visibility moment — first time Pedro presents directly to Loni on this work.
 
@@ -344,17 +350,19 @@ Karthik: "yes, we have these agents you gave above." Definition layer landed in 
 - Follow-up Slack to Bertrand post-sync: definition alignment landed + AEM contributing provisioning fix
 
 **Contacts:**
-- Angela Han — Rubin owner (AEP side)
-- Silvia Mulet Ferre — AEP, coordinator on Rubin
-- Karthik Penikalapati — Rubin technical lead, ingests from AEP AO chats DB, owns the provisioning gap
+- Angela Han — Rubin owner. Senior Data Scientist Manager, Customer Engineering (San Jose). Reports to Richard Maraschi → Shivakumar Vaithyanathan (VP Platform Engineering). NOT in an AEP PM chain — she's Data Science / Engineering. This is why her tone is collaborative.
+- Karthik Penikalapati — Rubin technical lead, Software Development Engineer, SJ. Reports to Angela Han. Ingests from AEP AO chats DB. Flagged provisioning API gap.
+- Silvia Mulet Ferre — **Sr Product Design Manager, Adobe Design (Austin). NOT AEP.** Chain up: Guliz Sicotte → Archana Thiagarajan → Eric Snowden (SVP Adobe Design) → David Wadhwani. **She is Eugene Bannykh's manager.** Her reach into Rubin comes from her team having designers working across products.
+- Uma Subbu — Sr Product Designer, Adobe Design (Chicago). Reports to Silvia Mulet Ferre (same team as Eugene). Emailed Pedro and Felix April 16: she and Silvia have been investigating AEM AI Assistant and Agent usage data using Felix's AEM Agent Report AND Rubin. They have UX hypotheses + UX Suggestions to present at the sync. This reframes the sync as also a UX research review, not just data alignment.
 
 ---
 
-## Logistics (updated April 14, 2026)
+## Logistics (updated April 16, 2026)
 - April 8: Cloud Foundation sync — NOT Loni's call (Loni's is PM leads only)
 - Check-in with Bertrand: next week — Bertrand away the week after
-- Org reporting: still under Shankari on paper for 6 months, but check-ins go directly to Bertrand
-- Ilya Grafutko call: booked for next Tuesday (week of April 14)
+- **Reporting chain clarified April 16** (from org browsing screenshots): Pedro → Shankari Panchapakesan (Group PM, SJ) → Bertrand (Sr Director PM, Basel) → Loni Stark (VP AEM & Commerce, SJ) → Amit Ahuja → Anil Chakravarthy → Shantanu Narayen. Arrangement is **temporary** — Shankari is moving to report directly under Loni on a 6-month trial. Pedro's check-ins already go directly to Bertrand.
+- Loni's actual title: **VP, AEM & Commerce** (not just AEM). Her team spans PM + Product Marketing.
+- Ilya Grafutko call: held April 14 (week of April 14)
 
 ## H2 Planning — Agents (April 9, 2026)
 
