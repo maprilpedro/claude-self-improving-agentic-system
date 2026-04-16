@@ -53,6 +53,38 @@
 - **Pattern**: Written scoping questions let the other side answer in writing and skip the meeting. You lose the live conversation where real information flows. In writing, stake claims and flag risks — but hold the deep questions for the call. Strip the reply to the minimum needed to justify the walkthrough.
 - **Why it works**: In writing, they craft polished answers that close the loop. On a call, questions breathe — answers branch, context emerges, you see the tool, you read body language. The scoping questions stay in your head as the call agenda, not as email content.
 - **How to apply**: Draft the reply with full scoping questions first to clarify your own thinking. Then delete everything that can be asked on the call. Keep only: the answer to their direct question, one or two flags that justify a sync, the call ask. Bring the deleted questions into the meeting as your agenda.
+
+### Peer Review Is Audit, Not Validation — Plan Accordingly
+- **Date identified**: 2026-04-16
+- **Source**: Apoorva Gupta agent report review (April 16, 2026). Pedro expected validation; got a punch list instead (50-60% data gap vs Grafana, TSR counting "no result found" as success, tag classification bleeding across agents, missing First Useful Result Rate, no content-type breakdown).
+- **Pattern**: When you bring an artifact to a peer PM with a data team (Ankur, Varun), the meeting will almost always be an audit, not a rubber stamp. Their delegates will stress-test numbers, question metric definitions, and find gaps. That's the norm, not the exception. Calling it "validation" before the review sets you up to misreport the outcome to your manager.
+- **Anti-pattern**: Walking out of a peer review telling your manager "I got it validated" when in reality you got it audited and now have a punch list. That framing sets a false expectation and damages credibility when the gaps surface.
+- **How to apply**: Before any peer review with a data-capable team, plan for audit outcomes:
+  1. Name internally (and to yourself) that this is an audit, not a rubber stamp. You are inviting stress-testing.
+  2. Calibrate what a successful outcome looks like — specific gap findings, concrete metric improvements, clear next steps. Not a yes/no.
+  3. Report the outcome to your manager in audit language: "X's team stress-tested, found gaps, we're closing them." Not "X validated."
+  4. The peer who did not push back and said "looks good" either did not engage seriously or has a lower quality bar than your eventual audience. Prefer engaged audit over polite rubber stamp.
+- **Senior Director framing**: Director says "I got feedback." Senior Director says "Their team stress-tested the report end to end, found specific gaps, and handed us the exact metric our target audience actually wants." Same meeting, two different framings. Use the second when reporting upward.
+
+### The Program Manager Drafting Inversion
+- **Date identified**: 2026-04-16
+- **Source**: Yanira Castaneda (PgM) offered to draft an exec summary deck for Loni + Jean-Michel with Pedro as the sender. Would have put her framing under Pedro's name.
+- **Pattern**: Program Managers often offer to draft content that ends up being sent under the PM's name. The offer is genuinely helpful program management, but it inverts authorship — the drafter owns the framing, and the PM becomes a messenger. McIntyre's "visible results" rule: whoever produces the artifact owns it, regardless of whose name signs it.
+- **Why it matters for visibility**: Exec-facing artifacts are a primary visibility mechanism. Letting the PgM draft them means your name carries framing that isn't yours, and your voice never reaches the executive audience that matters. At promotion time, you have few artifacts with authorial ownership.
+- **How to apply**: Flip the flow when you see it:
+  1. PgM provides raw content and coordination (agent statuses, cross-team updates, data aggregation). This is their strength and scope.
+  2. PM drafts the narrative. Voice, framing, strategic connective tissue stay with you.
+  3. PgM reviews the draft for factual accuracy before send.
+- **Reframe language that works**: "Happy for you to pull the content and coordination — that's your strength. I'd rather draft the narrative myself so it lands in my voice. Can you send me the raw material instead of a deck?" This respects their scope, redistributes the labor correctly, and preserves authorship.
+- **Related**: McIntyre "visible results"; Law 7 (get others to do the work ethically — they provide content, you provide synthesis; credit both).
+
+### Threat Framing Detection in Collaboration Emails
+- **Date identified**: 2026-04-16
+- **Source**: Pedro caught this in an email draft to Sergey about AEM-AO SLAs. The line "I would rather bring one aligned view to our leadership than two separate reads" read as leverage, not collaboration.
+- **Pattern**: Any phrase that implies "otherwise this goes wrong for both of us" is leverage framing, even when dressed as collaboration. Examples: "one aligned view vs two separate reads," "before this lands on leadership's desk," "to avoid surprising our VPs." These create implicit pressure and read as mild threats to peer recipients.
+- **Anti-pattern**: Using collaboration-flavored language to apply pressure. The recipient feels the pressure even if they don't articulate why, and the working relationship takes a small hit on every such email.
+- **How to apply**: Before sending any peer collaboration email, scan for phrases that imply mutual consequences for non-alignment. Replace with direct questions or factual observations. "What exists today on your side?" is stronger than "I'd rather we align before this surfaces to leadership." Questions invite engagement; implied consequences invite defense.
+- **Quick test**: If the sentence could be read as "help me avoid an outcome" rather than "help me understand," it's leverage framing. Rewrite as a question or observation.
 - **Connected to**: Managing up, validate-then-scale response pattern.
 
 ### "We" vs Named Person in Stakeholder Communications
