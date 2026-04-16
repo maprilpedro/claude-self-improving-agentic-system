@@ -339,7 +339,9 @@ Angela Han owns Rubin. Silvia Mulet Ferre (AEP coordinator) reached out asking P
 
 **Rubin's actual source (confirmed April 16 by Karthik Penikalapati):** AEP AO chats DB. Not AEP Co-Pilot Report. Different pipeline from Felix but same AEP infrastructure neighborhood. Karthik: "we are ingesting all the AI prompt / response events, so regardless of their origin, if they touch AEP AO -> we should have it in Rubin." This directly contradicts Silvia's earlier "EH entry only" framing — Rubin is not designed as EH-scoped, it's platform-wide.
 
-**Canonical AEM-owned agent list (shared April 15, confirmed by Karthik April 16):**
+**Two lists, keep them distinct (scoping decision April 16, 2026):**
+
+**(A) Rubin tagging list — all AEM-owned agents in AO chats DB (7):**
 - experience_governance_agent
 - governance_agent
 - aem_experience_development_agent
@@ -348,7 +350,19 @@ Angela Han owns Rubin. Silvia Mulet Ferre (AEP coordinator) reached out asking P
 - content_optimization_agent
 - experimentation_agent
 
-Karthik: "yes, we have these agents you gave above." Definition layer landed in one exchange.
+This is what was shared with Karthik on April 15 and confirmed April 16. Answers "which agents in AEP AO chats DB belong to AEM." Stays at 7 for completeness of AEM platform footprint.
+
+**(B) Pedro's agent intelligence reporting scope (6):**
+- experience_governance_agent
+- governance_agent
+- aem_experience_development_agent
+- aem_experience_production_agent
+- discovery_agent
+- content_optimization_agent
+
+**experimentation_agent is OUT of scope for Pedro's reporting.** Decision made April 16, 2026. Rationale: experimentation is not in the AEM agent intelligence narrative Pedro is building for Loni. Jim Stoklosa runs the Experimentation team, but the experimentation_agent doesn't fit the reporting work. Don't pull it into agent intelligence, don't include it in reports to Bertrand / Loni / JM, don't validate it with agent PMs.
+
+Karthik on April 16: "yes, we have these agents you gave above." Definition layer landed in one exchange — Rubin tagging remains on the 7. Pedro's internal reporting runs on the 6.
 
 **The inversion — Rubin needs something AEM has:** Karthik flagged that the AEP provisioning API doesn't return org status (COMMERCIAL, NFR, etc.) for AEM-only orgs. Rubin can't cleanly count commercial AEM users. Angela confirmed Felix has a local Prod orgs list. Karthik explicitly wants "a scalable way... it would be great, if this can flow into AEP provisioning." Felix's artifact = cross-org leverage.
 
