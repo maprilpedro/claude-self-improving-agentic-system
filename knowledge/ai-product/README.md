@@ -368,3 +368,40 @@
 - **Extension of**: "Auth-Walled Hosting Is Incompatible with Agent-Consumable Reports" (2026-03-31)
 - **New signal**: The auth-wall problem is not limited to agent consumption. It blocks human PM validation workflows too. When agent owners can't access the report to validate their data, the PM review cycle stalls. In this case, Sidekick is required to authenticate — a plugin most PMs don't have installed. Every agent owner Pedro tried to loop in for validation hit this wall.
 - **Application**: Report hosting requirements must be validated with the intended audience before distribution starts. "Can a script fetch this URL?" is the agent test. "Can any PM with a browser access this without a special plugin or account?" is the human test. Both must pass before a report goes broad.
+
+---
+
+## Personalization Architecture for AI Surfaces
+
+### Cascading Signal Model — User → Org → Global Fallback Solves Sparse Data
+- **Date identified**: 2026-04-20
+- **Source**: Fu-Chi Shih's AEM personalized prompt recommendation POC. April 20 joint sync with Pedro + Eugene.
+- **Insight**: Personalization systems for AI surfaces fail most often not on the algorithm but on the data. Most users don't have enough individual history to rank anything meaningful — especially new users, low-usage orgs, or users in roles that only touch the product occasionally. The fix is a three-level signal cascade: **user-level signals (primary) → org-level signals (fallback) → global signals (universal fallback)**. Never fail closed. Never return a cold blank.
+- **How it works**: For each recommendation target (a prompt, a widget, a skill), the system first checks the user's own history. If the user has enough signal, use it. If not, fall back to their org's behavior — how do other users in this company use the product? If the org is too new or sparse, fall back to global signals — how do all AEM customers behave? Every user gets a ranked list regardless of their history state.
+- **Why it matters for PM thinking**: This reframes "personalization requires profiles" — it doesn't. It requires structured fallback. Profiles become useful when the user-level signal is sparse AND the org-level signal is ambiguous: the profile is a deterministic tiebreaker. Profile is *augmentation* to this model, not a prerequisite for it.
+- **Application**: For any AI personalization roadmap, do not plan "collect enough signal to personalize by user." Plan "cascade from best-available signal to universal fallback." The system ships on day one with global-only signals and improves over time as user and org data densifies. This also makes it cheap to expand into new surfaces — the cascade works even when a surface has zero per-user data yet.
+- **Connected**: EH Priority 3 (Customer Profiling) is the deterministic augmentation layer on top of this cascade. The cascade handles "what to show when we know nothing." Profiling handles "what to show when we know role but not history."
+
+### Two-Column Prompt Design — Display Label + Execution Prompt
+- **Date identified**: 2026-04-20
+- **Source**: Eugene Bannykh, April 20 Fu-Chi sync. Prompt card UX problem.
+- **Insight**: Suggested prompts have a fundamental UX conflict: prompts that work well with an AI tend to be long and verbose (context, constraints, output format). Prompts that display well on a card need to be short (a title a human can scan). Most prompt libraries pick one side of this — either verbose-and-unreadable or short-and-underperforming. The fix is a two-column schema: **display label** (human-readable, short, scannable) + **execution prompt** (verbose, contextual, what actually goes to the model). User clicks the label, system sends the execution prompt.
+- **Generation path**: The execution prompt is the authored artifact. The display label can be LLM-generated as a summarization step — cheap, consistent, reproducible. No PM writes two versions; they author the execution prompt and the system summarizes.
+- **Why this matters**: Without it, every AI surface that shows suggested prompts either trains users to expect short prompts (bad results) or confronts them with a wall of text (low engagement). Two columns resolves the conflict structurally.
+- **Application**: Any prompt library schema should include display label as a first-class field alongside the execution prompt. Both stored, both retrievable. Retrofit is cheap if the library is centralized. Expensive if prompts are hardcoded across multiple surfaces — which is itself an anti-pattern (see Prompt Library as Contribution Surface below).
+
+### Prompt Library as Contribution Surface — Centralized Library, Distributed Ownership
+- **Date identified**: 2026-04-20
+- **Source**: Fu-Chi + Eugene sync. Eugene: "prompts should not be hardcoded in EH." Fu-Chi: today pulls from wiki, wants prompt library integration.
+- **Insight**: In an ecosystem with many AI agents and many surfaces, the prompt library should be treated as a shared contribution surface — one centralized library, distributed ownership (each agent team owns their own prompts, tests them, adds/removes them). Surfaces (EH, AI Assistant right rail, AEP recommendation engine) all consume the same library. PMs self-serve updates; the personalization layer picks them up automatically. No hardcoded prompts in any surface.
+- **Why this works**: (1) A single source of truth means an agent team's prompt improvement shows up everywhere immediately. (2) Surfaces don't fight over prompt authorship. (3) The personalization layer is decoupled from prompt authoring — it consumes whatever the library holds, ranks it against user signals. (4) New surfaces can spin up against the same library without requiring prompt duplication.
+- **Where it breaks**: If the prompt library owner (cross-product platform team) doesn't expose a clean read API, every surface falls back to wiki/hardcoded lists. That's the EH state today. This is the contribution model pattern applied to prompts — same governance principles (ownership split, consumer teams don't build for others, quality gate on the platform side) apply.
+- **Application**: When designing any AI surface that shows prompts, the default should be "source from the shared prompt library." If no such library exists, the product question is not "what prompts should we ship" — it's "who builds the library and what's the access API?" That's a platform-level ask, not a surface-level ask.
+
+### User Feedback as Ranking Signal — ✓/✗ to Densify Sparse Personalization
+- **Date identified**: 2026-04-20
+- **Source**: Eugene Bannykh, Fu-Chi sync. "Our algorithm is only as good as our signals are."
+- **Insight**: When the user-level signal is sparse (the cascade's primary problem), an explicit feedback UI can densify it cheaply. A per-recommendation ✓/✗ button turns passive exposure into an active signal — the user tells the system what's relevant to them. This doesn't replace behavioral signals (what prompts they actually use); it complements them by capturing relevance-without-action (user saw it, decided it wasn't for them, said so).
+- **Design constraint**: The feedback must require zero friction to be useful. A modal, a confirmation, or a reason-why-field kills the signal. A single click, persisted silently, is the only form that works.
+- **Why this matters**: Sparse-data personalization systems often sit on a chicken-and-egg problem — they need behavior to rank well, but users don't engage until ranking is good. Feedback bypasses the loop. Even 5% of users clicking ✗ on irrelevant prompts gives the ranker information it couldn't get any other way.
+- **Application**: Any surface with suggested content backed by a ranking system should consider a lightweight feedback UI. Track whether feedback actually changes rankings — if the system ignores it, users will stop clicking and the signal dies. Closing the loop (showing "based on your feedback, here's what we changed") isn't necessary; the ranker just needs to use the signal.
