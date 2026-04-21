@@ -388,6 +388,46 @@ Karthik on April 16: "yes, we have these agents you gave above." Definition laye
 
 ---
 
+## P42 Status Meeting — April 21, 2026 (Jaclyn + Yanira + Pedro)
+
+Short meeting, high signal. Jaclyn's frame runs the agenda — FinOps + portfolio investment discipline layered onto agent strategy.
+
+### AO 2.0 session — confirmed on for next week
+
+2-hour block. Agenda drafted by Pedro + Yanira. Conrad and Bertrand approved. AO side: Ken Russell AND Trent Davis both accepted (earlier Conrad-preference for Trent over Ken didn't play out as exclusion — both are in). Attendees: Pedro, Yanira, Jaclyn, Conrad, Ian Boston, Bertrand + Ken, Trent, Sergey on the AO side.
+
+**New dedicated leadership Slack channel** created April 21: Pedro + Yanira + Jaclyn + Conrad + Ian + Bertrand. Purpose = keep decisions tight, avoid broader forums.
+
+### Loni + Jean-Michel meeting — confirmed week of May 4
+
+Jaclyn: week after Summit is "dead time" (people hammered). Target is the week after → week of May 4. Pedro to send a **light status summary next week** (week of April 28) to keep Jean-Michel warm before the big meeting. Doesn't need details — "even feedback from someone" works. JM needs education on AO 2.0 and "what it means for us" (AEM autonomy frame).
+
+### Jaclyn's new asks of Pedro
+
+1. **Headcount rollup per agent** for planning deck slide 40. Work with agent PMs to estimate HC per agent — rough is fine (50% allocations OK). Next planning session next week. Portfolio investment framing: Foundation did ~20% of heads onto agents; pattern to replicate.
+2. **Profitability framing** for agents. Revenue expectations vs cost per agent — "at what point are we making money?" Not urgent, but on radar. Nobody remembers who PMM was for agents. Yanira's guesses: **Melissa Tao** or **Tina Nicu** for EPA.
+3. **$500K P42 pre-prod dev/workflows/cloud infrastructure cost** flagged on a finance slide. Origin unclear — Jaclyn says "the other Shweta" (not Shweta Dua) who asked for cost centers. Jaclyn suspicious: "we have nobody using these agents, how could it be a half a million cost?" Jean-Michel has seen the number from finance; questions will come. Pedro to keep on radar and check if real.
+4. **Summit survey — agent-perspective analysis via Claude.** Jaclyn: she did this for the AEM survey, called it "mind blowing." Pedro committed to try.
+5. **Claude project for Loni/JM exec self-query** — Jaclyn's tip, she's giving other VPs Claude projects with analysis loaded so they can query themselves.
+
+### Yanira — Monday Agent Alignment agenda
+
+Open forum for Summit readouts. Unstructured data dump. Not the meeting to push new material.
+
+### Strategic frame reinforced
+
+Loni (via Jaclyn): "We don't want to be tied into whatever somebody else is delivering." Same line as April 14. This is the durable frame for AO 2.0 positioning in the Loni + JM meeting. AEM owns its agent strategy — not reacting to AEP.
+
+### Compliance question Jaclyn raised (unresolved)
+
+"Just close them and then we're compliant or what does that mean? Does AEM need to be compliant? Does AO need to be compliant?" Compliance ownership between AEM and AO is not clearly scoped. Future agenda item.
+
+### Side item (not Pedro scope)
+
+AEM Forms disabled for Summit (updating stopped) — re-enables automatically after Summit. Pedro confirmed.
+
+---
+
 ## Logistics (updated April 16, 2026)
 - April 8: Cloud Foundation sync — NOT Loni's call (Loni's is PM leads only)
 - Check-in with Bertrand: next week — Bertrand away the week after
