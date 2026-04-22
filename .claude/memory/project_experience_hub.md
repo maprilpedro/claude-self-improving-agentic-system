@@ -388,6 +388,56 @@ Karthik on April 16: "yes, we have these agents you gave above." Definition laye
 
 ---
 
+## Varun Kalra Discovery Agent Report Sync — April 22, 2026
+
+58-minute working session on the Discovery Agent report validation. Major strategic signal + concrete measurement corrections.
+
+### Platform legitimacy signal
+
+Varun opened the meeting by voluntarily offering to retire his own wiki (the Discovery Agent repeat-usage + trends analysis he maintains for Apoorva) and consolidate into Pedro's reporting platform. Quote: "I want to get away from it because you're already doing a lot of work on this. I want to streamline and finalize on how we can ensure that there's only one way we are creating the final reports." First time a peer agent-owner team has chosen Pedro's platform as the canonical surface. This is a Senior Director-level scope signal.
+
+### Data gap closed
+
+Item 1 of the April 16 Apoorva punch-list (50-60% data gap vs Grafana) is resolved. Root cause was org-to-org-type assignment — the filter between internal / external wasn't working because orgs weren't properly mapped to their org types (Explorer, Try Before You Buy, Internal, Partner). Fix: AEP scorecard CSV export matched against org list from AEP. Pedro ran Claude delta checks, now below 3%. Source of truth confirmed as Copilot API. Varun will do formal validation pass.
+
+### Measurement reframe — intent-level, not interaction-level
+
+Varun's correction on Apoorva's 3 VR metrics (First Useful Result Rate, Query Unsuccessful Rate, Remaining Prompts Rate): they only sum to 100% if measured at **intent level**, not at interaction or chat level. One intent can span multiple interactions (user refines same goal). Splitting at interaction level produces buckets that never reconcile. Intent-level rules:
+- Intent returned nothing → Query Unsuccessful
+- Intent returned results, no follow-up within ~2 minutes → First Useful Result
+- Intent required follow-up refinements → Remaining Prompts
+
+2-minute window is an Apoorva-hypothesis that still needs confirmation. Pedro to loop Apoorva on: her actual calculation prompt/logic, exact window definition, whether intent continuation counts across or only within a single chat.
+
+### "No results found" is a product gap, not a legitimate answer
+
+Varun's framing: in agentic UX, returning "no results found" means "I can't do anything for you" — a failure to engage. Correct minimum response is a clarifying question or a suggestion. Discovery Agent returns "no results found" uniformly for (a) unsupported queries, (b) content doesn't exist, (c) search-quality failures. Collapsing all three into one response breaks triage. Governance Agent's "I cannot help with this" (distinguishable from empty match) is the better model. This is itself a Discovery Agent product gap, separate from the search-quality gaps.
+
+### Varun's deep skill — to be absorbed into Pedro's platform
+
+Varun has built a multi-source analysis skill for zero-result Discovery queries. It combines: the prompt, the code, Splunk logs, and live AEM instance state. Categorizes zero-results into: standard/semantic search, page searches, forms, content fragments, custom metadata, unsupported, miscellaneous. For standard semantic further splits by cause: content doesn't exist, semantic search disabled, user access issue, token expired, wrong filter, invalid AEM URL, timeout. Pfizer "Cephalon" typo case — skill identified user typed wrong product name. Varun wants this logic INSIDE Pedro's platform, per-agent custom block. Fields per gap entry: category name, prompt count, companies impacted, conversation IDs, example prompts, action items + JIRA links + end dates.
+
+### Report UI feedback
+
+1. Move weekly trends to the top (current week + trend visible together, not spread across the page).
+2. Add externals count at the top (Varun surprised external interactions > internal).
+3. Graphs as interactive (already good, confirmed).
+4. Repeat users on 1-week window is fine for now (Apoorva has final say).
+
+### Report-to-JIRA pipeline validated
+
+Varun confirms usefulness IF end-to-end inside the same UI. Not useful if he has to feed data into a separate skill. Report should have a JIRA column with ticket + end date per action item. Exactly what Bertrand has been asking for. Alignment.
+
+### Next Pedro actions
+
+1. Loop Apoorva on the VR metrics: get her exact prompt/logic, confirm 2-min intent window, confirm intent-level aggregation.
+2. Reorder report layout: weekly trends at top, current-week numbers below.
+3. POC per-agent custom product gap block for Discovery — start with "standard semantic search" category using Varun's skill logic.
+4. Get Varun's skill shared (pending his cleanup).
+5. Build JIRA column into report template.
+
+---
+
 ## P42 Status Meeting — April 21, 2026 (Jaclyn + Yanira + Pedro)
 
 Short meeting, high signal. Jaclyn's frame runs the agenda — FinOps + portfolio investment discipline layered onto agent strategy.

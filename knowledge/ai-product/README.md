@@ -14,6 +14,29 @@
 - **VRR (Value Realization Rate)**: Did the user actually get value? Higher bar. Requires behavioral signal (user accepted, acted on, returned to use again). Harder to define and measure. The metric that matters to customers and leadership.
 - **Application**: Any cross-agent measurement standard must agree on TSR and VRR definitions before publishing numbers. Without this, comparing agents misleads everyone, including the agents' own teams.
 
+### Measure at the Unit of User Intent, Not the Unit of System Event
+- **Date identified**: 2026-04-22
+- **Source**: Varun Kalra (Discovery Agent technical validator, Apoorva's team) in sync with Pedro, April 22, 2026. Discussing how Apoorva's three value-realization metrics (Query Unsuccessful Rate, First Useful Result Rate, Remaining Prompts Rate) should be computed.
+- **Insight**: Value-realization metrics for an agent have to sum to something meaningful (typically 100%) to be interpretable as a distribution. They only sum cleanly when the denominator matches the unit of user goal — the intent — not the unit of system event — the interaction. Pedro's initial implementation measured at chat or interaction level. Varun's correction: one intent can span multiple interactions. If the user fires four queries refining the same intent and two return results, splitting the four into different buckets at the interaction level produces three categories that will never add to 100%. Measure at the intent level: the intent is the carrier of "did the user get what they wanted."
+- **Concrete rule**:
+  - **Intent 1, returned nothing** → Query Unsuccessful bucket.
+  - **Intent 2, returned results, no follow-up query for the same intent within 2 minutes** → First Useful Result bucket.
+  - **Intent 3, required follow-up refinements before success** → Remaining Prompts bucket.
+- **Why this matters beyond metrics**: Intent-level measurement forces the product team to define "what is an intent" — which in turn forces clarity on what the agent is supposed to resolve vs. what's a refinement vs. what's a new task. This is a product-definition exercise disguised as a measurement exercise.
+- **Application**: For any agent-UX metric that involves success / failure classification across a conversation, audit the unit. If it's at the interaction or chat level, you probably need intent-level aggregation. The 2-minute window is a reasonable default for intent continuity; the exact threshold needs validation with the product owner.
+- **Anti-pattern**: Reporting three mutually-exclusive categories that don't sum to 100%. The gap IS the signal that your unit of measurement is wrong.
+- **Related**: Technical Success Rate vs Value Realization Rate (different metrics, same intent-unit principle); VRR Is a Tiered Metric.
+
+### "No Results Found" Is a Product Gap in Agentic UX — Not a Legitimate Answer
+- **Date identified**: 2026-04-22
+- **Source**: Varun Kalra and Apoorva Gupta's team, Discovery Agent validation review (April 16 audit + April 22 Varun sync).
+- **Insight**: In classical search UX, "no results found" is a legitimate response — the system searched, nothing matched, the user knows to refine. In agentic UX, it's a failure to engage. Varun: "Telling the customer that we can't do anything and saying 'no results found' means we can't do anything. We need to nudge the customer — ask clarifying questions or give suggestions." An agent that returns empty-handed in response to a prompt has abdicated its role as an agent. The correct minimal response is "I understood this much, can you clarify X?" or "here are three directions you might explore."
+- **The differentiation problem**: When "unsupported query" and "no content matched" collapse into the same "no results found" response, the product team can't triage. Is this a content gap (real user need, no data)? A scope gap (user asking for something the agent was never built to do)? A search-quality gap (data exists, agent couldn't find it)? The single response destroys diagnostic clarity.
+- **The Governance Agent model as contrast**: Governance Agent explicitly returns "I cannot help with this" for unsupported queries. That's distinguishable from "nothing matched." You can see what the agent can't do and build a roadmap from it. Varun's framing: "If we are not doing this, we cannot differentiate between a scenario where the customer query legitimately led to no results vs. the query was not supported."
+- **Application**: In any agentic surface, banish the empty reply. Every failure mode should be named and distinguishable. Minimum failure taxonomy: (1) I understood but I'm not built for this, (2) I couldn't understand — please clarify, (3) I understood and the data doesn't exist, (4) I understood and there's a system error. Each is actionable differently.
+- **Anti-pattern**: Returning silent-fail responses that a classical search product would accept. The bar for agentic UX is engagement, not query fidelity.
+- **Related**: The Open Chat Box as Discovery Mechanism; Agents Need to Surface Problems, Not Just Solve Them.
+
 ### VRR Is a Tiered Metric — Collapsing to One Number Misleads
 - **Date identified**: 2026-03-31
 - **Source**: Bertrand de Coatpont, 1:1 March 31, 2026.
