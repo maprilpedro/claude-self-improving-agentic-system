@@ -94,6 +94,19 @@
 - **The alliance failure mode**: People who build alliances only when they need something have no alliances when they need them. The senior director builds relationships in advance of needing them, so when a critical moment arrives, the relationship already exists.
 - **PM application**: Before cross-team alignment meetings (e.g., with Eugene's team, with Felix's team), ask: have I built any relationship equity here? If not, the meeting is starting with a deficit. Fix it before the meeting.
 
+### Access the Technical Validator Behind the PM
+- **Date identified**: 2026-04-22
+- **Source**: April 16 Apoorva audit vs April 22 Varun sync — two meetings on the same Discovery Agent report, two completely different depths of engagement.
+- **Pattern**: When working with a peer PM who's senior enough to delegate technical review, the PM's own feedback is often high-level and LLM-flavored — a punch-list, not a product-definition conversation. The operational truth lives with the technical validator that PM has assigned. Actively establish a direct working relationship with that validator. Not to go around the PM, but to get granularity the PM literally cannot provide because they're not doing the analysis themselves.
+- **The Apoorva/Varun contrast as evidence**:
+  - Apoorva delivered a 6-item punch-list in one meeting (April 16). Symptoms named, high-level, LLM-assisted generation. Useful as a scoping instrument but insufficient for resolution.
+  - Varun delivered in a 58-minute 1:1 (April 22): intent-level aggregation correction (concepts, not bullets), "no results found" as product-gap reframe (philosophy, not bug), the Pfizer Cephalon typo example (deep domain pattern), his own skill architecture to absorb into the platform, and voluntarily offered to retire his parallel wiki. Fundamentally different register.
+- **Why the PM can't produce this**: A senior peer PM operates at strategic scope — they point at problems, they don't compute metrics. The technical validator IS the one computing metrics, writing the skill, doing the data analysis. Their insight is empirical, not proposed. Insisting on PM-to-PM conversations only when the actual work lives two levels down is a common bottleneck.
+- **How to establish the direct line without bypassing the PM**: (1) Meet the validator with the PM's blessing, in a shared meeting first — that's what Pedro did April 16 (Apoorva + Ankur + Varun together). (2) Follow up with direct 1:1s framed as operational detail, not strategy. (3) Report findings back up to the PM after the 1:1 so they stay in the loop without having to sit through the technical depth. (4) Always credit the validator in exec communications — this protects the PM relationship (they see their team valued) and compounds the validator's willingness to engage.
+- **How to spot when this pattern applies**: The peer PM's feedback is (a) list-shaped rather than model-shaped, (b) symptom-named rather than cause-named, (c) delegates implementation detail with phrases like "my team will look at this." That combination is the signal to pivot your engagement strategy to their validator.
+- **Anti-pattern**: Treating every peer PM interaction as the ceiling of what you can learn. If the PM is strategic and their team is technical, staying at the PM level keeps you in the symptom conversation. Lateral Influence works differently at different levels — the PM is for scope agreements, the validator is for substance.
+- **Related**: Lateral Influence (building relationship equity — same principles, but you need two relationships, not one); Peer Review Is Audit, Not Validation (what you get from the PM tier vs the technical tier is different by design).
+
 ---
 
 ## Managing Down (Team Relationships)
