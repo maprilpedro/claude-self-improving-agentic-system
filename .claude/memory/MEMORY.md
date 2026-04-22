@@ -17,6 +17,9 @@
 - [Knowledge folder update cadence](feedback_knowledge_updates.md) — Always update knowledge/, INDEX.md, and README.md when asked and proactively at least once every 2 days. Commit with learn: prefix.
 - [Memory consolidation includes learning reflection](feedback_memory_consolidation.md) — "consolidate memory" triggers both memory updates AND knowledge reflection. Never do one without the other.
 - [Brief summary after document updates](feedback_document_updates.md) — After every document update, give a short summary of what changed and why.
+- [Task vs progress log distinction](feedback_task_vs_progress_log.md) — "Track this" = forward-looking task (checkbox + due date), NOT a past-tense progress log entry. Progress log is for what already happened.
+- [Conversation link optional when none exists](feedback_conversation_link_optional.md) — Ask for link per Status & Todo rule, but accept "no link, date/time is enough" for internal-only meetings without an external artifact.
+- [Rich task format — companion section pattern](feedback_rich_task_companion_section.md) — When user asks for tasks "with max info and hints," split into one-liner tasks + companion H2 section with full prep. Never dump multi-paragraph content into the task line.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — Full project context: what it is, team, org, state, risks, top priorities, Obsidian vault location
