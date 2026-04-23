@@ -37,6 +37,23 @@
 - **Anti-pattern**: Returning silent-fail responses that a classical search product would accept. The bar for agentic UX is engagement, not query fidelity.
 - **Related**: The Open Chat Box as Discovery Mechanism; Agents Need to Surface Problems, Not Just Solve Them.
 
+### Capability-Level Monthly Usage Is the Value Narrative Metric (BVR)
+- **Date identified**: 2026-04-23
+- **Source**: Pedro + Philippe Kapfer Governance Agent report review, April 22–23, 2026. Context: identifying what metrics to expose for Governance Agent value realization ahead of Loni + Jean-Michel meeting (week of May 4). Wiki reference: [AEM Agentic Success Definition Compliance Framework](https://wiki.corp.adobe.com/spaces/WEM/pages/3774169978/AEM+Agentic+Success+Definition+Compliance+Framework).
+- **Insight**: TSR, VR (intent-level), and VRR (tier-based) all answer the same question at different resolutions: *was this interaction valuable?* They operate at the interaction or intent level. Leadership doesn't consume interaction-level data — they consume **rate of value-producing events per month**. That requires a different metric unit: **capability-level monthly count**. "Brand checks performed per month" and "permission audit requests via agent per month" are not derivatives of VR or TSR — they are the count of times the agent did its job. This is the metric that maps to the adoption narrative ("the agent delivered value X times this month") and to the Senior Director level story Pedro is building for Loni.
+- **Two Governance Agent candidates (April 22)**:
+  - Number of brand checks performed per month
+  - Number of permission audit requests performed via agent per month
+- **Why this unit matters**: Rate metrics (TSR, VR) normalize for volume — a 60% VR at 100 interactions and at 100,000 interactions read the same. The capability-level count restores the volume signal that VPs need: "this agent is being used 50× more than last quarter." Without it, a successful adoption arc is invisible in your dashboard.
+- **When to use each unit**:
+  - TSR → *does the system work?* (engineering / platform health)
+  - VR intent-level → *does the user get what they came for?* (product experience quality)
+  - VRR tiered → *what shape of value distribution are we seeing?* (strategic framing)
+  - **BVR capability-count → *how much value did this agent produce this month?*** (adoption narrative, VP-facing)
+- **Application**: For every AEM agent, identify 1–2 capability-level monthly counts that map to its reason for existing. These become the headline numbers in the adoption story. Validate definitions with the agent's PM owner; implement with the parallel reporting track owner.
+- **Anti-pattern**: Reporting only rate metrics to leadership. The absence of a volume number makes every success story unfalsifiable — nobody can tell if the agent is growing or shrinking.
+- **Related**: Metric Definition Ownership — PM Validates, Reporting Track Owner Implements; Two-Validator Pattern for Report Rollout; VRR Is a Tiered Metric.
+
 ### VRR Is a Tiered Metric — Collapsing to One Number Misleads
 - **Date identified**: 2026-03-31
 - **Source**: Bertrand de Coatpont, 1:1 March 31, 2026.
@@ -212,6 +229,17 @@
 - **Companion feature**: "Show agent answer" — displays what the agent actually said. Without this, the Quality/Gap split relies on tags alone. With it, you can read the agent's response and verify the classification. A clean "I cannot do that" is a gap. A weird hallucinated answer is a quality failure even if tagged as a gap.
 - **UX consideration**: Default collapsed per row. A "show thread" toggle keeps the table readable while making detail available on demand. Always-expanded kills scannability.
 - **Application**: Any agent report with a product gaps section should have thread context and agent answer as available detail. They are the difference between a report that shows what happened and one that shows why.
+
+### Metric Definition Ownership — PM Validates, Reporting Track Owner Implements
+- **Date identified**: 2026-04-23
+- **Source**: Pedro's split of BVR metric work for Governance Agent, April 23, 2026. Context: 2 BVR metrics identified from Philippe review; Pedro naturally routed validation to Philippe (PM) and implementation to Lara (parallel reporting track).
+- **Insight**: Defining an agent-specific metric has two distinct ownership questions. (1) **Does the definition match the capability?** — a question the agent's PM owner can answer because they know what the capability is supposed to do. "Permission audit request" must mean the thing the agent actually does, not a tangential event the instrumentation happens to fire. (2) **Can the pipeline produce this number reliably?** — a question the parallel reporting track owner can answer because they own the data flow. Conflating these into one ask to one person either overloads the PM with plumbing or overloads the reporting owner with domain calls they can't make.
+- **Pattern**: For each proposed agent metric, route in two directions:
+  - **Validation → agent PM owner**: Does this definition match what the capability does? Are there edge cases (retries, cancellations, partial successes) that should be included/excluded? Is the unit meaningful?
+  - **Implementation → parallel reporting track owner** (Lara for Governance Agent, Felix for EPA, etc.): Can this be computed from available data? What's the sampling/granularity constraint? Does it reconcile with other metrics?
+- **Why this splits cleanly**: The PM owns product definition, the reporting track owner owns measurement infrastructure. Neither wants to do the other's job. Asking the wrong person silently lowers the quality of the answer — PMs will approve anything that sounds reasonable, reporting track owners will implement anything that's technically feasible. Separate asks force each to say no where they should.
+- **Application**: When defining any new agent metric, explicitly name both owners in the ask. Track them as distinct swim lanes in the Todo (Philippe Kapfer (validation) / Lara Nonino (implementation)). The same person can play both roles only if they own both the PM and reporting track — rare, and if true worth flagging.
+- **Distinction from Two-Validator Pattern for Report Rollout**: Two-Validator is about validating an existing report before distribution (preparer + PM owner). This is about validating a metric *definition* before implementation. Different phase, different owners, same principle: separate conceptual validation from execution.
 
 ### Two-Validator Pattern for Report Rollout
 - **Date identified**: 2026-04-09

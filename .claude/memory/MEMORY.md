@@ -20,6 +20,8 @@
 - [Task vs progress log distinction](feedback_task_vs_progress_log.md) — "Track this" = forward-looking task (checkbox + due date), NOT a past-tense progress log entry. Progress log is for what already happened.
 - [Conversation link optional when none exists](feedback_conversation_link_optional.md) — Ask for link per Status & Todo rule, but accept "no link, date/time is enough" for internal-only meetings without an external artifact.
 - [Rich task format — companion section pattern](feedback_rich_task_companion_section.md) — When user asks for tasks "with max info and hints," split into one-liner tasks + companion H2 section with full prep. Never dump multi-paragraph content into the task line.
+- [Mirror tasks across Status & Todo files](feedback_mirror_tasks_across_status_files.md) — When agent-reporting work spans surfaces, duplicate the tasks into both EH and AI-Assistant Status files. Don't split.
+- [Detect stale Status sections before adding tasks](feedback_refresh_stale_status_sections.md) — Scan Current Status + Focus dates first; offer to refresh when >2 weeks behind reality.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — Full project context: what it is, team, org, state, risks, top priorities, Obsidian vault location
