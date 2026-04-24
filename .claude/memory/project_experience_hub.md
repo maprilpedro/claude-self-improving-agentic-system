@@ -504,6 +504,25 @@ Both Status & Todo files (EH + AI-Assistant) updated with 5 Varun next-actions +
 
 ---
 
+## April 24, 2026 Session — Priority Recalibration + Priority Consolidation Draft + OKR Alignment
+
+### Priority recalibration (overwhelm diagnosis)
+Pedro reported overwhelm with ~25 live threads and 12 items tagged 🔴 across EH Status file. Diagnosis: calibration failure, not capacity failure. Recalibrated to 5 load-bearing items for May 4 (Apoorva punch-list by April 27, JM warm-up week of April 28, AO 2.0 session April 29, Priority Consolidation view to prod May 1, May 4 deck). Everything else demoted to "Parked past May 4" with explicit label. Pedro confirmed: "I agree with the 5 top priorities."
+
+### JM warm-up decision locked — Claude project, not email
+Initial direction drifted into drafting an email warm-up. Pedro pushed back ("not sure I want to send this"). Vault audit revealed the KR3 note (`Deliver Loni + Jean-Michel presentation.md`) already contained a full SD-2 plan: "Ship the JM Warm-up as a Claude Project, not a Deck" — including what to load (Felix report, Priority Consolidation view, HC rollup, Apoorva punch-list status, AO 2.0 lite context, 7-agent portfolio list), seeded queries (10 pre-computed), delivery message draft, and CC strategy (Jaclyn). **Decision: Populate Claude project by Friday April 25, Slack link to JM Monday April 28, CC Jaclyn.**
+
+### Priority Consolidation view — draft saved
+New artifact at `AEM Experience Hub - Project Folder/AEM Experience Agent Reports/20260424 - Priority Consolidation View.md`. Answers Loni's April 13 unanswered question ("what % of top requests are making it into the agent"). Structure: Answer to the Question → Top 10 Gap Categories table (classified measurement / product gap / value realization, with status + owner + ETA) → Closure Mechanism (Governance Agent AEMAGT-1240 as proof point) → What's New Since March (intent-level measurement, "no results found" as product gap, capability-level monthly usage as adoption narrative, voluntary platform consolidation) → What We'd Want Next (3 asks) → What This Is Not. Feeds KR4 (ship May 1) and KR3 (core exhibit May 4). Volumes + unowned routing pending Apoorva validation close April 27.
+
+### OKR structure discovered and documented
+Full OKR structure exists at `/120 Projects/Work/OKRs/O1 - AI Agent Intelligence/` with KR Board (kanban) + individual KR notes containing Todoist-backed task IDs. KRs In Progress: Close Apoorva validation punch-list (KR1), 3 agent owners signed off on report, Deliver Loni + Jean-Michel presentation (KR3), Ship Priority Consolidation view (KR4). Planning: Stable monthly metrics deck, Define SLA for AEM Agents with AEP. Not Started: Update Reports weekly, Validate AI Intelligence Numbers with 3 agent owners by mid-may, BVR - Discovery Agent Methodology. New working rule: Status file Focus sections roll up to KR notes via `[[KR Note|KR#]]` backlinks, not via duplicated task tracking.
+
+### Focus section rewrites
+Both Status & Todo files now have unified Focus tables: 5 load-bearing items, same order, same KR backlinks. Each row = Item + KR link + Status + Due. Items beyond the 5 moved to "Parked past May 4" visual demotion. Session log entries added to both files.
+
+---
+
 ## Logistics (updated April 16, 2026)
 - April 8: Cloud Foundation sync — NOT Loni's call (Loni's is PM leads only)
 - Check-in with Bertrand: next week — Bertrand away the week after

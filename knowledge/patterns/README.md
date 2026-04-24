@@ -530,3 +530,24 @@
 - **Pattern**: Change is easiest when it looks like continuity. Frame new directions as extensions or improvements on existing practice, not departures from it. Connect the new to something the audience already values. The most successful product pivots are framed as "the natural next step" rather than "something completely different." The radicalism is in the execution, not the framing.
 - **When it works**: In large orgs with established norms and risk-averse cultures. When you need broad buy-in from people who are comfortable with the status quo.
 - **When it fails**: When the change is genuinely incompatible with the past and the framing becomes dishonest. When speed is required and gradual introduction creates its own risks.
+
+## Artifact Architecture
+
+### Roll-up vs Task Tracker — One Authoritative Home Per Piece of Information
+- **Source**: Pedro session, April 24, 2026 (vault alignment pass)
+- **Date**: 2026-04-24
+- **Observation**: Pedro maintains a multi-tier planning structure: an OKR folder with a KR Board kanban, individual KR notes containing Todoist-backed task lists with IDs, and two Status & Todo files (EH + AI-Assistant) that serve as project-level rollups. When the Status files' Focus sections started inlining full task descriptions, they duplicated what the KR notes owned better. Drift followed immediately — a task could update in one place and stale in the other. Realignment: Focus rows hold Item + KR backlink + Status + Due only. Detail lives in the KR note, referenced by `[[KR Note|KR#]]` backlink.
+- **Pattern**: In a multi-tier planning system, each tier serves a distinct function and each piece of information should live in exactly one authoritative place. The Orientation tier (kanban board / OKR objective) tells you what matters. The Operational tier (KR notes / task management tool) owns individual tasks, deadlines, and IDs. The Roll-up tier (Status files) tells you what is load-bearing this week with links into the operational layer for detail.
+- **Design rule**: A Focus or Roll-up row should never duplicate a task list inside a KR or project note. The column structure forces this: Item / Link-to-detail / Status / Due. When tempted to add a sub-task list, add it to the KR note instead and let the roll-up link to it.
+- **Adjacent pattern**: This is structurally similar to how good software documentation works — canonical content lives in one place, every other mention links to it. Duplication invariably drifts. The information-architecture discipline is the same in a PM planning system as in a codebase.
+- **When it applies**: Any planning system with 2+ tiers of visibility (PM with OKRs + sprint + status updates; engineering with roadmap + epics + stories; any org that has both strategy-level and operational-level artifacts).
+- **When it fails**: If the operational layer doesn't exist yet (no KR notes), the roll-up tier will need to carry detail temporarily — but this is a sign the operational layer is missing, not that duplication is correct.
+
+### Calibration Audit — When a Priority List Stops Signaling
+- **Source**: Pedro session, April 24, 2026
+- **Date**: 2026-04-24
+- **Observation**: Pedro's Status file had 12 items tagged 🔴 out of ~25 total. 🔴 had drifted from "highest-priority this week" to "still active" — which meant 🔴 no longer signaled anything. The symbol had lost its meaning. Same risk applies to any prioritization symbol (P0, high, starred, urgent) that is never pruned.
+- **Pattern**: Priority symbols only work if they cost something to assign. When everything qualifies, nothing does. The calibration audit is periodic — count how many items carry the top label. If the count is more than ~5, the label has drifted and needs a rebalance. Demote or re-assign. The discipline is not to remove urgent items but to make "urgent" mean "top of mind, action this week" consistently.
+- **Design rule**: Cap the top-priority label at a small number (4-5 for a Director roll-up). Anything beyond that cap is either miscoded or signals a capacity crisis. Either way, the audit surfaces it rather than letting the list silently grow.
+- **When it applies**: Any tracking system where a priority label is meant to filter attention. Status files, JIRA boards, sprint planning, engineering dashboards.
+- **When it fails**: If the cap is held mechanically rather than based on actual load-bearing-ness, important work gets artificially demoted. The cap is a calibration tool, not a quota — use judgment about what belongs above the line, then prune below.

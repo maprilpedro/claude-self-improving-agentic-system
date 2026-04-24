@@ -3,6 +3,7 @@
 ## References
 - [Claude improvement tools](claude-improvement-tools.md) — Recommended MCP servers, skills, editor extensions, and architecture improvements for the PM knowledge system
 - [Splunk MCP usage dashboard](reference_splunk_mcp.md) — Bertrand's source for MCP adoption metrics. Paired with CM UI activity data (owner TBD) for ratio metric.
+- [OKR structure — O1 AI Agent Intelligence](reference_okr_structure.md) — Location and current KR composition. KR1 Apoorva punch-list, KR3 Loni+JM presentation, KR4 Priority Consolidation view, KR SLA planning, etc.
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
@@ -22,6 +23,9 @@
 - [Rich task format — companion section pattern](feedback_rich_task_companion_section.md) — When user asks for tasks "with max info and hints," split into one-liner tasks + companion H2 section with full prep. Never dump multi-paragraph content into the task line.
 - [Mirror tasks across Status & Todo files](feedback_mirror_tasks_across_status_files.md) — When agent-reporting work spans surfaces, duplicate the tasks into both EH and AI-Assistant Status files. Don't split.
 - [Detect stale Status sections before adding tasks](feedback_refresh_stale_status_sections.md) — Scan Current Status + Focus dates first; offer to refresh when >2 weeks behind reality.
+- [Overwhelm usually means miscalibrated priority list](feedback_overwhelm_calibration.md) — When Pedro says overwhelmed, audit red-tagged items first. Too many 🔴 = triage broken, not effort.
+- [Read existing KR notes before drafting artifacts](feedback_read_kr_before_drafting.md) — Check `/120 Projects/Work/OKRs/` before drafting anything tied to a KR. The plan is usually already there.
+- [Status files are roll-ups not task trackers](feedback_status_rollup_not_tracker.md) — Focus sections link to KR notes. Detailed tasks live in KR notes with Todoist IDs. Don't duplicate.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — Full project context: what it is, team, org, state, risks, top priorities, Obsidian vault location
