@@ -34,6 +34,14 @@ Scope: EH product priorities (Skills+MCP surface, Contribution Model, Customer P
 
 **Workstream 2 — Agent Assistant (contributor, not PM)**
 AEP AI Assistant is built and owned by the AEP team. PM of record: `hanessia`. QI DRI: Ilya Grafutko (Sr PM, AEP Agent Orchestrator Platform). AEM AI Assistant is program-managed by WEM. Pedro is not in any ownership chain. His role: EH surface integration (integrating the AEP prompt bar), AEM agent reporting contributor, EH as the hero surface for AEM agents. Pedro must confirm this framing with Bertrand. Sorin asked directly in the April 1 refinement sync — still unresolved.
+
+**AEP AO / AI Assistant role split** (per Ilya Grafutko Slack 2026-04-27, screenshot at `screenshots/20260427-ilya-ao-aiassistant-ownership-slack.png`):
+- **AO Platform PM:** `@sgeneralov` (core, integrations) + `@igrafutko` (quality tooling / safety / compliance)
+- **AI Assistant PM:** `@hanessia` (Adoption) + `@namitak` Namita (Dashboards, AI Integration, AI quality)
+- **AO v2 (coworker):** `@sgeneralov` + `@igrafutko`
+- **AO v2 — AIA extensions:** `@namitak` + `@hanessia`
+
+**For AEP Grafana dashboard issues (Agents traffic):** ping Namita (`@namitak`). Specific dashboard Pedro tracks: `r2d2-ewewfsdgh4bpbhf7.eus2.grafana.azure.com/d/bfbjp58xxc9hcb/ai-assistant-on-ao-trial-cust...` (AI Assistant on AO trial customers). Open issue as of 2026-04-27 — task added to AI-Assistant Status & Todo.
 Scope: Felix's reporting pipeline, report-to-JIRA project, data compliance (Bertrand accepted risk April 1), report hosting (CDN + Okta path with Quentin).
 
 ---
