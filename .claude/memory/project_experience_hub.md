@@ -42,6 +42,25 @@ AEP AI Assistant is built and owned by the AEP team. PM of record: `hanessia`. Q
 - **AO v2 — AIA extensions:** `@namitak` + `@hanessia`
 
 **For AEP Grafana dashboard issues (Agents traffic):** ping Namita (`@namitak`). Specific dashboard Pedro tracks: `r2d2-ewewfsdgh4bpbhf7.eus2.grafana.azure.com/d/bfbjp58xxc9hcb/ai-assistant-on-ao-trial-cust...` (AI Assistant on AO trial customers). Open issue as of 2026-04-27 — task added to AI-Assistant Status & Todo.
+
+**AI Assistant vs AOP — Pedro's mental model** (canonical source: `Experience Hub/AEM Experience Hub - Project Folder/AI Assistant AOP/AI Assistant vs AOP.md`, dated 2026-04-27):
+
+- **AI Assistant** = the **conversational, generative AI layer**. The "brain." Natural-language interface, in-product copilots, chat UI. Interprets user intent, generates content, suggests actions. Designed for human interaction. Uses LLMs — fuzzy / open-ended / can hallucinate.
+- **AOP** = **Adobe Orchestration Platform**. The "hands." Backend orchestration for workflows, multi-step processes, cross-system automation. API- and configuration-driven. Designed for system-to-system interaction. Deterministic — executes only defined workflows / rules.
+- **They work together:** AI Assistant interprets the user's request → translates to structured intent → AOP receives that and orchestrates execution across services.
+- **Short version:** AI Assistant = interprets and suggests. AOP = coordinates and executes.
+
+**AOv2 architecture (open-source / plugin model)** — per Sergey Generalov / Manas Garg email thread April 2-4, 2026 (file: `AI-Assistant/AOP 2.0/AOP 2.0.md`):
+
+- **AO** is the actual platform / codebase: `github.com/Adobe-Experience-Platform/ao`.
+- **AOv2** = new version with **plugin and marketplace architecture**, following Anthropic open protocols for extending agentic harnesses.
+- Pattern: install AO locally → create own marketplace git repo (template: `OneAdobe/ao-plugin-extensions-template`) → develop plugins / skills → install marketplace into AO.
+- Internal docs: `aep-ao.pages.adobeitc.com/getting-started/` and `/plugin-development/`.
+- Manas Garg leading AOv2 dev experience push. Trent Davies, Ken Russell, Sergey Generalov, Akash Maharaj, Alexander Falca on the core AO team.
+- "Open source" framing — Adobe-internal but with maintainer/committer/contributor model; teams can send PRs to ao repo. CJA team already engaging via Josh Butikofer.
+- This is the "harness" Conrad described April 14: distributed responsibility, contributed skills.
+
+**AEM in this stack:** AEM Agents (EPA, Discovery, Governance, Content Optimization, EDA, Onboarding) are the workloads orchestrated by AOP. EH is the AEM landing page where the AEP AI Assistant prompt bar appears. So the user clicks in EH → enters AI Assistant → AOP routes / orchestrates → an AEM Agent runs → result back through AI Assistant → EH.
 Scope: Felix's reporting pipeline, report-to-JIRA project, data compliance (Bertrand accepted risk April 1), report hosting (CDN + Okta path with Quentin).
 
 ---
