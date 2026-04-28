@@ -61,6 +61,15 @@ AEP AI Assistant is built and owned by the AEP team. PM of record: `hanessia`. Q
 - This is the "harness" Conrad described April 14: distributed responsibility, contributed skills.
 
 **AEM in this stack:** AEM Agents (EPA, Discovery, Governance, Content Optimization, EDA, Onboarding) are the workloads orchestrated by AOP. EH is the AEM landing page where the AEP AI Assistant prompt bar appears. So the user clicks in EH → enters AI Assistant → AOP routes / orchestrates → an AEM Agent runs → result back through AI Assistant → EH.
+
+**Prompt Library Platform — cross-VP peer team (added April 28, 2026):**
+
+- PM: Cole Connelly (Principal PM, New York)
+- EM: Joshua Hailpern. Lead engineers: Somya Biswari, Zeus Courtois.
+- Org chain: Cole → Stephen Gould (GPM, SF) → Tim Lott (Director PM, Lehi) → Daniel Sheinberg (Sr Director, Remote Illinois) → **Sunil Menon (VP, Experience Cloud Portfolio, SJ)** → Amit Ahuja (SVP) → Anil Chakravarthy.
+- **Sunil Menon is a peer of Loni Stark at VP level** under Amit Ahuja. The Prompt Library Platform is therefore cross-VP, not within Loni's AEM tree.
+- Relevant to O2 KR `EH consumes prompt library not wiki`. Tactical PM-to-PM contact = Cole. Strategic backstop = Stephen Gould (also Pedro's DX/Unified Shell contact). Cross-portfolio scope decisions = Loni-to-Sunil at VP level (not Pedro's lateral coordination).
+- Org-chart screenshots: `screenshots/20260428-org-*.png` in this repo.
 Scope: Felix's reporting pipeline, report-to-JIRA project, data compliance (Bertrand accepted risk April 1), report hosting (CDN + Okta path with Quentin).
 
 ---
