@@ -70,6 +70,55 @@ AEP AI Assistant is built and owned by the AEP team. PM of record: `hanessia`. Q
 - **Sunil Menon is a peer of Loni Stark at VP level** under Amit Ahuja. The Prompt Library Platform is therefore cross-VP, not within Loni's AEM tree.
 - Relevant to O2 KR `EH consumes prompt library not wiki`. Tactical PM-to-PM contact = Cole. Strategic backstop = Stephen Gould (also Pedro's DX/Unified Shell contact). Cross-portfolio scope decisions = Loni-to-Sunil at VP level (not Pedro's lateral coordination).
 - Org-chart screenshots: `screenshots/20260428-org-*.png` in this repo.
+
+---
+
+## April 28, 2026 — H2 Planning Analysis + HC Rollup
+
+Pedro shared the H2 2026 Planning canvas (from Slack) at `Roadmaps/H2 2026 Planning - Initiatives and Roadmaps.md`. Full extraction + analysis lives at `Roadmaps/H2 2026 HC Rollup for AI agents.md`. Together these feed the **HC rollup per agent (slide 40)** task in KR3 (Deliver Loni + JM presentation, due Mon April 28).
+
+**Three-table structure in the HC Rollup file:**
+
+1. **Direct Agentic Web Items (DX-1220)** — 9 items + Pedro-promoted/driven items (HOME-832 + AEMAGT-538 placed here for narrative even though their canonical parent is DX-1222 Product Adoption). Subtotal ~98+ HC.
+2. **AI related but not in AEM Agents P42** — 3 items (WRKSP-1223 Fluffy Jaws V2, AEMEO-9508 Data Advisory Agent, AEMSRE-3429 P42 ORR & Observability). All under DX-1220 in JIRA but NOT in Pedro's 6-agent reporting taxonomy. 14 HC.
+3. **Agent-related Items in OTHER Initiatives** — items in DX-1222, DX-1223, DX-LLMO that touch agent work. 17 HC after AEMAGT-538 promotion.
+
+**Slack Parent vs JIRA Parent dual columns** added per Pedro's request. Reveals one mismatch: LLMO-4141 has Slack Parent = LLMO-4023 (current source doc grouping) but JIRA Parent = DX-1134 "Adobe LLM Optimizer / Project Elmo" which is **Closed**. Real-world data quality issue worth flagging.
+
+### Stakeholders added today
+
+All in Stakeholder Map at `AEM EH - Key Files/Experience Hub - Stakeholder Map.md`:
+
+- **Laurentiu Odoleanu** — PM, Site Advisory Agent (AEMAGT-2) AND LLM Apps (AMCP-1). Multi-hat PM in agent space.
+- **Remus Stratulat** — ENG, Site Advisory Agent (AEMAGT-2) AND Experience Development Agent (AEMAGT-1282). Same person owns engineering on two agents — flag for capacity check.
+- **Hariprasad Kuppuswamy** — ENG, P42 ORR & Observability (AEMSRE-3429).
+- **Cole Connelly** — Principal PM, Prompt Library Platform (under Sunil Menon's tree, peer-VP to Loni). For O2 KR.
+- **Tim Lott / Daniel Sheinberg / Sunil Menon** — chain above Cole Connelly + Stephen Gould.
+- **Jesper Honig Spring** — ENG, AI-Ready Content Indexing (GRANITE-66736). PM Peter Klassen (already known).
+- **Razvan Bradea** — ENG, LLM Apps (AMCP-1).
+- **Ashok Kumar** — ENG, Agents for AMS (AEMAGT-1323). PM is Bertrand de Coatpont himself (notable — Pedro's manager owns this directly).
+
+### Slide 40 draft mapping (with gaps to flag to Bertrand)
+
+| Pedro's reporting agent | H2 funded match | Status |
+|---|---|---|
+| Experience Production (EPA — Corey) | NOT directly named | ⚠ gap |
+| Discovery (Apoorva) | NOT directly named | ⚠ gap |
+| Governance (Philippe) | AEMAGT-856 — 11 HC | ✅ matched |
+| Content Optimization (Greg) | possibly rolled into Content AI Support GRANITE-66359 (15 HC) | ⚠ confirm |
+| Development / EDA (Brian) | AEMAGT-1282 — 16 HC | ✅ matched |
+| Onboarding (Nick) | NOT directly named (Site Advisory ≠ Onboarding) | ⚠ gap |
+| Modernization (Mike Tilburg / Gabriel Walt) | AEMAGT-538 — 33+ HC | ✅ matched (now promoted to Direct Agentic Web table) |
+
+Half of Pedro's 6-agent taxonomy isn't visibly funded. Confirm with Bertrand before May 4.
+
+### Site Advisory Agent reference page (AEMAGT-2)
+
+Created at `2026/Site Advisory Agent (AEMAGT-2).md` — full Confluence-distilled reference. Confirms SAA is **customer-facing, integrated with Brand Concierge, runs on Content AI** — NOT in Pedro's 6-agent taxonomy. Phase 1 already GA Nov 2025. PM Laurentiu Odoleanu, ENG Remus Stratulat. Adobe.com + Wyndham pilots. Different data layer (Content AI) from Pedro's Felix pipeline (AEP Co-Pilot).
+
+### Most consequential overlap surfaced
+
+**AEMEO-9508 Data Advisory Agent (Shweta Dua, IceBox/Unassigned)** is overlapping with Pedro's work in 5 specific ways: both P42, "Value Realization" is an explicit Phase 1 skill of Shweta's agent, persona explicitly includes "Product Managers" (Pedro's audience), framing positions against "static dashboards" (Pedro's reports), MCP Layer architectural overlap with Pedro's Skills+MCP brief. Status IceBox = Pedro has window to influence scope before May 4. Need to slack Shweta + Yanira this week to align.
 Scope: Felix's reporting pipeline, report-to-JIRA project, data compliance (Bertrand accepted risk April 1), report hosting (CDN + Okta path with Quentin).
 
 ---

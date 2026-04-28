@@ -4,6 +4,7 @@
 - [Claude improvement tools](claude-improvement-tools.md) — Recommended MCP servers, skills, editor extensions, and architecture improvements for the PM knowledge system
 - [Splunk MCP usage dashboard](reference_splunk_mcp.md) — Bertrand's source for MCP adoption metrics. Paired with CM UI activity data (owner TBD) for ratio metric.
 - [OKR structure — O1 AI Agent Intelligence](reference_okr_structure.md) — Location and current KR composition. KR1 Apoorva punch-list, KR3 Loni+JM presentation, KR4 Priority Consolidation view, KR SLA planning, etc.
+- [Atlassian MCP — JIRA + Confluence](reference_atlassian_mcp.md) — Tool surface for fetching real JIRA / Confluence content from Adobe corp instances (only way in, since they're internal-only).
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
@@ -26,6 +27,7 @@
 - [Overwhelm usually means miscalibrated priority list](feedback_overwhelm_calibration.md) — When Pedro says overwhelmed, audit red-tagged items first. Too many 🔴 = triage broken, not effort.
 - [Read existing KR notes before drafting artifacts](feedback_read_kr_before_drafting.md) — Check `/120 Projects/Work/OKRs/` before drafting anything tied to a KR. The plan is usually already there.
 - [Status files are roll-ups not task trackers](feedback_status_rollup_not_tracker.md) — Focus sections link to KR notes. Detailed tasks live in KR notes with Todoist IDs. Don't duplicate.
+- [Fetch JIRA via MCP before opining](feedback_jira_mcp_before_opining.md) — When Pedro mentions a JIRA item, use Atlassian MCP to read actual content. Title-based inference is wrong often enough to matter.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — Full project context: what it is, team, org, state, risks, top priorities, Obsidian vault location

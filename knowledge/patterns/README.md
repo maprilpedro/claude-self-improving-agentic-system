@@ -551,3 +551,21 @@
 - **Design rule**: Cap the top-priority label at a small number (4-5 for a Director roll-up). Anything beyond that cap is either miscoded or signals a capacity crisis. Either way, the audit surfaces it rather than letting the list silently grow.
 - **When it applies**: Any tracking system where a priority label is meant to filter attention. Status files, JIRA boards, sprint planning, engineering dashboards.
 - **When it fails**: If the cap is held mechanically rather than based on actual load-bearing-ness, important work gets artificially demoted. The cap is a calibration tool, not a quota — use judgment about what belongs above the line, then prune below.
+
+### Dual-Track Source Tracking — Slack Parent vs JIRA Parent
+- **Source**: Pedro session, April 28, 2026 (H2 2026 HC Rollup analysis)
+- **Date**: 2026-04-28
+- **Observation**: When mapping H2 2026 roadmap items to their parent initiatives, two sources gave conflicting answers. The Slack canvas (curated source doc, manually grouped under section headers like "DX Initiative: Adobe LLMO (LLMO-4023)") said one thing. The JIRA "implements" relationships (formal record, fetched via MCP) said another. For most items the two agreed. For LLMO-4141 they diverged: Slack said LLMO-4023, JIRA said DX-1134 (Closed). Both are useful artifacts; neither is enough on its own.
+- **Pattern**: When a planning surface is curated by humans (slides, Slack canvases, Confluence pages) AND backed by a structured system (JIRA, Linear, Asana), the two diverge over time because curation reflects current intent while the structured system reflects formal record. Track both side-by-side in coordination artifacts. Mismatches are signals — usually that the formal record needs updating to match new intent (or that intent is drifting from what's been formalized).
+- **Design rule**: For any "what is this item part of?" column in a planning rollup, show both the human-curated source (Slack Parent / Slide Parent / Doc Parent) and the structured source (JIRA Parent / Linear Parent). When they match, the columns reinforce. When they disagree, you have a finding worth surfacing.
+- **When it applies**: Cross-team planning where curated summaries exist alongside ticket trackers. PM rollups for executive review. Initiative-to-roadmap mappings.
+- **When it fails**: If the human-curated source is the only authority (no formal system) or if the structured system is the only one used (no narrative summary), there's nothing to dual-track. One column is enough.
+
+### Narrative Claim vs Canonical Truth — Status-Tagged Promotion
+- **Source**: Pedro session, April 28, 2026 (H2 HC Rollup HOME-832 + AEMAGT-538 placements)
+- **Date**: 2026-04-28
+- **Observation**: Pedro's own work (HOME-832 Experience Hub, AEMAGT-538 Experience Modernization) sits formally under DX-1222 "Cloud: Product Adoption" in JIRA. But for the May 4 narrative — "EH and Modernization are AEM agent surfaces" — Pedro wanted them visible in the DX-1220 "Agentic Web" table. The temptation was to relabel parents to match placement. The cleaner pattern: keep parents truthful in their columns + use a Status / Source column to mark "Pedro-driven" or "Pedro-promoted." Truth and narrative coexist.
+- **Pattern**: When a leader is making a deliberate cross-initiative narrative claim (an item belongs in a different conversation than its formal home suggests), don't rewrite the formal record — annotate the placement. The artifact becomes a transparent narrative layer over canonical truth. Anyone reading the table can see both: where the work formally sits AND why the leader is presenting it differently.
+- **Design rule**: Use a status / placement-reason column. Values like "Pedro-driven" / "Pedro-promoted" / "Bertrand-claimed" make the narrative move explicit. Parent columns stay truthful. Subtotal commentary explains the cross-initiative inclusion.
+- **When it applies**: Roadmap rollups for executive narrative. Cross-initiative coordination tables. Promotion-case artifacts where scope claims need to be both truthful and visibly assertive.
+- **When it fails**: When the leader hides the move (rewrites parents to match placement) — that produces a doc that looks clean but breaks down under scrutiny from finance, planning, or the source-of-record team. Transparency in the placement-reason is what makes the move durable.
