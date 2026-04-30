@@ -659,3 +659,19 @@ All paths relative to: `/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilp
 ## Slack Channels
 
 \#experience-hub, \#experience-hub-ai-assistant, \#aem-home-platform-team, \#aem-home-core-team, \#temp-experiencehub-dxue, \#dx-product-measurement, \#tmp_aem_missing_prompt_library, AEM experience hub extension builder (new)
+
+---
+
+## April 29-30, 2026 — AO 2.0 Day + Vault Gap
+
+The 2-hour AO 2.0 strategy session was scheduled for Wednesday April 29 afternoon. Outcomes from the room are not yet captured — Pedro to share notes / transcript in next session.
+
+**Vault gap to address before May 4:** there is no canonical pre-meeting strategic brief in the vault for high-stakes exec sessions. AO 2.0 agenda was drafted on calendar / Slack only. Same gap will affect Loni + Jean-Michel prep week of May 4 unless Pedro writes a one-page brief next to the KR3 note. Sections: strategic frame, what we present, what we do not, expected questions with pre-staged answers, exit definition. See `Adobe Projects 2026 Meeting Notes/20260429-30 - Session Summary.md`.
+
+**Five load-bearing items unverified status as of April 30:**
+
+1. Apoorva punch-list close — Items 2/3/5/6 were due Mon Apr 27. Confirm actual closure with Pedro.
+2. JM warm-up Claude project — was due to Slack to JM Mon Apr 28, CC Jaclyn. Confirm actual send.
+3. AO 2.0 strategy session — held Apr 29 afternoon. Outcomes pending Pedro share.
+4. Priority Consolidation view to production — due Fri May 1. Draft saved Apr 24.
+5. Loni + JM deck — due week of May 4. No outline yet.

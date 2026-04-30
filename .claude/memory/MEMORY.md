@@ -5,6 +5,7 @@
 - [Splunk MCP usage dashboard](reference_splunk_mcp.md) — Bertrand's source for MCP adoption metrics. Paired with CM UI activity data (owner TBD) for ratio metric.
 - [OKR structure — O1 AI Agent Intelligence](reference_okr_structure.md) — Location and current KR composition. KR1 Apoorva punch-list, KR3 Loni+JM presentation, KR4 Priority Consolidation view, KR SLA planning, etc.
 - [Atlassian MCP — JIRA + Confluence](reference_atlassian_mcp.md) — Tool surface for fetching real JIRA / Confluence content from Adobe corp instances (only way in, since they're internal-only).
+- [AEM Agent Ownership Matrix](reference_aem_agent_ownership.md) — Canonical PgM/PM/Eng/JIRA for the 10 AEM agents per slide 44 of H2'26 AEM & Agentic Web Planning deck.
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
@@ -28,6 +29,8 @@
 - [Read existing KR notes before drafting artifacts](feedback_read_kr_before_drafting.md) — Check `/120 Projects/Work/OKRs/` before drafting anything tied to a KR. The plan is usually already there.
 - [Status files are roll-ups not task trackers](feedback_status_rollup_not_tracker.md) — Focus sections link to KR notes. Detailed tasks live in KR notes with Todoist IDs. Don't duplicate.
 - [Fetch JIRA via MCP before opining](feedback_jira_mcp_before_opining.md) — When Pedro mentions a JIRA item, use Atlassian MCP to read actual content. Title-based inference is wrong often enough to matter.
+- [Defuse vs defer](feedback_defuse_vs_defer.md) — Scope clarity reroutes work, doesn't eliminate it. Frame moved items as deferred (still owed, sourced elsewhere), not defused.
+- [Response window for exec questions](feedback_response_window_for_exec_questions.md) — When Bertrand/Loni asks for input ahead of a meeting tonight, the window is 30 min, not 90. Lead with 5-sentence answer matching their literal frame. Deep analysis is for the second window.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — Full project context: what it is, team, org, state, risks, top priorities, Obsidian vault location
