@@ -6,6 +6,7 @@
 - [OKR structure — O1 AI Agent Intelligence](reference_okr_structure.md) — Location and current KR composition. KR1 Apoorva punch-list, KR3 Loni+JM presentation, KR4 Priority Consolidation view, KR SLA planning, etc.
 - [Atlassian MCP — JIRA + Confluence](reference_atlassian_mcp.md) — Tool surface for fetching real JIRA / Confluence content from Adobe corp instances (only way in, since they're internal-only).
 - [AEM Agent Ownership Matrix](reference_aem_agent_ownership.md) — Canonical PgM/PM/Eng/JIRA for the 10 AEM agents per slide 44 of H2'26 AEM & Agentic Web Planning deck.
+- [Power BI — Token usage per org](reference_powerbi_token_usage.md) — Adobe corp Power BI report. Token consumption per org. Ties to FinOps (Jaclyn) + AO 2.0 pricing/SKU risk (Bertrand April 29).
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
@@ -31,6 +32,8 @@
 - [Fetch JIRA via MCP before opining](feedback_jira_mcp_before_opining.md) — When Pedro mentions a JIRA item, use Atlassian MCP to read actual content. Title-based inference is wrong often enough to matter.
 - [Defuse vs defer](feedback_defuse_vs_defer.md) — Scope clarity reroutes work, doesn't eliminate it. Frame moved items as deferred (still owed, sourced elsewhere), not defused.
 - [Response window for exec questions](feedback_response_window_for_exec_questions.md) — When Bertrand/Loni asks for input ahead of a meeting tonight, the window is 30 min, not 90. Lead with 5-sentence answer matching their literal frame. Deep analysis is for the second window.
+- [One artifact per ask — don't proliferate vault files](feedback_one_artifact_per_ask.md) — When Pedro asks for one document, that is the artifact. Don't spawn slide drafts / spec outlines / supporting files. Add sections to the canonical doc instead.
+- [Concise plan reminder when user forgets context](feedback_concise_reminder_when_forgotten.md) — When Pedro asks "what was the plan again?", give the move + exit line + 3 questions in 5 sentences max. Not a full restatement.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — Full project context: what it is, team, org, state, risks, top priorities, Obsidian vault location

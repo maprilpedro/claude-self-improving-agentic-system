@@ -516,3 +516,36 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **PM application**: When a colleague or direct report surfaces overwhelm, resist the urge to offer frameworks or ask clarifying questions. First offer subtraction ("which of these can wait?"). Second offer load-sharing ("I'll carry X through while you hold Y"). Only produce new material if the short list reveals a genuinely missing artifact.
 - **When it works**: When the overwhelm is recent and the list exists but is miscalibrated. When the relationship has trust — subtraction feels supportive, not presumptive.
 - **When it fails**: When the overwhelm is long-running and signals burnout, not miscalibration. Subtraction alone won't fix burnout. Also fails when the leader is venting, not asking — read the request carefully.
+
+---
+
+### Broadcast Frequency Is the Muscle, Not Strategic Comms
+
+- **Date**: 2026-05-01
+- **Source**: Pedro self-diagnosis — *"i have a bias for delivery and poor communication skills strategically."*
+- **Insight**: Many execution-strong Directors mis-diagnose themselves as having a "strategic communication" gap when the actual gap is broadcast frequency. The written analysis is sharp, the Slack drafts when actually written are good, the artifacts when shipped are solid. The gap is that things ship and stay silent. Wave 1+2 audit fixes shipped invisibly. The 71% retention finding sat in the vault for hours. The Briefing v0 had no signature. Builders who don't broadcast watch peers who built less get promoted, because peers told the story.
+- **Reframe**: Broadcast frequency is a habit, not a personality trait or a skill issue. Habits compound rep by rep. The Senior Director version of any execution-strong Director is the same execution + 3 broadcast reps a day.
+- **Three-rep template for any shipped artifact**:
+  1. **Slack the chain upward** — link + headline finding + ask for input. Five sentences. Send in ten minutes, don't redraft for an hour.
+  2. **Sign the artifact** — author line on the work itself. *"Author: [Name]. Questions: [Slack/email]."* Anonymous artifacts get attributed to teams, not authors.
+  3. **Drop the finding in passing** in the next 1:1, even if the meeting is about something else. *"By the way, we found X. Y asked the right question."* Builds the habit of naming findings out loud.
+- **Why "reps" not "frameworks"**: Frameworks for strategic comms are abundant and unread. The diagnosis-cure mismatch is the trap. Telling an execution-strong Director to "communicate more strategically" lands as "be a different person." Telling them to send three Slacks a day for a month lands as a habit they can build.
+- **Munger applied**: Invert the question — *what would the high-broadcast-frequency version of this person look like?* The answer makes the gap concrete and tactical. The version of Pedro that gets promoted Slacks Bertrand at 9pm with *"shipped X, finding Y, want your eyes before tomorrow."* The version that doesn't ships and stays silent.
+- **Counter-pattern**: Broadcasting weak work compounds the problem. Reps only build the muscle when there's substance to broadcast. Pair the broadcast habit with a delivery filter: *only broadcast what would withstand a peer reading it cold.* The execution-strong Director already has this filter — that's why the work is good when it does land.
+
+
+---
+
+### Convergence Framing — Collapse Multiple Stakeholder Asks Into One Artifact
+
+- **Date**: 2026-05-01
+- **Source**: AEM Agent Portfolio Monthly Briefing — three stakeholder asks (Bertrand's Stable Monthly Metrics Deck KR5, Yanira's "high-level slide" with Jaclyn CC'd, Loni + JM May 4 high-level summary section) all collapsed into one artifact.
+- **Insight**: When multiple senior stakeholders independently ask for adjacent artifacts, the Director-level move is to build all three. The Senior Director-level move is to recognize they're the same artifact rendered differently and consolidate. Three asks → one artifact reframes the PM from order-taker to architect.
+- **The reframe in language**: Instead of *"I'll build it for you"* (acknowledgment of a request), reply with *"This is exactly what I'm packaging for [the larger initiative]. I'll share an early cut by [date]."* That positioning does three things at once: signals you saw the need before it arrived, repositions the artifact upstream of any single stakeholder, makes the requester a reviewer not a recipient (reviewers advocate later, recipients consume).
+- **The architecture pattern**: When you can name the convergence out loud, you can consolidate it in writing. *"Three asks converged into one artifact (April 30 decision): Bertrand X, Yanira Y, Loni JM Z. All three resolve to the same artifact: [name]."* Then the artifact has built-in justification for its existence in front of all three audiences.
+- **When it applies**: Multiple senior stakeholders have asked for adjacent things in the last 30 days. The asks share a data substrate, an audience layer, or a temporal pattern (all "monthly cadence"). One stakeholder hasn't yet seen what the others asked.
+- **When it fails**: If the asks are genuinely orthogonal (different data, different audiences, different cadences), forcing convergence creates a Frankenstein artifact that satisfies no one. Test: can you write a one-paragraph "Why This Matters" that names all three stakeholder asks and the artifact lands as the natural answer? If yes, convergence is real. If no, leave them separate.
+- **Naming carries weight**: Use a stakeholder's vocabulary in the artifact name. Pedro named the converged artifact "Portfolio Monthly Briefing" — "Portfolio" was Jaclyn's word from the April 21 P42 status meeting (portfolio investment, 20% Foundation pattern). Speaking her language compounds the ally relationship and signals system-level thinking.
+- **The three-stakeholder reply template** (when announcing the converged artifact):
+  > "Hi [stakeholder] — yes, this is exactly what I'm packaging for [the senior visibility moment]. [One line about what's already shipped and one finding worth flagging.] I'll share an early cut by [date]. CC'ing [adjacent stakeholder] since this aligns with [shared frame from a prior meeting]."
+

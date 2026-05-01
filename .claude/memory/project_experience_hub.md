@@ -662,16 +662,32 @@ All paths relative to: `/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilp
 
 ---
 
-## April 29-30, 2026 — AO 2.0 Day + Vault Gap
+## April 29 — May 1, 2026 — AO 2.0, Audit Sprint, Briefing v0, QBR Reframe
 
-The 2-hour AO 2.0 strategy session was scheduled for Wednesday April 29 afternoon. Outcomes from the room are not yet captured — Pedro to share notes / transcript in next session.
+**April 29 — AO 2.0 strategy session held.** 2-hour block with Bertrand, Conrad, Yanira, Jaclyn, Ian Boston, Carsten Ziegeler, Trent Davies, Ken Russell. Outcomes captured at `Adobe Projects 2026 Meeting Notes/Agent Owner Alignement/20260429 - Alignment_ AEM Agents & AOv2.md`. Key decisions: AEM pursues AO 2.0 as forward agent strategy, AEM A2A servers to be decommissioned, internal-open-source engagement model with AO team (PRs, forks). Bertrand framing line worth quoting on May 11 deck: *"I would prefer us, AEM, to focus on the AEM use cases rather than building technology if there's a dedicated team for the infrastructure around it."* Loni's frame stays: *"AEM owns its strategy."* AEM owns use cases + practitioner experience + customer co-innovation + agent definitions; AO 2.0 owns harness/runtime/orchestrator.
 
-**Vault gap to address before May 4:** there is no canonical pre-meeting strategic brief in the vault for high-stakes exec sessions. AO 2.0 agenda was drafted on calendar / Slack only. Same gap will affect Loni + Jean-Michel prep week of May 4 unless Pedro writes a one-page brief next to the KR3 note. Sections: strategic frame, what we present, what we do not, expected questions with pre-staged answers, exit definition. See `Adobe Projects 2026 Meeting Notes/20260429-30 - Session Summary.md`.
+**April 30 — Audit Sprint (10 PRs, single day).** Pedro shipped Wave 1 (Tier 1, 5 trust-hygiene fixes), Wave 2 (Tier 2, 4 visible-commitment items), and 2 of Tier 3 early. Plus 2 Important Indicators closed (#4 No-Results Triage, #5 Owner column on Capability Gap Map). Plus monthly retention shipped (PR #55) revealing the **45% weekly orgs vs 71.2% monthly orgs** stickiness gap on Discovery W17. 9/16 audit items closed by EOD.
 
-**Five load-bearing items unverified status as of April 30:**
+**April 30 PM — Portfolio Monthly Briefing v0 shipped.** At `https://main--aem-agent-reports--aem-epa.aem.page/reports/portfolio/2026-04/briefing`. New senior-management artifact, monthly cadence, AEM-only. 4 of 6 sections ship with substance: Executive Summary, MAU per agent (6-month line), Retention (71.6% EPA, 71.5% Discovery monthly orgs), Reach (767 active orgs, 59.7% cross-agent rate). Quality section has WIP banner pending cross-validation. Sections 5-6 placeholder. Spec at `aem-agent-data/PORTFOLIO-MONTHLY-BRIEFING-SPEC.md`.
 
-1. Apoorva punch-list close — Items 2/3/5/6 were due Mon Apr 27. Confirm actual closure with Pedro.
-2. JM warm-up Claude project — was due to Slack to JM Mon Apr 28, CC Jaclyn. Confirm actual send.
-3. AO 2.0 strategy session — held Apr 29 afternoon. Outcomes pending Pedro share.
-4. Priority Consolidation view to production — due Fri May 1. Draft saved Apr 24.
-5. Loni + JM deck — due week of May 4. No outline yet.
+**April 30 — Yanira ask consolidation.** Yanira Slack ("AEM Agents Usage at high level"), CC Jaclyn — feedback that current report's WoW data is "too transactional." Pedro confirmed co-innovation classification is already in pipeline (just not surfaced). The Yanira ask + Bertrand's KR5 Stable Monthly Metrics Deck + the May meeting high-level summary all converged into the same artifact: the **AEM Agent Portfolio Monthly Briefing**. Pedro replied to Yanira same day. Naming locked April 30: "Portfolio" matches Jaclyn's frame from April 21 P42 status meeting.
+
+**May 1 — Three updates.**
+
+1. **Loni + JM meeting rescheduled.** Was week of May 4, now **week of May 11** (confirmed May 1, 2026). Bertrand review of Portfolio Briefing requested for Monday May 4 AM, before the agent sync at 4pm — pending Bertrand confirmation. Pedro Slacked Bertrand the Briefing link + 71% retention finding tonight (in French, friendly tone — first broadcast rep on the muscle Pedro flagged as a development gap).
+
+2. **AEM Agents QBR registered as senior-tier reference.** Tina Nicu / Akin (PMM) shipped the Feb 2026 QBR at `/Users/pedrofer/Downloads/AEM Agents QBR_Feb2026_SP.pdf`. Three-tier architecture now locked: **QBR (PMM-led, quarterly, senior leadership) → Portfolio Monthly Briefing (Pedro-led, monthly, senior management) → per-agent reports (weekly, agent PMs)**. Three artifacts, three audiences, one data source. KR5 architecture statement updated.
+
+3. **New PMM signal — Vaishnav Gorur.** Recent Slack indicates Vaishnav Gorur is the new PMM for AEM agents. Not yet confirmed via corp directory (Confluence auth expired). SD-1 plan revised from "meet Haresh Kumar" to **option C** — Slack Haresh first to confirm Vaishnav + request intro, then meet Vaishnav. Draft Slack ready (English, peer tone, leads with confirmation question). Vaishnav confirmation due Wed May 6.
+
+**Senior Director moves status as of May 1:**
+
+- **SD-1** — Haresh Slack drafted, not sent. Plan: Monday May 4. Goal: confirm Vaishnav + intro request.
+- **SD-2** (JM warm-up Claude project) — working on it, not shipped. New due May 8.
+- **SD-3** ($500K P42 cost trace) — not closed. New due May 8.
+- **KR4** Priority Consolidation view — in draft (April 24 version). New due May 8.
+- **Yanira QBR ownership ask** — added as task for Monday May 4.
+
+**Vault gap (still open):** no canonical pre-meeting strategic brief next to the KR3 note. Should be drafted week of May 5 ahead of May 11 meeting. Sections: strategic frame, what we present, what we don't, expected questions + pre-staged answers, exit definition.
+
+**Pedro's session-named development gap (May 1 self-diagnosis):** *"i have a bias for delivery and poor communication skills strategically."* Reframed as broadcast frequency, not skill issue. Tonight's Slack to Bertrand was first rep on the muscle. Stack three reps a day for a month and the diagnosis stops being true.
