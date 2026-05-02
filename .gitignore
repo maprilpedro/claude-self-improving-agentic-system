@@ -2,8 +2,4 @@ input/*.rtf
 input/*.txt
 input/*.pdf
 input/*.md
-projects/**/*.png
-projects/**/*.jpg
-projects/**/*.jpeg
 .DS_Store
-.claude/worktrees/
