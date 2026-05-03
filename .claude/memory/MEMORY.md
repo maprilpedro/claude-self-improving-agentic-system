@@ -3,7 +3,7 @@
 ## References
 - [Claude improvement tools](claude-improvement-tools.md) — Recommended MCP servers, skills, editor extensions, and architecture improvements for the PM knowledge system
 - [Splunk MCP usage dashboard](reference_splunk_mcp.md) — Bertrand's source for MCP adoption metrics. Paired with CM UI activity data (owner TBD) for ratio metric.
-- [OKR structure — O1 AI Agent Intelligence](reference_okr_structure.md) — Location and current KR composition. KR1 Apoorva punch-list, KR3 Loni+JM presentation, KR4 Priority Consolidation view, KR SLA planning, etc.
+- [OKR structure — O1 AAI + O2 EH](reference_okr_structure.md) — Both project OKRs after Phase 2 split. O1 = AAI (Apoorva KR1, Loni+JM KR3, Priority Consolidation KR4, SLA KR6). O2 = EH personalization KRs.
 - [Atlassian MCP — JIRA + Confluence](reference_atlassian_mcp.md) — Tool surface for fetching real JIRA / Confluence content from Adobe corp instances (only way in, since they're internal-only).
 - [AEM Agent Ownership Matrix](reference_aem_agent_ownership.md) — Canonical PgM/PM/Eng/JIRA for the 10 AEM agents per slide 44 of H2'26 AEM & Agentic Web Planning deck.
 - [Power BI — Token usage per org](reference_powerbi_token_usage.md) — Adobe corp Power BI report. Token consumption per org. Ties to FinOps (Jaclyn) + AO 2.0 pricing/SKU risk (Bertrand April 29).
@@ -38,5 +38,6 @@
 - [Concise plan reminder when user forgets context](feedback_concise_reminder_when_forgotten.md) — When Pedro asks "what was the plan again?", give the move + exit line + 3 questions in 5 sentences max. Not a full restatement.
 
 ## Projects
-- [AEM Experience Hub](project_experience_hub.md) — Full project context: what it is, team, org, state, risks, top priorities, Obsidian vault location
+- [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.
+- [AEM Agents Intelligence](project_aem_agents_intelligence.md) — Agent reporting platform, AO 2.0 liaison, three-tier reporting, Loni+JM May 11 deck, H-005 resolved. Sister file to EH.
 - [Adobe AEM PM org](project_adobe_org.md) — Reporting chain: User → Bertrand (Sr Director) → Loni (VP PM for AEM)

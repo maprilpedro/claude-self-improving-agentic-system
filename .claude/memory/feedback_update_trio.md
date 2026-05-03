@@ -1,18 +1,26 @@
 ---
-name: Update trio after every meeting analysis
-description: After every analysis of meeting notes, transcript, or document — always update these three Obsidian files: Stakeholder Map, State of the Project, Questions for Next 1-1 with Sorin
+name: Update trio after every meeting analysis — two trios after Phase 2 split
+description: After every analysis, update the trio for the project the analysis touches: EH trio (Sorin/Bertrand) or AAI trio (Yanira). Bertrand 1-1 file remains EH-side cross-cutting.
 type: feedback
 ---
 
-After every analysis of meeting notes, a transcript, a Slack export, or any significant document — always update these four files in the Obsidian vault without waiting to be asked:
+After every analysis of meeting notes, transcript, Slack export, or significant document — update the relevant project's trio in the Obsidian vault without waiting to be asked. Phase 2 split (2026-05-03) gives two trios:
 
-1. `Experience Hub - Stakeholder Map.md` — update roles, status, notes for anyone mentioned
-2. `Experience Hub - State of the Project.md` — update what's working, what's not, risks, architecture direction
-3. `Experience Hub - Questions for Next 1-1 with Sorin.md` — add new questions surfaced by the analysis
-4. `Experience Hub - Questions for Next 1-1 with Bertrand.md` — add/update open asks and items to raise (created April 1, 2026)
+**EH trio** (`Experience Hub/AEM Experience Hub - Project Folder/Key Files/`):
+1. `Experience Hub - Stakeholder Map.md`
+2. `Experience Hub - State of the Project.md`
+3. `Experience Hub - Questions for Next 1-1 with Sorin.md`
+4. `Experience Hub - Questions for Next 1-1 with Bertrand.md` — cross-cutting, lives EH-side
 
-**Why:** User set this as a standing rule on 2026-03-24. These three files are the living operational documents for the project. Keeping them current after every new input is the expected default behavior.
+**AAI trio** (`AEM Agents Intelligence/AAI - Project Folder/Key Files/`):
+1. `AEM Agents Intelligence - Stakeholder Map.md`
+2. `AEM Agents Intelligence - State of the Project.md`
+3. `AEM Agents Intelligence - Questions for Next 1-1 with Yanira.md`
 
-**How to apply:** Do not wait for the user to ask. Do not ask for permission. Just update them as part of wrapping up any analysis session, alongside git commits and memory updates. Mention it briefly as part of the summary.
+**Why:** Standing rule since 2026-03-24. Phase 2 split (2026-05-03) carves AAI as its own project with its own counterpart (Yanira). Sorin = EH 1-1; Yanira = AAI 1-1; Bertrand = boss, cross-cutting (kept EH-side, but referenced from AAI when AAI items raised). Each trio is the living operational doc set for that project.
 
-Vault path: /Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.com/My Drive/ObsidianVault/020 Professional/Adobe/Projects/2026/Experience Hub/AEM Experience Hub - Project Folder/
+**How to apply:**
+- Classify the analysis input first: EH (surface, Sorin team, contribution) → EH trio; AAI (agent reporting, AO 2.0, Felix, Apoorva, Rubin, Loni+JM) → AAI trio.
+- If genuinely cross-cutting, update both trios but keep entries scoped (EH stakeholder map gets EH-relevant notes; AAI gets AAI-relevant notes).
+- Don't ask permission. Mention the trio updates in the wrap-up summary.
+- Bertrand 1-1 questions go in EH file regardless of project topic — Pedro reports up through Bertrand.

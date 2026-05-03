@@ -24,7 +24,9 @@ Frame all work through the Director PM building toward Senior Director lens. Eve
 
 ## Session Start
 
-At the start of every conversation, immediately pick up where we left off on Experience Hub. Don't wait for the user to ask. Read memory + the project context file, give a concise status update, then ask what to work on today. Starting fresh creates friction and makes Pedro repeat himself.
+At the start of every conversation, immediately pick up where we left off across both projects: **AEM Experience Hub (EH)** and **AEM Agents Intelligence (AAI)**. Don't wait for the user to ask. Load `project_experience_hub.md` + `project_aem_agents_intelligence.md` from `.claude/memory/`, pull current state from each project's canonical Status & Todo, give a concise per-project status update, then ask what to work on. Default tilt May 1-11 leans AAI (Loni+JM deck delivery). Starting fresh creates friction and makes Pedro repeat himself.
+
+Phase 2 vault split landed 2026-05-03: EH = surface, contribution model, Sorin team. AAI = agent reporting, AO 2.0 liaison, three-tier reporting, May 11 deck.
 
 ---
 
@@ -107,6 +109,8 @@ Push only when explicitly asked. This repo's push is auth-blocked (per memory).
 
 ## Common PM Tasks Routing
 
+### By knowledge domain
+
 | Task | Start | Then |
 |---|---|---|
 | Analyze user interview | `domain/` | `hypotheses/active.md`, `patterns/` |
@@ -124,5 +128,14 @@ Push only when explicitly asked. This repo's push is auth-blocked (per memory).
 | Senior Director visibility | `leadership/` | `hypotheses/active.md` (H-003, H-005) |
 | Cross-org influence | `leadership/` (Cross-Org Influence) | `interpersonal/`, `patterns/` |
 | AI product / agent work | `ai-product/` | `false-beliefs/` |
+
+### By project (post Phase 2 split, 2026-05-03)
+
+| Surface | Project | Memory file | Status & Todo | OKR folder | 1-1 trio |
+|---|---|---|---|---|---|
+| EH surface, contribution model, Sorin team | **AEM Experience Hub (EH)** | `project_experience_hub.md` | `Experience Hub/AEM Experience Hub - Project Folder/Status and Roadmap/Experience Hub - Status and Todo.md` | `O2 - EH Migration to Personalized/` | EH Stakeholder Map / EH State of Project / Sorin 1-1 + Bertrand 1-1 |
+| Agent reporting, AO 2.0 liaison, Loni+JM deck, three-tier reporting | **AEM Agents Intelligence (AAI)** | `project_aem_agents_intelligence.md` | `AEM Agents Intelligence/AAI - Project Folder/Status and Roadmap/AEM Agents Intelligence - Status and Todo.md` | `O1 - AI Agent Intelligence/` | AAI Stakeholder Map / AAI State of Project / Yanira 1-1 |
+
+Bertrand 1-1 file lives EH-side, cross-cutting (Pedro reports up through Bertrand for both). Mirror rule retired — route tasks to the project that owns the outcome, no duplication.
 
 `Decision Journal` and `Quality Gate` rules from global CLAUDE.md also apply.

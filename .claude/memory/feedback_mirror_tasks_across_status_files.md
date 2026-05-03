@@ -1,11 +1,13 @@
 ---
-name: Mirror tasks across both Status & Todo files when work spans surfaces
-description: When Pedro asks to capture next actions and the work touches both EH and AI-Assistant (agent reporting), put the tasks in both Status & Todo files — don't force a split
+name: Mirror tasks rule retired (Phase 2 vault split 2026-05-03) — route by project
+description: After EH/AAI vault split, agent-reporting tasks live in AAI Status & Todo only. Do not mirror into EH file.
 type: feedback
 ---
 
-Rule: when work spans multiple artifact surfaces (e.g., agent reporting touches both `EH - Status and Todo.md` and `AI-Assistant - Status and Todo.md`), mirror the new tasks into both files. Use identical row text. Don't offer to split; mirror is the default.
+Rule (post Phase 2 split, 2026-05-03): tasks route by project, not by mirror. Agent reporting / AO 2.0 liaison / Felix / Apoorva validation / Rubin / report-to-JIRA / AEM agent intelligence layer → `AEM Agents Intelligence - Status and Todo.md` (canonical AAI status). EH-only items (surface, contribution model, prompting/skills, profiling, Sorin team) → `Experience Hub - Status and Todo.md`. Cross-cutting items go in the project they primarily serve, never both.
 
-**Why:** Confirmed April 23 2026. After I added 5 Varun next-actions to the EH file, I asked "Want me to also add any of these to the AI-Assistant Status & Todo file?" Pedro said "yes" immediately. Each file has its own audience and scan pattern — EH is the product/roadmap surface, AI-Assistant tracks the reporting pipeline — but the agent-reporting work genuinely belongs in both. Duplication is a feature, not waste.
+**Why:** The original mirror rule (April 23 2026) treated agent-reporting work as cross-surface. Phase 1 split (May 3) carved AAI as its own project. Mirroring is now duplication that drifts. Each file owns one project's task surface clean.
 
-**How to apply:** If a task relates to (a) agent reporting pipeline, (b) Felix / Lara / Varun work, (c) Apoorva validation, (d) Rubin tagging, (e) report-to-JIRA, or (f) anything that touches the AEM agent intelligence layer — mirror into both Status & Todo files in the same update. Also mirror Conversations & Links entries and Key People additions. Use identical row text so the files stay reconcilable when one gets edited later.
+**How to apply:** When the user asks for next-actions and you'd previously have asked "mirror to AI-Assistant Status?" — instead, classify the task to AAI or EH and write to that one file. If genuinely cross-cutting (rare), pick the project that owns the *outcome* and add a one-line cross-reference in the other file pointing to the canonical task. Never duplicate the row text.
+
+The legacy `AI-Assistant - Status and Todo.md` file is deprecated (2026-05-03 banner). Do not edit it. Phase 2 archives it.
