@@ -4,6 +4,9 @@ description: Full context on the Experience Hub project - what it is, who owns i
 type: project
 originSessionId: 298c09b0-7372-4e27-9660-87019bb7d26c
 ---
+
+> **Two-project split — in progress (2026-05-03).** AAI scaffold at `2026/AEM Agents Intelligence/AAI - Project Folder/`. EH scope retained here until Phase 2 (post-May 11).
+
 AEM Experience Hub is the unified home screen / landing page for AEM Cloud Service at experience.adobe.com. Launched August 2024. Previously named AEM Home and AEM Launchpad. Not a replacement for existing AEM UIs. An action-oriented entry point that surfaces the right tools per persona.
 
 **Current PM:** User (took over from Shankari in March 2026 — ~3 weeks in as of April 1, 2026.)
