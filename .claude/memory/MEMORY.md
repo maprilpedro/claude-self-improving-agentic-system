@@ -7,6 +7,7 @@
 - [Atlassian MCP — JIRA + Confluence](reference_atlassian_mcp.md) — Tool surface for fetching real JIRA / Confluence content from Adobe corp instances (only way in, since they're internal-only).
 - [AEM Agent Ownership Matrix](reference_aem_agent_ownership.md) — Canonical PgM/PM/Eng/JIRA for the 10 AEM agents per slide 44 of H2'26 AEM & Agentic Web Planning deck.
 - [Power BI — Token usage per org](reference_powerbi_token_usage.md) — Adobe corp Power BI report. Token consumption per org. Ties to FinOps (Jaclyn) + AO 2.0 pricing/SKU risk (Bertrand April 29).
+- [CLI binaries playbook](reference_cli_binaries.md) — When to reach for yq/comby/sd/scc/difft/shellcheck/ast-grep. Workhorses for memory + knowledge ops.
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
