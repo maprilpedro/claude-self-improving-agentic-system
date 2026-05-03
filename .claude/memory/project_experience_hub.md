@@ -691,3 +691,21 @@ All paths relative to: `/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilp
 **Vault gap (still open):** no canonical pre-meeting strategic brief next to the KR3 note. Should be drafted week of May 5 ahead of May 11 meeting. Sections: strategic frame, what we present, what we don't, expected questions + pre-staged answers, exit definition.
 
 **Pedro's session-named development gap (May 1 self-diagnosis):** *"i have a bias for delivery and poor communication skills strategically."* Reframed as broadcast frequency, not skill issue. Tonight's Slack to Bertrand was first rep on the muscle. Stack three reps a day for a month and the diagnosis stops being true.
+
+---
+
+## May 2-3, 2026 — Memory Consolidation Pass + H-005 Resolution
+
+Sunday hygiene session. No external meetings, no execution. Two consolidation moves shipped.
+
+**1. H-005 promoted to resolved.md — first-ever resolved hypothesis.** Hypothesis ("Owning Cross-Agent Measurement Standardization Creates Structural Cross-Org Influence for the Experience Hub PM," proposed March 26) confirmed with 7 evidence lines spanning April 13 to May 1: AEM-AO liaison naming (Apr 14), Felix reports named at VP level (Apr 13), Loni prompt-to-roadmap question Pedro answers (Apr 13), Varun voluntary consolidation of Discovery wiki into Pedro's platform (Apr 22), Karthik / Rubin definition acceptance (Apr 16), three-tier reporting architecture locked with Pedro owning the middle tier (May 1), Portfolio Monthly Briefing v0 shipped (Apr 30). Original test design ("count agent teams that adopt a TSR/VRR standard") was a Director's test; actual confirmation came at the Senior Director's test ("are you in the room when the architecture is being decided?"). Both true now. Lesson: cross-org influence accrues to the owner of the data substrate before any literal "standard" ships — don't gate the role claim on the standard's maturity.
+
+**2. Vault backfill — sections that lagged execution.** State of the Project April 30 PM / May 1 + May 2-3 sections added (last session had explicitly flagged "separate refresh; flag for next session"). EH + AI-Assistant Status & Todo session logs caught up to May 1 execution + May 3 consolidation.
+
+**INDEX.md updates:** folder inventory active 5 → 4, resolved 0 → 1. Access log entry added.
+
+**No new knowledge entries this session.** Memory fresh from May 1 commit.
+
+**Open Senior Director moves status (unchanged from May 1):** SD-1 Slack to Haresh draft ready for Mon May 4; SD-2 JM warm-up Claude project in progress (May 8); SD-3 $500K P42 cost trace not started (May 8); KR4 Priority Consolidation view in April 24 draft (May 8); Yanira QBR ownership ask added to KR3 (Mon May 4); confirm Vaishnav as PMM (Wed May 6).
+
+**Vault gaps still open:** Stakeholder Map Vaishnav entry (held until Wed May 6 confirmation); pre-meeting strategic brief for May 11 Loni + JM meeting (draft week of May 5); Briefing v0 sections 5-6 (pending Indicator #8 on May 17).

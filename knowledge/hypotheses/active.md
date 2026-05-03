@@ -96,19 +96,5 @@ Observe signal --> Propose hypothesis --> Design test --> Collect evidence --> R
 
 ## H-005: Owning Cross-Agent Measurement Standardization Creates Structural Cross-Org Influence for the Experience Hub PM
 
-- **Status**: Proposed
-- **Date proposed**: 2026-03-26
-- **Category**: Leadership / Strategy
-- **Source signal**: No cross-agent measurement standard exists as of March 2026. Each agent team measures success differently. Bertrand, Conrad, and Loni have all expressed frustration with this. Felix Delval's platform can solve it technically.
-- **Hypothesis**: "We believe that the Experience Hub PM owning the cross-agent measurement standard — by driving adoption of a shared TSR/VRR baseline across all agent teams — will create durable cross-org influence, because measurement standards become infrastructure that every team depends on. The owner of the standard gets visibility into every agent's performance and a seat at every agent roadmap conversation."
-- **Test design**: Propose the standard (1-page). Validate with Bertrand. Get Conrad/Gilles alignment. Onboard EGA (Philippe) as first new agent on Felix's platform. Track: (1) how many agent teams adopt the standard; (2) whether Pedro is consulted on agent roadmap conversations he wasn't previously in.
-- **Evidence for**:
-  - Conrad told all agent owners to build equivalent reports to EPA (March 24 Slack). No one has done it yet — the position is open.
-  - Bertrand specifically asked for standardized agent dashboards in 1:1 (March 24). Pedro has the tool (Felix's platform) to deliver it.
-  - Infrastructure owners have cross-org influence by definition — every team that depends on the infrastructure needs a relationship with the owner.
-- **Evidence against**:
-  - Felix built the platform — it's his infrastructure. Pedro's role is PM adoption driver, not technical owner. Credit-sharing and positioning matters here.
-  - **VRR complexity (2026-03-31)**: Bertrand raised that VRR has 5 tiers and is being collapsed to one number. This means the "shared measurement standard" is more complex than initially framed — TSR and VRR are not flat metrics. The standard needs to specify tier definitions, not just metric names. This is a complication but not a hypothesis killer.
-- **Supporting observation (2026-04-13)**: Loni Stark asked directly in the H2 AEM planning session: "Do we have a view of what percentage of the top requests and stuff are making it into the agent?" Bertrand answered: no. This is the strongest evidence yet — the measurement gap is not just Pedro's observation, it's a named, unanswered VP-level question. Pedro's JIRA pipeline and priority consolidation view answer it directly. Owning the answer to a question Loni named but nobody answered is the structural influence move H-005 predicts.
-- **Status update**: H-005 is now in "Ready to resolve" territory. The cross-agent measurement standard is being built (Felix reports live, JIRA pipeline tested). Loni's explicit question confirms demand at VP level. The remaining step is packaging the answer clearly enough for Bertrand to take it back to her.
-- **Next step**: Get the 5-tier VRR definition from Yanira's wiki. Update Felix's platform to show VRR distribution, not just average. Then the standard is credible. Until then, presenting VRR numbers to Bertrand risks the same correction again.
+- **Status**: Resolved — Confirmed (2026-05-03). Moved to `resolved.md`.
+- **Summary of resolution**: Cross-org influence accrued to Pedro through ownership of the data substrate even before any literal "standard" shipped. Public naming as AEM-AO liaison (April 14), peer-team voluntary consolidation by Varun (April 22), three-tier reporting architecture locked with Pedro owning the middle tier (May 1), and Portfolio Monthly Briefing v0 shipped (April 30) collectively confirm the spirit-of-hypothesis prediction. See `resolved.md` for full evidence.
