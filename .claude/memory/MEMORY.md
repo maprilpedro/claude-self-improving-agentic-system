@@ -37,6 +37,7 @@
 - [Response window for exec questions](feedback_response_window_for_exec_questions.md) — When Bertrand/Loni asks for input ahead of a meeting tonight, the window is 30 min, not 90. Lead with 5-sentence answer matching their literal frame. Deep analysis is for the second window.
 - [One artifact per ask — don't proliferate vault files](feedback_one_artifact_per_ask.md) — When Pedro asks for one document, that is the artifact. Don't spawn slide drafts / spec outlines / supporting files. Add sections to the canonical doc instead.
 - [Concise plan reminder when user forgets context](feedback_concise_reminder_when_forgotten.md) — When Pedro asks "what was the plan again?", give the move + exit line + 3 questions in 5 sentences max. Not a full restatement.
+- [Session-start env-var hygiene](feedback_session_start_env_hygiene.md) — Keep 1M context on, don't override autocompact threshold for this project. Dual-project cold load is chunky and triggers early autocompact otherwise.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.
