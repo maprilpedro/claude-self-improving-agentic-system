@@ -133,7 +133,7 @@ Push only when explicitly asked. This repo's push is auth-blocked (per memory).
 
 | Surface | Project | Memory file | Status & Todo | OKR folder | 1-1 trio |
 |---|---|---|---|---|---|
-| EH surface, contribution model, Sorin team | **AEM Experience Hub (EH)** | `project_experience_hub.md` | `Experience Hub/AEM Experience Hub - Project Folder/Status and Roadmap/Experience Hub - Status and Todo.md` | `O2 - EH Migration to Personalized/` | EH Stakeholder Map / EH State of Project / Sorin 1-1 + Bertrand 1-1 |
+| EH surface, contribution model, Sorin team | **AEM Experience Hub (EH)** | `project_experience_hub.md` | `Experience Hub/AEM Experience Hub - Project Folder/AEM EH Status and Roadmap/Experience Hub - Status and Todo.md` | `O2 - EH Migration to Personalized/` | EH Stakeholder Map / EH State of Project / Sorin 1-1 + Bertrand 1-1 |
 | Agent reporting, AO 2.0 liaison, Loni+JM deck, three-tier reporting | **AEM Agents Intelligence (AAI)** | `project_aem_agents_intelligence.md` | `AEM Agents Intelligence/AAI - Project Folder/Status and Roadmap/AEM Agents Intelligence - Status and Todo.md` | `O1 - AI Agent Intelligence/` | AAI Stakeholder Map / AAI State of Project / Yanira 1-1 |
 
 Bertrand 1-1 file lives EH-side, cross-cutting (Pedro reports up through Bertrand for both). Mirror rule retired — route tasks to the project that owns the outcome, no duplication.
