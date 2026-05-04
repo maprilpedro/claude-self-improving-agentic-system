@@ -1,6 +1,6 @@
 ---
 name: Update trio after every meeting analysis — two trios after Phase 2 split
-description: After every analysis, update the trio for the project the analysis touches: EH trio (Sorin/Bertrand) or AAI trio (Yanira). Bertrand 1-1 file remains EH-side cross-cutting.
+description: "After every analysis, update the trio for the project the analysis touches: EH trio (Sorin/Bertrand) or AAI trio (Yanira). Bertrand 1-1 file remains EH-side cross-cutting."
 type: feedback
 ---
 

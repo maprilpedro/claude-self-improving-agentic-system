@@ -5,7 +5,8 @@
 
 set -euo pipefail
 
-export TODAY=$(date +%Y-%m-%d)
+TODAY=$(date +%Y-%m-%d)
+export TODAY
 VAULT="${1:-${VAULT_PATH:-/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.com/My Drive/ObsidianVault}}"
 
 if [[ ! -d "$VAULT" ]]; then
