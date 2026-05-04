@@ -584,3 +584,69 @@
 - **Time and budget**: Tier 1 (operational) is the highest investment — it's where the data layer lives. Tier 2 (management) is mostly aggregation + framing. Tier 3 (senior leadership) is mostly editorial + commercial framing. The investment ratio is roughly 70/20/10.
 - **Counter-pattern to avoid**: Three artifacts with three parallel data pipelines = three numbers that don't reconcile = trust collapse. The single-data-source rule is non-negotiable.
 
+---
+
+### Reverse-Engineering Strategy — "What Would Have to Be True?"
+
+- **Date**: 2026-05-04
+- **Source**: Lafley & Martin, *Playing to Win*, Ch 8 ("Shorten Your Odds")
+- **Pattern**: When a strategy team can't agree between competing options (or one person's option dominates the room), do not debate which is right. Reframe each option as a hypothesis and ask the seven-step question for each: *what would have to be true for this option to be the right one?* Then go test the conditions, not the conclusion. The team converges on the option whose conditions hold up, instead of the option held by the loudest voice.
+- **The seven steps** (compressed):
+  1. Frame the strategic choice — make options concrete and mutually exclusive.
+  2. Generate strategic possibilities — at least three, including one that breaks current assumptions.
+  3. Specify conditions for each — what would have to be true (industry, customer, position, competition, capability) for each to be the winning choice.
+  4. Identify barriers to choice — which conditions look least likely or hardest to verify.
+  5. Design tests for the barriers — proportional to the leader's confidence (lower confidence = bigger test).
+  6. Conduct the tests — run them honestly, even if results are unwelcome.
+  7. Make the choice — the option whose conditions hold becomes the strategy; document the discarded options + why.
+- **Why it works**: It depersonalizes the choice. Every executive in the room owns the *test*, not the *option*. Disagreement gets routed to "we disagree about which condition matters" — which is testable — instead of "we disagree about who is right" — which is not.
+- **PM application**: Use this in Director-level strategy debates where two roadmap directions compete and political weight is uneven. Frame both as hypotheses, ask the seven-step question, surface the conditions, propose the cheapest test for the most-disputed condition. The act of running the seven steps is itself a Senior Director move — it converts a position fight into a learning exercise.
+- **When it applies**: Strategy debates with multiple credible options. Roadmap forks. Competing capability investments. Build vs buy vs partner. Cross-org arguments where positional power is uneven.
+- **When it fails**: When time is too short to test (operational decisions). When the conditions are unfalsifiable in any practical timeframe (very long-term bets). When the choice is a values question rather than a strategy question.
+
+### Six Strategy Traps — Audit Checklist Before Calling Something a Strategy
+
+- **Date**: 2026-05-04
+- **Source**: Lafley & Martin, *Playing to Win*, Ch 8
+- **Pattern**: Most documents called "strategies" inside large orgs are not strategies — they are one of six recognizable failure modes. Before presenting any plan as a strategy (especially upward), audit it against these six traps. If two or more apply, it is not yet a strategy.
+- **The six traps**:
+  1. **Do-it-all** — every option chosen, no Where-to-Play discipline. Fails because resources scatter and no choice meaningfully outcompetes.
+  2. **Don Quixote** — head-on attack against the strongest competitor where they are strongest. Fails because the entrenched leader has structural advantage; the attacker bleeds.
+  3. **Waterloo** — fighting on too many fronts at once. Fails because management bandwidth + capability investment cannot scale across simultaneous fights.
+  4. **Something-for-everyone** — trying to satisfy every customer segment with one offer. Fails because no segment finds the offer the best choice; competitors with focused offers win each segment.
+  5. **Dreams that never come true** — aspirational mission statements with no Where-to-Play / How-to-Win cascade beneath. Fails because aspiration without choice is a wish.
+  6. **Program-of-the-month** — chasing the latest framework or initiative. Fails because the org never builds compounding capability; every program restarts the learning curve.
+- **PM application**: Run this audit on any roadmap deck or strategy doc before sending upward. Internal Director-level test: which trap is my own H2 plan most at risk of? Self-audit makes the upward presentation more credible — a leader who names their own trap pre-empts the critique. It also reframes the "promotion strategy" exercise — Senior Director candidates have to demonstrate *they don't fall into these traps*, not that they have grand plans.
+- **When it applies**: Roadmap reviews. Strategy presentations. Promotion narratives. OKR cycles. Any moment when a leader is asked "what's your plan?"
+- **When it fails**: When applied mechanically as a checklist rather than a diagnostic. The traps overlap — a do-it-all plan is often also something-for-everyone. The point is to surface real failure modes, not to score the doc.
+
+### Six Telltale Signs of a Winning Strategy — Positive Diagnostics
+
+- **Date**: 2026-05-04
+- **Source**: Lafley & Martin, *Playing to Win*, Ch 8
+- **Pattern**: Strategies that win share six observable signals. Use these as positive diagnostics — not predictions, but evidence the strategy is working. Useful for after-the-fact validation and for external benchmarks ("does competitor X have a winning strategy?").
+- **The six signs**:
+  1. **A distinct activity system** — the way the org gets work done is visibly different from competitors, and the differences reinforce each other (Porter's "fit" — feasible, distinctive, defensible).
+  2. **Customers who are loyal as a result** — repeat buyers / users not because of switching cost or lock-in, but because the offer is genuinely the first choice for their need.
+  3. **Competitors who are profitable** — the market structure allows multiple winners; the strategy doesn't depend on destroying competitors. Healthy competition is a signal of a real Where-to-Play, not a winner-take-all bloodbath.
+  4. **More resources than competitors to invest in growth** — winning strategies generate the surplus to reinvest. If the strategy requires constant external funding to stay alive, it is not yet winning.
+  5. **Competitors attacking each other, not you** — when the strategic position is well-chosen, rivals fight each other for second place. Direct attack on the leader is rare because the position is hard to assault.
+  6. **First choice for new technology, employees, partnerships** — the org becomes a magnet. Talent, partners, innovators come to it first. This compounds.
+- **PM application**: Use as a quarterly reality check — *which of the six signs does my product actually show today?* Honest answer is usually 1-2, sometimes 0. Improvement comes from designing toward the missing signs, not from declaring victory on the ones that are present. For promotion narrative — point to the signs that *did* emerge under the leader's tenure (e.g., AEM EH MAU growth = sign 4, partner pull = sign 6).
+- **When it applies**: Strategy reviews. Quarterly business reviews. Promotion / impact narratives. Competitive analysis (does *their* strategy show these signs?).
+- **When it fails**: When applied to too short a horizon — these signs take quarters to emerge. When confused with vanity metrics — "we have loyal customers" must mean repeat use because of fit, not because of contract lock-in.
+
+### Outside Strategy Partner — The Sparring Partner Pattern
+
+- **Date**: 2026-05-04
+- **Source**: Lafley & Martin, *Playing to Win*, Ch 8 (Lafley + Martin's own working relationship as the canonical example)
+- **Pattern**: Strategy work has a structural blind spot — the leader closest to the work is also closest to its assumptions. An outside partner with no operational stake provides three things internal teams cannot: (1) willingness to ask the dumb question, (2) immunity to the political weight of senior voices, (3) a structured framework that the leader doesn't have to defend authorship of. The pattern is *sparring partner*, not *consultant* — continuous, conversational, paired across cycles.
+- **What makes it work**:
+  - The partner has framework fluency (cascade, four dimensions, seven-step) but does not own the answer.
+  - The relationship is cumulative — the partner knows the org's prior choices and can reference them.
+  - The partner is willing to be wrong publicly so the leader can be wrong privately first.
+  - The leader retains the choice; the partner only stress-tests it.
+- **PM application**: Inside a corporate org, a Claude project (or equivalent persistent assistant) can serve this role at the Director level — framework fluency plus memory plus zero political weight. The role is not to give answers but to ask "what would have to be true?" before the leader presents to the next tier. For Pedro, this is exactly what the AAI / EH knowledge system is doing — a sparring partner that compounds across sessions and is willing to surface the trap the org would be too polite to name.
+- **When it applies**: Director and above, where strategy choices have political weight and the leader's peer network may not be willing to push back honestly. Cross-functional moments where the leader is the senior person in the room.
+- **When it fails**: When the partner becomes a yes-machine (too aligned), or a critic with no stake (too disengaged). When the leader treats the partner's output as the answer instead of as input to their own judgment.
+

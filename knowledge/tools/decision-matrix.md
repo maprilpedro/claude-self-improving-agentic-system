@@ -151,6 +151,34 @@
 - **Common misuse**: Using the cascade as a template to fill in rather than as a diagnostic to test coherence. Answering aspirations vaguely ("be the best platform"). Treating the cascade as a one-time exercise rather than a recurring health check.
 - **When to use it**: At the start of any annual planning cycle. When a roadmap argument keeps repeating. When a new stakeholder asks "what's the strategy?" When a team seems to be pulling in different directions on priorities.
 
+### Strategy Logic Flow — Four-Dimensions Stress Test
+- **Date evaluated**: 2026-05-04
+- **Source**: Lafley & Martin, *Playing to Win*, Ch 7 ("Think Through Strategy")
+- **Best for**: Stress-testing a Where-to-Play / How-to-Win choice already drafted in the cascade. Surfacing whether the choice is actually defensible or just hopeful.
+- **How to use**: For every Where-to-Play / How-to-Win pair, walk the four dimensions in order:
+  1. **Industry** — what is the structure, profitability, and trajectory of the segment? Is it a place where money can be made over time?
+  2. **Customers** — what do channel + end-customer actually need, and who is best-positioned to deliver it? Test channel and end-user separately; their needs diverge.
+  3. **Relative Position** — what advantages do you have here vs each major competitor? Cost or differentiation? Is the advantage feasible, distinctive, defensible (Porter's three)?
+  4. **Competition** — what will competitors do in response, and can your position withstand it? Game out two-three moves ahead.
+- **Use with cascade**: This is the audit layer beneath Where-to-Play / How-to-Win. The cascade names the choice; the four dimensions test whether the choice survives reality.
+- **PM application**: Run on every Where-to-Play candidate before locking the cascade. For Pedro's two projects: AAI substrate strategy must pass all four (especially Competition — what does AO 2.0 + Apoorva do if AAI becomes the cross-agent standard?). EH Skills+MCP must pass Industry (is AO 2.0 actually creating a Where-to-Play?) and Relative Position (vs each agent surface).
+- **Common misuse**: Walking only one or two dimensions and declaring victory. Skipping Competition because "we're the only one doing this" — that statement itself fails the test.
+- **When to use it**: After drafting a cascade, before presenting upward. When a Where-to-Play feels right but you can't articulate why. When a competitor moves and you need to test whether your position still holds.
+
+### OGSM — Cascade Operationalization Framework
+- **Date evaluated**: 2026-05-04
+- **Source**: Lafley & Martin, *Playing to Win*, Ch 7 (P&G Cosmetics application)
+- **Best for**: Translating a strategy cascade into a measurable annual / quarterly plan. Bridge between the strategy doc and the operational review.
+- **How to use**: Four nested layers:
+  - **O — Objective**: directional statement, qualitative, ties back to Winning Aspiration. ("Become first choice for AEM practitioners' AI workflows.")
+  - **G — Goal**: quantitative target with timeframe. ("Hit 60% MAU on Skills+MCP surface by Q4.")
+  - **S — Strategies**: the choices being made — directly maps to Where-to-Play + How-to-Win. ("Lead with Skills+MCP redesign for content practitioners; don't expand to admin segment.")
+  - **M — Measures**: leading + lagging indicators that will show whether strategies are working. ("Skills surface DAU, agent invocation per session, customer NPS in target segment.")
+- **Use with cascade**: O = Winning Aspiration restated for the year. S = Where-to-Play + How-to-Win compressed. M = Management Systems indicators. OGSM is the cascade in plan form.
+- **PM application**: For the AAI + EH 2026 plan, OGSM is the format that makes the strategy presentable to Bertrand and Loni without losing the cascade beneath it. Each KR maps cleanly to one Goal; each KR initiative maps to one Strategy. Forces the discipline that every initiative trace back to a chosen Where-to-Play.
+- **Common misuse**: Treating OGSM as a project plan template — it isn't. Without a strategy cascade beneath it, OGSM degenerates into a goals-and-tasks list. The S row must reflect *choices*, not activities.
+- **When to use it**: Annual planning translation step. Mid-year strategy review. Any moment when a leader needs to compress strategy + plan + measures onto one page.
+
 ### Passion Statement
 - **Date evaluated**: 2026-03-19
 - **Source**: Gallo, *Presentation Secrets of Steve Jobs*, Scene 1

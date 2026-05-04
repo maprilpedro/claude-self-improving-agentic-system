@@ -343,6 +343,25 @@ Cataloging these prevents repeating industry-wide mistakes.
 - **What to do instead**: Apply the "dogs that don't bark" lens before reacting. Read the message for what's missing: Is there territorial language? Time pressure? Gatekeeping on their side? If those are absent, the ask is collaborative. Respond by offering the canonical artifact (entity list, definition), proposing a sync framed around exec-risk prevention (not territorial control), and asking soft scope questions that let you shape the outcome. The "Definition Ownership as Moat" pattern in leadership/ is the affirmative move. This false belief is the cognitive trap to unlearn so you can execute it.
 - **Caveat**: Some cross-org asks *are* extractive — especially from teams with a known history of credit-capture (see Philippe pattern in interpersonal/). The point is not to trust everyone, but to read each ask on its own evidence rather than through a default defensive frame. The absence of theft signals is as meaningful as the presence of collaboration signals.
 
+## FB-028: "Define your business by your products and capabilities"
+
+- **Source**: Lafley & Martin, *Playing to Win*, Chapter 2 (What Is Winning) — "marketing myopia" critique
+- **Date**: 2026-05-04
+- **Common belief**: A company's "business" is the set of products it sells and the technologies it builds. Strategy starts from product capability and goes to market.
+- **Why it's wrong**: Lafley calls this "marketing myopia." Defining the business around products freezes the aspiration to whatever the current product does — and blinds the organization to how consumer needs evolve. P&G's Olay reframe came from refusing to define the business as "skin lotion under a 50-year-old brand" and instead defining it as "masstige skin care for women 35+." That reframe surfaced new where-to-play and how-to-win options the product-defined view foreclosed. Saturn defined itself as "small car program" rather than "transport solution Toyota/Honda customers want," and the inadequate aspiration followed.
+- **What to do instead**: Define the business in consumer-need terms first, product terms second. Ask: what job does the consumer hire us for, and against whom would they substitute us if we vanished? The answer is your market — not your SKU list. For PM work, this means writing the winning aspiration as a customer outcome ("the practitioner can ship the campaign in one afternoon"), not as a feature inventory ("AI-assisted authoring for AEM Sites").
+- **Caveat**: Need-defined framing without product anchoring becomes vapor — "we help customers be successful" is meaningless. The discipline is need-first, then product-as-mechanism, with explicit linkage between the two.
+- **PM application at Adobe**: For AEM Experience Hub, the product-defined frame is "AI surface for AEM customers." The consumer-need frame is "the practitioner gets from intent to shipped artifact without leaving the work surface." The second frame opens up Skills+MCP, contribution model, and prompt library as serving the same underlying job — and it makes Brand Concierge an easy "where not to play" call (different need, different practitioner).
+
+## FB-029: "Your competitive set is the rivals named on the org chart"
+
+- **Source**: Lafley & Martin, *Playing to Win*, Chapter 2 ("Against the Very Best") + Chapter 7 (Competitive Analysis dimension)
+- **Date**: 2026-05-04
+- **Common belief**: Competitors are the companies your sales team loses deals to and the products marketing slides position against. That set is stable, and strategy is built around beating those named rivals.
+- **Why it's wrong**: Lafley argues winning aspirations must be benchmarked against the very best — including unfamiliar competitors and substitutes outside the named set. P&G discovered Olay's real competitor wasn't another mass-market lotion; it was the prestige skincare brands at department-store counters. Strategy built around defeating the obvious rival set produces a strategy that loses to the unlisted ones. Internally inside an org, the same pattern: a Director's "competitive set" for promotion isn't only the other Directors named in the slate — it's anyone the VP could plausibly hire, anyone in adjacent orgs who could absorb the scope, and external candidates the headhunter might surface. Building visibility against the named slate alone leaves the unlisted threats unanswered.
+- **What to do instead**: Force the question: "Who is the very best at the job we're claiming to win?" — even if they're in a different segment, a different industry, or outside the org. Then evaluate the cascade choices against that benchmark, not against the named rivals. For internal promotion, treat the relevant comparison as the bar at the next level, not the cluster at the current level.
+- **Caveat**: Infinite competitor sets paralyze decision-making. The discipline is to identify the 2-3 "very best" benchmarks per arena and update the list when the market shifts — not to add every possible substitute.
+
 ## Seed Beliefs to Investigate
 
 > These are commonly held PM beliefs worth examining. Move to entries above once evidence is gathered.

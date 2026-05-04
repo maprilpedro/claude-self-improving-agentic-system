@@ -9,6 +9,7 @@
 - [Power BI — Token usage per org](reference_powerbi_token_usage.md) — Adobe corp Power BI report. Token consumption per org. Ties to FinOps (Jaclyn) + AO 2.0 pricing/SKU risk (Bertrand April 29).
 - [CLI binaries playbook](reference_cli_binaries.md) — When to reach for yq/comby/sd/scc/difft/shellcheck/ast-grep. Workhorses for memory + knowledge ops.
 - [Obsidian vault canonical paths](reference_obsidian_paths.md) — Correct Adobe project folder paths. EH lives at `Experience Hub/`, AAI scaffold at `AEM Agents Intelligence/`. Memory file edits via GitHub repo path, not symlink target.
+- [Promotion Strategy v1](reference_promotion_strategy.md) — Living strategy doc in Adobe Career folder. Playing to Win cascade applied to Director→Senior Director move. Monthly review (next 2026-06-01).
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
