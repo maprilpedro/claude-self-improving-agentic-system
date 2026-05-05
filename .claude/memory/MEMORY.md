@@ -38,6 +38,7 @@
 - [One artifact per ask — don't proliferate vault files](feedback_one_artifact_per_ask.md) — When Pedro asks for one document, that is the artifact. Don't spawn slide drafts / spec outlines / supporting files. Add sections to the canonical doc instead.
 - [Concise plan reminder when user forgets context](feedback_concise_reminder_when_forgotten.md) — When Pedro asks "what was the plan again?", give the move + exit line + 3 questions in 5 sentences max. Not a full restatement.
 - [Session-start env-var hygiene](feedback_session_start_env_hygiene.md) — Keep 1M context on, don't override autocompact threshold for this project. Dual-project cold load is chunky and triggers early autocompact otherwise.
+- [Big-file parallel chunk extract](feedback_big_file_parallel_chunk_extract.md) — For transcripts/docs >100K or >2000 lines, spawn 3-5 parallel background agents on contiguous chunks; main thread synthesizes from structured extracts only.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.
