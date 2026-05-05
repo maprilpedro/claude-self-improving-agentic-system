@@ -147,7 +147,21 @@ Bertrand named the architecture. Pedro owns Tier 2. Yanira QBR ownership ask sit
 
 **Loni's frame (via Jaclyn, KR review + April 21):** *"We cannot just be at the mercy of somebody else. We need to have our own strategy of what we want to do."* AEM owns its agent strategy, not following AEP by default. Durable frame for May 11 deck.
 
-**April 29 strategy session outcome.** 2-hour block, Bertrand + Conrad + Yanira + Jaclyn + Ian + Carsten + Trent + Ken. Notes at `Adobe Projects 2026 Meeting Notes/Agent Owner Alignement/20260429 - Alignment_ AEM Agents & AOv2.md`. Decisions: AEM pursues AO 2.0 as forward agent strategy. AEM A2A servers decommissioned. Internal-open-source engagement model with AO team (PRs, forks). Bertrand framing line for May 11: *"I would prefer us, AEM, to focus on the AEM use cases rather than building technology if there's a dedicated team for the infrastructure around it."* Split: AEM owns use cases + practitioner experience + customer co-innovation + agent definitions. AO 2.0 owns harness + runtime + orchestrator.
+**April 29 strategy session outcome.** 2-hour block, Bertrand + Conrad + Yanira + Jaclyn + Ian + Carsten + Trent + Ken. Notes at `Adobe Projects 2026 Meeting Notes/Agent Owner Alignement/20260429 - Alignment_ AEM Agents & AOv2.md`.
+
+**Status (corrected 2026-05-04 by Bertrand post-meeting):** AOv2 as AEM's forward agent path was **discussed, not decided.** Do NOT present as locked decision. Bertrand explicitly flagged this when Pedro began drafting Yanira's introduction.
+
+**What was actually agreed (directional, not commitment):**
+- AEM A2A servers decommissioned — removes parallel infra (agreed in principle, timeline not set).
+- Internal-open-source engagement model with AO team (PRs, forks) — preferred working mode.
+- Scope split direction: AEM owns use cases + practitioner experience + customer co-innovation + agent definitions. AO 2.0 owns harness + runtime + orchestrator. Treat as direction, not contract.
+- Bertrand framing line (his words, usable as quote): *"I would prefer us, AEM, to focus on the AEM use cases rather than building technology if there's a dedicated team for the infrastructure around it."*
+
+**Open / unresolved (do NOT close in Yanira intro):**
+- Forward-path commitment to AOv2 — open.
+- AO 1 → AO 2.0 backward compatibility — open since April 14.
+- AEM-AO SLA scope (KR6) — Pedro liaison, scoping in progress.
+- A2A decommission timeline — open.
 
 **AI Assistant vs AOP — Pedro's mental model** (canonical: `AAI - Project Folder/AO 2.0/AI Assistant vs AOP.md`):
 - **AI Assistant** = conversational/generative AI layer. The "brain." LLM-powered. Fuzzy / open-ended.
