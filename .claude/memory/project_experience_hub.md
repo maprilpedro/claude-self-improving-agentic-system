@@ -186,6 +186,24 @@ Pedro → Shankari Panchapakesan (Group PM, SJ) → Bertrand (Sr Director PM, Ba
 
 ---
 
+## May 5 Bertrand 1-1 — EH-side drop-ins
+
+Source: `Adobe Projects 2026 Meeting Notes/Bertrand 1 1/20260505 - Bertrand Pedro 1 1_otter_ai_transcript.txt`. AAI signals in sister memory file.
+
+**Mithril / Coworker (Joshua Hailpern team).** AI Assistant V2 with "mode rail" (observer + suggestion). Launching ~late May (T-25 days). **AEM Sites NOT included** — repeat exclusion pattern (also Modernization Agent + Experience Workspace). Bertrand asked Sorin + Eugene to do Mithril review. Pedro saw UI via night Slack May 4. Bertrand: *"Ça va être un point important pour la migration AOv2 si on y va."* Bertrand actioned: chase Guliz on XD/Adobe-Design loop visibility.
+
+**Marcus Räck (Experience Workspace creator).** Declined Pedro's unified-chat ask: *"je pense qu'il faut chaque solution ait son propre tchat."* 4 chats now (Experience Workspace, Modernization, Slick, Rosetta=Manager Services). Pedro pushing common substrate (history, context). Bertrand views chat unification as AOv2-migration-relevant.
+
+**Cédric Huesler — repair contact.** Pedro got him annoyed via Slack push on AOv2 + contribution model May 5 morning. Tactical contact for Experience Workspace + AOv2-on-Sites discussions.
+
+**Sylvia Mulet Ferre auto-fix-prompt initiative for EH.** Sylvia (Eugene's manager, Adobe Design / Guliz tree) launching: hypothesis = users come once and stop because request too complicated from start. Bertrand skeptical: *"je sais pas trop où elles vont venir avec ça."* Track scope + intersection w/ Eugene.
+
+**Customer migration pattern.** 1-year migration deadline approach. Decouple "platform update" vs "platform move." Nico's content-repo migration initiative waking customers up — many need re-migration with hard deadlines.
+
+**EH headcount note.** *"On va avoir 2 personnes qui sont remplacées pour Experience Hub. On va être de trop"* (Bertrand).
+
+---
+
 ## Sister project
 
 `project_aem_agents_intelligence.md` — agent reporting platform, AO 2.0 liaison, three-tier reporting, Loni+JM May 11 deck, H-005 resolved, Felix/Rubin/Varun threads, Apoorva punch-list, KR3/4/5/6, AEMEO-9508 Data Advisory Agent overlap watch, Vaishnav PMM signal, broadcast-rep muscle.

@@ -10,6 +10,8 @@
 - [CLI binaries playbook](reference_cli_binaries.md) — When to reach for yq/comby/sd/scc/difft/shellcheck/ast-grep. Workhorses for memory + knowledge ops.
 - [Obsidian vault canonical paths](reference_obsidian_paths.md) — Correct Adobe project folder paths. EH lives at `Experience Hub/`, AAI scaffold at `AEM Agents Intelligence/`. Memory file edits via GitHub repo path, not symlink target.
 - [Promotion Strategy v1](reference_promotion_strategy.md) — Living strategy doc in Adobe Career folder. Playing to Win cascade applied to Director→Senior Director move. Monthly review (next 2026-06-01).
+- [PPTX template — H2'26 deck](reference_pptx_template.md) — Always use `[Internal] - H2'26 AEM & Agentic Web Planning.pptx`. Layout 6 = Content Slide.
+- [AEP TryBuy Project Artifacts](reference_aep_trybuy_artifacts.md) — AEP-side source of truth for TryBuy / TBYB. SharePoint DExProductManagement / Data Governance. Upstream of AEM master-list lane.
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
@@ -39,6 +41,14 @@
 - [Concise plan reminder when user forgets context](feedback_concise_reminder_when_forgotten.md) — When Pedro asks "what was the plan again?", give the move + exit line + 3 questions in 5 sentences max. Not a full restatement.
 - [Session-start env-var hygiene](feedback_session_start_env_hygiene.md) — Keep 1M context on, don't override autocompact threshold for this project. Dual-project cold load is chunky and triggers early autocompact otherwise.
 - [Big-file parallel chunk extract](feedback_big_file_parallel_chunk_extract.md) — For transcripts/docs >100K or >2000 lines, spawn 3-5 parallel background agents on contiguous chunks; main thread synthesizes from structured extracts only.
+- [PPTX color palette](feedback_pptx_palette.md) — White, light grey, dark grey, Adobe red, black ONLY. No green/blue/pink tints, even pale.
+- [Don't trace Bertrand-owned items](feedback_dont_trace_bertrand_owned.md) — Bertrand-owned actions (repair, workstreams, smoothing) don't go on Pedro's tracker. Stakeholder Map entry for context only.
+- [Namita scope = AEP AOv1](reference_namita_scope.md) — Namita Kavadi = AEP AOv1 PM, NOT MCP-reports track. Splunk MCP reports = Pedro ↔ Felix ↔ Tanju internal.
+- [MCP terminology — "Tool Calls"](reference_mcp_terminology.md) — Locked term for MCP usage measurement. Never "interaction" or "invocation."
+- [Don't promote proposals to decisions](feedback_proposal_vs_decision.md) — Slack threads = positions, not commitments. Decisions land via Conrad directive / Phase 4 collegial / Bertrand explicit close. Avoid "officially X" / "consolidated" / "resolved" without decision signal.
+- [First reply needs ownership sentence](feedback_first_reply_ownership_sentence.md) — Customer-escalation + VP-visibility threads need one literal ownership line in first reply. Data-dump alone reads as "I don't know" at exec speed.
+- [Don't litigate prior replies](feedback_dont_litigate_prior_replies.md) — Forward-framed clarification ("here's what's in motion") not backward-framed defense ("what I wrote already meant this"). Don't argue with senior leader's read.
+- [Language split — FR conversation, EN Obsidian](feedback_language_split.md) — Pedro = French in chat. Vault files = English. Verbatim quotes stay original language.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.
