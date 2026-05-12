@@ -648,6 +648,35 @@ Source: `Agent Owner Alignement/20260505 - Felix Pedro 1 1.md`. All "Unknown Spe
 
 ---
 
+## May 12 — Mithril Silvia ↔ Tim Lynn exchange + Pedro outbound DM
+
+**Event.** Silvia Mulet Ferre (Eugene's manager, Adobe Design / Guliz tree) opened a public thread with Tim Lynn (Mithril project owner) on Mithril clarifications. Three confirmations + one open ask Pedro can answer.
+
+**Confirmations from Tim Lynn:**
+- **Mithril = AO2 only.** Not AO1. *"we're aiming to have things wired up e2e by end of may. parts of the api have been committed to our new UI repo and AO, but the shell side is still WIP."*
+- **Context-reading not default.** Use-case Silvia described (assistant reads open page + full context without manual user input) requires per-page/app tooling that registers itself with Mithril in the DOM-tools pattern. Reference demos = "edit schema" + "pueblo".
+- **Skills authorship unclear.** Tim didn't know whether end-users or internal Adobe teams create skills — likely AO team question.
+
+**Silvia's open ask (Pedro = answer):** *"with who can we connect (PM, eng) to make sure context-reading is part of AO2 & Mithril?"* for AEM.
+
+**Pedro outbound DM 2026-05-12 (EN, Slack).** Identified self as AEM-AO PM liaison (Bertrand-named April 14). Confirmed alignment between Silvia's context-reading ask and EH foundational primitive. Proposed division: Silvia drives Adobe Design side (Tim + Guliz), Pedro drives AEM PM side (Sergey Generalov + Conrad Woltge). Joint ask = **context-reading as a Mithril primitive, not per-app re-implementation.** Asked for 15 min this week. Looping Eugene.
+
+**Why this matters:**
+- Bertrand May 5 action — *"chase Guliz on XD/Adobe-Design loop visibility"* — materializing. Silvia (Guliz tree) operating directly with Mithril. Loop visibility is happening; Pedro inserts as the AEM-PM pole.
+- Pedro's AEM-AO liaison mandate now operational at PM-to-PM-counterpart level (Adobe Design Sr Manager → AEM PM) on a high-leverage primitive, not just at AO PM↔PM (Sergey).
+- Context-reading = same primitive Pedro pushes on EH Priority 1 (Skills+MCP surface) with Eugene. Adobe Design + Pedro aligned ask = stronger together than either alone.
+- AEM Sites still excluded from Mithril (Bertrand May 5). If AEM wants Mithril → forces AOv2 commit. Pressure aligns with 5-phase plan timing (workshop Phase 2 next week, Conrad directive imminent).
+- End-of-May Mithril e2e wiring = T-19 days. Window to influence Mithril primitive list is now, not after launch.
+
+**Bertrand FYI Slack drafted (FR, not yet sent).** Quick informational note referencing his May 5 action, confirmations from Tim Lynn, Pedro's outbound move, division of labor. No ask. To send when user confirms.
+
+**Open:**
+- Awaiting Silvia reply on 15-min slot.
+- Tim Lynn = new stakeholder (Mithril project owner, doc author). Org chain TBD — confirm.
+- Skills authorship question (end-user vs internal-Adobe) still unresolved — route to Sergey when contact lands.
+
+---
+
 ## May 12 — Corey report feedback + call Tue May 19
 
 **Event.** Corey Dulimba reviewed AAI report. Feedback positive on substance, scoped to **cosmetics + usability**. Corey proposed a call → Pedro accepted → Corey scheduled same day. Call lands **Tue 2026-05-19**.
