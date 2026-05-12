@@ -1,7 +1,10 @@
 ---
-name: AEM Agents Intelligence (AAI) project context
-description: Full context on the AEM Agents Intelligence project — agent reporting platform, AO 2.0 liaison, Loni+JM May 11 deck, three-tier reporting, agent ownership, AAI stakeholders. Sister file to project_experience_hub.md.
-type: project
+name: aem-agents-intelligence-aai-project-context
+description: "Full context on the AEM Agents Intelligence project — agent reporting platform, AO 2.0 liaison, Loni+JM May 11 deck, three-tier reporting, agent ownership, AAI stakeholders. Sister file to project_experience_hub.md."
+metadata: 
+  node_type: memory
+  type: project
+  originSessionId: 5f12dcf1-db3b-44ce-bf6c-50e0a17cb9e9
 ---
 
 > **Two-project split — in progress (2026-05-03).** Phase 1 scaffold landed. AAI vault folder at `2026/AEM Agents Intelligence/AAI - Project Folder/`. Companion file `project_experience_hub.md` covers EH product. EH content remains in EH file until Phase 2 trim completes.
@@ -642,3 +645,19 @@ Source: `Agent Owner Alignement/20260505 - Felix Pedro 1 1.md`. All "Unknown Spe
 - Stakeholder Map Vaishnav entry (held until Wed May 6 confirmation)
 - Pre-meeting strategic brief for May 11 Loni + JM (draft week of May 5)
 - Briefing v0 sections 5-6 (pending Indicator #8 on May 17)
+
+---
+
+## May 12 — Corey report feedback + call Tue May 19
+
+**Event.** Corey Dulimba reviewed AAI report. Feedback positive on substance, scoped to **cosmetics + usability**. Corey proposed a call → Pedro accepted → Corey scheduled same day. Call lands **Tue 2026-05-19**.
+
+**Why it matters.**
+- Validates the **first-testeur pattern** set after the April 2 Philippe-as-mirror incident — swap Philippe out, swap Corey in for first review of unpolished work. Pattern is operational and producing signal, not theoretical.
+- Same-day reschedule = strong engagement from an EPA PM who sits in Loni's senior sessions and holds the 1200 real customer questions.
+- Aligns with H-005 (substrate-before-standard): Corey is the cross-agent customer of the data substrate Pedro owns.
+- Bridge into EPA H2: Corey raised urgency May 4 (*"this is becoming relatively urgent because we all have H2 roadmaps"*). May 19 call is the natural slot to surface a) Gradial confirm/deny, b) multi-turn flow gap trajectory, c) EPA lab as customer-getting-started asset.
+
+**Prep doc.** Companion section live in AAI Status & Todo: **`## Corey call prep — May 19`**.
+
+**Pattern note.** Two-step substrate move — ship to Corey first, iterate cosmetics, then push hardened version to Philippe + Yanira + Conrad. Compounds with monthly Portfolio Briefing cadence: Corey becomes the live A/B partner for usability decisions before they hit broader stakeholder list.

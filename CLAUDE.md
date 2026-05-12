@@ -92,6 +92,39 @@ Active hypotheses → `knowledge/hypotheses/active.md`. Once resolved (confirmed
 
 ---
 
+## Vault Access (Obsidian CLI)
+
+**Prefer the `obsidian-cli` skill for all Obsidian vault operations.** Installed 2026-05-12 via the `obsidian-cli` plugin. The CLI (Obsidian v1.12+) talks to the running Obsidian desktop app over IPC and exposes 130+ commands.
+
+When the request implies "go into the vault and do X" — read a note, append to a daily note, search, list tasks, manage frontmatter, find orphans/broken links, run a Base query, restore file history — invoke the skill instead of reading files through the macOS filesystem path.
+
+Prerequisites:
+- Obsidian Desktop running.
+- Settings → Command line interface → toggled ON (already enabled).
+- Binary registered: `/Applications/Obsidian.app/Contents/MacOS/obsidian`.
+
+Quick reference:
+
+```bash
+obsidian read path="Experience Hub/.../Status and Todo.md"
+obsidian search query="Loni" format=json
+obsidian daily:append content="- [ ] follow up with Sorin"
+obsidian property:set path="note.md" name="status" value="active"
+obsidian tasks daily
+obsidian orphans
+```
+
+Paths are **vault-relative** (no absolute filesystem path). When editing canonical files (Status & Todo, Stakeholder Maps, KR notes), the CLI is the preferred surface because writes go through the running app and avoid sync conflicts. Direct `Edit`/`Write` on the filesystem path still works for bulk edits but bypasses Obsidian's index — use CLI when index freshness matters (search, backlinks, properties).
+
+Fall back to filesystem `Read`/`Edit` when:
+- Obsidian app is not running.
+- Doing batch operations across many files where startup-per-call overhead matters.
+- Editing memory or knowledge files in *this repo* (those are not vault notes).
+
+See the `obsidian-cli` skill for full command reference.
+
+---
+
 ## Commit Rule
 
 After every session that updates `knowledge/` or `.claude/memory/`:
