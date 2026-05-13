@@ -3,7 +3,7 @@
 ## References
 - [Claude improvement tools](claude-improvement-tools.md) — Recommended MCP servers, skills, editor extensions, and architecture improvements for the PM knowledge system
 - [Splunk MCP usage dashboard](reference_splunk_mcp.md) — Bertrand's source for MCP adoption metrics. Paired with CM UI activity data (owner TBD) for ratio metric.
-- [OKR structure — O1 AAI + O2 EH](reference_okr_structure.md) — Both project OKRs after Phase 2 split. O1 = AAI (Apoorva KR1, Loni+JM KR3, Priority Consolidation KR4, SLA KR6). O2 = EH personalization KRs.
+- [OKR structure — O1-O6 + Operations](reference_okr_structure.md) — Six 2026 OKRs. O1 = AAI. O2-O6 = EH (personalization, release mgmt, quiet hours, security, aging customers). O4 + O6 live near-term levers from Bertrand 1-1 2026-05-12.
 - [Atlassian MCP — JIRA + Confluence](reference_atlassian_mcp.md) — Tool surface for fetching real JIRA / Confluence content from Adobe corp instances (only way in, since they're internal-only).
 - [AEM Agent Ownership Matrix](reference_aem_agent_ownership.md) — Canonical PgM/PM/Eng/JIRA for the 10 AEM agents per slide 44 of H2'26 AEM & Agentic Web Planning deck.
 - [Power BI — Token usage per org](reference_powerbi_token_usage.md) — Adobe corp Power BI report. Token consumption per org. Ties to FinOps (Jaclyn) + AO 2.0 pricing/SKU risk (Bertrand April 29).
@@ -50,6 +50,7 @@
 - [Don't litigate prior replies](feedback_dont_litigate_prior_replies.md) — Forward-framed clarification ("here's what's in motion") not backward-framed defense ("what I wrote already meant this"). Don't argue with senior leader's read.
 - [Language split — FR conversation, EN Obsidian](feedback_language_split.md) — Pedro = French in chat. Vault files = English. Verbatim quotes stay original language.
 - [Consolidation without substance = hygiene only](feedback_consolidation_without_substance.md) — When "consolidate" trigger fires but no new PM events came in chat, ship hygiene + staleness flags + debrief asks. Do NOT fabricate learnings from re-reading existing memory.
+- [Don't overread VP quotes](feedback_dont_overread_vp_quotes.md) — "North Star architecture for Pedro" = Ian's architecture serves Pedro, not Pedro is the architect. Audit subject + preposition before promoting to promotion-grade narrative.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.

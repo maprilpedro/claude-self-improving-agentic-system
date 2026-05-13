@@ -693,3 +693,149 @@ Source: `Agent Owner Alignement/20260505 - Felix Pedro 1 1.md`. All "Unknown Spe
 **Prep doc.** Companion section live in AAI Status & Todo: **`## Corey call prep — May 19`**.
 
 **Pattern note.** Two-step substrate move — ship to Corey first, iterate cosmetics, then push hardened version to Philippe + Yanira + Conrad. Compounds with monthly Portfolio Briefing cadence: Corey becomes the live A/B partner for usability decisions before they hit broader stakeholder list.
+
+---
+
+## May 12 P42 Status Sync — Loni reframe + Ian = North Star architect
+
+Source: `Adobe Projects 2026 Meeting Notes/Yanira/20260512 - P42 Status Sync.md`. Bertrand + Ian Boston + Jaclyn (+ Pedro arriving). 112-line transcript cuts at 6:30 mid-handoff to Pedro.
+
+**1. 🚨 Loni reframe verbatim (May 11, reported by Bertrand May 12).** Loni: *"No, that's not the question. Question is context, and how do we equip our agents with proper context."* Explicit rejection of AOv2 yes/no framing. Pivot = **context architecture** as the strategic axis. Bertrand: *"more than memory. Connecting content sources from different places and deciding which bits should be passed as actual content."* → Strategic anchor for May 11 deck. **Open the deck with this.**
+
+**2. 🚨 Ian Boston = North Star architect for AEM agents AOv2 strategy.** Bertrand 6:30 verbatim: *"this looks like a new North Star architecture for Pedro."* — interpretation: Ian's architecture serves as **North Star *for* Pedro's work**, NOT Pedro is the architect. Ian = author. Pedro = consumer / operationalizer / PM distribution layer. **Ian self-assigned: one-pager for teams.** Watch for Ian deliverable.
+
+**3. Ian's AOv2 requirements list (5 items — Ian-authored):**
+   - Skill portability: skill must work everywhere (Claude SDK, codex, Claude AI, AOv2) without per-harness config.
+   - URL auto-recognition: AOv2 recognizes registered Adobe APIs without lockdown config.
+   - Properly open source — no private dependencies. Anyone in Adobe can fork + run own server.
+   - Standards compliant — skill from any location works.
+   - A2A retire confirmed (no customer interest).
+
+**4. Forcing-function lever Ian named.** *"Any skills not using registered APIs that we recognize just won't work in AOv2... so make sure your APIs are good."* AEM-wide API quality = forcing function for cross-agent technical standards. Pedro's PM lane: drive this across agent teams.
+
+**5. Skills/MCP/API hierarchy direction.** API first. MCP retained — wrap existing MCPs in skills. First skill iteration reuses MCPs. A2A out. Aligns with Carsten May 6 proposal.
+
+**6. Governance Agent = prior art on global-context API.** Bertrand: *"that's exactly what AEM governance is working as well, on this global context."* Philippe's Governance has built context-API substrate. Reuse signal. **Tension:** Pedro needs Philippe's prior art for portfolio narrative — handle transactionally given competitor frame. Don't hand Philippe the framing of the cross-agent context story; cite Governance as a reference implementation while keeping the portfolio narrative under Pedro.
+
+**7. "Burned from AOv1" — Jaclyn confirm (5:05).** *"They're so burned from ao of one."* AOv2 must clear a high bar. Reinforces Felix May 5 ("hors sol" critique) + Conrad April 14 ("widely not flying").
+
+**Pedro's actual role here (corrected):**
+- Not the architect — Ian owns that.
+- Pedro = PM liaison + distributor + portfolio operator. Carries Ian's one-pager into agent teams. Compiles requirements + commitments + SLAs back to AOv2.
+- Compounds with H-005 (substrate-before-standard) — Pedro owns the data substrate; Ian owns the architecture spec. Different lanes, mutually reinforcing.
+- Still material for Senior Director path: being **named in the room** when VP architecture conversation lands. Promotion-frame is "operating at architecture-conversation altitude," NOT "I am the architect."
+
+**May 11 deck implications (corrected):**
+- Open with Loni context-reframe (verbatim).
+- Requirements slide = Ian-authored, Pedro distributes. Credit Ian explicitly.
+- Pedro's slide = PM operator / liaison / portfolio reporter — own substrate + distribution, not architecture.
+- Mithril Silvia context-reading ask = visible expression of Loni reframe; same-day Pedro→Silvia hedge ("don't promise v2") consistent with Loni "context is the question."
+- Governance Agent global-context callout (reference implementation reuse).
+
+**Cross-links:**
+- Mithril ↔ Silvia loop (May 12 EH-side memory) — context-reading primitive ask now has explicit VP-level (Loni) backing.
+- Trent April 29 "AEM Context = North Star question" + Bertrand May 12 "North Star architecture" = compounding label around context-architecture as cross-Adobe primitive.
+
+**Open / TBD:**
+- Transcript cut at 6:30 (Bertrand: *"Two questions... Do you want to..."*) — Pedro's portion not in this file. Find Pedro segment if recorded separately or follow up with Bertrand on what was assigned.
+- Ian one-pager deliverable — track for receipt.
+- Governance global-context API technical detail — schedule Philippe sync (carefully framed).
+
+---
+
+## May 13 — Felix + Lara + Pedro 3-way (External Agent naming lock, Langfuse pipeline, cost data)
+
+Source: `Adobe Projects 2026 Meeting Notes/Felix Pedro 1 1/20260513 - Felix Lara Pedro 1 1.md`. ~30 min EN.
+
+**1. 🆕 "MCP report" → "External Agent Report" naming locked.** Felix: *"MCP je suis allergique à ce mot là."* MCP ambiguous (Tanju millions of internal tool calls true; ChatGPT-Copilot consumption near-zero also true). New architecture:
+   - **AI Assistant Report** (internal AEM assistant usage)
+   - **External Agent Report** (Adobe agents consumed via ChatGPT / Copilot / Claude — MCP integration layer)
+   - **Umbrella high-level comparison report**
+   - Companion to existing "Tool Calls" counter-unit lock (May 6). Both naming rules live for May 11 deck.
+
+**2. Lara Langfuse pipeline for Governance.** PR in flight to send correct trace tags on Langfuse. Friday May 15 merge → prod → weekend backfill → Monday May 19 data → integrate into report. POC = manual CSV download from Langfuse → DB. Felix preferred long-term mechanism: push from agents → central DB via IMS user token.
+
+**3. User metadata enrichment (Felix ↔ Bertrand from Playground team).** User table now has full_name / user_type (4 types) / email via API. Felix full sync script done — remote API-based, no longer local. Bridge between systems operational.
+
+**4. Internal/external classification — Raul list = current gospel.** Raul updated list yesterday May 12 → Pedro processed → reports show org/user increase (explains anomaly in numbers). ~18-20 Raul-flagged-external orgs look internal (lab/sandbox). Felix heuristic catches 30-40 obvious-Adobe (Adobe Corp, Adobe Consulting marked external in Raul list). Pedro decision: stick with Raul until classification aligned, avoid display↔data divergence. Still pursuing API/MCP source vs github README.
+
+**5. 🆕 Mark Pfaff = new contact.** ECP usage + tool calls cross-check on Databricks. Numbers align both platforms. Pedro started Governance External Agent report based on Mark's work — tool calls, users, repeated users. Add to Stakeholder Map.
+
+**6. Portfolio report landing-page link shipped.** AEM report EDS landing page now has direct portfolio link. Layout = Gilles slide / Felix May 12 slide reproduced. Includes MAU retention (under hood for G&R sync, senior-management abstract).
+
+**7. Rubin posture confirmed 🟢.** Pedro tested Rubin. Won't replace AAI substrate medium-term. Felix: **LLM-as-Judge = the moat.** Rubin has returning users/orgs, not the judge layer. Confirms H-005 substrate-before-standard.
+
+**8. 🆕 Cost data — $2K/mo report generation.** ~30% LLM-as-Judge (heavy, accepted). Rest = per-block Opus call on every text block × many blocks × many pages. Lara push: most blocks should be static code, only key findings need LLM. Felix agreed, will streamline. $100-150 per report at full price. Governance agent prod cost: ~$100/mo. EPA/their agent: <$10/mo.
+
+**9. MCP UI for engineers (Felix).** Lara + Pedro added. Slow (summary executed per request — Felix removing). Once API+MCP done, weekly EPA download for engineer problem-detection. aitools-flex slow PR cycle = blocker.
+
+**10. Cadence.** Pedro off Thu+Fri. Lara works Fri. Next 3-way Monday May 18.
+
+---
+
+## May 12 — Bertrand 1-1 (FR, ~20 min)
+
+Source: `Adobe Projects 2026 Meeting Notes/Bertrand 1 1/20260512 - Bertrand Pedro 1 1.md`. Chronologically: this 1-1 → P42 Status Sync (same day) → Mithril Silvia (same day). Pedro got Loni reframe from Bertrand here, relayed to Silvia hours later, Bertrand re-stated at P42 to Ian.
+
+**1. 🚨 May 11 deck framing locked.** Bertrand: *"Un point de vue AEM sur ao deux zéro. Qu'est ce qu'on va faire? C'est surtout pas la question. Faut pas dire deux zéro si les gens vont se braquer du fait de l'expérience pas terrible."* **Don't say "v2." Frame = requirements-first.** People defensive due to v1 experience. Action: document what AOv2 brings.
+
+**2. Loni reframe — second layer (verbatim via Bertrand).** *"elle a remis une couche notamment sur la dimension contexte, est ce que dans la solution qu'on voudra utiliser pour nos agents, il faut pouvoir plugger proprement ce qu'on va construire pour gérer le contexte."* Context-management plug-in capability = requirement. AOv2 fits or not — TBD. Plus skills hierarchy structure open. **Loni reframe is layered + reinforced, not one-shot.**
+
+**3. Friday softening signal.** Gilles + Felix + Michael talked Friday. Position softened to *"peut être quelque chose qu'on regarde"* — less categorical than Thursday. Direction-emerging frame holds.
+
+**4. ⚠ R Cross-surface AI Assistant continuity vs Michael compliance.** Bertrand: *"il nous faut que toutes les surfaces, les interfaces AEM... qu'on puisse avoir des échanges assistants ui, ui assistance."* Bilateral UI↔Assistant + conversation continuity across surfaces. **Michael disagreed** — compliance: conversations must stay in same primary region as Cloud Service. Tension echoes Ian Apr 1 data-residency risk. Open.
+
+**5. Skills vs context distinction (Bertrand mental model).** Skills = technical context (LLM request adds skills). Context (Bertrand sense) = closer to Governance Agent prior art — content + instructions. Skills possibly customer-contributed. Pedro: *"j'ai pas encore complètement digéré ce que c'est supposé faire."*
+
+**6. Open architecture question (Pedro, unresolved).** One AI Assistant per agent / per domain? Or one global Assistant? If global: how differentiate skills + context per domain? Bertrand answer: **context-awareness routing** — *"Je suis dans page Editor donc les skills qui vont bien c'est ça."* Assumes Mithril team thought about this. Open.
+
+**7. 🔴 Migration timeline — September unrealistic.** Pedro to Bertrand: *"il ne faut pas imaginer que la mise V c'est septembre et que tout le monde sera prêt en septembre."* Multi-month mixed-state window confirmed. Same point Pedro raised w/ Silvia same day.
+
+**8. Silvia reported to Bertrand.** Pedro: Silvia "very actively" pushing for content-awareness via Tim. Coached: synchronize w/ Guliz BUT careful *"on n'a pas choisi avoué deux."* Bertrand confirms Gilles + Michael had AOv2-counterpart meeting with Manas + Ken — relayed "v1 was very complicated."
+
+**9. 🆕 🟢 Workshop Foundation — Bertrand asked Pedro to facilitate skill-proliferation session.** Peter Parker dropped, had 2 agenda items. One item = *"comment on va gérer la prolifération ou la gestion des skills à l'échelle d'aem."* Bertrand: *"Je cherche un animateur pour cette session, tu n'en as pas parlé?"* — Pedro hasn't responded. **Opportunity. Same lane as Ian's API-quality forcing function.** Pedro action: accept facilitator role.
+
+**10. 🔴 Usage numbers DESCENDING — Jaclyn asked for JM + Loni numbers.** Pedro pulled. Internal/external categorization still problematic → impacts numbers. **Numbers show usage going down.** Post-Summit partially explains. *"j'espère que les chiffres sont pas trop faux."* Working w/ Yanira + André Bedas + Raoul on single source of truth.
+
+**11. 🟢 Grafana Bertrand presented Friday = "off completely" — Raul fix closes drift.** Pedro at 1-1: *"pas mal off"* because Bertrand pulled all orgs unfiltered + end-March → May Raul-list scorecard drift. **Raul has since fixed the list** — Namita banner no longer needed. JSON-config-too-large constraint may still need separate attention (Grafana stopped supporting), confirm before next exec demo. Pedro reports stayed approximately right throughout.
+
+**12. JM/Loni first meeting structure.** 45 min - 1h. Pedro proposed deck order: status → inhibitors (slides updated) → credit usage UP → retention → MCP add-on if interested. Splunk MCP: lots of noise, little signal, few tool calls yet. Governance MCP report done, others in progress.
+
+**13. Corey review confirmed in 1-1.** *"Pas mal de cosmétiques et d'utilisabilité."* Already in AAI memory (Corey May 19 call).
+
+**Pedro action items from this 1-1:**
+- Accept Workshop Foundation facilitator role for skill-proliferation session.
+- Land JM/Loni deck order: status → inhibitors → credit-up → retention → (optional) MCP.
+- Verify Grafana JSON-config-size issue separate from Raul-list drift; confirm Grafana refresh post-Raul-fix before next exec demo.
+- Build credit-usage-up + customer-trust slides w/ Quiet-Hours-via-Agents 81-customer beta as concrete proof point (EH cross).
+
+---
+
+## May 12 — Mithril Silvia Eugene Pedro sync (EH/AAI cross-cutting)
+
+Source: `Adobe Projects 2026 Meeting Notes/Eugene/20260512 - Mythril Silvia Eugene Pedro Sync.md`. ~22 min EN.
+
+**1. Pedro hedge confirmed in room.** Told Silvia: AEM teams not committed to AOv2. Sites pushing back hard. Don't promise v2 in upstream conversations. Use cautious language. Aligns w/ Decouple-Architecture-Ask knowledge entry.
+
+**2. Loni reframe surfaced same day (pre-P42).** Pedro relayed to Silvia: *"Loney comes with: maybe v2 is not the correct question. Maybe we should ourselves list the requirements and then see how v2 would fit in."* Same Loni reframe Bertrand reported at P42 hours later → converging signal at VP level.
+
+**3. AEM evaluation criteria (Pedro stated in room):** Skills > orchestrator. Portable skills (work w/ Claude / ChatGPT / AOv2). Open-source platform model (fork + PR). Output = requirements + commitments + SLAs to AOv2.
+
+**4. 🆕 Silvia use case explicit:** *"We don't want AI to interact with UI. We want AI to read UI."* Mithril demo missed this — context-reading not in MVP. Will raise w/ Tim Lynn + Matthew tomorrow May 13.
+
+**5. Silvia parallel work — Guliz-assigned.** Design POV on AOv2 for AEM. Analysis this week. Pedro action: send Silvia engineering-manager list per AEM agent team. She'll connect for UI/context portion.
+
+**6. Eugene Mithril framing.** Current AI Assistant icon = dummy, opens same chat everywhere, no UI context. Post-Mithril = contextual per-surface (pipeline, etc.). Strategic surface rollout, not blanket.
+
+**7. 🆕 Migration window UX problem (Pedro raised).** Multi-month window where some agents on v1, some on v2, some migrating. User won't know which has skills/Mithril vs which doesn't. Open product question. Silvia mitigation: in-app notification (*"version of LLM not supporting this data, stay tuned"*). Eugene: low risk, customers not workflow-dependent yet.
+
+**8. 🆕 AI Assistant pricing question (Silvia raised).** Free or paid? Affects failure-tolerance UX. Pedro recalls: SKU exists post-Summit, token package, run out → purchase. **Action: confirm w/ Bertrand.** Ties to Bertrand April 29 pricing/SKU bombshell.
+
+**9. Data instability flagged (Pedro→Silvia).** Org counts fluctuating morning vs evening due to Raul-list manual update. Beware numbers.
+
+**10. 🆕 Matthew = new Mithril co-owner stakeholder.** Surname TBD. Tomorrow's Silvia + Eugene sync includes him + Tim Lynn. Pedro NOT invited.
+
+**Pedro actions tracked:**
+- Send Silvia engineering-manager-per-agent list.
+- Check w/ Bertrand on AI Assistant SKU/pricing.
+- Stay tuned for Silvia/Tim/Matthew sync outcome (May 13).

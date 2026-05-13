@@ -204,6 +204,55 @@ Source: `Adobe Projects 2026 Meeting Notes/Bertrand 1 1/20260505 - Bertrand Pedr
 
 ---
 
+## May 12 — Bertrand 1-1 EH-side drop-ins
+
+Source: `Adobe Projects 2026 Meeting Notes/Bertrand 1 1/20260512 - Bertrand Pedro 1 1.md`. AAI-side content in sister memory.
+
+**1. 🆕 Quiet Hours Update via Agents — beta launching.** Activated on ID. Customers run **Quiet Hours-Update via the chatbot/agent** (free). Beta cohort: (customers who previously used Quiet Hours Update) ∩ (customers w/ AI) = **81 customers** to activate. Expect dozens of feedback. **Ties O4 (Ship Quiet Hours).** Concrete proof point for May 11 deck "customer trust increase" slide. Companion to Bertrand customer-trust slide (Pedro to add quote-worth slots).
+
+**2. 🆕 Breaking changes manager — name rename needed.** Raspberry team finds "breaking changes" too negative. Concept stays: central repo declaring breaking changes w/ dates, impacted customers, procedures, docs. For ~120 customers internal use + customer-facing awareness. Pedro action: source new name.
+
+**3. 🆕 Two new EH hires start beginning of June.** Resolves Bertrand May 5 *"2 personnes remplacées pour EH"* note. Profiles:
+- One ex-AEP.
+- One full-stack AI engineer (*"qui fait pas mal d'AI"*).
+- Bertrand: *"ça peut vous aider à coder plein de trucs."* Capacity inflection for EH eng (Sorin = 1 effective today).
+
+**4. Customer update push state — O6 lever.** ~120 customers behind on Content Fragments / content freshness. ~100 still behind. **Aldi (7-8 programs) + Volkswagen + Americans** = key targets. Plan: propose manual update first → automatic update later. **1-year window option:** customer commits to test impl + monthly platform updates while staying off auto-update. CSM one-by-one outreach. Mostly positive responses to progressive migration. Ties to O6 Aging Customers (slipped end-March KR).
+
+**5. AOv2 + skills + context framing.** EH-relevant fragments: cross-surface AI-Assistant continuity Bertrand wants (chat history retrievable across surfaces); Michael compliance pushback (data residency primary-region constraint). Open product question for EH surface = where does the AI Assistant icon route post-Mithril (per-surface context vs global Assistant). Full AOv2 framing in AAI memory.
+
+**6. Sylvia auto-fix-prompt initiative status.** Bertrand May 5 flagged. May 12 update: Sylvia "very actively" in contact with Tim Lynn (Mithril). Pedro coached her to synchronize w/ Guliz but hedge on AOv2. Bertrand: Gilles + Michael had AOv2-counterpart meeting with Manas + Ken — relayed *"v1 was very complicated."*
+
+**Pedro action items from EH side:**
+- Slot Quiet-Hours-via-Agents 81-customer beta into May 11 deck customer-trust slide.
+- Find rename for "Breaking changes manager."
+- Verify Grafana JSON-size issue post-Raul-list-fix before next exec demo (cross-cutting, also AAI).
+- Confirm AI Assistant SKU/pricing model w/ Bertrand (cross-link Mithril Silvia pricing question).
+- Onboard plan for 2 June hires.
+
+---
+
+## May 12 — Mithril Silvia Eugene Pedro sync (EH-side anchor)
+
+Source: `Adobe Projects 2026 Meeting Notes/Eugene/20260512 - Mythril Silvia Eugene Pedro Sync.md`. Full notes in AAI memory. EH-side anchor:
+
+- Silvia use case = **context-reading, not UI-interaction.** *"We don't want AI to interact with UI. We want AI to read UI."* Mithril MVP misses this.
+- Eugene framing: post-Mithril, AI Assistant icon becomes contextual per surface (pipeline, etc.). Pre-Mithril = dummy shortcut everywhere.
+- 🆕 **Matthew** = Mithril co-owner alongside Tim Lynn. Surname TBD. Tomorrow May 13 Silvia + Eugene + Tim + Matthew sync. Pedro not invited — Silvia reports back.
+- 🆕 Migration window UX problem: multi-month window with mixed v1/v2/migrating agents. User confusion on which has skills/Mithril. Mitigation = in-app notifications (Silvia). Eugene: low risk currently.
+- 🆕 Pricing question: AI Assistant free or paid? Affects failure tolerance. Pedro action: confirm w/ Bertrand.
+- Pedro→Silvia: relayed Loni reframe (*"maybe v2 not the correct question, list requirements"*) — same Loni reframe Bertrand reported at P42 hours later. Converging signal.
+
+**EH action:** send Silvia engineering-manager-per-AEM-agent list (Guliz-assigned design POV on AOv2).
+
+---
+
+## May 12 — Cross-cutting Loni reframe (full content AAI-side)
+
+Loni reframe verbatim — *"No, that's not the question. Question is context, and how do we equip our agents with proper context."* Strategic anchor at VP level. Connects EH (Mithril context-reading primitive ask) ↔ AAI (Ian's North Star architecture for AEM agents AOv2). Same axis, two surfaces. Full context in AAI memory; EH-side relevance = context-reading on Mithril is the **visible UI expression** of the strategic context-architecture pivot.
+
+---
+
 ## Sister project
 
-`project_aem_agents_intelligence.md` — agent reporting platform, AO 2.0 liaison, three-tier reporting, Loni+JM May 11 deck, H-005 resolved, Felix/Rubin/Varun threads, Apoorva punch-list, KR3/4/5/6, AEMEO-9508 Data Advisory Agent overlap watch, Vaishnav PMM signal, broadcast-rep muscle.
+`project_aem_agents_intelligence.md` — agent reporting platform, AO 2.0 liaison, three-tier reporting, Loni+JM May 11 deck, H-005 resolved, Felix/Rubin/Varun threads, Apoorva punch-list, KR3/4/5/6, AEMEO-9508 Data Advisory Agent overlap watch, Vaishnav PMM signal, broadcast-rep muscle. **+ May 12 Loni reframe + Ian = North Star architect + Ian one-pager deliverable + May 13 Felix/Lara 3-way (External Agent naming, $2K/mo cost data, Mark Pfaff).**
