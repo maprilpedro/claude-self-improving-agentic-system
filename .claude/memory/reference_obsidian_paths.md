@@ -13,7 +13,7 @@ Vault root: `/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.
 - **Experience Hub:** `Experience Hub/AEM Experience Hub - Project Folder/` — folder name is `Experience Hub`, NOT `AEM Experience Hub`. The `AEM Experience Hub - Project Folder/` is the inner folder. Key files at `AEM EH - Key Files/`.
 - **AEM Agents Intelligence (AAI):** `AEM Agents Intelligence/AAI - Project Folder/` — created 2026-05-03 during Phase 1 vault split. Key files at `Key Files/`. Status at `Status and Roadmap/`.
 - **Meeting Notes:** `Meeting Notes/` — moved 2026-05-13 from `Experience Hub/AEM Experience Hub - Project Folder/Adobe Projects 2026 Meeting Notes/` to neutral `2026/` level. Shared across EH + AAI + cross-cutting (Bertrand, Felix, Namita, Ian, Yanira, Sorin, Eugene, Fu-Chi, Rubin, Shankari, Loni Meetings, EH Demo, EH Team Sync, Own Reflections).
-- **AI-Assistant (legacy, will deprecate Phase 2):** `Experience Hub/AI-Assistant/AI-Assistant Status and Roadmap/`. Source for Status & Todo copy → AAI.
+- **AI-Assistant (retired 2026-05-13):** archived snapshot moved to `Experience Hub/AEM Experience Hub - Project Folder/_archive-2026-05-state-of-project-snapshots/AI-Assistant - Status and Todo_archived_2026-05-03.md`. Top-level `AI-Assistant/` folder deleted.
 
 ## Memory Files
 
