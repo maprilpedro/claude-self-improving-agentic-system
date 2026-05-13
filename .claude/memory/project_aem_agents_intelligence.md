@@ -247,9 +247,9 @@ Bertrand named the architecture. Pedro owns Tier 2. Yanira QBR ownership ask sit
 
 **AEP AO / AI Assistant role split** (per Ilya Grafutko Slack 2026-04-27):
 - AO Platform PM: `@sgeneralov` (core, integrations) + `@igrafutko` (quality / safety / compliance)
-- AI Assistant PM: `@hanessia` (Adoption) + `@namitak` Namita (Dashboards, AI Integration, AI quality)
+- AI Assistant PM: **Rachel Hanessian** (`@hanessia`) (Adoption) + `@namitak` Namita (Dashboards, AI Integration, AI quality)
 - AO v2 (coworker): `@sgeneralov` + `@igrafutko`
-- AO v2 — AIA extensions: `@namitak` + `@hanessia`
+- AO v2 — AIA extensions: `@namitak` + **Rachel Hanessian** (`@hanessia`)
 
 For AEP Grafana dashboard issues (Agents traffic): ping Namita (`@namitak`).
 
