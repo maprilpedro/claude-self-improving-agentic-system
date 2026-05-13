@@ -577,3 +577,32 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **The three-stakeholder reply template** (when announcing the converged artifact):
   > "Hi [stakeholder] — yes, this is exactly what I'm packaging for [the senior visibility moment]. [One line about what's already shipped and one finding worth flagging.] I'll share an early cut by [date]. CC'ing [adjacent stakeholder] since this aligns with [shared frame from a prior meeting]."
 
+
+---
+
+### Decouple the Architecture Ask from the Platform-Commit Timeline
+
+- **Date**: 2026-05-13
+- **Source**: Pedro Slack DM to Silvia Mulet Ferre (Adobe Design Sr Manager, Eugene's manager) 2026-05-12 on Mithril context-reading primitive. AEM had not yet committed to AOv2 (~90% probable, progressive, internal resistance still active, Conrad directive imminent but not landed). Silvia publicly asked Tim Lynn "with who can we connect (PM) to make sure context-reading is part of AO2 & Mithril?" for AEM.
+- **Insight**: When your organization is mid-evaluation on a forward-platform commit and a peer (often from an adjacent VP chain) escalates an architectural question about that platform, the trap is to either (a) decline because "we haven't committed yet" — losing the architectural lever — or (b) engage and be read as having committed — pre-empting your own org's decision. The third move is to **decouple the architecture ask from the commit timeline**: position the primitive question as independent of any single consumer's adoption schedule. "Whether or not [my team] commits to [platform] on [timeline], the primitive question — does context-reading live in the harness or in each consumer — matters for everyone who will eventually consume it. The right place to settle it is now, before [platform] ships."
+- **Why this works**:
+  - Protects optionality. You can push the architectural lever without forcing your own org's hand on the commit decision. Your leadership preserves control of the commit timeline.
+  - Aligns naturally with adjacent stakeholders. Adobe Design, AEP-internal teams, and peer VP trees often have their own consumer relationships to the platform — they care about the primitive too. The ask becomes joint, not single-team.
+  - Survives delay. If your org takes 6 weeks longer than expected to commit, the architectural ask doesn't decay — it still applies whenever you migrate. The ask isn't gated on the commit date.
+- **The language pattern**:
+  > "I haven't committed [my team] on the timeline. Our evaluation is in flight — [name the venue: workshop / strategy session / directive landing]. The ask I'm making is purely architectural — does [primitive] live in the harness or in each app? — and is decoupled from our [platform] commit timeline. If we move on [platform] [tone: e.g. 'progressively'], this primitive protects us for every [unit]. If we delay, the ask remains valid for the other [platform] consumers."
+- **The hedge sentence in three pieces**:
+  1. **What you haven't done.** "I haven't committed [unit] on [decision]."
+  2. **Why the ask still applies.** "The primitive question is decoupled from that decision."
+  3. **What it does for whoever lands first.** "If we move, it protects us. If they move first, it protects them. Either way, it's a question for the harness team to answer."
+- **When it applies**: Your unit is mid-evaluation on a forward-platform commit (typical at ~30-90% probability range). A peer from another VP chain raises an architectural question about that platform that affects your unit's eventual consumer experience. The peer is asking who from your unit can engage.
+- **When it fails**:
+  - When you actually *have* committed and you're hiding it to preserve negotiating room — peers read that and trust falls. The hedge has to be true.
+  - When the architectural question is so tightly coupled to your unit's adoption that decoupling sounds artificial. Test: would the primitive question matter to *any* other consumer of the platform even if your unit walked away? If no, decoupling is fake.
+  - When the peer needs a binding commitment to act (procurement, contract). Hedge is for architecture conversations, not commercial ones.
+- **Senior Director vs Director**: Directors either commit or decline. Senior Directors find the third move — engage at the level where engagement has leverage, hedge at the level where commitment hasn't been made. The skill is locating which level is which.
+- **What it builds**: Trust with peer VPs that you operate at the architecture level, not the politics level. Loni-grade reputation pattern: "Pedro pushes architecture questions even when his own team's posture is open."
+- **Memory anchor (Pedro Slack DM Silvia 2026-05-12)**:
+  > "The use-case you described (assistant reading the open page + its full context without the user having to add it manually) is exactly the foundational primitive for AEM surfaces, and it's aligned with what we're pushing on the Experience Hub side with Eugene. […] Joint ask = context-reading as a Mithril primitive, not a tooling each app has to re-implement."
+- **Hedge to Bertrand FYI (same day v2 draft, FR)**: *"je n'ai rien committé sur le timeline AEM. L'ask est purement architectural (primitive vs re-impl par-app), décorrélé de notre évaluation AOv2 en cours."*
+

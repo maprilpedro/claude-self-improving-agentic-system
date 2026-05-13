@@ -665,8 +665,11 @@ Source: `Agent Owner Alignement/20260505 - Felix Pedro 1 1.md`. All "Unknown Spe
 - Bertrand May 5 action — *"chase Guliz on XD/Adobe-Design loop visibility"* — materializing. Silvia (Guliz tree) operating directly with Mithril. Loop visibility is happening; Pedro inserts as the AEM-PM pole.
 - Pedro's AEM-AO liaison mandate now operational at PM-to-PM-counterpart level (Adobe Design Sr Manager → AEM PM) on a high-leverage primitive, not just at AO PM↔PM (Sergey).
 - Context-reading = same primitive Pedro pushes on EH Priority 1 (Skills+MCP surface) with Eugene. Adobe Design + Pedro aligned ask = stronger together than either alone.
-- AEM Sites still excluded from Mithril (Bertrand May 5). If AEM wants Mithril → forces AOv2 commit. Pressure aligns with 5-phase plan timing (workshop Phase 2 next week, Conrad directive imminent).
 - End-of-May Mithril e2e wiring = T-19 days. Window to influence Mithril primitive list is now, not after launch.
+
+**Posture (hedge — confirmed Pedro 2026-05-13):** AEM has **not yet committed to AOv2.** ~90% probable, **progressive**, internal resistance still active. Conrad directive imminent but not landed. Pedro's ask to Silvia is **purely architectural** (primitive vs per-app), **decoupled from AEM AOv2 commit timeline.** Architecture ask remains valid for any Mithril consumer regardless of when AEM moves. Knowledge entry promoted: leadership/ "Decouple the Architecture Ask from the Platform-Commit Timeline" 2026-05-13.
+
+**Bertrand FYI Slack v2 (FR, drafted 2026-05-13, NOT YET SENT).** Adds hedge paragraph: *"je n'ai rien committé sur le timeline AEM. L'ask est purement architectural (primitive vs re-impl par-app), décorrélé de notre évaluation AOv2 en cours (workshop Yanira semaine prochaine, directive Conrad imminente)."* Send-or-wait gated on user confirm.
 
 **Bertrand FYI Slack drafted (FR, not yet sent).** Quick informational note referencing his May 5 action, confirmations from Tim Lynn, Pedro's outbound move, division of labor. No ask. To send when user confirms.
 
