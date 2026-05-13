@@ -170,7 +170,7 @@ All paths relative to: `/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilp
 - EH Evolutions proposal: `202603 - EH Evolutions proposal.md`
 - Bertrand brief: `EH as the Skills and MCP Surface - Bertrand brief.md`
 - MOC: `🎯 AEM Experience Hub MOC.md`
-- Meeting notes folder: `Adobe Projects 2026 Meeting Notes/` (renamed from `EH Meeting Notes/`)
+- Meeting notes folder: **moved out of EH folder 2026-05-13** → `/2026/Meeting Notes/` (neutral, shared with AAI and other projects). Previously `Adobe Projects 2026 Meeting Notes/` under EH project folder. Rename + move applied because folder content (Bertrand, Felix, Namita, Ian, Yanira 1-1s) was cross-cutting, not EH-specific.
 
 ---
 
@@ -188,7 +188,7 @@ Pedro → Shankari Panchapakesan (Group PM, SJ) → Bertrand (Sr Director PM, Ba
 
 ## May 5 Bertrand 1-1 — EH-side drop-ins
 
-Source: `Adobe Projects 2026 Meeting Notes/Bertrand 1 1/20260505 - Bertrand Pedro 1 1_otter_ai_transcript.txt`. AAI signals in sister memory file.
+Source: `Meeting Notes/Bertrand 1 1/20260505 - Bertrand Pedro 1 1_otter_ai_transcript.txt`. AAI signals in sister memory file.
 
 **Mithril / Coworker (Joshua Hailpern team).** AI Assistant V2 with "mode rail" (observer + suggestion). Launching ~late May (T-25 days). **AEM Sites NOT included** — repeat exclusion pattern (also Modernization Agent + Experience Workspace). Bertrand asked Sorin + Eugene to do Mithril review. Pedro saw UI via night Slack May 4. Bertrand: *"Ça va être un point important pour la migration AOv2 si on y va."* Bertrand actioned: chase Guliz on XD/Adobe-Design loop visibility.
 
@@ -206,7 +206,7 @@ Source: `Adobe Projects 2026 Meeting Notes/Bertrand 1 1/20260505 - Bertrand Pedr
 
 ## May 12 — Bertrand 1-1 EH-side drop-ins
 
-Source: `Adobe Projects 2026 Meeting Notes/Bertrand 1 1/20260512 - Bertrand Pedro 1 1.md`. AAI-side content in sister memory.
+Source: `Meeting Notes/Bertrand 1 1/20260512 - Bertrand Pedro 1 1.md`. AAI-side content in sister memory.
 
 **1. 🆕 Quiet Hours Update via Agents — beta launching.** Activated on ID. Customers run **Quiet Hours-Update via the chatbot/agent** (free). Beta cohort: (customers who previously used Quiet Hours Update) ∩ (customers w/ AI) = **81 customers** to activate. Expect dozens of feedback. **Ties O4 (Ship Quiet Hours).** Concrete proof point for May 11 deck "customer trust increase" slide. Companion to Bertrand customer-trust slide (Pedro to add quote-worth slots).
 
@@ -234,7 +234,7 @@ Source: `Adobe Projects 2026 Meeting Notes/Bertrand 1 1/20260512 - Bertrand Pedr
 
 ## May 12 — Mithril Silvia Eugene Pedro sync (EH-side anchor)
 
-Source: `Adobe Projects 2026 Meeting Notes/Eugene/20260512 - Mythril Silvia Eugene Pedro Sync.md`. Full notes in AAI memory. EH-side anchor:
+Source: `Meeting Notes/Eugene/20260512 - Mythril Silvia Eugene Pedro Sync.md`. Full notes in AAI memory. EH-side anchor:
 
 - Silvia use case = **context-reading, not UI-interaction.** *"We don't want AI to interact with UI. We want AI to read UI."* Mithril MVP misses this.
 - Eugene framing: post-Mithril, AI Assistant icon becomes contextual per surface (pipeline, etc.). Pre-Mithril = dummy shortcut everywhere.

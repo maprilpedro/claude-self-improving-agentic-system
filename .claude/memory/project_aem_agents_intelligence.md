@@ -150,7 +150,7 @@ Bertrand named the architecture. Pedro owns Tier 2. Yanira QBR ownership ask sit
 
 **Loni's frame (via Jaclyn, KR review + April 21):** *"We cannot just be at the mercy of somebody else. We need to have our own strategy of what we want to do."* AEM owns its agent strategy, not following AEP by default. Durable frame for May 11 deck.
 
-**April 29 strategy session outcome.** 2-hour block, Bertrand + Conrad + Yanira + Jaclyn + Ian + Carsten + Trent + Ken. Notes at `Adobe Projects 2026 Meeting Notes/Agent Owner Alignement/20260429 - Alignment_ AEM Agents & AOv2.md`.
+**April 29 strategy session outcome.** 2-hour block, Bertrand + Conrad + Yanira + Jaclyn + Ian + Carsten + Trent + Ken. Notes at `Meeting Notes/Agent Owner Alignement/20260429 - Alignment_ AEM Agents & AOv2.md`.
 
 **Status (corrected 2026-05-04 by Bertrand post-meeting):** AOv2 as AEM's forward agent path was **discussed, not decided.** Do NOT present as locked decision. Bertrand explicitly flagged this when Pedro began drafting Yanira's introduction.
 
@@ -466,7 +466,7 @@ Pedro shipped first MCP report MOC 2026-05-06. Slack to Bertrand: *"starting to 
 
 ## May 6 Namita 1-1 — Mapping owners + Langfuse path + master-list signal
 
-Source: `Adobe Projects 2026 Meeting Notes/Namita 1 1/20260506 - Namita Pedro 1 1 .md`. ~14 min EN. 5 of 5 walk-outs hit.
+Source: `Meeting Notes/Namita 1 1/20260506 - Namita Pedro 1 1 .md`. ~14 min EN. 5 of 5 walk-outs hit.
 
 **Material signals:**
 
@@ -537,7 +537,7 @@ Source: Slack thread launched by Yanira Castaneda 2026-05-06 18:03. Channel TBD 
 
 ## May 6 Felix 1-1 (~25-min FR sync)
 
-Source: `Adobe Projects 2026 Meeting Notes/Felix Pedro 1 1/20260506 - Felix Pedro 1 1.md`. Felix + Pedro.
+Source: `Meeting Notes/Felix Pedro 1 1/20260506 - Felix Pedro 1 1.md`. Felix + Pedro.
 
 **Material signals:**
 
@@ -577,7 +577,7 @@ Source: `Adobe Projects 2026 Meeting Notes/Felix Pedro 1 1/20260506 - Felix Pedr
 
 ## May 5 Bertrand 1-1 (~20-min FR sync)
 
-Source: `Adobe Projects 2026 Meeting Notes/Bertrand 1 1/20260505 - Bertrand Pedro 1 1_otter_ai_transcript.txt`. Two named speakers (Pedro + Bertrand), rest Unknown — attribution by content.
+Source: `Meeting Notes/Bertrand 1 1/20260505 - Bertrand Pedro 1 1_otter_ai_transcript.txt`. Two named speakers (Pedro + Bertrand), rest Unknown — attribution by content.
 
 **Material signals:**
 
@@ -698,7 +698,7 @@ Source: `Agent Owner Alignement/20260505 - Felix Pedro 1 1.md`. All "Unknown Spe
 
 ## May 12 P42 Status Sync — Loni reframe + Ian = North Star architect
 
-Source: `Adobe Projects 2026 Meeting Notes/Yanira/20260512 - P42 Status Sync.md`. Bertrand + Ian Boston + Jaclyn (+ Pedro arriving). 112-line transcript cuts at 6:30 mid-handoff to Pedro.
+Source: `Meeting Notes/Yanira/20260512 - P42 Status Sync.md`. Bertrand + Ian Boston + Jaclyn (+ Pedro arriving). 112-line transcript cuts at 6:30 mid-handoff to Pedro.
 
 **1. 🚨 Loni reframe verbatim (May 11, reported by Bertrand May 12).** Loni: *"No, that's not the question. Question is context, and how do we equip our agents with proper context."* Explicit rejection of AOv2 yes/no framing. Pivot = **context architecture** as the strategic axis. Bertrand: *"more than memory. Connecting content sources from different places and deciding which bits should be passed as actual content."* → Strategic anchor for May 11 deck. **Open the deck with this.**
 
@@ -745,7 +745,7 @@ Source: `Adobe Projects 2026 Meeting Notes/Yanira/20260512 - P42 Status Sync.md`
 
 ## May 13 — Felix + Lara + Pedro 3-way (External Agent naming lock, Langfuse pipeline, cost data)
 
-Source: `Adobe Projects 2026 Meeting Notes/Felix Pedro 1 1/20260513 - Felix Lara Pedro 1 1.md`. ~30 min EN.
+Source: `Meeting Notes/Felix Pedro 1 1/20260513 - Felix Lara Pedro 1 1.md`. ~30 min EN.
 
 **1. 🆕 "MCP report" → "External Agent Report" naming locked.** Felix: *"MCP je suis allergique à ce mot là."* MCP ambiguous (Tanju millions of internal tool calls true; ChatGPT-Copilot consumption near-zero also true). New architecture:
    - **AI Assistant Report** (internal AEM assistant usage)
@@ -775,7 +775,7 @@ Source: `Adobe Projects 2026 Meeting Notes/Felix Pedro 1 1/20260513 - Felix Lara
 
 ## May 12 — Bertrand 1-1 (FR, ~20 min)
 
-Source: `Adobe Projects 2026 Meeting Notes/Bertrand 1 1/20260512 - Bertrand Pedro 1 1.md`. Chronologically: this 1-1 → P42 Status Sync (same day) → Mithril Silvia (same day). Pedro got Loni reframe from Bertrand here, relayed to Silvia hours later, Bertrand re-stated at P42 to Ian.
+Source: `Meeting Notes/Bertrand 1 1/20260512 - Bertrand Pedro 1 1.md`. Chronologically: this 1-1 → P42 Status Sync (same day) → Mithril Silvia (same day). Pedro got Loni reframe from Bertrand here, relayed to Silvia hours later, Bertrand re-stated at P42 to Ian.
 
 **1. 🚨 May 11 deck framing locked.** Bertrand: *"Un point de vue AEM sur ao deux zéro. Qu'est ce qu'on va faire? C'est surtout pas la question. Faut pas dire deux zéro si les gens vont se braquer du fait de l'expérience pas terrible."* **Don't say "v2." Frame = requirements-first.** People defensive due to v1 experience. Action: document what AOv2 brings.
 
@@ -813,7 +813,7 @@ Source: `Adobe Projects 2026 Meeting Notes/Bertrand 1 1/20260512 - Bertrand Pedr
 
 ## May 12 — Mithril Silvia Eugene Pedro sync (EH/AAI cross-cutting)
 
-Source: `Adobe Projects 2026 Meeting Notes/Eugene/20260512 - Mythril Silvia Eugene Pedro Sync.md`. ~22 min EN.
+Source: `Meeting Notes/Eugene/20260512 - Mythril Silvia Eugene Pedro Sync.md`. ~22 min EN.
 
 **1. Pedro hedge confirmed in room.** Told Silvia: AEM teams not committed to AOv2. Sites pushing back hard. Don't promise v2 in upstream conversations. Use cautious language. Aligns w/ Decouple-Architecture-Ask knowledge entry.
 
