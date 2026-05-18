@@ -12,6 +12,7 @@
 - [Promotion Strategy v1](reference_promotion_strategy.md) — Living strategy doc in Adobe Career folder. Playing to Win cascade applied to Director→Senior Director move. Monthly review (next 2026-06-01).
 - [PPTX template — H2'26 deck](reference_pptx_template.md) — Always use `[Internal] - H2'26 AEM & Agentic Web Planning.pptx`. Layout 6 = Content Slide.
 - [AEP TryBuy Project Artifacts](reference_aep_trybuy_artifacts.md) — AEP-side source of truth for TryBuy / TBYB. SharePoint DExProductManagement / Data Governance. Upstream of AEM master-list lane.
+- [Brand Concierge Lightup Onboarding](reference_brand_concierge_lightup.md) — Confluence page 3815569799 (ContentAl space). BC light-up onboarding status + latest news. EH-side. Via Atlassian MCP.
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.

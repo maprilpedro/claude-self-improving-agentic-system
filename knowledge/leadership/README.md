@@ -606,3 +606,47 @@ Directors own their product area. Senior Directors shape decisions across areas 
   > "The use-case you described (assistant reading the open page + its full context without the user having to add it manually) is exactly the foundational primitive for AEM surfaces, and it's aligned with what we're pushing on the Experience Hub side with Eugene. […] Joint ask = context-reading as a Mithril primitive, not a tooling each app has to re-implement."
 - **Hedge to Bertrand FYI (same day v2 draft, FR)**: *"je n'ai rien committé sur le timeline AEM. L'ask est purement architectural (primitive vs re-impl par-app), décorrélé de notre évaluation AOv2 en cours."*
 
+---
+
+### A VP Reframes the Question to Escape a False Binary — Read the New Question, Not the Old Answer
+
+- **Date**: 2026-05-18
+- **Source**: Loni Stark (VP AEM & Commerce) on the AOv2 question, reported by Bertrand across three channels same week (2026-05-11/12): P42 Status Sync (Bertrand to Ian + Jaclyn), Bertrand 1-1 with Pedro, and Pedro's relay to Silvia/Eugene. Verbatim: *"That's not the question. Question is context — how do we equip our agents with proper context."* And separately: *"Maybe v2 is not the correct question. Maybe we should ourselves list the requirements and then see how v2 would fit in."*
+- **Insight**: When a team is deadlocked on a binary (do we adopt platform X — yes or no?), a strong VP doesn't pick a side. They **reject the question itself and substitute a better one**. Loni converted "are we going to AOv2?" (a commitment question that splits the org into camps) into "what context architecture do our agents need, and how would any platform satisfy it?" (a requirements question everyone can work on together). The binary was a trap — every answer to it created losers. The reframe dissolved the camps by changing what's being decided.
+- **Why VPs do this**:
+  - A binary forces premature commitment before the org understands the problem space. The reframe buys analysis time without looking indecisive — it's not "we'll decide later," it's "you're solving the wrong problem."
+  - Binaries create political camps (pro-v2 vs anti-v2). A requirements question has no camps — everyone contributes requirements. It re-merges a fracturing org.
+  - It moves the decision from a vendor/platform axis (low leverage, someone else's roadmap) to a requirements axis (high leverage, your definition). Loni's frame: *"We cannot just be at the mercy of somebody else."*
+- **The operating lesson for the Director below the VP**: When your VP reframes, the failure mode is to keep answering the old question because that's the work you already staged. Pedro's near-miss: he had a deck framed around "is AOv2 the path?" The reframe meant the deck had to **open with the context-requirements question, not the platform-adoption question** — different first slide, different ask, different owner mapping. Reading the new question correctly is a Senior-Director-grade act of comprehension. Mis-reading it (shipping the old deck) reads as not tracking leadership.
+- **How to detect a reframe (vs a deferral)**: A deferral sounds like "let's revisit next month." A reframe sounds like "that's not the question" + a *replacement* question stated immediately. The tell is the substitute. If a new question is offered, the old one is dead — stop optimizing answers to it.
+- **What to do when it lands**:
+  1. Restate the new question back, in writing, to confirm you have it. ("Loni's question is now: what context architecture do agents need — AOv2 is evaluated *against* that, not decided in the abstract.")
+  2. Re-derive every staged artifact from the new question. Don't patch the old framing — re-open from the new first principle.
+  3. Find who owns the answer to the *new* question (here: Ian's North Star architecture / context requirements) and make them visible, rather than re-litigating the old binary.
+- **Senior Director vs Director**: Directors answer the question they were given. Senior Directors notice when the VP has changed the question and re-aim the whole org's work at the new one — fast, before the org wastes a cycle answering the dead question. The skill is comprehension speed, not analysis depth.
+- **Thinking lens**: *"Wisdom is seeing things for what they are, not what they're called."* The work was still called "the AOv2 deck." What it actually became was "the context-requirements deck." Stripping the label is the whole move.
+- **Cross-link**: pairs with [[Decouple the Architecture Ask from the Platform-Commit Timeline]] — same week, same platform decision. The reframe (context-not-v2) is *why* the decoupling works: if the question is requirements not commitment, the architecture ask is naturally decoupled from the commit timeline.
+
+---
+
+### Use the Forum to Manufacture the Deliverable and Pre-Load Its Consumers
+
+- **Date**: 2026-05-18
+- **Source**: Pedro's clarified intent for handling Ian Boston's un-produced North Star 1-pager. Ian self-assigned the 1-pager at P42 (2026-05-12); 6 days later (2026-05-18) Bertrand confirmed it does not exist. Pedro's framing of "introduce it at the agents sync" was not "present an existing doc" but *"il le crée, donc soyez prêt"* — the sync is the mechanism that compels Ian to produce it and simultaneously primes the teams to consume it.
+- **Insight**: When a gating artifact is owed by someone else and hasn't shipped, the Director move is to chase it (status-tracking, reporting the gap upward). The Senior Director move is to **design the forum that manufactures it**. Putting "produce the 1-pager" on a shared meeting agenda does three things at once: (1) it converts a private commitment into a public one with a date and witnesses, (2) it forces the author to deliver to a deadline they now own in front of peers, and (3) it pre-loads the downstream consumers — the teams hear it's coming and stage to evaluate against it, so no second round-trip is needed once it lands.
+- **Why this beats chasing**:
+  - Chasing is 1:1 and invisible — it produces a status line ("still waiting on Ian"), which is Director-grade reporting of a gap.
+  - The forum move is 1:many and structural — it produces the artifact *and* its readiness, which is Senior-Director-grade shaping of how the org moves. Same gap, opposite altitude.
+  - It transfers the deadline pressure from you (the consumer who needs it) to the author (who now owns a public commitment). You stop being the nag; the room becomes the forcing function.
+- **The dog that doesn't bark**: 6 days, no 1-pager, nobody chasing it. The silence is the signal — the gating artifact has no forcing function, so it isn't moving. Naming that absence and installing the mechanism is the leadership act. The person who notices the missing thing and engineers its arrival is the one leadership turns to.
+- **The language pattern (to the manager who owns the forum)**:
+  > "The sync isn't to *present* [artifact] — it's to *trigger* it. You task [author] to produce it there, with a date. The teams hear it's coming and stage to evaluate against it. The meeting creates the deliverable and prepares its audience in one move, instead of everyone waiting on it separately."
+- **When it applies**: A gating artifact is owed by a peer/another team, is overdue, and has no deadline-bearing forum attached. There is a recurring cross-team meeting whose attendees are exactly the downstream consumers.
+- **When it fails**:
+  - When the author is senior enough that a public deadline reads as cornering them — then route the forcing function through their manager, not the open room.
+  - When the artifact genuinely isn't ready to spec (the delay is real discovery, not slippage) — manufacturing it on a deadline produces a bad artifact.
+  - When you're not the one who can put items on the agenda — then the move is to ask the agenda-owner to do exactly this, which is itself the Slack Pedro drafted to Bertrand.
+- **Thinking lens**: *"Amateurs study tactics; professionals study logistics."* Chasing the doc is tactics. Building the forum that produces it and stages its readers is logistics — the thing that actually makes it move.
+- **Status**: single strong instance (Ian 1-pager / agents sync, 2026-05-18). Holding as a named leadership entry rather than a hypothesis because the mechanism is a recognized general technique (public commitment + deadline forum + consumer pre-load) with a clean instance; watch for a 2nd instance to confirm it generalizes beyond artifact-chasing.
+- **Cross-link**: companion to [[Convergence Framing — Collapse Multiple Stakeholder Asks Into One Artifact]] (order-taker → architect) and [[Pick Up the Open Action Item]]. Also pairs with the feedback memory `feedback_dont_overread_vp_quotes` — Ian is the architect/author, Pedro is the operator who designs the forum; the forum move is exactly Pedro's correct lane once the authorship is read right.
+

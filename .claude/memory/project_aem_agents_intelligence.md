@@ -7,7 +7,20 @@ metadata:
   originSessionId: 5f12dcf1-db3b-44ce-bf6c-50e0a17cb9e9
 ---
 
-> **Two-project split — in progress (2026-05-03).** Phase 1 scaffold landed. AAI vault folder at `2026/AEM Agents Intelligence/AAI - Project Folder/`. Companion file `project_experience_hub.md` covers EH product. EH content remains in EH file until Phase 2 trim completes.
+> **Two-project split — Phase 2 structurally complete (2026-05-13).** AAI vault folder at `2026/AEM Agents Intelligence/AAI - Project Folder/`. Companion `project_experience_hub.md` covers EH. Meeting Notes moved to neutral `2026/Meeting Notes/` (2026-05-13). AI-Assistant legacy folder retired. No legacy folders remain.
+
+> ## ⏱ Consolidation checkpoint — 2026-05-18 (staleness flags, NOT new facts)
+>
+> Date-driven items now past — confirm outcomes, don't assume:
+> - 🔴 **Loni + JM deck (week of May 11)** — meeting window passed. Outcome NOT captured. Debrief ask: did it happen, what landed, what's the follow-up. This is the single biggest open.
+> - 🔴 **SD-1 / SD-2 / SD-3** (due May 6/8) + **KR4 Priority Consolidation** (due May 8) — all past due, status uncaptured. Reconcile.
+> - 🟡 **Felix/Lara Langfuse Governance pipeline** — PR merge Fri May 15 → data by Mon May 18 (today). Check-in due: did data land, integration started.
+> - 🟡 **Workshop Foundation facilitator** — Bertrand asked Pedro May 12, no recorded response 6 days on. Decision stale. Accept/decline now.
+> - 🔴 **Ian North Star 1-pager** — confirmed NOT produced as of May 18 (Bertrand). Gating artifact for per-team AOv2 eval. Forcing-function Slack to Bertrand drafted, send status unknown.
+> - 🟢 **Corey call** — Tue May 19, still future. On track.
+> - **Apoorva punch-list** April deadlines all past — confirm closed vs slipped.
+>
+> Apply: when Pedro references any of the above, ASK for current state before reusing the memory value. Memory is point-in-time; these are expired.
 
 AEM Agents Intelligence (AAI) is the agent-portfolio reporting and strategy work Pedro owns inside the AEM PM org. It is distinct from Experience Hub (EH, the AEM home-screen product). AAI maps to G1 (Agent Intelligence & Reporting). EH maps to G2 + G3.
 
@@ -738,7 +751,7 @@ Source: `Meeting Notes/Yanira/20260512 - P42 Status Sync.md`. Bertrand + Ian Bos
 
 **Open / TBD:**
 - Transcript cut at 6:30 (Bertrand: *"Two questions... Do you want to..."*) — Pedro's portion not in this file. Find Pedro segment if recorded separately or follow up with Bertrand on what was assigned.
-- Ian one-pager deliverable — track for receipt.
+- 🔴 **Ian one-pager NOT produced as of 2026-05-18.** Self-assigned May 12, 6 days no delivery. Bertrand confirmed 2026-05-18 he has not seen it — it does not yet exist. North Star requirements doc is the gating artifact for the per-team AOv2 evaluation (gives the "what"). Until it lands, Pedro cannot reference it in agendas or distribute it. Pedro lever: ask Bertrand to chase Ian / put 1-pager *production* (not presentation) on agents-sync agenda.
 - Governance global-context API technical detail — schedule Philippe sync (carefully framed).
 
 ---
