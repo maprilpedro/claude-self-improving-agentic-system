@@ -16,8 +16,11 @@ metadata:
 > - 🔴 **SD-1 / SD-2 / SD-3** (due May 6/8) + **KR4 Priority Consolidation** (due May 8) — all past due, status uncaptured. Reconcile.
 > - 🟡 **Felix/Lara Langfuse Governance pipeline** — PR merge Fri May 15 → data by Mon May 18 (today). Check-in due: did data land, integration started.
 > - 🟡 **Workshop Foundation facilitator** — Bertrand asked Pedro May 12, no recorded response 6 days on. Decision stale. Accept/decline now.
-> - 🔴 **Ian North Star 1-pager** — confirmed NOT produced as of May 18 (Bertrand). Gating artifact for per-team AOv2 eval. Forcing-function Slack to Bertrand drafted, send status unknown.
-> - 🟢 **Corey call** — Tue May 19, still future. On track.
+> - 🔴 **Ian North Star 1-pager** — confirmed NOT started (Ian verbatim, May 18 Agent Owners call: *"about to start in the near future. I haven't actually started it"*). Gating artifact for per-team AOv2 eval. Pedro publicly named Ian owner in the call. Forcing-function Slack to Bertrand drafted, send status unknown — escalate.
+> - 🟡 **CCF / ISO 42001 — scope NARROWED (May 18).** No longer all AEM agents → **Discovery + Governance only** this year. Loni+Bertrand finalizing exact list. July 17 deadline holds. Bertrand: *"important but not urgent, not top of stack."* Downgrade from 🔴.
+> - 🔴 **Roadmap deck restructure** — Bertrand cut date **Fri May 22** (snapshot → design agency), **final Fri May 29** (broad distribution). Per-agent overview + timeline + skill-detail slides. Pedro's 6 agents need coverage.
+> - 🔴 **Greg Klebus customer escalation** — Rosh + Genentech, multi-IMS-org agent scope (AOv1 = 1 org limit). Ian pulled into customer arch conversations. Feed into requirements + North Star.
+> - 🟢 **Corey call** — Tue May 19 (today). On track.
 > - **Apoorva punch-list** April deadlines all past — confirm closed vs slipped.
 >
 > Apply: when Pedro references any of the above, ASK for current state before reusing the memory value. Memory is point-in-time; these are expired.
@@ -852,3 +855,33 @@ Source: `Meeting Notes/Eugene/20260512 - Mythril Silvia Eugene Pedro Sync.md`. ~
 - Send Silvia engineering-manager-per-agent list.
 - Check w/ Bertrand on AI Assistant SKU/pricing.
 - Stay tuned for Silvia/Tim/Matthew sync outcome (May 13).
+
+---
+
+## May 18 — Agent Owners Alignment (Pedro HOSTED)
+
+Source: `Meeting Notes` → `Agent Owner Alignement/20260518 - Agents Owners Alignement - .md`. ~32 min, EN. **Transcript partial — gaps 14:21→29:05 (Ian North Star detail + Philippe demo missing).**
+
+**1. 🆕 Pedro hosted the cross-agent forum (Yanira on PTO).** First time Pedro chairs the Agent Owners Alignment. Ran agenda, gave the AOv2 status himself, handed mic to Bertrand for roadmap process. Visibility / altitude data point — Pedro operating the standing cross-agent venue, not just contributing. Bank for Senior Director narrative; offer to be Yanira's standing backup host.
+
+**2. 🆕 CCF / ISO 42001 scope NARROWED (Robert Guthrie).** Initial scope = all AEM agents. Now = **Discovery Agent + Governance Agent only** this year. Loni + Bertrand still finalizing exact list. Deadline **July 17** to be compliant (auditors collect evidence Aug-Oct, possibly into Oct). 10-12 CCF controls mapping to ISO 42001 international standard. Other teams may opt in if ready. **Bertrand (verbatim):** *"important, but not really urgent... not going to block any deal that we know of in the next two quarters... not top of stack at the moment."* Tech GRC may begin reaching out to Discovery + Governance teams. **Supersedes May 4 entry** (was ~12-13 tickets, all agents). Downgrade tracking 🔴 → 🟡.
+
+**3. 🆕 Roadmap deck restructure (Bertrand, NEW format).** Timeline view of internal + GA dates → per-agent overview slide (production, modernization, development — Brian started development overview) → per-skill/job detail slide for any non-self-explanatory bullet. **Snapshot cut THIS Friday May 22** → handed to a design agency for refinement. **Final Friday May 29** → distributed broadly: roadmap webinars, field, customers, support. First time roadmap restructured this way. Bertrand: *"every word, every bit, every minute we spend on the deck is not wasting time, this is used a lot in the field."* Agent owners PM + eng asked to invest time this week. **Pedro lane:** as host + portfolio operator, ensure his 6 agents have timeline + overview coverage before May 22.
+
+**4. AOv2 — Pedro framed publicly as host (the "introduce the request" already partly executed).** Pedro stated: confirming from Bertrand ("the architect") **green light for the EVALUATION of migrating current platform onto AOv2, NOT the decision**. *"There are still questions at senior management if [AO]V2 is the platform that we should move into."* Directions Pedro named to Ian: open-source model (fork + PR), moving into skills. Requirements-first framing landed verbally with agent owners. The drafted broadcast message becomes the written follow-up with criteria + AS-IS staging ask.
+
+**5. 🔴 Ian North Star 1-pager — NOT started (verbatim).** Ian: *"Starting as in I'm about to start in the near future. I haven't actually started it, yes."* Pedro publicly named Ian as owner of the North Star / requirements + use-cases doc for the AOv1 successor. Ian began AOv1-lessons rationale (enhance UI, UI operate...) then transcript gap. **Gating artifact still missing — escalate via Bertrand forcing-function Slack; offer to scaffold/seed it so Ian starts from a populated list.**
+
+**6. 🆕 Ian deploy-to-stage skill.** Ian: *"I have a skill to deploy these sort of things to a single pod in stage, which Claude will do for you."* Claude-driven single-pod stage deploy. Bertrand referenced developer console + I/O runtime as logical fit. **Enabling asset for the per-team AOv2 AS-IS staging evaluation** — reference it in the broadcast so teams have a deploy path.
+
+**7. 🔴 Greg Klebus — customer escalation.** Rosh + Genentech want to go big on agents, deployed across **multiple IMS orgs**. AOv1 today **limits agent scope to 1 IMS org**. Greg asked Ian to join customer architect / implementation-partner conversations as eng/arch rep — future-proof deployment across **AEM + AJO + AEP**. Greg will summarize outcome. Expected to recur with larger customers. **Concrete customer-driven requirement** — feed into Ian's North Star input + Pedro's portfolio requirements lane. Track Genentech + Rosh as named drivers.
+
+**8. Philippe demo (agent automation).** Mostly in transcript gap. Pedro offered to share Philippe's docs/pointers with the group as host. Philippe terse (*"Yeah, well, I'm sure you do."*). Competitor-frame caution: get the material, control distribution as host, do NOT trade unpolished AAI work back.
+
+**Pedro proactive actions:**
+- Convert verbal AOv2 framing into the written broadcast (criteria + AS-IS staging + Ian deploy-skill pointer). Hold the line: evaluation not decision.
+- Escalate Ian 1-pager (not started) — Bertrand forcing-function Slack; offer to seed requirements (Greg multi-IMS-org + EH context-reading + skill portability).
+- Drive roadmap-deck coverage for the 6 agents before Fri May 22 cut; ping owners; reuse Portfolio Briefing as source.
+- Capture Greg multi-IMS-org limit + Genentech/Rosh as portfolio requirement; get Greg's summary.
+- CCF reconcile: scope = Discovery + Governance only, July 17, Bertrand-deprioritized. Confirm Apoorva + Philippe teams aware Tech GRC may reach out. Don't over-invest.
+- Bank host role; offer standing backup-host for Yanira.
