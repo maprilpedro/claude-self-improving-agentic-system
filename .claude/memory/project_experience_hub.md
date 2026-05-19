@@ -128,6 +128,7 @@ Added April 28, 2026:
 - **Sunil Menon = peer of Loni Stark at VP level** under Amit Ahuja. Prompt Library Platform sits in his tree, NOT in AEM/Loni's.
 - Right ladder: tactical Pedro→Cole, strategic Pedro→Stephen Gould (also Pedro's existing DX/Unified Shell contact), portfolio decisions Loni→Sunil at VP layer.
 - Org-chart screenshots: `screenshots/20260428-org-*.png`.
+- **2026-05-19 bridge:** Joshua Hailpern (EM here) also leads AIA UI / Mithril / Fruitbar; Somya Biswari + Zeus Courtois are lead engineers on both. Prompt Library Platform and Mithril/Fruitbar = same engineering galaxy under Sunil Menon's tree. Full note in `project_aem_agents_intelligence.md` "May 19 — Engineering bridge".
 
 ---
 

@@ -739,6 +739,18 @@ Source: Pedro chat update 2026-05-19 + External Agent Report screenshot (Returni
 
 ---
 
+## May 19 — Engineering bridge: Mithril/Fruitbar ↔ Prompt Library Platform (Hailpern / Somya / Zeus, Sunil tree)
+
+Connective insight surfaced 2026-05-19 cross-referencing the two Hailpern announcements (Mithril Hybrid 2.0 + Fruitbar) against the EH-side "Cross-VP — Prompt Library Platform" memory.
+
+- **Joshua Hailpern** is EM of the **Prompt Library Platform** (Cole Connelly's PM area, O2 KR "EH consumes prompt library not wiki") AND leads the **AIA UI / Mithril / Fruitbar** stack. Same person, both sides.
+- **Somya Biswari** + **Zeus Courtois** appear on both: lead engineers on Prompt Library Platform (April 28 memory) and named in the Mithril announcement (Somya = Quarry Component integration lead; Zeus = "You Shall Not Pass" AI-generated-code-quality automation).
+- Implication: **Prompt Library Platform and Mithril/Fruitbar/AIA-UI are the same engineering galaxy** — Hailpern + Somya + Zeus — and it sits under **Sunil Menon's VP tree (Experience Cloud Portfolio), NOT Loni/AEM's**. (Cole → Stephen Gould → Tim Lott → Daniel Sheinberg → Sunil Menon → Amit Ahuja.)
+- Why it matters: when Pedro engages Mithril/Fruitbar (validation with Josh/Adam) or the prompt-library KR, it's the same org pole. Cross-org influence runs through Stephen Gould (strategic, also Pedro's DX/Unified Shell contact) / Cole (tactical), at VP layer Loni↔Sunil. Don't treat Mithril and Prompt Library as separate org problems — one tree, one set of people.
+- See vault note `AAI - Project Folder/AO 2.0/Mithril & Fruitbar - Crash Course (non-frontend).md` + EH memory "Cross-VP — Prompt Library Platform".
+
+---
+
 ## May 12 P42 Status Sync — Loni reframe + Ian = North Star architect
 
 Source: `Meeting Notes/Yanira/20260512 - P42 Status Sync.md`. Bertrand + Ian Boston + Jaclyn (+ Pedro arriving). 112-line transcript cuts at 6:30 mid-handoff to Pedro.
