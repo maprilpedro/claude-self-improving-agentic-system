@@ -140,6 +140,28 @@ Push only when explicitly asked. This repo's push is auth-blocked (per memory).
 
 ---
 
+## Automation (skills + subagents)
+
+Built-in tooling for the two highest-frequency workflows. Skills are **skillshare-managed**: source of truth is `.skillshare/skills/`, synced to `.claude/skills/` (symlinks) via `skillshare sync` (project mode, `.skillshare/config.yaml`, `targets: [claude]`). Edit the skill in `.skillshare/skills/`, never the symlink. New repo skills go in `.skillshare/skills/<name>/` then `skillshare sync`.
+
+**Skills (user-invocable, `disable-model-invocation: true` — Pedro triggers, never auto):**
+
+| Skill | Use when | Does |
+|---|---|---|
+| `/ingest-transcript [path]` | A new transcript / meeting notes to process | Routes by owning project, updates canonical Status & Todo (prep→notes reconcile, date-agnostic), updates project memory (date reconcile), knowledge reflection if pattern-grade, brief summary, offers trio, commits `learn:`. No path → finds most recent in `Meeting Notes/`. |
+| `/consolidate` | End of session / "consolidate memory" | Pairs memory + knowledge sweep (never one without the other), hypothesis lifecycle, staleness flags, debrief asks, commit. Honest "hygiene-only" path when no new substance — does not fabricate learnings. |
+
+**Subagents (`.claude/agents/`):** existing trio `pm-research` / `pm-strategic` / `pm-tactical`, plus:
+
+| Subagent | Read-only | Use for |
+|---|---|---|
+| `transcript-extractor` | yes | Big-file pattern — spawn 3-5 in parallel on contiguous chunks of a >2000-line / >100K transcript; returns dated structured extracts. `/ingest-transcript` invokes it automatically for large files. |
+| `staleness-auditor` | yes | Drift report across both Status files + memory dates vs today (stale sections, hypotheses at threshold, rules to demote, decisions to score). The lightweight half of the System Review directive. `/consolidate` invokes it for Step 4 depth. |
+
+Skills compose: `/ingest-transcript` → `transcript-extractor`; `/consolidate` → `staleness-auditor`. Validation is qualitative (workflow-capture skills, not scoreable transforms) — the real test is the next real transcript / session-end.
+
+---
+
 ## Common PM Tasks Routing
 
 ### By knowledge domain
