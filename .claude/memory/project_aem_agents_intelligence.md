@@ -717,6 +717,28 @@ Source: `Agent Owner Alignement/20260505 - Felix Pedro 1 1.md`. All "Unknown Spe
 
 ---
 
+## May 19 — Corey proof-of-utility + portfolio growth-vs-retention split + Agent Owners light version + Tanju External Agent Report
+
+Source: Pedro chat update 2026-05-19 + External Agent Report screenshot (Returning Orgs/Users per Agent, trailing-4-week, latest week May 10).
+
+**1. 🟢🚨 Proof of utility — Corey reused parts of Pedro's report to serve a Cédric request.** Not theoretical value: an EPA PM pulled from Pedro's substrate to answer a Cédric Huesler ask. Hard external-consumption evidence. Promotion-grade — direct H-005 (substrate-before-standard) confirmation, and the strategic counterweight to the bad growth numbers. Pair these two in any exec framing; never present the decline naked (FB-030, `feedback_first_reply_ownership_sentence`).
+
+**2. New workstream — light report version for Agent Owners.** Pedro building a lighter External Agent Report variant scoped for the Agent Owners audience. Companion to the Corey "from-scratch simple EPA report" pattern (May 14) — same move: audience-scoped cut, not a retrofit of the multi-persona report.
+
+**3. Tanju — augment External Agent Report (ex-MCP), started on Governance Agent.** Pedro + Tanju expanding the External Agent Report (locked name; "Agent Integration" was informal — do NOT relock). Governance Agent first. Ties Splunk MCP loop Pedro↔Felix↔Tanju + Lara Langfuse Governance pipeline.
+
+**4. Portfolio growth numbers DOWN.** Latest portfolio report: **-10% external orgs, -30% external users** (growth/total). Concretizes the May 12 Bertrand "numbers descending" risk. Caveat holds: internal/external categorization (Raul list) still weighs on the number — treat as not-yet-hard signal, not raw truth.
+
+**5. Retention (External Agent Report — Returning, trailing-4-week, latest week) — opposite story where it counts.** Returning **orgs** (count / % of agent's external orgs): Discovery 107 / 69%, Experience Production 94 / 68%, Experience Development 30 / 46%, Governance 19 / 47%, Content Optimization 7 / 30%. Returning **users**: Discovery 39 / 15%, Experience Production 38 / 21%, Experience Development 15 / 21%, Governance 10 / 22%, Content Optimization 2 / 8%. Trend curves: **Discovery + Experience Production rising strongly**; Development / Governance / Content Optimization flat-low. So the decline is **concentrated on the 3 low agents, not global** — the two flagships retain and grow. (Corrects the earlier verbal "flat for Discovery" — Discovery retains hardest.)
+
+**6. 🆕 Sharp PM insight — org-level retention high, user-level retention low.** Orgs return (30–69%) but few individual users within them are repeat (8–22%). Org stickiness, shallow user-level engagement. The next question is user-level engagement, not acquisition. Connects to knowledge: repeating-users = primary value signal; measure at unit of user intent.
+
+**Why it matters.** Two metrics must stay distinct in exec framing: growth (down, data-caveated) vs retention (up on the two flagships). The honest non-defensive story = "decline is concentrated + categorization-noisy; retention strong where it counts; substrate proven consumed (Corey/Cédric); here's the plan (Agent-Owners light version, Tanju Governance augmentation)." This is the May 11 Loni+JM deck spine and the Bertrand 1-1 point.
+
+**Doc.** AAI Status & Todo: new tasks (Agent-Owners light version, Tanju External Agent Report Governance) + Current Status note on growth-vs-retention split. Bertrand 1-1: point 5.
+
+---
+
 ## May 12 P42 Status Sync — Loni reframe + Ian = North Star architect
 
 Source: `Meeting Notes/Yanira/20260512 - P42 Status Sync.md`. Bertrand + Ian Boston + Jaclyn (+ Pedro arriving). 112-line transcript cuts at 6:30 mid-handoff to Pedro.
