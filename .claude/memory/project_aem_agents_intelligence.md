@@ -9,13 +9,13 @@ metadata:
 
 > **Two-project split — Phase 2 structurally complete (2026-05-13).** AAI vault folder at `2026/AEM Agents Intelligence/AAI - Project Folder/`. Companion `project_experience_hub.md` covers EH. Meeting Notes moved to neutral `2026/Meeting Notes/` (2026-05-13). AI-Assistant legacy folder retired. No legacy folders remain.
 
-> ## ⏱ Consolidation checkpoint — 2026-05-18 (staleness flags, NOT new facts)
+> ## ⏱ Consolidation checkpoint — 2026-05-19 (staleness flags, NOT new facts)
 >
-> Date-driven items now past — confirm outcomes, don't assume:
+> Session summary: [[20260519 - Session Summary]] (May 18 Agent Owners Alignment ingested, Pedro hosted). Date-driven items now past — confirm outcomes, don't assume:
 > - 🔴 **Loni + JM deck (week of May 11)** — meeting window passed. Outcome NOT captured. Debrief ask: did it happen, what landed, what's the follow-up. This is the single biggest open.
 > - 🔴 **SD-1 / SD-2 / SD-3** (due May 6/8) + **KR4 Priority Consolidation** (due May 8) — all past due, status uncaptured. Reconcile.
-> - 🟡 **Felix/Lara Langfuse Governance pipeline** — PR merge Fri May 15 → data by Mon May 18 (today). Check-in due: did data land, integration started.
-> - 🟡 **Workshop Foundation facilitator** — Bertrand asked Pedro May 12, no recorded response 6 days on. Decision stale. Accept/decline now.
+> - 🟡 **Felix/Lara Langfuse Governance pipeline** — PR merge Fri May 15 → data due Mon May 18 (yesterday). Confirm landed + integration started.
+> - 🔴 **Workshop Foundation facilitator** — captured as HIGH PRIORITY Bertrand 1-1 item (block in `Experience Hub - Questions for Next 1-1 with Bertrand.md`). Lead the next 1-1 with it. No longer "decide" — the decision is accept; the action is say-yes-to-Bertrand-with-the-May-18-link.
 > - 🔴 **Ian North Star 1-pager** — confirmed NOT started (Ian verbatim, May 18 Agent Owners call: *"about to start in the near future. I haven't actually started it"*). Gating artifact for per-team AOv2 eval. Pedro publicly named Ian owner in the call. Forcing-function Slack to Bertrand drafted, send status unknown — escalate.
 > - 🟡 **CCF / ISO 42001 — scope NARROWED (May 18).** No longer all AEM agents → **Discovery + Governance only** this year. Loni+Bertrand finalizing exact list. July 17 deadline holds. Bertrand: *"important but not urgent, not top of stack."* Downgrade from 🔴.
 > - 🔴 **Roadmap deck restructure** — Bertrand cut date **Fri May 22** (snapshot → design agency), **final Fri May 29** (broad distribution). Per-agent overview + timeline + skill-detail slides. Pedro's 6 agents need coverage.
