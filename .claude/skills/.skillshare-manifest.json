@@ -1,6 +1,7 @@
 {
   "managed": {
+    "consolidate": "symlink",
     "ingest-transcript": "symlink"
   },
-  "updated_at": "2026-05-19T11:56:46.060804+02:00"
+  "updated_at": "2026-05-19T12:07:00.210058+02:00"
 }

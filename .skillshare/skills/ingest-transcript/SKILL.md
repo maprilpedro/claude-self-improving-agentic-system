@@ -18,7 +18,7 @@ Turn one meeting transcript into durable, correctly-routed knowledge. This is th
 
 ## Step 1 — Read the transcript
 
-If the file is **> ~2000 lines or > ~100K characters**, do not read it linearly. Spawn 3-5 parallel subagents on contiguous line ranges, each returning a structured extract (dated decisions, action items with owner, new stakeholders, verbatim quotes worth banking, risks). Synthesize from the structured extracts only. This is the `feedback_big_file_parallel_chunk_extract` memory rule — it keeps the main thread's context clean.
+If the file is **> ~2000 lines or > ~100K characters**, do not read it linearly. Spawn 3-5 parallel `transcript-extractor` subagents on contiguous line ranges — that agent returns a tight dated structured extract (decisions, action items with owner, new stakeholders, bankable verbatim, risks, reconcile candidates) and reads only its range. Synthesize from the structured extracts only. This is the `feedback_big_file_parallel_chunk_extract` memory rule — it keeps the main thread's context clean.
 
 For normal-size transcripts, read it whole. Transcripts are often sparse (long screen-share gaps, "mhm/yeah/okay" turns). If more than ~40% of turns carry no substance, the meeting content is partly reconstructed from one-sided turns — say so explicitly in the notes and tag the memory entry as a low-fidelity source so later synthesis doesn't over-trust it.
 
