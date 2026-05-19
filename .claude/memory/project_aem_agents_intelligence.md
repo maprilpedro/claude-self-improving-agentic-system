@@ -696,19 +696,24 @@ Source: `Agent Owner Alignement/20260505 - Felix Pedro 1 1.md`. All "Unknown Spe
 
 ---
 
-## May 12 — Corey report feedback + call Tue May 19
+## May 14 — Corey 1-1 (call HELD; was scheduled May 19)
 
-**Event.** Corey Dulimba reviewed AAI report. Feedback positive on substance, scoped to **cosmetics + usability**. Corey proposed a call → Pedro accepted → Corey scheduled same day. Call lands **Tue 2026-05-19**.
+**Reconcile.** Earlier memory said "call lands Tue 2026-05-19." It actually landed **Thu 2026-05-14** (Corey rescheduled earlier; on Pedro's day off, ~23 min, EN). Source: `Meeting Notes/Corey 1 1/20260514 - Corey Pedro 1 1 .md`.
+
+**What landed:**
+1. **Decision — new from-scratch simple EPA report, not a retrofit of the multi-persona report.** Corey: define the 4 (up to 10) key metrics he wants, build clean, drop the old report if the simple one suffices. Pedro confirmed persona-scoped (Corey = key persona), Claude Code generates it (low effort). **Corey committed to send metrics in plain English same day (May 14).**
+2. **Cosmetic principle:** drop tables that duplicate a chart's visual; hard-collapse.
+3. **VR-per-agent loop set:** single DB (Copilot + external) across agents; Felix most advanced on Sites VR; other agents' use cases too spread for one number → split per agent, maybe umbrella later. **Corey workflow:** his team collects EPA VR defs → wiki → sync Pedro → integrate. Pedro accepts one plain-English high-level def to start.
+4. **MCP double-count flag:** Corey said EPA uses the content MCP → Gilles' ~1.2M Splunk call number (shown Loni+JM) likely double-counts. Pedro continuing DAS/Databricks tool-call filtering (off noisy Splunk pings/responses). Not urgent for Corey but EPA scaling MCP focus going forward; usage low today; tool calls skew to lists not actions (governance).
+
+**Prep targets NOT covered (still owed):** Gradial confirm/deny, multi-turn flow gap trajectory, EPA H2 roadmap timeline read, EPA lab as customer-getting-started asset. Carry to next Corey touchpoint (VR-wiki sync).
 
 **Why it matters.**
-- Validates the **first-testeur pattern** set after the April 2 Philippe-as-mirror incident — swap Philippe out, swap Corey in for first review of unpolished work. Pattern is operational and producing signal, not theoretical.
-- Same-day reschedule = strong engagement from an EPA PM who sits in Loni's senior sessions and holds the 1200 real customer questions.
+- **First-testeur pattern** (post April-2 Philippe-as-mirror) now produced a concrete artifact, not just feedback — Corey moved from reviewer to **co-author** of a scoped EPA report. Operational, not theoretical.
 - Aligns with H-005 (substrate-before-standard): Corey is the cross-agent customer of the data substrate Pedro owns.
-- Bridge into EPA H2: Corey raised urgency May 4 (*"this is becoming relatively urgent because we all have H2 roadmaps"*). May 19 call is the natural slot to surface a) Gradial confirm/deny, b) multi-turn flow gap trajectory, c) EPA lab as customer-getting-started asset.
+- Two-step substrate move holds — ship simple report to Corey first, iterate, then harden for Philippe + Yanira + Conrad. Compounds with monthly Portfolio Briefing cadence.
 
-**Prep doc.** Companion section live in AAI Status & Todo: **`## Corey call prep — May 19`**.
-
-**Pattern note.** Two-step substrate move — ship to Corey first, iterate cosmetics, then push hardened version to Philippe + Yanira + Conrad. Compounds with monthly Portfolio Briefing cadence: Corey becomes the live A/B partner for usability decisions before they hit broader stakeholder list.
+**Doc.** Outcome section in AAI Status & Todo: **`## Corey call notes — May 14`** (replaced the prep section). Forward tasks tracked in the "From May 12 — Corey report feedback + call HELD May 14" To Do block.
 
 ---
 
@@ -817,7 +822,7 @@ Source: `Meeting Notes/Bertrand 1 1/20260512 - Bertrand Pedro 1 1.md`. Chronolog
 
 **12. JM/Loni first meeting structure.** 45 min - 1h. Pedro proposed deck order: status → inhibitors (slides updated) → credit usage UP → retention → MCP add-on if interested. Splunk MCP: lots of noise, little signal, few tool calls yet. Governance MCP report done, others in progress.
 
-**13. Corey review confirmed in 1-1.** *"Pas mal de cosmétiques et d'utilisabilité."* Already in AAI memory (Corey May 19 call).
+**13. Corey review confirmed in 1-1.** *"Pas mal de cosmétiques et d'utilisabilité."* Call held May 14 (see "May 14 — Corey 1-1" entry).
 
 **Pedro action items from this 1-1:**
 - Accept Workshop Foundation facilitator role for skill-proliferation session.
