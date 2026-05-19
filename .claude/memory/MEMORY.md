@@ -42,6 +42,7 @@
 - [Concise plan reminder when user forgets context](feedback_concise_reminder_when_forgotten.md) — When Pedro asks "what was the plan again?", give the move + exit line + 3 questions in 5 sentences max. Not a full restatement.
 - [Session-start env-var hygiene](feedback_session_start_env_hygiene.md) — Keep 1M context on, don't override autocompact threshold for this project. Dual-project cold load is chunky and triggers early autocompact otherwise.
 - [Big-file parallel chunk extract](feedback_big_file_parallel_chunk_extract.md) — For transcripts/docs >100K or >2000 lines, spawn 3-5 parallel background agents on contiguous chunks; main thread synthesizes from structured extracts only.
+- [Prep sections date-agnostic](feedback_prep_sections_date_agnostic.md) — Name prep companion sections `— next`, rename to `— notes — <held date>` on ingest. Stops reschedule-driven dangling-wikilink reconcile tax.
 - [PPTX color palette](feedback_pptx_palette.md) — White, light grey, dark grey, Adobe red, black ONLY. No green/blue/pink tints, even pale.
 - [Don't trace Bertrand-owned items](feedback_dont_trace_bertrand_owned.md) — Bertrand-owned actions (repair, workstreams, smoothing) don't go on Pedro's tracker. Stakeholder Map entry for context only.
 - [Namita scope = AEP AOv1](reference_namita_scope.md) — Namita Kavadi = AEP AOv1 PM, NOT MCP-reports track. Splunk MCP reports = Pedro ↔ Felix ↔ Tanju internal.

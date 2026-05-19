@@ -56,6 +56,15 @@
 - **The counter**: Hold position. Don't retract. Say "I hear the concern, let me check that at implementation" and move on. You can revisit later. Public retraction is what they need to win the point. The 1:1 agreement is not a contract — they know that. Treat it as directional, not final, and don't bet your public position on it.
 - **What happened**: Pedro retracted publicly on the report-to-JIRA filtering point April 2. Philippe pushed back in front of Bertrand after agreeing 1:1. Pedro folded. Don't repeat.
 
+### Cultivate a Safe First-Look Partner — and Convert Reviewer to Co-Author
+- **Source**: Live observation — Corey Dulimba dynamic. Pattern set after April 2 Philippe-as-mirror incident (swap Philippe out, Corey in for first review of unpolished work); second observation confirmed May 14, 2026 1:1.
+- **Date**: 2026-05-14 (2 observations — promoted from project-memory note)
+- **Insight**: The defensive cardinal rule ("never show in-progress work to someone tracking your vulnerabilities" — the Philippe rule above) has a constructive inverse. Deliberately pick **one** safe peer as the standing first reviewer of unpolished work, then run the loop often enough that they stop being a reviewer and become a **co-author**. Corey reviewed the AAI report (feedback positive, cosmetic-only), then in the May 14 call moved from "here's my feedback" to "I'll define the 4 metrics and send them" — he now owns an input to the artifact. A reviewer evaluates what you built; a co-author is invested in it landing. The conversion happens through cadence, not one good meeting.
+- **Why it works**: (1) A safe first-look partner absorbs cosmetic/usability iteration before the work reaches the people who score you (Philippe, Yanira, Conrad, VP). (2) Co-authorship creates a second person with skin in the outcome — distribution and defense get cheaper. (3) The partner's domain weight (Corey = EPA, 1200 real customer questions, sits in Loni's senior sessions) makes their fingerprints *credibility*, not dilution.
+- **The mechanics**: ship rough to the partner first → take the cosmetic hits cheaply → ask them to define a piece (metrics, definitions, scope) → integrate their piece → the artifact is now partly theirs → push the hardened version to the higher-stakes reviewers.
+- **Selection rule**: the first-look partner must be high-integrity + adjacent-domain + engaged — never the person tracking your vulnerabilities. Wrong choice (Philippe) leaks weak points upward; right choice (Corey) converts iteration into a shared asset.
+- **Connected to**: Competitor Proximity Monitoring (above — the adversary this inverts), The Mirror Tactic (the failure mode this avoids), H-005 resolved (substrate-before-standard — the first-look partner is the cross-agent customer of the substrate Pedro owns).
+
 ---
 
 ## Building and Repairing Trust
