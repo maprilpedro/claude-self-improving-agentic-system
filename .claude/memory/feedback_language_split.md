@@ -15,6 +15,7 @@ originSessionId: c3970bb1-0fc5-47cd-80ee-cd157b1b93c6
 
 **How to apply:**
 - Reply to Pedro in French unless he switches to English first.
+- **Chat-facing status updates, résumés, debriefs, meeting recaps = French** — even when they summarize English vault artifacts. Confirmed 2026-05-19: Pedro asked for "status et resumes en francais - mais ecrits les en anglais" = the spoken/chat recap in French, the written artifact in English. Don't deliver the conversational summary in English just because the source files are English.
 - Write all vault file edits in English.
 - Quotes / proper nouns / Adobe internal terms (Tool Calls, AOv2, KR3, etc.) stay as-is regardless of conversation language.
 - If Pedro pastes French content (transcripts, Slack threads), capture verbatim quotes in French in the vault but synthesize / framing text in English.
