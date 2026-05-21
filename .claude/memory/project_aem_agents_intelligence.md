@@ -751,6 +751,18 @@ Connective insight surfaced 2026-05-19 cross-referencing the two Hailpern announ
 
 ---
 
+## May 20 — close-out: Loni+JM reconcile, Aditi/Pierre Tager, Bertrand 1-1 prepped
+
+**1. 🔄 Loni+JM deck reconcile — NOT yet held (pending), NOT a missed outcome.** Earlier framing across memory + AAI Status ("outcome NOT captured, single biggest open") was WRONG — Pedro confirmed 2026-05-20 the deck has not happened. KR3 is an upcoming *delivery*, not a debrief gap. The staleness-auditor's "single highest-leverage refresh" (debrief Loni+JM) was built on the wrong premise. Corrected in AAI Status (staleness flag + Focus item A). Next: confirm date/format with Bertrand (1-1 point 4), then finalize the deck. **Lesson for the system: a "missing outcome" flag can be a not-yet-happened event mislabeled — verify happened-vs-pending before calling something the biggest open.**
+
+**2. Aditi (PM, reports to Pierre Tager in Bertrand's org) — meeting invite via Shankari's reference.** She wants AI-Assistant current state + what's next + what the liaison R&R looks like. **Pedro's read (2026-05-20): NOT a risk.** Aditi is new, doesn't know the Agents space; Pedro will help her onboard. The Shankari referral = recognition that Pedro is the AI-Assistant source/authority — a visibility signal, not displacement. Pedro IS the liaison (Bertrand-named April 14, not revoked); you don't send someone to learn a role from the person being replaced. Real (lighter) sub-point: the liaison R&R is *recognized but not written* — opportunity to formalize it (promotion-useful), not defend it. **Pierre Tager = new, scope unknown — confirm.** Captured in Bertrand 1-1 file Role-Clarification point 3 (FYI-light) + Stakeholder Map.
+
+**3. Bertrand 1-1 (2026-05-20) — prepped, outcome = debrief-ask.** Agenda written into `Experience Hub - Questions for Next 1-1 with Bertrand.md` (FR, 5 points): (1) accept Workshop Foundation facilitator, (2) ✅ Mithril/Fruitbar UI correction ALREADY done with Bertrand before the 1-1, (3) escalate + offer to seed Ian North Star 1-pager, (4) confirm Loni+JM date, (5) growth-vs-retention non-defensive framing. **Outcome not yet captured — debrief next session: what landed on workshop role, Ian 1-pager, Loni+JM date, and the Aditi/liaison-R&R question.**
+
+**Doc.** AAI Status: staleness flag + Focus item A reconciled; Aditi task added (From May 19 block). Stakeholder Map: Aditi + Pierre Tager to add.
+
+---
+
 ## May 12 P42 Status Sync — Loni reframe + Ian = North Star architect
 
 Source: `Meeting Notes/Yanira/20260512 - P42 Status Sync.md`. Bertrand + Ian Boston + Jaclyn (+ Pedro arriving). 112-line transcript cuts at 6:30 mid-handoff to Pedro.
