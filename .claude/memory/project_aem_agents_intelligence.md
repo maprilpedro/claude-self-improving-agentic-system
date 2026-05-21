@@ -16,7 +16,7 @@ metadata:
 > - 🔴 **SD-1 / SD-2 / SD-3** (due May 6/8) + **KR4 Priority Consolidation** (due May 8) — all past due, status uncaptured. Reconcile.
 > - 🟡 **Felix/Lara Langfuse Governance pipeline** — PR merge Fri May 15 → data due Mon May 18 (yesterday). Confirm landed + integration started.
 > - 🔴 **Workshop Foundation facilitator** — captured as HIGH PRIORITY Bertrand 1-1 item (block in `Experience Hub - Questions for Next 1-1 with Bertrand.md`). Lead the next 1-1 with it. No longer "decide" — the decision is accept; the action is say-yes-to-Bertrand-with-the-May-18-link.
-> - 🔴 **Ian North Star 1-pager** — confirmed NOT started (Ian verbatim, May 18 Agent Owners call: *"about to start in the near future. I haven't actually started it"*). Gating artifact for per-team AOv2 eval. Pedro publicly named Ian owner in the call. Forcing-function Slack to Bertrand drafted, send status unknown — escalate.
+> - 🟢 **Ian North Star 1-pager — LANDED 2026-05-19** (was NOT started as of May 18). Ian published [Agentic NorthStar](https://wiki.corp.adobe.com/spaces/~boston/blog/2026/05/19/3894002388/Agentic+NorthStar) as a blog the day after the call Pedro hosted (where Pedro publicly named Ian owner). Gating artifact RESOLVED — escalation/forcing-function no longer needed. Pedro lane flips to respond + distribute. Full entry: "May 19 — Ian publishes Agentic NorthStar" below.
 > - 🟡 **CCF / ISO 42001 — scope NARROWED (May 18).** No longer all AEM agents → **Discovery + Governance only** this year. Loni+Bertrand finalizing exact list. July 17 deadline holds. Bertrand: *"important but not urgent, not top of stack."* Downgrade from 🔴.
 > - 🔴 **Roadmap deck restructure** — Bertrand cut date **Fri May 22** (snapshot → design agency), **final Fri May 29** (broad distribution). Per-agent overview + timeline + skill-detail slides. Pedro's 6 agents need coverage.
 > - 🔴 **Greg Klebus customer escalation** — Rosh + Genentech, multi-IMS-org agent scope (AOv1 = 1 org limit). Ian pulled into customer arch conversations. Feed into requirements + North Star.
@@ -763,6 +763,29 @@ Connective insight surfaced 2026-05-19 cross-referencing the two Hailpern announ
 
 ---
 
+## May 19 — Ian Boston publishes Agentic NorthStar (🟢 gating artifact RESOLVED)
+
+Source: [Agentic NorthStar](https://wiki.corp.adobe.com/spaces/~boston/blog/2026/05/19/3894002388/Agentic+NorthStar) — Ian Boston, 2026-05-19. **Supersedes every "Ian 1-pager NOT started" flag** (consolidation checkpoint, May 12 P42 §, May 18 Agent Owners §5, May 20 close-out). It exists now.
+
+**Format = deliberate blog, not a wiki page.** Ian: *"a view today that may be obsolete within a week... if this post proves to have a future, then it will evolve into a page."* Ends on a question — ***"Should this be our Agentic NorthStar?"*** → discussion artifact, not a locked spec. Matches Pedro's discussion-not-decision frame; safe to cite with Conrad in room as "the architect's North Star, in review." Anchored to the 2018 Skyline NorthStar.
+
+**NorthStar statement (verbatim):** *"Focus on Skills backed by high value, unique APIs and MCPs driven by the data and content that our customers have entrusted to us, supporting our customers individual and institutional memory to ensure leaving Adobe will be a heartbreaking experience."* Three pillars: Skills (reasoning now commodity via Claude / Codex / Pi-OpenClaw SDKs) + unique APIs/MCPs (where value lives) + **memory as the moat** (institutional memory = lock-in).
+
+**Architecture — distributed > single harness.** Ian rejects "one harness to rule all" (edge cases to the harness-owner = the essence to the skill-owner; a single instance can't specialise UI + context; high skill-cardinality kills reasoning — *"50% delivering 5% is not success"*). Lands on a **distributed harness**: each team owns its own UI + Skills + Session, specialised to its context — *"Each team that owns the context needs to be able to own the UI and specialise it. The skills for the context needs to be their skills."* **Memory is the exception: a shared service across harnesses**, explored by Adobe Research as **memory-as-MCP** (referenceable through a skill). Maps 1:1 to AEM's Slide 2 ownership boundary AND to Bertrand's May 18 "Adobe Harness" (memory + layered context provided by the foundational layer so AEM doesn't build it).
+
+**Hard numbers (sourced to the architect):** AOv1 for AEM agents = **50% "ok", only 5% "exceptional"; explicit feedback 50% unworkable, 5% worse.** P42 adoption rapid, results disappointing. Requirements-first evidence — the bar AOv2 must clear. Pairs with Ian's 2-5% conversion (May 6).
+
+**Two diagrams** on the blog (single vs decentralised) — recreated as Mermaid + slide-impact mapping in the KR3 deck note §"Ian Boston Agentic NorthStar (2026-05-19) — deck integration". Decentralised: UI-A→Harness-A and UI-B→Harness-B each with own Skills + Session, both wired to one central **Memory MCP**. Source PNGs = Confluence attachments 3894001962 (single) + 3894001966 (distributed).
+
+**Strategic read.**
+- Gating item flipped 🔴→🟢. Forcing-function escalation no longer needed.
+- **Public-naming → delivery:** Pedro named Ian owner on the May 18 call he hosted; Ian shipped May 19. Bank the win — naming an owner publicly in a forum Pedro chairs produced the artifact.
+- Pedro's lane = distributor / operationaliser (corrected role, NOT architect). Doc landing triggers: respond as first substantive voice (architecture-altitude visibility, reinforces resolved [[H-005]] substrate-before-standard), carry into agent teams as the requirements anchor, compile requirements back to AOv2.
+- Deck fuel for Loni+JM: Slide 2 add Memory-as-shared-MCP; distributed-harness validation of the AEM/AOv2 boundary; 50/5 baseline (requirements-first, never naked); memory-as-moat spine line tying to Loni *"not at the mercy of somebody else."*
+- Credit Ian as author on any slide. Don't weaponise the distributed model against Conrad/AO in room — frame as "architecture converging on distributed + shared-memory; AEM contributing requirements."
+
+---
+
 ## May 12 P42 Status Sync — Loni reframe + Ian = North Star architect
 
 Source: `Meeting Notes/Yanira/20260512 - P42 Status Sync.md`. Bertrand + Ian Boston + Jaclyn (+ Pedro arriving). 112-line transcript cuts at 6:30 mid-handoff to Pedro.
@@ -805,7 +828,7 @@ Source: `Meeting Notes/Yanira/20260512 - P42 Status Sync.md`. Bertrand + Ian Bos
 
 **Open / TBD:**
 - Transcript cut at 6:30 (Bertrand: *"Two questions... Do you want to..."*) — Pedro's portion not in this file. Find Pedro segment if recorded separately or follow up with Bertrand on what was assigned.
-- 🔴 **Ian one-pager NOT produced as of 2026-05-18.** Self-assigned May 12, 6 days no delivery. Bertrand confirmed 2026-05-18 he has not seen it — it does not yet exist. North Star requirements doc is the gating artifact for the per-team AOv2 evaluation (gives the "what"). Until it lands, Pedro cannot reference it in agendas or distribute it. Pedro lever: ask Bertrand to chase Ian / put 1-pager *production* (not presentation) on agents-sync agenda.
+- 🟢 **Ian one-pager LANDED 2026-05-19** (was NOT produced as of 2026-05-18). Self-assigned May 12, published as a blog May 19 — the day after the Agent Owners call where Pedro publicly named Ian owner. North Star requirements doc was the gating artifact for per-team AOv2 evaluation; now Pedro CAN reference + distribute it. See "May 19 — Ian publishes Agentic NorthStar" entry.
 - Governance global-context API technical detail — schedule Philippe sync (carefully framed).
 
 ---
@@ -921,7 +944,7 @@ Source: `Meeting Notes` → `Agent Owner Alignement/20260518 - Agents Owners Ali
 
 **4. AOv2 — Pedro framed publicly as host (the "introduce the request" already partly executed).** Pedro stated: confirming from Bertrand ("the architect") **green light for the EVALUATION of migrating current platform onto AOv2, NOT the decision**. *"There are still questions at senior management if [AO]V2 is the platform that we should move into."* Directions Pedro named to Ian: open-source model (fork + PR), moving into skills. Requirements-first framing landed verbally with agent owners. The drafted broadcast message becomes the written follow-up with criteria + AS-IS staging ask.
 
-**5. 🔴 Ian North Star 1-pager — NOT started (verbatim).** Ian: *"Starting as in I'm about to start in the near future. I haven't actually started it, yes."* Pedro publicly named Ian as owner of the North Star / requirements + use-cases doc for the AOv1 successor. **Gating artifact still missing — escalate via Bertrand forcing-function Slack; offer to scaffold/seed it.**
+**5. 🟢 Ian North Star 1-pager — LANDED 2026-05-19** (verbatim May 18: *"I'm about to start... I haven't actually started it"* → published the very next day). Pedro publicly named Ian owner on this call; Ian shipped [Agentic NorthStar](https://wiki.corp.adobe.com/spaces/~boston/blog/2026/05/19/3894002388/Agentic+NorthStar) May 19. **Public-naming → delivery: a forcing-function win without the forcing-function Slack.** Gating artifact resolved. See "May 19 — Ian publishes Agentic NorthStar" entry.
 
 **5b. 🆕 Ian "prove-it-first" posture (14:42-15:35).** AOv1 failure modes Ian named: hard/slow agent onboarding into AOv1, delays in license-usage reporting. North Star requirement = don't repeat these. Ian verbatim: *"AOv2 has got [to] prove itself, prove that it can deliver those things to us before we agree to commit to it. Now others may have different views."* This IS the requirements frame — AOv2 must prove delivery against AOv1 pain before AEM commits. Strong evaluation-not-decision anchor, sourced to the architect.
 
