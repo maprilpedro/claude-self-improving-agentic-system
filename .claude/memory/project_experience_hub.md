@@ -254,6 +254,18 @@ Loni reframe verbatim — *"No, that's not the question. Question is context, an
 
 ---
 
+## May 22 — EH's role in the distributed-harness model (Ian NorthStar exchange)
+
+Ian Boston's Agentic NorthStar + the May 19-22 thread reshape how EH should be positioned. Full AAI-side record in `project_aem_agents_intelligence.md` "May 22 — Ian NorthStar thread".
+
+In the distributed-harness model **the UI decides which harness/agent to call** (Ian: explicit/prompted selection, not auto intent-detection), and **cross-surface consistency is vital + PM-led** (Ian: *"an Adobe user feels like it is the same surface regardless of implementation details or UI engineering ownership"*).
+
+**This makes EH (and the agent surfaces) the selection + consistency layer for AEM agents — not just a launchpad.** EH's job grows into: (a) the surface where practitioners select / are prompted toward the right agent (the selection UX Pedro now PM-leads, Ian on record), and (b) the consistency layer that makes distributed, independently-owned agent UIs feel like one Adobe surface (the answer to the 4-chats fragmentation: Experience Workspace / Modernization / Slick / Mithril).
+
+Ties to: EH Priority 1 (Skills+MCP surface), the contribution model, Eugene's per-surface contextual AI Assistant icon, Mithril context-reading (Silvia — context-reading powers good prompted selection), and Pedro's convergence push (now architect-backed). Strategic upgrade to EH's narrative: **EH = the practitioner-facing selection + consistency layer in Adobe's distributed agent architecture.**
+
+---
+
 ## Sister project
 
 `project_aem_agents_intelligence.md` — agent reporting platform, AO 2.0 liaison, three-tier reporting, Loni+JM May 11 deck, H-005 resolved, Felix/Rubin/Varun threads, Apoorva punch-list, KR3/4/5/6, AEMEO-9508 Data Advisory Agent overlap watch, Vaishnav PMM signal, broadcast-rep muscle. **+ May 12 Loni reframe + Ian = North Star architect + Ian one-pager deliverable + May 13 Felix/Lara 3-way (External Agent naming, $2K/mo cost data, Mark Pfaff).**

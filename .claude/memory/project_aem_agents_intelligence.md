@@ -786,6 +786,28 @@ Source: [Agentic NorthStar](https://wiki.corp.adobe.com/spaces/~boston/blog/2026
 
 ---
 
+## May 22 — Ian NorthStar thread: outcomes (routing, memory→Saar, UX = PM-lead, consistency mandate)
+
+Pedro engaged Ian's NorthStar as first substantive responder (Slack + wiki footer comment, May 19-22). High-value exchange — Ian answered every question and escalated. Source: wiki comments page 3894002388 + Slack. Also referenced: Ian's [Claude Token costs](https://wiki.corp.adobe.com/spaces/~boston/blog/2026/05/20/3894008282/Claude+Token+costs) blog.
+
+**1. Routing answered — "the UI deciding which harness to call."** Ian (wiki reply, hedged "I think we are going to see"): harnesses loaded with the skills they need + the UI decides which harness to call, via **explicit or prompted selection, NOT automatic intent detection**. AOv1's orchestrated-intent-above-agents made reasoning weaker. AOv2 + FluffyJaws show explicit/prompted > auto. Also: a skill can be shared across harnesses, and harness-to-harness A2A calls are fine (FJ calls DAA over A2A) — distinct from AOv1 directed agent-to-agent (dead) and customer-facing A2A (retiring). **Implication: selection is a surface/product problem before an orchestration one → Pedro's lane.** ("UI decides" = Ian's forward prediction, not a locked spec.)
+
+**2. UX/selection — "must be PM lead" (Ian, on record).** Pedro claimed the practitioner-UX read; Ian: *"UX, yes, absolutely, must be PM lead."* Architect-endorsed lane.
+
+**3. 🆕 Consistency mandate.** Ian: *"Consistency will be vital so an Adobe user feels like it is the same surface regardless of the implementation details or UI engineering ownership."* In tension with distributed-UI-ownership → reconciling it = Pedro's job: own the **cross-surface consistency layer** across distributed agent surfaces. Architect-backed answer to the 4-chats fragmentation (Experience Workspace / Modernization / Slick / Mithril; Marcus refused unification). Backs Pedro's convergence push. Senior-Director-grade lane.
+
+**4. Memory ownership → escalated to @asaar (VP).** Ian: who owns memory = tbd; partly user-bound, partly team/org, both with residency requirements; users span CXO + DMe → leadership question. Proposed identity-like model (central personal+org via IMS/AUP + common API/schema; product-specific memory with solution teams). **Ian escalated to Alexander Saar (VP Eng) for cross-Adobe alignment at his level.** → AEM needs requirements ready for that conversation. Doc drafted: vault `AO 2.0/What AEM Needs from a Central Memory Service.md`. Route via Bertrand (don't insert into the VP alignment directly). NOTE: Pedro asked Ian to write the official requirements ("would you put together…"); Ian routed it up to Saar. Pedro's doc = AEM's private *input*, not the official artifact.
+
+**5. Moat — Ian loved + sharpened it.** Pedro's "open, portable, but heartbreaking to leave" → Ian: *"a great way of putting it"*, tied it to an early-March conversation with **@lkao + @gmiller**, said Adobe Research is working in the space. Refinement: **portable WITH EFFORT** + value-on-top = the moat (his Gmail-takeout analogy). Confirms moat = the data, not the mechanism; interface stays open (memory drawn as MCP). **Visibility: Pedro's phrasing now attached to a senior architecture conversation.** Confirm who @lkao + @gmiller are.
+
+**6. Token economics** (Ian's Claude Token costs post + a ClaudeCode deep-dive screenshot). MCP server manifest = **~2K-15K tokens/turn even when unused** (5 MCPs ≈ 50-75K history budget lost permanently); Skill ~200-500; hook 0. Context window ~200K, conversation history = largest segment (40-60%), compaction trades quality for budget. → Argument for **skills-over-MCP** (reinforces Trent/Carsten/Felix-Meschberger consensus; mild tension with AEM's MCP investment + MCP-first posture). Sharpened memory-requirements doc req 6: a Memory MCP must keep its manifest lean + return ranked context only. Latent sharp question (unused): Ian's token-costs post argues against MCPs while his NorthStar draws memory AS an MCP — is memory the high-value exception, or skill/hook-backed?
+
+**7. 🟢 Influence pattern (bank for Senior Director narrative).** Pedro's sharp questions at the right altitude triggered owner action twice: public-naming → Ian shipped the NorthStar (May 18→19); memory question → Ian escalated to Saar VP (May 22). Operating at architecture-conversation altitude, named-in-the-room, triggering motion above him. Reinforces resolved [[H-005]] (influence/substrate before standard). Promotion-frame = "operating at architecture-conversation altitude," NOT "I am the architect" (Ian = architect; Pedro = PM distributor + UX/consistency lead + requirements compiler).
+
+**Process note:** Claude misread "would you put together…" as a self-delegation and pre-drafted the requirements doc; Pedro corrected (it was addressed to Ian). Claude also paraphrased the token-costs post before reading it. See [[feedback_confirm_ask_before_producing]].
+
+---
+
 ## May 12 P42 Status Sync — Loni reframe + Ian = North Star architect
 
 Source: `Meeting Notes/Yanira/20260512 - P42 Status Sync.md`. Bertrand + Ian Boston + Jaclyn (+ Pedro arriving). 112-line transcript cuts at 6:30 mid-handoff to Pedro.

@@ -53,6 +53,7 @@
 - [Language split — FR conversation, EN Obsidian](feedback_language_split.md) — Pedro = French in chat. Vault files = English. Verbatim quotes stay original language.
 - [Consolidation without substance = hygiene only](feedback_consolidation_without_substance.md) — When "consolidate" trigger fires but no new PM events came in chat, ship hygiene + staleness flags + debrief asks. Do NOT fabricate learnings from re-reading existing memory.
 - [Don't overread VP quotes](feedback_dont_overread_vp_quotes.md) — "North Star architecture for Pedro" = Ian's architecture serves Pedro, not Pedro is the architect. Audit subject + preposition before promoting to promotion-grade narrative.
+- [Confirm the ask + read the source before producing](feedback_confirm_ask_before_producing.md) — Don't act on an assumed delegation, or characterize a source unread. Mark inferences vs sourced quotes in reply drafts.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.
