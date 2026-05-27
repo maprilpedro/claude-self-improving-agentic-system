@@ -30,35 +30,13 @@ Observe signal --> Propose hypothesis --> Design test --> Collect evidence --> R
 
 ## H-004: Naming a Hero Surface and Backing It with PLG Investment Will Measurably Improve Feature Discovery
 
-- **Status**: Proposed
-- **Date proposed**: 2026-03-26
-- **Category**: AI Product / Platform Strategy
-- **Source signal**: Loni's hero surfaces concept (Session IV, March 26). Current state: AEM users reach the product through 4+ entry points with no PLG investment focused on any one of them. Adoption reviews show slow feature discovery and high bounce rates.
-- **Hypothesis**: "We believe that naming Experience Hub as the canonical hero surface and concentrating PLG investment (nudges, announcements, onboarding flows, agent prompt discovery) on that single surface will measurably improve feature discovery rates and adoption cohort retention, because compounding PLG investment in one place produces more signal and more habit than diluted investment across many surfaces."
-- **Test design**: Define Experience Hub as hero surface (get Bertrand + Loni alignment). Consolidate next three PLG experiments to run through Experience Hub only. Compare adoption cohort metrics (CTR, return visits, feature activation) to prior period when experiments were distributed.
-- **Evidence for**:
-  - Steve Jobs / Apple concentrated all marketing on a small number of hero products and hero stores — retail became a Times Square for Apple's brand
-  - Loni's explicit framing: identify hero surfaces to monitor, promote, and run PLG on
-  - Experience Hub A/B test (SIMPLE variant, Nov 2025): 17.9% vs 0.36% CTR — focused PLG experiment on one surface produced clear signal
-- **Evidence against**:
-  - (none yet)
-- **Next step**: Get Bertrand validation on hero surfaces one-pager. Then bring to Loni's next session.
+- **Status**: Resolved — Killed (2026-05-27, untested / superseded). Moved to `resolved.md`.
+- **Summary**: 9 weeks untested (the Bertrand-alignment + PLG-consolidation test never ran); no evidence beyond the original three signals. The EH thesis has since evolved (2026-05-22) to "EH = the selection + consistency layer in the distributed-harness model," which absorbs and supersedes the hero-surface bet — preserved in `ai-product/` "Selection and Cross-Surface Consistency Are a PM Mandate." Killed as untested-and-superseded, not contradicted.
 
 ## H-006: Agent Adoption Failure Is Primarily a Trigger Problem, Not a Friction Problem
 
-- **Status**: Proposed
-- **Date proposed**: 2026-04-10
-- **Category**: AI Product / Adoption
-- **Source signal**: Apoorva Gupta (H2 Prelim Part 3, April 2026) — Content Optimization Agent and DM Templates both have near-zero adoption despite reduced friction. Loni Stark's "sensor + hero" framing in the same session.
-- **Hypothesis**: "We believe that low adoption of AI agent features is more often caused by users not knowing they have a problem worth solving (trigger failure) than by the feature being too hard to use (friction failure). Fixing the UX before fixing the trigger is wasted investment."
-- **Test design**: For any AEM agent with <5% adoption despite UX simplification, interview 5 users. Ask: did you know this feature existed? Did you have a moment in the last month where you needed this but didn't use it? What triggered you to try it (if ever)? Classify responses as trigger failure (never knew or never felt the need) vs friction failure (knew, tried, gave up). If >60% of non-adopters are trigger failures, hypothesis is confirmed.
-- **Evidence for**:
-  - Content Optimization Agent: simplified rendition creation, still negligible adoption (Apoorva, April 2026)
-  - DM Templates: 14 months near-zero adoption despite refreshed editor (Apoorva, April 2026)
-  - Loni: "How does a human get the aha moment without even having to invoke any agent?" — framing the problem as trigger-first
-- **Evidence against**:
-  - (none yet)
-- **Next step**: Use Greg Klebus 1:1 as first test. Ask: who is using Content Optimization Agent? What triggered their first use? What blocks non-adopters?
+- **Status**: Resolved — Killed (2026-05-27, untested). Moved to `resolved.md`.
+- **Summary**: Genuinely testable, but the designated first test (Greg Klebus 1:1 user interviews) never ran in 7 weeks, and the "3 evidence-for" were one session (Apoorva / Loni, H2-Prelim April 10) = a single independent observation, not three. Killed as untested rather than carried indefinitely; the trigger-vs-friction distinction is sound craft and can be revived as a fresh hypothesis if a real adoption test is scheduled.
 
 ## H-005: Owning Cross-Agent Measurement Standardization Creates Structural Cross-Org Influence for the Experience Hub PM
 

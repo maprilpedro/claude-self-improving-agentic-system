@@ -20,3 +20,6 @@ Bertrand de Coatpont (Senior Director PM). Pedro escalated with evidence and a p
 
 ## Supersedes
 Nothing prior on this topic.
+
+## Outcome (scored 2026-05-27 — first System Review)
+Risk accepted, **not yet triggered** (8 weeks on). Felix's pipeline is still LIVE and VP-sponsored (migrating SQLite→Postgres + LLM-as-Judge; engineers connected). No external-BU flag has shut it down — Bertrand's calculated risk has held to date. **New adjacent compliance vector emerged independently:** ISO 42001 / Tech GRC audit (Robert Guthrie, May 4), evidence due July 17, scope since narrowed to Discovery + Governance only. Not the residency risk Ian named, but the same compliance surface — the bet's downside is now partly materializing through a different door. **Score: correct to date; keep watching the residency vector + ISO-42001 audit. Re-score next review.**

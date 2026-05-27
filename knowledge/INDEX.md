@@ -8,8 +8,8 @@
 |--------|---------|--------|---------|
 | `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 30 |
 | `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 46 |
-| `hypotheses/active.md` | Hypotheses currently being tested | Active | 3 |
-| `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Active | 4 |
+| `hypotheses/active.md` | Hypotheses currently being tested | Active | 1 |
+| `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Active | 6 |
 | `false-beliefs/` | PM conventional wisdom proven wrong | Active | 30 |
 | `tools/` | Decision matrix: when to use which PM method/tool | Active | 13 |
 | `experiments/` | Experiment tracking and results | Active | 1 |

@@ -418,6 +418,7 @@
 - **Performance flag**: P95 latency of 61 seconds on odin/{} is severe. Average is 5,791ms. One in twenty requests takes over a minute — this will limit developer adoption at scale.
 - **401 pattern**: ~2,500 unauthorized errors per hour, stable over 24h. Likely misconfigured clients or token expiry — not a spike, a structural issue.
 - **Application**: Don't design MCP measurement assuming AI assistants are the primary consumers. As of April 2026, developers are. Track client breakdown over time — when/if AI assistants overtake developer tools is a leading indicator of MCP reaching mainstream use.
+- **Terminology note (2026-05-27 review)**: this entry uses the source dashboard's raw word "invocations." For AEM agent/MCP *reporting*, the locked counter-unit is **"Tool Calls"** (never "invocation"/"interaction") — see memory `reference_mcp_terminology`. Different surfaces: this is an external developer-tool-adoption snapshot, not the customer-facing reporting metric. Also: the 139K/24h figure is a single April-2 snapshot — treat as point-in-time, not a trend.
 
 ### Monetization Is Unresolved When Agents Replace Seats
 - **Date identified**: 2026-03-26

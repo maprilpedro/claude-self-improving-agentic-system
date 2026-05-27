@@ -88,3 +88,29 @@
 - **Key evidence**: none gathered — same pattern as H-001.
 - **Lesson learned**: same as H-001 — retire literature-only hypotheses that have no field test and no live decision. Two such kills in one pass (H-001, H-002) flag that the original March-19 batch over-proposed from a single book without test feasibility.
 - **Impact**: removed from active tracking.
+
+## H-004: Naming a Hero Surface and Backing It with PLG Investment Will Measurably Improve Feature Discovery
+
+- **Status**: Killed (untested / superseded)
+- **Date proposed**: 2026-03-26
+- **Date resolved**: 2026-05-27 (first full System Review)
+- **Category**: AI Product / Platform Strategy
+- **Original hypothesis**: "We believed naming Experience Hub as the canonical hero surface and concentrating PLG investment on it would measurably improve feature discovery + cohort retention, because compounding PLG in one place beats diluted investment across many surfaces."
+- **Resolution**: Killed. In 9 weeks the designed test (Bertrand alignment on a hero-surface one-pager → consolidate 3 PLG experiments through EH → compare cohort metrics) was never run; no evidence accrued beyond the original three signals. Meanwhile the EH thesis evolved (2026-05-22) to "EH = the selection + consistency layer in the distributed-harness model," which absorbs and supersedes the hero-surface bet. Killed as untested-and-superseded, not contradicted.
+- **Key evidence**: none gathered post-proposal. The Nov-2025 SIMPLE A/B (17.9% vs 0.36% CTR) remains a real signal that focused PLG on one surface works, but it predated and motivated the hypothesis rather than testing it.
+- **Lesson learned**: a platform-strategy hypothesis whose test requires leadership alignment + experiment consolidation stalls if that alignment is never pursued; and a hypothesis can be overtaken by its own thesis evolving. Preserve the durable idea in knowledge (done — ai-product/ selection+consistency) and retire the stale hypothesis.
+- **Impact**: removed from active; the live EH-discovery thesis now lives as the ai-product/ "Selection and Cross-Surface Consistency Are a PM Mandate" entry.
+- **Superseded by**: ai-product/ "Selection and Cross-Surface Consistency Are a PM Mandate" (not a formal H-number).
+
+## H-006: Agent Adoption Failure Is Primarily a Trigger Problem, Not a Friction Problem
+
+- **Status**: Killed (untested)
+- **Date proposed**: 2026-04-10
+- **Date resolved**: 2026-05-27 (first full System Review)
+- **Category**: AI Product / Adoption
+- **Original hypothesis**: "We believed low AI-agent adoption is more often a trigger failure (users don't know they have a problem worth solving) than a friction failure (too hard to use); fixing UX before trigger is wasted."
+- **Resolution**: Killed as untested. The designated first test (Greg Klebus 1:1 — interview Content Optimization Agent users on trigger vs friction) never ran in 7 weeks. The "3 evidence-for" bullets were a single session (Apoorva + Loni, H2-Prelim April 10) = one independent observation, not three — a counting error the review flagged (co-occurring signals from one meeting ≠ multiple observations). No 2nd independent instance surfaced.
+- **Key evidence**: one session's worth (Content Optimization Agent + DM Templates near-zero adoption despite reduced friction; Loni's "aha moment without invoking an agent"). Suggestive, never tested.
+- **Lesson learned**: (1) don't count co-occurring signals from one meeting as independent observations toward the 2+ promotion bar; (2) a hypothesis with a cheap test (5 user interviews) that goes unrun for 7 weeks is a deprioritization — retire it. The trigger-vs-friction distinction is sound craft, revivable with a committed test.
+- **Impact**: removed from active. Revive as a fresh hypothesis only with a committed test.
+- **Superseded by**: none.
