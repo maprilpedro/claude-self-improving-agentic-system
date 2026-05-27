@@ -11,7 +11,7 @@ Full System Review = stale rules, ready-to-promote/discard hypotheses, decision 
 | System initialized | 2026-03-19 |
 | Last full System Review | **2026-05-27** (first ever) |
 | Next review due | **2026-07-01** |
-| Cadence | **Monthly**, 1st of month, co-located with the Promotion Strategy review. Scheduled via cron routine `pm-system-review`. |
+| Cadence | **Monthly**, 1st of month, co-located with the Promotion Strategy review. **Run locally with Claude (full vault + repo); Claude surfaces it at session start when due** — no automation. |
 
 ### Review log
 
