@@ -822,6 +822,26 @@ Pedro animates ~1h at the June Bucharest workshop (Saar-hosted; Bertrand opens 1
 
 ---
 
+## May 27 — Cross-Harness Skill Registry idea + "There Waiting" blog + Ian refinement
+
+Bucharest-prep session pivoted into a new Pedro proposal, banked in two vault notes (English, filesystem Write): [[Cross-Harness Skill Registry — Gap Proposal]] (internal, dated, objection-handling) + [[From North Star to There Waiting]] (public blog draft, Ian-style, ends on a question).
+
+**The idea (Pedro, 2026-05-27).** In the distributed-harness model (any harness: AOv2, Claude SDK, Codex, custom), nobody owns a curated, cross-harness, customer-facing way to find/reach the right skill. AOv2's marketplace = per-repo `marketplace.json` + `SKILL.md` (Anthropic format), dev-facing, install-time, no review gate, not aggregated. Gap is systemic (AOv2 included). Confluence grounding: "Beginner's guide to add a plugin/skills to AEP AO 2.0" (3851715892, V. Barshikar); AIA Platform Architecture shows `marketplace · catalog · installer` already forming.
+
+**Scope.** Jobs = (a) discovery + (b) routing/selection (NOT (c) entitlement = AO+commerce, later). Curation gate at entry. **Schema = the moat** (what each harness declares to appear: id/owner/persona/context/lifecycle/harness/deployment) = definition-ownership = [[H-005]]. **Harness-agnostic — "which harness" is a metadata field, NOT the axis.** Pedro's own correction: don't make "in AOv2 / not in AOv2" the organizing axis (re-centers on an undecided platform, couples fate to it, leaks implementation into the customer view, breaks Ian's consistency mandate). The "in/not-in-AOv2" view is legit only as a separate internal migration tracker.
+
+**Positioning.** Anchor "publish vs find" (dev publishes into a harness / customer finds across all). Avoid "plumbing" (denigrates AO/Ian) + "App Store" (implies entitlement). Lead positive; AOv2-contrast yes-and only if challenged.
+
+**🆕 Ian refinement (Slack, 2026-05-27) — pre-align worked.** Pedro DM'd Ian the angle before publishing; Ian engaged (not blindsided). Ian: *"The customer should not have to find the right skill, it should be there waiting"* — a UI surface connects to a harness with all applicable skills present, "precise and complete"; skills defined once, used in many harnesses. **Not a rejection, a relocation:** "there waiting, precise and complete" REQUIRES Pedro's machinery (a registry that knows all skills across harnesses + curation that keeps each surface precise+complete as skills proliferate). **The move (banked): concede the front-end (browse = friction, Ian right), claim the back-end (registry + schema + curation = nobody owns it = the moat).** Don't litigate; forward-frame. Pedro sent the reply.
+
+**Blog reshaped:** title "From North Star to **There Waiting**" (Ian's words = credit + co-shaped). Spine: browse is the wrong answer (GPT Store cautionary tale) → there-waiting (Ian) → backstage shared-declaration + curation → the one browse case = admin/buyer (storefront survives there) → close on the schema question ("what must each harness declare").
+
+**Credit mechanics (SD visibility gap).** Write-to-own (Ian's model). Authorship banked dated. **Publish the blog (public/indexed/citable), NOT email** — email = megaphone to point seniors at the post, blog = venue. Pre-align gate: Ian ✅ → Bertrand + Conrad heads-up → publish as open question. Turf = the real risk (AIA Hailpern building catalog/installer; AO), NOT "PM not architect" (Ian: selection+consistency "must be PM lead"). Don't call it "officially mine" pre-landing.
+
+Pending: requirement block signed Pedro for the Saar-bound input; rename blog file to match title.
+
+---
+
 ## May 12 P42 Status Sync — Loni reframe + Ian = North Star architect
 
 Source: `Meeting Notes/Yanira/20260512 - P42 Status Sync.md`. Bertrand + Ian Boston + Jaclyn (+ Pedro arriving). 112-line transcript cuts at 6:30 mid-handoff to Pedro.
