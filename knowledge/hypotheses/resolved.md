@@ -46,3 +46,45 @@
   - Capability-monthly usage as the headline value metric (BVR — see ai-product/) is the next-frontier extension of the same play
   - VRR 5-tier definition from Yanira's wiki — still owed for full literal-standard maturity, but no longer a gate on the influence outcome H-005 predicted
 - **Superseded by**: None. H-005 is a leadership / scope hypothesis confirmed at the role level. Successor hypotheses on broadcast frequency (informal, May 1) and the management-tier artifact pattern (Portfolio Briefing as a repeatable template for other PMs) may emerge as formal H-007 / H-008.
+
+## H-003: The Senior Director Visibility Gap Is a Communication Problem, Not a Performance Problem
+
+- **Status**: Confirmed
+- **Date proposed**: 2026-03-19
+- **Date resolved**: 2026-05-27
+- **Category**: Strategy / Senior Director
+- **Original hypothesis**: "We believed the Director→Senior Director gap is primarily a communication/visibility gap, not a capability gap, because leadership perception is driven 63-90% by delivery (Mehrabian) rather than content."
+- **Resolution**: Confirmed over ~2 months — 4 evidence-for + behavioral self-diagnosis + 2026-05 Ian-thread evidence, 0 against. Promoted to a `leadership/` rule (3+ confirmations met).
+- **Key evidence**:
+  - Mehrabian (delivery 63-90% of impression); Jobs's learned charisma; Sigman's one-presentation collapse (2026-03-19, Gallo).
+  - **Behavioral self-diagnosis** (2026-04-02): execution bias + validation-seeking — both positioning problems, not capability. Confirmed at the behavioral root, not just the presentation level.
+  - **Broadcast-frequency reps** (May 1-8): the gap moved on frequency of broadcasting, not better work.
+  - **Ian NorthStar thread** (2026-05): a well-placed *question* (not a deliverable) moved the architect to ship the NorthStar the next day + escalate memory ownership to Saar VP. Influence via communication, not delivery.
+  - Cross-confirmed by resolved **H-005**: cross-org influence accrued from owning + *naming* the substrate before any standard shipped.
+- **Lesson learned**: given already-strong work, the *marginal* Director→Senior Director gap is communication/positioning. A well-aimed question or public naming at the right altitude can outperform another artifact. (Boundary: capability is still necessary — you can't communicate past bad work.)
+- **Impact**: promoted to leadership/ "The Director→Senior Director Gap Is a Communication/Visibility Gap, Not a Capability Gap." Informs broadcast-frequency discipline and the reactive-vs-proactive split (H-007).
+- **Superseded by**: None. Spawned companion H-007 (reactive vs proactive ownership).
+
+## H-001: Audiences Disengage at Exactly 10 Minutes
+
+- **Status**: Killed (untested — deprioritized)
+- **Date proposed**: 2026-03-19
+- **Date resolved**: 2026-05-27
+- **Category**: User Behavior
+- **Original hypothesis**: "We believed audience engagement drops sharply at 10 minutes regardless of speaker quality."
+- **Resolution**: Killed without a field test. Literature-only (Medina / Gallo); the designed test (deliberate shift at the 10-minute mark across 5 presentations) was never run in 2+ months and no decision rode on it. Not a contradiction — a deprioritization. The actionable craft (periodic shift / demo / question) is already absorbed into presentation practice (`tools/`).
+- **Key evidence**: none gathered — that is the resolution. Zero field observations in ~2 months.
+- **Lesson learned**: a literature-sourced hypothesis with no cheap field test and no decision riding on it should be retired, not carried indefinitely as "active." Carrying untested hypotheses dilutes the active set and the lifecycle's meaning.
+- **Impact**: removed from active tracking; craft retained in tools/.
+
+## H-002: Pictures Produce 6.5x Better Recall Than Text Alone
+
+- **Status**: Killed (untested — deprioritized)
+- **Date proposed**: 2026-03-19
+- **Date resolved**: 2026-05-27
+- **Category**: User Behavior
+- **Original hypothesis**: "We believed image-rich slides produce measurably better stakeholder recall than text-heavy slides."
+- **Resolution**: Killed without a controlled test. Literature-only (Mayer / Gallo); the A/B recall test was never run and no decision gated on it. Image-rich-over-text is already standard practice (PPTX template + palette conventions). Retire rather than carry.
+- **Key evidence**: none gathered — same pattern as H-001.
+- **Lesson learned**: same as H-001 — retire literature-only hypotheses that have no field test and no live decision. Two such kills in one pass (H-001, H-002) flag that the original March-19 batch over-proposed from a single book without test feasibility.
+- **Impact**: removed from active tracking.

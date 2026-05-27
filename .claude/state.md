@@ -25,9 +25,9 @@ Surfaced by `staleness-auditor` 2026-05-19. Pending Pedro's call — do not auto
 
 | Hypothesis | State | Decision owed |
 |---|---|---|
-| H-003 — Senior Director visibility = communication not performance | Proposed 2026-03-19; 4 evidence-for + 1 dated obs, **+ 2026-05 Ian-thread evidence (a well-placed question moved Ian to ship the NorthStar next day + escalate memory ownership to Saar VP — influence via communication, not delivery)**, 0 against | **Promote** to a `knowledge/leadership/` entry, or set an explicit re-test — promote case now stronger |
-| H-001 — 10-minute attention drop | Proposed 2026-03-19; literature-only, 0 field obs, test never run | **Kill-or-commit**: design the test or archive to resolved with "untested, deprioritized" |
-| H-002 — pictures 6.5x recall | Proposed 2026-03-19; literature-only, 0 field obs, test never run | **Kill-or-commit** (same as H-001) |
+| H-003 — Senior Director visibility = communication not performance | RESOLVED | ✅ **Promoted 2026-05-27** → leadership/ "The Director→Senior Director Gap Is a Communication/Visibility Gap". Confirmed (4 evidence-for + self-diagnosis + Ian-thread, 0 against). In resolved.md. |
+| H-001 — 10-minute attention drop | RESOLVED | ✅ **Killed 2026-05-27** (untested/deprioritized) → resolved.md. No field test in 2+ months, no decision riding on it. |
+| H-002 — pictures 6.5x recall | RESOLVED | ✅ **Killed 2026-05-27** (untested/deprioritized) → resolved.md. Same pattern as H-001. |
 | H-007 — reactive vs proactive ownership | Proposed 2026-05-08; single instance (NYL) | Reassess **2026-06-05** (4-week window). Tracking mechanism currently inactive — log interim reps in Status files |
 
 ## Notes

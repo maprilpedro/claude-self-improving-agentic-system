@@ -8,12 +8,12 @@
 |--------|---------|--------|---------|
 | `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 30 |
 | `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 46 |
-| `hypotheses/active.md` | Hypotheses currently being tested | Active | 5 |
-| `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Active | 1 |
+| `hypotheses/active.md` | Hypotheses currently being tested | Active | 3 |
+| `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Active | 4 |
 | `false-beliefs/` | PM conventional wisdom proven wrong | Active | 30 |
 | `tools/` | Decision matrix: when to use which PM method/tool | Active | 13 |
 | `experiments/` | Experiment tracking and results | Active | 1 |
-| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 52 |
+| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 53 |
 | `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries | Active | 21 |
 | `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 31 |
 
