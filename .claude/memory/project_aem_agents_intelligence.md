@@ -838,7 +838,11 @@ Bucharest-prep session pivoted into a new Pedro proposal, banked in two vault no
 
 **Credit mechanics (SD visibility gap).** Write-to-own (Ian's model). Authorship banked dated. **Publish the blog (public/indexed/citable), NOT email** — email = megaphone to point seniors at the post, blog = venue. Pre-align gate: Ian ✅ → Bertrand + Conrad heads-up → publish as open question. Turf = the real risk (AIA Hailpern building catalog/installer; AO), NOT "PM not architect" (Ian: selection+consistency "must be PM lead"). Don't call it "officially mine" pre-landing.
 
-Pending: requirement block signed Pedro for the Saar-bound input; rename blog file to match title.
+**🆕 Ian round 2 (2026-05-27).** Two more corrections, adopted in the blog: (1) the **surface-owner PM composes the surface from the registry** (Ian verbatim: *"the UI surface and its harness are containers into which a PM adds the set of skills"*) — NOT the customer/admin; only commercial entitlement is customer-facing. The architect defined Pedro's lane = composer, registry = the source (strongest lane statement yet). (2) "harness-agnostic" = the registry is harness-neutral; harness deployments stay specialised per surface (only the registry + skill defs are shared). Blog section "The one place a customer does look" → replaced by "Who composes a surface".
+
+**Keynote rebuilt (2026-05-27).** [[Bucharest June Workshop — Skill Proliferation + Modernization]] reworked from facilitated-decision-room → **56-mixed keynote** (teach-and-align, decision stays small-group): headline + 3 messages (everything-is-a-skill / two-gate rule / there-waiting registry as the open-direction "new thing"), Holy-Shit = the 4-chats fragmentation, run-of-show + spoken beats + audience tailoring (devs/managers/sales/PMs).
+
+**Done this session:** gap note + blog ("There Waiting") + Saar requirement-block + blog rename + keynote rebuild. **Pending (Pedro):** publish blog after Ian's final + Bertrand/Conrad heads-up; pre-align Bertrand on keynote + the registry-as-open-direction.
 
 ---
 
