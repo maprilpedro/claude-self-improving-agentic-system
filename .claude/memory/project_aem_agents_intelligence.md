@@ -808,6 +808,20 @@ Pedro engaged Ian's NorthStar as first substantive responder (Slack + wiki foote
 
 ---
 
+## May 26-27 — Bucharest workshop framing + "everything is a skill" reframe
+
+Pedro animates ~1h at the June Bucharest workshop (Saar-hosted; Bertrand opens 1h). Sync with Stefan (5/22) revealed the real constraint: **audience = 56 people, global, mixed (devs, mostly managers + senior managers, sales, PMs)** → NOT a brainstorm. Format = **keynote / teach-and-align**; the actual skills-vs-agents decision stays a small-group call. Very likely the **Workshop Foundation skill-proliferation facilitator role** Bertrand asked Pedro to take (May 12, re-aired May 18). Prep note: vault `AAI - Project Folder/Bucharest June Workshop — Skill Proliferation + Modernization.md`.
+
+**Framework (Pedro owns the structure):** two gates — Gate 1 *Should it exist?* (competitive / persona / seamlessness = the modernization filter = Bertrand's "what's worth investing in" governance); Gate 2 *Which harness?* (see reframe). Plus a persona × context 2×2. Merge insight: proliferation (supply) + modernization (criteria) = one question — *where does agentic investment go, and how do we decide?*
+
+**🆕 Conceptual reframe (Pedro caught it):** the org's "skills under existing agents vs new agents" framing is **partly outdated** under Ian's NorthStar. Reasoning is commodity → **everything is a skill**; the "agent" dissolves as a build unit into skills-in-a-harness (Ian: DAA = "a collection of Skills in a harness"). So Gate 2 isn't "skill vs agent" but **"everything's a skill — which harness?"** (existing by default; new harness only on a new persona+context boundary). Hold for the mixed room: agent dies as a *build* unit, survives as a *GTM/customer* unit (sales still sells "agents"). Knowledge captured: `ai-product/` "Everything Is a Skill". This upgrades Pedro's session from running the stale binary → teaching why the question changed = operationalizing Ian's NorthStar (his distributor role).
+
+**Open / confirm:** outcome (decision rule + shortlist vs the binary); Stefan / Day-2 fit; pre-align the two gates with Bertrand before the room.
+
+**Process note (vault):** prep note created via filesystem Write at the canonical deep path; clicking its `[[wikilink]]` before Obsidian indexed it spawned an empty stub at a root `AAI - Project Folder/` — deleted, canonical intact. Use obsidian-cli for new vault notes + wikilinks to avoid the index-lag stub. See [[feedback_confirm_ask_before_producing]].
+
+---
+
 ## May 12 P42 Status Sync — Loni reframe + Ian = North Star architect
 
 Source: `Meeting Notes/Yanira/20260512 - P42 Status Sync.md`. Bertrand + Ian Boston + Jaclyn (+ Pedro arriving). 112-line transcript cuts at 6:30 mid-handoff to Pedro.

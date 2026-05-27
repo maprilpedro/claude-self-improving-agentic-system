@@ -146,6 +146,40 @@
 
 ---
 
+## Distributed-Harness Architecture (AOv2 / Agentic NorthStar)
+
+### Everything Is a Skill — the "Agent" Dissolves as a Build Unit
+- **Date identified**: 2026-05-22
+- **Source**: Ian Boston, *Agentic NorthStar* blog (wiki, 2026-05-19) + follow-up thread (May 19-22), Pedro as first substantive responder.
+- **Insight**: Once harness reasoning becomes a commodity (Claude / Codex / Pi SDKs), value moves to **skills + unique APIs + memory**, and the "agent" stops being a distinct build unit. What runs is a *harness loaded with skills*. Ian: *"focus on Skills not agents."* His own example: DAA, formerly an agent, is *"now implemented as a collection of Skills in a harness."*
+- **Critical nuance — two units, not one**: the agent dies as a **build/technical** unit but survives as a **GTM/customer-facing** unit — customers still buy "Discovery Agent," "Governance Agent." So: *build as skills; package and sell as agents.* Conflating them confuses devs (who hear "no more agents") and sales (who still sell them).
+- **Implication for prioritization**: the common org question "build skills under existing agents **vs** new agents" is partly outdated. Reframe: everything is a skill; the only real decision is **which harness it lives in** — existing by default, a new harness only when a genuine new *persona + context* boundary is crossed (a monolithic harness reasons worse and costs more — see token-cost entry).
+- **Caveat**: the NorthStar is a direction (the blog ends on a question), not ratified doctrine. Frame as "where the architecture points"; agent owners' work reframes, it doesn't vanish.
+- **Cross-link**: [[Moat = the Data, Not the Mechanism]], [[Selection and Cross-Surface Consistency Are a PM Mandate]], [[Agentic Extensions Have a Token-Cost Hierarchy]].
+
+### Moat = the Data, Not the Mechanism
+- **Date identified**: 2026-05-22
+- **Source**: Pedro's framing in the Ian NorthStar thread, endorsed by Ian (*"a great way of putting it"*; tied to a senior early-March conversation with @lkao + @gmiller; Adobe Research active in the space).
+- **Insight**: A capability built on open, portable standards (open API / MCP, fork-and-run) appears to conflict with lock-in (*"heartbreaking to leave"*). It resolves by separating layers: keep the **mechanism open** (interface, protocol) for adoption + portability; the **moat is the data** — the customer's accumulated content, context, and memory, costly to rebuild elsewhere. *Open interface, sticky data.* Ian's analogy: Gmail is portable (takeout) yet heartbreaking to leave because of the accumulated value on top.
+- **Implication**: (1) **Positioning** — sell accrued value, not lock-in: *"you stay because leaving means rebuilding years of context,"* credible precisely because the interface is open. (2) **Measurable** — accumulated-memory value shows up as returning orgs/users + retention (the signal Pedro already owns). (3) For AEM, the customer's content *is* a primary memory source.
+- **Cross-link**: [[Repeating Users as the Primary Value Signal]] (measurement), [[Everything Is a Skill — the "Agent" Dissolves as a Build Unit]].
+
+### Selection and Cross-Surface Consistency Are a PM Mandate
+- **Date identified**: 2026-05-22
+- **Source**: Ian NorthStar thread. Verbatim: *"the UI deciding which harness to call"* (explicit or prompted selection, *not* automatic intent detection); *"UX, yes, absolutely, must be PM lead"*; *"Consistency will be vital so an Adobe user feels like it is the same surface regardless of the implementation details or UI engineering ownership."*
+- **Insight**: In a distributed-harness model two things become **product (PM) problems, not architecture**: (1) **Selection** — which harness/agent a request routes to. The UI decides; *explicit or prompted* selection beats *auto intent-detection* (the seductive option that burned trust in AOv1, where the orchestrator inferred intent and routed wrong). (2) **Consistency** — making independently-owned, distributed surfaces feel like one coherent Adobe product. Consistency is in direct tension with distributed UI ownership; reconciling it is the PM mandate, and the architecture-backed answer to "too many surfaces / 4-chats" fragmentation.
+- **Implication**: selection-as-UX and cross-surface consistency are the differentiator and the PM's lane (architect put it on record). For AEM this elevates the hero surface (Experience Hub) from a launchpad to the **selection + consistency layer** of the distributed agent architecture.
+- **Cross-link**: [[Hero Surfaces Strategy]], [[Too Many Surfaces Is a PLG Killer]], [[Everything Is a Skill — the "Agent" Dissolves as a Build Unit]].
+
+### Agentic Extensions Have a Token-Cost Hierarchy
+- **Date identified**: 2026-05-22
+- **Source**: Ian Boston, *Claude Token costs* blog (wiki, 2026-05-20) + the ClaudeCode deep-dive token-economics breakdown he cites.
+- **Insight**: Every active extension costs tokens **every turn, even when its tools are never called** — and the cost varies by an order of magnitude: hooks **0**, skills **~200-500**, plugins **~500-2K**, **MCP server manifest ~2K-15K**. Context window ~200K; conversation history is the largest segment (40-60%); compaction reclaims budget but trades information quality. Five MCP servers can permanently cost 50-75K tokens of history.
+- **Implication**: architecture decisions are token-budget decisions. **Prefer skills (and hooks) over MCPs**; an MCP earns its manifest cost only for a high-value, unique capability (e.g. a shared memory service). A memory-as-MCP must keep its manifest lean and return ranked, relevant context, or it becomes the bloat it is meant to serve. Reinforces the skills-over-MCP consensus (Trent / Carsten / Felix Meschberger).
+- **Cross-link**: [[Everything Is a Skill — the "Agent" Dissolves as a Build Unit]], [[Moat = the Data, Not the Mechanism]].
+
+---
+
 ## Agent Measurement Infrastructure
 
 ### The Mandatory + Custom Dashboard Pattern
