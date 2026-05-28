@@ -51,23 +51,27 @@ folder_counts = [(f, int(n)) for f, n in
 kn_total = sum(n for _, n in folder_counts)
 
 
-def count_h(p):
-    f = ROOT / "knowledge" / "hypotheses" / p
-    return len(re.findall(r"^## H-", f.read_text(), re.M)) if f.exists() else 0
-
-
-h_active, h_resolved = count_h("active.md"), count_h("resolved.md")
 act_f = ROOT / "knowledge" / "hypotheses" / "active.md"
-active_list = re.findall(r"^## (H-\d+):\s*(.+)$", act_f.read_text(), re.M) if act_f.exists() else []
-
 res_f = ROOT / "knowledge" / "hypotheses" / "resolved.md"
-resolved_list = []
-if res_f.exists():
-    rtxt = res_f.read_text()
-    for m in re.finditer(r"^## (H-\d+):\s*(.+)$", rtxt, re.M):
-        seg = rtxt[m.end():m.end() + 300]
+
+
+def parse_hyps(path, drop_resolved=False):
+    out = []
+    if not path.exists():
+        return out
+    txt = path.read_text()
+    for m in re.finditer(r"^## (H-\d+):\s*(.+)$", txt, re.M):
+        seg = txt[m.end():m.end() + 300]
+        if drop_resolved and re.search(r"Resolved|Moved to", seg):
+            continue  # tombstone kept in active.md, but lives in resolved.md
         tag = "confirmed" if re.search(r"[Cc]onfirmed", seg) else ("killed" if re.search(r"[Kk]ill", seg) else "")
-        resolved_list.append((m.group(1), m.group(2), tag))
+        out.append((m.group(1), m.group(2), tag))
+    return out
+
+
+active_list = parse_hyps(act_f, drop_resolved=True)
+resolved_list = parse_hyps(res_f)
+h_active, h_resolved = len(active_list), len(resolved_list)
 
 mem_files = [p for p in (ROOT / ".claude" / "memory").glob("*.md") if p.name != "MEMORY.md"]
 prefix_mix = collections.Counter(c["prefix"] for c in commits)
@@ -125,7 +129,7 @@ def hrow(hid, title, tag=""):
     t = f' <span class="tag {tag}">{tag}</span>' if tag else ""
     return f"<li><b>{e(hid)}</b> {e(title)}{t}</li>"
 
-active_rows = "".join(hrow(h, t) for h, t in active_list) or "<li>none active</li>"
+active_rows = "".join(hrow(h, t, tag) for h, t, tag in active_list) or "<li>none active</li>"
 resolved_rows = "".join(hrow(h, t, tag) for h, t, tag in resolved_list) or "<li>none</li>"
 
 stale_flag = "ok" if isinstance(days_since, int) and days_since <= 14 else "stale"
@@ -191,7 +195,12 @@ HTMLDOC = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
   <div class="col"><h2>Knowledge by folder</h2><table>{folder_rows}<tr><td><b>total</b></td><td class="num">{kn_total}</td></tr></table></div>
   <div class="col"><h2>Commit-prefix mix</h2><table>{prefix_rows}</table>
     <p class="sub" style="margin-top:8px">All <code>note:</code> = hygiene, no learning. Watch the mix.</p></div>
-  <div class="col"><h2>Hypotheses</h2><div class="hsub">Active ({h_active})</div><ul>{active_rows}</ul><div class="hsub">Resolved ({h_resolved})</div><ul>{resolved_rows}</ul></div>
+</div>
+
+<h2>Hypotheses</h2>
+<div class="cols">
+  <div class="col"><div class="hsub">Active ({h_active})</div><ul>{active_rows}</ul></div>
+  <div class="col"><div class="hsub">Resolved ({h_resolved})</div><ul>{resolved_rows}</ul></div>
 </div>
 
 <h2>Consolidation history</h2>
