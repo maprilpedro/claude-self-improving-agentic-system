@@ -60,6 +60,15 @@ h_active, h_resolved = count_h("active.md"), count_h("resolved.md")
 act_f = ROOT / "knowledge" / "hypotheses" / "active.md"
 active_list = re.findall(r"^## (H-\d+):\s*(.+)$", act_f.read_text(), re.M) if act_f.exists() else []
 
+res_f = ROOT / "knowledge" / "hypotheses" / "resolved.md"
+resolved_list = []
+if res_f.exists():
+    rtxt = res_f.read_text()
+    for m in re.finditer(r"^## (H-\d+):\s*(.+)$", rtxt, re.M):
+        seg = rtxt[m.end():m.end() + 300]
+        tag = "confirmed" if re.search(r"[Cc]onfirmed", seg) else ("killed" if re.search(r"[Kk]ill", seg) else "")
+        resolved_list.append((m.group(1), m.group(2), tag))
+
 mem_files = [p for p in (ROOT / ".claude" / "memory").glob("*.md") if p.name != "MEMORY.md"]
 prefix_mix = collections.Counter(c["prefix"] for c in commits)
 
@@ -112,9 +121,12 @@ prefix_rows = "".join(
     f"<tr><td>{badge(p)}</td><td class='num'>{n}</td></tr>"
     for p, n in prefix_mix.most_common()
 )
-active_rows = "".join(
-    f"<li><b>{e(hid)}</b> — {e(title)}</li>" for hid, title in active_list
-) or "<li>none active</li>"
+def hrow(hid, title, tag=""):
+    t = f' <span class="tag {tag}">{tag}</span>' if tag else ""
+    return f"<li><b>{e(hid)}</b> {e(title)}{t}</li>"
+
+active_rows = "".join(hrow(h, t) for h, t in active_list) or "<li>none active</li>"
+resolved_rows = "".join(hrow(h, t, tag) for h, t, tag in resolved_list) or "<li>none</li>"
 
 stale_flag = "ok" if isinstance(days_since, int) and days_since <= 14 else "stale"
 
@@ -156,6 +168,10 @@ HTMLDOC = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
  ul.files li {{ font-family:monospace; font-size:11px; color:#666; }}
  ul.files li.more {{ color:var(--red); font-family:inherit; }}
  ul {{ margin:0; padding-left:18px; }} li {{ margin:3px 0; }}
+ .hsub {{ font-weight:700; font-size:12px; color:#888; margin:10px 0 2px; }}
+ .tag {{ font-size:10px; padding:1px 6px; border-radius:9px; text-transform:uppercase; letter-spacing:.03em; }}
+ .tag.confirmed {{ background:#111; color:#fff; }}
+ .tag.killed {{ background:#e6e6e6; color:#999; }}
 </style></head><body>
 <h1>Consolidation &amp; Cleanup Dashboard</h1>
 <p class="sub">Knowledge-system health &amp; consolidation history. Generated {today.isoformat()} from git + INDEX + hypotheses + memory. Regenerate via <code>scripts/consolidation_dashboard.py</code>.</p>
@@ -175,7 +191,7 @@ HTMLDOC = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
   <div class="col"><h2>Knowledge by folder</h2><table>{folder_rows}<tr><td><b>total</b></td><td class="num">{kn_total}</td></tr></table></div>
   <div class="col"><h2>Commit-prefix mix</h2><table>{prefix_rows}</table>
     <p class="sub" style="margin-top:8px">All <code>note:</code> = hygiene, no learning. Watch the mix.</p></div>
-  <div class="col"><h2>Active hypotheses (drift)</h2><ul>{active_rows}</ul></div>
+  <div class="col"><h2>Hypotheses</h2><div class="hsub">Active ({h_active})</div><ul>{active_rows}</ul><div class="hsub">Resolved ({h_resolved})</div><ul>{resolved_rows}</ul></div>
 </div>
 
 <h2>Consolidation history</h2>
