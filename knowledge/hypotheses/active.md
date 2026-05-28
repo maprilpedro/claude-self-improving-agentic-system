@@ -13,36 +13,6 @@ Observe signal --> Propose hypothesis --> Design test --> Collect evidence --> R
 - **Testing**: Actively gathering evidence
 - **Ready to resolve**: Enough evidence to decide
 
-## H-001: Audiences Disengage at Exactly 10 Minutes
-
-- **Status**: Resolved — Killed (2026-05-27, untested / deprioritized). Moved to `resolved.md`.
-- **Summary**: Literature-only (Medina / Gallo); the field test (shift at the 10-minute mark across 5 presentations) was never run in 2+ months, and no decision rode on it. The actionable craft (build in a shift / demo / question periodically) is already absorbed into presentation practice (`tools/`). Retired to keep the active set meaningful, not contradicted.
-
-## H-002: Pictures Produce 6.5x Better Recall Than Text Alone
-
-- **Status**: Resolved — Killed (2026-05-27, untested / deprioritized). Moved to `resolved.md`.
-- **Summary**: Literature-only (Mayer / Gallo); the A/B recall test was never run, and no decision gated on it. Image-rich-over-text is already standard practice (PPTX template + palette conventions). Retired, not contradicted.
-
-## H-003: The Senior Director Visibility Gap Is a Communication Problem, Not a Performance Problem
-
-- **Status**: Resolved — Confirmed + Promoted (2026-05-27). Moved to `resolved.md`; promoted to a `leadership/` rule.
-- **Summary**: 4 evidence-for + behavioral self-diagnosis (2026-04-02) + 2026-05 Ian-thread evidence (a well-placed *question* moved Ian to ship the NorthStar next day + escalate memory ownership to Saar VP — influence via communication, not delivery), 0 against over ~2 months. Cross-confirmed by resolved [[H-005]]. Promoted to leadership/ "The Director→Senior Director Gap Is a Communication/Visibility Gap, Not a Capability Gap." Companion open hypothesis: H-007 (reactive vs proactive ownership, reassess 2026-06-05).
-
-## H-004: Naming a Hero Surface and Backing It with PLG Investment Will Measurably Improve Feature Discovery
-
-- **Status**: Resolved — Killed (2026-05-27, untested / superseded). Moved to `resolved.md`.
-- **Summary**: 9 weeks untested (the Bertrand-alignment + PLG-consolidation test never ran); no evidence beyond the original three signals. The EH thesis has since evolved (2026-05-22) to "EH = the selection + consistency layer in the distributed-harness model," which absorbs and supersedes the hero-surface bet — preserved in `ai-product/` "Selection and Cross-Surface Consistency Are a PM Mandate." Killed as untested-and-superseded, not contradicted.
-
-## H-006: Agent Adoption Failure Is Primarily a Trigger Problem, Not a Friction Problem
-
-- **Status**: Resolved — Killed (2026-05-27, untested). Moved to `resolved.md`.
-- **Summary**: Genuinely testable, but the designated first test (Greg Klebus 1:1 user interviews) never ran in 7 weeks, and the "3 evidence-for" were one session (Apoorva / Loni, H2-Prelim April 10) = a single independent observation, not three. Killed as untested rather than carried indefinitely; the trigger-vs-friction distinction is sound craft and can be revived as a fresh hypothesis if a real adoption test is scheduled.
-
-## H-005: Owning Cross-Agent Measurement Standardization Creates Structural Cross-Org Influence for the Experience Hub PM
-
-- **Status**: Resolved — Confirmed (2026-05-03). Moved to `resolved.md`.
-- **Summary of resolution**: Cross-org influence accrued to Pedro through ownership of the data substrate even before any literal "standard" shipped. Public naming as AEM-AO liaison (April 14), peer-team voluntary consolidation by Varun (April 22), three-tier reporting architecture locked with Pedro owning the middle tier (May 1), and Portfolio Monthly Briefing v0 shipped (April 30) collectively confirm the spirit-of-hypothesis prediction. See `resolved.md` for full evidence.
-
 ## H-007: Reactive Ownership Is a Harder Muscle Than Proactive Ownership
 
 - **Status**: Proposed
