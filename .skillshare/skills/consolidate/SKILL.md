@@ -63,6 +63,7 @@ For depth here, you may spawn the `staleness-auditor` subagent (read-only drift 
 1. **Debrief asks** — list the specific things only Pedro can answer that would unblock the next session (e.g. "Loni+JM deck outcome still uncaptured"). Short, pointed.
 2. **Change summary** (`feedback_document_updates`) — what changed in memory, what moved in knowledge, hypotheses transitioned, staleness flags raised. Skimmable, with 🔴/🟢 carry-forward called out.
 3. **Commit** (`Commit Rule`) — stage `knowledge/` and `.claude/memory/`, commit with the right prefix (`learn:` default; `pattern:` / `hypothesis:` / `correct:` / `experiment:` if that dominated; `note:` for memory-only / hygiene-only). Use `rtk git`. End with the Co-Authored-By trailer. **Never push** (auth-blocked). A session summary file in the vault `Meeting Notes/` is optional and only when the session warrants a durable narrative — do not spawn one by reflex (`feedback_one_artifact_per_ask`).
+4. **Regenerate the dashboard** — run `python3 scripts/consolidation_dashboard.py` so `consolidation-dashboard.html` reflects this consolidation. It reads only repo data (git log over `knowledge/` + `.claude/memory/`, INDEX inventory, hypotheses, memory files); the html is gitignored, the generator is committed. This is the "sharpen the saw" meta-view — system health, knowledge-by-folder, commit-prefix mix (hygiene vs learning), active hypotheses, full consolidation history. Generated, never hand-maintained.
 
 ## What success looks like
 
