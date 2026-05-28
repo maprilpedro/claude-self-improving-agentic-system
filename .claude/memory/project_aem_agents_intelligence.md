@@ -9,6 +9,13 @@ metadata:
 
 > **Two-project split — Phase 2 structurally complete (2026-05-13).** AAI vault folder at `2026/AEM Agents Intelligence/AAI - Project Folder/`. Companion `project_experience_hub.md` covers EH. Meeting Notes moved to neutral `2026/Meeting Notes/` (2026-05-13). AI-Assistant legacy folder retired. No legacy folders remain.
 
+> ## ▶️ RESUME HERE — surface these 3 first (left off 2026-05-28 pm)
+> Propose these when Pedro comes back, before anything else:
+> 1. **Blog publié ?** "From North Star to There Waiting" was set to publish 2026-05-28 afternoon (gate cleared: Ian aligned + amplifying, Bertrand heads-up sent). Ask: did it go up, and did the **Conrad async FYI** go out first?
+> 2. **Réaction de Philippe** au refus (declined annexing the Bucharest keynote with his "workflow problem" thesis). Watch for a reframe-publicly move.
+> 3. **Keynote Bucharest — pass round-4 pending.** The prep note `Bucharest June Workshop — Skill Proliferation + Modernization.md` still says "registry" in places; needs the registry → declaration-standard + git-discovery update before the session. Offer to do it.
+> Once surfaced + answered, delete this block.
+
 > ## ⏱ Consolidation checkpoint — 2026-05-19 (staleness flags, NOT new facts)
 >
 > Session summary: [[20260519 - Session Summary]] (May 18 Agent Owners Alignment ingested, Pedro hosted). Date-driven items now past — confirm outcomes, don't assume:
