@@ -653,6 +653,16 @@ Directors own their product area. Senior Directors shape decisions across areas 
 
 ---
 
+### Co-Author With the Owner — Sharp Questions at Architecture Altitude Make the Owner Validate Your Lane
+- **Date identified**: 2026-05-28
+- **Source**: Pedro ↔ Ian Boston, *Agentic NorthStar* thread (2026-05-19 to 28), multi-round.
+- **Pattern**: When you engage the owner of an architecture (the architect / Principal) with sharp, well-placed *questions* and *additive* proposals, not corrections, at the altitude of their work, the owner over successive rounds: ships the gating artifact, escalates open questions upward (to a VP), and **validates your contributions one by one while defining your lane in their own words.** Across this thread Ian published the NorthStar (after Pedro publicly named him owner), escalated memory ownership to Saar (VP), then over three rounds confirmed Pedro's skill registry, his consistency layer, and his surface-governance gap, and stated the lane: "selection must be PM led," "the UI surface and its harness are containers a PM fills with skills," placement is "governed." The architect owns the spec; you own the product layer, and the architect saying so on record is worth more than claiming it yourself.
+- **How to apply**: lead with a question plus your instinct (a position, not just a question); concede their refinements fast (the front-end) and keep the durable part (the back-end / your lane); build on their artifact additively ("what I'd add," never "what's missing", see `feedback_additive_not_corrective`); credit them on every shared artifact. Promotion-frame = "operating at architecture-conversation altitude," NOT "I am the architect."
+- **Evidence (2+ observations)**: NorthStar published after public naming (2026-05-19); memory escalated to Saar (2026-05-22); three-round co-author plus explicit lane-definition (2026-05-27 to 28). Reinforces resolved [[H-005]] and promoted H-003.
+- **Cross-link**: [[Use the Forum to Manufacture the Deliverable and Pre-Load Its Consumers]], [[Public Naming as Scope Expansion Signal]].
+
+---
+
 ### Substitute-Hosting the Cross-Agent Forum Is Altitude, Not Cover
 
 - **Date**: 2026-05-18 (logged 2026-05-19)

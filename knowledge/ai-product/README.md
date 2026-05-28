@@ -178,6 +178,20 @@
 - **Implication**: architecture decisions are token-budget decisions. **Prefer skills (and hooks) over MCPs**; an MCP earns its manifest cost only for a high-value, unique capability (e.g. a shared memory service). A memory-as-MCP must keep its manifest lean and return ranked, relevant context, or it becomes the bloat it is meant to serve. Reinforces the skills-over-MCP consensus (Trent / Carsten / Felix Meschberger).
 - **Cross-link**: [[Everything Is a Skill — the "Agent" Dissolves as a Build Unit]], [[Moat = the Data, Not the Mechanism]].
 
+### The Distributed Front Fragments in Three Ways — Three PM-Owned Fixes
+- **Date identified**: 2026-05-28
+- **Source**: Synthesis from the Ian Boston *Agentic NorthStar* thread (2026-05-19 to 28), Pedro as first responder + co-author.
+- **Insight**: A distributed-harness model (each team owns its UI + skills + session) buys depth but fragments in three *separate* ways. Conflating them as one "fragmentation" blob hides the fix. (1) **Juggling** — the user hunts across surfaces (the four-chats problem). Fix: **there-waiting**, the relevant capability is present on the surface the user is already on. (2) **Incoherence** — each surface feels like a different vendor. Fix: a **consistency layer**, shared shell + interaction patterns + cross-surface continuity. (3) **Wrong surface** — a surface misses skills, carries junk, or holds stale ones. Fix: a **registry**, one curated source of truth (shared declaration schema + curation) that the surface-owner PM composes each surface from, precise + complete. Three layers: registry = **supply** (is the surface correct), there-waiting = **delivery** (does the user hunt), consistency = **experience** (does it feel like one Adobe). Remove one, fragmentation returns through that hole.
+- **Why it matters**: "distributed = fragmented" is the reflexive objection to a distributed-harness architecture. The answer is **distributed engineering, unified experience**, and all three fixes are product/PM problems, not architecture — the architect (Ian) put it on record: selection + consistency "must be PM led," surface placement is "governed." This is the PM lane in the agent architecture, and the elevation of a hero surface (Experience Hub) from launchpad to the selection + consistency layer.
+- **Cross-link**: [[Selection and Cross-Surface Consistency Are a PM Mandate]], [[Everything Is a Skill — the "Agent" Dissolves as a Build Unit]], [[There Waiting Has Two Forms — Consistent Chat or (Often) Invisible]].
+
+### There Waiting Has Two Forms — Consistent Chat or (Often) Invisible
+- **Date identified**: 2026-05-28
+- **Source**: Ian Boston, NorthStar thread round 3 (2026-05-28).
+- **Insight**: "There waiting" (the right capability present where the user works) does not mean a chat window on every surface. **The form follows the surface.** Sometimes a chat is right; often embedded/ambient functionality is better, and *"the best assistants are almost invisible"* (Ian) — e.g. keeping content on brand via real-time guidance woven into the authoring surface, no chat at all. Two forms of presence: (a) a **consistent chat** where chat is the right tool, and every chat must obey shared rules (same controls, the "+" offering the same class of actions, user messages on the same side, **learn-once-or-it-is-a-fail**); (b) **invisible/embedded** everywhere else. Which form a surface gets is **governed** by persona + context, not a per-team choice, via a *surface map* (the sibling of the skill registry).
+- **Why it matters**: this sharpens "there-waiting" and defuses the fragmentation fear harder — embedded/invisible help is not another window to juggle, so "many surfaces" never means "many chats." It also sets the UX bar: a chat the user must relearn per surface is a failure. Pairs with the three-fixes model: the consistency layer governs the chat-form surfaces; the registry feeds skills into both forms.
+- **Cross-link**: [[The Distributed Front Fragments in Three Ways — Three PM-Owned Fixes]], [[Selection and Cross-Surface Consistency Are a PM Mandate]].
+
 ---
 
 ## Agent Measurement Infrastructure

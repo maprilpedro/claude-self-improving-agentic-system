@@ -58,6 +58,7 @@
 - [Plain language, no jargon](feedback_plain_language_no_jargon.md) — Explain plainly; when Pedro says "I don't understand," strip to plain words + a concrete A/B choice, don't add more terms.
 - [HTML dashboards, not markdown](feedback_html_dashboard_preference.md) — Dashboards/roadmaps/visuals = self-contained HTML in the deck palette, not an md note. `open` it after saving.
 - [Simple local reminders over cloud automation](feedback_simple_local_reminders.md) — Default to a cadence Claude surfaces at session start; cloud /schedule only if repo-only + he asks.
+- [Build on a senior's artifact additively, not correctively](feedback_additive_not_corrective.md) — Frame adds as "what I'd add" (red-outline + credit), never "what's MISSING" (red markup). Additive keeps the owner an amplifier.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.
