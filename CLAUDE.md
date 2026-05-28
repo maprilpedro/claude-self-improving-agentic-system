@@ -150,6 +150,7 @@ Built-in tooling for the two highest-frequency workflows. Skills are **skillshar
 |---|---|---|
 | `/ingest-transcript [path]` | A new transcript / meeting notes to process | Routes by owning project, updates canonical Status & Todo (prep→notes reconcile, date-agnostic), updates project memory (date reconcile), knowledge reflection if pattern-grade, brief summary, offers trio, commits `learn:`. No path → finds most recent in `Meeting Notes/`. |
 | `/consolidate` | End of session / "consolidate memory" | Pairs memory + knowledge sweep (never one without the other), hypothesis lifecycle, staleness flags, debrief asks, commit. Honest "hygiene-only" path when no new substance — does not fabricate learnings. |
+| `/system-review` | Monthly (1st, w/ Promotion Strategy review) or "run a system review" | The heavyweight sibling of `/consolidate`. Spawns `staleness-auditor`, then **acts** on the drift: hypothesis lifecycle (promote 3+ / kill / demote), scores decisions with knowable outcomes, prunes quality criteria, regenerates the dashboard, logs the review + resets cadence in `.claude/state.md`, commits. Confirms it is actually due before running. |
 
 **Subagents (`.claude/agents/`):** existing trio `pm-research` / `pm-strategic` / `pm-tactical`, plus:
 
@@ -158,7 +159,7 @@ Built-in tooling for the two highest-frequency workflows. Skills are **skillshar
 | `transcript-extractor` | yes | Big-file pattern — spawn 3-5 in parallel on contiguous chunks of a >2000-line / >100K transcript; returns dated structured extracts. `/ingest-transcript` invokes it automatically for large files. |
 | `staleness-auditor` | yes | Drift report across both Status files + memory dates vs today (stale sections, hypotheses at threshold, rules to demote, decisions to score). The lightweight half of the System Review directive. `/consolidate` invokes it for Step 4 depth. |
 
-Skills compose: `/ingest-transcript` → `transcript-extractor`; `/consolidate` → `staleness-auditor`. Validation is qualitative (workflow-capture skills, not scoreable transforms) — the real test is the next real transcript / session-end.
+Skills compose: `/ingest-transcript` → `transcript-extractor`; `/consolidate` → `staleness-auditor`; `/system-review` → `staleness-auditor` (then acts on the report). `/consolidate` is the per-session light half; `/system-review` is the monthly heavy half that consumes the same drift report and makes the edits. Validation is qualitative (workflow-capture skills, not scoreable transforms) — the real test is the next real transcript / session-end / monthly review.
 
 ---
 
