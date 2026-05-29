@@ -473,6 +473,26 @@ Source: #aem-agents (`C09J94L2TAR`) Ian Boston post 2026-05-12 08:18 CEST. Align
 
 ---
 
+## May 28 — Eugene + Silvia DM: the consistency MECHANISM surfaces (A2UI + a2ui-components)
+
+Source: 3-way group DM Eugene Bannykh + Silvia Mulet Ferre + Pedro (`C0B6MF94L3V`), Eugene 2026-05-28 20:41 CEST. Pedro has NOT replied yet. Ingested 2026-05-29.
+
+**Eugene's message (reacting to Pedro's blog + Ian's North Star):**
+- Validates the distributed direction: *"a sober direction, since AEM teams want to move fast and don't want to give autonomy away."*
+- Insists consistency must hold in **both UI/UX and skills/memory**.
+- **The mechanism:** decouple the chat components from AO into their own monorepo, e.g. `@adobe/a2ui-components`; each harness takes it as a dependency.
+- **Distributed harnesses adopt the A2UI spec as a common protocol** → testable, guarantees the design system is implemented identically. Example: an Asset card renders the same in Experience Workspace and in Content Hub.
+- Design team is already prototyping with AO chat components + skills, exploring how designers influence agentic output and **could own the components + contribute to that shared repo**.
+- Ends *"What do you think?"* → open ask to Pedro.
+
+**Why this matters — resolves the "consistency = asserted, no mechanism" open verify.** Pedro's blog asserted "every chat must feel like the same chat" with no mechanism; the May 28 consistency-layer working thesis hypothesized "portable, harness-agnostic, design-owned component lib + light contract." Eugene just named it: **`a2ui-components` (the shared lib) + A2UI spec (the light contract)**, explicitly **decoupled from AO** = harness-neutral, protects optionality (Loni "not at the mercy of someone else"). Reconciles with the earlier brick-box note: Quarry = general shared UI components; **a2ui-components + A2UI = the agent/chat-specific layer on top**. Also connects to Guliz's "new A2UI components" mention in the Apoorva thread (reply 1) — A2UI is becoming the shared design-side answer.
+
+**Division of labor crystallizing:** Design (Eugene/Silvia) builds the component contract (a2ui-components + A2UI); Pedro owns the product framing (surface inventory/map, which surfaces, which skills, what we tell customers — the lane he claimed publicly the same day). Clean split, not overlap. Eugene/Silvia asking "what do you think" = they want Pedro as the product owner of this.
+
+**⏳ OWED:** reply to Eugene + Silvia. Affirm the direction (decoupled shared components + a light contract = exactly the consistency layer), connect it to the surface inventory Pedro just claimed, and ask the clarifying questions: is A2UI harness-neutral by design, who owns the spec, how does a designer-owned contribution model to the component repo work (parallels the skill-curation contribution question). Open learn: what exactly is A2UI (likely Agent-to-UI rendering spec; confirm scope + owner — do not assert).
+
+---
+
 ## May 28-29 — Apoorva AOv2 entry-point Slack thread (Pedro publicly named harness-strategy owner)
 
 Source: Slack `cq-dev` #C09J94L2TAR thread, parent ts 1779983847.809839 (Apoorva Gupta → Bertrand, 2026-05-28 17:57 CEST, 16 replies through 2026-05-29 10:26). cc Guliz Sicotte, Prashant Jain, Ankur Arora. Ingested 2026-05-29.
