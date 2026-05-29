@@ -17,6 +17,7 @@
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
+- [UI/CX comfort gap](user_ui_cx_gap.md) — Strong at product/strategy/org, less comfortable at UI/CX/design execution. Scaffold those explanations; route design detail to Eugene/Silvia.
 
 ## Feedback
 - [Save screenshots to project folder](feedback_screenshots.md) — Always save screenshots to /screenshots in the project repo so they persist across sessions

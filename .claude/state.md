@@ -39,6 +39,7 @@ Central tracker (was scattered across INDEX Access Log — quality gap fixed at 
 | Operate-as-the-Role, Don't Re-Ask-Permission | 2026-05-13 | 2nd instance likely (hosted forum May 18 + Ian "must be PM lead" May 22) — **verify distinct** from Public Naming / Pick Up the Open Action Item before promoting |
 | AOv2 V1→V2 inversion / skill-level-evals gap / manifest customer-exposure | 2026-05-05 | **Largely promoted 2026-05-27** into ai-product/ Distributed-Harness section — confirm fully covered, else close remainder |
 | Default-and-Veto for Non-Responsive Peers; Diff-Based Ask vs Doc-Request; Forward-Framed Recovery; Independent Confirmation Signals Org-Wide Lane | 2026-05-05/08 | No 2nd instance surfaced — **drop next review** if still none. "Forward-Framed Recovery" likely already absorbed by `feedback_dont_litigate_prior_replies`. |
+| Reusing a Platform's Ready-Made Components Is a Soft Commitment to That Platform | 2026-05-29 | 1 instance, analysis-derived (not outcome-validated). Consistency-layer mapping: the cheapest path to UI consistency = reuse AO 2.0's ready bricks (NextGen AIA UI + Quarry + Mithril), which all sit in AO 2.0's orbit → convenience = soft lean toward AOv2; staying engine-independent costs more build. Generalizes: "just reuse their components" is never neutral on platform choice. Promote to ai-product or false-beliefs at a clean 2nd instance. |
 
 ## Notes
 

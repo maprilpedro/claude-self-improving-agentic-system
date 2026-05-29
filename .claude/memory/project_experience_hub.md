@@ -193,7 +193,7 @@ Source: `Meeting Notes/Bertrand 1 1/20260505 - Bertrand Pedro 1 1_otter_ai_trans
 
 **Mithril / Coworker (Joshua Hailpern team).** AI Assistant V2 with "mode rail" (observer + suggestion). Launching ~late May (T-25 days). **AEM Sites NOT included** — repeat exclusion pattern (also Modernization Agent + Experience Workspace). Bertrand asked Sorin + Eugene to do Mithril review. Pedro saw UI via night Slack May 4. Bertrand: *"Ça va être un point important pour la migration AOv2 si on y va."* Bertrand actioned: chase Guliz on XD/Adobe-Design loop visibility.
 
-**Marcus Räck (Experience Workspace creator).** Declined Pedro's unified-chat ask: *"je pense qu'il faut chaque solution ait son propre tchat."* 4 chats now (Experience Workspace, Modernization, Slick, Rosetta=Manager Services). Pedro pushing common substrate (history, context). Bertrand views chat unification as AOv2-migration-relevant.
+**Marcus Räck (Experience Workspace creator).** Declined Pedro's unified-chat ask: *"je pense qu'il faut chaque solution ait son propre tchat."* 4 chats now (Experience Workspace, Modernization, Slick, Rosetta=Manager Services). ⚠️ **"Slick" + "Rosetta" = low-confidence names** — from a garbled May 5 Otter auto-transcript (*"sleek… le chat dans Rosetta qui est la version manette services"*, Unknown Speaker; "manette services" = mis-heard "Manager Services"). Pedro didn't recall the names 2026-05-28, will verify later. Don't assert as canonical until confirmed. Pedro pushing common substrate (history, context). Bertrand views chat unification as AOv2-migration-relevant.
 
 **Cédric Huesler — repair contact.** Pedro got him annoyed via Slack push on AOv2 + contribution model May 5 morning. Tactical contact for Experience Workspace + AOv2-on-Sites discussions.
 
