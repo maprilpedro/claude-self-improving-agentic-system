@@ -63,6 +63,7 @@
 - [Build on a senior's artifact additively, not correctively](feedback_additive_not_corrective.md) — Frame adds as "what I'd add" (red-outline + credit), never "what's MISSING" (red markup). Additive keeps the owner an amplifier.
 - [Draft in Pedro's voice](feedback_draft_in_pedros_voice.md) — Messages Pedro sends = his plain English level, no native idioms, no meta-narration of the move, no reciting the other's position, Slack-clipped not essay, no em-dashes.
 - [Keep Claude private](feedback_keep_claude_private.md) — Never surface Claude as Pedro's AI assistant to colleagues; pace/frame deliverables as iterative human work, not overnight/superhuman speed.
+- [Don't conflate pattern with object](feedback_dont_conflate_pattern_with_object.md) — Same architecture phrasing ≠ same product. Compare the actual object (data vs skills) by reading both source artifacts before calling overlap/encroachment.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.
