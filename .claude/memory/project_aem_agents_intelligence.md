@@ -20,6 +20,8 @@ metadata:
 >
 > 0b. **🟢 Apoorva AOv2 entry-point Slack thread (May 28-29) ingested 2026-05-29.** Silvia named **"Ian Boston and Pedro Ferreira are working on the AEM strategy for the future of LLM harnesses"** (public, to agent PMs) + Ian cited Pedro's blog as the skill/harness composition decision reference (3rd citation) + Apoorva voiced the exact fragmentation/selection problem Pedro's blog answers + **16% of EH prompts are cross-agent (→Audiences)** = headline data + **Silvia consistency meeting May 29 (today) — confirm Pedro is in it.** Full detail: "May 28-29 — Apoorva AOv2 entry-point Slack thread" section below.
 >
+> 0c. **🔴 AOv2 DECIDED (Ian, May 12) + Slack veille set up (2026-05-29).** Conrad delegated AOv2 to Ian; Ian posted the decision (skills-first, harness-portable, adoption-gated harness support, minimal AOv2 invest until BU value, **A2A dead**). Closes the long-running "discussed not decided" caution. Full detail: "May 12 — Ian's AOv2 decision" section. **Loni joined #aem-p42-leadership May 22** (VP-visible). **Pedro owns 2 of 3 items on the June 1 Agent Owners agenda** (Northstar blog + Agent Report). Slack monitoring note created in vault (`AAI - Project Folder/Slack Channel Monitoring.md`) — channels #aem-agents `C09J94L2TAR` + #aem-p42-leadership `C0ASX6AJR8X`; Pedro will ask to re-check regularly.
+>
 > ## ▶️ left off 2026-05-28 pm
 > 1. ✅ **Blog publié + amplifié.** "From North Star to There Waiting" published 2026-05-28 (https://wiki.corp.adobe.com/spaces/~pedrofer/blog/2026/05/28/3901747358/From+North+Star+to+There+Waiting). Post-publish edits applied: deduped the two "nobody owns" into one **"one product layer"** thesis + scoped consistency to **one AEM** (not Adobe-wide). Conrad async FYI sent (Conrad out 1-2 wks). Ian pinged → replied *"Looks good, have referenced it to continue the conversation"* = amplifying on his feed. **Then edited his Agentic NorthStar post to point at Pedro's, verbatim: *"Pedro Ferreira has a response to this question, worth reading: From North Star to There Waiting."*** The architecture author publicly routing his audience to Pedro's product-layer answer = Senior-Director-grade visibility artifact. Bankable. RESOLVED.
 > 2. **Philippe reaction = ❤️ on Pedro's Slack post** (after Pedro declined letting him annex the Bucharest keynote with his "workflow problem" thesis). Surface-friendly / de-escalating. Per competitor frame ("he doesn't attack, he makes you applaud him") a heart ≠ alignment — keep watching for a reframe-publicly move.
@@ -447,6 +449,27 @@ Source: `Meeting Notes/Entreprise Group/20260528 - Entreprise Ground Truth Works
 - **Ian** — drop "does EGT encroach" (it doesn't). Ask instead whether the skills + surface-consistency layer is a recognized *distinct product job*, and whether Pedro's expected at the flywheel workshop. Draft (Pedro's plain EN, Slack, neutral): *"Quick one on your North Star. Is Enterprise Ground Truth supposed to be the single context layer all AEM agents use, or one source among many? And is making every agent consume context the same way one job, or a separate layer on top of EGT? That second part looked like nobody owns it yet."*
 - **Bertrand** — position the blog's lane (skills declaration + surface consistency) as a separate product job; ask to be in the **flywheel workshop next week** (Daniel announced it, line 56).
 - Do NOT attack Philippe frontally (competitor frame: he makes you applaud — work via Ian/Bertrand).
+
+---
+
+## May 12 — Ian's AOv2 decision (Conrad delegated) — DECISION-GRADE, closes "discussed not decided"
+
+Source: #aem-agents (`C09J94L2TAR`) Ian Boston post 2026-05-12 08:18 CEST. Aligned with Carsten Ziegeler. cc Jaclyn Eckersley, Yanira Castaneda. *"Conrad has delegated a decision on AOv2 to me."* This is the Conrad forcing-function directive memory had been awaiting since Apr 29 ("V2 = direction, discussion not decision"). **Now decided** (Conrad → delegated to Ian → Ian posted + Carsten-aligned = decision signal per [[feedback-proposal-vs-decision]]).
+
+**The decision (verbatim-anchored):**
+1. **Skills-first.** Develop skills first; create MCPs only if required by the skills; create agents only where a skill cannot achieve what's required.
+2. **Harness-portable.** Aim to run skills in any harness; do not limit to a single harness.
+3. **Adoption-gated harness support.** Support the harnesses customers show usage of for AEM agents; invest effort in a harness only where there's proven AEM-agent usage.
+4. **Minimal AOv2 investment until proven BU value.** *"Until there is proven value to AEM BU we should not invest more effort than making the AOv1 agent manifests available as is to AOv2."*
+5. **A2A dead.** *"We should not invest further in A2A since no customers have leveraged it."*
+
+**Resolves prior open items:**
+- Forward-path commitment to AOv2 — was open → now: skills-first, harness-agnostic, AOv2 support adoption-gated (not a blanket bet).
+- A2A decommission — was "direction/timeline open" → now: no further A2A investment, confirmed dead.
+- MCP-vs-skills tension — resolved toward **skills primary, MCP subordinate** (Trent's Apr 29 skepticism wins over Bertrand's MCP-first).
+- The decision-maker question — Conrad delegated to **Ian** (not Trent, who disclaimed authority Apr 29).
+
+**Strategic read for Pedro:** the decision is the architecture floor his blog sits on. "Skills run in any harness" + "support harnesses where customers show usage" = exactly why the selection + consistency layer (his lane) matters: if skills are portable and harnesses are adoption-driven and plural, someone must make the right skill be there-waiting and keep surfaces consistent. Ian's directive validates the premise; Pedro's blog answers the consequence. Cite it that way to Bertrand.
 
 ---
 
