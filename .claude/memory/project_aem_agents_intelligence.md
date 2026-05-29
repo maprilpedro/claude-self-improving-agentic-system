@@ -408,6 +408,24 @@ Volumes + unowned routing pending Apoorva validation close. KR4 ship date moved 
 
 ---
 
+## May 28 — Enterprise Ground Truth workshop (Philippe + Daniel tandem watch)
+
+Source: `Meeting Notes/Entreprise Group/20260528 - Entreprise Ground Truth Workshop May 2026 - Demos .md`. Org chart: `screenshots/20260529-daniel-mrose-cxo-org-*.png`.
+
+**Enterprise Ground Truth (EGT)** = structured/readable representation of a brand (voice, design system, claims, guardrails), segmented by region/country/market, exposed via **MCP + REST**. Daniel Mrose's framing: *"the contextual layer for all of our agents."* Separate service, own storage → consumable by every AEM vertical (Edge Delivery → on-prem) **and non-AEM customers = acquisition funnel** (Unilever wants to serve context to its agencies). MCP tools: `get_segments`, full context, vertical context (just voice / just design system), **research-context-for-use-case** (agentic loop infers segments). Demo: US→imperial, France→red becomes blue + euros + FR translation.
+
+**Build org = Daniel Mrose's "Customer Experience Orchestration"** (Basel Eng, under Alexander Saar — SAME VP as Ian Boston). Full roster in [[cxo-org-daniel-mrose]]. Workshop roles: Andrei Stefan Tuicu (tech lead), Florentin Sardan (MCP), Alejandro Moratinos + Mark (data model), Gerald Prendi + Lara (ingestion), Ramon Bisswanger + Michal (Philippe's flow integration), Catalin Luta (co-presenter).
+
+**🔴 Lane-encroachment read.** EGT presents as the cross-agent context layer — direct overlap with Pedro's North Star (context architecture / consistency). Andrei said Pedro's thesis verbatim: context *"lives in the center place, consumed by all agents without being re-implemented in every single harness."* Philippe opened with EGT being born from **governance-agent co-innovation** → **Philippe (PM) + Daniel (Eng Director) tandem** building the context substrate with real Eng muscle + Philippe's narrative on top. Sharper than a neutral Eng build: it's the PM-competitor + his Eng-Director partner becoming the owner of the data substrate (H-005 lesson: influence accrues to substrate owner).
+
+**Pedro's counter-leverage:** (a) **Ian Boston = same VP (Alexander Saar)** + just amplified Pedro's blog → route into EGT via Ian, not Philippe. (b) The layer ABOVE EGT is vacant: cross-agent consumption + consistency + **contribution model** — Cedric Huesler posed the contribution/feedback-loop hard at the workshop (fork-risk, branch-like-Git, living context) and nobody owns it as product. Claim the layer, not EGT itself. (c) **Flywheel workshop next week** (Daniel announced) = where the cross-agent layer gets defined — Pedro must be there as PM voice.
+
+**Skills-vs-flows debate (Pedro's fragmentation concern, live).** Michael Marth (VP Eng Basel) challenged Philippe: *"why are flows not simply skills? Otherwise 2 concepts, 2 implementations for the same thing."* = Michael Marth = natural ally for Pedro's converge-on-a-standard position. Philippe defended flows as a distinct layer (skills costly, let customer choose). Cedric Huesler: *"don't conflate UI with execution"* — NL to describe, execution optimizable to Python. A customer-facing eng (BCN room): customers don't want wizard-style workflows.
+
+**Move:** Bertrand first (recadrer ownership: who owns cross-agent context narrative, me or Philippe — I want in the flywheel workshop), Ian in parallel (light, harness-neutral align), do NOT attack Philippe frontally (competitor frame: he makes you applaud — take the layer from above via Ian/Bertrand).
+
+---
+
 ## Stakeholder shortlist (AAI lane)
 
 **AEM Agent PMs:** Apoorva Gupta (Discovery), Corey Dulimba (EPA), Philippe Kapfer (Governance), Greg Klebus (Content Optimization), Brian Chaikelson (EDA), Nick Whittenburg (Onboarding), Gabriel Walt / Mike Tilburg (Modernization).
