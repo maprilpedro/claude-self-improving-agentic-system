@@ -499,6 +499,13 @@ Source: Slack `cq-dev` #C09J94L2TAR thread, parent ts 1779983847.809839 (Apoorva
 
 **Moves:** (a) confirm attendance at Silvia's May 29 consistency meeting — this is Pedro's lane being defined without confirmation he's in the room; (b) the 16% cross-agent EH→Audiences stat → pull into May 11 deck + EH narrative; (c) Apoorva's "ditch our UIs, use skills via Claude" = quote-anchor for why the consistency/selection layer matters (adoption-protection framing, ties Loni "not at the mercy of someone else"); (d) Silvia naming Pedro+Ian as harness-strategy owners = log toward promotion evidence.
 
+**🟢 FOLLOW-UP — Pedro replied + claimed the lane publicly (2026-05-29, posted ~11:30 CEST).** After Apoorva pushed back (skills-selection "not the big deal"; the real gap = fragmented UIs / entry points; "who in AEM Product drives UI convergence or even an inventory of all the UIs"), Pedro posted (pasted by hand — see [[feedback-never-send-slack]]):
+- Reframed convergence as the *open product question* (one surface vs several depends on personas/use-cases — decide deliberately, don't assume), NOT a verdict.
+- **Claimed the lane in public before Bertrand:** *"This is the piece I think AEM is missing, and honestly it probably sits with me given Experience Hub. I'd start by pulling the surfaces and entry points into one map... working from the teams since no single person has that view today. @Bertrand, if you agree it's mine to drive, I'll take it."*
+- Skills-per-harness = no fixed number, shared call between architecture (Ian) + each team, budget not a hard cap.
+**= PROMOTION MARKER.** Pedro publicly volunteered to own the cross-surface map/convergence lane, in front of Bertrand, in a Loni-adjacent channel — broadcast-rep + cross-surface scope claim. Log to Promotion Strategy ([[reference-promotion-strategy]]). Turned "I don't have the info / pas trop envie" into the rationale (nobody has the consolidated view = the gap = H-005 substrate logic).
+**⏳ OWED DELIVERABLE (conditional on Bertrand confirming ownership):** a first-cut **inventory/map of AEM agent surfaces + entry points** (Experience Hub, Experience Workspace, Modernization, Coworker, Fruitbar, AI pods, ...) — what each is for, where each agent shows up, what we tell customers. Pedro framed it as "first cut" / convening the teams, not a finished artifact he already has data for. Watch for Bertrand's reply blessing/assigning ownership before committing build effort. Ties directly to the consistency layer (`Consistency Layer — Working Note.md`) and EH-as-selection+consistency-layer narrative.
+
 ---
 
 ## Stakeholder shortlist (AAI lane)
