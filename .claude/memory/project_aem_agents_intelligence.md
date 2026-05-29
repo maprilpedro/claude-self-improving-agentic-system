@@ -40,7 +40,7 @@ metadata:
 >
 > **🟡 Gabriel/Modernization — "Stardust" + "Snowflake" skills** = additional spin-off skills in progress beyond the main Modernization Agent. Hard requirement flagged: users must push changes to GitHub from the agent. Unresolved dependency.
 >
-> **🟡 CXO Roadmap Template (new 5-section format).** Bertrand introduced Adobe CXO template: agents / cloud / sites / assets / forms. Roadmap final due today (May 29) to design agency. **Roadmap webinars June 9 + June 10** — external dates not in memory before.
+> **🟡 CXO Roadmap Template (new 5-section format).** Bertrand introduced Adobe CXO template: agents / cloud / sites / assets / forms. Roadmap webinars **June 9 + June 10** — external dates. Roadmap send to design agency = NOT Pedro's task. **Bertrand OOO until 2026-06-02 (Monday).** Bertrand-gated items (Bertrand 1-1 agenda, convergence lane conversation, flywheel workshop ask) all shift to next week.
 >
 > **🟡 Open unclaimed action from May 11.** "Create a Wiki page documenting AO 1.0 vs AO 2.0 experiences, limitations, benefits for AEM use cases." Assigned to "the team." Nobody claimed it. **No existing page — this is a to-create artifact.** Pedro's reporting + Ian NorthStar position = natural owner. Visibility move if Pedro claims it.
 >
