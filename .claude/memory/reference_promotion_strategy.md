@@ -18,7 +18,7 @@ Pedro's personal promotion strategy doc, treated as a product with cascade disci
 - Highest live trap risk: Do-it-all + Waterloo combined (five arenas at upper edge). Mitigation = sequencing, not subtraction.
 
 **Cadence:**
-- Monthly review (first session each month). Next review **2026-06-01**.
+- Monthly review (first session each month). Next review **2026-06-02** (pushed from 2026-06-01 at Pedro's request — surface at session start). Bank for it: 2026-06-01 Pedro posted the standing PM common-foundation position on a VP-visible #aem-agents thread while Bertrand was OOO + Loni in town (visibility/reactive-ownership rep); Ian repeatedly citing Pedro's blog as the decision reference.
 - Each review: refresh Six Telltale Signs evidence rows, kill or sharpen one cascade item, update 90-Day Next Moves.
 
 **How to apply:**

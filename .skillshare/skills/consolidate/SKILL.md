@@ -14,7 +14,7 @@ This is distinct from `/ingest-transcript` (which processes one new external inp
 
 First, honestly assess: did real PM events, decisions, or insights enter this session, or was it hygiene / recall / mechanical work?
 
-- **Substance present** → full consolidation (Steps 1-5).
+- **Substance present** → full consolidation (Steps 1-6).
 - **No new substance** (recall-only, file maintenance, no new meeting or insight) → **hygiene-only**: ship staleness flags + a short debrief-asks list + commit. Do **not** fabricate learnings by re-reading existing memory to look productive (`feedback_consolidation_without_substance`). Say plainly "hygiene-only, no new substance" and skip Steps 2-3.
 
 Calling this honestly is the skill's most important judgment. Productivity theater here pollutes the knowledge base permanently.
@@ -48,7 +48,20 @@ Walk `hypotheses/active.md`. For each:
 - Contradicted → demote any dependent pattern back to hypothesis with reasoning.
 - Otherwise → leave active, optionally append new supporting/weakening evidence.
 
-## Step 4 — Staleness flags (the System Review hook)
+## Step 4 — Vault sync (when substance entered via conversation, not `/ingest-transcript`)
+
+When PM substance arrived **in the session itself** (a Slack thread Pedro pasted, a live decision, a source-read finding) rather than through `/ingest-transcript`, the canonical vault notes do **not** get updated automatically — `/consolidate` historically touched only repo memory + knowledge, so conversation-borne events fell through the crack. Close it here.
+
+Skip this step only if the session was hygiene-only (Step 0) or all substance already landed in the vault via `/ingest-transcript` this session.
+
+For the owning project (route by the CLAUDE.md project table), update the three canonical Key Files **and** the Status & Todo:
+- **State of the Project** — add a new dated `## Headline State (YYYY-MM-DD — <topic>)` block at the top. Do **not** silently rewrite an older headline; flag it stale and keep it for history (`feedback_refresh_stale_status_sections`).
+- **Stakeholder Map** — add any new people (role, status, dated note) to the right section; append a dated note to existing entries whose posture shifted. Don't duplicate EH-only stakeholders.
+- **Status & Todo** — add a dated `### Focus — week of <date>` block: closed items as `- [x] … ✅ <date>`, forward asks as `- [ ] … 📅 <date>`. Roll-up not task-tracker (`feedback_status_rollup_not_tracker`); rich tasks → one-liner + companion section (`feedback_rich_task_companion_section`).
+
+Prefer the `obsidian-cli` skill when the app is running and index freshness matters; filesystem `Edit` is fine for these targeted appends. Quote verbatim in original language; surrounding prose in English (`feedback_language_split`). One artifact per ask — don't spawn new vault files by reflex (`feedback_one_artifact_per_ask`).
+
+## Step 5 — Staleness flags (the System Review hook)
 
 This is the lightweight half of the periodic System Review directive (CLAUDE.md). Do not run the full review automatically — surface what a review would catch and let Pedro decide timing:
 
@@ -58,7 +71,7 @@ This is the lightweight half of the periodic System Review directive (CLAUDE.md)
 
 For depth here, you may spawn the `staleness-auditor` subagent (read-only drift report across Status files + memory dates) and fold its findings in rather than scanning inline.
 
-## Step 5 — Debrief, summarize, commit
+## Step 6 — Debrief, summarize, commit
 
 1. **Debrief asks** — list the specific things only Pedro can answer that would unblock the next session (e.g. "Loni+JM deck outcome still uncaptured"). Short, pointed.
 2. **Change summary** (`feedback_document_updates`) — what changed in memory, what moved in knowledge, hypotheses transitioned, staleness flags raised. Skimmable, with 🔴/🟢 carry-forward called out.
