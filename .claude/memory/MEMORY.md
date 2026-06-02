@@ -67,6 +67,7 @@
 - [Don't conflate pattern with object](feedback_dont_conflate_pattern_with_object.md) — Same architecture phrasing ≠ same product. Compare the actual object (data vs skills) by reading both source artifacts before calling overlap/encroachment.
 - [Never send Slack messages](feedback_never_send_slack.md) — HARD RULE. Draft only, Pedro pastes himself. Send tool leaks "Sent using @Claude". Reading/searching Slack is fine.
 - [Position over merit — the rules of the game](feedback_position_over_merit.md) — Pedro's core false belief = "good work gets recognized and moves me up." Frame his work through position-over-merit; return to it always.
+- [Co-author, don't answer-over a sponsor](feedback_co_author_dont_answer_over.md) — With Ian/Bertrand/Loni on a thread they own: validate + name shared gap + hand back a question. Don't assert your thesis as the rebuttal; don't damage-control a sent reply.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.
