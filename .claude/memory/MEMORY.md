@@ -15,6 +15,7 @@
 - [Brand Concierge Lightup Onboarding](reference_brand_concierge_lightup.md) — Confluence page 3815569799 (ContentAl space). BC light-up onboarding status + latest news. EH-side. Via Atlassian MCP.
 - [Roadmap dashboard (HTML)](reference_roadmap_dashboard.md) — Cross-project roadmap dashboard at `2026/Roadmap Dashboard.html`; static, refresh at weekly Saar / monthly review.
 - [Customer Experience Orchestration org — Daniel Mrose](reference_cxo_org_daniel_mrose.md) — Daniel Mrose's Basel Eng org (under Alexander Saar, same VP as Ian) that builds Enterprise Ground Truth + Philippe's governance flow. Full directs roster. Philippe+Daniel tandem watch.
+- [Co-Pilot Review Tool access](reference_copilot_review_access.md) — Grant via JIRA NXUI-170 clone (not Felix/Okta direct). Pedro is now an approver.
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.

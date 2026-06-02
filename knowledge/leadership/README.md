@@ -28,6 +28,15 @@ Directors own their product area. Senior Directors shape decisions across areas 
 
 ---
 
+## Bank Your Authorship in Writing When You Contribute Into a Peer's Artifact
+
+- **Source**: Two instances, 2026-06-02. (1) **Ian Boston / post-2 "One AEM, Many Harnesses"** — after Ian's review reframed the mechanism, Pedro added a "What changed" note to the doc crediting Ian's fork and pointed Ian to it. (2) **Christian Meyer / Learning Machine workstream** — after a verbal chat where Pedro proposed design features (first-hypothesis-then-confirmation; product gaps as LLM workarounds), Pedro sent a written recap of his own proposals to Christian.
+- **Insight**: When you feed ideas or design into someone else's owned artifact or workstream, the ideas get integrated and the authorship blurs — unless you leave a **written, attributable trace** addressed to the owner. A short recap or "what changed" note banks your contribution without claiming their artifact. The move is **additive, not territorial**: credit their parts plainly, name yours plainly. This is the constructive counterpart to the competitor-absorption risk ("loose words get banked" — Philippe). It also keeps the owner engaged (they see their input landed) while protecting attribution.
+- **Anti-pattern**: Contributing verbally only. The owner integrates it, the origin disappears, and months later the idea is "theirs" — most dangerous with a competitor or a high-visibility, multi-team workstream where credit compounds into position.
+- **PM Application**: After any substantive contribution into a peer's doc or workstream, send a 3–5 line written recap to the owner the same day. Credit their reframe, list your additions as bullets. It costs a minute and converts a verbal contribution into a referenceable one. *(2 observations, both 2026-06-02 — watch for cross-session durability before treating as fully hardened.)*
+
+---
+
 ## Executive Communication Patterns
 
 ### The Validate-Then-Scale Response
