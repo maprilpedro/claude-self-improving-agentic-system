@@ -28,6 +28,20 @@ Directors own their product area. Senior Directors shape decisions across areas 
 
 ---
 
+## A Touch of Fear and the Use of Leverage — Respect Is a Position Lever
+
+> **Companion to Position Over Merit, aimed straight at Pedro's self-named gap (validation-seeking + over-accommodating, H-003).** Source: Robert Greene, *"How to Make People Fear Disrespecting You"* (FR transcript, ingested 2026-06-02). **Honest translation:** in a healthy org this is NOT intimidation. It is boundaries, credible consequences, not being a pushover, and holding a position under pressure. Read it as *respect-with-a-line*, not literal fear.
+
+**Two linked moves:**
+
+1. **Use your leverage when you hold it.** When you have a real advantage — you own the measurement substrate, you're the named AEM–AO liaison, you author the definition — *not* using it (softening, conceding to avoid a tense moment) signals you can be rolled and invites the next push. Greene: failing to use your leverage tells the other side *"we can manipulate you, we'll squeeze you next negotiation."* Using it, even at an immediate cost (a held line, an uncomfortable beat), is long-game thinking: next time they negotiate seriously. The point is not the immediate win, it's the signal you leave.
+2. **A touch of fear beats pure likeability — but only a touch.** Respect that carries a credible consequence is more *stable* than being liked: affection shifts with mood, a known boundary doesn't. **But a reign of fear is its own trap** — if everyone is wary of you, no one tells you the truth, you only hear what they think you want, and a PM lives on honest signal. Optimum = generally easy to work with, with a known line and the **occasional** firm "no." Occasional, well-placed consequence beats both constant friction and never holding ground.
+
+- **Anti-pattern (Pedro's actual risk)**: Conceding in the room to stay liked; retracting a position the moment it's publicly pushed. This is exactly the Philippe move ("agree 1:1, create dissent in front of the boss") — the recovery is **hold the line under public pressure, reintroduce the concern as a technical requirement, don't retract** (`interpersonal/`, project memory). Pure agreeableness reads at exec speed as *having no leverage*, which is the opposite of Senior-Director presence.
+- **PM Application**: Before a contested conversation, name your leverage to yourself (*what do I hold that they need?*). Decide your line in advance and hold it once, calmly — don't relitigate every point, let one firm "no" stand per stretch. Don't trade your substrate away to defuse a tense beat. Leverage **is** position (Position Over Merit, rule 1-2); giving it away to be liked forfeits position. See also FB-032.
+
+---
+
 ## Bank Your Authorship in Writing When You Contribute Into a Peer's Artifact
 
 - **Source**: Two instances, 2026-06-02. (1) **Ian Boston / post-2 "One AEM, Many Harnesses"** — after Ian's review reframed the mechanism, Pedro added a "What changed" note to the doc crediting Ian's fork and pointed Ian to it. (2) **Christian Meyer / Learning Machine workstream** — after a verbal chat where Pedro proposed design features (first-hypothesis-then-confirmation; product gaps as LLM workarounds), Pedro sent a written recap of his own proposals to Christian.
