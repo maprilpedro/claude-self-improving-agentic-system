@@ -47,7 +47,7 @@ Central tracker (was scattered across INDEX Access Log — quality gap fixed at 
 
 ## Open ops
 
-- **🔧 NEXT CC RESTART — republish `One AEM, Many Harnesses` live (Confluence `3908567486`) → v4.** Brand-travel table split (visual skin vs structure/voice/behavior, per Brian) DONE in vault, Confluence update **failed 401 twice** (PAT expired mid-session; move/get/update worked earlier same session, so token died partway). Live = v3 (old table). On restart: read vault `AAI - Project Folder/One AEM, Many Harnesses.md`, push via `confluence_update_page` with mermaid→CleanShot-image swap. (Recurring 401 pattern — also flagged 2026-05-29.)
+- **🔧 NEXT CC RESTART — republish `One AEM, Many Harnesses` live (Confluence `3908567486`) → v4.** Brand-travel table split (visual skin vs structure/voice/behavior, per Brian) DONE in vault, Confluence update **failed 401 twice** (PAT expired mid-session; move/get/update worked earlier same session, so token died partway). Live = v3 (old table). On restart: read vault `AAI - Project Folder/One AEM, Many Harnesses.md`, push via `confluence_update_page` with mermaid→CleanShot-image swap. **v4 content (already in vault): brand-travel table split (skin vs structure/voice/behavior) + "Claude → an LLM" in the check/definition** (kept "Claude Code" + "skills used in Claude" literal). (Recurring 401 pattern — also flagged 2026-05-29.)
 
 ## Notes
 
