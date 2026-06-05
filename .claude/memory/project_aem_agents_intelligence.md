@@ -9,7 +9,12 @@ metadata:
 
 > **Two-project split — Phase 2 structurally complete (2026-05-13).** AAI vault folder at `2026/AEM Agents Intelligence/AAI - Project Folder/`. Companion `project_experience_hub.md` covers EH. Meeting Notes moved to neutral `2026/Meeting Notes/` (2026-05-13). AI-Assistant legacy folder retired. No legacy folders remain.
 
-> ## ▶️ RESUME HERE — left off 2026-06-04
+> ## ▶️ RESUME HERE — left off 2026-06-05
+>
+> ### 🟢 2026-06-05 — Friday arch session HELD (Ian + Felix + Pedro). Critical-vs-flexible list co-built; engine NOT decided; Pedro owns the wiki.
+> The session the cockpit prepped happened. Pedro opened by naming the elephant (one harness vs many), built the critical-vs-flexible list live with Ian + Felix, left the engine open. **Pedro walked away owning the definition artifact** (closed with "I'll capture that in a wiki page"). Full outcome + locked/open items in the dated section under "Felix reports + report pipeline" → "2026-06-05 — Friday arch session HELD". Transcript: `Agent Owner Alignement/20260605 - Ian Felix Pedro.md` (file was misnamed 0505).
+> **Wiki being built now** — title "One AEM, Many Harnesses: What Must Be Common, What Each Team Decides". Content drafted in chat (critical list + flexible list + parked open-question with owner + resolving evidence). **Follow-ups:** (a) finish the wiki, soften wording for Ian's interpretation-risk flag; (b) formalize the harness open-question as a parked item with owner + evidence (only cockpit piece not posted in-room); (c) get Felix's link with his additions, integrate; (d) decide when to open the wiki to other teams.
+> Prep cockpit + drill (still valid as reference): `AAI - Project Folder/Friday Arch Session — Facilitation Sheet.md` + `Friday Arch Session — Drill.md`.
 >
 > ### 🟢 2026-06-04 (#3) — #aem-agents fragmentation thread evening (replies 17-24): Tanju's middle path, Ian convergence, Reasor friction-pushback, the consume-vs-fork resolution
 > **Source:** thread `C09KKLW1N86` ts `1780439097.735939`, replies 17-24 (6/3 23:25 → 6/4 19:23). New since the 6/3-evening capture. **The fork went from 2 poles to 3, and a rough consensus is emerging — matters for Friday's session.**
@@ -296,6 +301,45 @@ Bertrand named the architecture. Pedro owns Tier 2. Yanira QBR ownership ask sit
 **Jim Stoklosa role:** prepares EPA reports for Corey Dulimba. Validation role = data accuracy + feature behavior. Corey = PM owner sign-off (lighter ask, but required for Loni path).
 
 **Audit Sprint April 30:** 9 of 16 audit items closed in single day. 10 PRs. Wave 1 Tier 1 (5 trust-hygiene), Wave 2 Tier 2 (4 visible-commitment), 2 of Tier 3 early. Plus 2 Important Indicators (#4 No-Results Triage, #5 Owner column on Capability Gap Map). Plus monthly retention shipped (PR #55) revealing **45% weekly orgs vs 71.2% monthly orgs stickiness gap** on Discovery W17.
+
+### 🟡 2026-05-05 — Reports → DaaS / evaluator migration call (Pedro + André + convener + Mark/Lara track) [backfilled 2026-06-05]
+
+Source: `AEM Agents Intelligence/AEM Experience Agent Reports/20260505 - Agent reports move to Daas.md` (Otter). Call to align Pedro's weekly agentic report with the **in-region evaluator framework**.
+
+- **André** = the evaluator builder. Framework: each agent pushes traces → **regional Delta table**; per-region/per-agent evaluators read raw prompts, run **LLM-as-judge** against PM-defined criteria **in region**, push a **score** → centralized **Databricks** table (cross-region/cluster/agent). Has a config app where teams define criteria + region (the fancy UI replacing git markdown). Uses in-region OpenAI. Wants Pedro's git + wikis to understand + recreate an existing metric as a test.
+- **Convener (Speaker 1, governance/observability + supports Mark Pfaff)** = the push: **replace Pedro's manual stack with a NEW app**, everyone defines criteria once there, data in Databricks, then layer agents/MCP so senior mgmt can ask high-level questions. Governance agent = **customer zero**, then sell adoption to other teams. **JC/JCSR** want Pedro + governance aligned → present a **business story** so teams come to adopt. **Mark Pfaff + Lara** = evaluator metric definition on harder KPIs.
+- **The legitimate migration driver = compliance.** Pedro on record: *"compliance is not a topic here, it should be"* — current pipeline = **Bedrock cross-region + cross-region aggregation ("which is bad, which I know")**. Evaluator = in-region, PII-compliant → closes Ian's data-residency risk + Michael's pushback. This is the clean reason to migrate off the manual SQLite/Bedrock pipeline.
+- **Pedro's persona model (his framing, leadership-facing):** 3 personas — technical teams (Langfuse traces, stays), agent-owners/PMs (per-capability stats), senior mgmt (aggregated). Two report layers: **Python-calculable KPIs** + **Business Value Realization** (LLM-as-judge, one definition file per BVR block in git, refined with each PM). **Not done yet:** aggregate BVR into one number per agent + one overall number.
+- **⚠️ Strategic guard (same move as the harness session):** don't own the engine (André's evaluator infra + Databricks = theirs), **own the definition** — the persona model, the BVR criteria files, the aggregation logic, the business story JC wants. Pedro *wants* to hand off the manual pipeline ("set me free") — fine, but the weekly report is his **visible leadership artifact**; if it's absorbed into an app owned by the convener + André, keep the definition/narrative layer as Pedro's so visibility doesn't migrate with the infra.
+- **Ties:** Rubin needs AEP/AOv2 data (Bertrand 6/4) → this in-region Databricks = the source; Mark Pfaff (evaluator) = the MCP-report person Pedro wanted to sit with (+ Tanju). **Pedro action (taken):** share git/wikis/repos with André + test recreating one existing metric in his app. (Pedro was traveling the following week = Bucharest.)
+
+### 🟢 2026-06-05 — Friday arch session HELD (Ian Boston + Felix Meschberger + Pedro): critical-vs-flexible list co-built live, engine NOT decided
+
+Source: `AEM Agents Intelligence/Agent Owner Alignement/20260605 - Ian Felix Pedro.md` (Otter; file was misnamed `0505`, renamed `0605` — this is the **June 5 arch session itself**, not a May event; Speaker 1 = **Felix Meschberger**, relabeled; Speaker 2 = brief, unidentified). **This IS the Friday architecture session the cockpit prepped.** Pedro opened by **naming the elephant** (one harness vs many) — not in the capture, transcript starts mid-flow at 0:00. The room (just Pedro + Ian + Felix, as planned — Reasor was the Slack thread, not this room) **built the critical-vs-flexible list live in a wiki Pedro captures.** Clean execution of the cockpit: elephant named, engine left open, definition owned by Pedro. **The June fork developments (Tanju middle-path, consume-vs-fork, the public RFC) did NOT surface in-room** — they stayed at definition level (Ian: *"we're going too deep… these are conceptual guidelines"*).
+
+**Ian's framing principle (open):** negotiate what's org-wide (identity) vs an abstract pattern that lets solutions innovate. *"If we stifle innovation, we stifle innovation."* All agreed: core UX must be consistent + some core APIs consistent (else duplication).
+
+**Agreed CRITICAL (co-signed Ian + Felix):**
+- **Common UX** — chat grammar + core controls + what "+" offers. Starts with **design/brand** ("what does the chat look like"), negotiated across all CX by those who normally do that work. Ian: *"common One Adobe, not One AEM."*
+- **In-context, NOT "one touch point to rule them all"** (= the AI Assistant out-of-context mistake). Felix: a common UI dropped in everywhere, but in-context.
+- **Core services:** memory (bits across all Adobe), IMS identity (**AIP** should drive — note AIP not AEP), compliance = Adobe policy compliance (CCF, SOC2, HIPAA, FSI). Ian reframes compliance as data-compliance/governance/access/identity properties, not the standards themselves.
+- **Skills:** declaration + portability (markdown transportable; **Agent Skills** spec — capital-S = Anthropic skills). EW treats skills as content (markdown, no code).
+- **Per-session scoping** of capabilities (skills/MCP/API/tools) **seeded by the surface** — two lines: what's in the surface, what enters the session.
+- **Skill selection per surface** — teams have complete control over which skills are available (the AI v1 failure: "analyze my pages" → flips to analytics → "you're not licensed" → "it's my content").
+- **Stays current with Anthropic/Claude + standards** = top-level critical. Standards stack: **Agent Skills (top) → Open API → MCP (bottom)**.
+
+**Agreed FLEXIBLE / NOT critical:**
+- **Implementation / shared components** (React? MFE?). 💥 **Ian's January experiment = the proof:** team told "make it Spectrum" → agents *found the Spectrum definition and wrote the CSS from scratch, accurate, zero imported code.* Ian: *"that's why I don't think we need the components — components add friction."* Felix conceded: *"critical for UX, not critical from an implementation perspective."* = Pedro's definition-not-components thesis, **proven by Ian, accepted by Felix, in the room.** The shared-component-library question was effectively closed here.
+- **How the surface tells the harness which skills** — tag / prompt / semantic search (multiple ways). But Ian: non-deterministic search = uncomfortable → prefer a **curated, referenced, tested list** per surface (quality risk otherwise).
+
+**Architecture nuances captured in-room:**
+- **Drive functionality DOWN: tools > APIs > MCPs** (token footprint — Adobe burnt tokens enabling all MCPs). Heavy deterministic ops (roll out 100k pages) → behind an API/MCP, NOT in the harness. Harness executes short code (<20-50 lines, no external deps) in a sandbox.
+- **Code execution = the AOv2 gap** Ian named: AOv2 couldn't "calculate pi to 100 figures"; Codex (his recent test) wrote + ran Python in a sandbox and did. (Ian: any harness implementer won't build from scratch — they take Claude/Codex/Pi → the engine question is below the list, left open.)
+- **Skills authored dynamically "feel more like memory"** (personal to person/team) — ties Ian's two-layer memory framing (surface-base skills vs individual/team-learnt = memory).
+
+**🟢 What Pedro walked away owning:** Pedro closed with *"I'll capture that in a wiki page so we can extend from there, and open up whenever we feel comfortable."* → **Pedro owns the definition artifact (the wiki).** Ian + Felix both contributed to *Pedro's* captured list = the consistency-layer ownership made concrete, three-way, without Pedro adjudicating the engine. Felix to send Pedro another link with his own additions.
+
+**🟡 Still open / follow-ups:** (a) **engine/harness count = deliberately not decided** (good — matches the plan); the formal "open question with owner + resolving evidence" was discussed at principle level but **not written down as a parked item with an owner** → Pedro to formalize in the wiki. (b) Ian flagged **interpretation risk** (*"this wording will cause interpretation… conceptual guidelines, not directive"*) → the wiki wording needs care so teams don't read it as "model a SkillSelectionPerSurface object." (c) aggregate the captured list into the shareable wiki + decide when to open it up.
 
 ---
 
