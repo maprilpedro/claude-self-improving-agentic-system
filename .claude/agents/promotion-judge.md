@@ -1,0 +1,1 @@
+/Users/pedrofer/GitHub/claude-self-improving-agentic-system/.skillshare/agents/promotion-judge.md

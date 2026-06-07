@@ -158,8 +158,9 @@ Built-in tooling for the two highest-frequency workflows. Skills are **skillshar
 |---|---|---|
 | `transcript-extractor` | yes | Big-file pattern — spawn 3-5 in parallel on contiguous chunks of a >2000-line / >100K transcript; returns dated structured extracts. `/ingest-transcript` invokes it automatically for large files. |
 | `staleness-auditor` | yes | Drift report across both Status files + memory dates vs today (stale sections, hypotheses at threshold, rules to demote, decisions to score). The lightweight half of the System Review directive. `/consolidate` invokes it for Step 4 depth. |
+| `promotion-judge` | yes | Independent promote / keep-parked / kill / drop / demote verdicts on every hypothesis at threshold + parked candidate, graded against the hard gates in fresh context (separate from the thread that produced them). The self-grading backstop for hypothesis lifecycle. `/system-review` invokes it at Step 2 before acting. |
 
-Skills compose: `/ingest-transcript` → `transcript-extractor`; `/consolidate` → `staleness-auditor`; `/system-review` → `staleness-auditor` (then acts on the report). `/consolidate` is the per-session light half; `/system-review` is the monthly heavy half that consumes the same drift report and makes the edits. Validation is qualitative (workflow-capture skills, not scoreable transforms) — the real test is the next real transcript / session-end / monthly review.
+Skills compose: `/ingest-transcript` → `transcript-extractor`; `/consolidate` → `staleness-auditor`; `/system-review` → `staleness-auditor` (drift) + `promotion-judge` (lifecycle verdicts), then acts on both reports. `/consolidate` is the per-session light half; `/system-review` is the monthly heavy half that consumes the same drift report and makes the edits. Validation is qualitative (workflow-capture skills, not scoreable transforms) — the real test is the next real transcript / session-end / monthly review.
 
 ---
 

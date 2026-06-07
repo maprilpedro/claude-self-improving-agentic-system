@@ -32,7 +32,9 @@ When the auditor flags a stale Status section, **flag it, do not silently rewrit
 
 ## Step 2 — Hypothesis lifecycle (the part that actually moves)
 
-Walk `hypotheses/active.md` plus the auditor's threshold list and the state.md pending/parked tables. Apply the repo's hard gates:
+**First, spawn `promotion-judge` (read-only, fresh context).** Before you walk the candidates yourself, get an independent verdict on every hypothesis at threshold, every parked candidate, and every open lifecycle decision, graded against the hard gates below. The reason is structural: the thread running this review is, by Step 0's own warning, biased toward promoting its own candidates (self-preferential bias — a model grades its own work generously). The judge is the separate-context check for Step 2, exactly as `staleness-auditor` is the drift lens for Step 1 — it emits one verdict row per candidate (so a skipped one is visible), enforces "independent = distinct events" (the 2026-05-27 trap), and flags likely over-claims (🚩). Fold its verdict table in as your worklist. The judge **advises, it does not gate** — you may override a verdict with reasoning, but an override is a deliberate, recorded act, not a silent one. You (the review thread) still make every edit; the judge never writes.
+
+Then walk `hypotheses/active.md` plus the auditor's threshold list and the state.md pending/parked tables. Apply the repo's hard gates:
 
 - **Promote** a hypothesis to a knowledge rule at **3+ independent confirmations** (global CLAUDE.md). Move it to `hypotheses/resolved.md` with the evidence and date, *and* write the rule into the right `knowledge/` folder (leadership, ai-product, patterns, etc.). Promotion is not just archiving — the durable rule has to land somewhere it will be read.
 - **Kill** a hypothesis that is contradicted, or untested and superseded/deprioritized with no decision riding on it. Move to `hypotheses/resolved.md` with the kill reason and date. Never delete (Knowledge Quality Rules).
