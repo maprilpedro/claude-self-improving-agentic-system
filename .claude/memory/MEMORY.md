@@ -11,6 +11,7 @@
 - [Obsidian vault canonical paths](reference_obsidian_paths.md) — Correct Adobe project folder paths. EH lives at `Experience Hub/`, AAI scaffold at `AEM Agents Intelligence/`. Memory file edits via GitHub repo path, not symlink target.
 - [Promotion Strategy v1](reference_promotion_strategy.md) — Living strategy doc in Adobe Career folder. Playing to Win cascade applied to Director→Senior Director move. Monthly review (next 2026-06-01).
 - [PPTX template — H2'26 deck](reference_pptx_template.md) — Always use `[Internal] - H2'26 AEM & Agentic Web Planning.pptx`. Layout 6 = Content Slide.
+- [PPTX deck-building toolchain](reference_pptx_deck_building.md) — Adobe Clean template source, HTML→PNG for diagrams/tables, local QR (segno), LibreOffice QA, and the "close PowerPoint before writing" gotcha. Built the Bucharest keynote.
 - [AEP TryBuy Project Artifacts](reference_aep_trybuy_artifacts.md) — AEP-side source of truth for TryBuy / TBYB. SharePoint DExProductManagement / Data Governance. Upstream of AEM master-list lane.
 - [Brand Concierge Lightup Onboarding](reference_brand_concierge_lightup.md) — Confluence page 3815569799 (ContentAl space). BC light-up onboarding status + latest news. EH-side. Via Atlassian MCP.
 - [Roadmap dashboard (HTML)](reference_roadmap_dashboard.md) — Cross-project roadmap dashboard at `2026/Roadmap Dashboard.html`; static, refresh at weekly Saar / monthly review.
