@@ -9,7 +9,15 @@ metadata:
 
 > **Two-project split — Phase 2 structurally complete (2026-05-13).** AAI vault folder at `2026/AEM Agents Intelligence/AAI - Project Folder/`. Companion `project_experience_hub.md` covers EH. Meeting Notes moved to neutral `2026/Meeting Notes/` (2026-05-13). AI-Assistant legacy folder retired. No legacy folders remain.
 
-> ## ▶️ RESUME HERE — left off 2026-06-08
+> ## ▶️ RESUME HERE — left off 2026-06-09
+>
+> ### 🟢 2026-06-09 — slide 11 architecture diagram reworked (2-paths, 5 agents) + AOv1 terminology fix
+> Execution session on the "Two front doors, one set of agents" architecture diagram (slide 11 / WIP v2 slide 10; SVG→PNG via Chrome headless, source `~/Downloads/Adobe Bucharest/20 AEM Agents Status/aem_architecture_paths_v2.html`, original `aem_architecture_paths.html` kept intact). All edits in **WIP v2** (Bertrand + Yanira on the master).
+> - **The old diagram = symmetric/neutral** ("both paths reach the same destination") — Pedro: not readable + doesn't carry the message. Rebuilt: **Path 1** (Customer → AEM AI Assistant → AOv1) fans out to **5 agent boxes**; **Path 2** (External agent → A2A/MCP → MCP Gateway) reaches the same 5 directly. Bigger fonts = readable.
+> - **The 5 agents (Pedro's pick, confirmed):** Discovery (Assets) · Experience Production (Sites) · Governance (Foundation) · Content Optimization (Assets) · **Development (EDA, Foundation)**. (Replaced the old single "AEM Agents + APIs" block; was 4 named, Pedro chose +Development as the 5th.)
+> - **🔴 CORRECTION — AOv1 = Agent *Orchestrator*, NOT "Agent Harness".** Pedro caught my wrong diagram label. AOv1 = the v1 **orchestrator** (the model the deck critiques); "harness" = the v2 evolution. Consistent with the deck arc "from orchestrator to harness." Don't conflate: **AOv1 = orchestrator; harness = AOv2/general concept.**
+> - **Pedro pulled the editorial framing back to neutral.** First version marked AI Assistant + AOv1 in RED with a "⚠ The bottleneck — every request, every agent, one path" label + red fan + footer "that single chokepoint is the problem." Pedro: **remove the red arrows + the bottleneck mention.** Final = all brown/neutral, footer states the *structure* only ("Path 1: a human goes through the AI Assistant and AOv1 to reach any agent. Path 2: reaches them directly over MCP"). The asymmetry (Path 1 = 2 hops, Path 2 = direct) is shown structurally; **Pedro makes the "this is the problem" point verbally, not on the slide.** Deck-craft read (watch if it recurs): let the diagram be neutral, narrate the judgment — don't editorialize "problem" on the artifact.
+> - **⚠️ Open:** the slide *subtitle* still says "…Same destination" (old symmetric message) — flagged to Pedro, proposed replacement ("A human reaches any agent only through one AI Assistant and one AOv1. The customer's own agent reaches them directly over MCP"); not yet changed (his call).
 >
 > ### 🟢 2026-06-08 (#2) — deck polish session: slide 8 → 2-col table, slide def → process slide, harness=OS analogy locked
 > Execution + concretization continued (no new meeting). **File state:** master (OneDrive, 42 slides) = **Bertrand + Yanira co-authoring** it now → don't auto-edit. WIP v2 (`~/Downloads/202606 - AEM Agents Modernization - WIP v2 (42 slides).pptx`) = Pedro's working copy, **Pedro does the port into the master by hand.** Same OneDrive clobber rule.
