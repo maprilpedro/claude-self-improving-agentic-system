@@ -18,6 +18,7 @@
 - [Customer Experience Orchestration org — Daniel Mrose](reference_cxo_org_daniel_mrose.md) — Daniel Mrose's Basel Eng org (under Alexander Saar, same VP as Ian) that builds Enterprise Ground Truth + Philippe's governance flow. Full directs roster. Philippe+Daniel tandem watch.
 - [Co-Pilot Review Tool access](reference_copilot_review_access.md) — Grant via JIRA NXUI-170 clone (not Felix/Okta direct). Pedro is now an approver.
 - [AEM AI Mapping surface-map](reference_aem_ai_mapping.md) — Confluence parent + per-surface intake pages (EW/Slicc/AOv2) owners fill. Pedro's canonical definition surface; maturity + 6-divergence capture.
+- [Slack MCP workspace gotcha](reference_slack_mcp_workspace.md) — claude.ai Slack connector must be OAuth'd to cq-dev; found on personal workspace 2026-06-10, all Adobe reads fail channel_not_found until re-auth.
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
