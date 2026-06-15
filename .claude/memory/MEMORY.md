@@ -20,6 +20,7 @@
 - [AEM AI Mapping surface-map](reference_aem_ai_mapping.md) — Confluence parent + per-surface intake pages (EW/Slicc/AOv2) owners fill. Pedro's canonical definition surface; maturity + 6-divergence capture.
 - [Slack MCP workspace gotcha](reference_slack_mcp_workspace.md) — claude.ai Slack connector must be OAuth'd to cq-dev; found on personal workspace 2026-06-10, all Adobe reads fail channel_not_found until re-auth.
 - [Coworker — productized AOv2 / field guide](reference_coworker.md) — ao.adobe.io/chat, semantic layer (entity resolution / Knowledge Graph / memory / 27 skills) = the context differentiator over raw-MCP Claude. Coworker-vs-Claude split + 3 MCPs. Betsy Daly contact.
+- [AI Observation architecture](reference_ai_observation_architecture.md) — The AO/Coworker agent-trace substrate (OTel → LangFuse/MLFlow → DaaS NEXT Databricks → Rubin). In-region constraint. The V2 substrate that displaces Felix's AOv1 pipeline.
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
