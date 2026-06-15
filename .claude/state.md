@@ -63,6 +63,7 @@ Central tracker (was scattered across INDEX Access Log — quality gap fixed at 
 
 ## Notes
 
+- 🔴 **REASSESS H-005 at the 07-01 System Review (contradicting evidence 2026-06-10).** H-005 (resolved: "Rubin won't replace the AAI substrate — it lacks Felix's LLM-as-Judge moat") is under pressure: the p42-architecture thread shows (a) Rubin "replaced the AOv1 observation mechanism" (Ian Boston) and is building Coworker-Harness skill/app-level metrics (Soumya), and (b) DaaS NEXT built an **Agent Success Evaluation Framework** (prompt scoring on Databricks) = the judge layer reproduced on the AOv2/Rubin side. Felix's pipeline is AOv1-data-bound = depreciating as agents move to Coworker Harness. Don't auto-kill — but the resolved "won't replace" may need demotion-to-active or a scoped re-resolve. Pedro's counter-play (own the Rubin reporting *definition*) is in Status.
 - `decisions/` entries carry no scoreable predicted-outcome dates; NYL reactive-ownership decision is scored with H-007 on 2026-06-05.
 - 2026-05-27 consolidation (not a full review): `ai-product/` +4 entries (Distributed-Harness Architecture — everything-is-a-skill, moat=data-not-mechanism, selection+consistency PM mandate, token-cost hierarchy); leadership Forum-entry outcome-confirmed (Ian shipped NorthStar + Saar escalation); H-003 evidence added. **Full System Review still due — co-schedule with Promotion Strategy review 2026-06-01.**
 - When a full System Review runs, add a Review log row and reset "Last full System Review" + "Next review due".
