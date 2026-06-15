@@ -74,6 +74,7 @@
 - [Position over merit — the rules of the game](feedback_position_over_merit.md) — Pedro's core false belief = "good work gets recognized and moves me up." Frame his work through position-over-merit; return to it always.
 - [Co-author, don't answer-over a sponsor](feedback_co_author_dont_answer_over.md) — With Ian/Bertrand/Loni on a thread they own: validate + name shared gap + hand back a question. Don't assert your thesis as the rebuttal; don't damage-control a sent reply.
 - [Bertrand likes the concrete, not just concepts](feedback_bertrand_concrete_first.md) — Lead with a scene + named artifacts + receipts in everything Pedro sends Bertrand; push abstraction/mechanism to the end. Promotion lever + daily-comms rule.
+- [Always start answer with Pedro's name](feedback_start_with_name.md) — Open every chat reply with "Pedro". Standing directive 2026-06-15.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.

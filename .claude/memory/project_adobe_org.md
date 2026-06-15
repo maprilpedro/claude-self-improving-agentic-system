@@ -74,4 +74,59 @@ Shantanu → Anil Chakravarthy → Anjul Bhambhri → Shivakumar Vaithyanathan (
 
 Key insight: Angela is in ENGINEERING, not AEP PM. Explains collaborative tone of Rubin outreach — no product scope competition.
 
+## Customer Experience Orchestration (CXO = the Coworker org) — from org-chart screenshots 2026-06-15
+
+**🔑 Key finding: "Customer Experience Orchestration" (CXO) is the org behind Coworker, and it is split across THREE functional branches under THREE different VPs — they only converge at Anil Chakravarthy.** This is the structural root of the "nobody owns Coworker / can't tell who to talk to" blocker Pedro keeps hitting (Cole 1-1, Akin AIA risk): product, engineering, and marketing each sit under a different VP.
+
+**PRODUCT branch** (DX product, Amit Ahuja side):
+```
+… → Stephen Gould (Group Product Manager, SF) [CXO]
+      ├── Arzoo Sethi (PM, Experience…, SF)
+      ├── Don Cohen (Senior PM, NY)
+      ├── Cole Connelly (Principal PM, NY) ← Pedro's Coworker UI/experience counterpart
+      └── Matthew Deutsch (Principal PM, Seattle)
+```
+⚠️ **Reconcile:** old memory had Cole → Stephen Gould → Tim Lott → Daniel Sheinberg → **Sunil Menon** (Prompt Library Platform). The 2026-06-15 chart shows Stephen Gould + Cole both tagged **Customer Experience Orchestration** = Cole moved into the Coworker product org; the Tim-Lott→Sunil-Menon (Prompt Library) chain is **stale for Cole.** Stephen Gould's current manager not shown — confirm.
+
+**ENGINEERING / ML branch** (Anjul Bhambhri's AI/ML org — same VP tree as Rubin/Angela Han):
+```
+Anil Chakravarthy → Anjul Bhambhri → Shivakumar Vaithyanathan (VP Platform Eng)
+  └── Manas Garg (Sr Director, Machine Learning, SJ) [CXO] ← AOv2 dev-experience lead; presents the Coworker roadmap at Agent Owners Alignment
+        ├── Chao Cheng (Sr ML Engineer, SJ — 12 ML-eng reports)
+        └── Yunyao Li (Director, Machine Learning, SJ)
+              ├── Ken Russell (Director, ML, SJ — 6 reports) ← = the "Ken Russell, AO-side eng" who gave AO 2.0 rollout milestones (2026-05-05); now placed
+              ├── Kun Qian (Sr Applied Science & ML, Seattle)
+              └── Sajjadur Rahman (Sr Applied Science & ML, SJ)
+```
+**Manas Garg is ENGINEERING (Sr Director ML), not product** — reports to Shivakumar Vaithyanathan → Anjul Bhambhri → Anil. Explains "I don't have all the answers" — he owns the eng/harness, not the product roadmap or the messaging.
+
+**PRODUCT MARKETING branch** (Sundeep Parsa side):
+```
+Anil Chakravarthy → Amit Ahuja → Sundeep Parsa (VP, Customer Journey Management, SJ) [Neolane]
+  ├── Klaasjan Tukker (Sr Director Product Marketing, Seattle) [Experience Platform Product & Evangelism]
+  │     ├── Axel Schaefer (Head of Data Product Marketing, Remote Germany)
+  │     ├── Gina Casagrande (Director, Experience Cloud Evangelism, SF)
+  │     ├── Sean Schnoor (Director, Technical Marketing, SJ)
+  │     ├── Akin Ajayi (Group Mgr, Product Marketing, Lehi) ← presented AIA transition at DX AI PM Sync; the AIA-support-timeline risk owner
+  │     │     ├── Carlos Ortega (AEP Sr Product Marketing, Lehi)
+  │     │     └── Huong Vu (Senior Product Marketing Mgr, SJ)
+  │     ├── Colleen Maalouf (On Leave) (Customer Onboarding & Value, Remote IL)
+  │     ├── Gabbi Stubbs (Sr Product Marketing Mgr, Sydney)
+  │     └── Paul Midura (Principal, Business Development, SF)
+  ├── Douglas Smith (Sr Director, Product Management, SF)
+  ├── Sanjay Vachani (Sr Director, Product Marketing, SJ)
+  ├── Ali Nazer (Sr Dir, Product Management, SJ) [Neolane]
+  ├── Nick Hall (Sr Dir, Product Management, SJ) [Neolane]
+  └── Raj Patel (Senior Director of Product Management, SJ) [Neolane] ← = Bertrand's "Raj, Sr Director PM" (no-reply); confirmed Sr Director, more senior than Cole (Principal PM)
+```
+(Ryan Fleisch — Sr Director PMM, Real-Time CDP, NY — also under Sundeep but tagged Media & Advertising Solutions.)
+
+**Akin Ajayi = MARKETING** (Group Mgr Product Marketing) → Klaasjan Tukker → Sundeep Parsa (VP) → Amit Ahuja → Anil.
+
+**The Cole / Manas / Akin link (the three faces of Coworker):**
+- **Cole Connelly = PRODUCT** (Principal PM → Stephen Gould, Group PM).
+- **Manas Garg = ENGINEERING/ML** (Sr Director ML → Shivakumar Vaithyanathan → Anjul Bhambhri).
+- **Akin Ajayi = MARKETING** (Group Mgr PMM → Klaasjan Tukker → Sundeep Parsa, VP).
+- They do **not** report to each other; the branches converge only at **Anil Chakravarthy.** To get one coherent Coworker answer Pedro must triangulate all three — none holds the full picture (Manas: "don't have all the answers"; Cole escalating daily; Akin = positioning/AIA narrative). The org split **is** the opacity.
+
 **How to apply:** Use for quick reporting chain lookup. For full stakeholder map including the Agent Owner Alignment meeting attendee list, read the Obsidian Stakeholder Map.
