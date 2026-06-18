@@ -8,6 +8,7 @@
 - [AEM Agent Ownership Matrix](reference_aem_agent_ownership.md) — Canonical PgM/PM/Eng/JIRA for the 10 AEM agents per slide 44 of H2'26 AEM & Agentic Web Planning deck.
 - [Power BI — Token usage per org](reference_powerbi_token_usage.md) — Adobe corp Power BI report. Token consumption per org. Ties to FinOps (Jaclyn) + AO 2.0 pricing/SKU risk (Bertrand April 29).
 - [CLI binaries playbook](reference_cli_binaries.md) — When to reach for yq/comby/sd/scc/difft/shellcheck/ast-grep. Workhorses for memory + knowledge ops.
+- [CLI-Anything harness generator](reference_cli_anything.md) — Reach for it to wrap an internal tool/API/codebase as a token-efficient agent-native CLI + SKILL.md. Generator only; ignore its creative-desktop registry.
 - [Obsidian vault canonical paths](reference_obsidian_paths.md) — Correct Adobe project folder paths. EH lives at `Experience Hub/`, AAI scaffold at `AEM Agents Intelligence/`. Memory file edits via GitHub repo path, not symlink target.
 - [Promotion Strategy v1](reference_promotion_strategy.md) — Living strategy doc in Adobe Career folder. Playing to Win cascade applied to Director→Senior Director move. Monthly review (next 2026-06-01).
 - [PPTX template — H2'26 deck](reference_pptx_template.md) — Always use `[Internal] - H2'26 AEM & Agentic Web Planning.pptx`. Layout 6 = Content Slide.
