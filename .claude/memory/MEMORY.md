@@ -21,6 +21,7 @@
 - [Slack MCP workspace gotcha](reference_slack_mcp_workspace.md) — claude.ai Slack connector must be OAuth'd to cq-dev; found on personal workspace 2026-06-10, all Adobe reads fail channel_not_found until re-auth.
 - [Coworker — productized AOv2 / field guide](reference_coworker.md) — ao.adobe.io/chat, semantic layer (entity resolution / Knowledge Graph / memory / 27 skills) = the context differentiator over raw-MCP Claude. Coworker-vs-Claude split + 3 MCPs. Betsy Daly contact.
 - [AI Observation architecture](reference_ai_observation_architecture.md) — The AO/Coworker agent-trace substrate (OTel → LangFuse/MLFlow → DaaS NEXT Databricks → Rubin). In-region constraint. The V2 substrate that displaces Felix's AOv1 pipeline.
+- [cx-coworker FAQ (canonical CXO enablement)](reference_coworker_faq.md) — OneAdobe/cxo-enterprise-coworker runbook (owner Babu Ramaraj). Customer-surface direction, terminology lock, Raj Patel = AIA-migration owner (Phase 2), the reporting white-space, gh-fetch via pedrofer_adobe account.
 - [AIA Platform Architecture doc (federated renderers)](reference_aia_platform_architecture.md) — Vineet Barshikar's doc (Confluence 3878837092, @vbarshikar). A2UI = aia-ui-experience platform; the federated-renderer model (publish your own renderer package, declare per `plugin.json`) = the mechanism AEM's rendering standard plugs into.
 
 ## User
