@@ -1,6 +1,7 @@
 # Memory Index
 
 ## References
+- [Local AI toolkit + journal schedule](reference_local_ai_toolkit.md) — podcast-script/digest/journal skills (global), claude⇄qwen engine switch, local Qwen via Ollama, launchd journal schedule (weekdays 18h / Fri 13h, claude headless). Deploy repo→global via cron/deploy_skills_global.sh.
 - [Claude improvement tools](claude-improvement-tools.md) — Recommended MCP servers, skills, editor extensions, and architecture improvements for the PM knowledge system
 - [Splunk MCP usage dashboard](reference_splunk_mcp.md) — Bertrand's source for MCP adoption metrics. Paired with CM UI activity data (owner TBD) for ratio metric.
 - [OKR structure — O1-O6 + Operations](reference_okr_structure.md) — Six 2026 OKRs. O1 = AAI. O2-O6 = EH (personalization, release mgmt, quiet hours, security, aging customers). O4 + O6 live near-term levers from Bertrand 1-1 2026-05-12.
