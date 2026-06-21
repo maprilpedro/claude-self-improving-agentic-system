@@ -1,0 +1,29 @@
+{
+  "default": "solo_brief",
+  "profiles": {
+    "solo_brief": {
+      "speaker_config": "solo_expert",
+      "num_segments": 3,
+      "turns": 4,
+      "default_briefing": "Explain this material back to a busy product leader who wants to absorb it on a commute. Break it into clear, digestible parts with concrete examples. Teaching tone — accessible but accurate. No fluff, no reintroductions."
+    },
+    "two_pm": {
+      "speaker_config": "two_pm",
+      "num_segments": 4,
+      "turns": 6,
+      "default_briefing": "An interview-style conversation between two PMs about this material. The expert leads with concrete examples and named artifacts; the generalist asks the clarifying questions a listener would, and forces the 'so what'. Keep it grounded, no abstraction without an example first."
+    },
+    "strategy_debate": {
+      "speaker_config": "strategy_debate",
+      "num_segments": 5,
+      "turns": 6,
+      "default_briefing": "A structured debate on the strategic call inside this material. One speaker argues for moving now with what exists (two-way-door, reversible); the other probes the assumptions and names the one-way doors. Surface the real tradeoffs, don't manufacture agreement. End with where they actually land."
+    },
+    "exec_readout": {
+      "speaker_config": "exec_readout",
+      "num_segments": 4,
+      "turns": 5,
+      "default_briefing": "Turn this deck or document into a spoken executive readout. Host frames each section headline-first; analyst unpacks the number, separates fact from inference, and flags the risks. Crisp and decision-oriented — what it means and what to do, not background."
+    }
+  }
+}

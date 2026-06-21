@@ -1,0 +1,25 @@
+{
+  "default": "exec",
+  "templates": {
+    "exec": {
+      "label": "Résumé exécutif (5 lignes)",
+      "prompt": "Produce an executive summary of the source: exactly 5 lines, most important point first (pyramid principle). Each line is one self-contained key point in plain language. No preamble, no 'this document describes', no closing. Just the 5 lines."
+    },
+    "decisions": {
+      "label": "Décisions + owners",
+      "prompt": "Extract every decision in the source. Markdown table with FIVE columns: | Topic / question settled | Decision | Owner / decider | Date | Firm or proposal |. The first column is mandatory: state the question or topic that each decision answers, so the decision is never orphan — e.g. topic 'Is headless a supported scenario?' decision 'Yes, fully supported and investable.' A decision must always be readable together with the question it settles. CRITICAL: do not promote proposals to decisions. A position in a thread, a suggestion, or 'we should' is a PROPOSAL, not a decision. Only mark 'Firm' when there is a clear decision signal (an explicit close, a directive, an owner committing). If unsure, mark 'Proposal'. No preamble."
+    },
+    "risks": {
+      "label": "Risques + mitigations",
+      "prompt": "Extract risks and blockers from the source. Markdown table: | Risk | Impact | Owner | Mitigation or open question |. Flag any risk with no clear owner as ⚠️ UNOWNED. Be concrete, no generic risk-management filler. No preamble."
+    },
+    "actions": {
+      "label": "Action items (owner + échéance)",
+      "prompt": "Extract forward-looking action items only — things still to be done, NOT a past-tense log of what already happened. Format each as a markdown checkbox: '- [ ] <action> — owner: <name> — due: <date or \"no date\">'. If the owner or date is not stated, write 'unassigned' / 'no date' rather than guessing. No preamble."
+    },
+    "sowhat": {
+      "label": "So-what promotion (Director → Senior Director)",
+      "prompt": "Read the source through one lens: Pedro is a Director of PM building toward Senior Director, and his gap is visibility/positioning, not work quality (position over merit — good work alone does not move him up). Output: (1) 3 concrete things Pedro should DO based on this source to increase his visibility or hold his positioning; (2) 1 narrative he can own and repeat upward; (3) 1 risk to his positioning to watch. Be specific to the content, name people and artifacts. No generic career advice. No preamble."
+    }
+  }
+}

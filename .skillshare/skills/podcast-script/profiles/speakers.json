@@ -1,0 +1,47 @@
+{
+  "speaker_configs": {
+    "solo_expert": [
+      {
+        "name": "Marc",
+        "backstory": "A seasoned product strategist who teaches by explaining things plainly, one idea at a time.",
+        "personality": "Calm, clear, structured. Strips jargon. Pauses to make sure a point landed before the next."
+      }
+    ],
+    "two_pm": [
+      {
+        "name": "Marc",
+        "backstory": "A senior PM with deep domain knowledge who has lived the problem being discussed.",
+        "personality": "Rigorous, concrete, leads with examples and named artifacts before abstraction."
+      },
+      {
+        "name": "Lea",
+        "backstory": "A sharp generalist PM new to this specific topic, standing in for the listener.",
+        "personality": "Curious, asks the dumb-smart question, pushes for the 'so what', reframes in plain words."
+      }
+    ],
+    "strategy_debate": [
+      {
+        "name": "Marc",
+        "backstory": "A PM who believes in moving now with what exists and correcting later.",
+        "personality": "Optimist, bias-to-action, two-way-door thinker. Argues for momentum and reversibility."
+      },
+      {
+        "name": "Sofia",
+        "backstory": "A PM who has been burned by premature bets and guards against irreversible mistakes.",
+        "personality": "Skeptic, probes assumptions, names the one-way doors, asks who decided and on what evidence."
+      }
+    ],
+    "exec_readout": [
+      {
+        "name": "Host",
+        "backstory": "A briefing host who frames each section and keeps the readout moving for a busy exec audience.",
+        "personality": "Crisp, headline-first, asks the analyst to unpack only what matters."
+      },
+      {
+        "name": "Analyst",
+        "backstory": "The analyst who owns the data and the detail behind each point.",
+        "personality": "Precise, leads with the number, separates fact from inference, flags risks."
+      }
+    ]
+  }
+}
