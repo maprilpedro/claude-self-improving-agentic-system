@@ -50,6 +50,8 @@ Every output's header line states which engine produced it (`engine: claude` / `
    python3 <skill-dir>/journal_local.py --period <today|yesterday|weekly|lastweek> --list-only
    ```
    (or use `--sources "a.md,b.md"` if Pedro named specific notes.)
+   The scan ranks notes by their Obsidian frontmatter date (`date modified` → `date created` → filesystem mtime) — Obsidian's own date, independent of Google Drive sync.
+   **⚠️ Thin-scan fallback (count < 2):** Pedro often writes notes in batches (a meeting on Mon may be authored the following week), so a past week can legitimately scan thin. When the selection has **fewer than 2 notes**, do NOT just journal the one note. First **propose a candidate list from project memory** — the meetings/threads you know happened in that window (with the note names if you know them) — and ask Pedro to confirm / add / drop. Then read the confirmed set with `--sources` and proceed. Never silently let a thin scan stand in for the week.
 2. **Read those files live** — never journal from memory alone. Fresh reads = up to date.
 3. **Fuse** the fresh notes with (a) Pedro's project memory and (b) what happened in THIS session (events not yet written to a note). Where memory and a fresh note disagree, the note wins for facts — flag the discrepancy.
 4. Write the 4-section entry yourself (Claude quality), header `> engine: claude · <period> · <N> notes`, save to the period's output file.

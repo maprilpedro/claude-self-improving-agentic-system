@@ -77,6 +77,46 @@ def resolve_period(period):
     return start.timestamp(), end.timestamp(), label, fname, word
 
 
+_MONTHS = {m: i for i, m in enumerate(
+    ["January", "February", "March", "April", "May", "June", "July",
+     "August", "September", "October", "November", "December"], start=1)}
+
+
+def _parse_date_str(s):
+    """Parse Obsidian frontmatter dates: ISO 'YYYY-MM-DD' or 'Weekday, Month Dayth YYYY[, time]'."""
+    s = s.strip()
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", s)
+    if m:
+        return datetime.date(int(m[1]), int(m[2]), int(m[3]))
+    m = re.search(r"(January|February|March|April|May|June|July|August|September|"
+                  r"October|November|December)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{4})", s)
+    if m:
+        return datetime.date(int(m[3]), _MONTHS[m[1]], int(m[2]))
+    return None
+
+
+def note_date_ts(path):
+    """Best available edit date as a timestamp: frontmatter 'date modified' →
+    'date created' → filesystem mtime. Frontmatter is Obsidian's own date,
+    independent of Google Drive sync (which corrupts fs-mtime)."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            head = f.read(1500)
+    except OSError:
+        return None
+    for key in ("date modified:", "date created:"):
+        m = re.search(re.escape(key) + r"\s*(.+)", head)
+        if m:
+            d = _parse_date_str(m.group(1))
+            if d:
+                # noon of that day — frontmatter often has no time
+                return datetime.datetime(d.year, d.month, d.day, 12).timestamp()
+    try:
+        return os.path.getmtime(path)
+    except OSError:
+        return None
+
+
 def collect_window(root, start_ts, end_ts):
     if not os.path.isdir(root):
         die(f"Root not found: {root}")
@@ -86,11 +126,9 @@ def collect_window(root, start_ts, end_ts):
         for fn in files:
             if fn.endswith(".md"):
                 p = os.path.join(dirpath, fn)
-                try:
-                    if start_ts <= os.path.getmtime(p) < end_ts:
-                        hits.append(p)
-                except OSError:
-                    pass
+                ts = note_date_ts(p)
+                if ts is not None and start_ts <= ts < end_ts:
+                    hits.append(p)
     return sorted(hits)
 
 
