@@ -209,6 +209,13 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **Pattern**: The most durable strategic documents reference the company-level frame explicitly. In AEM, that frame is Project 42 and the content management → context management direction. When your work connects visibly to that frame, it reads as strategy. When it doesn't, it reads as tactics.
 - **How to use**: End the opening paragraph of any proposal with one sentence connecting it to the larger frame. "This positions Experience Hub as the hero surface for the human practitioner layer of Project 42's content-to-context transition."
 
+### When a VP Workshop Names Your Lane's Problem, Your Lane Is Now Strategically Anchored
+- **Date identified**: 2026-06-22
+- **Source**: Bertrand's readout of Loni's PM/PMM Strat-Plan workshop. Under "AI Adoption," the workshop named the reality of agentic usage for AEM in three quotes: *"most requests are not routed properly," "the functional coverage is not there yet," "our agentic investments are hard to decipher due to the matrix of supported platforms."* The last is verbatim the problem Pedro's reporting/observability/clarity lane exists to solve. *"General agreement that AEM needs to be part of CX Coworker + the CX Coworker MCP gateway"* — confirms the Manas-session direction.
+- **Pattern**: A lane stops being a side-project the moment the level above you names its problem in a strategic-planning context. You no longer have to argue the lane is worth funding — the Strat Plan already says the problem is real and unsolved. The move shifts from *"convince them this matters"* to *"position myself as the named owner of the answer in the artifact they're already writing."* The 2027 Strat Plan (Brand Visibility umbrella, first draft due end of that week) is exactly that artifact.
+- **Why it maps to Senior Director**: Directors solve problems handed to them. Senior Directors **attach their lane to the strategic problem before the ownership is assigned**, so when the org formalizes the work the name on it is already theirs. The reporting/measurement lane answering "make agentic investments decipherable across the platform matrix" is a portfolio-level problem, not an EH-surface task — claiming it is altitude.
+- **How to use**: When a VP-context document names a problem your work addresses, (1) do not reply into the readout thread (answer-over risk; the sub-threads usually drift to adjacent owners' concerns — here, migration GTM / "move vs choose"), (2) instead ask your manager where you contribute to the strategic artifact, and (3) fold your lane in as a named initiative with your measurement view attached. Connects to "Control what counts as value" (position-over-merit rule 2) and "Frame the Problem Before Solving It."
+
 ---
 
 ## Stakeholder Gravity
@@ -225,6 +232,13 @@ Directors own their product area. Senior Directors shape decisions across areas 
 - **Source**: Session IV (Surfaces, March 26). Loni's synthesis included Pedro's point about avoiding scattered UIs verbatim.
 - **Pattern**: When a VP echoes your point during their own synthesis, it means two things: (1) the idea was good enough to adopt, and (2) you were seen as the source. These moments compound over time. Document them. They are the evidence base for a promotion case.
 - **How to create the conditions**: Speak early in a session with a clear, direct statement of position. Don't hedge. Don't add five qualifiers. Say the thing. The more specific and confident the statement, the more likely it is to be picked up.
+
+### Your Artifact Travels Without You — the Reusable-Asset Signal
+- **Date identified**: 2026-06-22
+- **Source**: Bertrand's Slack readout of Loni's PM/PMM Strat-Plan workshop (back from US): *"AI Adoption… **Pedro's harness slide worked wonders again**…"* — Pedro was not in the room; his manager carried the artifact into a VP-org strategic-planning session.
+- **Pattern**: The strongest visibility signal is not being in the room — it is **your artifact being used in a room you're not in, named, by someone senior, more than once.** "Again" is the keyword: a one-time mention is luck; a repeat is that your asset became the default way that idea gets explained at the level above you. An echoed *point* (the entry above) proves the idea was good; a traveling *artifact* proves you built the reusable object that others now reach for. The second is more durable — it keeps earning attribution while you do other work.
+- **Why it maps to Senior Director**: Directors produce work for their own meetings. Senior Directors produce **assets the org reuses** — the slide, the frame, the diagram that becomes the shared vocabulary. When Bertrand reaches for Pedro's harness slide to explain AI adoption to Loni's org, Pedro's framing is operating at VP altitude without Pedro present. That is leverage, not effort.
+- **How to bank it**: Log each named reuse with date + room + who carried it (promotion evidence base). Keep the artifact sharp and self-explanatory so it travels well (a slide that needs Pedro to narrate it can't travel). Do **not** chase credit or re-post it — the value is precisely that it moves on its own. Connects to "Get Leadership's Name Alongside Yours" and the position-over-merit frame: the artifact *is* the position.
 
 ---
 
