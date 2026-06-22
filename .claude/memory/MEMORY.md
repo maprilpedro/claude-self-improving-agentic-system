@@ -65,6 +65,7 @@
 - [First reply needs ownership sentence](feedback_first_reply_ownership_sentence.md) — Customer-escalation + VP-visibility threads need one literal ownership line in first reply. Data-dump alone reads as "I don't know" at exec speed.
 - [Don't litigate prior replies](feedback_dont_litigate_prior_replies.md) — Forward-framed clarification ("here's what's in motion") not backward-framed defense ("what I wrote already meant this"). Don't argue with senior leader's read.
 - [Language split — FR conversation, EN Obsidian](feedback_language_split.md) — Pedro = French in chat. Vault files = English. Verbatim quotes stay original language.
+- [Reload Obsidian after vault writes](feedback_obsidian_reload_after_write.md) — Filesystem Write/Edit on a vault note bypasses the app index; run `obsidian reload` so it appears. Vault files only, not repo edits.
 - [French register — no vulgar slang](feedback_french_register.md) — In French chat, avoid crude words ("foutu"); use clean equivalents ("fichu").
 - [Consolidation without substance = hygiene only](feedback_consolidation_without_substance.md) — When "consolidate" trigger fires but no new PM events came in chat, ship hygiene + staleness flags + debrief asks. Do NOT fabricate learnings from re-reading existing memory.
 - [Don't overread VP quotes](feedback_dont_overread_vp_quotes.md) — "North Star architecture for Pedro" = Ian's architecture serves Pedro, not Pedro is the architect. Audit subject + preposition before promoting to promotion-grade narrative.
