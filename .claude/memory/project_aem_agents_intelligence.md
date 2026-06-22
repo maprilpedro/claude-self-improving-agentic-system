@@ -9,7 +9,10 @@ metadata:
 
 > **Two-project split — Phase 2 structurally complete (2026-05-13).** AAI vault folder at `2026/AEM Agents Intelligence/AAI - Project Folder/`. Companion `project_experience_hub.md` covers EH. Meeting Notes moved to neutral `2026/Meeting Notes/` (2026-05-13). AI-Assistant legacy folder retired. No legacy folders remain.
 
-> ## ▶️ RESUME HERE — left off 2026-06-19
+> ## ▶️ RESUME HERE — left off 2026-06-22
+
+> ### 🆕 2026-06-22 — Catalin back; Pedro connecting Catalin + Philippe on Enterprise / Agent Context.
+> **Catalin (AEM Experience Context owner) is back** after being away — Pedro had pinged him pre-absence on Enterprise Context (the Manas-session action #2 lane: Coworker building a markdown-context-block agent-context layer, Akash Maharaj architect / Yunyao eng; AEM Experience Context = Bertrand's offered integration candidate). In the interval Pedro met **Philippe Kapfer** on **Enterprise Context** (~50% fit, APIs + MCP exposed). **Move:** Pedro to send Catalin a 2-line re-context (draft ready, casual EN, NOT sent — Pedro pastes) and **pull Catalin + Philippe + Pedro into one session to map the integration path once.** Pedro owns the orchestration ("I'll set it up") — lane-guard holds: own the integration/requirement, don't hand Philippe (promotion competitor) the lane ([[feedback_position_over_merit]]). Closes the dangling 📅 06-20 Catalin-brief task → becomes "set up the 3-way Enterprise Context session." ~50%-fit = Pedro's uncorrected read, not confirmed by Catalin.
 
 > ### 🟢🚀 2026-06-18 (held; transcript ingested 06-19) — AEM ↔ Coworker WORKING SESSION HELD (the big one). Capture = wiki `3934168722` (~pedrofer): Topics+Answers table (each q links to a per-q attributed subsection), an Actions table, a Stakeholders plan. Vault `AAI - Project Folder/Coworker Harness — AEM Working Session Topics (2026-06-18).md`. Transcript `AEM Coworker Sync/20260618 - AEM Coworker Working Session.md` (3 recovered gaps inserted: name/stack 2-9min, PLG 43-45min, AEP-dep/regions 48-51min).
 > **Attendees:** Manas Garg + Bertrand (SJ room CR-FT12), Trent Davies, Victor Vlasceanu, Felix Meschberger, Pedro. **THE ANSWERS (all transcript-sourced, no inference):**

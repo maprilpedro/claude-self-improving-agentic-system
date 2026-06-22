@@ -25,6 +25,7 @@
 - [AI Observation architecture](reference_ai_observation_architecture.md) — The AO/Coworker agent-trace substrate (OTel → LangFuse/MLFlow → DaaS NEXT Databricks → Rubin). In-region constraint. The V2 substrate that displaces Felix's AOv1 pipeline.
 - [cx-coworker FAQ (canonical CXO enablement)](reference_coworker_faq.md) — OneAdobe/cxo-enterprise-coworker runbook (owner Babu Ramaraj). Customer-surface direction, terminology lock, Raj Patel = AIA-migration owner (Phase 2), the reporting white-space, gh-fetch via pedrofer_adobe account.
 - [AIA Platform Architecture doc (federated renderers)](reference_aia_platform_architecture.md) — Vineet Barshikar's doc (Confluence 3878837092, @vbarshikar). A2UI = aia-ui-experience platform; the federated-renderer model (publish your own renderer package, declare per `plugin.json`) = the mechanism AEM's rendering standard plugs into.
+- [Skyline P42 README — org classification](reference_skyline_p42_orglist.md) — `git.corp.adobe.com/experience-platform/skyline-rollout-cc/p42/README.md` = the External/Internal/TBYB org-classification source of truth Raul maintains by hand. Every AAI report filters on it; every "numbers off" episode traces to a manual refresh of it.
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
