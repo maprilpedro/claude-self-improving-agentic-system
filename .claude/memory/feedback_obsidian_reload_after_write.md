@@ -1,18 +1,17 @@
 ---
 name: feedback-obsidian-reload-after-write
-description: "Run `obsidian reload` after every filesystem create/update of a vault file so the app indexes it."
+description: "Do NOT auto-run `obsidian reload` after vault writes — Pedro finds it too much. Let the app pick up changes on its own."
 metadata: 
   node_type: memory
   type: feedback
   originSessionId: 75def9b2-7431-4617-a2f8-4050b1882aed
 ---
 
-After creating or updating any **Obsidian vault** file via filesystem `Write`/`Edit`, run `/Applications/Obsidian.app/Contents/MacOS/obsidian reload` so the running app picks it up. Standing instruction from Pedro 2026-06-22.
+**Do NOT run `obsidian reload` after filesystem writes to vault files.** Reverses the prior standing instruction. Pedro 2026-06-23: *"reloading Obsidian each time is too much. Don't do it anymore please."*
 
-**Why:** Filesystem writes bypass Obsidian's file watcher/indexer (Google Drive stream mode + the app not re-scanning), so a new note exists on disk but does not appear in Pedro's file explorer or search until the vault reloads. Confirmed live 2026-06-22: a freshly written talking-points note was on disk + readable by path but invisible in the app until `obsidian reload`.
+**Why the reversal:** the manual reload was firing on essentially every vault edit (trio syncs, Status updates), which is too noisy / disruptive on his side. The cost of running it outweighs the indexing benefit for him. The underlying indexing lag is real (filesystem writes bypass the watcher under Google Drive stream mode — confirmed 2026-06-22), but Pedro would rather the app catch up on its own / refresh manually than have Claude reload it.
 
 **How to apply:**
-- Trigger only for **vault** files (under `…/My Drive/ObsidianVault/`). Repo edits (`knowledge/`, `.claude/memory/`) don't need it — they're not vault notes.
-- Run once after a batch of vault writes is done, not per-edit, to avoid spamming reloads.
-- Better long-term = a PostToolUse hook scoped to vault paths (offered; not yet wired). Until then, do it manually.
-- Prefer obsidian-cli `create` for brand-new notes when practical (routes through the app, indexes directly) — see [[reference_obsidian_paths]] and the obsidian-cli skill.
+- After filesystem `Write`/`Edit` on vault files: just say what changed and where. **Do not** call `obsidian reload`.
+- If index freshness genuinely matters for a follow-up step (search/backlinks right after a write), prefer the **obsidian-cli** skill for that operation (routes through the app, indexes directly) rather than a filesystem write + reload — see [[reference_obsidian_paths]].
+- Only reload if Pedro explicitly asks for it.
