@@ -66,6 +66,7 @@
 - [Don't litigate prior replies](feedback_dont_litigate_prior_replies.md) — Forward-framed clarification ("here's what's in motion") not backward-framed defense ("what I wrote already meant this"). Don't argue with senior leader's read.
 - [Language split — FR conversation, EN Obsidian](feedback_language_split.md) — Pedro = French in chat. Vault files = English. Verbatim quotes stay original language.
 - [Do NOT auto-reload Obsidian](feedback_obsidian_reload_after_write.md) — Pedro 2026-06-23: reloading each time is too much. Don't run `obsidian reload` after vault writes; let the app catch up, or use obsidian-cli when index freshness matters.
+- [Vault copy of published wiki pages](feedback_vault_copy_of_published_pages.md) — Pedro 2026-06-23: always save a markdown twin (with `wiki:` URL) of any Confluence page published for him; the vault = source of truth, Confluence = the published artifact.
 - [French register — no vulgar slang](feedback_french_register.md) — In French chat, avoid crude words ("foutu"); use clean equivalents ("fichu").
 - [Consolidation without substance = hygiene only](feedback_consolidation_without_substance.md) — When "consolidate" trigger fires but no new PM events came in chat, ship hygiene + staleness flags + debrief asks. Do NOT fabricate learnings from re-reading existing memory.
 - [Don't overread VP quotes](feedback_dont_overread_vp_quotes.md) — "North Star architecture for Pedro" = Ian's architecture serves Pedro, not Pedro is the architect. Audit subject + preposition before promoting to promotion-grade narrative.
