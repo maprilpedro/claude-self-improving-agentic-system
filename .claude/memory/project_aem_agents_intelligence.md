@@ -9,7 +9,16 @@ metadata:
 
 > **Two-project split — Phase 2 structurally complete (2026-05-13).** AAI vault folder at `2026/AEM Agents Intelligence/AAI - Project Folder/`. Companion `project_experience_hub.md` covers EH. Meeting Notes moved to neutral `2026/Meeting Notes/` (2026-05-13). AI-Assistant legacy folder retired. No legacy folders remain.
 
-> ## ▶️ RESUME HERE — left off 2026-06-22
+> ## ▶️ RESUME HERE — left off 2026-06-24
+
+> ### 🟢📐 2026-06-24 — RENDERER AUDIT kicked off (answers Bertrand's count question + feeds the escalation).
+> **Origin:** Bertrand Slack Q (06-23): *"how many renderers for Copilot are we talking about? 1-2? 10? 30? I've seen your concepts @ybannykh but now am confused."* Pedro: yes, the ones we need to port — "a handful looks like. How can we make an audit?" → **Silvia kicked off an audit** (Miro `uXjVHGuWm7M`, "We started the audit here"); each designer fills a per-agent board. Eugene's top-of-mind 3 = ContentUpdatePreview (EPA), ABACDraft (ABAC), SuggestedContent (Discovery) — but the real per-agent boards are deeper.
+> **🔑 The number has TWO parts (don't collapse):** (1) renderers to port **total**; (2) the **AEM-build subset** = rows tagged *"AEM team need to create"* (vs *"Should be available in AO2"* = platform's charge, not ours). Part 2 = the number that hits the end-July capacity wall = scope figure for escalation **Option 2 (must-have set)**.
+> **EPA board (filled) = 5 renderers / 3 AEM-build:** Plan (platform), **Template (build, Vision Work)**, **Assets (build)**, **Page(s) (build, Vision Work)**, Approval Mutation (platform). 2 of the 3 to-build are "Vision Work" = net-new, not even in AOv1 yet. **ABAC + Discovery boards still owed.**
+> **Early answer to Bertrand:** not 30. EPA = 5 total / 3 build; if ABAC+Discovery ~ EPA → ~10-15 total / ~6-9 AEM-build. Hard number once all 3 boards filled.
+> **🟢 Seam re-confirmed:** contribute A2UI chat components into the shared repo `github.com/Adobe-dxue/coworker-ui-experience` (`base` + `platform` components exist) = exactly Josh's 06-22 answer (clone+PR, no fork). Silvia got greenlight (after Tim Lynn + Rodson sync) to build own components (façon Eugene POC) for phase-1 of AEM skills→Coworker; long-term = SVG "harness agnostic"; Mithril (Rodson's team) = read-the-page-on-open, optimistic but nothing in prod, priority = AO2 migration.
+> **⚠️ POC tension noted:** Silvia's "greenlight on Eugene POC components" ≠ the invalidated POC. The *interaction paradigm* (split-view / tile-selector) is dead (06-22 Josh); the *render components* survive. Don't read this as "the whole POC is back."
+> **Logged in Status & Todo `## Renderer audit — Bertrand's count question` (full table + sources) + forward task 📅 06-26 to finish ABAC+Discovery and hand Bertrand the count.** [[feedback_dont_overread_vp_quotes]] checked — Bertrand's Q is literal, the number is genuinely owed.
 
 > ### 🔴🟢 2026-06-22 (held; transcript ingested same day) — JOSH RENDERING SESSION. Package/seam answered (good), but a forced end-July Coworker cutover + an invalidated design POC = ESCALATE TO BERTRAND.
 > **Attendees:** Josh Hailpern, Tim Lynn (ADR author), Silvia, Eugene, Sorin, Varun, **Harsh Chiki** (AEM eng — skills), **Mihai Copae** (AEM eng — Spectrum/renderer Qs). Transcript: `AEM Rendering/20260622 - AEM rendering on the Coworker surface — working session.md`. Pre-read (rebuilt as a live script): `AAI - Project Folder/Rendering on the Coworker Surface — Working Session Pre-read (2026-06-22).md`.
