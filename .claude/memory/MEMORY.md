@@ -90,5 +90,6 @@
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.
-- [AEM Agents Intelligence](project_aem_agents_intelligence.md) — Agent reporting platform, AO 2.0 liaison, three-tier reporting, Loni+JM May 11 deck, H-005 resolved. Sister file to EH.
+- [AEM Agents Intelligence](project_aem_agents_intelligence.md) — Agent reporting platform, AO 2.0 liaison, three-tier reporting, Loni+JM May 11 deck, H-005 resolved. Sister file to EH. Active = June+ banners + living reference; older event logs in the archive ↓.
+- [AAI archive (May 2026 + earlier)](project_aem_agents_intelligence_ARCHIVE.md) — Resolved AAI event logs split out 2026-06-24 to keep the active file Read-able. Load on demand by theme; not part of session-start recall.
 - [Adobe AEM PM org](project_adobe_org.md) — Reporting chain: User → Bertrand (Sr Director) → Loni (VP PM for AEM)
