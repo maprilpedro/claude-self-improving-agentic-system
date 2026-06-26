@@ -39,3 +39,13 @@ N marketplaces (GitHub repos, catalog sources)
 ## Implication for the empirical eval owed to Ian (see [[project_aem_agents_intelligence]] 06-26)
 
 Do NOT consolidate marketplaces. Construct an **AEM manifest** that makes the candidate skills co-present, run the AEP selection eval over it. The manifest IS the test-harness scope. Ties [[reference_coworker]] + the skill-overlap audit (`GitHub/adbe-skill-audit`).
+
+## Co-presence is a MANIFEST property, not a path/bridge property (2026-06-26, Bertrand thread)
+
+Bertrand's worry: the AOv2 bridge (Plan B) "deports skills from where they'd be tested (Coworker, with all the others)." Technically it does **not** hold:
+- The bridge still puts the migrated skills **into an AOv2 manifest** (EPA Plan B slide, verbatim: *"integrate this into an AOv2 manifest consumed by EPA as a technical agent through A2A"*). So the skills are co-present with that manifest's siblings either way.
+- **Nothing runs as a lone skill.** "Isolated behind AIA" was a Claude mis-framing (corrected by Pedro). On Coworker, skills already run many-per-manifest today (e.g. `aem-aia` = 7 plugins + inherited AEP).
+- The only real variable = **which skills share a manifest** — a manifest-composition choice, identical whether reached via the bridge or native Coworker. The bridge does not change co-presence.
+- The only thing never co-present today = skills from **different agents** (each agent = its own manifest: aem-aia, aem-onboarding, dea-aia…). True **with or without the bridge**. Cross-agent co-presence only happens if someone builds a manifest that merges them.
+
+→ Consequence: selection is testable **now** on an existing Coworker manifest, independent of the bridge. The bridge is a delivery-timing question (get skills to AIA customers before Coworker GA), not a test-environment question. Don't conflate "skills delivered via the bridge" with "where selection gets validated." Selection intra-manifest exists today; cross-agent selection is a manifest-design choice, not a migration milestone.
