@@ -27,6 +27,7 @@
 - [AIA Platform Architecture doc (federated renderers)](reference_aia_platform_architecture.md) — Vineet Barshikar's doc (Confluence 3878837092, @vbarshikar). A2UI = aia-ui-experience platform; the federated-renderer model (publish your own renderer package, declare per `plugin.json`) = the mechanism AEM's rendering standard plugs into.
 - [AIA-front vs Coworker/AOv2-backend axes](reference_aia_vs_coworker_axes.md) — Two separate axes in the AOv2 migration. AIA = front (AI Assistant UI), Coworker/AOv2 = backend. Don't collapse a backend migration into a UI swap. EPA Plan A = AOv2 backend + Coworker UI; Plan B = AOv2 backend behind AIA front. Corey's "customers all on AI Assistant" = a front statement.
 - [Skyline P42 README — org classification](reference_skyline_p42_orglist.md) — `git.corp.adobe.com/experience-platform/skyline-rollout-cc/p42/README.md` = the External/Internal/TBYB org-classification source of truth Raul maintains by hand. Every AAI report filters on it; every "numbers off" episode traces to a manual refresh of it.
+- [AOv2 marketplace ≠ manifest](reference_aov2_marketplace_manifest.md) — Convergence/overlap/selection happens at the MANIFEST, not the marketplace. Multiple marketplaces is by design. Only 2 of 4 AEM repos (AIA, EPA) are real marketplaces; excat=app, forms=custom. Corrective frame for any "unify the skills" ask.
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
