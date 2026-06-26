@@ -23,7 +23,7 @@ Canonical agent ownership matrix as of 2026-04-28. Source: slide 44 "H2 2026 AGE
 
 - **Yanira Castaneda** = PgM for the two AO-tracked cross-cutting agents (EPA + Modernization). Owns the AO-side reporting plumbing.
 - **Pritie Sharda** = PM + PgM + Eng for Onboarding Agent. One-person team. Capacity flag.
-- **Piyush** = Eng for both Assets Discovery + Assets Content Optimization.
+- **Piyush** = Eng for both Assets Discovery + Assets Content Optimization. **Same team runs both** (Greg Klebus, COA PM, 2026-06-26): they finalize **Discovery first, then move into Content Optimization** → on the Coworker migration, COA being "not started" is deliberate sequencing behind Discovery, not a stalled agent.
 - **Remus Stratulat** = Eng for Site Advisory + Development Agent (EDA). Two Foundation agents.
 - **Mihai Corlan** = Eng for both Sites agents.
 - Sites has 2 dedicated agents NOT in Pedro's 6-agent reporting taxonomy: Sites Optimization + Market Intelligence.
@@ -39,6 +39,12 @@ Canonical agent ownership matrix as of 2026-04-28. Source: slide 44 "H2 2026 AGE
 ## Discovery Agent classification correction
 
 Pedro initially thought Discovery was Sites. Slide 44 confirms it's **Assets** (label "Assets + Discovery Agent Skills", PgM Prashant who is Assets PgM). Apoorva is in Assets PM track via DAM/DM scope, not Sites.
+
+## ABAC renderer — registered under Governance, functionally assets governance (open, 2026-06-26)
+
+The **ABAC renderer** (conversational authoring of Attribute-Based Access Control policies) is a **Content Hub feature consumed through the Experience Governance Agent via A2A** — authoritative answer from Philippe Kapfer (Governance PM), 2026-06-25 DM: *"ABAC c'est pour Content hub et ça passe par le governance Agent en A2A, mais ils n'ont pas de MCP, donc je ne sais pas ce qu'ils vont implémenter et comment."* So it surfaces + reports under Governance because it routes through the Governance Agent (A2A), but it is functionally a Content Hub / assets-governance capability. JIRA **NXUI-368**. The ABAC / Content Hub team has **no MCP yet** — implementation TBD. Daniel Mrose (@dmrose, also the Governance Agent Eng owner above) is connected; Sorin pinged him + others 2026-06-26.
+
+Two open threads: (1) what the ABAC / Content Hub team will actually implement (no MCP yet) → gates the renderer-audit ABAC board; (2) **reporting-attribution = Pedro's lane** — it shows in Governance usage reports while being a Content Hub capability, so the bucket may need a label. The mechanical "under Governance" is correct (A2A routing); the *functional* owner is Content Hub.
 
 ## Source PPTX
 

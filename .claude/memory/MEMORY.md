@@ -88,6 +88,7 @@
 - [Separate facts from proposals in artifacts](feedback_separate_facts_from_proposals.md) — Architecture/strategy artifacts: keep as-is facts and Pedro's bets in separate diagrams/notes; color=ownership, dashed=proposal/inferred; never let a bet read as a fact.
 - [Mark inference in Pedro-voice drafts](feedback_voice_drafts_mark_inference.md) — Unconfirmed technical claims in his-voice drafts = his exposure; mark as inference, keep distinct systems distinct (bridges ≠ renderers). Own what I authored.
 - [Edit the span, not the artifact](feedback_edit_the_span_not_the_artifact.md) — When Pedro flags one phrase, fix THAT line only (offer options for it), don't rebuild the whole message. Smallest diff that satisfies the ask.
+- [No Adobe-internal content to personal/off-boundary repos](feedback_no_internal_to_personal_repos.md) — Never push Adobe-internal content (paths, customer names, eng rosters, outage refs) to personal GitHub or external services; `--private` doesn't make it safe. Tools fetch internal data at runtime, don't store it. Push blocked correctly 2026-06-26.
 
 ## Projects
 - [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.
