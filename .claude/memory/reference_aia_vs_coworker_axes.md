@@ -6,10 +6,15 @@ metadata:
   type: reference
 ---
 
-**Two separate axes in the EPA / AEM "Migration to AOv2." Do not conflate them** (Pedro corrected Claude **twice on 2026-06-25** — once on the Felix plan, again on Corey's provisioning thread; the conflation keeps recurring, so re-check the axis every time before drafting).
+**🔒 WORD LOCK (Pedro, 2026-06-26 — "souvent tu en oublies toujours", recurring error):**
+- **"Coworker UI" / "Coworker Rail" = UI (front).** The rail / app surface the user sees.
+- **"Coworker" (alone) / "Coworker harness" = backend (the AOv2 runtime).** The skills/agentic harness behind the surface.
+- So "Coworker" by itself = **backend**, never the UI. Only say UI when you write "Coworker UI" or "Coworker Rail". Re-check this token every time before writing.
+
+**Two separate axes in the EPA / AEM "Migration to AOv2." Do not conflate them** (Pedro corrected Claude **twice on 2026-06-25** — once on the Felix plan, again on Corey's provisioning thread; **again 2026-06-26** on the UI/backend word-lock above; the conflation keeps recurring, so re-check the axis every time before drafting).
 
 - **Backend axis:** AOv1 → AOv2. This is the actual "migration to AOv2" — the agent/skills harness behind the surface.
-- **Front axis:** the **AI Assistant UI (AIA)** vs the **Coworker UI**. AIA = AEM's current front-end (the rail in experience.adobe.com), today powered by AOv1. Coworker = productized AOv2 (its own UI/app + AOv2 backend).
+- **Front axis:** the **AI Assistant UI (AIA)** vs the **Coworker UI / Coworker Rail**. AIA = AEM's current front-end (the rail in experience.adobe.com), today powered by AOv1. The **Coworker harness** = the backend (productized AOv2 runtime); the **Coworker UI / Rail** = the front it ships with. Keep the harness (backend) and the UI/Rail (front) as distinct words.
 
 **A backend migration to AOv2 ≠ a UI swap to Coworker.** They can move independently:
 - **Direct cutover (EPA Plan A):** AOv2 backend **+** Coworker UI. AIA front retired.
