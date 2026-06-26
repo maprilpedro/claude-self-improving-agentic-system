@@ -28,6 +28,7 @@
 - [AIA-front vs Coworker/AOv2-backend axes](reference_aia_vs_coworker_axes.md) — Two separate axes in the AOv2 migration. AIA = front (AI Assistant UI), Coworker/AOv2 = backend. Don't collapse a backend migration into a UI swap. EPA Plan A = AOv2 backend + Coworker UI; Plan B = AOv2 backend behind AIA front. Corey's "customers all on AI Assistant" = a front statement.
 - [Skyline P42 README — org classification](reference_skyline_p42_orglist.md) — `git.corp.adobe.com/experience-platform/skyline-rollout-cc/p42/README.md` = the External/Internal/TBYB org-classification source of truth Raul maintains by hand. Every AAI report filters on it; every "numbers off" episode traces to a manual refresh of it.
 - [AOv2 marketplace ≠ manifest](reference_aov2_marketplace_manifest.md) — Convergence/overlap/selection happens at the MANIFEST, not the marketplace. Multiple marketplaces is by design. Only 2 of 4 AEM repos (AIA, EPA) are real marketplaces; excat=app, forms=custom. Corrective frame for any "unify the skills" ask.
+- [Coworker rail access + two-assistants observation](reference_coworker_rail_access.md) — How to see the Coworker rail on stage (flags `ao2-aia-enabled` + `shell-coworker-enabled`; prod build PR-12141). The EH home shows TWO chat entry points in transition (AIA center + Coworker rail right) = Pedro's selection/consistency lane made literal. Rail looks like AIA by design ("AIA 2.0").
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
