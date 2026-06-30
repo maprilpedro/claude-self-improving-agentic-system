@@ -18,10 +18,10 @@ Splunk dashboard tracking MCP tool usage in AEM production environments.
 
 ## One AEM MCP usage report (the newer dashboard — 2026-06-30)
 
-**URL (saved by Pedro 2026-06-30, query string partly truncated in source):**
-`https://splunk.or1.adobe.net/en-GB/app/TA-aem_skyline/aem_mcp_usage?form.global_time.ea[…]_tok=3&form.new_since_tok=-30d%40d&form.scope_tok=external`
+**URL (full, saved by Pedro 2026-06-30):**
+`https://splunk.or1.adobe.net/en-GB/app/TA-aem_skyline/aem_mcp_usage?form.global_time.earliest=-30d%40d&form.global_time.latest=now&form.server_tok=aem&form.server_tok=content&form.server_tok=content-readonly&form.threshold_tok=100&form.regular_days_tok=3&form.new_since_tok=-30d%40d&form.scope_tok=external`
 
-Same Splunk app (`TA-aem_skyline`), different dashboard (`aem_mcp_usage`) = the **One AEM MCP server** usage report. Filters seen: `scope_tok=external` (the IMS-org external/internal filter applied to all tables), `new_since_tok=-30d@d` (last 30 days).
+Same Splunk app (`TA-aem_skyline`), different dashboard (`aem_mcp_usage`) = the **One AEM MCP server** usage report. **Internal Splunk — Adobe VPN + SSO required; not fetchable by Claude's web tools.** Filter params: `server_tok` = **aem + content + content-readonly** (the 3 MCP servers tracked), `scope_tok=external` (IMS-org external/internal filter on all tables), `threshold_tok=100`, `regular_days_tok=3` (a "regular" user = active ≥3 days), `global_time`/`new_since` = last 30 days.
 
 **Owners (resolved 2026-06-30 MCP Reporting Strategy meeting):** **Christian Meyer** (= @meyer; owns the dashboard + the external/internal IMS lookup) + **Jabran Asghar** (eng). **Tanju Erinmez** owns the one AEM MCP server itself + the business-reporting skill.
 
