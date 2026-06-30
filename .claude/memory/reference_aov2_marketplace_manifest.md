@@ -49,3 +49,16 @@ Bertrand's worry: the AOv2 bridge (Plan B) "deports skills from where they'd be 
 - The only thing never co-present today = skills from **different agents** (each agent = its own manifest: aem-aia, aem-onboarding, dea-aia…). True **with or without the bridge**. Cross-agent co-presence only happens if someone builds a manifest that merges them.
 
 → Consequence: selection is testable **now** on an existing Coworker manifest, independent of the bridge. The bridge is a delivery-timing question (get skills to AIA customers before Coworker GA), not a test-environment question. Don't conflate "skills delivered via the bridge" with "where selection gets validated." Selection intra-manifest exists today; cross-agent selection is a manifest-design choice, not a migration milestone.
+
+## The real AEM marketplace set (from the manifests) — the audit hit partly the wrong repos (2026-06-26)
+
+The "4 AEM marketplaces" the audit (`GitHub/adbe-skill-audit`) used was partly wrong. The **manifest-declared** `known_marketplaces` across the live `aep-aia` manifests are the truth:
+- `aem-aia-extensions` (Adobe-AEM-Foundation) — aem-aia "AEM Coworker"
+- `AEM-Assets-Adobe/ao-plugin-extensions-aem-onboarding` — Assets Onboarding (Ian Reasor)
+- `aem-content-fragments-extensions` (Adobe-AEM-Sites)
+- `aemforms-aia-extensions` (adobe-aem-forms) — **NOT `forms-skills`** (what the audit used)
+- `aem-guides-extensions` (OneAdobe)
+- `dea-extensions` (Adobe-Experience-Platform) — Data Engineering
+- **+ ~12 AEP/Analytics marketplaces inherited via `cx-coworker`** (aia, cja, target, ajo, loyalty, …)
+
+→ `excat` (experience-catalyst) is referenced by **no** manifest = confirms it's a standalone app, not an AOv2 marketplace. **Re-point the overlap audit at the manifest-declared marketplaces** before the empirical run for Ian. Inheritance chain: `cx-coworker-base` → `cx-coworker` → `aem-* agent` → `cx-coworker-{customer}`. Full verified flow: vault `AAI - Project Folder/AEM Skills Flow — Front Door to Skill Selection (2026-06-26).md`.
