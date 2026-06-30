@@ -52,7 +52,21 @@
   - **BVR capability-count → *how much value did this agent produce this month?*** (adoption narrative, VP-facing)
 - **Application**: For every AEM agent, identify 1–2 capability-level monthly counts that map to its reason for existing. These become the headline numbers in the adoption story. Validate definitions with the agent's PM owner; implement with the parallel reporting track owner.
 - **Anti-pattern**: Reporting only rate metrics to leadership. The absence of a volume number makes every success story unfalsifiable — nobody can tell if the agent is growing or shrinking.
-- **Related**: Metric Definition Ownership — PM Validates, Reporting Track Owner Implements; Two-Validator Pattern for Report Rollout; VRR Is a Tiered Metric.
+- **Related**: Metric Definition Ownership — PM Validates, Reporting Track Owner Implements; Two-Validator Pattern for Report Rollout; VRR Is a Tiered Metric; Raw Call Volume Is Mostly the Agent Talking to Itself.
+
+### Raw Call Volume Is Mostly the Agent Talking to Itself — Classify Before You Headline
+- **Date identified**: 2026-06-30
+- **Source**: Pedro, AEM MCP usage analysis (Splunk `aem_mcp_usage`, Christian Meyer / Jabran / Tanju Erinmez), 2026-06-30. Convergent with Bertrand's 2026-04-02 ratio-vs-baseline framing and the locked "Tool Calls not requests/interactions" terminology.
+- **Insight**: In MCP/agent traffic the headline count (requests, or even "tool calls") is a vanity number because **most of the volume is the agent preparing to act, not acting**. Measured on AEM's three MCP servers over 30 days: **~14.4M tool calls, but ~94% is setup + read** — `lookup-api-spec` (the LLM pulling the API spec, Tanju's "whispering mechanism into the LLM's ear") alone = **51%**, `read-api` = 35%, `list-environments` = 7%. **Only ~6% (`write-api`, ~924K) actually mutates a customer's content**; the specific content operations were ~0.2%. So "14 million calls" shown to a VP reads as massive adoption while the value layer is a thin slice.
+- **The method (requests → value)**:
+  1. Stop leading with requests (the HTTP/edge layer — conflates session-setup chatter with action).
+  2. Report at the **tool layer**, and **classify every tool by action-nature**: setup/discovery · read · **write/value**.
+  3. Headline the **value cut** (write + content mutations) — that is the honest BVR capability-count, not the raw total.
+  4. Always **pair volume with retention** — reach ≠ retention (the same data: 497 orgs touched, only 33 "regular" ≈ 6.6% sticky). A big volume number can hide trial-heavy / daily-light usage.
+- **Why it compounds (the trap)**: raw-volume metrics are self-flattering — they grow with the agent's own chattiness, so a dashboard can show "up and to the right" while value and stickiness are flat. The PM who strips the setup traffic and reports the value layer owns the **interpretation layer** over the raw counts — a cross-org positioning move, not just a cleaner chart.
+- **Relationship to BVR**: BVR says *restore the volume signal with a capability-level monthly count*. This says *that count must be derived from value-bearing calls, not raw traffic* — the two are the same discipline from opposite ends (add the right volume back; strip the wrong volume out).
+- **Application**: For any agent/MCP adoption report, decompose total calls into setup/read/value before quoting a number to leadership; lead with value calls + retention. The build gap to watch: per-tool data often isn't joined to the customer/external identity, so "value calls per customer" needs that join (the AEM CloudWatch open point).
+- **Related**: Capability-Level Monthly Usage Is the Value Narrative Metric (BVR); VRR Is a Tiered Metric; "Do Customers Come Back?" Is the Primary Value Signal; Early MCP Adoption Is Developer-Tool-Led.
 
 ### VRR Is a Tiered Metric — Collapsing to One Number Misleads
 - **Date identified**: 2026-03-31
