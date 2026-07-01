@@ -31,3 +31,18 @@ Per region: Agents → OTel Collector → traces/logs → **Storage Account (JSO
 - **Felix's AOv1 Co-Pilot-chats pipeline is NOT in this picture** = the displacement made concrete (the AAI substrate is AOv1-data-bound, depreciating). The judge layer = DaaS NEXT's Agent Success Evaluation Framework (on Databricks) → [[H-005]] pressure.
 - The **in-region / aggregate-only-crosses** rule = Ian Boston's + Michael Marth's data-residency constraint, operationalized.
 - **Pedro's play:** don't defend the pipeline — **own the reporting *definition* on this substrate** (what skill/app-level success means in Rubin), with Soumya Sharma + Angela Han + Ilya. Same own-the-definition move as the AAI substrate + Yanira's success-definition wiki.
+
+## Update — Ian Boston's public "OTel access for CoWorker" summary (Slack #p42-architecture, 2026-06-23; thread `p1782223598515279`)
+
+Ian Boston + **Felix Meschberger** met **Alexander Falca** on CoWorker AI Observation data access. Verbatim gist (answers Pedro's "does OTel/Langfuse work on Coworker" question — publicly, before he asked):
+1. **All data in AEP DataLake, single IMS Org.** Access = sign the AEP-Legal T&C. IMS-Org model, not IAM (because it's built on AEP's existing data-lake functionality).
+2. **LangFuse instances in-region exist for some time (TBD), to be replaced by AEP-built UIs. Retention = 12 days max** (no governance/access control). → cannot build durable reporting on it.
+3. The AEP UI replacing LangFuse should cover all LangFuse functionality.
+4. **AEP Databricks + Spark in-region usable (T&C), but NOT connected to any AEM Databricks — data is NOT shared.** = the wall; there is **no AEM path** into this data.
+5. **All customer reporting on Agents = created, owned, operated by AEP.** = the AOv1→AEP displacement, stated by the architect himself.
+
+Felix reply: for customer reporting the big open = **provisioning** — it's on **CJA**; how to cover Coworker customers who aren't CJA customers → conversation with **Samir Sharma** + **Chris Luby**.
+
+**Named leads (= Pedro's "who else to pull in", already in-thread):** **Alexander Falca** (AEP AI-Observation access), **Samir Sharma** (`monitoring-requirements.md`, OneAdobe/cxo-enterprise-coworker), **Chris Luby** (customer-facing reporting arch, wiki "AO Conversation Events Data Collection", pageId 3716255161), + `ao-quality-platform.png` diagram.
+
+**PM consequence:** confirms Pedro's own 06-17 note ("no OTel, Coworker not sharing its DataLake, DaaS Next going away"). The reach-out to Boston is NOT "does OTel work" (he answered) — it's the point-4 gap: **data not shared with AEM Databricks → where does AEM reporting land without depending on a 12-day AEP UI.** Own-the-definition, same move. Thread link: `adobe.enterprise.slack.com/archives/C09KKLW1N86/p1782223598515279`.

@@ -1,8 +1,10 @@
 ---
 name: reference_aov2_marketplace_manifest
-description: AOv2 skill packaging — marketplace ≠ manifest. Convergence/overlap/selection happens at the MANIFEST, not the marketplace. Multiple marketplaces is by design. Only 2 of 4 AEM repos are real marketplaces.
-metadata:
+description: "AOv2 skill packaging — marketplace ≠ manifest. Convergence/overlap/selection happens at the MANIFEST, not the marketplace. Multiple marketplaces is by design. Only 2 of 4 AEM repos are real marketplaces."
+metadata: 
+  node_type: memory
   type: reference
+  originSessionId: 11c062e2-f578-486b-b95f-3dbff798ebdf
 ---
 
 # AOv2 skill packaging — marketplace ≠ manifest (live-verified 2026-06-26)
@@ -62,3 +64,15 @@ The "4 AEM marketplaces" the audit (`GitHub/adbe-skill-audit`) used was partly w
 - **+ ~12 AEP/Analytics marketplaces inherited via `cx-coworker`** (aia, cja, target, ajo, loyalty, …)
 
 → `excat` (experience-catalyst) is referenced by **no** manifest = confirms it's a standalone app, not an AOv2 marketplace. **Re-point the overlap audit at the manifest-declared marketplaces** before the empirical run for Ian. Inheritance chain: `cx-coworker-base` → `cx-coworker` → `aem-* agent` → `cx-coworker-{customer}`. Full verified flow: vault `AAI - Project Folder/AEM Skills Flow — Front Door to Skill Selection (2026-06-26).md`.
+
+## The one-AEM-manifest proposal + the runtime constraints (thread-confirmed 2026-06-23→26, #p42-architecture)
+
+**Ian Reasor** (`ireasor@`, AEP/Coworker eng — NOT Ian Boston) opened **PR `ao#5388`** proposing `aem-aia.yaml` as a **centralized all-AEM manifest** to share, with the **OneAEM MCP included → baseline functionality without writing skills** (fall back to the MCP when no explicit skill matches). Merged to the queue 06-26. Landing position: *"One manifest that contains all AEM skills"*; per-customer manifests **not a feasible strategy — no self-serve** (but custom ones like Air India's `cx-coworker-air-india.yaml` still exist, hand-authored).
+
+Runtime facts settled in-thread (correct any "layer base + extension live" assumption):
+- **Only ONE manifest is active at a given time** (Ankush Malhotra, empirical). Two manifests both extending a base do NOT aggregate their skills in one turn.
+- **`manifest_id` is assigned before the prompt, switchable between turns, not resolved per-turn.** Cached unless the user switches.
+- **"Extending manifests"** exists in the docs, but composition that works today = **authoring-time** (one composed manifest per surface, e.g. Air India references plugins across products) resolving to one active manifest — NOT two live manifests layered. This is the inheritance chain above.
+- Satya Deep raised the **fat-manifest context cost** (more tool descriptions = more tokens); the Air India custom manifest balances it by composing per use-case.
+
+**The unresolved tension (Pedro's wedge):** an *exhaustive* all-AEM manifest = ~the full AEM skill population in one manifest, which collides with the **10-15-visible / overlap→50% ceiling** (Ian Boston's separate skill-selection thread, 06-23). Reasor wants exhaustive (no self-serve for custom); Boston posts the ceiling; Ankush/Satya push composed-per-customer. **Pedro's overlap audit (128 skills / 4 repos) is what resolves it either way** — a clean non-deferred set for the single manifest, OR authorable scoped manifests if it splits by surface (composition needs the overlap map to write cleanly). **Pedro's reply posted 07-01** claiming the non-deferred-set curation layer on Reasor's PR ([[project_aem_agents_intelligence]]). Ties [[feedback_dont_conflate_pattern_with_object]] — two Ians, don't merge them.
