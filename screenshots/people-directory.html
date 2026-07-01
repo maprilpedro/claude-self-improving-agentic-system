@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>People Directory — EH + AAI (2026-05-19)</title>
+<style>
+  :root {
+    --bg:#0f1115; --panel:#161922; --border:#262b36; --text:#e6e8ee;
+    --muted:#8a91a0; --eh:#4ea4ff; --aai:#ff7a59; --cross:#4ade80;
+    --chip:#1f2430;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:clamp(12px,2.5vw,24px);background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-size:clamp(12px,.9vw+8px,14px);line-height:1.5}
+  h1{font-size:clamp(16px,2.2vw+6px,22px);margin:0 0 4px}
+  .subtitle{color:var(--muted);margin-bottom:16px}
+  .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px;
+    position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:5}
+  button.f{background:var(--panel);color:var(--text);border:1px solid var(--border);
+    border-radius:999px;padding:6px 14px;cursor:pointer;font-size:13px}
+  button.f:hover{border-color:var(--muted)}
+  button.f.active{font-weight:700;border-width:2px}
+  button.f[data-p="all"].active{border-color:var(--text)}
+  button.f[data-p="eh"].active{border-color:var(--eh);color:var(--eh)}
+  button.f[data-p="aai"].active{border-color:var(--aai);color:var(--aai)}
+  button.f[data-p="cross"].active{border-color:var(--cross);color:var(--cross)}
+  input#q{background:var(--panel);color:var(--text);border:1px solid var(--border);
+    border-radius:8px;padding:7px 12px;font-size:13px;min-width:200px;flex:1}
+  .count{color:var(--muted);font-size:12px;margin-left:auto}
+  .grp{margin:22px 0 8px;font-size:13px;color:var(--muted);text-transform:uppercase;
+    letter-spacing:.05em;border-bottom:1px solid var(--border);padding-bottom:4px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
+  .card{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--muted);
+    border-radius:10px;padding:12px 14px}
+  .card.eh{border-left-color:var(--eh)}
+  .card.aai{border-left-color:var(--aai)}
+  .card.cross{border-left-color:var(--cross)}
+  .nm{font-weight:700;font-size:14px;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+  .tag{font-size:10px;font-weight:700;padding:2px 7px;border-radius:999px;white-space:nowrap}
+  .tag.eh{background:rgba(78,164,255,.15);color:var(--eh)}
+  .tag.aai{background:rgba(255,122,89,.15);color:var(--aai)}
+  .tag.cross{background:rgba(74,222,128,.15);color:var(--cross)}
+  .role{font-size:12.5px;margin:3px 0}
+  .meta{color:var(--muted);font-size:11.5px;margin-top:5px}
+  .st{display:inline-block;font-size:10px;padding:1px 6px;border-radius:4px;background:var(--chip);
+    color:var(--muted);margin-right:6px}
+  .st.Active{color:var(--cross)}
+  .st.TBD{color:#facc15}
+  .why{font-size:11.5px;color:#c3c8d4;margin-top:5px;font-style:italic}
+  .hide{display:none}
+</style>
+</head>
+<body>
+<h1>People Directory — AEM Experience Hub × AEM Agents Intelligence</h1>
+<div class="subtitle">Built from both Stakeholder Maps, 2026-05-19. <span style="color:var(--eh)">■ EH</span> &nbsp; <span style="color:var(--aai)">■ AAI</span> &nbsp; <span style="color:var(--cross)">■ Cross (both projects)</span></div>
+
+<div class="toolbar">
+  <button class="f active" data-p="all">All</button>
+  <button class="f" data-p="eh">EH</button>
+  <button class="f" data-p="aai">AAI</button>
+  <button class="f" data-p="cross">Cross</button>
+  <input id="q" placeholder="Search name, role, group…" autocomplete="off">
+  <span class="count" id="count"></span>
+</div>
+
+<div id="root"></div>
+
+<script>
+const P = [
+// project: eh | aai | cross
+{n:"Bertrand de Coatpont",p:"cross",r:"Sr Director PM — effective manager",o:"AEM PM, Basel (Sr Director)",s:"Active",g:"Leadership",w:"Named Pedro AEM–AO liaison; Adobe Harness signal; 1-1 sponsor"},
+{n:"Loni Stark",p:"cross",r:"VP, AEM & Commerce",o:"AEM, San Jose (VP)",s:"Active",g:"Leadership",w:"Skip-level; hero-surface framing; May 11 deck audience"},
+{n:"Jean-Michel Pittet",p:"cross",r:"VP Engineering, AEM",o:"AEM Eng, Basel (VP)",s:"Active",g:"Leadership",w:"Eng-VP peer to Loni; May 11 deck audience"},
+{n:"Haresh Kumar",p:"cross",r:"Sr Director PMM, AEM / EPA eng-lead context",o:"PMM AEM, SF (Sr Director)",s:"Active",g:"Leadership",w:"Field reality check; carpet-company $500K story"},
+{n:"Silvia Mulet Ferre",p:"cross",r:"Sr Product Design Manager — cross-org bridge",o:"Adobe Design, Austin (Sr Mgr)",s:"Active",g:"Leadership / Cross-Org",w:"Manages Eugene; opened Tim Lynn Mithril thread May 12"},
+{n:"Namita Kavadi",p:"cross",r:"PM — AEP AOv1 / AI Assistant Dashboards",o:"San Jose, reports to Sergey",s:"Active",g:"AO Platform (AEP)",w:"Confirmed AOv1 scope; Langfuse V2 reporting path; master-list gap"},
+{n:"Cédric Huesler",p:"cross",r:"Director — Sites surface (Experience Workspace adj.)",o:"—",s:"Bertrand-handles",g:"Cross-product surfaces",w:"Annoyed via Pedro Slack push; repair is Bertrand's"},
+{n:"Jim Stoklosa",p:"cross",r:"PM Owner — Experimentation",o:"—",s:"Active",g:"Agent Owners",w:"Sign-off done Apr 14; wants EH nav button (contribution-model candidate)"},
+
+{n:"Pedro Ferreira",p:"eh",r:"Senior PM, Experience Hub",o:"AEM PM, Basel",s:"Active",g:"Core Team",w:"PM of record; AEM–AO liaison; owns G1/G2/G3"},
+{n:"Sorin Slavic",p:"eh",r:"Lead Engineer, Experience Hub",o:"EH team",s:"Active",g:"Core Team",w:"Primary institutional knowledge; aligned on contribution model"},
+{n:"Eugene Bannykh",p:"eh",r:"Staff Product Designer, EH UX",o:"Adobe Design, Austin",s:"Active",g:"Core Team",w:"Drives EH UX; contribution-model pilot; two-column prompt"},
+{n:"Mircea Salan",p:"eh",r:"Engineer, EH — intern project lead",o:"EH team",s:"Active",g:"Core Team",w:"Built +Add Extension wizard; contribution-model pilot contact"},
+{n:"Anna Maria",p:"eh",r:"Intern, EH team",o:"EH team",s:"Active",g:"Core Team",w:"New intern; cannot contribute near-term"},
+{n:"Mihai",p:"eh",r:"Former lead engineer, EH",o:"EH team",s:"Left",g:"Core Team",w:"Left due to PM work pushed onto eng; structural risk"},
+{n:"Fu-Chi Shih",p:"eh",r:"Personalized prompt recommendation owner",o:"AEP, San Jose",s:"Active",g:"Core Team",w:"Weekly 1:1; owns EH personalization pipeline"},
+{n:"Cole Connelly",p:"eh",r:"Principal PM — Prompt Library Platform",o:"Exp Cloud Portfolio, NY",s:"Active",g:"Core Team",w:"PM-to-PM for EH prompt-library consumption (O2 KR); under Sunil tree"},
+{n:"Stephen Gould",p:"eh",r:"Group PM — Exp Cloud Portfolio",o:"Exp Cloud Portfolio, SF",s:"Active",g:"Core Team",w:"Strategic EH↔Prompt-Library contact; also Pedro DX/Unified-Shell contact"},
+{n:"Sunil Menon",p:"eh",r:"VP, Experience Cloud Portfolio",o:"San Jose (VP)",s:"TBD",g:"Core Team",w:"Peer of Loni; owns the Prompt-Library / Mithril org tree"},
+{n:"Tim Lott",p:"eh",r:"Director PM",o:"Exp Cloud Portfolio, Lehi",s:"TBD",g:"Core Team",w:"Stephen Gould's manager; escalation only"},
+{n:"Daniel Sheinberg",p:"eh",r:"Sr Director, Experience Cloud",o:"Exp Cloud Portfolio",s:"TBD",g:"Core Team",w:"Tim Lott's manager; scope alignment only"},
+{n:"Shankari Panchapakesan",p:"eh",r:"Group PM — Pedro's paper manager",o:"AEM PM, San Jose",s:"Transitional",g:"Core Team",w:"Transitioning out; referred Aditi to Pedro (recognition signal)"},
+{n:"Valentin Olteanu",p:"eh",r:"Security — Engineering lead",o:"Security",s:"Active",g:"Core Team",w:"Drove Security contribution; key for contribution model"},
+{n:"Ramon",p:"eh",r:"Senior Engineer, Security",o:"Security",s:"Active",g:"Core Team",w:"Implemented Security contribution; technical-friction knowledge"},
+{n:"Raul Hudea",p:"eh",r:"Architect, AI Assistant AEM",o:"—",s:"Active",g:"Architecture",w:"Entitlement routing; internal/external list (numbers caveat)"},
+{n:"Jim Stoklosa (EH)",p:"eh",r:"PM, Experimentation team",o:"—",s:"Active",g:"Core Team",w:"Wants EH nav button/panel; first contribution-model candidate"},
+{n:"Dan",p:"eh",r:"Owns old-stack migration (~300 orgs)",o:"—",s:"Active",g:"Core Team",w:"Owns ~300-org migration; route via Raul/Adi"},
+{n:"Adi",p:"eh",r:"Dan's team — old stack migration",o:"—",s:"Active",g:"Core Team",w:"Right contact (with Raul) for old-stack migration"},
+{n:"Lahan",p:"eh",r:"Cloud Manager",o:"—",s:"Active",g:"Core Team",w:"Handles Cloud Manager going forward"},
+{n:"Jeddah",p:"eh",r:"Admin/operational, EH team",o:"EH team",s:"Active",g:"Core Team",w:"Holds historical adoption reports; request access"},
+{n:"TJ",p:"eh",r:"Owned analytics dashboard",o:"—",s:"Left",g:"Core Team",w:"RISK: dashboard access may be lost if account deleted"},
+{n:"Martin",p:"eh",r:"Concierge/Site team",o:"—",s:"Active",g:"Core Team",w:"Worked on announcements last year"},
+{n:"Patrice",p:"eh",r:"Concierge team",o:"—",s:"Active",g:"Core Team",w:"Light-up POC; EH scope unclear, Pedro to resolve"},
+{n:"Arun Taneja",p:"eh",r:"Surfaces / LLM apps focus (role TBD)",o:"—",s:"Active",g:"Leadership",w:"Structuring surfaces/LLM apps for CAB/CAPS customer discussion"},
+{n:"Amit Ahuja",p:"eh",r:"SVP — above Loni in chain",o:"reports to Anil Chakravarthy",s:"Context",g:"Leadership",w:"Loni's manager; chain commitments trace up to"},
+
+{n:"Felix Delval",p:"aai",r:"Sr Engineering Manager — built EPA stack",o:"Barcelona → Gilles → Marth → JM",s:"Active",g:"Reporting — Track 1",w:"Daily session with Pedro; pipeline VP-sponsored"},
+{n:"Gilles Knobloch",p:"aai",r:"Director Engineering, Sites",o:"Basel — Felix's manager",s:"Active",g:"Reporting — Track 1",w:"Skills-portable-now advocate; EPA demo author; NL-flow vision"},
+{n:"Michael Marth",p:"aai",r:"VP AEM Engineering",o:"Basel, reports to JM (VP)",s:"Active",g:"Reporting — Track 1",w:"Felix's pipeline lives in his org; senior eng audience"},
+{n:"Lara Nonino",p:"aai",r:"Governance Agent — parallel reporting track",o:"—",s:"Active",g:"Reporting — Track 1",w:"Homemade Governance report; implements Philippe BVR; Langfuse pipeline"},
+{n:"Tanju",p:"aai",r:"Splunk MCP data-access counterpart",o:"—",s:"Active",g:"Reporting — Track 1",w:"Splunk token + Fluffy Joe wiki; augmenting External Agent Report"},
+{n:"Amine",p:"aai",r:"Engineer on Felix's team",o:"Barcelona",s:"Active",g:"Reporting — Track 1",w:"Built CSV+Claude auto-categorization; Tier-2 pattern"},
+{n:"Jabin",p:"aai",r:"AEM eng — Grafana dashboard creator",o:"—",s:"Active",g:"Reporting — Track 1",w:"Owns org→segment SQL mapping; NYL TBYB bottleneck"},
+{n:"Mark Pfaff",p:"aai",r:"ECP usage + tool-calls cross-check (Databricks)",o:"—",s:"Active",g:"Reporting — Track 1",w:"Independent-confirmation lever for JM/Loni numbers"},
+{n:"Quentin",p:"aai",r:"CDN / infrastructure",o:"—",s:"Active",g:"Reporting — Track 1",w:"EDS+CDN+Okta auth work (Bertrand-directed)"},
+{n:"Felix Meschberger",p:"aai",r:"Senior architect / AOv2 eng voice",o:"—",s:"Active",g:"Reporting — Track 1",w:"Skills+API position aligns deck Slide 2; quote anchor"},
+{n:"Alexander Saar",p:"aai",r:"VP Eng AEM (Remote)",o:"Germany, reports to JM (VP)",s:"Active",g:"Reporting — Track 2",w:"Hosts June Bucharest workshop; AC42-vacuum venue"},
+{n:"Ian Boston",p:"aai",r:"Principal Scientist — North Star architect",o:"England → Alexander Saar",s:"Active",g:"Reporting — Track 2",w:"AOv2 requirements author; North Star 1-pager NOT started"},
+{n:"Andre Cascais",p:"aai",r:"DAS team — data infrastructure",o:"—",s:"Active",g:"Reporting — Track 2",w:"Connecting DAS to AO data; long-term contact"},
+{n:"Hariprasad Kuppuswamy",p:"aai",r:"Eng — P42 ORR & Observability",o:"—",s:"Active",g:"Reporting — Track 2",w:"May feed/compete with Felix pipeline"},
+{n:"Jean-Claude Jung",p:"aai",r:"DAS team",o:"—",s:"Dormant",g:"Reporting — Track 2",w:"DAS lens = cost tracking, not product quality"},
+{n:"Yanira Castaneda",p:"aai",r:"Program Manager, Agents",o:"—",s:"Active",g:"Agent Program Mgmt",w:"Workshop convener; success-definition wiki; Pedro hosted in her absence"},
+{n:"Jaclyn Eckersley",p:"aai",r:"Director Engineering Program Mgmt",o:"Reading → Alexander Saar",s:"Active",g:"Agent Program Mgmt",w:"P42 / AO2.0 / FinOps; cross-org visibility ally"},
+{n:"Vaishnav Gorur",p:"aai",r:"PMM (new signal)",o:"—",s:"TBD",g:"Agent Program Mgmt",w:"New PMM signal May 1; confirm role"},
+{n:"Apoorva Gupta",p:"aai",r:"PM Owner — Discovery + Content Optimization",o:"—",s:"Active",g:"Agent Owners",w:"Sign-off blocked KR1 items; VR metric clarification"},
+{n:"Corey Dulimba",p:"aai",r:"PM Owner — Experience Production (EPA)",o:"—",s:"Active",g:"Agent Owners",w:"Reused report for Cédric (proof-of-utility); first-testeur partner"},
+{n:"Philippe Kapfer",p:"aai",r:"PM Owner — Governance (EGA)",o:"—",s:"Active",g:"Agent Owners",w:"BVR metrics in progress; competitor-frame caution"},
+{n:"Brian Chaikelson",p:"aai",r:"PM Owner — Development (EDA)",o:"—",s:"Active",g:"Agent Owners",w:"Pipeline troubleshooting; public beta upcoming"},
+{n:"Nick Whittenburg",p:"aai",r:"PM Owner — Onboarding",o:"—",s:"Active",g:"Agent Owners",w:"Not in production; no usage metrics yet"},
+{n:"Gabriel Walt",p:"aai",r:"PM Owner — Modernization",o:"—",s:"Active",g:"Agent Owners",w:"Out-of-taxonomy; lightweight link-button visibility"},
+{n:"Mike Tilburg",p:"aai",r:"PM Owner — Modernization (co)",o:"—",s:"Active",g:"Agent Owners",w:"Co-owns Modernization with Gabriel"},
+{n:"Dereje Dilnesaw",p:"aai",r:"Engineering Lead — Experimentation",o:"—",s:"Active",g:"Agent Owners",w:"Technical reviews open, not blocking"},
+{n:"Vitali",p:"aai",r:"Engineering Lead — EPA",o:"—",s:"Active",g:"Agent Owners",w:"EPA engineering lead"},
+{n:"Greg Klebus",p:"aai",r:"Content Optimization PM (ex-Eng)",o:"—",s:"Active",g:"Agent Owners / Eng",w:"Rosh/Genentech multi-IMS-org escalation; AOv2 driver"},
+{n:"Georgeta Vladescu-Viezure",p:"aai",r:"Engineering — entitlements + routing",o:"—",s:"Active",g:"Other Active Eng",w:"Org-level features work"},
+{n:"Georgiana Koppel",p:"aai",r:"Agent card PR merge process",o:"—",s:"Active",g:"Other Active Eng",w:"Contact for landing agent-card updates"},
+{n:"Sergiu Coman",p:"aai",r:"Engineering, EDA team",o:"—",s:"Active",g:"Other Active Eng",w:"Flagged EDA report tags wrong; calibration needed"},
+{n:"Varun Kalra",p:"aai",r:"Technical validator, Discovery Agent",o:"Apoorva's team",s:"Active",g:"Validators",w:"Consolidating Discovery wiki into Pedro's platform"},
+{n:"Ankur Arora",p:"aai",r:"Senior filter, Apoorva's team",o:"—",s:"Active",g:"Validators",w:"Apoorva's gatekeeper; April 16 reviewer"},
+{n:"Conrad Woltge",p:"aai",r:"Sr Principal Architect",o:"Berlin → Jean-Michel",s:"Active",g:"AO Platform (AEP)",w:"Co-drafting post-Summit AO 2.0 strategy; AOv2 directive owner"},
+{n:"Sergey Generalov",p:"aai",r:"Sr Manager PM, AEP AO",o:"San Jose",s:"Active",g:"AO Platform (AEP)",w:"AO-side PM counterpart to Pedro's liaison role"},
+{n:"Ilya Grafutko",p:"aai",r:"Sr PM, AEP AO — QI DRI",o:"San Jose → Sergey",s:"Active",g:"AO Platform (AEP)",w:"Owns QI program; Langfuse V2 access; weekly findings"},
+{n:"Rachel Hanessian",p:"aai",r:"UI/UX PM Lead — AEP AI Assistant Adoption",o:"AEP",s:"Active",g:"AO Platform (AEP)",w:"PM of record AEP AI Assistant; Beta/GA PRDs"},
+{n:"Trent Davis",p:"aai",r:"Engineering — AO side",o:"—",s:"Active",g:"AO Platform (AEP)",w:"Conrad's preferred AO 2.0 technical contact"},
+{n:"Ken Russell",p:"aai",r:"Engineering — AO side",o:"—",s:"Active",g:"AO Platform (AEP)",w:"AO 2.0 invite accepted Apr 21"},
+{n:"Manas Garg",p:"aai",r:"Engineering — AOv2 dev experience",o:"—",s:"Active",g:"AO Platform (AEP)",w:"Leading AOv2 dev-experience push"},
+{n:"Carsten Ziegeler",p:"aai",r:"Principal Scientist — architecture voice",o:"Alexander Saar org, Hamburg",s:"Active",g:"Architecture",w:"Layered MCP/API+Skills proposal; deck Slide 2 anchor"},
+{n:"Angela Han",p:"aai",r:"Sr Data Scientist Manager — owns Rubin",o:"San Jose → Shivakumar",s:"Active",g:"Cross-Org / Rubin",w:"Owns Rubin; sync pending"},
+{n:"Karthik Penikalapati",p:"aai",r:"SDE — Rubin tech lead",o:"reports to Angela",s:"Active",g:"Cross-Org / Rubin",w:"Confirmed 7 AEM agents; wants Felix's orgs list"},
+{n:"Uma Subbu",p:"aai",r:"Sr Product Designer",o:"Chicago → Silvia",s:"Active",g:"Cross-Org / Rubin",w:"UX research on AEM AI Assistant + agent usage"},
+{n:"Joshua Hailpern",p:"aai",r:"Eng lead — Mithril/Coworker + Prompt Library Platform",o:"Under Sunil Menon tree",s:"Active",g:"Cross-product surfaces",w:"Mithril late May; AEM Sites excluded; engineering-bridge node"},
+{n:"Adam Thomson",p:"aai",r:"Architecture lead — Mithril Hybrid 2.0 + Fruitbar",o:"athomson@adobe.com",s:"Active",g:"Cross-product surfaces",w:"Technical truth-source; secondary validator for Bertrand summary"},
+{n:"Tim Lynn",p:"aai",r:"Mithril project owner / docs author",o:"likely Hailpern team",s:"Active",g:"Cross-product surfaces",w:"Confirmed Mithril=AO2 only; context-reading not default"},
+{n:"Matthew",p:"aai",r:"Mithril co-owner (with Tim Lynn)",o:"surname TBD",s:"Active",g:"Cross-product surfaces",w:"Joined May 13 context-reading MVP sync; confirm identity"},
+{n:"Somya Biswari",p:"aai",r:"Lead eng — Quarry/Mithril + Prompt Library",o:"—",s:"Active",g:"Cross-product surfaces",w:"Bridge node linking Mithril and Prompt Library Platform"},
+{n:"Zeus Courtois",p:"aai",r:"Lead eng — 'You Shall Not Pass' + Prompt Library",o:"—",s:"Active",g:"Cross-product surfaces",w:"Second cross-appearing engineer; reinforces bridge"},
+{n:"Marcus Räck",p:"aai",r:"Eng — Experience Workspace creator (AEM Sites)",o:"—",s:"Active",g:"Cross-product surfaces",w:"Per-solution-chat advocate; chat-fragmentation contact"},
+{n:"Mark Szulc",p:"aai",r:"Demo owner",o:"Australia",s:"Active",g:"Demos / Marketing",w:"Re-run AEM Agent demos with updates; awaiting prompts"},
+{n:"Robert Guthrie",p:"aai",r:"CCF / ISO 42001 compliance scope",o:"—",s:"Active",g:"Compliance",w:"Discovery+Governance only; July 17 deadline"},
+{n:"Razvan Bradea",p:"aai",r:"Eng — LLM Apps (AMCP-1)",o:"—",s:"Active",g:"Adjacent",w:"Added Apr 28 to LLM Apps engineering"},
+{n:"Ashok Kumar",p:"aai",r:"Eng — Agents for AMS (AEMAGT-1323)",o:"—",s:"Bertrand-handles",g:"Adjacent",w:"PM is Bertrand directly"},
+{n:"Jesper Honig Spring",p:"aai",r:"Eng — AI-Ready Content Indexing",o:"—",s:"Active",g:"Adjacent",w:"PM Peter Klassen; content-indexing eng"},
+{n:"Laurentiu Odoleanu",p:"aai",r:"PM — Site Advisory Agent + LLM Apps",o:"—",s:"Active",g:"Adjacent",w:"Customer-facing agent w/ Brand Concierge; out of 6-agent taxonomy"},
+{n:"Remus Stratulat",p:"aai",r:"Eng — SAA + EDA",o:"—",s:"Active",g:"Adjacent",w:"Same person two agents; capacity flag May 4"},
+{n:"Adam Pazik",p:"aai",r:"Director Operations",o:"under Alexander Saar",s:"TBD",g:"RSVP / Tentative",w:"RSVP-context name"},
+{n:"Amit Arora",p:"aai",r:"Required, role TBD",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP required, role unknown"},
+{n:"Daniel Mrose",p:"aai",r:"Required, role TBD",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP required, role unknown"},
+{n:"Marius Duta",p:"aai",r:"Required, role TBD",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP required, role unknown"},
+{n:"Hyman Chung",p:"aai",r:"PM Sites — owns ASO agent",o:"—",s:"TBD",g:"RSVP / Tentative",w:"Owns ASO agent"},
+{n:"Dragos Dascalita Haut",p:"aai",r:"Role TBD (RSVP context)",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP-context name"},
+{n:"Ian Reasor",p:"aai",r:"Role TBD (RSVP context)",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP-context name"},
+{n:"John Campion",p:"aai",r:"Role TBD (RSVP context)",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP-context name"},
+{n:"Mike Tilburg (RSVP)",p:"aai",r:"Role TBD (RSVP context)",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP-context name"},
+{n:"Paolo Mottadelli",p:"aai",r:"Role TBD (RSVP context)",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP-context name"},
+{n:"Pritie Sharda",p:"aai",r:"Role TBD (RSVP context)",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP-context name"},
+{n:"Stefan Spycher",p:"aai",r:"Role TBD (RSVP context)",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP-context name"},
+{n:"Tracy Seibel",p:"aai",r:"Role TBD (RSVP context)",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP-context name"},
+{n:"Vladislavs Zdesenko",p:"aai",r:"Role TBD (RSVP context)",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP-context name"},
+{n:"Juliana Campbell",p:"aai",r:"Tentative attendee",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP tentative"},
+{n:"Mathias Siegel",p:"aai",r:"Tentative attendee",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP tentative"},
+{n:"Tatyana Kozachek",p:"aai",r:"Tentative attendee",o:"—",s:"TBD",g:"RSVP / Tentative",w:"RSVP tentative"}
+];
+
+const root=document.getElementById('root'), q=document.getElementById('q'), cnt=document.getElementById('count');
+let pf='all';
+function esc(t){return (t||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+function render(){
+  const term=q.value.trim().toLowerCase();
+  const rows=P.filter(x=>(pf==='all'||x.p===pf)&&
+    (!term||(x.n+x.r+x.g+x.w+x.o).toLowerCase().includes(term)));
+  const groups={};
+  rows.forEach(x=>{(groups[x.g]=groups[x.g]||[]).push(x)});
+  root.innerHTML=Object.keys(groups).sort().map(g=>
+    `<div class="grp">${esc(g)} <span style="color:var(--muted)">(${groups[g].length})</span></div>
+     <div class="grid">`+groups[g].map(x=>
+      `<div class="card ${x.p}">
+        <div class="nm">${esc(x.n)}<span class="tag ${x.p}">${x.p.toUpperCase()}</span></div>
+        <div class="role">${esc(x.r)}</div>
+        <div class="meta"><span class="st ${x.s.replace(/[^A-Za-z]/g,'')}">${esc(x.s)}</span>${esc(x.o)}</div>
+        <div class="why">${esc(x.w)}</div>
+      </div>`).join('')+`</div>`).join('');
+  cnt.textContent=rows.length+' / '+P.length+' people';
+}
+document.querySelectorAll('button.f').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('button.f').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active'); pf=b.dataset.p; render();
+});
+q.oninput=render;
+render();
+</script>
+</body>
+</html>

@@ -13,6 +13,8 @@ metadata:
 
 > ## ▶️ RESUME HERE — left off 2026-07-01
 
+> ### 🟢 2026-07-01 — Renderer audit: the owed Discovery + Content Optimization boards got a source. **Rebecca Ionescu** (Design, RO, Silvia's team) = designer for the **Discovery + Content Optimization** agents; built their AO1 components (has the Figma of the expected experience). Silvia routed her (+ **Iris**, agent TBD) to audit the AO1 components while the USA is out so Pedro can drive next week (Miro `uXjVHGuWm7M`). **Teams sync booked 2026-07-02** = the source to fill the two renderer boards Bertrand's count is missing (EPA board already done = 5 total / 3 AEM-build). Bring the 4-tier + the invalidated-POC caveat (split-view/tile-selector paradigm gone, right rail = artifact viewer only; render components survive). Likely = the `@neamu` Discovery renderer contact Silvia pointed to on 06-25. Screenshot `screenshots/20260701-rebecca-ionescu-discovery-coa-designer-slack.png`. Stakeholder Map + Status updated.
+
 > ### 🟢🔑📐 2026-07-01 — Tanju 1-1: one-AEM-MCP catalog mechanism walkthrough + the cross-team integration convening went live (~25 min screen-share + a 2nd meeting Pedro convened; moderate fidelity, Otter garbles: "1am MCP"=one-AEM-MCP, "claw/cloth"=Claude, "receipts"=recipes, "Risa"=Ian Reasor, "in Boston"=Ian Boston, "X agent"=cross-agent, "Gayatri/garage"=garage-week). [transcript: `Meeting Notes/Tanju 1 1/20260701 - Tanju Pedro 1 1 MCP Skills audit.md`]
 > **Resolves the 06-30 owed:** this = the "sync Tanju this week (in office ~07-01)" + "drive the MCP-integration convening" tasks. Both landed today.
 > **🔑 one-AEM-MCP catalog mechanism (sourced first-hand from Tanju's screen-share):**

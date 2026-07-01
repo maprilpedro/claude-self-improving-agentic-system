@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vault Organization — EH + AAI + Meeting Notes + OKRs (2026-05-13)</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #161922;
+    --border: #262b36;
+    --text: #e6e8ee;
+    --muted: #8a91a0;
+    --eh: #4ea4ff;
+    --aai: #ff7a59;
+    --mn: #f6ad55;
+    --okr: #b794f4;
+    --cross: #4ade80;
+    --memory: #facc15;
+    --warn: #f87171;
+    --ok: #34d399;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: clamp(12px, 2.5vw, 24px);
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro", system-ui, sans-serif;
+    font-size: clamp(12px, 0.9vw + 8px, 14px);
+    line-height: 1.5;
+  }
+  h1 {
+    font-size: clamp(16px, 2.2vw + 6px, 22px);
+    margin: 0 0 4px 0;
+    line-height: 1.25;
+  }
+  .subtitle {
+    color: var(--muted);
+    margin-bottom: clamp(12px, 2vw, 20px);
+    font-size: clamp(11px, 0.5vw + 8px, 13px);
+    word-wrap: break-word;
+  }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    margin-bottom: clamp(12px, 2vw, 20px);
+    padding: 10px 14px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: clamp(10px, 0.4vw + 8px, 12px);
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+  }
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
+    gap: clamp(10px, 1.5vw, 16px);
+  }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: clamp(10px, 1.4vw, 16px) clamp(12px, 1.6vw, 20px);
+    min-width: 0;
+  }
+  .panel.full {
+    grid-column: 1 / -1;
+  }
+  .panel h2 {
+    margin: 0 0 10px 0;
+    font-size: clamp(13px, 0.6vw + 10px, 15px);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .badge {
+    font-size: clamp(9px, 0.2vw + 8px, 11px);
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+  .badge.eh { background: rgba(78,164,255,0.15); color: var(--eh); border: 1px solid rgba(78,164,255,0.3); }
+  .badge.aai { background: rgba(255,122,89,0.15); color: var(--aai); border: 1px solid rgba(255,122,89,0.3); }
+  .badge.mn { background: rgba(246,173,85,0.15); color: var(--mn); border: 1px solid rgba(246,173,85,0.3); }
+  .badge.okr { background: rgba(183,148,244,0.15); color: var(--okr); border: 1px solid rgba(183,148,244,0.3); }
+  .badge.cross { background: rgba(74,222,128,0.15); color: var(--cross); border: 1px solid rgba(74,222,128,0.3); }
+  .badge.memory { background: rgba(250,204,21,0.15); color: var(--memory); border: 1px solid rgba(250,204,21,0.3); }
+  .tree {
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Monaco, Menlo, Consolas, monospace;
+    font-size: clamp(10px, 0.35vw + 9px, 12.5px);
+    line-height: 1.65;
+    white-space: pre;
+    color: var(--text);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 4px;
+  }
+  .tree::-webkit-scrollbar { height: 8px; }
+  .tree::-webkit-scrollbar-track { background: rgba(255,255,255,0.04); border-radius: 4px; }
+  .tree::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 4px; }
+  .folder { color: var(--text); font-weight: 600; }
+  .file { color: var(--muted); }
+  .file-key { color: var(--text); }
+  .annotation { color: var(--muted); font-style: italic; font-size: 0.88em; }
+  .star { color: var(--warn); }
+  .new { color: var(--ok); font-weight: 600; }
+  .okr-row {
+    display: grid;
+    grid-template-columns: 50px 1fr auto;
+    gap: 8px 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(38,43,54,0.5);
+    align-items: start;
+    font-size: clamp(11px, 0.3vw + 9px, 13px);
+  }
+  .okr-row:last-child { border-bottom: none; }
+  .okr-code {
+    font-family: ui-monospace, SFMono-Regular, monospace;
+    font-size: clamp(10px, 0.3vw + 8px, 12px);
+    font-weight: 600;
+    padding-top: 1px;
+  }
+  .okr-code.o1 { color: var(--aai); }
+  .okr-code.o2 { color: var(--eh); }
+  .okr-code.o3 { color: var(--okr); }
+  .okr-code.o4 { color: var(--okr); }
+  .okr-code.o5 { color: var(--okr); }
+  .okr-code.o6 { color: var(--okr); }
+  .okr-status {
+    font-size: clamp(9px, 0.2vw + 8px, 11px);
+    text-align: right;
+    color: var(--muted);
+    white-space: nowrap;
+    padding-top: 2px;
+  }
+  .status-active { color: var(--ok); }
+  .status-stale { color: var(--warn); }
+  .status-watch { color: var(--mn); }
+  .note {
+    background: rgba(74,222,128,0.06);
+    border-left: 3px solid var(--cross);
+    padding: 10px 14px;
+    margin-top: 12px;
+    font-size: clamp(11px, 0.3vw + 9px, 13px);
+    border-radius: 0 6px 6px 0;
+    word-wrap: break-word;
+  }
+  .note.warn {
+    background: rgba(248,113,113,0.06);
+    border-left-color: var(--warn);
+  }
+  code {
+    background: rgba(255,255,255,0.05);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 0.88em;
+    font-family: ui-monospace, SFMono-Regular, monospace;
+    word-break: break-all;
+  }
+
+  @media (max-width: 520px) {
+    .okr-row {
+      grid-template-columns: 50px 1fr;
+      grid-template-areas:
+        "code body"
+        "code status";
+    }
+    .okr-code { grid-area: code; }
+    .okr-row > span:nth-child(2) { grid-area: body; }
+    .okr-status { grid-area: status; text-align: left; padding-top: 2px; }
+    .legend { padding: 8px 10px; }
+  }
+
+  @media (min-width: 1400px) {
+    body { max-width: 1600px; margin: 0 auto; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Vault Organization — EH + AAI + Meeting Notes + OKRs</h1>
+<div class="subtitle">Snapshot 2026-05-13 · Phase 2 split structurally complete · vault root <code>/020 Professional/Adobe/Projects/2026/</code></div>
+
+<div class="legend">
+  <span class="chip"><span class="dot" style="background:var(--eh)"></span>EH (Experience Hub)</span>
+  <span class="chip"><span class="dot" style="background:var(--aai)"></span>AAI (Agents Intelligence)</span>
+  <span class="chip"><span class="dot" style="background:var(--mn)"></span>Meeting Notes (shared)</span>
+  <span class="chip"><span class="dot" style="background:var(--okr)"></span>OKR</span>
+  <span class="chip"><span class="dot" style="background:var(--cross)"></span>Cross-cutting</span>
+  <span class="chip"><span class="dot" style="background:var(--memory)"></span>Repo memory</span>
+  <span class="chip"><span class="new">★</span> NEW today (2026-05-13)</span>
+  <span class="chip"><span class="star">⚠</span> Watch / open</span>
+</div>
+
+<div class="grid">
+
+<div class="panel">
+  <h2><span class="badge eh">EH</span>AEM Experience Hub project folder</h2>
+  <div class="tree"><span class="folder">Experience Hub/</span>
+└── <span class="folder">AEM Experience Hub - Project Folder/</span>
+    ├── <span class="folder">AEM EH - Key Files/</span>
+    │   ├── <span class="file-key">Experience Hub - 2026 Yearly Review Goals.md</span>  <span class="annotation">G1+G2+G3 canonical</span>
+    │   ├── <span class="file-key">Experience Hub - State of the Project.md</span>     <span class="annotation">trio</span>
+    │   ├── <span class="file-key">Experience Hub - Stakeholder Map.md</span>          <span class="annotation">trio</span>
+    │   ├── <span class="file-key">Experience Hub - Questions for Next 1-1 with Bertrand.md</span>
+    │   ├── <span class="file-key">Experience Hub - Questions for Next 1-1 with Sorin.md</span>
+    │   ├── 20260324 - EPA EGA reports analysis.md
+    │   ├── 20260416 - Session Summary.md
+    │   └── 20260416 - Strategic Analysis - 48 Laws + McIntyre.md
+    ├── <span class="folder">AEM EH Status and Roadmap/</span>
+    │   └── <span class="file-key">Experience Hub - Status and Todo.md</span>  <span class="annotation">canonical Status &amp; Todo</span>
+    ├── <span class="folder">Roadmap/</span>
+    │   ├── Home 1H2026 Roadmap - Experience Hub EH.md
+    │   └── Home 2H2026 Roadmap - Experience Hub EH.md  <span class="annotation">HOME-832</span>
+    ├── <span class="folder">AI Assistant AOP/</span>
+    └── <span class="folder">_archive-2026-05-state-of-project-snapshots/</span>
+        ├── AI-Assistant - Status and Todo_archived_2026-05-03.md  <span class="new">★ moved here today</span>
+        ├── State of the Project — March 2026.md
+        └── State of the Project (March-snapshot).md
+
+<span class="annotation">EH stripped down: AI-Assistant retired, Meeting Notes moved out (now top-level), Roadmaps left as cross-cutting bucket.</span></div>
+</div>
+
+<div class="panel">
+  <h2><span class="badge aai">AAI</span>AEM Agents Intelligence project folder</h2>
+  <div class="tree"><span class="folder">AEM Agents Intelligence/</span>
+├── <span class="folder">AAI - Project Folder/</span>
+│   ├── <span class="folder">Status and Roadmap/</span>
+│   │   └── <span class="file-key">AEM Agents Intelligence - Status and Todo.md</span>  <span class="annotation">canonical</span>
+│   ├── <span class="folder">Key Files/</span>
+│   │   ├── <span class="file-key">AEM Agents Intelligence - State of the Project.md</span>
+│   │   ├── <span class="file-key">AEM Agents Intelligence - Stakeholder Map.md</span>
+│   │   ├── <span class="file-key">AEM Agents Intelligence - Questions for Next 1-1 with Yanira.md</span>
+│   │   └── <span class="file-key">AEM Agents Intelligence - Questions for Next 1-1 with Namita.md</span>
+│   ├── <span class="folder">Agent Reports/</span>
+│   │   ├── Apoorva Feedback.md             <span class="annotation">KR1 punch-list</span>
+│   │   ├── Felix Scripts enhancements.md
+│   │   └── 20260424 - Priority Consolidation View.md  <span class="annotation">KR4</span>
+│   ├── <span class="folder">AO 2.0/</span>
+│   │   └── AI Assistant vs AOP.md
+│   ├── <span class="folder">Agent Owner Alignment/</span>
+│   │   ├── 20260429 - Alignment_ AEM Agents &amp; AOv2.md
+│   │   ├── 20260504 - Agent Owners Alignement.md
+│   │   └── 20260505 - Felix Pedro 1 1.md
+│   ├── <span class="folder">AII Concepts/</span>
+│   │   ├── AEM Agents Cards.md
+│   │   ├── AEM Agents Intelligence - agents report repo github.md
+│   │   ├── AEM Agents Intelligence JIRA.md
+│   │   ├── AEM Agents JIRA.md
+│   │   └── prompt library console access.md
+│   ├── <span class="folder">Loni JM May 11 deck/</span>  <span class="star">⚠ deck this week</span>
+│   ├── Site Advisory Agent (AEMAGT-2).md
+│   ├── Customer Master List - 1-pager for Bertrand.md
+│   ├── priorities.md
+│   └── _phase1-progress-2026-05-03.md
+├── <span class="folder">AEM Experience Agent Reports/</span>
+├── <span class="folder">Agent Owner Alignement/</span>  <span class="annotation">older spelling, still used</span>
+├── <span class="folder">AO 2.0/</span>
+└── <span class="folder">Roadmaps/</span></div>
+</div>
+
+<div class="panel full">
+  <h2><span class="badge mn">Meeting Notes</span>Shared meeting folder — <span class="new">★ moved today to neutral /2026/ level</span></h2>
+  <div class="tree"><span class="folder">2026/Meeting Notes/</span>   <span class="annotation">45 files / 14 subfolders</span>
+├── <span class="folder">Bertrand 1 1/</span>           <span class="annotation">cross-cutting (EH + AAI)</span>
+├── <span class="folder">Sorin 1 1/</span>              <span class="annotation">EH-specific</span>
+├── <span class="folder">Eugene/</span>                  <span class="annotation">EH design + Mithril</span>
+├── <span class="folder">Fu-Chi 1 1/</span>             <span class="annotation">EH personalization (AEP)</span>
+├── <span class="folder">EH Demo/</span>                 <span class="annotation">EH</span>
+├── <span class="folder">EH Team Sync/</span>            <span class="annotation">EH</span>
+├── <span class="folder">Loni Meetings/</span>           <span class="annotation">VP-level, cross</span>
+├── <span class="folder">Shankari/</span>                <span class="annotation">cross, transitional</span>
+├── <span class="folder">Felix Pedro 1 1/</span>        <span class="annotation">AAI</span>
+├── <span class="folder">Namita 1 1/</span>             <span class="annotation">AAI</span>
+├── <span class="folder">Ian/</span>                     <span class="annotation">AAI (compliance, AOv2)</span>
+├── <span class="folder">Yanira/</span>                  <span class="annotation">AAI (PgM counterpart, P42)</span>
+├── <span class="folder">Rubin/</span>                   <span class="annotation">AAI (Angela Han + Karthik)</span>
+├── <span class="folder">Own Reflections/</span>         <span class="annotation">cross</span>
+└── <span class="file-key">20260*** - Session Summary.md</span>  <span class="annotation">17 loose roll-ups</span></div>
+
+  <div class="note">
+    <b>Routing rule:</b> meeting notes folder organizes by <i>person</i>, not by project. Same person can produce content for EH or AAI; route the <i>outcomes</i> (tasks, decisions, KR moves) to the project Status &amp; Todo that owns the work. Don't mirror.
+  </div>
+</div>
+
+<div class="panel full">
+  <h2><span class="badge okr">OKR</span>Quarter OKRs — <code>/120 Projects/Work/OKRs/</code></h2>
+
+  <div class="okr-row">
+    <span class="okr-code o1">O1</span>
+    <span><b>AI Agent Intelligence</b> <span class="annotation">→ AAI lane</span> — KRs: Apoorva punch-list, Loni+JM presentation, Priority Consolidation, 3 agent-owner sign-offs, BVR Discovery methodology, AEM-AO SLA, weekly reports, monthly metrics deck</span>
+    <span class="okr-status status-active">ACTIVE</span>
+  </div>
+  <div class="okr-row">
+    <span class="okr-code o2">O2</span>
+    <span><b>EH Migration to Personalized</b> <span class="annotation">→ EH lane</span> — KRs: prompt schema, prompt library not wiki, AI Agent prompt suggestion, two-column schema, default-preset reorder, personalization baseline, profile-from-cluster prototype, user-profile recommendation model</span>
+    <span class="okr-status status-active">ACTIVE</span>
+  </div>
+  <div class="okr-row">
+    <span class="okr-code o3">O3</span>
+    <span><b>Release Management Agentification</b> <span class="annotation">→ EH lane (EDA)</span> — KRs: Visual Comparison resources (Feb), 5 customer positive feedback (Mar), integrate VC in EDA (end H1)</span>
+    <span class="okr-status status-watch">H1 CLOSING</span>
+  </div>
+  <div class="okr-row">
+    <span class="okr-code o4">O4</span>
+    <span><b>Ship Quiet Hours</b> <span class="annotation">→ EH lane</span> — KRs: Quiet Hours-Update Free in EDA (Feb), GA (Feb), Optional Pay (Mar). <span class="new">★ Bertrand 1-1 May 12 — beta now activating for 81 customers via Agents</span></span>
+    <span class="okr-status status-active">BETA NOW</span>
+  </div>
+  <div class="okr-row">
+    <span class="okr-code o5">O5</span>
+    <span><b>EH Security</b> <span class="annotation">→ EH lane</span> — KRs: EDA-Permissions Too Large (Mar), 3 more security opportunities in EH (Jun), ASO-Security Permissions/Vulnerabilities auto-optimize GA (H1), EH Security GA w/ 5 customers (Mar)</span>
+    <span class="okr-status status-watch">H1 CLOSING</span>
+  </div>
+  <div class="okr-row">
+    <span class="okr-code o6">O6</span>
+    <span><b>Aging Customers Cleanup</b> <span class="annotation">→ EH lane</span> — KR: 90% Aging Customers done (end Mar). <span class="new">★ Bertrand 1-1 May 12 — ~120 customers behind, Aldi/VW/Americans key targets, 1-year window option</span></span>
+    <span class="okr-status status-watch">SLIPPED</span>
+  </div>
+  <div class="okr-row">
+    <span class="okr-code" style="color:var(--muted)">Ops</span>
+    <span><b>Operations</b> — AI Intelligence Weekly Pipeline Refresh, Generate weekly Agents Metrics for Loni and JM</span>
+    <span class="okr-status status-active">RECURRING</span>
+  </div>
+</div>
+
+<div class="panel">
+  <h2><span class="badge memory">Repo memory</span><code>.claude/memory/</code></h2>
+  <div class="tree"><span class="folder">claude-self-improving-agentic-system/</span>
+└── <span class="folder">.claude/memory/</span>
+    ├── MEMORY.md   <span class="annotation">index</span>
+    ├── <span class="folder">Projects/</span>
+    │   ├── project_experience_hub.md
+    │   ├── project_aem_agents_intelligence.md
+    │   └── project_adobe_org.md
+    ├── <span class="folder">User/</span>
+    │   └── user_calls.md
+    ├── <span class="folder">References (11)/</span>
+    │   ├── reference_splunk_mcp.md
+    │   ├── reference_okr_structure.md   <span class="new">★ O1-O6 + Operations</span>
+    │   ├── reference_obsidian_paths.md  <span class="new">★ Meeting Notes + AI-Asst archive</span>
+    │   ├── reference_atlassian_mcp.md
+    │   ├── reference_aem_agent_ownership.md
+    │   ├── reference_powerbi_token_usage.md
+    │   ├── reference_cli_binaries.md
+    │   ├── reference_promotion_strategy.md
+    │   ├── reference_pptx_template.md
+    │   ├── reference_aep_trybuy_artifacts.md
+    │   ├── reference_namita_scope.md
+    │   └── reference_mcp_terminology.md
+    └── <span class="folder">Feedback (34)/</span>
+        ├── feedback_session_start.md
+        ├── feedback_update_trio.md
+        ├── feedback_knowledge_updates.md
+        ├── feedback_status_rollup_not_tracker.md
+        ├── feedback_jira_mcp_before_opining.md
+        ├── feedback_response_window_for_exec_questions.md
+        ├── feedback_one_artifact_per_ask.md
+        ├── feedback_proposal_vs_decision.md
+        ├── feedback_first_reply_ownership_sentence.md
+        ├── feedback_dont_litigate_prior_replies.md
+        ├── feedback_language_split.md
+        ├── feedback_consolidation_without_substance.md
+        ├── feedback_dont_overread_vp_quotes.md  <span class="new">★ added today</span>
+        └── ... (21 more)</div>
+</div>
+
+<div class="panel">
+  <h2><span class="badge cross">CROSS</span>Cross-cutting + adjacent</h2>
+  <div class="tree"><span class="folder">/020 Professional/Adobe/Projects/2026/</span>
+├── <span class="folder">Career/</span>
+│   └── Promotion Strategy v1.md    <span class="annotation">monthly, next 2026-06-01</span>
+│
+<span class="folder">Today's 4 transcripts (ingested 2026-05-13)</span>
+├── Meeting Notes/Bertrand 1 1/20260512 - Bertrand Pedro 1 1.md
+├── Meeting Notes/Yanira/20260512 - P42 Status Sync.md
+├── Meeting Notes/Eugene/20260512 - Mythril Silvia Eugene Pedro Sync.md
+└── Meeting Notes/Felix Pedro 1 1/20260513 - Felix Lara Pedro 1 1.md
+
+<span class="folder">Structural changes today</span>
+├── Meeting Notes moved out of EH folder → neutral /2026/ level
+├── AI-Assistant folder retired (archive moved to _archive snapshots)
+├── reference_okr_structure rewritten O1+O2 → O1-O6 + Operations
+└── feedback_dont_overread_vp_quotes added (Ian = Architect, not Pedro)</div>
+
+  <div class="note">
+    <b>Phase 2 vault split = structurally complete.</b> Three top-level projects under <code>/2026/</code>: <span class="badge eh">EH</span> + <span class="badge aai">AAI</span> + <span class="badge mn">Meeting Notes</span>. No legacy folders remaining.
+  </div>
+</div>
+
+<div class="panel full">
+  <h2><span class="badge cross">SUMMARY</span>Top-level mapping at a glance</h2>
+  <div class="tree"><b>Three top-level surfaces under <code>/2026/</code>:</b>
+
+  <span class="badge eh">EH</span>           AEM Experience Hub      → G2 + G3   → O2 + O3 + O4 + O5 + O6   → Sorin team, contribution model, EH surface
+  <span class="badge aai">AAI</span>          AEM Agents Intelligence → G1        → O1                       → Felix pipeline, AO 2.0 liaison, Loni+JM deck
+  <span class="badge mn">Meeting Notes</span> (shared, by-person)     → (no OKR)  → 14 subfolders, 45 files   → Bertrand + person 1-1s + session summaries
+
+<b>Project trio (each):</b>
+  Status &amp; Todo  +  State of Project  +  Stakeholder Map
+  + 1-1 question files (Bertrand cross-cutting; Sorin EH; Yanira/Namita AAI)
+
+<b>Memory mirror:</b>
+  Vault file ←→ <code>.claude/memory/</code> project file
+  Vault = canonical for facts.  Memory = canonical for "who Pedro is, how we work, what we know."
+
+<b>OKR home:</b>
+  <code>/120 Projects/Work/OKRs/Oₙ/</code>  →  KR notes (Todoist-backed task lists)
+  Status &amp; Todo Focus sections link to KR notes — roll-up, no duplication.</div>
+</div>
+
+</div>
+
+</body>
+</html>
