@@ -43,11 +43,28 @@ for rec in raw.split(SEP_R):
     commits.append(dict(h=h[:9], date=date, subj=subj, body=body.strip(),
                         files=files, prefix=prefix))
 
-# --- knowledge folder counts from INDEX inventory table ---
+# --- knowledge folder counts (approx, computed — not from INDEX) ---
+# The INDEX entry-count column was retired 2026-07-01 (it drifted and earned
+# nothing). Folder LIST still comes from INDEX's Folder Inventory; the count is
+# computed mechanically per folder: false-beliefs = distinct FB-ids, every other
+# folder = `### ` headers. This is a rough proxy (folders that use ### for
+# sub-parts over-count) — good enough for a health meta-view, never hand-kept.
 index_txt = (ROOT / "knowledge" / "INDEX.md").read_text()
-folder_counts = [(f, int(n)) for f, n in
-                 re.findall(r"\|\s*`([\w-]+)/`\s*\|.*?\|\s*\w+\s*\|\s*(\d+)\s*\|",
-                            index_txt)]
+_inv = re.search(r"## Folder Inventory(.*?)\n## ", index_txt, re.S)
+_inv_txt = _inv.group(1) if _inv else index_txt
+_kn_dir = ROOT / "knowledge"
+
+
+def count_entries(folder):
+    blob = "\n".join(p.read_text() for p in folder.glob("*.md"))
+    if folder.name == "false-beliefs":
+        return len(set(re.findall(r"FB-\d+", blob)))
+    return len(re.findall(r"^###\s", blob, re.M))
+
+
+folder_counts = [(name, count_entries(_kn_dir / name))
+                 for name in re.findall(r"\|\s*`([\w-]+)/`\s*\|", _inv_txt)
+                 if (_kn_dir / name).is_dir()]
 kn_total = sum(n for _, n in folder_counts)
 
 
@@ -182,7 +199,7 @@ HTMLDOC = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 
 <h2>System health</h2>
 <div class="metrics">
-  <div class="metric"><div class="n">{kn_total}</div><div class="l">knowledge entries</div></div>
+  <div class="metric"><div class="n">{kn_total}</div><div class="l">knowledge entries (approx)</div></div>
   <div class="metric"><div class="n">{h_active}</div><div class="l">active hypotheses</div></div>
   <div class="metric"><div class="n">{h_resolved}</div><div class="l">resolved hypotheses</div></div>
   <div class="metric"><div class="n">{len(mem_files)}</div><div class="l">memory files</div></div>
