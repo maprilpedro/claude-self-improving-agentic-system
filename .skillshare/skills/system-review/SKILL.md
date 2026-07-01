@@ -62,9 +62,10 @@ This is the dimension `/consolidate` skips. Look for signal that stopped signali
 - **Roll-up divergence** — KR notes drifting from Status roll-ups; Status files acting as task trackers instead of roll-ups (`feedback_status_rollup_not_tracker`).
 - **Terminology drift** — locked terms slipping (e.g. "Tool Calls" not "invocations" / "interactions", per `reference_mcp_terminology`).
 - **Stale or duplicate knowledge** — outdated entries, naming inconsistencies, parked candidates scattered instead of centralized. Mark outdated entries as outdated *with reasoning* — never delete (Knowledge Quality Rules).
-- **Index hygiene** — `INDEX.md` folder counts matching reality, Access Log contiguous, no orphaned hypothesis IDs.
+- **Index hygiene** — `INDEX.md` Access Log contiguous, no orphaned hypothesis IDs. (The Folder-Inventory entry-count column was retired 2026-07-01 — don't reintroduce hand-maintained counts.)
+- **Active memory-file cap** — the belt-and-suspenders pass on the `/consolidate` Step-5 guard, in case a month of dense sessions slipped it. Run `python3 scripts/archive_memory.py --check` on both active project memory files (`project_experience_hub.md`, `project_aem_agents_intelligence.md`); if either is over ~20K tokens, run the script (no `--check`) to shard old event blocks down + rebuild the archive index. This is also the right moment to move a **living-reference section that has gone quiet** into `..._ARCHIVE_reference.md` by hand (the script only moves dated event blocks). Never delete — move + index.
 
-Fix what is mechanical and safe (counts, naming, centralizing). Flag what needs Pedro's judgment (re-triage, roll-up reconciliation). Don't silently rewrite his Status priorities.
+Fix what is mechanical and safe (counts, naming, centralizing, cap-archiving). Flag what needs Pedro's judgment (re-triage, roll-up reconciliation). Don't silently rewrite his Status priorities.
 
 ## Step 5 — Regenerate the dashboard
 
