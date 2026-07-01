@@ -1,6 +1,6 @@
 ---
 name: Transcript room mic attribution
-description: In Teams meeting transcripts, "CR SJ ET15/Kettering VC" and similar "CR" room names are conference room microphones picking up the voice of the person presenting from that room — not a person named CR. In the March 23 2026 AEM PM Virtual Working Session, CR = Loni Stark (VP PM AEM). Always check context before attributing transcript lines to a named person.
+description: In Teams transcripts, "CR <ROOM>" labels (e.g. "CR SJ ET15/Kettering VC") are conference-room microphones, not people — they capture whoever presents from that room and map per-meeting, not per-person. Always re-attribute from context each transcript; never carry a room's attribution forward. Dated known-attributions log kept in the body.
 type: feedback
 ---
 

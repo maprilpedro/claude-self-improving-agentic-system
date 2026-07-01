@@ -38,7 +38,7 @@
 - [Save screenshots to project folder](feedback_screenshots.md) — Always save screenshots to /screenshots in the project repo so they persist across sessions
 - [Session setup commands](feedback_session_setup.md) — Remind user to run /color orange and /rename ADBE-PM-ASSISTANT (UI commands, user must run them)
 - [No meeting setup help](feedback_no_meeting_setup.md) — Never offer to help schedule or set up meetings
-- [Session start behavior](feedback_session_start.md) — Always pick up where we left off on Experience Hub when starting a conversation
+- [Session start behavior](feedback_session_start.md) — Pick up where we left off across BOTH projects (EH + AAI) at session start; concise per-project status, then ask. Current tilt lives in state.md, not hardcoded.
 - [Transcript room mic attribution](feedback_transcript_attribution.md) — "CR" room labels in Teams transcripts are conference room mics, not people. In the March 23 2026 session, all CR lines = Loni Stark
 - [Update trio after every meeting analysis](feedback_update_trio.md) — After every analysis, always update Stakeholder Map, State of the Project, and Questions for Next 1-1 with Sorin in the Obsidian vault
 - [Knowledge folder update cadence](feedback_knowledge_updates.md) — Always update knowledge/, INDEX.md, and README.md when asked and proactively at least once every 2 days. Commit with learn: prefix.
@@ -47,7 +47,7 @@
 - [Task vs progress log distinction](feedback_task_vs_progress_log.md) — "Track this" = forward-looking task (checkbox + due date), NOT a past-tense progress log entry. Progress log is for what already happened.
 - [Conversation link optional when none exists](feedback_conversation_link_optional.md) — Ask for link per Status & Todo rule, but accept "no link, date/time is enough" for internal-only meetings without an external artifact.
 - [Rich task format — companion section pattern](feedback_rich_task_companion_section.md) — When user asks for tasks "with max info and hints," split into one-liner tasks + companion H2 section with full prep. Never dump multi-paragraph content into the task line.
-- [Mirror tasks across Status & Todo files](feedback_mirror_tasks_across_status_files.md) — When agent-reporting work spans surfaces, duplicate the tasks into both EH and AI-Assistant Status files. Don't split.
+- [Mirror rule RETIRED — route by project](feedback_mirror_tasks_across_status_files.md) — Post 2026-05-03 split: tasks route to the project that owns the outcome (agent-reporting → AAI, EH-only → EH). Never duplicate rows; cross-cutting = one file + a cross-reference.
 - [Detect stale Status sections before adding tasks](feedback_refresh_stale_status_sections.md) — Scan Current Status + Focus dates first; offer to refresh when >2 weeks behind reality.
 - [Overwhelm usually means miscalibrated priority list](feedback_overwhelm_calibration.md) — When Pedro says overwhelmed, audit red-tagged items first. Too many 🔴 = triage broken, not effort.
 - [Read existing KR notes before drafting artifacts](feedback_read_kr_before_drafting.md) — Check `/120 Projects/Work/OKRs/` before drafting anything tied to a KR. The plan is usually already there.

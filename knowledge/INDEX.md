@@ -4,18 +4,20 @@
 
 ## Folder Inventory
 
-| Folder | Purpose | Status | Entries |
-|--------|---------|--------|---------|
-| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals | Active | 30 |
-| `patterns/` | Recurring PM frameworks, decision patterns, templates | Active | 47 |
-| `hypotheses/active.md` | Hypotheses currently being tested | Active | 2 |
-| `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence | Active | 6 |
-| `false-beliefs/` | PM conventional wisdom proven wrong | Active | 32 |
-| `tools/` | Decision matrix: when to use which PM method/tool | Active | 13 |
-| `experiments/` | Experiment tracking and results | Active | 1 |
-| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity | Active | 60 |
-| `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries | Active | 22 |
-| `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics | Active | 39 |
+> Entry counts are not tracked here — they drift and earn nothing. Grep the folder's `README.md` for a live count when you need one.
+
+| Folder | Purpose |
+|--------|---------|
+| `domain/` | Core PM knowledge: discovery, strategy, personas, market signals |
+| `patterns/` | Recurring PM frameworks, decision patterns, templates |
+| `hypotheses/active.md` | Hypotheses currently being tested |
+| `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence |
+| `false-beliefs/` | PM conventional wisdom proven wrong |
+| `tools/` | Decision matrix: when to use which PM method/tool |
+| `experiments/` | Experiment tracking and results |
+| `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity |
+| `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries |
+| `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics |
 
 ## Sources Ingested
 
@@ -69,10 +71,10 @@
 | Managing laterally (peers, cross-org) | `interpersonal/` (Managing Laterally) | `leadership/` (Cross-Org Influence) |
 | Dealing with an adversary or difficult person | `interpersonal/` (Conflict and Adversaries) | `false-beliefs/` |
 | Building trust with a new team or stakeholder | `interpersonal/` (Building Trust) | `patterns/` |
-| Senior Director visibility | `leadership/` | `hypotheses/active.md` (H-003, H-005) |
+| Senior Director visibility | `leadership/` | `hypotheses/active.md` (H-007), `hypotheses/resolved.md` (H-003 promoted) |
 | Cross-org influence | `leadership/` (Cross-Org Influence Without Authority) | `interpersonal/`, `patterns/` (Capacity-Ask Mismatch) |
 | AI product / agent work | `ai-product/` | `false-beliefs/` (FB-006, FB-007, FB-008) |
-| Agent measurement | `ai-product/` (Measurement section) | `hypotheses/active.md` (H-005) |
+| Agent measurement | `ai-product/` (Measurement section) | `hypotheses/resolved.md` (H-005) |
 | Surface strategy | `ai-product/` (Surface Strategy section) | `leadership/` (Pick Up the Open Action Item) |
 | Roadmap under uncertainty | `leadership/` (Durable Themes) | `ai-product/` (Architecture Ceiling) |
 
