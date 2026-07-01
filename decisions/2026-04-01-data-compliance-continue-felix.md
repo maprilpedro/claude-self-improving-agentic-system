@@ -23,3 +23,7 @@ Nothing prior on this topic.
 
 ## Outcome (scored 2026-05-27 — first System Review)
 Risk accepted, **not yet triggered** (8 weeks on). Felix's pipeline is still LIVE and VP-sponsored (migrating SQLite→Postgres + LLM-as-Judge; engineers connected). No external-BU flag has shut it down — Bertrand's calculated risk has held to date. **New adjacent compliance vector emerged independently:** ISO 42001 / Tech GRC audit (Robert Guthrie, May 4), evidence due July 17, scope since narrowed to Discovery + Governance only. Not the residency risk Ian named, but the same compliance surface — the bet's downside is now partly materializing through a different door. **Score: correct to date; keep watching the residency vector + ISO-42001 audit. Re-score next review.**
+
+## Outcome checkpoint (2026-07-01 — System Review, score-lite)
+
+Bet still holds: Felix's pipeline is live, VP-sponsored, no external-BU flag has shut it down (~13 weeks). The residency vector never triggered. **But the decisive re-score data is not here yet — the ISO-42001 / Tech GRC audit evidence is due 2026-07-17** (audit narrowed to Discovery + Governance). Defer the definitive re-score to 07-17. **New frame this review:** the pipeline's relevance is now sunsetting for a *different* reason than the one this decision guarded against — not a compliance shutdown, but the **Rubin/Coworker substrate migration** (see new [[H-009]]). So the compliance bet held; the pipeline itself is depreciating via platform migration. Re-score at 07-17 on the audit outcome.

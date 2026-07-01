@@ -29,3 +29,7 @@ Also: the April 16 Apoorva review surfaced a punch list for Discovery Agent alon
 ## Supersedes
 
 None. This is the first decision on agent reporting scope boundaries.
+
+## Outcome (scored 2026-07-01 — System Review)
+
+**Bet held; no trigger fired.** ~11 weeks on, the exclusion stuck: experimentation_agent stayed out of Pedro's agent-intelligence reporting, and the feared "show all AEM agents" ask from Bertrand/Loni never surfaced. The reporting scope that mattered narrowed further on its own — the Coworker-migration set now tracks ~5-6 agents (Production/EPA, Discovery, EDA, Governance, Assets, Content Optimization), and experimentation is not in it. No audit caught a scope gap. The dual-scope reasoning (Rubin counts 7 for footprint, Pedro reports on 6 for PM) never needed a correction to Karthik. **Score: correct call, low-drama. Not calendar-scoreable (outcome was gated on a trigger that didn't fire) — re-open only if an "all AEM agents" cut is ever requested.**

@@ -75,3 +75,7 @@ Nothing prior. First Decision Journal entry on reactive-ownership pattern.
 
 ## Outcome (scored 2026-05-27 — first System Review)
 The decision's value is as evidence for **H-007** (reactive vs proactive ownership), which reassesses **2026-06-05** — full score lands there. Review caveat: H-007's tracking instrument has been **inactive since May 8** (no interim reactive-ownership reps logged in Status), so the 6/5 reassessment will have thin data and this NYL instance may stay the primary evidence. **Score: immediate recovery move was sound (capacity-protection during deck week, defensible); the missed first-reply framing is the logged learning. Deferred to H-007 on 2026-06-05 — if no further reps land, reassess whether one instance can resolve H-007 or it should be re-scoped/extended.**
+
+## Outcome note (2026-07-01 — System Review)
+
+Still deferred to H-007, which did not resolve. Nine months of prepped reactive reps later, **NYL remains the only cold real-time reactive rep in the dataset (the single cold miss)** — it is now the pivotal data point for H-007's 2026-08-01 resolution deadline (resolve on a cold rep, or archive inconclusive). The two feedback memories this decision spawned (`feedback_first_reply_ownership_sentence`, `feedback_dont_litigate_prior_replies`) have fired repeatedly and are durable. No re-score today; bound to H-007's 08-01 deadline.
