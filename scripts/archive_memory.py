@@ -19,7 +19,10 @@ Modes:
   --dry-run <memfile>     show what active-file archiving would move. No writes.
   <memfile>               archive event blocks older than RETENTION_DAYS until under TARGET.
   --migrate <archivefile> one-time: shard an existing monolithic _ARCHIVE.md by week.
+  --split <memfile>       split any weekly shard over the cap into lettered parts (W25 -> W25a/b).
   --reindex <memfile>     rebuild the _ARCHIVE_INDEX.md from existing shards.
+
+Archiving and migration auto-split oversized weeks; --split is the standalone pass.
 
 Token estimate = bytes / 4 (same proxy the dashboard uses). stdlib only.
 """
@@ -145,6 +148,50 @@ def rebuild_index(memfile):
     return idx, len(shards)
 
 
+def split_oversized(memfile):
+    """Split any un-lettered weekly shard over CAP into lettered parts (W25 -> W25a/W25b),
+    each under TARGET. Blocks are kept whole. Returns [(week, n_parts), ...]."""
+    p = pathlib.Path(memfile)
+    stem = p.stem
+    d = p.parent
+    week_re = re.compile(re.escape(stem) + r"_ARCHIVE_(\d+-W\d+)\.md$")
+    done = []
+    for s in sorted(glob.glob(str(d / f"{stem}_ARCHIVE_*.md"))):
+        if s.endswith("_INDEX.md"):
+            continue
+        m = week_re.search(os.path.basename(s))
+        if not m:                                  # only un-lettered week shards
+            continue
+        txt = pathlib.Path(s).read_text()
+        if tokens(txt) <= CAP_TOKENS:
+            continue
+        blocks, cur = [], []
+        for l in txt.split("\n"):
+            if (BQ_HEADER.match(l) or REF_HEADER.match(l)) and cur:
+                blocks.append(cur); cur = [l]
+            else:
+                cur.append(l)
+        if cur:
+            blocks.append(cur)
+        if blocks and "Archive shard" in blocks[0][0]:   # drop old banner, re-added per part
+            blocks = blocks[1:]
+        label = m.group(1)
+        parts = [[]]
+        for b in blocks:
+            cur_sz = tokens("\n".join(x for bb in parts[-1] for x in bb))
+            if parts[-1] and cur_sz + tokens("\n".join(b)) > TARGET_TOKENS:
+                parts.append([])
+            parts[-1].append(b)
+        for i, part in enumerate(parts):
+            letter = chr(ord("a") + i)
+            hdr = f"> ## Archive shard — {stem} — {label}{letter} (split {i + 1}/{len(parts)} for size)"
+            body = "\n".join(x for b in part for x in b).rstrip()
+            (d / f"{stem}_ARCHIVE_{label}{letter}.md").write_text(hdr + "\n\n" + body + "\n")
+        pathlib.Path(s).unlink()
+        done.append((label, len(parts)))
+    return done
+
+
 def do_check(memfile):
     t = tokens(pathlib.Path(memfile).read_text())
     over = t > CAP_TOKENS
@@ -185,6 +232,7 @@ def do_archive(memfile, dry):
         append_block(str(p.parent / shard_name(stem, b[1])), b[0],
                      header=f"> ## Archive shard — {stem} — ISO week {b[1].isocalendar()[0]}-W{b[1].isocalendar()[1]:02d}")
     p.write_text(assemble(keep))
+    split_oversized(memfile)
     rebuild_index(memfile)
 
 
@@ -235,6 +283,9 @@ def do_migrate(archivefile):
                      [x for b in routed["misc"] for x in b],
                      header=f"> ## Undated / pre-structured blocks from {stem} (catch-all)")
     p.unlink()  # monolith fully distributed
+    sp = split_oversized(str(d / f"{stem}.md"))
+    if sp:
+        print("split oversized weeks:", sp)
     idx, n = rebuild_index(str(d / f"{stem}.md"))
     print(f"wrote {n} shards + {idx.name}; removed {p.name}")
 
@@ -251,6 +302,9 @@ def main():
         do_migrate(a[1]); return
     if a[0] == "--reindex":
         idx, n = rebuild_index(a[1]); print(f"rebuilt {idx.name} ({n} shards)"); return
+    if a[0] == "--split":
+        sp = split_oversized(a[1]); rebuild_index(a[1])
+        print(f"split oversized weeks: {sp or 'none'}"); return
     do_archive(a[0], dry=False)
 
 
