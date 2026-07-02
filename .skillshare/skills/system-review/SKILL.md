@@ -18,7 +18,7 @@ Read `.claude/state.md`. Check:
 
 - **Last full System Review** date and **Next review due**. If the next-due date is still in the future and Pedro did not explicitly ask for an off-cycle review, say so and confirm he wants to run it now anyway. A review run too early on a thin base is productivity theater (`feedback_consolidation_without_substance`) — the same honesty bar as `/consolidate` Step 0.
 - The **Open hypothesis-lifecycle decisions** table — these are candidates a prior auditor already surfaced and parked for Pedro's call. They are the review's starting worklist.
-- The **Parked hypothesis candidates** table — patterns holding for a 2nd/3rd observation. Each gets a verdict this review: promote (threshold met), keep parked (still waiting), or drop (stale by this review).
+- The **Parked hypothesis candidates** table (`knowledge/hypotheses/parked.md` since P5, 2026-07-02) — patterns holding for a 2nd/3rd observation. Each gets a verdict this review: promote (threshold met), keep parked (only with the expected-2nd-instance locus named + a fresh auto-drop date), or drop (stale / auto-drop date passed). Enforce the cap of 8 live candidates — over-cap, drop the weakest before keeping anything.
 
 Then check today's date against the parked/pending dates so nothing silently rolls over.
 
@@ -34,12 +34,12 @@ When the auditor flags a stale Status section, **flag it, do not silently rewrit
 
 **First, spawn `promotion-judge` (read-only, fresh context).** Before you walk the candidates yourself, get an independent verdict on every hypothesis at threshold, every parked candidate, and every open lifecycle decision, graded against the hard gates below. The reason is structural: the thread running this review is, by Step 0's own warning, biased toward promoting its own candidates (self-preferential bias — a model grades its own work generously). The judge is the separate-context check for Step 2, exactly as `staleness-auditor` is the drift lens for Step 1 — it emits one verdict row per candidate (so a skipped one is visible), enforces "independent = distinct events" (the 2026-05-27 trap), and flags likely over-claims (🚩). Fold its verdict table in as your worklist. The judge **advises, it does not gate** — you may override a verdict with reasoning, but an override is a deliberate, recorded act, not a silent one. You (the review thread) still make every edit; the judge never writes.
 
-Then walk `hypotheses/active.md` plus the auditor's threshold list and the state.md pending/parked tables. Apply the repo's hard gates:
+Then walk `hypotheses/active.md` plus the auditor's threshold list, the state.md open-decisions table, and `knowledge/hypotheses/parked.md`. Apply the repo's hard gates:
 
 - **Promote** a hypothesis to a knowledge rule at **3+ independent confirmations** (global CLAUDE.md). Move it to `hypotheses/resolved.md` with the evidence and date, *and* write the rule into the right `knowledge/` folder (leadership, ai-product, patterns, etc.). Promotion is not just archiving — the durable rule has to land somewhere it will be read.
 - **Kill** a hypothesis that is contradicted, or untested and superseded/deprioritized with no decision riding on it. Move to `hypotheses/resolved.md` with the kill reason and date. Never delete (Knowledge Quality Rules).
 - **Demote** any `knowledge/` rule the auditor flagged as contradicted back to a hypothesis in `active.md`, with the contradiction cited. A rule that reality broke is a hypothesis again, not a deletion.
-- **Parked candidates** — for each, record the verdict in state.md: promoted (with where it landed), still parked (waiting for the Nth observation), or dropped as stale. "Independent" is the bar — two reps of the same event are one observation (the 2026-05-27 review caught this).
+- **Parked candidates** — for each, record the verdict in `knowledge/hypotheses/parked.md` (promoted/dropped/folded rows move to its History section): promoted (with where it landed), still parked (waiting for the Nth observation), or dropped as stale. "Independent" is the bar — two reps of the same event are one observation (the 2026-05-27 review caught this).
 
 Confirmation bar reminder: a *pattern* moving from project memory into `knowledge/` needs **2+ supporting observations**; a *hypothesis* promoting to a *rule* needs **3+ confirmations**. Don't conflate the two.
 
@@ -77,7 +77,7 @@ In `.claude/state.md`:
 
 1. Add a **Review log** row: date, scope (what accumulated since the last review), and a tight outcome summary (hypotheses promoted/killed, decisions scored, drift fixed, quality fixes).
 2. Reset **Last full System Review** to today and **Next review due** to the next 1st-of-month (co-located with the Promotion Strategy review).
-3. Update the **Open hypothesis-lifecycle decisions** and **Parked hypothesis candidates** tables to reflect this review's verdicts — clear what resolved, carry forward what is still pending.
+3. Update the **Open hypothesis-lifecycle decisions** table (state.md — resolved rows move to `.claude/state_ARCHIVE.md`) and the **Parked candidates** table (`knowledge/hypotheses/parked.md`) to reflect this review's verdicts — clear what resolved, carry forward what is still pending.
 
 This is what makes the next review (and the next session-start cadence check) start from truth instead of a guess.
 

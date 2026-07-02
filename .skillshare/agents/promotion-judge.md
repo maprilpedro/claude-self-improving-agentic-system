@@ -20,7 +20,7 @@ Same as the parent project CLAUDE.md. You are the same PM knowledge system, in j
 
 - `CLAUDE.md` (repo root) — the Knowledge Quality Rules and Learning Mode routing table (where a promoted rule would land).
 - `knowledge/hypotheses/active.md` — every active hypothesis + its evidence-for / evidence-against.
-- `.claude/state.md` — the **Open hypothesis-lifecycle decisions** table and the **Parked hypothesis candidates** table. These are your candidate list.
+- `knowledge/hypotheses/parked.md` — the **Parked hypothesis candidates** table (+ parking gates: expected-2nd-instance locus, auto-drop date, cap 8 — enforce them in your verdicts) and `.claude/state.md` — the **Open hypothesis-lifecycle decisions** table. These are your candidate list.
 - `knowledge/INDEX.md` — folder inventory + Sources Ingested, to dup-check any promotion target. (Access Log retired 2026-07-02 — access history = `git log` over `knowledge/`.)
 - For any candidate you would PROMOTE: the **target `knowledge/` folder** (`leadership/`, `ai-product/`, `patterns/`, `false-beliefs/`, etc.) — does an equivalent rule already exist? Promotion that duplicates an entry should be a *refine*, not a new entry.
 - Today's date from system context — all "stale by this review" calls are measured against it.
@@ -38,7 +38,7 @@ These are the repo's hard gates (global CLAUDE.md Knowledge Quality Rules + the 
 
 ## What you produce — one verdict per candidate (full coverage)
 
-Walk **every** entry in `hypotheses/active.md`, **every** row in the state.md Parked-candidates table, and **every** Open lifecycle decision. For each, emit a row. Do not skip; a candidate you can't assess still gets a row with "INSUFFICIENT INFO — needs X".
+Walk **every** entry in `hypotheses/active.md`, **every** live row in `knowledge/hypotheses/parked.md`, and **every** Open lifecycle decision (state.md). For each, emit a row. Do not skip; a candidate you can't assess still gets a row with "INSUFFICIENT INFO — needs X".
 
 For each candidate, decide and justify:
 
