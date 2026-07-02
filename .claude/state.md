@@ -36,7 +36,7 @@ Moved to `knowledge/hypotheses/parked.md` (P5, 2026-07-02) — parking gates, th
 ## Open ops
 
 - ✅ **DONE 2026-06-05 — ingest EH-EW-Skills transcript** (`Agent Owner Alignement/20260605 - ExpHub, WE, Skills design alignement .md`). EW-no-AEM-licence reconciled (open question, not a fact), Guliz/Silvia/Bertrand positions + C1 landed in EH memory. Cleared at the 2026-06-07 review.
-- **🔧 republish `One AEM, Many Harnesses` live (Confluence `3908567486`) → v4** — CC was restarted 2026-06-07 (no longer blocked on restart); the 401-PAT cause may recur, retry the `confluence_update_page` push. Brand-travel table split (visual skin vs structure/voice/behavior, per Brian) DONE in vault, Confluence update **failed 401 twice** (PAT expired mid-session; move/get/update worked earlier same session, so token died partway). Live = v3 (old table). On restart: read vault `AAI - Project Folder/One AEM, Many Harnesses.md`, push via `confluence_update_page` with mermaid→CleanShot-image swap. **v4 content (already in vault): brand-travel table split (skin vs structure/voice/behavior) + "Claude → an LLM" in the check/definition** (kept "Claude Code" + "skills used in Claude" literal). (Recurring 401 pattern — also flagged 2026-05-29.)
+- ✅ **DONE 2026-07-03 — `One AEM, Many Harnesses` v4 republished live** (Confluence `3908567486`, version 4): brand-travel table split (visual skin vs structure/voice/behavior, per Brian) + "Claude → an LLM" in check/definition, mermaid→CleanShot-image swap. Root cause of the recurring 401s = **VPN not connected**, not PAT expiry — check VPN first next time a Confluence 401 appears.
 
 ## Notes
 
