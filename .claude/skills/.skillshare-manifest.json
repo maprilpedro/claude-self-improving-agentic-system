@@ -1,8 +1,10 @@
 {
   "managed": {
+    "capture-slack": "symlink",
     "consolidate": "symlink",
     "ingest-transcript": "symlink",
+    "reply": "symlink",
     "system-review": "symlink"
   },
-  "updated_at": "2026-07-01T10:30:42.067208+02:00"
+  "updated_at": "2026-07-02T23:55:09.373832+02:00"
 }
