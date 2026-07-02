@@ -24,13 +24,17 @@ Modes:
 
 Archiving and migration auto-split oversized weeks; --split is the standalone pass.
 
-Token estimate = bytes / 4 (same proxy the dashboard uses). stdlib only.
+Token estimate = bytes / 2.4. Calibrated 2026-07-02 against real Read-tool counts on
+these files (dense markdown + emoji + URLs + French ≈ 2.4 bytes/token, NOT the 4.0 of
+plain English prose — the old /4 proxy under-counted ~1.7x and let files pass the cap
+while actually truncating at read). stdlib only.
 """
 import sys, re, os, glob, datetime, pathlib
 
 CAP_TOKENS = 20_000       # archive if the active file is over this
 TARGET_TOKENS = 18_000    # stop archiving once back under this
-RETENTION_DAYS = 14       # keep event blocks at least this recent in the active file
+READ_CAP_TOKENS = 24_000  # hard ceiling: past ~25K the Read tool truncates; stay under
+RETENTION_DAYS = 7        # keep event blocks at least this recent (active file = "last ~1 week")
 TODAY = datetime.date.today()
 
 DATE_RE = re.compile(r"20\d\d-\d\d-\d\d")
@@ -40,7 +44,7 @@ BANNER = re.compile(r"📦|^> \*\*")         # archive banners / scaffolding, no
 
 
 def tokens(text):
-    return len(text.encode("utf-8")) // 4
+    return int(len(text.encode("utf-8")) / 2.4)
 
 
 MONTHS = {m.lower(): i for i, m in enumerate(
@@ -195,8 +199,13 @@ def split_oversized(memfile):
 def do_check(memfile):
     t = tokens(pathlib.Path(memfile).read_text())
     over = t > CAP_TOKENS
-    print(f"{os.path.basename(memfile)}: ~{t//1000}K tokens (cap {CAP_TOKENS//1000}K) "
-          f"{'OVER — archive due' if over else 'ok'}")
+    status = "ok"
+    if t > READ_CAP_TOKENS:
+        status = "OVER — TRUNCATES AT READ, archive now"
+    elif over:
+        status = "OVER — archive due"
+    print(f"{os.path.basename(memfile)}: ~{t//1000}K tokens (cap {CAP_TOKENS//1000}K, "
+          f"read-cap {READ_CAP_TOKENS//1000}K) {status}")
     return 1 if over else 0
 
 
@@ -214,12 +223,26 @@ def do_archive(memfile, dry):
     # move oldest datable non-recent blocks until under TARGET (oldest first)
     datable = sorted([b for b in blocks if b[1] and not b[2] and b[1] < cutoff],
                      key=lambda b: b[1])
-    recent = [b for b in blocks if b not in datable]
     kept = list(blocks)
     for b in datable:
         if tokens(assemble(kept)) <= TARGET_TOKENS:
             break
         kept.remove(b); moved.append(b)
+
+    # override pass: readability is the hard constraint. If a dense recent week keeps
+    # the file over READ_CAP even after the retention-respecting pass, move the
+    # next-oldest datable blocks regardless of retention (never RESUME, never the living
+    # reference) until it loads in one Read again — a truncated active file loses
+    # awareness silently, which is worse than archiving a 3-day-old block (it stays one
+    # grep away via the index). Between CAP and READ_CAP = tolerated dense-week state.
+    if tokens(assemble(kept)) > READ_CAP_TOKENS:
+        remaining = sorted([b for b in kept if b[1] and not b[2]], key=lambda b: b[1])
+        for b in remaining:
+            if tokens(assemble(kept)) <= READ_CAP_TOKENS:
+                break
+            kept.remove(b); moved.append(b)
+            print(f"  (override: within {RETENTION_DAYS}d retention but file would truncate) "
+                  f"{b[0][0][:60]}")
     keep = kept
 
     print(f"{os.path.basename(memfile)}: {tokens(p.read_text())//1000}K -> "

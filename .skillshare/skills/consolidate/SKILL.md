@@ -71,11 +71,12 @@ This is the lightweight half of the periodic System Review directive (CLAUDE.md)
 
 For depth here, you may spawn the `staleness-auditor` subagent (read-only drift report across Status files + memory dates) and fold its findings in rather than scanning inline.
 
-**Active memory-file size check (the token-cap guard).** The active project memory files (`project_experience_hub.md`, `project_aem_agents_intelligence.md`) load at every session start. Past ~25K tokens they truncate on read and the durable reference at the bottom is silently cut — the awareness-loss failure of 2026-06/07-01. Enforce the cap here:
+**Hot-file size check (the token-cap guard).** The three hot files (`project_experience_hub.md`, `project_aem_agents_intelligence.md`, `.claude/state.md`) load at every session start. Past ~25K tokens they truncate on read and the content at the bottom is silently cut — the awareness-loss failure of 2026-06/07-01. Enforce the cap here:
 
-- Run `python3 scripts/archive_memory.py --check .claude/memory/project_aem_agents_intelligence.md` and the same for `project_experience_hub.md`.
-- If either reports **OVER** (> ~20K tokens), run it **without `--check`** on that file: it moves event blocks older than ~2 weeks into that project's weekly ISO shard (`..._ARCHIVE_<year>-W<wk>.md`), rebuilds `..._ARCHIVE_INDEX.md`, and leaves the file back under ~18K tokens. It **moves, never deletes** — old context stays grep-able via the index.
-- Report what moved in the change summary. Do **not** hand-edit these big files to trim them — use the script (hand-parsing a 700-line memory file is how content gets corrupted). Living-reference sections are moved by judgment (not the script) only at a System Review, never here.
+- Run `python3 scripts/archive_memory.py --check` on **all three** (both `project_*.md` + `.claude/state.md`). Token estimate = bytes/2.4, calibrated 2026-07-02 against real Read counts (the old bytes/4 under-counted ~1.7x and let files truncate while "passing" — trust the script, not gut feel).
+- If a **project memory file** reports OVER (> ~20K tokens), run the script **without `--check`** on it: it moves event blocks older than ~1 week into that project's weekly ISO shard (`..._ARCHIVE_<year>-W<wk>.md`), rebuilds `..._ARCHIVE_INDEX.md`, and targets ~18K. Dense recent week: it tolerates 20-24K rather than archive same-week blocks, and only overrides retention past the 24K read-cap — a residual "OVER — archive due" between 20-24K after a run is fine, the file still loads in one Read. It **moves, never deletes** — old context stays grep-able via the index.
+- If **`.claude/state.md`** reports OVER, move the oldest dated `## Notes` journal bullets (older than ~2 weeks) into `.claude/state_ARCHIVE.md` by hand — they are self-contained one-line bullets, cut the line and append it there, original order. Never touch the Review log or the open-decisions tables.
+- Report what moved in the change summary. Do **not** hand-edit the project memory files to trim them — use the script (hand-parsing a 700-line memory file is how content gets corrupted). Living-reference sections are moved by judgment (not the script) only at a System Review, never here.
 
 ## Step 6 — Debrief, summarize, commit
 
