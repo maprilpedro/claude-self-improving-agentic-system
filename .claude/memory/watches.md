@@ -28,7 +28,7 @@ metadata:
 - **2026-07-06 (Mon)** — reply owed to Corey: PR #58 `aem-agent-reports` adds Figma agent — "something you also need to do on your side?" (dangling since 06-17; new agent in the report taxonomy).
 - **2026-07-06 (Mon)** — answer Greg Klebus's uparrow: AEM Discovery Skill LIVE in Coworker (5 internal orgs) — first AEM skill live, Pedro expected to act (#aem-agents `1782913018.757759`).
 - **2026-07-07** — AMA-vs-One-AEM-MCP PM decision dangling ("what is your PM decision?", Alex Trifan, #aem-agents thread `1781265348.778349`) — align w/ Tanju, route to Bertrand.
-- **2026-07-06 (Mon)** — Playbook relance (zero replies since 06-26) — lead with the Anthropic-store forcing function, not the pitch.
+- **2026-07-06 (Mon)** — Playbook uptake to FORMALIZE (not a relance — Pedro 07-03: Corey opened a JIRA off his ping [ID to capture], Sergiu OK'd): link the JIRA, scope Sergiu/EDA's commitment, add per-team adoption rows to the tracker.
 - **2026-07-06 (Mon)** — verify the Marketing Agent Testing wiki (Pedro/Yanira, owed "EOW" ~06-26 per the leadership-channel agenda) was actually delivered.
 
 ## History (closed)
