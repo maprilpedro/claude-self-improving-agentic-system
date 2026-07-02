@@ -158,6 +158,13 @@ Built-in tooling for the two highest-frequency workflows. Skills are **skillshar
 | `/consolidate` | End of session / "consolidate memory" | Pairs memory + knowledge sweep (never one without the other), hypothesis lifecycle, staleness flags, debrief asks, commit. Honest "hygiene-only" path when no new substance — does not fabricate learnings. |
 | `/system-review` | Monthly (1st, w/ Promotion Strategy review) or "run a system review" | The heavyweight sibling of `/consolidate`. Spawns `staleness-auditor`, then **acts** on the drift: hypothesis lifecycle (promote 3+ / kill / demote), scores decisions with knowable outcomes, prunes quality criteria, regenerates the dashboard, logs the review + resets cadence in `.claude/state.md`, commits. Confirms it is actually due before running. |
 
+**Skills (model-invocable — trigger automatically on matching phrases, added 2026-07-02):**
+
+| Skill | Auto-triggers on | Does |
+|---|---|---|
+| `/reply` | "j'aimerais répondre à", "draft une réponse", "réfléchis à une réponse", "help me reply", or a pasted thread + "what do I say" | Mandatory pre-flight (entities → ENTITY_INDEX + memory + Stakeholder Map; watches.md; knowledge citation P6; compiled voice rules) → draft in Pedro's voice + evidence table (sourced/inferred). NEVER sends. |
+| `/capture-slack` | a Slack permalink / pasted thread + "capture", "bank this", "ingère ce thread" | Fetch verbatim via Slack MCP (or paste/screenshot), attribute exactly, route once (memory block + Status if tasks + Stakeholder Map if new person + watches.md if dated follow-up), commit `learn:`. |
+
 **Subagents (`.claude/agents/`):** existing trio `pm-research` / `pm-strategic` / `pm-tactical`, plus:
 
 | Subagent | Read-only | Use for |
