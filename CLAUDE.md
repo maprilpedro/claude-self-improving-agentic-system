@@ -44,6 +44,8 @@ When creating or updating Status & Todo files in the Obsidian vault, ask: "Do yo
 
 `Task → INDEX.md → route to folders → work → update knowledge`
 
+**Retrieval rule (P6, 2026-07-02).** The system's weak link is retrieval, not capture (baseline audit: 292/313 entries never cited from working memory). For live work — a draft, a decision, a framing, a meeting prep — first pull the applicable entries via the routing tables and folder routers, and **cite them as `[[entry title]]`** in what you produce; if none apply, say "none apply". Citations are literal on purpose: `scripts/retrieval_audit.py` counts them, and the monthly review flags never-cited entries. Knowledge that isn't retrieved at decision time doesn't exist.
+
 ---
 
 ## Self-Improvement Directive
