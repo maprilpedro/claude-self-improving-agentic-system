@@ -8,7 +8,7 @@ disable-model-invocation: true
 
 Turn one meeting transcript into durable, correctly-routed knowledge. This is the most-repeated workflow in this repo; doing it by hand drifts (wrong project, stale predicted dates, forgotten commit, prep sections that strand wikilinks). The skill exists to make the compounding reliable, not to replace judgment — read the transcript and think like the PM, then route.
 
-`ARGUMENTS` = transcript path (optional). If empty, find the most recently modified file under the vault `Meeting Notes/` tree and confirm it with the user before ingesting.
+`ARGUMENTS` = transcript path (optional). If empty, check the repo `_inbox/` drop zone first (anything there is awaiting ingestion — after ingesting, move the file to the vault `Meeting Notes/` tree or delete it so the inbox stays empty), then fall back to the most recently modified file under the vault `Meeting Notes/` tree. Confirm the pick with the user before ingesting.
 
 ## Before anything: orient
 

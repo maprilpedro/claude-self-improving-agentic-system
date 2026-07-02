@@ -9,3 +9,9 @@ projects/**/*.jpeg
 .claude/worktrees/
 
 consolidation-dashboard.html
+
+# raw capture drop zone (capture-6, 2026-07-02) — only the README is tracked
+_inbox/*
+!_inbox/README.md
+# pre-change safety copies (P1-P7); delete 2026-07-16 per watches.md
+.claude/memory-backups/
