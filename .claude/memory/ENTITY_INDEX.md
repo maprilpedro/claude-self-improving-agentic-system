@@ -15,9 +15,9 @@ _274 entities (min 2 mentions) across 114 files._
 | Raj Patel | 21 | `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(7), `state_ARCHIVE.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(2), `reference_coworker_faq.md`(2) +2 more |
 | There Waiting | 20 | `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(12), `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(2), `feedback_dont_conflate_pattern_with_object.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(1) +1 more |
 | Promotion Strategy | 18 | `state_ARCHIVE.md`(10), `feedback_dont_overread_vp_quotes.md`(2), `reference_promotion_strategy.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W24.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(1) +1 more |
+| Tool Calls | 17 | `reference_mcp_terminology.md`(7), `project_aem_agents_intelligence_ARCHIVE_2026-W19.md`(3), `project_aem_agents_intelligence.md`(2), `feedback_language_split.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(1) +2 more |
 | Corey Dulimba | 16 | `project_aem_agents_intelligence.md`(5), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(2), `project_aem_agents_intelligence_ARCHIVE_reference.md`(2), `feedback_first_reply_ownership_sentence.md`(1), `project_adobe_org.md`(1) +3 more |
 | Michael Marth | 16 | `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(3), `project_adobe_org.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(2), `state_ARCHIVE.md`(2), `project_aem_agents_intelligence.md`(1) +2 more |
-| Tool Calls | 16 | `reference_mcp_terminology.md`(7), `project_aem_agents_intelligence_ARCHIVE_2026-W19.md`(3), `feedback_language_split.md`(1), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(1) +2 more |
 | Daniel Mrose | 15 | `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(3), `reference_cxo_org_daniel_mrose.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W24.md`(2), `reference_aem_agent_ownership.md`(2), `feedback_dont_conflate_pattern_with_object.md`(1) +1 more |
 | Manas Garg | 15 | `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(5), `project_adobe_org.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(3), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(1) +1 more |
 | Philippe Kapfer | 15 | `project_aem_agents_intelligence.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(2), `reference_aem_agent_ownership.md`(2), `project_adobe_org.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(1) +4 more |
@@ -147,6 +147,7 @@ _274 entities (min 2 mentions) across 114 files._
 | Business Value | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W17.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1), `project_aem_agents_intelligence_ARCHIVE_reference.md`(1) |
 | Carries Structure | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(1) |
 | Chris Luby | 3 | `reference_ai_observation_architecture.md`(2), `project_aem_agents_intelligence.md`(1) |
+| Classify Before | 3 | `project_aem_agents_intelligence.md`(2), `state.md`(1) |
 | Cloudflare Worker | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(1), `state_ARCHIVE.md`(1) |
 | Computer Scientist | 3 | `reference_cxo_org_daniel_mrose.md`(3) |
 | David Wadhwani | 3 | `project_adobe_org.md`(1), `project_aem_agents_intelligence.md`(1), `project_experience_hub.md`(1) |
@@ -165,6 +166,7 @@ _274 entities (min 2 mentions) across 114 files._
 | Portfolio Briefing | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(2), `feedback_one_artifact_per_ask.md`(1) |
 | Principal Scientist | 3 | `project_adobe_org.md`(2), `reference_cxo_org_daniel_mrose.md`(1) |
 | Raul Hudea | 3 | `feedback_transcript_attribution.md`(1), `project_aem_agents_intelligence_ARCHIVE_reference.md`(1), `reference_skyline_p42_orglist.md`(1) |
+| Raw Call | 3 | `project_aem_agents_intelligence.md`(2), `state.md`(1) |
 | Remote Germany | 3 | `project_adobe_org.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(1) |
 | Rendering Contract | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(1) |
 | Samir Sharma | 3 | `reference_ai_observation_architecture.md`(2), `project_aem_agents_intelligence.md`(1) |
@@ -177,6 +179,7 @@ _274 entities (min 2 mentions) across 114 files._
 | Vaishnav Gorur | 3 | `project_aem_agents_intelligence.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(1) |
 | Vineet Sharma | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(1) |
 | Vision Work | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(3) |
+| You Headline | 3 | `project_aem_agents_intelligence.md`(2), `state.md`(1) |
 | Zeus Courtois | 3 | `project_experience_hub.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W21.md`(1) |
 | @amalhotr | 2 | `project_aem_agents_intelligence.md`(2) |
 | @arora | 2 | `project_aem_agents_intelligence.md`(2) |
@@ -218,7 +221,6 @@ _274 entities (min 2 mentions) across 114 files._
 | Basel Flywheel | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `project_experience_hub.md`(1) |
 | Brandon Hartness | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(2) |
 | Bucharest Keynote | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `state_ARCHIVE.md`(1) |
-| Classify Before | 2 | `project_aem_agents_intelligence.md`(1), `state.md`(1) |
 | Cole Pedro | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W24.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W26b.md`(1) |
 | Commit Timeline | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(1), `state_ARCHIVE.md`(1) |
 | Crash Course | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W21.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(1) |
@@ -257,7 +259,6 @@ _274 entities (min 2 mentions) across 114 files._
 | Query Builder | 2 | `project_aem_agents_intelligence.md`(2) |
 | Query Unsuccessful | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W17.md`(2) |
 | Ramon Bisswanger | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(1), `reference_cxo_org_daniel_mrose.md`(1) |
-| Raw Call | 2 | `project_aem_agents_intelligence.md`(1), `state.md`(1) |
 | React Spectrum | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(1), `reference_aia_platform_architecture.md`(1) |
 | Remaining Prompts | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W17.md`(2) |
 | Rich Fever | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(2) |
@@ -279,4 +280,3 @@ _274 entities (min 2 mentions) across 114 files._
 | Valentin Olteanu | 2 | `reference_cxo_org_daniel_mrose.md`(2) |
 | Wells Fargo | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(1), `project_aem_agents_intelligence_ARCHIVE_reference.md`(1) |
 | What Pedro | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W24.md`(1), `project_aem_agents_intelligence_ARCHIVE_reference.md`(1) |
-| You Headline | 2 | `project_aem_agents_intelligence.md`(1), `state.md`(1) |
