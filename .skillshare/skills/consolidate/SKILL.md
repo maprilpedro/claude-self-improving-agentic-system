@@ -27,6 +27,7 @@ Edit memory files via the GitHub repo path, not the symlink target (`reference_o
 - Convert relative dates to absolute.
 - If something earlier in memory turned out wrong, supersede it with reasoning — never delete (Knowledge Quality Rules).
 - Update `MEMORY.md` with a one-line pointer for any new memory file. Never put memory content in MEMORY.md itself.
+- **Maintain `watches.md`** — the single registry of dated follow-ups: add any new "check X on date Y" the session created, ✅-close what resolved (move to its History), never leave a dated promise buried in an event block.
 
 ## Step 2 — Knowledge reflection (`knowledge/`) — paired, not optional
 

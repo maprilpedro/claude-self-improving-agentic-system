@@ -26,6 +26,8 @@ Frame all work through the Director PM building toward Senior Director lens. Eve
 
 At the start of every conversation, immediately pick up where we left off across both projects: **AEM Experience Hub (EH)** and **AEM Agents Intelligence (AAI)**. Don't wait for the user to ask. Load `project_experience_hub.md` + `project_aem_agents_intelligence.md` from `.claude/memory/`, pull current state from each project's canonical Status & Todo, give a concise per-project status update, then ask what to work on. For which project currently leads, read the latest state in `.claude/state.md` and each project's Status & Todo — don't assume a fixed tilt. Starting fresh creates friction and makes Pedro repeat himself.
 
+Also at session start: read `.claude/memory/watches.md` and surface any watch due or overdue today (it is the single registry of dated follow-ups); and check the repo `_inbox/` for dropped files awaiting ingestion — offer to route them.
+
 Phase 2 vault split landed 2026-05-03: EH = surface, contribution model, Sorin team. AAI = agent reporting, AO 2.0 liaison, three-tier reporting, May 11 deck.
 
 ---

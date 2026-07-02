@@ -95,6 +95,7 @@
 - [No Adobe-internal content to personal/off-boundary repos](feedback_no_internal_to_personal_repos.md) — Never push Adobe-internal content (paths, customer names, eng rosters, outage refs) to personal GitHub or external services; `--private` doesn't make it safe. Tools fetch internal data at runtime, don't store it. Push blocked correctly 2026-06-26.
 
 ## Projects
+- [Watches — dated follow-ups](watches.md) — single registry of "surface on date X" checks. Read at session start + by /reply; /consolidate maintains it.
 - [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.
 - [AEM Agents Intelligence](project_aem_agents_intelligence.md) — Agent reporting platform, AO 2.0 liaison, three-tier reporting, Loni+JM May 11 deck, H-005 resolved. Sister file to EH. Active = June+ banners + living reference; older event logs in the archive ↓.
 - [AAI archive (May 2026 + earlier)](project_aem_agents_intelligence_ARCHIVE.md) — Resolved AAI event logs split out 2026-06-24 to keep the active file Read-able. Load on demand by theme; not part of session-start recall.
