@@ -27,6 +27,7 @@ Same as the parent project CLAUDE.md.
 
 ## Fidelity rules
 
+- **De-garble via the glossary:** read `.claude/memory/reference_transcript_glossary.md` before extracting — map known Otter garbles to canonical names/terms (the two Ians, "1am MCP"=One AEM MCP, "Entropic"=Anthropic…). Analysis uses canonical; verbatim quotes stay original. Flag NEW garbles you resolve so the parent adds them to the glossary.
 - Attribution: "CR <ROOM>" labels are conference-room mics, not people, and map per-meeting not per-person (`feedback_transcript_attribution`). Resolve speakers by content; mark uncertain attributions `(attribution uncertain)`.
 - Sparse transcripts: if > ~40% of turns in your range are non-substance ("mhm/yeah/okay", screen-share gaps), say so — flag the chunk `low-fidelity, reconstructed from one-sided turns` so the synthesizer does not over-trust it.
 - Never invent. If a chunk boundary cuts a thought, say "thread continues past line N" rather than guessing the conclusion.

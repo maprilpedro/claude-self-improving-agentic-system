@@ -31,6 +31,8 @@
 - [AOv2 marketplace ≠ manifest](reference_aov2_marketplace_manifest.md) — Convergence/overlap/selection happens at the MANIFEST, not the marketplace. Multiple marketplaces is by design. Only 2 of 4 AEM repos (AIA, EPA) are real marketplaces; excat=app, forms=custom. Corrective frame for any "unify the skills" ask.
 - [Coworker rail access + two-assistants observation](reference_coworker_rail_access.md) — How to see the Coworker rail on stage (flags `ao2-aia-enabled` + `shell-coworker-enabled`; prod build PR-12141). The EH home shows TWO chat entry points in transition (AIA center + Coworker rail right) = Pedro's selection/consistency lane made literal. Rail looks like AIA by design ("AIA 2.0").
 
+- [Transcript glossary](reference_transcript_glossary.md) — canonical names/terms + known Otter garbles (the two Ians, 1am-MCP=One-AEM-MCP, Encore/Jean-Claude=person garbles…). Load BEFORE reading any transcript.
+
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
 - [UI/CX comfort gap](user_ui_cx_gap.md) — Strong at product/strategy/org, less comfortable at UI/CX/design execution. Scaffold those explanations; route design detail to Eugene/Silvia.
