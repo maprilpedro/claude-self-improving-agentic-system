@@ -234,7 +234,7 @@ Source: `Meeting Notes/Bertrand 1 1/20260512 - Bertrand Pedro 1 1.md`. AAI-side 
 
 **2. 🆕 Breaking changes manager — name rename needed.** Raspberry team finds "breaking changes" too negative. Concept stays: central repo declaring breaking changes w/ dates, impacted customers, procedures, docs. For ~120 customers internal use + customer-facing awareness. Pedro action: source new name.
 
-**3. 🆕 Two new EH hires start beginning of June.** Resolves Bertrand May 5 *"2 personnes remplacées pour EH"* note. Profiles:
+**3. 🆕 Two new EH hires start beginning of June.** ✅ CONFIRMED started 2026-06-01 (Pedro, 2026-07-03) — the System Review "did they start?" flag is closed; onboarding plan still open. Resolves Bertrand May 5 *"2 personnes remplacées pour EH"* note. Profiles:
 - One ex-AEP.
 - One full-stack AI engineer (*"qui fait pas mal d'AI"*).
 - Bertrand: *"ça peut vous aider à coder plein de trucs."* Capacity inflection for EH eng (Sorin = 1 effective today).

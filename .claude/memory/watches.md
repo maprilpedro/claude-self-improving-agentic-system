@@ -22,7 +22,7 @@ metadata:
 - **(no date — HOLD)** — no MCP numbers to Loni/JM until Christian Meyer's traffic review clears (his explicit ask 06-30, group DM `C0BE2P6J00M`; the review thread = cq-dev `C098RGRNYHW` thread `1782825794.226979` = #am-mcp).
 - ✅ **PUBLISHED 07-03** — MCP business-reporting framework wiki live: `wiki.corp.adobe.com/pages/viewpage.action?pageId=3958942271` (space ~pedrofer, DRAFT banner, no numbers upward per the HOLD). Vault twin carries the URL. Unblocks the Christian+Jabran relance — it can now point at the page.
 - **~2026-07-08 — awaiting Christian/Jabran** — CloudWatch Level-1 per-tool ↔ `jwt_client_id` / ext-int join. **NUDGED 07-03** (relance SENT in DM `C0BE2P6J00M`: wiki link + one-off-export first-pass option). Blocks value-per-customer = the Jean-Michel-level cut. If still silent ~07-08, raise it in the #am-mcp reporting-definition discussion instead of a 3rd DM ping.
-- **(no date)** — EH: confirm the 2 new hires started early June + onboarding plan (System Review flag, owed since 07-01).
+- **(no date)** — EH: onboarding plan for the 2 new hires (they DID start 06-01 — Pedro confirmed 2026-07-03; the started? half of the System Review flag is closed, the plan half stays open).
 - **(no date)** — run the empirical confusion-pairs pass on ~2 AEM agents for Ian Boston (committed 06-26: "I will run that and bring you the numbers").
 - **(no date)** — Rebecca+Sorin+Eugene+Harsh renderer-audit meeting to organize (owed since 07-01; confirm Harsh surname/role).
 
