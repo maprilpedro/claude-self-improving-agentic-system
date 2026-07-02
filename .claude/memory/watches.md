@@ -19,7 +19,8 @@ metadata:
 - **2026-07-17** — ISO-42001 decisive data lands → re-score the Felix data-compliance decision (`decisions/2026-04-01-...`).
 - **2026-07-20** — (context, EPA-owned) EPA "1st customer on AOv2 bridge" target date — check slippage vs the canvas timeline.
 - **2026-08-01** — monthly System Review: H-007 hard deadline (first cold reactive rep or archive inconclusive), parked-cap enforcement (12→8 + locus backfill), first measured retrieval-audit pass, EH staleness.
-- **(no date — HOLD)** — no MCP numbers to Loni/JM until Christian Meyer's traffic review clears (`#am-mcp`, his explicit ask 06-30).
+- **(no date — HOLD)** — no MCP numbers to Loni/JM until Christian Meyer's traffic review clears (his explicit ask 06-30, group DM `C0BE2P6J00M`; the review thread = cq-dev `C098RGRNYHW` thread `1782825794.226979` = #am-mcp).
+- **(no date — awaiting Christian/Jabran)** — CloudWatch Level-1 per-tool data ↔ `jwt_client_id` / ext-int join (asked 06-30, DM `C0BE2P6J00M`). Blocks value-per-customer reporting = the Jean-Michel-level cut. Nudge if silent by ~07-10.
 - **(no date)** — EH: confirm the 2 new hires started early June + onboarding plan (System Review flag, owed since 07-01).
 - **(no date)** — run the empirical confusion-pairs pass on ~2 AEM agents for Ian Boston (committed 06-26: "I will run that and bring you the numbers").
 - **(no date)** — Rebecca+Sorin+Eugene+Harsh renderer-audit meeting to organize (owed since 07-01; confirm Harsh surname/role).
