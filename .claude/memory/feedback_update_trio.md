@@ -20,6 +20,7 @@ After every analysis of meeting notes, transcript, Slack export, or significant 
 **Why:** Standing rule since 2026-03-24. Phase 2 split (2026-05-03) carves AAI as its own project with its own counterpart (Yanira). Sorin = EH 1-1; Yanira = AAI 1-1; Bertrand = boss, cross-cutting (kept EH-side, but referenced from AAI when AAI items raised). Each trio is the living operational doc set for that project.
 
 **How to apply:**
+- **One home per info (P4, 2026-07-02):** State of the Project = **headline-only** — dated 3-5 line block + a link to Status & Todo. Task lists and event narrative belong in Status & Todo only; people in the Stakeholder Map; the session story in the repo memory block. Never duplicate detail across them.
 - Classify the analysis input first: EH (surface, Sorin team, contribution) → EH trio; AAI (agent reporting, AO 2.0, Felix, Apoorva, Rubin, Loni+JM) → AAI trio.
 - If genuinely cross-cutting, update both trios but keep entries scoped (EH stakeholder map gets EH-relevant notes; AAI gets AAI-relevant notes).
 - Don't ask permission. Mention the trio updates in the wrap-up summary.

@@ -54,8 +54,8 @@ When PM substance arrived **in the session itself** (a Slack thread Pedro pasted
 
 Skip this step only if the session was hygiene-only (Step 0) or all substance already landed in the vault via `/ingest-transcript` this session.
 
-For the owning project (route by the CLAUDE.md project table), update the three canonical Key Files **and** the Status & Todo:
-- **State of the Project** — add a new dated `## Headline State (YYYY-MM-DD — <topic>)` block at the top. Do **not** silently rewrite an older headline; flag it stale and keep it for history (`feedback_refresh_stale_status_sections`).
+For the owning project (route by the CLAUDE.md project table), update the three canonical Key Files **and** the Status & Todo. **One home per info (P4, 2026-07-02):** session narrative → the memory RESUME block (once); tasks + event detail → Status & Todo; people → Stakeholder Map; State of the Project → headline only. Never write the same detail in two of them.
+- **State of the Project** — **headline-only**: add a dated `## Headline State (YYYY-MM-DD — <topic>)` block of **3-5 lines max** + one link to the Status & Todo for the detail. No task lists, no event narrative here — that's Status & Todo's home. Do **not** silently rewrite an older headline; older headlines stay as history (`feedback_refresh_stale_status_sections`).
 - **Stakeholder Map** — add any new people (role, status, dated note) to the right section; append a dated note to existing entries whose posture shifted. Don't duplicate EH-only stakeholders.
 - **Status & Todo** — add a dated `### Focus — week of <date>` block: closed items as `- [x] … ✅ <date>`, forward asks as `- [ ] … 📅 <date>`. Roll-up not task-tracker (`feedback_status_rollup_not_tracker`); rich tasks → one-liner + companion section (`feedback_rich_task_companion_section`).
 
@@ -80,6 +80,7 @@ For depth here, you may spawn the `staleness-auditor` subagent (read-only drift 
 
 ## Step 6 — Debrief, summarize, commit
 
+0. **No state.md journal** (P4, 2026-07-02) — do NOT append a session-journal bullet to `state.md` `## Notes`; the memory RESUME block is the single home for session narrative. `state.md` is touched only by `/system-review` (Review log row) or when a hypothesis/decision table row genuinely changes.
 1. **Debrief asks** — list the specific things only Pedro can answer that would unblock the next session (e.g. "Loni+JM deck outcome still uncaptured"). Short, pointed.
 2. **Change summary** (`feedback_document_updates`) — what changed in memory, what moved in knowledge, hypotheses transitioned, staleness flags raised. Skimmable, with 🔴/🟢 carry-forward called out.
 3. **Commit** (`Commit Rule`) — stage `knowledge/` and `.claude/memory/`, commit with the right prefix (`learn:` default; `pattern:` / `hypothesis:` / `correct:` / `experiment:` if that dominated; `note:` for memory-only / hygiene-only). Use `rtk git`. End with the Co-Authored-By trailer. **Never push** (auth-blocked). A session summary file in the vault `Meeting Notes/` is optional and only when the session warrants a durable narrative — do not spawn one by reflex (`feedback_one_artifact_per_ask`).
