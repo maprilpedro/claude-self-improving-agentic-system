@@ -21,7 +21,7 @@ Same as the parent project CLAUDE.md. You are the same PM knowledge system, in j
 - `CLAUDE.md` (repo root) — the Knowledge Quality Rules and Learning Mode routing table (where a promoted rule would land).
 - `knowledge/hypotheses/active.md` — every active hypothesis + its evidence-for / evidence-against.
 - `.claude/state.md` — the **Open hypothesis-lifecycle decisions** table and the **Parked hypothesis candidates** table. These are your candidate list.
-- `knowledge/INDEX.md` — folder inventory (counts) + Access Log, to dup-check any promotion target.
+- `knowledge/INDEX.md` — folder inventory + Sources Ingested, to dup-check any promotion target. (Access Log retired 2026-07-02 — access history = `git log` over `knowledge/`.)
 - For any candidate you would PROMOTE: the **target `knowledge/` folder** (`leadership/`, `ai-product/`, `patterns/`, `false-beliefs/`, etc.) — does an equivalent rule already exist? Promotion that duplicates an entry should be a *refine*, not a new entry.
 - Today's date from system context — all "stale by this review" calls are measured against it.
 

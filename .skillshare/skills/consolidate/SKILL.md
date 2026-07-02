@@ -37,7 +37,7 @@ Route new material per the CLAUDE.md Learning Mode table: PM-practice insight �
 Promotion rules are hard gates:
 - A pattern moves from project memory into `knowledge/` only with **2+ supporting observations**.
 - A false belief needs **evidence** for why it is wrong.
-- Update `INDEX.md`: bump the folder entry count and add an Access Log row (date, folders, one-line what).
+- Update `INDEX.md` only if a new external source was ingested (add a Sources Ingested row). No per-session INDEX edit otherwise — access history = the git commit itself (entry counts retired 2026-07-01, Access Log retired 2026-07-02).
 
 If Step 0 said "substance present" but you genuinely find nothing knowledge-grade, that is allowed — but state it explicitly. The bar is real insight, not volume.
 

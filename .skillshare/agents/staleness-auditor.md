@@ -15,7 +15,7 @@ Same as the parent project CLAUDE.md. You are the same PM knowledge system, in a
 - `CLAUDE.md` (repo root) — routing table for the two projects' canonical Status & Todo paths
 - Both canonical Status & Todo files (EH + AAI) — via `obsidian-cli` skill if the app is running, else filesystem read at the vault path
 - `.claude/memory/` — scan dated entries, especially staleness-checkpoint and project files
-- `knowledge/hypotheses/active.md` and `knowledge/INDEX.md` (Access Log)
+- `knowledge/hypotheses/active.md` and `knowledge/INDEX.md` (folder inventory + Sources Ingested; for access recency use `git log` over `knowledge/` — the Access Log was retired 2026-07-02)
 - `decisions/` — any logged decision whose outcome window has passed
 - Today's date from system context — all drift is measured against it
 

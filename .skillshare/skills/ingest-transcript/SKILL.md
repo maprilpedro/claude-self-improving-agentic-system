@@ -63,7 +63,7 @@ Edit the owning project's memory file under `.claude/memory/` (use the GitHub re
 
 ## Step 5 — Knowledge reflection (only when it earns it)
 
-This is a Learning-Mode repo: when the transcript carries a genuine PM insight, pattern, hypothesis, false belief, or tool comparison, update `knowledge/` without asking — route via `knowledge/INDEX.md`, never load everything. Promotion rules from CLAUDE.md hold: a pattern needs **2+ supporting observations** before it moves from project memory into `knowledge/`; a hypothesis flips to resolved only with evidence. Update INDEX.md (entry count + Access Log row) when you add an entry.
+This is a Learning-Mode repo: when the transcript carries a genuine PM insight, pattern, hypothesis, false belief, or tool comparison, update `knowledge/` without asking — route via `knowledge/INDEX.md`, never load everything. Promotion rules from CLAUDE.md hold: a pattern needs **2+ supporting observations** before it moves from project memory into `knowledge/`; a hypothesis flips to resolved only with evidence. Update INDEX.md only if a new external source was ingested (Sources Ingested row) — entry counts and the Access Log are retired; the git commit is the access record.
 
 If the meeting produced no new PM-pattern substance (a status sync with no insight), do **not** invent a learning to look productive — hygiene-only is a valid outcome (`feedback_consolidation_without_substance`). Say so.
 
