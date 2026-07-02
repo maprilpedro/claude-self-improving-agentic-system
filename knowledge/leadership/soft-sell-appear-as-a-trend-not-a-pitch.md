@@ -1,0 +1,7 @@
+# Soft Sell — Appear as a Trend, Not a Pitch
+
+_Section: Influence and Presence (from Greene, *The Art of Seduction*) — part of `leadership/`; router = README.md._
+- **Source**: Greene, *The Art of Seduction*, Appendix B: Soft Seduction
+- **Date**: 2026-04-02
+- **Insight**: The hard sell — direct argument, statistics, expert quotes, explicit persuasion — triggers resistance. The soft sell works through indirection: create positive associations around your message first, let people discover the argument themselves, make the adoption look like everyone is already doing it. Edward Bernays understood this in 1929: manufacture an event that the media covers as news, and you've bypassed every advertising defense the audience has. The key rules are: appear as news not as publicity; stir basic emotions not analytical thought; make the medium (the visual, the setting, the story) do the work the content cannot.
+- **PM Application**: When you want to shift a strategic direction at Adobe, don't write a memo arguing for it. Create conditions where the conclusion feels inevitable. Show up to Loni's session having already done the analysis, already having talked to three stakeholders, already having a draft one-pager. Make the idea look like it has momentum before it officially exists. Don't pitch the narrative — create evidence that the narrative is already true. This is the PM version of the soft sell.

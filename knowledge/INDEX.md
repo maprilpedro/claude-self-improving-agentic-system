@@ -4,7 +4,9 @@
 
 ## Folder Inventory
 
-> Entry counts are not tracked here — they drift and earn nothing. Grep the folder's `README.md` for a live count when you need one.
+> Entry counts are not tracked here — they drift and earn nothing. For a live count: split folders (`leadership/`, `ai-product/`, `patterns/` — one entry = one file, README = router) → `ls <folder> | wc -l`; single-file folders → grep its headers.
+>
+> **Split rule (P3, 2026-07-02):** in split folders, read the router README then open only the entry files you need — never bulk-load the folder. A single-file folder gets split the same way when it crosses ~20K tokens.
 
 | Folder | Purpose |
 |--------|---------|

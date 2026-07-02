@@ -1,0 +1,8 @@
+# There Waiting Has Two Forms — Consistent Chat or (Often) Invisible
+
+_Section: Distributed-Harness Architecture (AOv2 / Agentic NorthStar) — part of `ai-product/`; router = README.md._
+- **Date identified**: 2026-05-28
+- **Source**: Ian Boston, NorthStar thread round 3 (2026-05-28).
+- **Insight**: "There waiting" (the right capability present where the user works) does not mean a chat window on every surface. **The form follows the surface.** Sometimes a chat is right; often embedded/ambient functionality is better, and *"the best assistants are almost invisible"* (Ian) — e.g. keeping content on brand via real-time guidance woven into the authoring surface, no chat at all. Two forms of presence: (a) a **consistent chat** where chat is the right tool, and every chat must obey shared rules (same controls, the "+" offering the same class of actions, user messages on the same side, **learn-once-or-it-is-a-fail**); (b) **invisible/embedded** everywhere else. Which form a surface gets is **governed** by persona + context, not a per-team choice, via a *surface map* (the sibling of the skill registry).
+- **Why it matters**: this sharpens "there-waiting" and defuses the fragmentation fear harder — embedded/invisible help is not another window to juggle, so "many surfaces" never means "many chats." It also sets the UX bar: a chat the user must relearn per surface is a failure. Pairs with the three-fixes model: the consistency layer governs the chat-form surfaces; the registry feeds skills into both forms.
+- **Cross-link**: [[The Distributed Front Fragments in Three Ways — Three PM-Owned Fixes]], [[Selection and Cross-Surface Consistency Are a PM Mandate]].

@@ -1,0 +1,8 @@
+# Organizational Facts of Life — The System You Cannot Change
+
+_Section: Leverage and Influence Architecture (from McIntyre, *Organizational Politics*) — part of `leadership/`; router = README.md._
+- **Source**: McIntyre, *Organizational Politics* (Ch 2 — Organizational Facts of Life)
+- **Date**: 2026-04-02
+- **Insight**: McIntyre lists five facts about how organizations work that most people spend energy resisting instead of working within. (1) Decisions are made by humans who have biases, preferences, and personal agendas — logic alone doesn't move them. (2) Resources are always finite, and who gets them is a political question, not a meritocratic one. (3) Some people will dislike you regardless of your behavior — you cannot earn your way out of a personal incompatibility. (4) The informal organization matters more than the formal one: who talks to whom before meetings, whose concerns actually stop proposals, who gets cc'd and why. (5) Organizations are slow to recognize mistakes and even slower to fix them.
+- **Political Intelligence (PI)**: McIntyre's concept for the skill of operating effectively within these facts without being corrupted by them. High PI means you understand the system, work within it strategically, and maintain your integrity. Low PI means you're constantly surprised by the system and interpret its behavior as personal.
+- **PM application**: The list of Organizational Facts of Life is a diagnostic. Every time you're frustrated by the org's behavior, identify which fact you're encountering. That shifts the response from "this is unfair" to "this is predictable — how do I work with it?"

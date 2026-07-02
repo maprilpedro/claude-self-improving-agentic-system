@@ -1,0 +1,11 @@
+# "No Results Found" Is a Product Gap in Agentic UX — Not a Legitimate Answer
+
+_Section: Measuring AI Features — part of `ai-product/`; router = README.md._
+- **Date identified**: 2026-04-22
+- **Source**: Varun Kalra and Apoorva Gupta's team, Discovery Agent validation review (April 16 audit + April 22 Varun sync).
+- **Insight**: In classical search UX, "no results found" is a legitimate response — the system searched, nothing matched, the user knows to refine. In agentic UX, it's a failure to engage. Varun: "Telling the customer that we can't do anything and saying 'no results found' means we can't do anything. We need to nudge the customer — ask clarifying questions or give suggestions." An agent that returns empty-handed in response to a prompt has abdicated its role as an agent. The correct minimal response is "I understood this much, can you clarify X?" or "here are three directions you might explore."
+- **The differentiation problem**: When "unsupported query" and "no content matched" collapse into the same "no results found" response, the product team can't triage. Is this a content gap (real user need, no data)? A scope gap (user asking for something the agent was never built to do)? A search-quality gap (data exists, agent couldn't find it)? The single response destroys diagnostic clarity.
+- **The Governance Agent model as contrast**: Governance Agent explicitly returns "I cannot help with this" for unsupported queries. That's distinguishable from "nothing matched." You can see what the agent can't do and build a roadmap from it. Varun's framing: "If we are not doing this, we cannot differentiate between a scenario where the customer query legitimately led to no results vs. the query was not supported."
+- **Application**: In any agentic surface, banish the empty reply. Every failure mode should be named and distinguishable. Minimum failure taxonomy: (1) I understood but I'm not built for this, (2) I couldn't understand — please clarify, (3) I understood and the data doesn't exist, (4) I understood and there's a system error. Each is actionable differently.
+- **Anti-pattern**: Returning silent-fail responses that a classical search product would accept. The bar for agentic UX is engagement, not query fidelity.
+- **Related**: The Open Chat Box as Discovery Mechanism; Agents Need to Surface Problems, Not Just Solve Them.

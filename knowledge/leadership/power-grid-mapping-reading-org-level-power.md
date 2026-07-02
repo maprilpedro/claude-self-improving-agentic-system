@@ -1,0 +1,8 @@
+# Power Grid Mapping — Reading Org-Level Power
+
+_Section: Political Success and Systemic Visibility (from McIntyre, *Organizational Politics*) — part of `leadership/`; router = README.md._
+- **Source**: McIntyre, *Organizational Politics* (Ch 7 — Power Grid)
+- **Date**: 2026-04-02
+- **Insight**: The Power Grid maps real power (as opposed to positional power) across an organization. Two axes: formal authority (title, budget, headcount) and informal influence (who people actually listen to, who gets consulted before decisions are made, whose concerns stop proposals from moving forward). The people with high formal authority and high informal influence are the core power holders. The dangerous ones are those with low formal authority but high informal influence — they can block your agenda without ever appearing in the org chart. The interesting ones are those with high formal authority but low informal influence — they hold a title but not the room.
+- **How to build the grid**: Map the stakeholders relevant to your initiative. For each, ask: (a) what formal authority do they hold over decisions I need? (b) who do they influence informally? (c) who influences them? The answers reveal who you need to cultivate, who you need to neutralize, and who is irrelevant despite their title.
+- **PM application for Experience Hub**: Apply this to the Skills and MCP launch. Formal authority: Bertrand (greenlight), Loni (direction). Informal influence: Eugene (engineering signal), Felix (reporting credibility), Ian (compliance clearance). Map who influences each of them — that's the layer that matters before any major alignment push.

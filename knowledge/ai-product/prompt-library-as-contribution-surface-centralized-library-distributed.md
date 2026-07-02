@@ -1,0 +1,9 @@
+# Prompt Library as Contribution Surface — Centralized Library, Distributed Ownership
+
+_Section: Personalization Architecture for AI Surfaces — part of `ai-product/`; router = README.md._
+- **Date identified**: 2026-04-20
+- **Source**: Fu-Chi + Eugene sync. Eugene: "prompts should not be hardcoded in EH." Fu-Chi: today pulls from wiki, wants prompt library integration.
+- **Insight**: In an ecosystem with many AI agents and many surfaces, the prompt library should be treated as a shared contribution surface — one centralized library, distributed ownership (each agent team owns their own prompts, tests them, adds/removes them). Surfaces (EH, AI Assistant right rail, AEP recommendation engine) all consume the same library. PMs self-serve updates; the personalization layer picks them up automatically. No hardcoded prompts in any surface.
+- **Why this works**: (1) A single source of truth means an agent team's prompt improvement shows up everywhere immediately. (2) Surfaces don't fight over prompt authorship. (3) The personalization layer is decoupled from prompt authoring — it consumes whatever the library holds, ranks it against user signals. (4) New surfaces can spin up against the same library without requiring prompt duplication.
+- **Where it breaks**: If the prompt library owner (cross-product platform team) doesn't expose a clean read API, every surface falls back to wiki/hardcoded lists. That's the EH state today. This is the contribution model pattern applied to prompts — same governance principles (ownership split, consumer teams don't build for others, quality gate on the platform side) apply.
+- **Application**: When designing any AI surface that shows prompts, the default should be "source from the shared prompt library." If no such library exists, the product question is not "what prompts should we ship" — it's "who builds the library and what's the access API?" That's a platform-level ask, not a surface-level ask.
