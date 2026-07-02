@@ -1,4 +1,10 @@
-# Experiment Log
+# Experiment Log — RETIRED 2026-07-02 (P7)
+
+> This mechanism never took: one experiment in 3.5 months, and the system's only real
+> live experiment (H-007, hard deadline 2026-08-01) runs in `hypotheses/` — which is
+> where experiment-shaped material routes now (hypothesis + evidence + resolution date).
+> Reopen this file only if a genuinely designed experiment (control/variant/metric) is
+> born; until then, don't route anything here. EXP-001 preserved below — never delete.
 
 > Track all experiments: A/B tests, discovery experiments, process experiments.
 

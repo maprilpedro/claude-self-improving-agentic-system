@@ -16,7 +16,7 @@
 | `hypotheses/resolved.md` | Confirmed or killed hypotheses with evidence |
 | `false-beliefs/` | PM conventional wisdom proven wrong |
 | `tools/` | Decision matrix: when to use which PM method/tool |
-| `experiments/` | Experiment tracking and results |
+| `experiments/` | RETIRED 2026-07-02 — experiment-shaped material routes to `hypotheses/` (log.md kept as tombstone) |
 | `leadership/` | Senior Director operating patterns: cross-org influence, strategic narrative, stakeholder gravity |
 | `interpersonal/` | One-on-one relationship dynamics: reading people, political types, managing up/lateral/down, trust, conflict, adversaries |
 | `ai-product/` | PM knowledge for AI-native products: measurement, surface strategy, failure modes, agent dynamics |
@@ -60,7 +60,6 @@
 | User research / interviews | `domain/` | `hypotheses/active.md`, `patterns/` |
 | Competitive analysis | `domain/` | `false-beliefs/`, `patterns/` |
 | Choosing a method/framework | `tools/decision-matrix.md` | `patterns/` |
-| Designing an experiment | `experiments/log.md` | `hypotheses/active.md` |
 | Strategy / roadmap work | `patterns/` (Strategy Cascade) | `domain/` (Product Strategy section), `tools/` (Strategy Choice Cascade), `false-beliefs/` (FB-023, FB-024) |
 | Communicating strategy upward | `leadership/` (Communicating Strategy Upward) | `tools/` (Strategy Choice Cascade), `domain/` (Product Strategy) |
 | Challenging assumptions | `false-beliefs/` | `hypotheses/resolved.md` |

@@ -65,7 +65,7 @@ When asked to study, analyze, or research PM material, **always update relevant 
 | Hypothesis from data | `knowledge/hypotheses/active.md` |
 | Contradicts conventional wisdom | `knowledge/false-beliefs/catalog.md` |
 | Tool/method comparison | `knowledge/tools/decision-matrix.md` |
-| Experiment design or result | `knowledge/experiments/log.md` |
+| Experiment design or result | `knowledge/hypotheses/active.md` — as a hypothesis with a resolution date (`experiments/` retired 2026-07-02) |
 
 **Folder structure (P3 split, 2026-07-02):** `leadership/`, `ai-product/`, `patterns/` are split — one entry = one file, the folder README is the router (title + gist table). Read the router, open only the entry files you need; never bulk-load a split folder. New entry there = new file + router row. The other folders are single-file while they stay under ~20K tokens (the P1 cap rule applies to them too — split a folder the same way when it crosses it).
 
@@ -177,7 +177,6 @@ Skills compose: `/ingest-transcript` → `transcript-extractor`; `/consolidate` 
 | Analyze user interview | `domain/` | `hypotheses/active.md`, `patterns/` |
 | Competitive analysis | `domain/` | `false-beliefs/`, `patterns/` |
 | Choosing a framework | `tools/decision-matrix.md` | `patterns/` |
-| Experiment design | `experiments/log.md` | `hypotheses/active.md` |
 | Strategy / roadmap | `patterns/` | `domain/`, `tools/`, `false-beliefs/` |
 | Communicating strategy upward | `leadership/` | `tools/`, `domain/` |
 | Challenging assumptions | `false-beliefs/` | `hypotheses/resolved.md` |

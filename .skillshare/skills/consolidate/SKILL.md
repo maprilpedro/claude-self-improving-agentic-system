@@ -34,7 +34,7 @@ Read `knowledge/INDEX.md` first, route to relevant folders, never load everythin
 
 **Retrieval first (P6, 2026-07-02).** Before adding anything, name which existing entries the session's events are instances of — cite them as `[[entry title]]` in the memory block ("no new entry — instance of [[X]]" already does this; keep the citation literal so the retrieval audit can count it). If an entry applied but wasn't used during the live work, flag it ("next time, lead with [[X]]").
 
-Route new material per the CLAUDE.md Learning Mode table: PM-practice insight → `domain/`; recurring framework → `patterns/`; data hypothesis → `hypotheses/active.md`; contradicts conventional wisdom → `false-beliefs/`; tool/method comparison → `tools/`; experiment → `experiments/`; leadership/visibility → `leadership/`; person-reading → `interpersonal/`; AI-product → `ai-product/`.
+Route new material per the CLAUDE.md Learning Mode table: PM-practice insight → `domain/`; recurring framework → `patterns/`; data hypothesis → `hypotheses/active.md`; contradicts conventional wisdom → `false-beliefs/`; tool/method comparison → `tools/`; experiment-shaped material → `hypotheses/active.md` (a hypothesis with a resolution date; `experiments/` retired 2026-07-02); leadership/visibility → `leadership/`; person-reading → `interpersonal/`; AI-product → `ai-product/`.
 
 Promotion rules are hard gates:
 - A pattern moves from project memory into `knowledge/` only with **2+ supporting observations**.

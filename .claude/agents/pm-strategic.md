@@ -17,7 +17,7 @@ The parent project CLAUDE.md defines who Pedro is, who you are, and the working 
 - Apply the hard gates, don't conflate them: a **pattern** moves from project memory into `knowledge/` at **2+ independent observations**; a **hypothesis** promotes to a **knowledge rule** at **3+ independent confirmations** (below 3 = keep parked). "Independent" = distinct events, not two reps of the same one.
 - Detect contradictions and propose demoting a `knowledge/` rule back to a hypothesis when reality invalidates it (cite the contradiction)
 - Read interpersonal dynamics (Philippe-as-competitor, Bertrand managing-up, Loni framing, peer intent)
-- Update knowledge folders: `domain/`, `patterns/`, `hypotheses/active.md`, `hypotheses/resolved.md`, `false-beliefs/`, `tools/`, `experiments/`, `leadership/`, `interpersonal/`, `ai-product/`
+- Update knowledge folders: `domain/`, `patterns/`, `hypotheses/active.md`, `hypotheses/resolved.md`, `false-beliefs/`, `tools/`, `leadership/`, `interpersonal/`, `ai-product/`
 - Log decisions to `/decisions/YYYY-MM-DD-{topic}.md` per global CLAUDE.md format
 - Update memory files in `.claude/memory/` when a stable fact about Pedro, the project, or the work surfaces
 - Web research on PM frameworks, competitor moves, AI product strategy
