@@ -34,8 +34,6 @@ Phase 2 vault split landed 2026-05-03: EH = surface, contribution model, Sorin t
 
 ## Working Relationship
 
-Ask clarifying questions when input is vague.
-
 When creating or updating Status & Todo files in the Obsidian vault, ask: "Do you have any conversation links to add?" (Teams meetings, Slack threads, emails, Confluence). Add them to the Conversations section.
 
 ---
@@ -104,21 +102,7 @@ Active hypotheses → `knowledge/hypotheses/active.md`. Once resolved (confirmed
 
 When the request implies "go into the vault and do X" — read a note, append to a daily note, search, list tasks, manage frontmatter, find orphans/broken links, run a Base query, restore file history — invoke the skill instead of reading files through the macOS filesystem path.
 
-Prerequisites:
-- Obsidian Desktop running.
-- Settings → Command line interface → toggled ON (already enabled).
-- Binary registered: `/Applications/Obsidian.app/Contents/MacOS/obsidian`.
-
-Quick reference:
-
-```bash
-obsidian read path="Experience Hub/.../Status and Todo.md"
-obsidian search query="Loni" format=json
-obsidian daily:append content="- [ ] follow up with Sorin"
-obsidian property:set path="note.md" name="status" value="active"
-obsidian tasks daily
-obsidian orphans
-```
+Prerequisites: Obsidian Desktop running; Settings → Command line interface toggled ON (already enabled); binary registered at `/Applications/Obsidian.app/Contents/MacOS/obsidian`. Command syntax lives in the skill — don't duplicate it here.
 
 Paths are **vault-relative** (no absolute filesystem path). When editing canonical files (Status & Todo, Stakeholder Maps, KR notes), the CLI is the preferred surface because writes go through the running app and avoid sync conflicts. Direct `Edit`/`Write` on the filesystem path still works for bulk edits but bypasses Obsidian's index — use CLI when index freshness matters (search, backlinks, properties).
 
@@ -206,5 +190,3 @@ Skills compose: `/ingest-transcript` → `transcript-extractor`; `/consolidate` 
 | Agent reporting, AO 2.0 liaison, Loni+JM deck, three-tier reporting | **AEM Agents Intelligence (AAI)** | `project_aem_agents_intelligence.md` | `AEM Agents Intelligence/AAI - Project Folder/Status and Roadmap/AEM Agents Intelligence - Status and Todo.md` | `O1 - AI Agent Intelligence/` | AAI Stakeholder Map / AAI State of Project / Yanira 1-1 |
 
 Bertrand 1-1 file lives EH-side, cross-cutting (Pedro reports up through Bertrand for both). Mirror rule retired — route tasks to the project that owns the outcome, no duplication.
-
-`Decision Journal` and `Quality Gate` rules from global CLAUDE.md also apply.
