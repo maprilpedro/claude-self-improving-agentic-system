@@ -32,13 +32,13 @@ When drafting a message Pedro will send (Slack, email), it must sound like **him
 - **He makes asks MORE assertive than I draft them.** My flat "Perfect, I'll use the channel" → his "PR stuck since yesterday, blocking our migration, any plan for support beyond the channel (aka production)?" He adds urgency + a forward production ask. Under-playing an ask is a miss; when there's leverage (a stuck PR), use it.
 - **Recurring, restated 2026-07-02: be shorter, stop repeating** (applies to chat too, not just drafts). "tu répètes toujours pas mal, fais plus court." Cut restatement and option-surveys; one recommendation, tight.
 
-**🟢 Calibration #2 from what he shipped (2026-07-04, the EH chat-entry email — sent my draft with edits, asked me to note the diffs):**
+**🟢 Calibration #2 from what he shipped (2026-07-03, the EH chat-entry email — sent my draft with edits, asked me to note the diffs):**
 - **He softens my assertions in group emails:** "here is where we stand" → "where **I believe** we stand"; "I want one entry" → "I **would like** one entry". My assertive register is right for asks (see Victor calibration) but too hard for *situational claims* in front of a group — hedge the reads, keep the asks firm.
 - **He invites the manager to override before decisions harden:** added "@Bertrand please chime in shall you see it differently" ahead of his calls. PM decisions announced to the team get an explicit manager-veto slot, in writing. Not weakness — cover + co-author posture in one line ([[feedback_co_author_dont_answer_over]]).
 - **He widens the audience upward/design-ward:** added Silvia as a direct recipient (despite her PTO — dropped my "bring Silvia in when she's back" relay via Eugene) and added Guliz to the inform list on the prompts pause. Design leadership gets included directly, not relayed.
 - Kept: flags inline, the "Needs confirmation" marker, the Bertrand teaser, all five Sorin bullets. Added "Best Regards," sign-off (email formality floor).
 
-**🟢 Calibration #3 (2026-07-04, the Bertrand readiness note — sent with edits, diffs noted):**
+**🟢 Calibration #3 (2026-07-03, the Bertrand readiness note — sent with edits, diffs noted):**
 - **Single-word metaphors count as metaphors.** He cut "tripwire" → "My suggestion:" and "on that hold" → "on that". I catch metaphor-nouns in prose but missed them as headers/labels — sweep those too.
 - **State the want, not the veto.** He cut "before anyone flips a customer" from the ORR line — keeps "I want the ORR section filled per agent" without claiming gate authority he doesn't formally hold. Same family as hedging situational claims: assert the work, don't assert jurisdiction.
 - **Don't pre-label priority for the reader.** "Lower urgency, tracked on the canvas" → "Also tracked on the canvas". He lists; Bertrand ranks.

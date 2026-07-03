@@ -5,7 +5,7 @@ metadata:
   type: reference
 ---
 
-# Slack canvas API — editing gotchas (learned the hard way, 2026-07-04, GA Readiness canvas F0BD4RALNHF)
+# Slack canvas API — editing gotchas (learned the hard way, 2026-07-03, GA Readiness canvas F0BD4RALNHF)
 
 1. **Never trust section-targeted `replace`.** Observed behavior is erratic: replacing a paragraph consumed the *following* sibling blocks (Key/Cutover sections wiped); replacing a table emptied the table's cells and inserted the new content *after* it; replacing with empty content deleted the *next* section (lost a good table). Three incidents in one session.
 2. **The safe mode = full-canvas `replace` (no `section_id`) with the complete intended content.** Read the canvas first, rebuild the full markdown with the edits, replace once, read back to verify. Deterministic.
