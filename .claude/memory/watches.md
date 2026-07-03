@@ -40,14 +40,15 @@ metadata:
 - **2026-07-06 (Mon)** — work the Slack-audit response queue: vault note `Slack Audit 2026-07-03 — Response Queue.md` (7 answer-owed items w/ permalinks + angles; the 07-03 session took the day-after + EH lanes instead).
 - **(no date)** — Rebecca+Sorin+Eugene+Harsh renderer-audit meeting to organize (owed since 07-01; Harsh = Harsh Chiki per the rendering-channel thread — "markdown nailed, next = data grid").
 - **2026-07-06 (Mon)** — reply owed to Corey on the Figma-agent thread — **the WORK is already DONE 06-25** (aem-epa PR #97 ports OneAdobe#58; Figma CF Visualizer = EPA capability, deliberate divergence from upstream's standalone-agent registration; DB-confirmed 0 standalone rows / 1217 figma mentions under EPA; report re-analyzed + published; vault note `Agent Reports/2026-06-25 OneAdobe ports`). Only the in-thread reply is owed — 3 lines, done-facts. Combine with the Playbook JIRA-key ask to Corey (separate DM line).
-- **2026-07-06 (Mon)** — answer Greg Klebus's uparrow: AEM Discovery Skill LIVE in Coworker (5 internal orgs) — first AEM skill live, Pedro expected to act (#aem-agents `1782913018.757759`).
+- ✅ **SENT 07-03** — Greg Klebus uparrow answered (light version: GA-canvas row + selection check + adoption denominator; org list + usage-landing asked to Ankur in-thread). GA canvas + vault twin updated same day (Discovery = LIVE row).
+- **2026-07-07 (Tue)** — Ankur's answer on the Discovery org list + where the usage lands (asked 07-03 in #aem-agents). The usage-landing answer = the first concrete test of reporting-on-Coworker; feed into the Angela/AIQ track.
 - **2026-07-07** — AMA-vs-One-AEM-MCP PM decision dangling ("what is your PM decision?", Alex Trifan, #aem-agents thread `1781265348.778349`) — align w/ Tanju, route to Bertrand.
 - **2026-07-06 (Mon)** — Playbook uptake to FORMALIZE (not a relance — Pedro 07-03: Corey opened a JIRA off his ping [ID to capture], Sergiu OK'd): link the JIRA, scope Sergiu/EDA's commitment, add per-team adoption rows to the tracker.
 - **2026-07-06 (Mon)** — verify the Marketing Agent Testing wiki (Pedro/Yanira, owed "EOW" ~06-26 per the leadership-channel agenda) was actually delivered.
 - ✅ **ANSWERED 07-03 (6 min)** — Ian's reply to the two-doors + VA7 ping: doors DISTINCT, DPaaS structurally OFF for customer data, VA7 homing contested by Ian himself, third door emerging (in-region Databricks → AEP datasets, CustomerDataReporting-20260622 pattern). Banked in AAI memory 07-03 13:17 block.
 - ✅ **READ 07-03** — Ian's CustomerDataReporting-20260622 diagram (Pedro screenshot): customer-facing lane, in-region Spark jobs → aggregate datasets → API-first delivery; AEP/Coworker data absent = the missing mount; deliverable 3 names the EH team. Banked in the AAI 13:17 block.
 - **2026-07-06 (Mon), Sorin 1-1** — flag Ian's deliverable 3: the "Experience Shell Reports App" lands on EH (Experience Hub team named in the diagram) and its example = Activation Reports = Sylvia's DAM-metrics ask (06-24). Same object converging from two directions — EH should own the surface slot via the contribution model, not discover it late.
-- **(no date — Pedro's call)** — GA canvas F0BD4RALNHF still carries 6 "07-04" stamps (real date 07-03): 6 manual UI micro-edits, or Claude full-replace on request.
+- ✅ **DONE 07-03** — GA canvas F0BD4RALNHF full-replaced (safe mode): the 6 "07-04" stamps → 07-03, Discovery row → LIVE (5 internal orgs, Ankur announce), Victor-unblock note on the Governance blocker. Vault twin synced.
 
 ## History (closed)
 
