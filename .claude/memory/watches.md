@@ -42,6 +42,8 @@ metadata:
 - **2026-07-07** — AMA-vs-One-AEM-MCP PM decision dangling ("what is your PM decision?", Alex Trifan, #aem-agents thread `1781265348.778349`) — align w/ Tanju, route to Bertrand.
 - **2026-07-06 (Mon)** — Playbook uptake to FORMALIZE (not a relance — Pedro 07-03: Corey opened a JIRA off his ping [ID to capture], Sergiu OK'd): link the JIRA, scope Sergiu/EDA's commitment, add per-team adoption rows to the tracker.
 - **2026-07-06 (Mon)** — verify the Marketing Agent Testing wiki (Pedro/Yanira, owed "EOW" ~06-26 per the leadership-channel agenda) was actually delivered.
+- **(no date — Pedro's send)** — the Ian Boston ping (two-doors + VA7 region, option-B scope line, drafted 07-03) — once sent, set "Ian reply before Angela Mon 07-06" watch.
+- **(no date — Pedro's call)** — GA canvas F0BD4RALNHF still carries 6 "07-04" stamps (real date 07-03): 6 manual UI micro-edits, or Claude full-replace on request.
 
 ## History (closed)
 
