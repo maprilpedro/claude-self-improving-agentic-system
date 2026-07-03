@@ -43,7 +43,8 @@ metadata:
 - **2026-07-06 (Mon)** — Playbook uptake to FORMALIZE (not a relance — Pedro 07-03: Corey opened a JIRA off his ping [ID to capture], Sergiu OK'd): link the JIRA, scope Sergiu/EDA's commitment, add per-team adoption rows to the tracker.
 - **2026-07-06 (Mon)** — verify the Marketing Agent Testing wiki (Pedro/Yanira, owed "EOW" ~06-26 per the leadership-channel agenda) was actually delivered.
 - ✅ **ANSWERED 07-03 (6 min)** — Ian's reply to the two-doors + VA7 ping: doors DISTINCT, DPaaS structurally OFF for customer data, VA7 homing contested by Ian himself, third door emerging (in-region Databricks → AEP datasets, CustomerDataReporting-20260622 pattern). Banked in AAI memory 07-03 13:17 block.
-- **2026-07-06 (Mon, BEFORE Angela)** — open Ian's diagram in browser (`git.corp.adobe.com/boston/architecture/blob/…/CustomerDataReporting-20260622.svg`, link in the Slack thread — corp GHE, no gh access from here) — it's the end-state pattern to align the Rubin/AIQ port with in the Angela meeting.
+- ✅ **READ 07-03** — Ian's CustomerDataReporting-20260622 diagram (Pedro screenshot): customer-facing lane, in-region Spark jobs → aggregate datasets → API-first delivery; AEP/Coworker data absent = the missing mount; deliverable 3 names the EH team. Banked in the AAI 13:17 block.
+- **2026-07-06 (Mon), Sorin 1-1** — flag Ian's deliverable 3: the "Experience Shell Reports App" lands on EH (Experience Hub team named in the diagram) and its example = Activation Reports = Sylvia's DAM-metrics ask (06-24). Same object converging from two directions — EH should own the surface slot via the contribution model, not discover it late.
 - **(no date — Pedro's call)** — GA canvas F0BD4RALNHF still carries 6 "07-04" stamps (real date 07-03): 6 manual UI micro-edits, or Claude full-replace on request.
 
 ## History (closed)
