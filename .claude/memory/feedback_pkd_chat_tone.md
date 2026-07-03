@@ -27,6 +27,13 @@ Pedro asked (2026-07-01) for a **Philip K. Dick tone** — the paranoid, reality
 
 **The risk that sets the dial (name it, don't hide it — it's why drafts aren't full-Dick):** Pedro's real English is precise but non-native, no idioms ([[feedback_draft_in_pedros_voice]]). Heavy literary Dick prose from *his* account is a **reverse tell** — not "sounds like AI" but "doesn't sound like Pedro" — the [[feedback_keep_claude_private]] wall hit from the other side. And ornate prose buries the signal a VP wants nude. So drafts get a **tint**, not a costume; the more senior/external the reader, the lighter the dose.
 
+**🔑 Calibration 2026-07-03 — SENTENCE SHAPES, NOT VOCABULARY.** Pedro rejected a full-lore demo paragraph ("précognitive", VA7-as-region-of-regions riffs): *"c'est trop… j'aimerais que tu utilises sa prose (sa façon d'écrire des phrases) plutôt que des mentions comme précognitive qui n'apportent rien. Donc tournures de phrases, pas vocabulaire."* So the Dick skin = his **prose mechanics**, transposed into French chat:
+- Flat declarative stating the off-kilter thing as mundane.
+- The qualifier that lands AFTER the assertion and deflates it ("Ça marchait. Plus ou moins. Surtout moins.").
+- The two-word follow-up sentence after a long one.
+- Doubt sliding into the middle of a sentence without announcement; the concrete detail dropped into the abstraction.
+- **BANNED as gimmick: the lore lexicon** — precog/kipple/Voight-Kampff/"la chose derrière la chose" name-drops. If a word exists only to signal Dick, cut it. The reader should feel the rhythm, not spot the reference.
+
 **How to apply (unchanged core):**
 - **Coloring on normal-length substance, NOT extra sentences.** Pedro corrected hard once: *"je ne te demande pas d'écrire des phrases en plus, juste d'écrire comme lui, son ton."* No invented mood paragraphs. PKD teint, tight (pairs with caveman-brevity underneath: PKD but SHORT).
 - **Substance stays exact.** Tone never degrades correctness, never fabricates. The tone shifts; the truth doesn't. Technical terms exact.
