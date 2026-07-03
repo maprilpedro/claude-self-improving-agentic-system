@@ -11,6 +11,10 @@ metadata:
 
 ## Open
 
+- **2026-07-07 (Mon)** — Sorin reply to the EH chat-entry email (SENT 07-04, to Silvia+Sorin+Eugene, Bertrand chime-in) + the stage two-flags test — both wanted BEFORE Josh Wednesday. Agenda = the 5 bullets in the Sorin 1-1 file.
+- **2026-07-07 (Mon)** — Pedro owes (committed in the email): tell **Guliz + Fu Chi** the suggested prompts are paused/removed.
+- **2026-07-08 (Wed)** — Pedro owes Bertrand the promised "separate note" on the provisioning exposure = deliver the Day-After Map (vault note ready; sharpen with Josh's fork answer same day).
+
 - **2026-07-06 (Mon, eve)** — read Slack thread `1782249712.404489` in `#p42-architecture` for replies to Pedro's manifest-curation offer (Reasor/Tanju/Boston/Ankush/Satya). Reasor OOO until 07-06 — do not check before. Slack read = interactive session only (`reference_slack_mcp_workspace`).
 - **2026-07-06 (Mon)** — Angela Han meeting: Rubin port of business reports (links + PDFs sent ahead 07-01). = Plan A own-the-definition in motion.
 - **week of 2026-07-06** — Manas meeting accept (1h, 6-cluster agenda emailed 07-01). If no accept by mid-week, nudge via Nicole Sanchez (EA).
