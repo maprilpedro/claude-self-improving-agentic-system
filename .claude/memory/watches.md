@@ -14,7 +14,7 @@ metadata:
 - **2026-07-06 (Mon, eve)** — read Slack thread `1782249712.404489` in `#p42-architecture` for replies to Pedro's manifest-curation offer (Reasor/Tanju/Boston/Ankush/Satya). Reasor OOO until 07-06 — do not check before. Slack read = interactive session only (`reference_slack_mcp_workspace`).
 - **2026-07-06 (Mon)** — Angela Han meeting: Rubin port of business reports (links + PDFs sent ahead 07-01). = Plan A own-the-definition in motion.
 - **week of 2026-07-06** — Manas meeting accept (1h, 6-cluster agenda emailed 07-01). If no accept by mid-week, nudge via Nicole Sanchez (EA).
-- **2026-07-08 (Wed)** — Josh Hailpern meeting: surface/rail fork (manifest repoint vs rail replace), rendering (A2UI disabled in EPA manifest PR 5811), two-entry-points consistency. Reporting stays OUT (Manas+Angela lane).
+- **2026-07-08 (Wed)** — Josh Hailpern meeting: surface/rail fork (manifest repoint vs rail replace), rendering (A2UI disabled in EPA manifest PR 5811), two-entry-points consistency, **+ the EH prompt-bar handoff contract** (can the EH center bar open the Coworker rail pre-filled with prompt + context — the EH embed's survival question, 07-04). Reporting stays OUT (Manas+Angela lane). Fork answer → sharpen the 6-gap Bertrand escalation ([[AIA Decommission — Day-After Map (2026-07-04)]] in vault).
 - **2026-07-16** — delete `.claude/memory-backups/20260702-pre-P1/` (pre-P1-P7 safety copies; Pedro OK'd 2-week retention 07-02). Confirm with Pedro, then remove.
 - **2026-07-17** — ISO-42001 decisive data lands → re-score the Felix data-compliance decision (`decisions/2026-04-01-...`).
 - **2026-07-20** — (context, EPA-owned) EPA "1st customer on AOv2 bridge" target date — check slippage vs the canvas timeline.

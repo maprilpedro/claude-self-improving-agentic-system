@@ -11,7 +11,10 @@ metadata:
 
 > **📦 Archive discipline (weekly shards; last restructure 2026-07-01).** Old context lives in per-ISO-week shards `project_aem_agents_intelligence_ARCHIVE_<year>-W<wk>.md` (+ long-form reference in `..._ARCHIVE_reference.md`), mapped by `..._ARCHIVE_INDEX.md`. **To find old context: read the INDEX first (dates + topics per shard), then `rtk proxy grep` the shard — never full-Read a shard.** This active file = hot state (last ~1 week of events, currently **06-24→06-30**) + the compact durable reference below. **Cap rule, enforced by `scripts/archive_memory.py` (run in `/consolidate` Step 5): keep this file < ~20K tokens / one-shot-readable; event blocks older than ~2 weeks auto-archive to their weekly shard + the index rebuilds.**
 
-> ## ▶️ RESUME HERE — left off 2026-07-03 (night)
+> ## ▶️ RESUME HERE — left off 2026-07-04
+>
+> ### 🟢📐 2026-07-04 — Day-after map DELIVERED (Pedro's "what works Aug 1?" ask) + banked
+> Answer built + banked in vault [[AIA Decommission — Day-After Map (2026-07-04)]] (GA canvas re-read live, unchanged since 06-26). **Synthesis: on Aug 1 what works for a standard AEM customer is MCP; the in-product assistant works only for hand-provisioned orgs (aem-orgs = 5 internal, base = 2k/300-400 active), markdown-only, on a fraction of agents (EPA furthest, Discovery internal-only, COA not started, Forms out).** Governing uncertainty = Anjul's date + the unanswered manifest-vs-rail fork. **6 ownerless gaps = the Bertrand escalation list** (mass provisioning, fork, per-org cutover owner, customer comms — incl. the 81-org Quiet-Hours beta check, credit/licensing reporting orphan, quality gate). Status task closed → new escalation task 📅 07-08 (after Josh answers the fork). Confusion-pairs (item 1) PAUSED mid-plan by Pedro — plan stands in the 07-04 watch. Next in-session ask: what the decommission means technically for the **EH prompt-bar → AIA embed** (EH-side).
 >
 > ### 🟢🔎 2026-07-03 (night) — 10-channel Slack audit (3-wk window 06-12→07-03, 5 parallel readers; all channels covered to the boundary)
 > Channels: #aem-agents, #aep-agent-orchestrator-collaboration, #aem-agent-experience-production, #aem-agent-owners-alignement, #p42-architecture, #aem-mcp, #ai-assistant-egc-ama, #p42-orr-circle (noise), #aem-aep-coworker-rendering, #aem-p42-leadership. New intel only below (already-banked threads skipped).
