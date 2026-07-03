@@ -11,6 +11,8 @@ metadata:
 
 ## Open
 
+- **(no date — Pedro's send, resume point)** — Ian reply draft v2 ready (Rubin-or-AIQ strategy line + requirements offer + portability question; verbatim banked in the AAI 07-03 13:17 block, optional diagram-read swap noted). Send before Angela Mon 07-06 if possible — Ian's answer on "what would not port" de-risks either route.
+
 - **2026-07-06 (Mon)** — Sorin reply to the EH chat-entry email (SENT 07-03, to Silvia+Sorin+Eugene, Bertrand chime-in) + the stage two-flags test — both wanted BEFORE Josh Wednesday. Agenda = the 5 bullets in the Sorin 1-1 file.
 - **2026-07-06 (Mon)** — Pedro owes (committed in the email): tell **Guliz + Fu Chi** the suggested prompts are paused/removed.
 - ✅ **SENT 2026-07-03** — the Bertrand readiness note (program claim + plan + 1 ask). Delivered early, corrected (Forms/Governance), canvas footnote-linked.
