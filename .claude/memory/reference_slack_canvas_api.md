@@ -11,4 +11,5 @@ metadata:
 2. **The safe mode = full-canvas `replace` (no `section_id`) with the complete intended content.** Read the canvas first, rebuild the full markdown with the edits, replace once, read back to verify. Deterministic.
 3. **Do NOT include a leading `# H1`** in full-replace content — the canvas has an intrinsic title that always survives; an H1 in the content duplicates it.
 4. **Mentions: read ≠ write syntax.** `slack_read_canvas` serializes real mentions as `<@W...>`; writing `<@W...>` back produces broken literal text. To create real mentions, write **`![](@W...)`**. Verification: after writing, read back — real mentions re-serialize as `<@ID>`.
-5. Before any canvas edit, capture the full current markdown (it is the restore point).
+5. **Channel refs: same trap, and unverifiable via API (found 2026-07-03, integration-status canvas F0BEH27BLCS).** Writing `<#C...>` renders as literal text; the read-back serializes `<#C...>` whether the link is real or broken, so you cannot verify from the API (`![](#C...)` also read back ambiguous). Safe mode = a plain markdown link to the archive URL: `[#channel-name](https://adobe.enterprise.slack.com/archives/C...)` — deterministic, renders clickable.
+6. Before any canvas edit, capture the full current markdown (it is the restore point).
