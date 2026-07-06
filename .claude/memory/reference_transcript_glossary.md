@@ -24,6 +24,8 @@ metadata:
 | Rachel Hanessian (`@hanessia`) | "Hanessia Anessian" |
 | Namita Kavadi | "Namita Kalra" |
 | Matt Colón (`@coln`) / Tim Lynn (`@tlynn`) | handle confusion (fixed 06-15) |
+| Catalina Preda (AEP, Coworker quality/evals) | "Katharina", "Catalina/Katharina" mix within one transcript (07-06) |
+| Georgiana Copil (AEP, gateway governance/quality doc) | — |
 | ⚠️ unresolved person garbles | "Encore" (Assets team member), "Jean-Claude" (Tanju searching a name live) — PEOPLE not teams; do not carry as agents/teams |
 
 ## Terms / products (canonical → garbles)
@@ -40,6 +42,9 @@ metadata:
 | garage-week | "Gayatri", "garage" |
 | Manager Services | "manette services" |
 | Langfuse (in "integrate reporting with Langfuse") | "fuse chain" |
+| Claude (the client/surface) | "Claudia", "clod surface" (07-06 gating transcript) |
+| conformance eval (gateway gate 3) | "conformer Seibel" (07-06) |
+| agent(ic) gateway | "identity gateway" (Victor 07-06, low-conf — verify which he meant before quoting) |
 | Sliccy (external OSS) | "Slicc", "sleek", "Slick" |
 | skills.yml / marketplace.json | various spellings — verify against repo before quoting |
 
