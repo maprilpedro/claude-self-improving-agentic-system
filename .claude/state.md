@@ -27,7 +27,7 @@ Pending Pedro's call — do not auto-resolve. Resolved rows move to `.claude/sta
 
 | Hypothesis | State | Decision owed |
 |---|---|---|
-| H-007 — reactive vs proactive ownership | **2026-07-01: kept active, re-frame REJECTED, HARD DEADLINE set.** 9 prepped reactive successes, still 0 cold, 1 cold miss (NYL). Judge: declaring the route-around a virtue = self-preferential; off-axis rep-logging stopped. | **Resolve on the first cold real-time reactive rep, OR archive as *inconclusive — untestable by the subject's own discipline* at the 2026-08-01 review if none lands.** No more indefinite carry. |
+| H-007 — reactive vs proactive ownership | **2026-07-06: FIRST COLD REP LANDED — candidate SUCCESS** (Ian routed Felix's overlap question to Pedro in public; Pedro fired in ~3-4 min, no draft cycle, ownership-led; caveat = content was prepped ground, the firing was cold). Status → Ready to resolve. Prior state: 07-01 re-frame rejected, hard deadline 08-01. | **Classify + resolve — Pedro's call or the 2026-08-01 review.** Candidate resolution framing on file: the miss variable = "cold *without a prepared position to stand on*", not cold per se. Do not auto-resolve. |
 
 ## Parked hypothesis candidates
 
