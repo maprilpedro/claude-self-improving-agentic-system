@@ -11,6 +11,9 @@ metadata:
 
 ## Open
 
+- **2026-07-07 (today)** — Pedro committed in-DM to Rachel Hanessian: make the GA tracking canvas (F0BD4RALNHF) **public** + get her in. Do before her chat lands; the canvas is the artifact he pointed her at.
+- **week of 2026-07-07** — **Rachel Hanessian chat incoming** (she books via Pedro's calendar, CET until 20h). Prep: the readiness gap list (monitoring, reporting, scaling onboarding = 6-gap escalation / [[AIA Decommission — Day-After Map (2026-07-03)]]), her fold-in-AEM-customers plan vs the customer-comms ownership gap, + ask for the **DX AI PM Sync weekly recaps/recordings** (standing blind spot since June). ⚠️ August porting estimate now stated to her — keep consistent with the Bertrand readiness-note posture.
+
 - **(no date — Pedro's send, resume point)** — Ian reply draft v2 ready (Rubin-or-AIQ strategy line + requirements offer + portability question; verbatim banked in the AAI 07-03 13:17 block, optional diagram-read swap noted). Send before Angela Mon 07-06 if possible — Ian's answer on "what would not port" de-risks either route.
 
 - **2026-07-06 (Mon)** — Sorin reply to the EH chat-entry email (SENT 07-03, to Silvia+Sorin+Eugene, Bertrand chime-in) + the stage two-flags test — both wanted BEFORE Josh Wednesday. Agenda = the 5 bullets in the Sorin 1-1 file.
