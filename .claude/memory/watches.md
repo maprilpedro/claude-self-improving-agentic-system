@@ -11,6 +11,8 @@ metadata:
 
 ## Open
 
+- **~2026-07-09 (Thu)** — GTM credits thread (#aem-agents `1783420878.740519`): Bertrand/Ian uptake on Pedro's "I can bring the current list" offer (SENT 07-07 w/ 4 report screenshots). If taken → deliverable = **realized-operations list per AEM agent + first-pass credit weights** (test = Bertrand's 50-pages example). In pocket unsent: the AIQ fact (AO events dataset tracks tool invocations; credits-tracking allowed all customer categories) — fire if Ian re-pushes "AEP cannot report it". No MCP numbers (HOLD).
+
 - ✅ **DONE 2026-07-07** — GA canvas F0BD4RALNHF made public + Rachel Hanessian added (Pedro, same day as committed in-DM).
 - ✅ **SENT 2026-07-07** — Reasor answered in-thread (draft minus "this week" on the schema-mapping line — no new dated commitment): scope decoupled (AEP builds the eval engine per the 07-06 gating sync; Pedro's piece = manifest curation + AEM confusion-pairs as the golden-set seed), collision-list first pass offered conditional on Reasor's OK.
 - **~2026-07-09 (Thu)** — Satya frontmatter diff **SENT 07-07** (he said "yes please"): watch for the **merge in aemforms-aia-extensions** — if landed, re-run the audit (his 2 rows go green on disambiguation) + confirm in-thread + cite as the first voluntary 3-field adoption AEP-side (Georgiana send 07-08 + Reasor collision pass both want this example; the source-swap `6854b2c` = the event-driven receipt).
