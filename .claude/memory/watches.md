@@ -11,7 +11,7 @@ metadata:
 
 ## Open
 
-- **2026-07-07 (today)** — Pedro committed in-DM to Rachel Hanessian: make the GA tracking canvas (F0BD4RALNHF) **public** + get her in. Do before her chat lands; the canvas is the artifact he pointed her at.
+- ✅ **DONE 2026-07-07** — GA canvas F0BD4RALNHF made public + Rachel Hanessian added (Pedro, same day as committed in-DM).
 - ✅ **SENT 2026-07-07** — Reasor answered in-thread (draft minus "this week" on the schema-mapping line — no new dated commitment): scope decoupled (AEP builds the eval engine per the 07-06 gating sync; Pedro's piece = manifest curation + AEM confusion-pairs as the golden-set seed), collision-list first pass offered conditional on Reasor's OK.
 - **~2026-07-09 (Thu)** — Satya reply on the n×n answer (Playbook thread): if he engages with a concrete case, feed it to the Reasor collision-list first pass (same audit run). First in-thread Playbook engagement — don't let it die silent.
 - **2026-07-09 (Thu)** — Reasor's reply to the scope answer: if he takes the offer → run the overlap audit against the MERGED aem-aia manifest + post the first-pass collision list in-thread (non-deferred vs deferred/reworded). Undated commitment on record — don't let it dangle past the week.
