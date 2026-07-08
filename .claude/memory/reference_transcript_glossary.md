@@ -32,7 +32,7 @@ metadata:
 | Ryan Cobourn (design/transition owner, convergence room; NEW 07-08) | "Cobourn"/"Coburn" — ⚠️ do NOT merge with **Cole** Connelly; both are real, distinct people in the Coworker sessions |
 | Horia Galatanu (Coworker panel release timing, w/ Cole + Babu; NEW 07-08) | "Horia" — spelling unverified |
 | Ashish (Basel presenter, Coworker sessions; NEW 07-08) / Adrian (Bucharest, new team member, separate left-nav impl) / Michal (WebMCP tools, w/ Rodson) | all Otter-unverified spellings — confirm before quoting/indexing |
-| ⚠️ unresolved person garbles | "Encore" (Assets team member), "Jean-Claude" (Tanju searching a name live), "will/wool" (07-08 Sorin 1-1, an eng who'd know AI-Assistant activation/Gem-Stack config) — PEOPLE not teams; do not carry as agents/teams |
+| ⚠️ unresolved person garbles | "Encore" (Assets team member), "Jean-Claude" (Tanju searching a name live), "will/wool" (07-08 Sorin 1-1, an eng who'd know AI-Assistant activation/Gem-Stack config), "Iulia"/"Ilie" (07-08 Rachel rollout call — a security/legal reviewer on Horia Galatanu's AEP team; ⚠️ NOT Ilya Grafutko; Horia to Slack the real name) — PEOPLE not teams; do not carry as agents/teams |
 
 ## Terms / products (canonical → garbles)
 
@@ -57,7 +57,7 @@ metadata:
 
 ## Structural traps (not garbles)
 
-- **"CR <ROOM>" labels** = conference-room mics, not people; map per-meeting by content (`feedback_transcript_attribution`).
+- **"CR <ROOM>" labels** = conference-room mics, not people; map per-meeting by content (`feedback_transcript_attribution`). **In the 07-08 Rachel rollout transcript, `CR` (CR BASL 05) = PEDRO himself** — his own positions/commitments are under the room-mic label; do not misattribute them as a third party.
 - **Otter without timestamps** — no time anchors; date statements by content only.
 - **AIA (front/UI) ≠ Coworker/AOv2 (backend)** — transcripts blur them; keep the axes distinct (`reference_aia_vs_coworker_axes`).
 - **"Tool Calls"** is the locked measurement term — transcripts saying "interactions/invocations/requests" get analyzed as what they actually counted (`reference_mcp_terminology`).
