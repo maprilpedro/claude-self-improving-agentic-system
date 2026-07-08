@@ -28,7 +28,7 @@ metadata:
 | Georgiana Copil (AEP, gateway governance/quality doc) | — |
 | Rebecca Yonezcu (Sr Product Designer — Discovery + Content Optimization agent renderers; NEW 07-08) | "Yonezcu see"/"Yonescu" — spelling unverified, confirm before quoting |
 | Dan (lead, the "AI Assistant Team" = the Gem Stack implementation) | "done"/"Dan in doctors" (Otter garble, 07-08 Sorin 1-1) |
-| Zeus (Josh's team; owns the AO2 suggested-prompt/recommendation system; NEW 07-08) | spelling unverified — confirm before quoting |
+| Zeus Courtois (lead eng, Mithril/Fruitbar/Prompt Library Platform under Joshua Hailpern; owns the AO2 suggested-prompt/recommendation system — surfaced in this role 07-08) | "Zeus" — NOT a new person, already EH-side; do not create a duplicate |
 | Ryan Cobourn (design/transition owner, convergence room; NEW 07-08) | "Cobourn"/"Coburn" — ⚠️ do NOT merge with **Cole** Connelly; both are real, distinct people in the Coworker sessions |
 | Horia Galatanu (Coworker panel release timing, w/ Cole + Babu; NEW 07-08) | "Horia" — spelling unverified |
 | Ashish (Basel presenter, Coworker sessions; NEW 07-08) / Adrian (Bucharest, new team member, separate left-nav impl) / Michal (WebMCP tools, w/ Rodson) | all Otter-unverified spellings — confirm before quoting/indexing |
