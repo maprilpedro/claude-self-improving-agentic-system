@@ -26,7 +26,9 @@ metadata:
 | Matt Colón (`@coln`) / Tim Lynn (`@tlynn`) | handle confusion (fixed 06-15) |
 | Catalina Preda (AEP, Coworker quality/evals) | "Katharina", "Catalina/Katharina" mix within one transcript (07-06) |
 | Georgiana Copil (AEP, gateway governance/quality doc) | — |
-| ⚠️ unresolved person garbles | "Encore" (Assets team member), "Jean-Claude" (Tanju searching a name live) — PEOPLE not teams; do not carry as agents/teams |
+| Rebecca Yonezcu (Sr Product Designer — Discovery + Content Optimization agent renderers; NEW 07-08) | "Yonezcu see"/"Yonescu" — spelling unverified, confirm before quoting |
+| Dan (lead, the "AI Assistant Team" = the Gem Stack implementation) | "done"/"Dan in doctors" (Otter garble, 07-08 Sorin 1-1) |
+| ⚠️ unresolved person garbles | "Encore" (Assets team member), "Jean-Claude" (Tanju searching a name live), "will/wool" (07-08 Sorin 1-1, an eng who'd know AI-Assistant activation/Gem-Stack config) — PEOPLE not teams; do not carry as agents/teams |
 
 ## Terms / products (canonical → garbles)
 
@@ -47,6 +49,7 @@ metadata:
 | agent(ic) gateway | "identity gateway" (Victor 07-06, low-conf — verify which he meant before quoting) |
 | Sliccy (external OSS) | "Slicc", "sleek", "Slick" |
 | skills.yml / marketplace.json | various spellings — verify against repo before quoting |
+| Gem Stack (original product-knowledge-only AI Assistant, pre-agents; Dan's team; some customers still on it via flags, reason = Managed Services) | "gem stack"/"team dan" — canonical concept surfaced 07-08 |
 
 ## Structural traps (not garbles)
 
