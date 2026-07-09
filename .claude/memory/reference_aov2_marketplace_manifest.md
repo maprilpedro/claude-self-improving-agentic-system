@@ -46,7 +46,28 @@ N marketplaces (GitHub repos, catalog sources)
 > - **🔑 ZERO of the 22 SKILL.md files carry `domain`, and zero carry `when-to-use`** (verified 2026-07-09). Every plugin is authored "AEM Team". **There is no agent attribution anywhere in the manifest data** — which is exactly why Ian Reasor, who co-owns this manifest, had to ask Pedro on 07-08 which agent two of the skills belong to. Skill→plugin is in the tree; plugin→agent is in nobody's head but the owning team's. This is the Playbook's `domain` ask, demonstrated by the manifest's own co-owner.
 > - **🔴 RESOLVED, AND THE SENT NUMBER IS WRONG. Pedro's 07-08 message to Reasor says "only 5 of those 18 pairs are actually installed together in this manifest." The 07-07 snapshot (the one it was built on) has 8 pairs with both sides in `aia-extensions`.** Snapshot series, both-sides-in-aia: 07-01 = 4, 07-03 = 4, 07-07 = **8**, 07-09 = **8** (total flagged pairs 18/17/18/19; catalogue 132→134→99→102 after the 07-07 forms-scope swap). Of the 8, four pair a practitioner skill with its own `system/` API-reference skill (update-profile-api ×2, cloud-manager-api, aem-workflow-api) which are arguably not competing alternatives; that leaves **4**, not 5. **No definition reconstructs 5.** The two *real* either/or risks Pedro named are both same-plugin and both stand. Correct the count the next time the thread moves — event-driven correction is the pattern that already won with Satya (source swap, 07-07).
 >
-> ### 🔴🔑 METHOD FLAW IN THE AUDIT'S HEADLINE CLAIM (found 2026-07-09) — "0 cross-agent overlap" is not established by the data
+> ### 🖼️ WHAT BERTRAND ACTUALLY ASKED (screenshot read 2026-07-09) — the Coworker MANIFEST PICKER, not repos
+
+His 07-07 question "quite a few AEM manifests in Coworker today, who owns what?" is captioned by a screenshot of the Coworker UI's **"Search manifests…" dropdown**, section **Application**. Visible entries (list scrolls, EPA may be below the fold):
+
+| Picker entry | Manifest / marketplace | Owner |
+|---|---|---|
+| AEM AI Assistant (Markdown-only) | ? | **unknown** |
+| **AEM Coworker** ✅ (his selection) | `aem-aia.yaml` → `aem-aia-extensions` (22 skills / 10 plugins) + One AEM MCP | shared, multi-team; every plugin authored "AEM Team"; Pedro curates |
+| AEM Content Fragments Coworker | `aem-content-fragments-extensions` (Adobe-AEM-Sites) | **unknown** |
+| AEM Forms Experience Builder | `aemforms-aia-extensions` (adobe-aem-forms) | Hemanta Gupta building; Satya Deep Maheshwari's side |
+| AEM Guides AI Assistant | `aem-guides-extensions` (OneAdobe) | **unknown** |
+| AEM Onboarding Coworker | `ao-plugin-extensions-aem-onboarding` (AEM-Assets-Adobe) | Ian Reasor (said so in-thread) |
+
+**The picker is the "who owns what" surface, and it carries no ownership.** A user picks a manifest with no idea whose skills they get. The checkmark also makes the one-manifest-active-at-a-time rule visible to Bertrand directly.
+
+His 2nd screenshot = Discovery running in the AEM Coworker manifest against WKND author: 3 API calls, reads the asset-search spec, HYBRID semantic match on "water", 20 images returned as a **markdown table** (#, Title, Path, Format, Size) + a "Search summary" line he praised. **"Results in MD mode" = the renderer gap made visible** — no asset-grid/tile renderer ported, markdown is Tim Lynn's fallback tier. Discovery's *logic* works on Coworker; its *rendering* is the degraded tier.
+
+⚠️ **Altitude lesson.** The first draft answered with repos and PR numbers. Bertrand was looking at a dropdown. Read the attached images before drafting a reply to a screenshot-led question.
+
+### 🔴🔑 METHOD FLAW IN THE AUDIT'S HEADLINE CLAIM (found 2026-07-09) — "0 cross-agent overlap" is not established by the data
+
+**The audit repo already knew.** `docs/marketplaces.md` on `aia-extensions`: *"Shared AI-Assistant catalogue — multiple agent teams contribute into it (e.g. Sergiu / EDA puts `quiet-hours`, `update-free` here, not in a separate EDA repo). So 'intra-agent' here can hide a cross-team pair — route a flagged pair to the contributing skill's owner, not a single 'AI Assistant owner.'"* That also **answers Reasor's second question**: `quiet-hours` / `update-free-periods` are **Sergiu's, EDA** (repo-doc sourced, not data-declared).
 >
 > The snapshot's `intra` flag is computed as **`a_market == b_market`**. There is no agent field on a pair, and no agent field on a skill (`skills[]` = name, marketplace, has_domain, has_when_to_use, desc_len, desc_hash). Verified: 0 of 19 pairs have `intra != (a_market == b_market)`.
 >
