@@ -35,6 +35,11 @@ metadata:
 | Ellis Dobkin (Legal — AEM agents, Agent Orchestrator legal work, the P42 PLA; NEW 07-09) / Meredith Elder (Legal, Ellis's team, product council, supports Commerce; NEW 07-09) | — |
 | ⚠️ **Jacqueline** (Legal-side GTM, co-wrote the legal-intake checklist with Yanira; 07-09) | **do NOT merge with Jaclyn Eckersley** (FinOps, AEM Eng VP-side) — different people, near-identical names |
 | Kristal (GTM driver for Agent Orchestrator; hand-off target once the credit model firms; 07-09) | surname unknown |
+| Pedro Ferreira | "Peter" (Satya, 07-09 credit sync). See also the room-mic trap below |
+| Mayank Agarwal (AEM Forms — the GCL-property published-form attribution precedent; NEW 07-09) / Natalia Venditto (token-cost ≠ perceived value; clustering proposal; NEW 07-09) | — |
+| ⚠️ **Tina** (owns the field-readiness deck w/ customer-facing credit info, 07-09 credit sync) | likely **Tina Ngo** (Principal PMM, agents GTM) — ⚠️ **NOT Tina Nicu**. Two Tinas in PMM. Confirm before quoting |
+| ⚠️ **Daniel** ("get Daniel's team the documents… scope the security review", 07-09 credit sync) | likely **Daniel Mrose** (Eng director, security + governance agent) — ⚠️ do NOT assume; also do not merge with **Dan**, the Gem-Stack / AI-Assistant-Team lead |
+| Toby (readiness/infrastructure contact) / Ovidiu (ORR contact — "nothing needed from their side") | NEW 07-09, surnames unknown |
 | ⚠️ unresolved person garbles | "Encore" (Assets team member), "Jean-Claude" (Tanju searching a name live), "will/wool" (07-08 Sorin 1-1, an eng who'd know AI-Assistant activation/Gem-Stack config), "Iulia"/"Ilie" (07-08 Rachel rollout call — a security/legal reviewer on Horia Galatanu's AEP team; ⚠️ NOT Ilya Grafutko; Horia to Slack the real name) — PEOPLE not teams; do not carry as agents/teams |
 
 ## Terms / products (canonical → garbles)
@@ -50,7 +55,9 @@ metadata:
 | cross-agent | "X agent" |
 | garage-week | "Gayatri", "garage" |
 | Manager Services | "manette services" |
-| Langfuse (in "integrate reporting with Langfuse") | "fuse chain" |
+| Langfuse (in "integrate reporting with Langfuse") | "fuse chain", "lung fuse"; **AEP Langfuse** = "AAP long fuse" (07-09) |
+| Rubin (reporting substrate) | "around Robin", "Brabin" (07-09, low confidence — verify before quoting) |
+| Tanju Erinmez | "Taneja" (07-09) |
 | Claude (the client/surface) | "Claudia", "clod surface" (07-06 gating transcript) |
 | conformance eval (gateway gate 3) | "conformer Seibel" (07-06) |
 | agent(ic) gateway | "identity gateway" (Victor 07-06, low-conf — verify which he meant before quoting) |
@@ -63,7 +70,7 @@ metadata:
 
 ## Structural traps (not garbles)
 
-- **"CR <ROOM>" labels** = conference-room mics, not people; map per-meeting by content (`feedback_transcript_attribution`). **In the 07-08 Rachel rollout transcript, `CR` (CR BASL 05) = PEDRO himself** — his own positions/commitments are under the room-mic label; do not misattribute them as a third party.
+- **"CR <ROOM>" labels** = conference-room mics, not people; map per-meeting by content (`feedback_transcript_attribution`). **`CR BASL 05` (and `CR BASL 05 / WALENSEE VC (4)`) = PEDRO in BOTH the 07-08 Rachel rollout transcript AND the 07-09 credit-mapping transcript** — two independent confirmations. Treat `CR BASL 05` as Pedro by default in Basel-room transcripts, and verify by content. **In the 07-08 Rachel rollout transcript, `CR` (CR BASL 05) = PEDRO himself** — his own positions/commitments are under the room-mic label; do not misattribute them as a third party.
 - **Otter without timestamps** — no time anchors; date statements by content only.
 - **AIA (front/UI) ≠ Coworker/AOv2 (backend)** — transcripts blur them; keep the axes distinct (`reference_aia_vs_coworker_axes`).
 - **"Tool Calls"** is the locked measurement term — transcripts saying "interactions/invocations/requests" get analyzed as what they actually counted (`reference_mcp_terminology`).
