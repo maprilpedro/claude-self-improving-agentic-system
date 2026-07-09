@@ -7,6 +7,10 @@ metadata:
 
 Pedro 2026-07-08: when I draft a reply to a Slack thread, always end with the **permalink to the latest message in that thread**, so he can jump straight to where he pastes.
 
+**🔴 RESTATED HARDER 2026-07-09 — "j'ai besoin TOUJOURS du lien."** A draft without its permalink is **not usable**, so it is not a draft. This applies to *every* Slack draft in *every* turn: first drafts, re-drafts, single-span rewrites, follow-up messages, and drafts produced in a turn that is mostly about something else. A thread ID or a channel name is not a substitute. The failure mode is mine drifting mid-session: I give the link on draft 1, then drop it on drafts 2 and 3 because "he already has it" — he does not, the thread has moved and so has the last-message ts.
+
+**Also:** the workspace host matters. `#aem-agent-owners-alignement` (C0BARAMM89Z) resolves on **cq-dev**; `#p42-architecture` (C09KKLW1N86) on **adobedx**. If unsure which host, give both forms rather than one wrong one.
+
 **Why:** he runs many threads in parallel; without the link he wastes time hunting for the right thread across 16 audit channels + DMs.
 
 **How to apply:** after any Slack reply draft (and when reporting on a thread I read), append the permalink. Format:
