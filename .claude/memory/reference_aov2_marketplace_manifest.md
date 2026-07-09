@@ -33,10 +33,20 @@ N marketplaces (GitHub repos, catalog sources)
 |---|---|---|
 | `Adobe-AEM-Foundation/aem-aia-extensions` | ✅ | real marketplace (shared AI-Assistant catalogue, multi-team) |
 | `Adobe-AEM-Sites/epa-experience-generation-extensions` | ✅ | real marketplace (EPA / Experience Generation) |
-| `Adobe-AEM-Foundation/aem-experience-catalyst` (excat) | ❌ | full standalone app (docker, deploy, operator) — not a marketplace |
+| `Adobe-AEM-Foundation/aem-experience-catalyst` (excat) | ⚠️ see correction | full standalone app (docker, deploy, operator) |
 | `adobe-aem-forms/forms-skills` | ❌ | custom packaging (`publish.sh`, `.mcp.json`) — not a marketplace |
 
 → Forms + excat must be repackaged to `marketplace.json` (or standalone-skill upload) to enter AOv2 at all. Today only AIA + EPA are registrable.
+
+> ### 🔴 CORRECTION 2026-07-09 — the excat and forms rows above were both over-stated. Do not repeat them.
+>
+> - **excat DOES ship `marketplace.json`** — two of them, nested: `resources/plugins/aem-excat-plugin/excat-marketplace/.claude-plugin/marketplace.json` and `.../excat-extended/.claude-plugin/marketplace.json` (verified 2026-07-09 against the `adbe-skill-audit` working copy). The 06-26 gh check evidently looked at the repo root. **The defensible claim is narrower: excat is not wired into the central manifest.** It is referenced by no manifest (that part of the 06-26 finding still holds). Say "excat is not in the central manifest — it ships its own marketplace but isn't wired in", never "excat is an app, not a marketplace".
+> - **Forms is a real marketplace** — `adobe-aem-forms/aemforms-aia-extensions`, "the one we are using in coworker" (Satya, 07-07), with a real `marketplace.json`, 1 plugin, 2 skills. The `forms-skills` repo in the table above is the WRONG repo (the audit's original mistake, already flagged in the section below). Pedro swapped the audit source on 07-07 (commit `6854b2c`).
+> - **`aem-aia-extensions` ships 10 plugins, not 7** — verified 2026-07-09 from `data/aem-aia-extensions/.claude-plugin/marketplace.json`: cloud-manager-api, aem-cloud-manager-ops, update-profile-api, aem-release-management, experience-replication, aem-pipeline-troubleshooter, discovery, aem-workflow-api, aem-workflow-ops, aem-coding-plugin. The 22-skill count is exact. ⚠️ **The "7 plugins" figure went out to Ian Reasor in the 07-08 collision list** — harmless (the skill count and the finding are unaffected) but correct it if the number comes up again.
+> - **EPA's manifest PR `ao#6028` is MERGED (2026-07-07, Felix Delval)**, title "feat(manifest): add Experience Production Agent manifest (dev + stage + prod)". Note what that means: it added **another AEM manifest**, it did not fold EPA into `aem-aia`. Merging created more of exactly what Bertrand is seeing, not less.
+> - **`ao#5773` (Governance) is OPEN with CHANGES_REQUESTED from `trifan_adobe` since 2026-07-03** — that one was right.
+>
+> **Method note.** These slipped because a live-gh spot-check on 06-26 was carried forward for two weeks as settled fact and reused in a draft to Bertrand. Re-verify PR states and file contents before quoting them outward; they drift.
 
 ## Implication for the empirical eval owed to Ian (see [[project_aem_agents_intelligence]] 06-26)
 
@@ -46,7 +56,7 @@ Do NOT consolidate marketplaces. Construct an **AEM manifest** that makes the ca
 
 Bertrand's worry: the AOv2 bridge (Plan B) "deports skills from where they'd be tested (Coworker, with all the others)." Technically it does **not** hold:
 - The bridge still puts the migrated skills **into an AOv2 manifest** (EPA Plan B slide, verbatim: *"integrate this into an AOv2 manifest consumed by EPA as a technical agent through A2A"*). So the skills are co-present with that manifest's siblings either way.
-- **Nothing runs as a lone skill.** "Isolated behind AIA" was a Claude mis-framing (corrected by Pedro). On Coworker, skills already run many-per-manifest today (e.g. `aem-aia` = 7 plugins + inherited AEP).
+- **Nothing runs as a lone skill.** "Isolated behind AIA" was a Claude mis-framing (corrected by Pedro). On Coworker, skills already run many-per-manifest today (e.g. `aem-aia` = **10 plugins** + inherited AEP; corrected 2026-07-09, was 7).
 - The only real variable = **which skills share a manifest** — a manifest-composition choice, identical whether reached via the bridge or native Coworker. The bridge does not change co-presence.
 - The only thing never co-present today = skills from **different agents** (each agent = its own manifest: aem-aia, aem-onboarding, dea-aia…). True **with or without the bridge**. Cross-agent co-presence only happens if someone builds a manifest that merges them.
 
