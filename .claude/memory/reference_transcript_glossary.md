@@ -32,6 +32,9 @@ metadata:
 | Ryan Cobourn (design/transition owner, convergence room; NEW 07-08) | "Cobourn"/"Coburn" — ⚠️ do NOT merge with **Cole** Connelly; both are real, distinct people in the Coworker sessions |
 | Horia Galatanu (Coworker panel release timing, w/ Cole + Babu; NEW 07-08) | "Horia" — spelling unverified |
 | Ashish (Basel presenter, Coworker sessions; NEW 07-08) / Adrian (Bucharest, new team member, separate left-nav impl) / Michal (WebMCP tools, w/ Rodson) | all Otter-unverified spellings — confirm before quoting/indexing |
+| Ellis Dobkin (Legal — AEM agents, Agent Orchestrator legal work, the P42 PLA; NEW 07-09) / Meredith Elder (Legal, Ellis's team, product council, supports Commerce; NEW 07-09) | — |
+| ⚠️ **Jacqueline** (Legal-side GTM, co-wrote the legal-intake checklist with Yanira; 07-09) | **do NOT merge with Jaclyn Eckersley** (FinOps, AEM Eng VP-side) — different people, near-identical names |
+| Kristal (GTM driver for Agent Orchestrator; hand-off target once the credit model firms; 07-09) | surname unknown |
 | ⚠️ unresolved person garbles | "Encore" (Assets team member), "Jean-Claude" (Tanju searching a name live), "will/wool" (07-08 Sorin 1-1, an eng who'd know AI-Assistant activation/Gem-Stack config), "Iulia"/"Ilie" (07-08 Rachel rollout call — a security/legal reviewer on Horia Galatanu's AEP team; ⚠️ NOT Ilya Grafutko; Horia to Slack the real name) — PEOPLE not teams; do not carry as agents/teams |
 
 ## Terms / products (canonical → garbles)
@@ -54,6 +57,9 @@ metadata:
 | Sliccy (external OSS) | "Slicc", "sleek", "Slick" |
 | skills.yml / marketplace.json | various spellings — verify against repo before quoting |
 | Gem Stack (original product-knowledge-only AI Assistant, pre-agents; Dan's team; some customers still on it via flags, reason = Managed Services) | "gem stack"/"team dan" — canonical concept surfaced 07-08 |
+| LLM Optimizer (the risk-based no-extra-paperwork precedent Legal cites, 07-09) | "LM Optimizer" |
+| PLA (the legal agreement done once for Project 42 + all agents underneath) | — |
+| AI rider (provisioned at SKU level, Coworker-wide, not per-agent) | "AI waiver" (Yanira, 07-09) |
 
 ## Structural traps (not garbles)
 
