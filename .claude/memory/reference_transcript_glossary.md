@@ -38,7 +38,9 @@ metadata:
 | Pedro Ferreira | "Peter" (Satya, 07-09 credit sync). See also the room-mic trap below |
 | Mayank Agarwal (AEM Forms — the GCL-property published-form attribution precedent; NEW 07-09) / Natalia Venditto (token-cost ≠ perceived value; clustering proposal; NEW 07-09) | — |
 | ⚠️ **Tina** (owns the field-readiness deck w/ customer-facing credit info, 07-09 credit sync) | likely **Tina Ngo** (Principal PMM, agents GTM) — ⚠️ **NOT Tina Nicu**. Two Tinas in PMM. Confirm before quoting |
-| ⚠️ **Daniel** ("get Daniel's team the documents… scope the security review", 07-09 credit sync) | likely **Daniel Mrose** (Eng director, security + governance agent) — ⚠️ do NOT assume; also do not merge with **Dan**, the Gem-Stack / AI-Assistant-Team lead |
+| **Daniel Mrose** ("get Daniel's team the documents… scope the security review", 07-09 credit sync) | ✅ **CONFIRMED 07-10** via the reporting line (Lars Krapf → Catalin Luta → Daniel Mrose → Saar). ⚠️ Still do not merge with **Dan**, the Gem-Stack / AI-Assistant-Team lead |
+| **Lars Krapf** — Sr Security Researcher, Customer Experience Orchestration (reports to Catalin Luta). AEM→Coworker security review, out Mondays | NEW 2026-07-10 |
+| **Catalin Luta** — Sr Manager (7 reports) under Daniel Mrose, CXO. **Manager on the AEM Coworker security review**, so his threat-model statement is authoritative | ⚠️ **not Catalina Preda** (AEP evals/golden-set). Earlier notes called him "AEM eng" — wrong, he is CXO management |
 | Toby (readiness/infrastructure contact) / Ovidiu (ORR contact — "nothing needed from their side") | NEW 07-09, surnames unknown |
 | ⚠️ unresolved person garbles | "Encore" (Assets team member), "Jean-Claude" (Tanju searching a name live), "will/wool" (07-08 Sorin 1-1, an eng who'd know AI-Assistant activation/Gem-Stack config), "Iulia"/"Ilie" (07-08 Rachel rollout call — a security/legal reviewer on Horia Galatanu's AEP team; ⚠️ NOT Ilya Grafutko; Horia to Slack the real name) — PEOPLE not teams; do not carry as agents/teams |
 
