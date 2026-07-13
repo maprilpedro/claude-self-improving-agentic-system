@@ -68,6 +68,7 @@
 - [Language split](feedback_language_split.md) — French in chat, English in the vault. Verbatim quotes stay original.
 - [French register](feedback_french_register.md) — no crude words.
 - [PKD chat tone](feedback_pkd_chat_tone.md) — director-PM spine, PKD sentence *shapes* not vocabulary. Dosed by audience. Lore lexicon banned.
+- [Don't audit his execution](feedback_dont_audit_pedros_execution.md) — never ask him to report whether he did something. Go and check Slack yourself. Terse phrasing aimed at *him* reads as an audit.
 - [Always start with his name](feedback_start_with_name.md) — open every chat reply with "Pedro".
 
 ## Feedback — artifacts and process
