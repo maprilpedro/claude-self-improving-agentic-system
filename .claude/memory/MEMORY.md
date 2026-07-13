@@ -1,108 +1,112 @@
 # Memory Index
 
-## References
-- [Local AI toolkit + journal schedule](reference_local_ai_toolkit.md) — podcast-script/digest/journal skills (global), claude⇄qwen engine switch, local Qwen via Ollama, launchd journal schedule (weekdays 18h / Fri 13h, claude headless). Deploy repo→global via cron/deploy_skills_global.sh.
-- [Claude improvement tools](claude-improvement-tools.md) — Recommended MCP servers, skills, editor extensions, and architecture improvements for the PM knowledge system
-- [Splunk MCP usage dashboard](reference_splunk_mcp.md) — Bertrand's source for MCP adoption metrics. Paired with CM UI activity data (owner TBD) for ratio metric.
-- [OKR structure — O1-O6 + Operations](reference_okr_structure.md) — Six 2026 OKRs. O1 = AAI. O2-O6 = EH (personalization, release mgmt, quiet hours, security, aging customers). O4 + O6 live near-term levers from Bertrand 1-1 2026-05-12.
-- [Atlassian MCP — JIRA + Confluence](reference_atlassian_mcp.md) — Tool surface for fetching real JIRA / Confluence content from Adobe corp instances (only way in, since they're internal-only).
-- [AEM Agent Ownership Matrix](reference_aem_agent_ownership.md) — Canonical PgM/PM/Eng/JIRA for the 10 AEM agents per slide 44 of H2'26 AEM & Agentic Web Planning deck.
-- [Power BI — Token usage per org](reference_powerbi_token_usage.md) — Adobe corp Power BI report. Token consumption per org. Ties to FinOps (Jaclyn) + AO 2.0 pricing/SKU risk (Bertrand April 29).
-- [CLI binaries playbook](reference_cli_binaries.md) — When to reach for yq/comby/sd/scc/difft/shellcheck/ast-grep. Workhorses for memory + knowledge ops.
-- [CLI-Anything harness generator](reference_cli_anything.md) — Reach for it to wrap an internal tool/API/codebase as a token-efficient agent-native CLI + SKILL.md. Generator only; ignore its creative-desktop registry.
-- [Obsidian vault canonical paths](reference_obsidian_paths.md) — Correct Adobe project folder paths. EH lives at `Experience Hub/`, AAI scaffold at `AEM Agents Intelligence/`. Memory file edits via GitHub repo path, not symlink target.
-- [Promotion Strategy v1](reference_promotion_strategy.md) — Living strategy doc in Adobe Career folder. Playing to Win cascade applied to Director→Senior Director move. Monthly review (next 2026-06-01).
-- [PPTX template — H2'26 deck](reference_pptx_template.md) — Always use `[Internal] - H2'26 AEM & Agentic Web Planning.pptx`. Layout 6 = Content Slide.
-- [PPTX deck-building toolchain](reference_pptx_deck_building.md) — Adobe Clean template source, HTML→PNG for diagrams/tables, local QR (segno), LibreOffice QA, and the "close PowerPoint before writing" gotcha. Built the Bucharest keynote.
-- [AEP TryBuy Project Artifacts](reference_aep_trybuy_artifacts.md) — AEP-side source of truth for TryBuy / TBYB. SharePoint DExProductManagement / Data Governance. Upstream of AEM master-list lane.
-- [Brand Concierge Lightup Onboarding](reference_brand_concierge_lightup.md) — Confluence page 3815569799 (ContentAl space). BC light-up onboarding status + latest news. EH-side. Via Atlassian MCP.
-- [Roadmap dashboard (HTML)](reference_roadmap_dashboard.md) — Cross-project roadmap dashboard at `2026/Roadmap Dashboard.html`; static, refresh at weekly Saar / monthly review.
-- [Customer Experience Orchestration org — Daniel Mrose](reference_cxo_org_daniel_mrose.md) — Daniel Mrose's Basel Eng org (under Alexander Saar, same VP as Ian) that builds Enterprise Ground Truth + Philippe's governance flow. Full directs roster. Philippe+Daniel tandem watch.
-- [Co-Pilot Review Tool access](reference_copilot_review_access.md) — Grant via JIRA NXUI-170 clone (not Felix/Okta direct). Pedro is now an approver.
-- [AEM AI Mapping surface-map](reference_aem_ai_mapping.md) — Confluence parent + per-surface intake pages (EW/Slicc/AOv2) owners fill. Pedro's canonical definition surface; maturity + 6-divergence capture.
-- [Slack MCP workspace gotcha](reference_slack_mcp_workspace.md) — claude.ai Slack connector must be OAuth'd to cq-dev; found on personal workspace 2026-06-10, all Adobe reads fail channel_not_found until re-auth.
-- [Slack canvas API gotchas](reference_slack_canvas_api.md) — section-replace is destructive/erratic (3 incidents 07-03); safe mode = full-content replace, no H1; mentions write as `![](@ID)` not `<@ID>`; channel refs `<#C…>` break too and are API-unverifiable — use markdown archive-URL links.
-- [Coworker — productized AOv2 / field guide](reference_coworker.md) — ao.adobe.io/chat, semantic layer (entity resolution / Knowledge Graph / memory / 27 skills) = the context differentiator over raw-MCP Claude. Coworker-vs-Claude split + 3 MCPs. Betsy Daly contact.
-- [One AEM MCP repo (Tanju)](reference_one_aem_mcp_repo.md) — adobe-rnd/aem-sites-content-service = the One AEM MCP server (catalog: domains, skills+recipes, skill headers, 2-part discovery, weekly Eval Semantics, CI/CD auto-improve). Shared 07-01. Unblocks the overlap-audit cross-check + the header-piggyback play.
-- [AI Observation architecture](reference_ai_observation_architecture.md) — The AO/Coworker agent-trace substrate (OTel → LangFuse/MLFlow → DaaS NEXT Databricks → Rubin). In-region constraint. The V2 substrate that displaces Felix's AOv1 pipeline.
-- [cx-coworker FAQ (canonical CXO enablement)](reference_coworker_faq.md) — OneAdobe/cxo-enterprise-coworker runbook (owner Babu Ramaraj). Customer-surface direction, terminology lock, Raj Patel = AIA-migration owner (Phase 2), the reporting white-space, gh-fetch via pedrofer_adobe account.
-- [AIA Platform Architecture doc (federated renderers)](reference_aia_platform_architecture.md) — Vineet Barshikar's doc (Confluence 3878837092, @vbarshikar). A2UI = aia-ui-experience platform; the federated-renderer model (publish your own renderer package, declare per `plugin.json`) = the mechanism AEM's rendering standard plugs into.
-- [AIA-front vs Coworker/AOv2-backend axes](reference_aia_vs_coworker_axes.md) — Two separate axes in the AOv2 migration. AIA = front (AI Assistant UI), Coworker/AOv2 = backend. Don't collapse a backend migration into a UI swap. EPA Plan A = AOv2 backend + Coworker UI; Plan B = AOv2 backend behind AIA front. Corey's "customers all on AI Assistant" = a front statement.
-- [Skyline P42 README — org classification](reference_skyline_p42_orglist.md) — `git.corp.adobe.com/experience-platform/skyline-rollout-cc/p42/README.md` = the External/Internal/TBYB org-classification source of truth Raul maintains by hand. Every AAI report filters on it; every "numbers off" episode traces to a manual refresh of it.
-- [AOv2 marketplace ≠ manifest](reference_aov2_marketplace_manifest.md) — Convergence/overlap/selection happens at the MANIFEST, not the marketplace. Multiple marketplaces is by design. Corrective frame for any "unify the skills" ask. ⚠️ Read the 07-09 correction block before quoting counts: excat/forms/plugin-count claims were over-stated.
-- [Coworker rail access + two-assistants observation](reference_coworker_rail_access.md) — How to see the Coworker rail on stage (flags `ao2-aia-enabled` + `shell-coworker-enabled`; prod build PR-12141). The EH home shows TWO chat entry points in transition (AIA center + Coworker rail right) = Pedro's selection/consistency lane made literal. Rail looks like AIA by design ("AIA 2.0").
-- [Slack audit channel roster](reference_slack_audit_channels.md) — the 12-channel list for the periodic Slack audit (last run 07-03; +#aem-agent-development +#aem-agent-experience-governance added 07-03). Single home for the list — add channels here.
+> One line per memory. Hooks are pointers, not content. Compacted 2026-07-13 (was at 22K, read-cap 24K).
 
-- [Entity index (generated)](ENTITY_INDEX.md) — person/handle → which memory files mention them. Lookup aid for /reply; regenerated by /consolidate. Never hand-edit.
-- [Transcript glossary](reference_transcript_glossary.md) — canonical names/terms + known Otter garbles (the two Ians, 1am-MCP=One-AEM-MCP, Encore/Jean-Claude=person garbles…). Load BEFORE reading any transcript.
+## References
+- [Coworker enablement](reference_coworker_enablement.md) — **the two Unified Shell flags (activation ≠ migration), the git-segment path, the manifest→skill map.** Read before any "can we put customer X on Coworker".
+- [Coworker — productized AOv2](reference_coworker.md) — ao.adobe.io/chat, semantic layer = the context differentiator over raw-MCP Claude.
+- [Coworker rail access](reference_coworker_rail_access.md) — stage flags; the panel replaces the rail in place; two chat entry points in transition.
+- [AOv2 marketplace ≠ manifest](reference_aov2_marketplace_manifest.md) — convergence happens at the MANIFEST. ⚠️ read the 07-09 correction before quoting counts.
+- [cx-coworker FAQ](reference_coworker_faq.md) — CXO enablement runbook (Babu Ramaraj). Raj Patel = AIA-migration owner.
+- [AI Observation architecture](reference_ai_observation_architecture.md) — OTel → LangFuse → DaaS NEXT → Rubin. The V2 substrate displacing Felix's AOv1 pipeline.
+- [AIA vs Coworker axes](reference_aia_vs_coworker_axes.md) — AIA = front, Coworker/AOv2 = backend. Don't collapse a backend migration into a UI swap.
+- [AIA Platform Architecture](reference_aia_platform_architecture.md) — Vineet Barshikar's federated-renderer model. ⚠️ superseded in part: Josh removed renderers 07-10.
+- [One AEM MCP repo](reference_one_aem_mcp_repo.md) — adobe-rnd/aem-sites-content-service (Tanju). Catalog, skill headers, eval semantics.
+- [AEM AI Mapping surface-map](reference_aem_ai_mapping.md) — Confluence intake pages owners fill. Pedro's canonical definition surface.
+- [AEM Agent Ownership Matrix](reference_aem_agent_ownership.md) — canonical PgM/PM/Eng/JIRA for the 10 AEM agents.
+- [CXO org — Daniel Mrose](reference_cxo_org_daniel_mrose.md) — Basel Eng org under Saar. Security review chain: Lars Krapf → Catalin Luta → Mrose → Saar.
+- [Skyline P42 org list](reference_skyline_p42_orglist.md) — Raul's hand-maintained External/Internal/TBYB classification. Every "numbers off" traces here.
+- [Splunk MCP dashboard](reference_splunk_mcp.md) — Bertrand's source for MCP adoption metrics.
+- [MCP terminology](reference_mcp_terminology.md) — locked term: "Tool Calls". Never "interaction" or "invocation".
+- [Power BI — token usage per org](reference_powerbi_token_usage.md) — ties FinOps (Jaclyn) + AO 2.0 pricing risk.
+- [AEP TryBuy artifacts](reference_aep_trybuy_artifacts.md) — AEP-side source of truth for TBYB.
+- [Brand Concierge lightup](reference_brand_concierge_lightup.md) — Confluence 3815569799. EH-side.
+- [Namita scope](reference_namita_scope.md) — Namita Kavadi = AEP AOv1 PM, NOT the MCP-reports track.
+- [Co-Pilot Review Tool access](reference_copilot_review_access.md) — grant via JIRA NXUI-170 clone. Pedro is an approver.
+- [OKR structure O1-O6](reference_okr_structure.md) — O1 = AAI; O2-O6 = EH.
+- [Promotion Strategy v1](reference_promotion_strategy.md) — Playing-to-Win cascade for Director → Senior Director. Monthly review.
+- [Obsidian vault paths](reference_obsidian_paths.md) — **vault moved to `/Users/pedrofer/ObsidianAdobeVault` (2026-07-13)**. Memory edits via the GitHub repo path.
+- [Roadmap dashboard](reference_roadmap_dashboard.md) — `2026/Roadmap Dashboard.html`, static.
+- [Slack MCP workspace gotcha](reference_slack_mcp_workspace.md) — connector must be OAuth'd to cq-dev or all Adobe reads fail.
+- [Slack canvas API gotchas](reference_slack_canvas_api.md) — section-replace is destructive. Full-content replace only.
+- [Slack audit channel roster](reference_slack_audit_channels.md) — the ~15-channel sweep list. Single home — add channels here.
+- [Atlassian MCP](reference_atlassian_mcp.md) — the only way into internal JIRA/Confluence.
+- [PPTX template](reference_pptx_template.md) — always the H2'26 deck. Layout 6 = content slide.
+- [PPTX toolchain](reference_pptx_deck_building.md) — HTML→PNG, segno QR, LibreOffice QA. Close PowerPoint before writing.
+- [CLI binaries playbook](reference_cli_binaries.md) — yq/comby/sd/scc/difft/ast-grep.
+- [CLI-Anything generator](reference_cli_anything.md) — wrap an internal tool as an agent-native CLI + SKILL.md.
+- [Local AI toolkit](reference_local_ai_toolkit.md) — podcast/digest/journal skills, local Qwen, launchd schedule.
+- [Claude improvement tools](claude-improvement-tools.md) — MCP servers, skills, architecture ideas.
+- [Transcript glossary](reference_transcript_glossary.md) — canonical names + Otter garbles. **Load BEFORE reading any transcript.**
+- [Entity index (generated)](ENTITY_INDEX.md) — person → memory files. Regenerated by /consolidate. Never hand-edit.
 
 ## User
-- [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses. Apply them in analysis and writing.
-- [UI/CX comfort gap](user_ui_cx_gap.md) — Strong at product/strategy/org, less comfortable at UI/CX/design execution. Scaffold those explanations; route design detail to Eugene/Silvia.
+- [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses.
+- [UI/CX comfort gap](user_ui_cx_gap.md) — route design/spatial detail to Eugene/Silvia; scaffold those explanations.
 
-## Feedback
-- [Save screenshots to project folder](feedback_screenshots.md) — Always save screenshots to /screenshots in the project repo so they persist across sessions
-- [Session setup commands](feedback_session_setup.md) — Remind user to run /color orange and /rename ADBE-PM-ASSISTANT (UI commands, user must run them)
-- [No meeting setup help](feedback_no_meeting_setup.md) — Never offer to help schedule or set up meetings
-- [Session start behavior](feedback_session_start.md) — Pick up where we left off across BOTH projects (EH + AAI) at session start; concise per-project status, then ask. Current tilt lives in state.md, not hardcoded.
-- [Transcript room mic attribution](feedback_transcript_attribution.md) — "CR" room labels in Teams transcripts are conference room mics, not people. In the March 23 2026 session, all CR lines = Loni Stark
-- [Update trio after every meeting analysis](feedback_update_trio.md) — After every analysis, always update Stakeholder Map, State of the Project, and Questions for Next 1-1 with Sorin in the Obsidian vault
-- [Knowledge folder update cadence](feedback_knowledge_updates.md) — Always update knowledge/, INDEX.md, and README.md when asked and proactively at least once every 2 days. Commit with learn: prefix.
-- [Memory consolidation includes learning reflection](feedback_memory_consolidation.md) — "consolidate memory" triggers both memory updates AND knowledge reflection. Never do one without the other.
-- [Brief summary after document updates](feedback_document_updates.md) — After every document update, give a short summary of what changed and why.
-- [Task vs progress log distinction](feedback_task_vs_progress_log.md) — "Track this" = forward-looking task (checkbox + due date), NOT a past-tense progress log entry. Progress log is for what already happened.
-- [Conversation link optional when none exists](feedback_conversation_link_optional.md) — Ask for link per Status & Todo rule, but accept "no link, date/time is enough" for internal-only meetings without an external artifact.
-- [Rich task format — companion section pattern](feedback_rich_task_companion_section.md) — When user asks for tasks "with max info and hints," split into one-liner tasks + companion H2 section with full prep. Never dump multi-paragraph content into the task line.
-- [Mirror rule RETIRED — route by project](feedback_mirror_tasks_across_status_files.md) — Post 2026-05-03 split: tasks route to the project that owns the outcome (agent-reporting → AAI, EH-only → EH). Never duplicate rows; cross-cutting = one file + a cross-reference.
-- [Detect stale Status sections before adding tasks](feedback_refresh_stale_status_sections.md) — Scan Current Status + Focus dates first; offer to refresh when >2 weeks behind reality.
-- [Overwhelm usually means miscalibrated priority list](feedback_overwhelm_calibration.md) — When Pedro says overwhelmed, audit red-tagged items first. Too many 🔴 = triage broken, not effort.
-- [Read existing KR notes before drafting artifacts](feedback_read_kr_before_drafting.md) — Check `/120 Projects/Work/OKRs/` before drafting anything tied to a KR. The plan is usually already there.
-- [Status files are roll-ups not task trackers](feedback_status_rollup_not_tracker.md) — Focus sections link to KR notes. Detailed tasks live in KR notes with Todoist IDs. Don't duplicate.
-- [Fetch JIRA via MCP before opining](feedback_jira_mcp_before_opining.md) — When Pedro mentions a JIRA item, use Atlassian MCP to read actual content. Title-based inference is wrong often enough to matter.
-- [Defuse vs defer](feedback_defuse_vs_defer.md) — Scope clarity reroutes work, doesn't eliminate it. Frame moved items as deferred (still owed, sourced elsewhere), not defused.
-- [Response window for exec questions](feedback_response_window_for_exec_questions.md) — When Bertrand/Loni asks for input ahead of a meeting tonight, the window is 30 min, not 90. Lead with 5-sentence answer matching their literal frame. Deep analysis is for the second window.
-- [One artifact per ask — don't proliferate vault files](feedback_one_artifact_per_ask.md) — When Pedro asks for one document, that is the artifact. Don't spawn slide drafts / spec outlines / supporting files. Add sections to the canonical doc instead.
-- [Concise plan reminder when user forgets context](feedback_concise_reminder_when_forgotten.md) — When Pedro asks "what was the plan again?", give the move + exit line + 3 questions in 5 sentences max. Not a full restatement.
-- [Session-start env-var hygiene](feedback_session_start_env_hygiene.md) — Keep 1M context on, don't override autocompact threshold for this project. Dual-project cold load is chunky and triggers early autocompact otherwise.
-- [Big-file parallel chunk extract](feedback_big_file_parallel_chunk_extract.md) — For transcripts/docs >100K or >2000 lines, spawn 3-5 parallel background agents on contiguous chunks; main thread synthesizes from structured extracts only.
-- [Prep sections date-agnostic](feedback_prep_sections_date_agnostic.md) — Name prep companion sections `— next`, rename to `— notes — <held date>` on ingest. Stops reschedule-driven dangling-wikilink reconcile tax.
-- [PPTX color palette](feedback_pptx_palette.md) — White, light grey, dark grey, Adobe red, black ONLY. No green/blue/pink tints, even pale.
-- [Don't trace Bertrand-owned items](feedback_dont_trace_bertrand_owned.md) — Bertrand-owned actions (repair, workstreams, smoothing) don't go on Pedro's tracker. Stakeholder Map entry for context only.
-- [Namita scope = AEP AOv1](reference_namita_scope.md) — Namita Kavadi = AEP AOv1 PM, NOT MCP-reports track. Splunk MCP reports = Pedro ↔ Felix ↔ Tanju internal.
-- [MCP terminology — "Tool Calls"](reference_mcp_terminology.md) — Locked term for MCP usage measurement. Never "interaction" or "invocation."
-- [Don't promote proposals to decisions](feedback_proposal_vs_decision.md) — Slack threads = positions, not commitments. Decisions land via Conrad directive / Phase 4 collegial / Bertrand explicit close. Avoid "officially X" / "consolidated" / "resolved" without decision signal.
-- [First reply needs ownership sentence](feedback_first_reply_ownership_sentence.md) — Customer-escalation + VP-visibility threads need one literal ownership line in first reply. Data-dump alone reads as "I don't know" at exec speed.
-- [Don't litigate prior replies](feedback_dont_litigate_prior_replies.md) — Forward-framed clarification ("here's what's in motion") not backward-framed defense ("what I wrote already meant this"). Don't argue with senior leader's read.
-- [Language split — FR conversation, EN Obsidian](feedback_language_split.md) — Pedro = French in chat. Vault files = English. Verbatim quotes stay original language.
-- [PKD chat tone](feedback_pkd_chat_tone.md) — Default register: director-PM spine + Philip K. Dick prose/skin, in chat AND drafts, dosed by audience (chat full → exec very-light → security off). Coloring not padding, substance exact. Sentence SHAPES not vocabulary — lore lexicon banned (07-03). "normal mode" = off.
-- [Do NOT auto-reload Obsidian](feedback_obsidian_reload_after_write.md) — Pedro 2026-06-23: reloading each time is too much. Don't run `obsidian reload` after vault writes; let the app catch up, or use obsidian-cli when index freshness matters.
-- [Vault copy of published wiki pages](feedback_vault_copy_of_published_pages.md) — Pedro 2026-06-23: always save a markdown twin (with `wiki:` URL) of any Confluence page published for him; the vault = source of truth, Confluence = the published artifact.
-- [Audit outward artifacts before sharing](feedback_audit_outward_artifacts.md) — Wiki/capture pages: attribute every claim (speaker+timestamp), run a sourced/inference/invention audit before sharing, keep synthesis labelled-separate, don't over-read endorsements. Pedro's "100% no invention" bar.
-- [French register — no vulgar slang](feedback_french_register.md) — In French chat, avoid crude words ("foutu"); use clean equivalents ("fichu").
-- [Consolidation without substance = hygiene only](feedback_consolidation_without_substance.md) — When "consolidate" trigger fires but no new PM events came in chat, ship hygiene + staleness flags + debrief asks. Do NOT fabricate learnings from re-reading existing memory.
-- [Don't overread VP quotes](feedback_dont_overread_vp_quotes.md) — "North Star architecture for Pedro" = Ian's architecture serves Pedro, not Pedro is the architect. Audit subject + preposition before promoting to promotion-grade narrative.
-- [Confirm the ask + read the source before producing](feedback_confirm_ask_before_producing.md) — Don't act on an assumed delegation, or characterize a source unread. Mark inferences vs sourced quotes in reply drafts.
-- [Plain language, no jargon](feedback_plain_language_no_jargon.md) — Explain plainly; when Pedro says "I don't understand," strip to plain words + a concrete A/B choice, don't add more terms.
-- [HTML dashboards, not markdown](feedback_html_dashboard_preference.md) — Dashboards/roadmaps/visuals = self-contained HTML in the deck palette, not an md note. `open` it after saving.
-- [Simple local reminders over cloud automation](feedback_simple_local_reminders.md) — Default to a cadence Claude surfaces at session start; cloud /schedule only if repo-only + he asks.
-- [Build on a senior's artifact additively, not correctively](feedback_additive_not_corrective.md) — Frame adds as "what I'd add" (red-outline + credit), never "what's MISSING" (red markup). Additive keeps the owner an amplifier.
-- [Draft in Pedro's voice](feedback_draft_in_pedros_voice.md) — Messages Pedro sends = his plain English level, no native idioms, no meta-narration of the move, no reciting the other's position, Slack-clipped not essay, no em-dashes.
-- [Keep Claude private](feedback_keep_claude_private.md) — Never surface Claude as Pedro's AI assistant to colleagues; pace/frame deliverables as iterative human work, not overnight/superhuman speed.
-- [Don't conflate pattern with object](feedback_dont_conflate_pattern_with_object.md) — Same architecture phrasing ≠ same product. Compare the actual object (data vs skills) by reading both source artifacts before calling overlap/encroachment.
-- [Never send Slack messages](feedback_never_send_slack.md) — HARD RULE. Draft only, Pedro pastes himself. Send tool leaks "Sent using @Claude". Reading/searching Slack is fine.
-- [Slack permalink with every draft](feedback_slack_permalink_with_drafts.md) — end every Slack reply draft / thread report with the permalink to the thread's last message so Pedro can locate where to paste (he runs many threads in //).
-- [Position over merit — the rules of the game](feedback_position_over_merit.md) — Pedro's core false belief = "good work gets recognized and moves me up." Frame his work through position-over-merit; return to it always.
-- [Co-author, don't answer-over a sponsor](feedback_co_author_dont_answer_over.md) — With Ian/Bertrand/Loni on a thread they own: validate + name shared gap + hand back a question. Don't assert your thesis as the rebuttal; don't damage-control a sent reply.
-- [Bertrand likes the concrete, not just concepts](feedback_bertrand_concrete_first.md) — Lead with a scene + named artifacts + receipts in everything Pedro sends Bertrand; push abstraction/mechanism to the end. Promotion lever + daily-comms rule.
-- [Always start answer with Pedro's name](feedback_start_with_name.md) — Open every chat reply with "Pedro". Standing directive 2026-06-15.
-- [Separate facts from proposals in artifacts](feedback_separate_facts_from_proposals.md) — Architecture/strategy artifacts: keep as-is facts and Pedro's bets in separate diagrams/notes; color=ownership, dashed=proposal/inferred; never let a bet read as a fact.
-- [Mark inference in Pedro-voice drafts](feedback_voice_drafts_mark_inference.md) — Unconfirmed technical claims in his-voice drafts = his exposure; mark as inference, keep distinct systems distinct (bridges ≠ renderers). Own what I authored.
-- [Edit the span, not the artifact](feedback_edit_the_span_not_the_artifact.md) — When Pedro flags one phrase, fix THAT line only (offer options for it), don't rebuild the whole message. Smallest diff that satisfies the ask.
-- [No Adobe-internal content to personal/off-boundary repos](feedback_no_internal_to_personal_repos.md) — Never push Adobe-internal content (paths, customer names, eng rosters, outage refs) to personal GitHub or external services; `--private` doesn't make it safe. Tools fetch internal data at runtime, don't store it. Push blocked correctly 2026-06-26.
+## Feedback — how to work
+- [Position over merit](feedback_position_over_merit.md) — **his core false belief is "good work gets recognized". Return to this always.**
+- [Lead with the condition](feedback_lead_with_the_condition.md) — an unverified dependency goes ABOVE the draft. A caveat in the wrong place is a caveat not communicated.
+- [Confirm the ask, read the source](feedback_confirm_ask_before_producing.md) — don't act on an assumed delegation or characterize an unread source.
+- [Audit outward artifacts](feedback_audit_outward_artifacts.md) — attribute every claim; sourced/inference/invention audit before sharing. The "100% no invention" bar.
+- [Don't promote proposals to decisions](feedback_proposal_vs_decision.md) — Slack threads are positions. Avoid "officially X" without a decision signal.
+- [Mark inference in his-voice drafts](feedback_voice_drafts_mark_inference.md) — unconfirmed claims in his voice are his exposure.
+- [Don't overread VP quotes](feedback_dont_overread_vp_quotes.md) — audit subject + preposition before promoting to narrative.
+- [Don't conflate pattern with object](feedback_dont_conflate_pattern_with_object.md) — same phrasing ≠ same product. Read both sources.
+- [Draft in Pedro's voice](feedback_draft_in_pedros_voice.md) — plain English, no idioms, no meta-narration, no reciting the other's position, no em-dashes. **Aphorisms are the tell.**
+- [Edit the span, not the artifact](feedback_edit_the_span_not_the_artifact.md) — one phrase flagged = fix that line only.
+- [First reply needs an ownership sentence](feedback_first_reply_ownership_sentence.md) — a data-dump reads as "I don't know" at exec speed.
+- [Co-author, don't answer-over a sponsor](feedback_co_author_dont_answer_over.md) — validate, name the shared gap, hand back a question.
+- [Don't litigate prior replies](feedback_dont_litigate_prior_replies.md) — forward-framed clarification, never backward-framed defence.
+- [Build additively on a senior's artifact](feedback_additive_not_corrective.md) — "what I'd add", never "what's missing".
+- [Bertrand likes the concrete](feedback_bertrand_concrete_first.md) — lead with a scene, named artifacts, receipts. Abstraction last.
+- [Response window for exec questions](feedback_response_window_for_exec_questions.md) — 30 min, not 90. Match their literal frame.
+- [Never send Slack messages](feedback_never_send_slack.md) — **HARD RULE.** Draft only. Reading/searching is fine.
+- [Slack permalink with every draft](feedback_slack_permalink_with_drafts.md) — he runs many threads in parallel.
+- [Keep Claude private](feedback_keep_claude_private.md) — never surface Claude to colleagues; pace deliverables as human work.
+- [Plain language, no jargon](feedback_plain_language_no_jargon.md) — on "I don't understand", strip to plain words + a concrete A/B.
+- [Language split](feedback_language_split.md) — French in chat, English in the vault. Verbatim quotes stay original.
+- [French register](feedback_french_register.md) — no crude words.
+- [PKD chat tone](feedback_pkd_chat_tone.md) — director-PM spine, PKD sentence *shapes* not vocabulary. Dosed by audience. Lore lexicon banned.
+- [Always start with his name](feedback_start_with_name.md) — open every chat reply with "Pedro".
+
+## Feedback — artifacts and process
+- [Memory consolidation includes knowledge reflection](feedback_memory_consolidation.md) — never one without the other.
+- [Consolidation without substance = hygiene only](feedback_consolidation_without_substance.md) — do NOT fabricate learnings to look productive.
+- [Knowledge update cadence](feedback_knowledge_updates.md) — proactively at least every 2 days. Commit `learn:`.
+- [One artifact per ask](feedback_one_artifact_per_ask.md) — don't spawn supporting files. Add sections to the canonical doc.
+- [Brief summary after document updates](feedback_document_updates.md).
+- [Status files are roll-ups](feedback_status_rollup_not_tracker.md) — detail lives in KR notes.
+- [Detect stale Status sections](feedback_refresh_stale_status_sections.md) — flag when >2 weeks behind; don't silently rewrite.
+- [Task vs progress log](feedback_task_vs_progress_log.md) — "track this" = a forward task, not a past-tense log line.
+- [Rich task = one-liner + companion section](feedback_rich_task_companion_section.md).
+- [Prep sections date-agnostic](feedback_prep_sections_date_agnostic.md) — `— next`, renamed on ingest.
+- [Conversation link optional](feedback_conversation_link_optional.md) — accept "no link, date is enough" for internal meetings.
+- [Update the trio after every meeting](feedback_update_trio.md) — Stakeholder Map, State of Project, next-1-1 questions.
+- [Mirror rule RETIRED](feedback_mirror_tasks_across_status_files.md) — route tasks to the project that owns the outcome.
+- [Read KR notes before drafting](feedback_read_kr_before_drafting.md) — the plan is usually already there.
+- [Fetch JIRA via MCP before opining](feedback_jira_mcp_before_opining.md).
+- [Vault copy of published wiki pages](feedback_vault_copy_of_published_pages.md) — the vault is the source of truth.
+- [Separate facts from proposals](feedback_separate_facts_from_proposals.md) — never let a bet read as a fact.
+- [HTML dashboards, not markdown](feedback_html_dashboard_preference.md).
+- [Big-file parallel chunk extract](feedback_big_file_parallel_chunk_extract.md) — >2000 lines → 3-5 parallel extractors.
+- [Don't auto-reload Obsidian](feedback_obsidian_reload_after_write.md). ⚠️ Its editor buffer also **overwrites** disk writes — close the note before editing.
+- [No internal content to personal repos](feedback_no_internal_to_personal_repos.md) — `--private` doesn't make it safe.
+- [Save screenshots to the project folder](feedback_screenshots.md).
+- [Defuse vs defer](feedback_defuse_vs_defer.md) — scope clarity reroutes work, it doesn't eliminate it.
+- [Don't trace Bertrand-owned items](feedback_dont_trace_bertrand_owned.md).
+- [Overwhelm = miscalibrated priorities](feedback_overwhelm_calibration.md) — audit the 🔴 tags first.
+- [Concise reminder when he forgets context](feedback_concise_reminder_when_forgotten.md) — 5 sentences max.
+- [Simple local reminders](feedback_simple_local_reminders.md) — surface at session start, not cloud automation.
+- [PPTX palette](feedback_pptx_palette.md) — white, greys, Adobe red, black ONLY.
+- [Transcript room-mic attribution](feedback_transcript_attribution.md) — "CR" labels are room mics, not people.
+- [Session start behavior](feedback_session_start.md) — pick up both projects; concise status, then ask.
+- [Session-start env hygiene](feedback_session_setup.md) / [env vars](feedback_session_start_env_hygiene.md) — 1M context on; /color orange, /rename.
+- [No meeting setup help](feedback_no_meeting_setup.md).
 
 ## Projects
-- [Watches — dated follow-ups](watches.md) — single registry of "surface on date X" checks. Read at session start + by /reply; /consolidate maintains it.
-- [AEM Experience Hub](project_experience_hub.md) — EH-only after 2026-05-03 split. Authoring, content, EH surface scope. AAI work moved to sister file.
-- [AEM Agents Intelligence](project_aem_agents_intelligence.md) — Agent reporting platform, AO 2.0 liaison, three-tier reporting, Loni+JM May 11 deck, H-005 resolved. Sister file to EH. Active = June+ banners + living reference; older event logs in the archive ↓.
-- [AAI archive (May 2026 + earlier)](project_aem_agents_intelligence_ARCHIVE.md) — Resolved AAI event logs split out 2026-06-24 to keep the active file Read-able. Load on demand by theme; not part of session-start recall.
-- [Adobe AEM PM org](project_adobe_org.md) — Reporting chain: User → Bertrand (Sr Director) → Loni (VP PM for AEM)
+- [Watches — dated follow-ups](watches.md) — **the single registry.** Read at session start and by /reply.
+- [AEM Agents Intelligence](project_aem_agents_intelligence.md) — the active lane. Coworker migration, comms ownership, agent reporting. Hot state + durable reference.
+- [AAI archive](project_aem_agents_intelligence_ARCHIVE.md) — weekly ISO shards. Read the `_ARCHIVE_INDEX.md` first, then grep. Never full-Read.
+- [AEM Experience Hub](project_experience_hub.md) — EH surface, contribution model, Sorin team, O2 KRs.
+- [Adobe AEM PM org](project_adobe_org.md) — Pedro → Bertrand (Sr Dir) → Loni (VP).
