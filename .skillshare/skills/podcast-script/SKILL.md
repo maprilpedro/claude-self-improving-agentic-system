@@ -82,7 +82,7 @@ Do NOT run the chain yourself. Launch the generator and relay ONLY its metadata 
 
 ```bash
 python3 <skill-dir>/generate_local.py --source "<absolute path>" --profile solo_brief --lang fr \
-  --out "/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.com/My Drive/ObsidianVault/020 Professional/Adobe/Projects/2026/Podcast Scripts"
+  --out "/Users/pedrofer/ObsidianAdobeVault/020 Professional/Adobe/Projects/2026/Podcast Scripts"
 ```
 
 The script runs outline → per-segment transcript against local Qwen, writes the markdown, prints a one-line JSON blob (path, profile, segments, words, read-time). Content never enters Claude's context. Requires `ollama` running (`curl localhost:11434/api/tags` to check). Default model `qwen3:30b-a3b-instruct-2507-q4_K_M`.

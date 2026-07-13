@@ -6,7 +6,7 @@ type: reference
 
 # Obsidian Vault Canonical Paths
 
-Vault root: `/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.com/My Drive/ObsidianVault/`
+Vault root: `/Users/pedrofer/ObsidianAdobeVault/`
 
 ## Adobe Project Folders (under `020 Professional/Adobe/Projects/2026/`)
 

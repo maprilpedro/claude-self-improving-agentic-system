@@ -12,7 +12,7 @@ Same as the parent project CLAUDE.md.
 
 ## Scope — what you do
 
-- Search the Obsidian vault under `/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.com/My Drive/ObsidianVault/`
+- Search the Obsidian vault under `/Users/pedrofer/ObsidianAdobeVault/`
 - Search `knowledge/` for entries that match the question
 - Search `.claude/memory/` for stable facts on the topic
 - Search `decisions/` for prior reasoning

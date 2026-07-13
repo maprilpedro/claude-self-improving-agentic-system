@@ -53,7 +53,7 @@ AEM Experience Hub is the unified home screen / landing page for AEM Cloud Servi
 
 **Org:** User → Bertrand (Senior Director PM) → Loni (VP PM for AEM)
 
-**Obsidian vault root:** `/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.com/My Drive/ObsidianVault/020 Professional/Adobe/Projects/2026/Experience Hub/`
+**Obsidian vault root:** `/Users/pedrofer/ObsidianAdobeVault/020 Professional/Adobe/Projects/2026/Experience Hub/`
 
 ---
 
@@ -200,7 +200,7 @@ Ian Boston (April 1) confirmed two legal risks with the agent reporting pipeline
 
 ## EH Status & Todo (Obsidian) + Key Files
 
-All paths relative to: `/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.com/My Drive/ObsidianVault/020 Professional/Adobe/Projects/2026/Experience Hub/AEM Experience Hub - Project Folder/`
+All paths relative to: `/Users/pedrofer/ObsidianAdobeVault/020 Professional/Adobe/Projects/2026/Experience Hub/AEM Experience Hub - Project Folder/`
 
 - Status & Todo: `AEM EH Status and Roadmap/Experience Hub - Status and Todo.md` (renamed from `EH - Status and Todo.md` 2026-05-03)
 - Bertrand 1-1 questions: `AEM EH - Key Files/Experience Hub - Questions for Next 1-1 with Bertrand.md` (cross-cutting, kept EH-side)

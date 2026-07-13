@@ -226,7 +226,7 @@ Execute moves and content extraction:
 
 ## Critical files to touch (path index for execution)
 
-In the vault (paths relative to `/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.com/My Drive/ObsidianVault/`):
+In the vault (paths relative to `/Users/pedrofer/ObsidianAdobeVault/`):
 
 - `020 Professional/Adobe/Projects/2026/Experience Hub/AEM Experience Hub - Project Folder/AEM EH - Key Files/Experience Hub - Stakeholder Map.md`
 - `020 Professional/Adobe/Projects/2026/Experience Hub/AEM Experience Hub - Project Folder/AEM EH - Key Files/Experience Hub - State of the Project.md`

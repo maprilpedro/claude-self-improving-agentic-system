@@ -7,7 +7,7 @@ metadata:
   originSessionId: 846f2171-cccd-421f-99fe-958b95ae2a62
 ---
 
-**Root folder:** `/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.com/My Drive/ObsidianVault/120 Projects/Work/OKRs/`
+**Root folder:** `/Users/pedrofer/ObsidianAdobeVault/120 Projects/Work/OKRs/`
 
 Each OKR folder contains `🎯 Objective.md` + `📊 KR Board.md` (kanban) + one MD per KR. KR notes hold Todoist-backed task lists (`<!-- tid:... -->`).
 

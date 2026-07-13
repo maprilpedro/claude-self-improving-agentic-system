@@ -46,7 +46,7 @@ Every output header states the engine (`engine: claude` / `engine: qwen`) so the
 Launch the generator and relay ONLY its metadata — do NOT `cat` the result:
 ```bash
 python3 <skill-dir>/digest_local.py --source "<absolute path>" --template decisions --lang fr \
-  --out "/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.com/My Drive/ObsidianVault/020 Professional/Adobe/Projects/2026/Digests"
+  --out "/Users/pedrofer/ObsidianAdobeVault/020 Professional/Adobe/Projects/2026/Digests"
 ```
 The script reads the source, applies the template against local Qwen, writes the note, prints a one-line JSON blob (path, template, words). Content never enters Claude's context. Requires `ollama` running.
 

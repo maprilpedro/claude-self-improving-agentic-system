@@ -19,8 +19,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OLLAMA = os.environ.get("OLLAMA_HOST", "http://localhost:11434") + "/api/chat"
 NUM_CTX = 65536  # 64K — safe on 48GB (weights ~18GB + KV ~8GB); Qwen3 ceiling is 262K
 
-VAULT = ("/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.com/"
-         "My Drive/ObsidianVault/020 Professional/Adobe/Projects/2026")
+VAULT = "/Users/pedrofer/ObsidianAdobeVault/020 Professional/Adobe/Projects/2026"
 DEFAULT_ROOT = VAULT  # whole 2026 tree — his recent work lives in project folders, not just Meeting Notes
 # Folders to skip when scanning (this skill's own outputs + sibling generators)
 EXCLUDE_DIRS = {"Journal", "Digests", "Podcast Scripts", ".obsidian", ".trash"}

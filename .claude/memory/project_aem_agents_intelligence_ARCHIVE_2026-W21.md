@@ -24,7 +24,7 @@ AEM Agents Intelligence (AAI) is the agent-portfolio reporting and strategy work
 
 **Org chain:** Pedro → Shankari → Bertrand (Sr Director PM) → Loni Stark (VP AEM & Commerce). Bertrand also reports laterally with Jean-Michel Pittet (VP Eng AEM, Basel) on agent strategy.
 
-**Obsidian vault:** `/Users/pedrofer/Library/CloudStorage/GoogleDrive-maprilpedro@gmail.com/My Drive/ObsidianVault/020 Professional/Adobe/Projects/2026/AEM Agents Intelligence/AAI - Project Folder/`
+**Obsidian vault:** `/Users/pedrofer/ObsidianAdobeVault/020 Professional/Adobe/Projects/2026/AEM Agents Intelligence/AAI - Project Folder/`
 
 **OKR home:** `/120 Projects/Work/OKRs/O1 - AI Agent Intelligence/` (KRs already AAI-correct: Apoorva punch-list, Loni+JM presentation, Priority Consolidation, agent owner sign-offs, monthly metrics deck, AEM-AO SLA, BVR Discovery methodology).
 
