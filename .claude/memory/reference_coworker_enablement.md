@@ -25,7 +25,9 @@ The three mechanics that decide what an AEM customer sees. Confused constantly, 
 
 **→ ACTIVATION IS NOT MIGRATION.** Enabling Coworker does not remove AI Assistant. Deprecation is the second flag, and it is what cohort 3 does.
 
-⚠️ **OPEN (asked Mark 2026-07-13, unanswered):** he named two flags; he never said they are **independently settable**. The coexistence row is an inference until he confirms. Pedro has already stated it to Bertrand, Yanira and Jaclyn in writing.
+✅ **CONFIRMED 2026-07-13 15:39.** Asked whether flag 1 can be set without flag 2, **Mark Doten: *"Technically, yes, but that is not my decision."*** The coexistence state is real.
+
+🔴 **AND IT OPENED A BETTER QUESTION: nobody owns the policy.** The state exists, it is **already in use** (adobe.com, AMEX), and no one has decided whether an AEM customer may run both assistants during the transition. **Practice is ahead of policy.** That decision shapes the migration experience of AEM's own customers, so AEM should hold it — Pedro took the position with Mark at 16:59 (*"coexistence is the state we need… Happy to own that position if nobody else has"*) and is awaiting his answer on who does make the call. Same shape as the parity list: an unowned decision that sets AEM's outcome, claimed rather than requested.
 
 **What this settles.** Ankur Arora's *"can support be added in a staged manner?"* → **staged activation yes, staged deprecation no.** Cohort 3 is where the fallback disappears, and EH exposes every agent on one bar, so there is nowhere left to fall back to. Pedro's original "ALL agents must port before ANY AEM customer migrates" was **over-broad**; the precise version is more defensible, not less.
 
