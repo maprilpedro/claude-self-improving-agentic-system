@@ -62,9 +62,19 @@ Skill inventory, verified 2026-07-13 from `~/GitHub/adbe-skill-audit/data/skills
 
 **Nothing in the 102 skills previews content at runtime.** `preview-import` (excat) is a local EDS dev-server preview, a different object. Publish exists. Rendering what is actually delivered on a customer's own channels does not.
 
-## 4. What no longer exists
+## 4. Renderers — what is gone, and what is very much alive
 
-**Custom renderers are gone.** Joshua Hailpern, `#aem-aep-coworker-rendering` 2026-07-10 (ts `1783693457.727019`): *"nor do we have 'renderers' as they existed before, with deep/complex wrokflows embeded in them… these were removed by the coworker team when they reinvisinoed how the harness would work."*
+⚠️ **Do not say "custom renderers no longer exist."** That over-states it, and Pedro caught it. Two things are true at once.
+
+**What Josh removed.** Joshua Hailpern, `#aem-aep-coworker-rendering` 2026-07-10 (ts `1783693457.727019`), with the qualifier that matters: *"nor do we have 'renderers' as they existed before, **with deep/complex wrokflows embeded in them**… these were removed by the coworker team when they reinvisinoed how the harness would work."* Also: *"there are no more 'direct' connections to agents."* → the **workflow-bearing, agent-connected** renderer (the `ABACDraftRenderer` shape) is gone. For those there is **nothing to port into** — it becomes a redesign, not a port, and **choosing the replacement is a DESIGN decision, not an engineering one** (Silvia + Eugene, not Sorin).
+
+**What exists.** **ADR 001 — A2UI Renderer Extensibility** (`Adobe-dxue/coworker-ui-experience/docs/adr/001_a2ui_renderer_extensibility.md`). ⚠️ **Owner = Tim Lynn (`tlynn_adobe`), status `proposed`, dated 2026-06-09** — a proposal, not a decision, and it **predates** the harness redesign Josh describes, so **verify with Tim that the tiers still hold** before relying on it.
+- **Registry-based, open contribution.** *"Adding a new renderer is open to any team — the core chat UI team is not a gatekeeper."*
+- **Four tiers, in order.** ① **SVG via markdown data-URI** (the default; renders in Claude.ai, ChatGPT, Slack, email, PDF) → ② **SSR React via A2UI** (base components, or server-rendered React) → ③ **compose from existing platform renderers** → ④ **custom client renderer, last resort**, and the PR must document why the other three failed.
+- **The rationale is Pedro's own argument, written by AEP:** a custom client renderer *only works in the Coworker frontend*. SVG travels everywhere.
+- **🔑 The prop-schema contract is a SKILL FILE.** *"There is no machine-readable schema shared between AO and the frontend. Instead, the `visual-artifacts` skill document in `ao` is the authoritative description of each component's expected props."* + *"Without the skill entry, the LLM will not know how to construct a valid `add_artifact` call even if the type passes validation."* → **a renderer starts as a PR into AEP's `ao` repo** (type in `KNOWN_TYPES`, a validator, `prompts/references/<type>.md`), and it must land **before** the `coworker-ui-experience` PR. ⚠️ **This is NOT the manifest** — the manifest decides which skills a customer gets; this decides what the LLM may render. Same mechanism, different object ([[feedback_dont_conflate_pattern_with_object]]).
+
+⚠️ **Retrieval note.** This ADR was already in `knowledge/ai-product/` [[A Rendering Contract Carries Structure, Not Skin]] since 2026-06-19 and was **not retrieved** when Bertrand asked about it on 07-13. **Grep the knowledge folder before fetching an architecture source.**
 
 The three replacement paths, his words: **hybrid** (*"the coworker harness has visibility onto the page and can interact with the page that is open"* — Mithril/Hybrid-2.0), **tools and skills** (*"a conversational experience, not a point and click"*), **generative UI** (early state, "prioritized by leadership"). His preference between them is explicitly flagged as opinion.
 
