@@ -4,6 +4,7 @@
 
 ## References
 - [Coworker enablement](reference_coworker_enablement.md) — **the two Unified Shell flags (activation ≠ migration), the git-segment path, the manifest→skill map.** Read before any "can we put customer X on Coworker".
+- [Coworker Customer PODs](reference_coworker_pods.md) — **Anjul's co-innovation program. Type B = co-innovation, NOT migration (the vocabulary that carries the coexistence argument). The Named Generalization Owner is unclaimed for AEM.** Read before any AMEX / Coke / AstraZeneca conversation.
 - [Coworker — productized AOv2](reference_coworker.md) — ao.adobe.io/chat, semantic layer = the context differentiator over raw-MCP Claude.
 - [Coworker rail access](reference_coworker_rail_access.md) — stage flags; the panel replaces the rail in place; two chat entry points in transition.
 - [AOv2 marketplace ≠ manifest](reference_aov2_marketplace_manifest.md) — convergence happens at the MANIFEST. ⚠️ read the 07-09 correction before quoting counts.
