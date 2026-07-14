@@ -11,6 +11,20 @@ metadata:
 
 ## Open
 
+### 🔴🔑🔑 2026-07-14 — **THE ONE THAT OUTRANKS EVERYTHING: 185 TBYB ORGS SHIP THE WEEK PEDRO IS AWAY, AND THEY WILL SEE A BANNER**
+
+- **🔴🔑 THE FACTS, ALL SOURCED 2026-07-14 AFTERNOON.**
+  - **Ken Russell**, `#aia_coworker_convergence` 16:27: *"**Tbyb is being rolled out in cohort. Starting with 185 the week of the 21st to all 2k+ orgs by the end of August.** Product can talk to the rollout if you need specifics."*
+  - **Mark Doten**, DM 16:25: *"…**there will also be banners calling it out. So a banner promoting Coworker would be shown on the AIA rail**."* And 16:49, asked if that is cohort-only: ***"Any org with coworker."***
+  - **→ ENABLING COWORKER ON ANY ORG PUTS A BANNER INSIDE THE CUSTOMER'S EXISTING AI ASSISTANT.** There is **no silent path**. Sergiu and Felix are planning on "the customer sees nothing" and **that assumption is dead**.
+  - **→ 185 TBYB orgs ship the week of 21 July. Pedro is on PTO from 20 July. He is the named customer-comms owner. No customer message exists.**
+- **⏳ THE TWO QUESTIONS THAT DECIDE HOW BAD THIS IS — asked in-thread, unanswered.** (1) **Are the 185 AEM customers?** (2) **Does that rollout flip the AI Kill Switch, or only enable Coworker?** ⚠️ **If they are AEM cloud service, then "AEM is excluded until cohort 3" — the spine of the deck, the status doc, the Saar/Jaclyn note and every public statement Pedro has made — is already false.** ⚠️ Ken's "by the end of August" is **the same EOAug** Pedro has defended for two weeks as *the port date, not a switch-off date*.
+- **🟢 THE ONE PIECE OF GOOD NEWS, AND IT IS REAL.** Mark: Coworker sits in the **app switcher and quick access**, **not as a second rail**. **There is no two-assistants-side-by-side problem.** → **The coexistence objection is dead, in Pedro's favour. The Rachel ask is now cheap**, and the honesty he was holding ("two assistants in one shell IS bad UX") turns out not to be needed.
+- **📤 OWED TONIGHT, BEFORE HE CLOSES:** tell **Sergiu, Felix, Corey, Brian** in the agent-owners thread that there is no silent path, sourced to Mark. **They are building on a dead assumption and they do not know it.** Draft written in-session.
+- **📤 OWED THIS WEEK, AND IT IS NOW THE #1 DELIVERABLE:** **the customer message.** Not the skeleton, the actual message. If 185 AEM orgs see a Coworker banner on 21 July with nothing said, Pedro owns that silence.
+- ⚠️ **Ken set a trap and Pedro walked into it honestly:** *"Can you confirm that AEM is only doing this on internal orgs for testing purposes?"* → **He said no.** Real TBYB customers, results delivered in the old AIA surface. **He gave up the easy path to stay credible.** Watch whether Ken now escalates or slows the ask.
+- Ken, Q1: backend without UI is *"theoretically, yes… It will require the org being provisioned **unless using an Adobe email address**"* (→ why the Coke allowlist is per-email), via the **multi surface bridge** until it moves into AO 2.0 *"in the next 2 weeks or so"*.
+
 ### 🔴🔑 2026-07-14 (Tue) — THE THREE THINGS THAT GATE EVERYTHING ELSE (Pedro is on PTO from 2026-07-20 — this week is the only week)
 
 - **🔴 2026-07-14 — ASTRAZENECA: A CSM IS WAITING ON AN ENTITLEMENT ANSWER THAT DOES NOT EXIST, AND APOORVA JUST HANDED IT TO PEDRO.** Email chain, **Craig Hugo** (Principal CSM, EMEA, London) → Ben Chan, Aman Kumar Gupta, Jamie Brighton, Apoorva Gupta, Ankur Arora; cc **Anna Maher** (running an **SBR with AstraZeneca**), Sam King, Barny Shergold. Sent 07-10, **chased 07-13 20:26** (*"AstraZeneca are chasing us on this"*). **The question:** *"what agentic capability AstraZeneca will get OOTB with **AEM Sites (MS)** and **Assets (CS)**… whether customers will get these capabilities as standard, or whether they need to pay extra."* Screenshot taken from **the latest H2 AEM roadmap deck**. **Apoorva added Pedro** *"to provide clarity on TBYB entitlement to get AEM skills."*
