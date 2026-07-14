@@ -11,6 +11,17 @@ metadata:
 
 Whenever the question is "unify the AEM skills" / "put them in the same marketplace" / "is the multi-marketplace split a problem" — this is the corrective frame. The convergence unit is the **manifest**, not the marketplace.
 
+## 🔴 CORRECTION 2026-07-14 — MANIFEST ROUTING IS PER **USER**, NOT PER ORG. Read this before saying "one manifest per customer".
+
+**Source, read at the source:** **Felix Delval's PR `ao#6710`** ("Add AEM Sites Trial user allowlist routing to Experience Production Agent", opened 2026-07-14), which explicitly **mirrors the `coca-cola-orgs-allowlist` / `coca-cola-user-allowlist` and `comcast` patterns already in prod**.
+
+**The mechanism, verbatim from the PR:** an **org-scoped segment** (`members: [<org id>]`) uses **`member_metadata.specific_segment`** to narrow down to a **`scope_kind: user`** segment keyed on **`user.email`**. A manifest-targeting rule is inserted **ahead of** the org's default rule (e.g. `aem-orgs-to-aem-aia`), and **targeting rules are evaluated first-match**, so the narrower allowlist wins for those users while every other user in the org is unaffected.
+
+- **→ A single ORG can run two manifests at once, split across its users.** Allowlisted users of AEM Sites Trial get `experience-production-agent`; everyone else on the same org keeps `aem-aia`.
+- **→ "One manifest at a time" is still true — but the unit is the USER SESSION, not the customer.** ⚠️ **Do not say "customer X cannot have both manifests." Say "a single user cannot have both in one session, and routing is per user, so someone has to decide which users get which."**
+- **Why it matters, concretely (2026-07-14, AMEX):** `multi-cf-edits` (the only real CF-editing skill) is in the **`epa`** marketplace; `discovery` (the only content-search skill) is in **`aia-extensions`** (the central manifest). Verified in `adbe-skill-audit/data/skills.json`. So one user cannot edit *and* discover fragments today — but the org can be split. **That distinction is the difference between a wall and a routing decision.**
+- **The AEM side already commits to this config themselves** — `scoman_adobe` (Sergiu Coman) pushed to `config/aep-aia/.../segments` on 07-13. **There is no CODEOWNER on the segments path**, only on `config/**/manifests/cx-coworker.yaml` (→ `@Adobe-Experience-Platform/aep-ai-ao-committers`). **So these PRs have no automatic approver, which is why Felix's sat unreviewed.** Who to ping: **Ankush Malhotra (`amalhotr_adobe`)** — he wrote the Coca-Cola pattern and pushed to these exact files twice on 07-14; **Dan Moldovan (`dmoldova_adobe`)** for the targeting-rule half (he did `cx-coworker-prada`).
+
 ## The model (sourced: `Adobe-Experience-Platform/ao` → `docs/reference/domains/plugins-and-skills/`, author ssree, under review 2026-03)
 
 ```
