@@ -22,7 +22,7 @@ metadata:
 | Tanju Erinmez | — |
 | Ilya Grafutko | "Ilie" (corrected 06-30) |
 | Rachel Hanessian (`@hanessia`) | "Hanessia Anessian" |
-| Namita Kavadi | "Namita Kalra" |
+| ⚠️ **Namita — TWO RECORDS, UNRESOLVED (flagged 2026-07-16)** | **Namita Kavadi** ("Namita Kalra" garble) is what this glossary and [[reference_namita_scope]] carry (*"AEP AOv1 PM, NOT the MCP-reports track"*). **But the 07-15 rollout-sync Teams display name is `Namita Krishnan`** — and **Teams display names are not Otter garbles**, so that spelling is reliable. Memory also carries a **Namita Krishnan** on the 05-27 TBYB-cohort line with Tina Ngo. **Either there are two Namitas or one of our records is wrong.** ⚠️ **Do not merge, do not guess, and do not put either surname in an outbound artifact until checked** (Slack profile is the cheap test). The 07-15 rollout Namita is the one who runs the weekly while Rachel is out and who said *"if a customer has V2, there's no AI assistant anymore."* |
 | Matt Colón (`@coln`) / Tim Lynn (`@tlynn`) | handle confusion (fixed 06-15) |
 | Catalina Preda (AEP, Coworker quality/evals) | "Katharina", "Catalina/Katharina" mix within one transcript (07-06) |
 | Georgiana Copil (AEP, gateway governance/quality doc) | — |
@@ -80,6 +80,10 @@ metadata:
 | ⚠️ "Scopa"/"Fascopa" (the demo brand in Bertrand's 07-15 Coworker demo, AEM Showcase org) | Otter-garbled, **unverified** — do not put it in an artifact before Bertrand confirms the real demo-site name |
 | ⚠️ "Fluffy Jaws" (an MCP an Acrobat colleague added to Coworker for CJA analysis — Horia says "you of course know Fluffy Jaws") | almost certainly a garble of a real internal MCP name; unresolved |
 | ⚠️ "Taneja"/"Tanning" (07-15 room) | context suggests **Tanju Erinmez** for "Taneja"; "the list of people at Tanning" = likely "in attendance" mis-heard. Low confidence |
+| **Gainsight** (the in-app popup tool AEP will use for the Coworker announcement; AEM uses it too — Pedro confirmed in-room 07-15) | "gain site" |
+| **Cohort 0** (Rachel's name for early-access customers *"enabled on both"* Coworker and AI Assistant — the coexistence door; **explicitly NOT "pods"**, which she reserves for agentic-workflow/projects co-innovation) | — |
+| Langfuse | "log fuse" (07-15) |
+| ⚠️ "Sharda" / "Shankari" (07-15 rollout sync — the credit / rate-card contact Namita named) | **Unresolved.** Namita said "work with Shankari… [on] his rate card", then answered **"Sharda"** when asked for the contact name. Possibly **Pritie Sharda** (Agent PgM), possibly an Otter garble of Shankari Panchapakesan. **She said she would post the name — take it from there, do not guess** |
 
 ## Structural traps (not garbles)
 
