@@ -42,6 +42,9 @@ metadata:
 | **Lars Krapf** — Sr Security Researcher, Customer Experience Orchestration (reports to Catalin Luta). AEM→Coworker security review, out Mondays | NEW 2026-07-10 |
 | **Catalin Luta** — Sr Manager (7 reports) under Daniel Mrose, CXO. **Manager on the AEM Coworker security review**, so his threat-model statement is authoritative | ⚠️ **not Catalina Preda** (AEP evals/golden-set). Earlier notes called him "AEM eng" — wrong, he is CXO management |
 | Toby (readiness/infrastructure contact) / Ovidiu (ORR contact — "nothing needed from their side") | NEW 07-09, surnames unknown |
+| **Vineet Sharma** — engineering lead for **Coworker Projects**. Horia's routing for AEM getting hands-on with projects (with Raj Patel) | NEW 2026-07-15. Said as both "Vinit Sharma" and "Vineet" in one breath — ⚠️ spelling unverified, confirm before Slacking him. Do NOT merge with **Vineet Barshikar** (AIA federated-renderer architecture) |
+| **Zan Chu** — has the **business-context demo** Rachel offered to share | NEW 2026-07-15, spelling unverified |
+| **Gilles Knobloch** — in the Basel room 07-15; his ask (internal hands-on access to projects without a customer) was **relayed by another voice on the same mic** | ⚠️ his own words are mostly NOT on the transcript — do not quote him from the room mic |
 | ⚠️ unresolved person garbles | "Encore" (Assets team member), "Jean-Claude" (Tanju searching a name live), "will/wool" (07-08 Sorin 1-1, an eng who'd know AI-Assistant activation/Gem-Stack config), "Iulia"/"Ilie" (07-08 Rachel rollout call — a security/legal reviewer on Horia Galatanu's AEP team; ⚠️ NOT Ilya Grafutko; Horia to Slack the real name) — PEOPLE not teams; do not carry as agents/teams |
 
 ## Terms / products (canonical → garbles)
@@ -69,10 +72,19 @@ metadata:
 | LLM Optimizer (the risk-based no-extra-paperwork precedent Legal cites, 07-09) | "LM Optimizer" |
 | PLA (the legal agreement done once for Project 42 + all agents underneath) | — |
 | AI rider (provisioned at SKU level, Coworker-wide, not per-agent) | "AI waiver" (Yanira, 07-09) |
+| **Coworker Projects** (the 2nd Coworker module — team productivity, codified workflows) | — |
+| **Project Halo / Coworker Campaigns** (a 3rd module, absent from Anil's Summit slide; Horia parked it 07-15) | — |
+| Fruitbar (the generative-UI surface in Projects) | "project footbar" (07-15) |
+| CJA | "CGA", "CJ" (07-15) |
+| Joshua Hailpern | "Josh Halpern" (Horia, 07-15) |
+| ⚠️ "Scopa"/"Fascopa" (the demo brand in Bertrand's 07-15 Coworker demo, AEM Showcase org) | Otter-garbled, **unverified** — do not put it in an artifact before Bertrand confirms the real demo-site name |
+| ⚠️ "Fluffy Jaws" (an MCP an Acrobat colleague added to Coworker for CJA analysis — Horia says "you of course know Fluffy Jaws") | almost certainly a garble of a real internal MCP name; unresolved |
+| ⚠️ "Taneja"/"Tanning" (07-15 room) | context suggests **Tanju Erinmez** for "Taneja"; "the list of people at Tanning" = likely "in attendance" mis-heard. Low confidence |
 
 ## Structural traps (not garbles)
 
-- **"CR <ROOM>" labels** = conference-room mics, not people; map per-meeting by content (`feedback_transcript_attribution`). **`CR BASL 05` (and `CR BASL 05 / WALENSEE VC (4)`) = PEDRO in BOTH the 07-08 Rachel rollout transcript AND the 07-09 credit-mapping transcript** — two independent confirmations. Treat `CR BASL 05` as Pedro by default in Basel-room transcripts, and verify by content. **In the 07-08 Rachel rollout transcript, `CR` (CR BASL 05) = PEDRO himself** — his own positions/commitments are under the room-mic label; do not misattribute them as a third party.
+- **"CR <ROOM>" labels** = conference-room mics, not people; map per-meeting by content (`feedback_transcript_attribution`). **`CR BASL 05` (and `CR BASL 05 / WALENSEE VC (4)`) = PEDRO in BOTH the 07-08 Rachel rollout transcript AND the 07-09 credit-mapping transcript** — two independent confirmations. **In the 07-08 Rachel rollout transcript, `CR` (CR BASL 05) = PEDRO himself** — his own positions/commitments are under the room-mic label; do not misattribute them as a third party.
+- 🔴 **THE "CR BASL 05 = Pedro" DEFAULT IS DEAD — CHECK THE ROOM HEADER FIRST (correction 2026-07-16).** In `20260715 - Coworker w AEM Agent Team Demo`, the label is **`CR BASL 05/LAGO MAGGIORE VC (9)`** and the transcript header states the room outright: **"Present in the room: Bertrand de Coatpont, Gilles Knobloch, Pedro Ferreira."** One mic, three people, **no way to separate them from the label alone.** Proof it is not Pedro by default: after the Scopa demo spiel the room mic delivers, **Horia answers "Thank you, Bertrand. You made it really concrete"** → that block is **Bertrand**, filed under the same label as Pedro's questions. **Rule: read the "Present in the room" header before attributing a single `CR` line, attribute by content, and when three people share a mic, say "the Basel room" rather than guess a name.** A wrong name here is a fabricated quote in Pedro's mouth or a peer's.
 - **Otter without timestamps** — no time anchors; date statements by content only.
 - **AIA (front/UI) ≠ Coworker/AOv2 (backend)** — transcripts blur them; keep the axes distinct (`reference_aia_vs_coworker_axes`).
 - **"Tool Calls"** is the locked measurement term — transcripts saying "interactions/invocations/requests" get analyzed as what they actually counted (`reference_mcp_terminology`).
