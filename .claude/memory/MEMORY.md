@@ -22,7 +22,7 @@
 - [Power BI — token usage per org](reference_powerbi_token_usage.md) — ties FinOps (Jaclyn) + AO 2.0 pricing risk.
 - [AEP TryBuy artifacts](reference_aep_trybuy_artifacts.md) — AEP-side source of truth for TBYB.
 - [Brand Concierge lightup](reference_brand_concierge_lightup.md) — Confluence 3815569799. EH-side.
-- [Namita scope](reference_namita_scope.md) — Namita Kavadi = AEP AOv1 PM, NOT the MCP-reports track.
+- [Namita scope](reference_namita_scope.md) — **Namita Krishnan** (`@namitak`) = AEP AOv1 PM, NOT the MCP-reports track. Runs the Coworker rollout weekly while Rachel is out. ✅ Surname resolved 07-17 — "Kavadi" never existed.
 - [Co-Pilot Review Tool access](reference_copilot_review_access.md) — grant via JIRA NXUI-170 clone. Pedro is an approver.
 - [OKR structure O1-O6](reference_okr_structure.md) — O1 = AAI; O2-O6 = EH.
 - [Promotion Strategy v1](reference_promotion_strategy.md) — Playing-to-Win cascade for Director → Senior Director. Monthly review.
