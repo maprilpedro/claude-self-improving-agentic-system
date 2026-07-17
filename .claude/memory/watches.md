@@ -24,7 +24,7 @@ metadata:
 
 ### ✅ CLOSED 2026-07-17 — MANAS CALL INGESTED, AND IT WAS **07-16**, NOT 07-17
 
-- **✅ The transcript is banked** (`Meeting Notes/AEM to coworker transition/20260716 - AEP Manas Sync .md` → AAI memory 07-16 Manas block + Status Focus block). **Date reconciled:** Pedro says *"we had **yesterday** a bug bash already for production agent"* and that bug bash was **07-15** → the call was **07-16**. ⚠️ **If a SECOND Manas call happened on 07-17, it is not captured — ask him.**
+- **✅ The transcript is banked** (`Meeting Notes/AEM to coworker transition/20260716 - AEP Manas Sync .md` → AAI memory 07-16 Manas block + Status Focus block). **Date closed 2026-07-17 — Pedro confirmed one call, on 07-16, no second call.** Nothing missing.
 - **The three things worth recovering, answered:** (1) **org→manifest — there is no queryable source and Manas said so:** *"**Definitely, we will need some mechanism here.**"* → the artifact does not exist; produce it. (2) **the ownership field — Manas made the case for it himself, from his own week:** *"one of the agent owners was asking for the **provenance** of one of the skills and I had to look at the GitHub repo to understand who was the owner. **I think it rather be in the data, right?**"* (3) **base-manifest acceleration — not discussed.** Neither was the marketplace question, the multi-turn objection, or the golden-set carry-over.
 
 ### 🔴🔑 2026-07-16 — WHAT THE MANAS CALL ACTUALLY PRODUCED (the follow-ups)
