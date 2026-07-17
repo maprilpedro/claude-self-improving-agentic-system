@@ -11,6 +11,18 @@ metadata:
 
 ## Open
 
+### 🔴🔑 2026-07-17 — FROM THE 18-CHANNEL SLACK SWEEP (window 07-13→07-17)
+
+- **🔴🔑 THE NEW UNDEFINED GATE: A TRUST DECISION IS HOLDING THE ENTIRE ROLLOUT.** Ian Boston went **-1** on allowlisting Coworker client-ids in AEM environments (*"we have evidence that Claude.ai makes calls to APIs that it's not been given permission by the user"*), and **AEP agreed to hold the rollout until a final decision** (Jose Antonio Insua: *"we'll hold the rollout until there is a final decision"*). Fix on the table: single **service proxy + signed headers**, ticket **`GRANITE-70593`**. **This gates the very TBYB enablement Pedro is pushing, and it can slip the 07-21 cutover.** ⏳ Watch GRANITE-70593 + the #p42 thread.
+- **🟢🔑 RECONCILE OWED WITH MANAS: the renderers are NOT the bottleneck Pedro named.** Corey, 07-15: *"for phase 1 not needed… we aren't using any of them today in AIA."* Pedro told Manas 07-16 the renderers were *"the big red item… the biggest bottleneck."* **The real UI work is the panel↔main-screen interaction (Pedro is scoping it — Governance call 07-17, EPA + Eugene Mon 07-21). Correct the bottleneck framing with Manas.**
+- **🔴🔑 GET THE OVERLAP AUDIT TO YUNYAO LI — the cohort-1 skill-provisioning model is the live governance layer.** 15 default / 19 opt-in / 8 admin-controlled, from Rubin data, at Manas's request (*"delete audience for everyone? Absolutely no"*). **Preeti Singh + Yelena Doliner** own the inventory in the Anjul deck.
+- **🟢🔑 ASTRAZENECA "SITES ON MS" — HALF THE ANSWER LANDED: the AEM MCP WILL support AMS** (Tanju, 07-15, *"AMS will be supported as well… feature set currently being built out"*). ⚠️ **Being built, no date — do not promise.** Closes half the 07-14 AstraZeneca entitlement watch (the "does it run on 6.5/MS" half); the pricing half is still PMM's.
+- **🔑 TAXONOMY: EPA → EGA (Experience Generation Agent).** `experience-generation.yaml` = the **AOv1→AOv2 bridge** manifest. ⚠️ EGA now means Generation, not Governance — disambiguate.
+- **🟡 NUDGE OWED (but Rachel is out ~07-29):** Pedro's POD questions to Rachel (07-14) got **zero on-channel replies** — the AMEX/Coke/AstraZeneca-POD status, the Named Generalization Owner claim, *"a POD is co-innovation not a migration."* Route to Namita or hold.
+- **🟡 TWO RENDERING-SURFACE ASKS UNANSWERED IN PEDRO'S LANE (cheap ownership reps):** Manish Bansal (interactive-canvas Skills via A2UI, 07-17), Pankaj Sangra (inline-URL rendering).
+- **🟡 PHILIPPE KAPFER JOINED #aem-aep-coworker-rendering (07-17)** — Governance PM on Pedro's rendering surface. Competitor frame; watch.
+- **🔴 FORMS→RUBIN PORT IS NOW AN EXTERNAL 6–8-WEEK PROMISE (~mid-Sept).** Pedro to the Forms team; Forms usage invisible in reports until then. ⏳ **Watch mid-September.** Ties [[project_aem_agents_intelligence]] H-009.
+
 ### 🟢🔑🔑 2026-07-17 — TOKYO / "COWORKER DEMOS": **BERTRAND CREATED A STANDING FIELD DEMO SURFACE AND HANDED PEDRO THE PEN. IT SHIPS TODAY OR NOT AT ALL.**
 
 - **🔴 TODAY — THE PR IS PEDRO'S DELIVERABLE AND FELIX IS ASKING.** Bertrand, 07:58, in public: *"@Pedro can you please **sync with both**?"* Pedro: *"sure"* (9 seconds). Namita's brief to Ken/Daniel says *"**The AEM team will raise a PR**"*. **Felix DM'd 09:15 — *"Tu as besoin que je fasse quelque chose avec Wouter"* — answer: no, Wouter already gave the org ID; what is needed is the PR.** Everything is unblocked: org = `907075E95BF479EC0A495C73@AdobeOrg`, approver = **Ken Russell** (+ Daniel-Cristian Miu), and **config auto-deploys to prod on merge within minutes** so today is achievable. **⏳ Did it land? Wouter tests over the weekend.**
