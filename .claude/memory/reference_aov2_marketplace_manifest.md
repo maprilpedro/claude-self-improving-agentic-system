@@ -38,6 +38,30 @@ Whenever the question is "unify the AEM skills" / "put them in the same marketpl
 - **Why it matters, concretely (2026-07-14, AMEX):** `multi-cf-edits` (the only real CF-editing skill) is in the **`epa`** marketplace; `discovery` (the only content-search skill) is in **`aia-extensions`** (the central manifest). Verified in `adbe-skill-audit/data/skills.json`. So one user cannot edit *and* discover fragments today — but the org can be split. **That distinction is the difference between a wall and a routing decision.**
 - **The AEM side already commits to this config themselves** — `scoman_adobe` (Sergiu Coman) pushed to `config/aep-aia/.../segments` on 07-13. **There is no CODEOWNER on the segments path**, only on `config/**/manifests/cx-coworker.yaml` (→ `@Adobe-Experience-Platform/aep-ai-ao-committers`). **So these PRs have no automatic approver, which is why Felix's sat unreviewed.** Who to ping: **Ankush Malhotra (`amalhotr_adobe`)** — he wrote the Coca-Cola pattern and pushed to these exact files twice on 07-14; **Dan Moldovan (`dmoldova_adobe`)** for the targeting-rule half (he did `cx-coworker-prada`).
 
+## 🔑 HOW AN ORG/USER ACTUALLY GETS A MANIFEST — segments + targeting rules (read on `main` 2026-07-17)
+
+**Two objects, and most people in the room only know about one.**
+
+**1. The SEGMENT** (`config/aep-aia/environments/prod/segments/<name>.yaml`) says WHO. Two shapes:
+- **org-scoped** — `scope_kind: organization`, `member_attribute: id`, `members: [<IMS org id>@AdobeOrg]` (e.g. `air-india-orgs.yaml`).
+- **user-scoped** — `scope_kind: user` + `conditions` on `user.email` / `organization.id` (e.g. `adobe-users.yaml`, `demo-users.yaml`). A segment can also `add` a **role** via its own `actions:` block — that is how `demo-users` grants `aep_ao_demo_presenter`.
+
+**2. The TARGETING RULE** (`config/aep-aia/environments/prod/config.yaml`, top-level `targeting_rules:`) maps segment → manifest:
+```yaml
+- rule_id: aem-orgs-to-aem-aia
+  name: AEM orgs get AEM AIA manifest
+  segment_id: aem-orgs
+  resource: manifest
+  manifest_id: aem-aia
+  enabled: true
+```
+- **TWO rules per segment, not one.** One `resource: manifest`, one `resource: app` + `rule: allow_access`. Every live example does both (`aem-orgs`, `usbank-genai-va7`, …). A manifest rule alone does not grant app access.
+- **FIRST-MATCH, so file order decides who wins.** Stated in their own comments: *"evaluate_allowlist is **first-match**, so any allow_access rule after it would **shadow** the trial's matched_segment_id"* (~line 499); *"**Must precede aem-orgs-to-aem-aia**: narrows AEM Sites Trial to allowlisted…"* (~line 223); *"Manifest rule must precede internal-nfr-orgs-to-cx-coworker-business-context"* (~line 12). → **A broad rule placed above a narrow one steals the narrow one's manifest.** A user-scoped rule on `@adobe.com` would take the manifest off every Adobe employee, AEM PMs included.
+- **`adobe-users` is app-access ONLY** (`adobe-employee-app-access`), never a manifest rule. It covers `@adobe.com`, `@adobetest.com` **and `@adobeeventlab.com`**. **`demo-users`** grants `aep_ao_demo_presenter` to `@adobe.com` + `@techacct.adobe.com` only — **no eventlab** (⚠️ that asymmetry is likely why event-lab accounts cannot reach demo/manifest-switching; *inference, unconfirmed*). `namitak@adobe.com` + `juno@adobe.com` are the two `aep_ao_demo_strategy` addresses — **Namita owns that file, ask her, do not assert.**
+- **The precedent for a user-scoped manifest audience:** `xlg-journey-users` → `cx-coworker-xlg-w-journey`. It exists in prod. Enrollment patterns are otherwise **hand-edited allowlists** (`coca-cola-user-allowlist`, `wells-fargo-visualization-users`, `amex-sandbox-allowlist`, `natwest-access-allowlist`) — so "a standing audience" means a yaml list **somebody owns and maintains**. Price that before claiming it.
+- **⏱️ DEPLOY TIMING (`config/README.md`): config auto-deploys dev → stage → prod on merge to `main`, live within MINUTES**, and *"data-only config (segments, targeting rules, flags) is safe to merge anytime"*. → **A manifest + segment + rule PR merged today is testable today.** That kills the "no time before the deadline" objection.
+- **⚠️ NO CODEOWNER** on the manifests/segments paths — only `config/**/manifests/cx-coworker.yaml` (→ `@Adobe-Experience-Platform/aep-ai-ao-committers`). **This is why Felix's `ao#6710` sat unreviewed. Always get a NAMED approver before opening a PR here** (worked 2026-07-17: naming the gap put Ken Russell in the room in 3 minutes).
+
 ## The model (sourced: `Adobe-Experience-Platform/ao` → `docs/reference/domains/plugins-and-skills/`, author ssree, under review 2026-03)
 
 ```
