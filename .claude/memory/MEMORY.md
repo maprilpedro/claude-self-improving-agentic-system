@@ -56,7 +56,7 @@
 - [Don't conflate pattern with object](feedback_dont_conflate_pattern_with_object.md) — same phrasing ≠ same product. Read both sources.
 - [Draft in Pedro's voice](feedback_draft_in_pedros_voice.md) — plain English, no idioms, no meta-narration, no reciting the other's position, no em-dashes. **Aphorisms are the tell.**
 - [Edit the span, not the artifact](feedback_edit_the_span_not_the_artifact.md) — one phrase flagged = fix that line only.
-- [First reply needs an ownership sentence](feedback_first_reply_ownership_sentence.md) — a data-dump reads as "I don't know" at exec speed.
+- [Say the sentence that obliges someone](feedback_first_reply_ownership_sentence.md) — **hardened 07-17: fires whenever he wants something, written or spoken, first reply or minute thirty.** He fires when the authority sits in an object (a missing CODEOWNER); he hedges when it has to be his. The hedge loses the idea.
 - [Co-author, don't answer-over a sponsor](feedback_co_author_dont_answer_over.md) — validate, name the shared gap, hand back a question.
 - [Don't litigate prior replies](feedback_dont_litigate_prior_replies.md) — forward-framed clarification, never backward-framed defence.
 - [Build additively on a senior's artifact](feedback_additive_not_corrective.md) — "what I'd add", never "what's missing".
