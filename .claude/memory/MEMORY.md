@@ -61,6 +61,7 @@
 - [Don't litigate prior replies](feedback_dont_litigate_prior_replies.md) — forward-framed clarification, never backward-framed defence.
 - [Build additively on a senior's artifact](feedback_additive_not_corrective.md) — "what I'd add", never "what's missing".
 - [Bertrand likes the concrete](feedback_bertrand_concrete_first.md) — lead with a scene, named artifacts, receipts. Abstraction last.
+- [Bertrand status-comms shape](feedback_bertrand_status_comms.md) — lead with a concrete win, trim table detail, plain-language mechanisms, show what's moving (bug-bash) not "TBD". Audit trail stays private.
 - [Response window for exec questions](feedback_response_window_for_exec_questions.md) — 30 min, not 90. Match their literal frame.
 - [Never send Slack messages](feedback_never_send_slack.md) — **HARD RULE.** Draft only. Reading/searching is fine.
 - [Slack permalink with every draft](feedback_slack_permalink_with_drafts.md) — he runs many threads in parallel.

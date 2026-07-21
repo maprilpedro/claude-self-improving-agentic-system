@@ -11,6 +11,13 @@ metadata:
 
 ## Open
 
+### 🟢🔑 2026-07-21 — COHORT 1 LIVE + LEADERSHIP STATUS NOTE v7 SENT
+
+- **✅ Cohort 1 live 07-21 (~174 orgs); Experience Discovery = first AEM skill live (5 internal orgs).** AEM still cohort 3, no date.
+- **⏳ AEM skill-naming scheme** (`aem-[app]-[feature]-[action]`) — Bertrand pushing agent owners to agree it before customer exposure; Pedro's naming lane. Watch the #aem-agent-owners-alignement thread (Bertrand 07-21).
+- **⏳ Bug bash** — EPA done (last week); EDA + Governance targeted; panel bug bash (Jul 22) postponed until use cases gathered. Watch for EDA/Governance dates + the panel use-case set.
+- **📤 `AEM Agents on Coworker — Status` note is at v7 and SENT** (teams + leadership incl. Saar); Bertrand review applied ([[feedback_bertrand_status_comms]]). Next weekly refresh from the GA Readiness canvas `F0BD4RALNHF`.
+
 ### 🟡🔑 2026-07-20 — RENDERING-SURFACE OWNERSHIP REPS (Pedro replied to both 07-20 12:18-12:20, #aep-agent-orchestrator-collaboration `C08U50NRA01`, cc Sorin + Eugene)
 
 - **⏳🔑 MANISH BANSAL (A2UI card + backend call) — BALL BACK IN PEDRO'S COURT, THIS IS THE OWNERSHIP MOVE.** Pedro answered the guardrail question 07-20 12:18; **Manish replied 12:38 with the auth model = user-context** (*"button click is user specific request API call, it is ought to be user context based authorization"*). → **Next move is Pedro's: user-context alone is not the guardrail — pin (1) the call carries the user's token, not an over-privileging service token, (2) the target internal service is still allowlisted/registered, (3) audit — and OFFER TO WRITE IT UP as the repeatable "skills that render actionable UI" pattern.** The write-up is the land-grab, not the answer ([[Govern a Consistency Layer Over Primitives You Don't Own]], [[The Game Itself — Position Over Merit]]). Thread ts `1784299859.302729`.
