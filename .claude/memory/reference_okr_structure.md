@@ -21,6 +21,23 @@ Each OKR folder contains `🎯 Objective.md` + `📊 KR Board.md` (kanban) + one
 
 ---
 
+## 🔴🔑 GOAL-to-OKR COVERAGE GAP (found 2026-07-21, unfixed)
+
+The 2026 yearly goals (G1/G2/G3, drafted with Bertrand April 2026) and this OKR tree are **two parallel structures that were never mapped to each other.**
+
+| Goal | OKR | State |
+|---|---|---|
+| G1 — Agent Intelligence & Reporting | O1 | aligns |
+| G3 — EH Adoption & Growth | O2 | aligns |
+| **G2 — EH Platform Integration (AO 2.0 / Coworker migration)** | **NONE** | **~70 deliverables Apr→Jul, >half the year, tracked in no objective and no KR** |
+| — | O3, O4, O5, O6 | map to no goal |
+
+→ **Pedro's dominant lane is invisible to anyone reading the OKR board.** Structural, not social — see knowledge entry [[Your Biggest Lane Can Have No Slot in the System That Scores You]] and [[project_checkin_2026]]. **Open move: give G2 a container, or bring the goal↔work mapping into the check-in himself.**
+
+**O3–O6 status verified 2026-07-21 from frontmatter tags:** all four objectives still `status/active`, but the KRs were bulk-cleaned **2026-07-13** — most now `status/abandoned`. `done`: Visual Comparison positive feedback (O3), Quiet Hours-Update Free in EDA + QH-UPF GA (O4), EH Security GA by 5 customers (O5). **None of this H1 work is captured in either project memory file.** ⚠️ An abandoned-KR sweep with no substance moved anywhere is how a quarter of real work leaves the record — read it as a signal, not housekeeping.
+
+---
+
 ## O1 — AI Agent Intelligence (AAI lane)
 
 `O1 - AI Agent Intelligence/` — feeds AAI work, May 11 Loni + Jean-Michel deck.

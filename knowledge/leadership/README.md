@@ -56,6 +56,7 @@ Two linked moves:
 |---|---|
 | [Lead with "So What," Not "What Happened"](lead-with-so-what-not-what-happened.md) | Date identified: 2026-03-26 |
 | [Connect Every Artifact to the Company Direction](connect-every-artifact-to-the-company-direction.md) | Date identified: 2026-03-26 |
+| [Your Biggest Lane Can Have No Slot in the System That Scores You](your-biggest-lane-can-have-no-slot-in-the-system-that-scores-you.md) | Date identified: 2026-07-21. The goal→OKR coverage gap. Invisibility that is structural, not social — the container leadership reads at review time has no field for the work. Distinct mechanism from position-over-merit. |
 | [When a VP Workshop Names Your Lane's Problem, Your Lane Is Now Strategically Anchored](when-a-vp-workshop-names-your-lane-s-problem-your-lane-is-now-strategi.md) | Date identified: 2026-06-22 |
 
 ## Stakeholder Gravity
