@@ -23,6 +23,7 @@ Two linked moves:
 | Entry | Gist |
 |---|---|
 | [The Validate-Then-Scale Response](the-validate-then-scale-response.md) | When an executive asks a technical follow-up question on your work, the optimal response has three parts: (1) answer the specific question … |
+| [Name the Shape of a Non-Result, or It Defaults to Failure](name-the-shape-of-a-non-result-or-it-defaults-to-failure.md) | Date identified: 2026-07-22. Three shapes of "it didn't happen" and how each is claimed — prevented loss (needs counterfactual + causation), deliberate null (a decision, not an explanation), blocked vs not-got-to (the precise split buys the credibility a blanket excuse never does). n=1, watch for a second instance. |
 
 ## Communicating Strategy Upward (from Lafley & Martin, *Playing to Win*)
 

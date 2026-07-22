@@ -68,6 +68,41 @@ Three questions. If the format holds:
 - **The renderer framing owed to Manas.** Pedro told him 07-16 the renderers were *"the biggest bottleneck"*; Corey said 07-15 they are deferred for phase 1. **The real gap is the panel↔main-screen interaction.** Carry the correction himself.
 - **Only solid recent EH adoption number: 14,000 weekly users / 79% return (2026-06-05).** Bertrand's 04-13 MAU-attribution claim is still backed by no dated figure.
 
+## 🔴🔑 2026-07-22 — PEDRO WROTE HIS OWN DRAFT, AND HIS G1 REPORT DATA SAYS MORE THAN HE THOUGHT
+
+**He drafted all three blocks himself** (iA Writer, `~/Library/Mobile Documents/27N4MQEA55~pro~writer/Documents/2026 Yearly Review Goals.md`) — mind-dump, unformatted. ⚠️ **That file now diverges from the vault copy** (`Experience Hub - 2026 Yearly Review Goals.md`, still the 22-line April version). Sync back when the rewrite settles ([[feedback_vault_copy_of_published_pages]]).
+
+**Verdict given, and it is the frame for all three blocks: the content is Senior Director, the writing is Director.** Activity verbs everywhere ("I am leading", "I have proposed"), almost no outcome, and only one number in the entire draft. The three structural gaps no rewrite fixes — no business outcome, first-person-singular throughout (nothing an organisation does because of him), and a single altitude (nothing connects to what Adobe is trying to do).
+
+### 🟢🔑 THE G1 DASHBOARD DATA — three findings he had and was not using (read from his own report, 2026-07-22)
+
+- **🔑 USER RETENTION IS 12% TO 27%.** Returning users as a share of active, latest week: Discovery **12.0%**, EPA **13.9%**, Content Optimization 16.7%, EDA 18.2%, Governance **27.3%**. → **72% to 88% of people who touch an AEM agent do not come back the next month.** This is the most business-relevant number in his whole report and it was in no draft.
+- **🔑🔑 THE INVERSE RELATIONSHIP — THE BIGGER THE AGENT, THE WORSE IT RETAINS.** Discovery, 539 MAU, retains 12.0%. Governance, 116 MAU, retains 27.3%. **The generalist entry-point agent retains worst; the specialist retains best.** → **This independently corroborates Ian Boston's ~50% right-skill / ~5% satisfied figure (06-22), and corroborates it exactly where the theory predicts.** Pedro no longer relays Ian's number, he confirms it with his own instrument. **This is the strongest single move available in G1.**
+- **🟢 JUNE 2026 = FIRST MONTH EXTERNAL INTERACTIONS OVERTOOK INTERNAL** (~7,600 vs ~6,700; April peak was ~10,500 external vs ~14,000 internal). → the portfolio crossed from demo-driven to customer-driven. ⚠️ **Read off the curve, not a printed label — get exact values before writing them.**
+- **⚠️ "PLATEAU" IS THE WRONG WORD and he wanted to use it.** The charts show an April Summit peak, a halving in May, then flat May–June. And **returning orgs/users are still declining through June, not flat.** Defensible version: usage settled at ~half the April peak and held for two months while retention kept falling.
+- **🔴 DATA-QUALITY BUG IN HIS OWN REPORT:** "Active External Users per Agent, trailing 4 weeks" gives Discovery **847**; "MAU per Agent — Jul 2026, trailing 4 weeks ending Jul 2026" gives Discovery **539**. Same words, two numbers. **Fix before citing either** — on a report whose whole argument is measurement reliability, this is the worst place to be caught. ⏳ watches.
+- Other printed figures: MAU Jul (539 / 397 / 192 / 116 / 46); active external users (847 / 610 / 282 / 170 / 71); cross-agent rate (ContentOpt 94.5, Governance 81.5, EPA 71.3, EDA 70.8, Discovery 65.9); returning orgs latest week (127 = 65.5%, 67 = 52.8%, 28 = 41.2%, 18 = 51.4%, 7 = 46.7%). **July segments are month-to-date and provisional — say it first or lose the room.**
+
+### 📌 The rewrite moves proposed (G1, G2, G3 all delivered 2026-07-21/22)
+
+- **G1** — 8 bullets. Lead with the business fact not the instrument; the instrument as a capability that runs without him; the diagnosis corroborated by his own retention curves; **the null result claimed as a decision** (*"Technical Success Rate did not improve this year, and that was a decision"*); the two initiatives split, with initiative 2 named explicitly as a contingency; the 3-field standard adopted by the Coworker team = his only organisational-leverage proof in G1; and a closing altitude bullet.
+- **G2** — 7 bullets. **Opens with the missing business outcome** (AEM not migrated, ~2,800 external orgs held off an unready surface, Ken Russell's 07-14 written line as proof it is a negotiation). Org diagnosis with the apology removed. Scope statement said flatly ("the goal as drafted no longer describes the job"). Decisions not activities. Live risk named by him. **AI paragraph moved out to professional development.**
+- **G3** — 6 bullets, deliberately the shortest. **Cut the one inflation** (his draft counted the EH team's Coworker UI work as G3 delivery). States plainly that G3 did not advance, then **distinguishes blocked from not-got-to** — 4 of 6 KRs sit on the prompt/entry surface that was being redefined all year, the other 2 he simply did not reach. Reframes EH's kept position as the real G3 outcome.
+
+### ⚠️ Voice/register corrections banked this session
+
+- **"AEM did not migrate this year, and that is the outcome I am most confident about"** → he questioned "confident about" and was right. **In English exec writing "confident" is a hedge word more often than a strength word.** Replaced with a flat declarative (*"That was deliberate."*) and the conviction moved to the END of the bullet, after the evidence. Banked in [[feedback_draft_in_pedros_voice]].
+- **Do not reuse the same closer twice** — "I would make the same call again" was proposed for G1's null-result bullet; G2 needs a different one.
+- ⚠️ **The protection story must be paired with progress in the same bullet.** Bertrand argued 07-16 for putting ready AEM agents in the base manifest NOW. If Pedro presents "we did not migrate" as a clean win, he presents it to the one person who wanted speed. **The reconciliation: Bertrand wanted skill EXPOSURE, Pedro protected the customer CUTOVER — two different objects, not in conflict.** Say both.
+
+### 🔴 The EH measurement gap (full detail in [[project_experience_hub]])
+
+**No EH usage number is Pedro's own.** April 2 figures are Sorin's, the 14,000 weekly / 79% return is **Guliz Sicotte's** framing from the 06-05 Design meeting. Nothing since. Grafana cross-check never done. → On a goal titled "measurable driver", he has produced no measurement. This is why Bertrand's MAU-attribution claim is still unbacked.
+
+### 🔑 Fu-Chi Shih dependency nuance (matters for the G3 blocked-vs-dropped split)
+
+**Fu-Chi Shih, AEP team (data platform, San Jose) — genuinely AEP, one of the few places writing "AEP" is still correct** post the 07-16 Bertrand terminology lock. Owns the personalized prompt pipeline; weekly 1-1 with Pedro; relationship inherited from Shankari ("do not abandon"). **She is the upstream supplier for 3 of the 6 O2 KRs** (two-column prompt schema, prompt-library-as-source, cluster-to-profile bridge). ⚠️ **The cluster-to-profile bridge is on her roadmap but NOT prioritised** → that KR's blocker is an unprioritised external dependency, **not** the entry-surface redefinition. **Two different causes; distinguishing them is what makes the G3 argument precise rather than a blanket excuse.**
+
 ## Next moves (open, Pedro is thinking — 2026-07-21)
 
 - **Make G2 visible in OKR language.** The costliest gap. Either a new objective or an explicit G2↔work mapping he brings himself.

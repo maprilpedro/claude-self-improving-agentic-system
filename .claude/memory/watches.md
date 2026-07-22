@@ -11,6 +11,14 @@ metadata:
 
 ## Open
 
+### 🔴🔑 2026-07-22 — CHECK-IN PREP: FIVE THINGS TO CLOSE BEFORE THE CONVERSATION ([[project_checkin_2026]])
+
+- **🔴 FIX THE NUMBER CONFLICT IN HIS OWN G1 REPORT BEFORE CITING EITHER.** "Active External Users per Agent (trailing 4 weeks)" = Discovery **847**. "MAU per Agent — Jul 2026 (trailing 4 weeks ending Jul 2026)" = Discovery **539**. Same wording, two values. Either the labels must say which window each uses, or there is a bug. **On a report whose entire argument is measurement reliability, this is the worst possible place to be caught.**
+- **⏳ GET EXACT VALUES FOR THE JUNE EXTERNAL-OVERTAKES-INTERNAL CROSSOVER.** ~7,600 external vs ~6,700 internal was read off the curve, not a printed label. **It is the strongest business milestone in G1 (portfolio crossed from demo-driven to customer-driven) — do not write it approximate.**
+- **🔴 GRAFANA / PRODUCE ONE EH NUMBER OF HIS OWN.** Access logged as obtained 2026-04-08 but the Bertrand 1-1 file (mtime 06-30) still asks *"need to join the IDP group… Is access still possible via that path?"*. **Confirm or re-request.** If he can produce one instrumented EH figure this week, G3's closing bullet moves from "I acknowledge a debt" to "I have started it" — large gain for small effort. See [[project_experience_hub]] 07-22 block.
+- **⏳ SYNC THE GOALS DRAFT BACK TO THE VAULT.** He is writing in iA Writer (`27N4MQEA55~pro~writer/Documents/2026 Yearly Review Goals.md`); the vault copy is still the 22-line April version. **Two diverging copies** ([[feedback_vault_copy_of_published_pages]]).
+- **❓ THE CHECK-IN DATE ITSELF IS UNKNOWN.** Never stated in-session. Ask, so the prep can be paced against it.
+
 ### 🟢🔑 2026-07-21 — COHORT 1 LIVE + LEADERSHIP STATUS NOTE v7 SENT
 
 - **✅ Cohort 1 live 07-21 (~174 orgs); Experience Discovery = first AEM skill live (5 internal orgs).** AEM still cohort 3, no date.
