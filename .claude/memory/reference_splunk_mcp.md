@@ -31,4 +31,20 @@ Same Splunk app (`TA-aem_skyline`), different dashboard (`aem_mcp_usage`) = the 
 
 **Coordination channel:** ping Jabran on `#am-mcp` (engineering) for data/cells. Full context in `project_aem_agents_intelligence.md` 2026-06-30 MCP Reporting Strategy entry.
 
-**⚠️ 2026-07-24 — READ BEFORE COMPARING TO ANY EARLIER MCP NUMBER.** Today this `aem_mcp_usage` dashboard showed **47,307 authenticated requests · 530 external orgs** (server split: aem ~35K, content ~10K, content-readonly ~2K). **Do NOT compare it to the "~345k Content MCP invocations / 152 customers" from Pedro's 6/24 status** — that 345k is **Christian Meyer's separate Content-MCP number, relayed by Gilles in the 06-24 DM**, and it is a different instrument/layer (tool *invocations* vs edge *authenticated requests*) and a different scope (152 Content-MCP customers vs 530 One-AEM external orgs). One SSE request carries many tool calls; per-tool (Level 1) is still pending. **Clean-start caveat:** the "Requests over time" panel is flat ≈0 until ~Jul 21 then spikes — the dashboard is not backfilled, so a "last 30 days" label ≈ ~3-4 days of real capture. Reporting 47k as a MoM drop vs 345k would be a false −35× and the worst possible error on a measurement-reliability goal.
+**✅ 2026-07-24 — THE VALIDATED MCP NUMBER SET (use these; earlier same-day partials were wrong-filter/transient).** Source = the management dashboard `aem_mcp_-_management_dashboard_value_usage_customers` ("AEM Sites MCP — Business value, usage, customers"), last 30d, external, aem+content+content-readonly. Pedro's decision: "on part sur ces données validées."
+
+| Metric | Value |
+|---|---|
+| Authenticated requests (reach/transport) | **1,603,452** |
+| Total tool calls (actions) | **95,898** |
+| **Specific (value-bearing) tool calls** | **~67K (~70% of tool calls)** — read off the class bar; hover for exact |
+| Generic tool calls | ~29K (~30%) |
+| Active IMS orgs | **1,202** (1,091 on One AEM MCP) |
+| New customers (first-seen 30d) | **679** |
+| Regular customers (active ≥3 days) | **857** (82% regular share of active orgs) |
+
+**The clean funnel:** 1.6M requests → 95,898 tool calls → ~67K specific value calls (~17 requests per tool call = setup/polling overhead; then 70% of tool calls are named value actions). MCP client mix ≈ overwhelmingly **Claude**. Top orgs by requests: TORC Robotics 11,767 · Kawasaki Motors Europe 10,075 · Capella 8,241 · Canon Medical 7,645. Per-customer intent varies: Eli Lilly 64% read / 21% discovery / 14% write · Air India 32/36/30 · Fabletics 89% write · NBC Universal 95% read.
+
+⚠️ **The 1.6M is authenticated + successful requests — a legitimate reach number, NOT raw all-status noise** (an earlier read of this claim was wrong and is corrected here). The overhead lives in the ~17:1 request→tool-call ratio (session setup/polling), not in rejected traffic. **⚠️ DISCARD earlier same-day screenshots (47,307 req / 530 orgs; 34,936 req / 22 orgs / 9 regular)** — transient partial-filter states; the management-dashboard set above is the validated one (95,898 tool calls + 679 new were stable across every read). **Cards show no WoW/MoM → no valid delta this cycle; the validated instrument's baseline starts here, deltas begin next cycle.** **Still do NOT compare to the "~345k Content-MCP invocations / 152 customers" from the 6/24 status** — that is Christian Meyer's separate Content-MCP number (relayed by Gilles, 06-24 DM), a different instrument, layer, and scope. Value-metric-migration play banked in knowledge/leadership/ [[migrate-leadership-from-a-volume-metric-to-a-value-metric-without-a-cliff]].
+
+**Dashboard URLs (internal Splunk, VPN+SSO):** value/usage/customers = `.../aem_mcp_-_management_dashboard_value_usage_customers` · raw usage = `.../aem_mcp_usage` (both `TA-aem_skyline`, same filter params).
