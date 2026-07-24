@@ -23,7 +23,7 @@ metadata:
 - **⏳ MESSAGES FOR RELEASE MANAGEMENT (Razvan)** — Razvan = Release Management (⚠️ new contact, surname + exact scope unknown to memory — resolve before drafting). Draft only.
 - **⏳ "UPDATE FREE PERIODS" PUSH-BACK — a message to send to Razvan.** Push back on *Update Free periods* (⚠️ context TBD — plausibly ties the customer update-push / aging-customers window from the Bertrand 1-1, but NOT confirmed; ask Pedro what the push-back is before drafting). Draft only.
 - **✅ DONE 2026-07-24 — meeting request for the "Release activation" (Thu 07-30) set up** (Pedro). Same Release Management lane as the Razvan items.
-- **⏳ IN `#aem-aep-coworker-rendering` — ASK JOSH: is next week still ok, and what to expect?** Josh = Josh Hailpern (⚠️ inferred from context — the rendering/Coworker-surface platform contact; confirm). ⚠️ "Next week" = week of 07-27, which is Pedro's out-window — so this is likely a confirm-and-prep-before-leaving move, or a hand-off. His rendering lane ([[project_aem_agents_intelligence]] rendering-ownership reps).
+- **✅ DONE 2026-07-24 — asked Josh in `#aem-aep-coworker-rendering`** (next week ok + what to expect). ⏳ If a reply lands while Pedro is out (from 07-27), whoever covers should catch it.
 - **⏳ ONE THREAD IN `#aem-agent-owners-alignement` (`C0BARAMM89Z`) ON CO-INNOVATION.** ⚠️ Exact subject TBD — ask Pedro. Co-innovation lane = the Type-B PODs / VW-style "Governance for specific people" cases, the per-person/per-agent gating still unanswered ([[reference_coworker_pods]], [[project_aem_agents_intelligence]] VW block). Draft only if a post is wanted — never send.
 
 ### 🔴🔑 2026-07-23 (THU) — TBYB DORMANT ACTIVATION: THREE PINGS, NOW THAT 152 ORGS PROVE THE STATE ([[project_aem_agents_intelligence]] 07-22 TBYB block)
