@@ -17,6 +17,14 @@ metadata:
 - **⏳ WRITTEN PLUGIN-BOUNDARY POSITION (customer-facing granularity) — the PM decision nobody has taken; Carsten's option 2 (plugins selectable vs purchase) is the default to beat.** Must answer **Bertrand's concrete 07-16 example** (should "Resolving the AEM author repository" be a cross-AEM skill) and account for the RTCDP per-customer branches shipping AEM plugins outside AEM marketplaces. **⚠️ OPEN Felix Meschberger's wiki `3955827624` (AEM Agentic Architecture) BEFORE writing — cite, don't write over it.** Decline the repo/admin half out loud (Felix + Ian Boston closed it 07-22).
 - ⚠️ Pedro's 17:01 hedge (*"if it causes no technical issues or limitations, agreed"*) already posted — forward-framed only, do NOT walk it back.
 
+### ⏳ 2026-07-24 (FRI) — PEDRO'S OWN PRE-WEEKEND TRACK LIST (he named these this session; out from 07-27, so close or hand off before Monday)
+
+- **⏳ OPEN TODAY — the UI-vulnerabilities POC thread.** Participants as Pedro said them: **Eugene, Andres, Valentin, Ramon** (⚠️ names verbatim, not yet resolved to Slack handles — could be 4 people or "Andres Valentin" = one; do not assert). Ramon Bisswanger is on Pedro's `#aem-aep-coworker-rendering` channel, so this likely sits in the rendering-surface / actionable-UI-security lane — **inference, NOT confirmed.** Pedro to read it today.
+- **⏳ PUSH TBYB WITH YANIRA** — pairs with the TBYB dormant-activation block below (152 orgs already prove the backend-active/UI-off state). Yanira Castaneda = AAI PgM counterpart. Draft only if a message is wanted — never send ([[feedback_never_send_slack]]).
+- **⏳ MESSAGES FOR RELEASE MANAGEMENT (Razvan)** — Razvan = Release Management (⚠️ new contact, surname + exact scope unknown to memory — resolve before drafting). Draft only.
+- **⏳ "UPDATE FREE PERIODS" PUSH-BACK — a message to send to Razvan.** Push back on *Update Free periods* (⚠️ context TBD — plausibly ties the customer update-push / aging-customers window from the Bertrand 1-1, but NOT confirmed; ask Pedro what the push-back is before drafting). Draft only.
+- **⏳ MEETING REQUEST FOR THE "RELEASE ACTIVATION" — next Thursday (2026-07-30).** ⚠️ Pedro is out from 07-27, and 07-30 falls in that window — flag whether he sets it up before he leaves / who runs it while he's out (return date unknown). Same Release Management lane as the Razvan items. **Reminder-only — do not offer to set up the meeting** ([[feedback_no_meeting_setup]]).
+
 ### 🔴🔑 2026-07-23 (THU) — TBYB DORMANT ACTIVATION: THREE PINGS, NOW THAT 152 ORGS PROVE THE STATE ([[project_aem_agents_intelligence]] 07-22 TBYB block)
 
 - **⏳ KEN — in HIS 07-18 provisioning thread (`#aia_coworker_convergence` `C0BDRAMULQ0` ts `1784331887.503479`), one question:** the automated provisioning that lands after the 1st week of August, does it take a ~2.6k-org patch in one go or is there a ceiling. (He already said *"we have work in place… to honor it."*)
