@@ -24,6 +24,7 @@ Two linked moves:
 |---|---|
 | [The Validate-Then-Scale Response](the-validate-then-scale-response.md) | When an executive asks a technical follow-up question on your work, the optimal response has three parts: (1) answer the specific question … |
 | [Name the Shape of a Non-Result, or It Defaults to Failure](name-the-shape-of-a-non-result-or-it-defaults-to-failure.md) | Date identified: 2026-07-22. Three shapes of "it didn't happen" and how each is claimed — prevented loss (needs counterfactual + causation), deliberate null (a decision, not an explanation), blocked vs not-got-to (the precise split buys the credibility a blanket excuse never does). n=1, watch for a second instance. |
+| [Migrate Leadership From a Volume Metric to a Value Metric Without a Cliff](migrate-leadership-from-a-volume-metric-to-a-value-metric-without-a-cliff.md) | Date identified: 2026-07-24 (n=1, MCP reporting; watch for 2nd instance). Change the question ("how much traffic → how much value"), don't swap the number. Keep the big number as reach, walk a funnel down to value, elevate an existing metric (% Value Realization) not a new one, give a rate/trajectory, stage over two cycles. You don't need the value figure to start. The measurement-side consistency-layer land-grab. |
 
 ## Communicating Strategy Upward (from Lafley & Martin, *Playing to Win*)
 
