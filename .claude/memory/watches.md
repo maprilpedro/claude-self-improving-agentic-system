@@ -11,10 +11,9 @@ metadata:
 
 ## Open
 
-### 🔴🔑 2026-07-24 (FRI) — MARKETPLACE CONSOLIDATION: PEDRO OWES A WRITTEN BOUNDARY POSITION + THE EXTENDED AUDIT ([[project_aem_agents_intelligence]] 07-22 block)
+### ✅ DONE 2026-07-24 (FRI) — MARKETPLACE CONSOLIDATION: EXTENDED AUDIT + WRITTEN BOUNDARY POSITION POSTED (Pedro, 07-24)
 
-- **⏳ POST THE EXTENDED AUDIT IN `#p42-architecture` (`C09KKLW1N86`, thread `1784720330.787079`) — targeted FRIDAY 07-24, Pedro out from 07-27.** Add the 5 missing Coworker marketplaces to `scripts/fetch_skills.py` (`aem-content-fragments-extensions`, `governance-agent-marketplace`, `assets-drm-extensions`, `aem-guides-extensions`, `ao-plugin-extensions-aem-onboarding`), run the pipeline, post. Today covers 3 of Felix's 8 (45 skills, `when-to-use` 5 / `domain` 2). **The audit is the answer to Felix's 07-06 overlap-process question (18 days unanswered) + his 07-22 "should we run Coworker evals" — frame it as the eval gate, not a new offer.**
-- **⏳ WRITTEN PLUGIN-BOUNDARY POSITION (customer-facing granularity) — the PM decision nobody has taken; Carsten's option 2 (plugins selectable vs purchase) is the default to beat.** Must answer **Bertrand's concrete 07-16 example** (should "Resolving the AEM author repository" be a cross-AEM skill) and account for the RTCDP per-customer branches shipping AEM plugins outside AEM marketplaces. **⚠️ OPEN Felix Meschberger's wiki `3955827624` (AEM Agentic Architecture) BEFORE writing — cite, don't write over it.** Decline the repo/admin half out loud (Felix + Ian Boston closed it 07-22).
+- **✅ Extended audit + written plugin-boundary position done and posted** (`#p42-architecture` `C09KKLW1N86`, thread `1784720330.787079`). Was: add 5 missing marketplaces to `scripts/fetch_skills.py`, run pipeline, post; answer Felix's 07-06 overlap-process Q + 07-22 "should we run Coworker evals" as the eval gate; answer Bertrand's 07-16 cross-AEM example; cite Meschberger wiki `3955827624`; decline the repo/admin half (Felix + Ian closed it 07-22).
 - ⚠️ Pedro's 17:01 hedge (*"if it causes no technical issues or limitations, agreed"*) already posted — forward-framed only, do NOT walk it back.
 
 ### ⏳ 2026-07-24 (FRI) — PEDRO'S OWN PRE-WEEKEND TRACK LIST (he named these this session; out from 07-27, so close or hand off before Monday)
