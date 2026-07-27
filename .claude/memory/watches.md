@@ -16,6 +16,10 @@ metadata:
 - **✅ Extended audit + written plugin-boundary position done and posted** (`#p42-architecture` `C09KKLW1N86`, thread `1784720330.787079`). Was: add 5 missing marketplaces to `scripts/fetch_skills.py`, run pipeline, post; answer Felix's 07-06 overlap-process Q + 07-22 "should we run Coworker evals" as the eval gate; answer Bertrand's 07-16 cross-AEM example; cite Meschberger wiki `3955827624`; decline the repo/admin half (Felix + Ian closed it 07-22).
 - ⚠️ Pedro's 17:01 hedge (*"if it causes no technical issues or limitations, agreed"*) already posted — forward-framed only, do NOT walk it back.
 
+### ⏳ 2026-07-27 (MON) — OKR REVIEW HELD TODAY: CAPTURE THE OUTCOME
+
+- **⏳ Debrief the 7/27 OKR review next session** — speaking notes in vault (`20260727 - OKR Review KR1e - Speaking Notes.md`). Watch for: reactions to the metric-migration plant (*"67 thousand is the number I will report from now on"*), the 1,202-vs-665 MCP-reach line, and any challenge on Q3 28.5% = On Watch. ⚠️ Memory says Pedro out from 07-27 but he worked 07-26/27 — confirm his actual out-window.
+
 ### ⏳ 2026-07-24 (FRI) — PEDRO'S OWN PRE-WEEKEND TRACK LIST (he named these this session; out from 07-27, so close or hand off before Monday)
 
 - **⏳ OPEN TODAY — the UI-vulnerabilities POC thread.** Participants as Pedro said them: **Eugene, Andres, Valentin, Ramon** (⚠️ names verbatim, not yet resolved to Slack handles — could be 4 people or "Andres Valentin" = one; do not assert). Ramon Bisswanger is on Pedro's `#aem-aep-coworker-rendering` channel, so this likely sits in the rendering-surface / actionable-UI-security lane — **inference, NOT confirmed.** Pedro to read it today.
