@@ -109,6 +109,7 @@
 
 ## Projects
 - [Watches — dated follow-ups](watches.md) — **the single registry.** Read at session start and by /reply.
+- [Watches archive 2026-07](watches_ARCHIVE_2026-07.md) — sections ≤ 07-17 split out 2026-08-03 (file hit ~63K tokens). Grep only; System Review owes the reconcile.
 - [Check-in 2026 prep](project_checkin_2026.md) — **the 3 captured goals verbatim, the Apr→Jul mapping (~70 G2 / ~48 G1 / ~14 G3), the G2-has-no-OKR gap, the Workday 3-question format, the AI-usage framing.** Read before any check-in / self-review / promotion-case work.
 - [AEM Agents Intelligence](project_aem_agents_intelligence.md) — the active lane. Coworker migration, comms ownership, agent reporting. Hot state + durable reference.
 - [AAI archive](project_aem_agents_intelligence_ARCHIVE.md) — weekly ISO shards. Read the `_ARCHIVE_INDEX.md` first, then grep. Never full-Read.
