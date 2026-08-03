@@ -112,3 +112,41 @@ Three questions. If the format holds:
 - Close the VP visibility gap — migration programme narrative + BVR work in front of Loni and Jean-Michel directly, pricing via Tina Ngo, as a contributor not a latecomer.
 
 Related: [[reference_okr_structure]] · [[reference_promotion_strategy]] · [[feedback_position_over_merit]] · [[project_aem_agents_intelligence]] · [[project_experience_hub]]
+
+---
+
+## ✅🔑 2026-08-03 — THE CHECK-IN IS SUBMITTED AND BERTRAND HAS RESPONDED. (Source: `Downloads/Goals.pdf`, printed 2026-08-03, 3 pages, Workday "Goals". Read in full.)
+
+### 🟢🔑 BERTRAND'S RESPONSE — SHORT, AND IT CONTAINS THE PROMOTION SENTENCE
+
+Verbatim, in full (it is one paragraph):
+
+> *"These are the right three goals, and I'd actually call out **Goal 2 as the one with the most riding on it right now**, especially getting AEM through the Coworker migration well is **a dependency for a lot of other teams, not just his own**. **Goal 1 exists as its own goal too, because the reporting layer Pedro is building is becoming the thing the rest of us lean on to make good calls**, even though **the work so far needs to be... redone for a large part given the move to Coworker**. On Goal 3, the points about a "shrinking team" are well noted."*
+
+- **🔑 *"a dependency for a lot of other teams, not just his own"* is the Director→Senior Director line, written by his manager, unprompted, in a permanent record.** Directors own their area; Senior Directors shape work across areas they don't own ([[The Core Distinction]]). **This is the single most quotable piece of promotion evidence Pedro currently has.** It is also the first time the scope claim comes from Bertrand rather than from Pedro's own framing.
+- **🔑 *"the reporting layer… is becoming the thing the rest of us lean on to make good calls"* = [[H-005]] confirmed in the manager's own words**, and it is [[Definition Ownership Is the Moat on Shared Data Infrastructure]] stated from the consuming side.
+- **🔴 The caveat is real and it is [[H-009]] landing: *"the work so far needs to be… redone for a large part given the move to Coworker."*** Bertrand has now written down that most of G1's built work is disposable. **This makes the Rubin/definition-port counter-play the H2 G1 story, not an insurance policy.** The ellipsis is his, i.e. he softened it in the act of writing it.
+- **⚠️ Read the asymmetry, it is the real instruction.** G2 gets enthusiasm and a stakes claim · G1 gets praise plus a heavy caveat · **G3 gets four words, "well noted", and no comment on the outcome at all.** That ranking is Bertrand telling Pedro where H2 goes. ⚠️ Do not over-read the scare quotes on "shrinking team" ([[feedback_dont_overread_vp_quotes]]) — the load-bearing signal is the *absence* of any G3 outcome comment, not the punctuation.
+
+### 🟢 PEDRO HANDLED THE AI POINT HIMSELF, IN WRITING, BEFORE THIS SESSION — AND BETTER THAN THE ADVICE I HAD JUST GIVEN
+
+It sits at the end of Goal 2, verbatim: *"The domain was new to me, and so were most of the people in it. **I used AI to absorb the technical domain, and draft team communications faster then I would have done without AI. It helped me get faster in position. Where i was wrong as where to use and where not to. Communications that do not sound like me do not engage with teams and stakeholders. Bertrand and Ian feedback was collected in that direction. I have moved back to writing my own communications.**"*
+
+- **This is the right move and my earlier "don't concede more than the record does" was wrong on the facts.** Ian Boston's entry was *already* in the Workday record; silence from Pedro would have read as unawareness, which is worse than the admission. **Correction banked, do not repeat that advice.**
+- Why it is well built: a **reason, not an excuse** (new domain, new people, speed to position) · the error named precisely (*"where to use and where not to"*) · **the mechanism in his own sentence** (*"communications that do not sound like me do not engage"*) · and it closes **past-tense and completed** (*"I have moved back"*), not "I will stop". That last clause is [[Say the Sentence That Obliges — the Hedge Transfers the Ask]] applied to himself.
+- He names **Bertrand and Ian**, not Meschberger. Deliberate and correct — Meschberger's is the harsher entry and naming it would import it.
+- **🔴 BUT IT ANSWERS THE PHRASING HALF ONLY.** Meschberger's *"a good scribe is also dependable"* is untouched ([[feedback_ai_phrasing_workday_2026]]). And one line in G2 actively **feeds** it: *"**I did not try to debate - what I did was to share as much informations as I collected**, as transparently as possible… and get key deciders (as Ian and Felix) to share point of view."* Written as a virtue, it is the scribe posture described in the first person. There is a defensible senior version of it (decline the engine-topology fork, own the customer-facing boundary — the 07-22 call that Felix + Ian validated within the hour), but **as written it says "I abstained", not "I decided what was mine".**
+
+### 🔴 THREE NUMBER EXPOSURES NOW SITTING IN A SUBMITTED DOCUMENT (ranked)
+
+1. **🔴🔴 G3: *"14'000 users and 79% retention on Experience Hub"* is stated as fact and is Guliz Sicotte's number, dated 2026-06-05, Design's measurement of Pedro's product — not EH-instrumented.** It sits under a goal literally titled *"the measurable driver of AEM practitioner adoption growth"*, and the Grafana cross-check has still never been run. **If Bertrand asks where it comes from, the honest answer is "Design told me in June."** Attribute it to Guliz if it comes up — attribution strengthens, being asked for the method does not ([[project_experience_hub]] 07-22 block).
+2. **🔴 G1: *"36 skills have now a coherent when-to-use"* is the catalogue-wide 34.3% figure, and ~31 of those 36 are excat — EDS developer tooling, not customer-facing Coworker skills.** On the 45 skills in Coworker-registered marketplaces the number is **5**. Pedro found this himself on 07-22 and the 08-03 System Review reconciled it into [[reference_aov2_marketplace_manifest]]; the goals text likely predates his own correction. **Have the corrected version ready rather than restating 36.**
+3. **⚠️ G1: the June crossover written as *"7'600 against 6'700"*** — these were read off the curve, never printed labels. The 07-22 watch said explicitly *"it is the strongest business milestone in G1, do not write it approximate."* It is now written approximate. Get the exact values before the mid-year conversation.
+
+### 🟢 THE STRONGEST CONTENT IN THE SELF-EVAL (keep, reuse)
+
+- **He converted an imposed date into a negotiated one, and said so plainly:** *"Regular calls with these leaders lead to **AEM now working on defining a Cohort 3 date rather then being imposed one**."* → **This is [[An Undefined Gate Is a Date Nobody Can Give]] executed and won**, in the same document, independently of the entry being promoted the same day. Outcome validation of a rule promoted on 08-03.
+- **A genuinely senior org read, new to memory:** *"I believe the reason was rather due to Coworker internal structure then deliberate. **There is no single Coworker owner below Anil. The backend, UI and cohort rollout report through a different leader.**"* That is diagnosis, not description, and it is the kind of sentence Meschberger's doubt says he never sees.
+- **The AOv1 verdict, owned:** Ian's assessment (*right agent 50% of the time, great experience 5%*) → *"**My conclusion is that the AOv1 architecture is flawed for our agents setup, and beyond repair.**"* A stated conclusion with his name on it.
+- **G1 retention data, stated honestly:** 72-88% of AEM agent users do not return the following month · Discovery 539 MAU / **12%** retention (worst) · Governance 115 MAU / **27%** (best) · usage flat since May at ~50% of the Summit peak. He led with the unflattering read ([[Lead the Slide With the Honest Read of Your Own Metric]]).
+- **G3 is honest about the team collapse:** 2 resignations → 1 developer + Sorin, two senior devs from June 1st, *"team activities have been reduced to minimum"*, and an explicit prioritization call (*"I decided to focus team activities on Coworker UI as top priority"*).
