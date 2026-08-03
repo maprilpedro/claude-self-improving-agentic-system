@@ -174,11 +174,11 @@ Skills compose: `/ingest-transcript` → `transcript-extractor`; `/consolidate` 
 | Communicating strategy upward | `leadership/` | `tools/`, `domain/` |
 | Challenging assumptions | `false-beliefs/` | `hypotheses/resolved.md` |
 | Pattern recognition | `patterns/` | `hypotheses/active.md` |
-| Preparing a presentation | `tools/` (Headline, Rule of Three) | `patterns/` (Nine Elements, Holy Shit Moment) |
-| Stakeholder communication | `domain/` (Stakeholder Management) | `tools/` (Bucket Method, Elevator Pitch) |
+| Preparing a presentation | `patterns/` (Headline, Rule of Three, Nine Elements, Holy Shit Moment) | `tools/decision-matrix.md` |
+| Stakeholder communication | `domain/` (Stakeholder Management) | `patterns/` (Bucket Method, Elevator Pitch) |
 | Reading a specific person | `interpersonal/` | `leadership/` |
 | Managing up (Bertrand, Loni) | `interpersonal/` (Managing Up) | `leadership/` |
-| Senior Director visibility | `leadership/` | `hypotheses/active.md` (H-003, H-005) |
+| Senior Director visibility | `leadership/` | `hypotheses/resolved.md` (H-003, H-005, H-007) |
 | Cross-org influence | `leadership/` (Cross-Org Influence) | `interpersonal/`, `patterns/` |
 | AI product / agent work | `ai-product/` | `false-beliefs/` |
 

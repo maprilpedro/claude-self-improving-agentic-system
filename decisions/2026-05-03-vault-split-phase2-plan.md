@@ -274,3 +274,30 @@ After Phase 2:
 - Run `git status` in repo — confirm renames + new files staged correctly.
 - New session: ask Claude "where do we stand on the agent reporting work?" — should route to AAI files only.
 - New session: ask Claude "what's the EH MAU narrative status?" — should route to EH files only.
+
+---
+
+## Outcome (scored 2026-08-03 — System Review; **first score, 13 weeks after execution, skipped at three prior reviews**)
+
+**Why it was skipped three times, and why that is the finding.** This file reads as a *plan*, not a decision, so the 05-27, 06-07 and 07-01 scoring passes all walked past it. A 22 KB unscoreable plan sitting inside `decisions/` is what makes the folder's scoring pass unreliable — the pass looks complete while a third of the folder was never examined. **Fixed by scoring it here against its own written Verification section.**
+
+**Score: the bet held, and it is the highest-leverage structural decision in this journal.** Six of its eight verification criteria pass.
+
+| Verification criterion (from the plan) | Result |
+|---|---|
+| Two distinct project clusters, Bertrand 1-1 as connector | ✅ Held. `2026/AEM Agents Intelligence/` and `2026/Experience Hub/` are separate trees; Bertrand 1-1 stayed EH-side and cross-cutting, as designed. |
+| AAI trio exists and carries Yanira/Felix/Apoorva/Karthik | ✅ Held. AAI Stakeholder Map, State of Project and Status & Todo are all live and in weekly use. |
+| No `AI-Assistant/` folder references remain | ✅ Held. The legacy folder is retired; nothing under `2026/` carries it. |
+| `project_experience_hub.md` drops from 711 lines to <300 | ⚠️ Near-miss — **326 lines**. Directionally achieved (−54%), and the token cap (~18K of 20K) is the constraint that actually matters now. |
+| `project_aem_agents_intelligence.md` contains AAI sections | ✅ Held, and hardened well past the plan — the 07-01 weekly-shard archiver keeps it at ~16K tokens. |
+| Routing works in a new session ("agent reporting" → AAI only; "EH MAU" → EH only) | ✅ Held. Thirteen weeks of session-starts route correctly; the two-file split is load-bearing for `recall`. |
+| Mirror rule retired, tasks route to the owning project | ✅ Held. Retired 2026-05-03 and never regretted. |
+| Search vault for `EH - Status and Todo` without the prefix → **confirm zero** | ❌ **FAILED, and still failing.** `/Users/pedrofer/ObsidianAdobeVault/EH - Status and Todo.md` exists at vault root — an 8-line empty stub created 2026-05-13, untouched since 05-19. It shadows the canonical EH file in search and `[[ ]]` autocomplete. **This is the one loose end of the split, open for 11 weeks, and it was written into the plan as an explicit check.** |
+
+**What the decision bought.** The split is the reason two projects can be picked up at session start without either drowning the other, and it is the precondition for the 07-01 archiving work (weekly shards, cap guard) that fixed the memory-truncation problem. Structural decisions like this compound quietly and are therefore the easiest to leave unscored — which is exactly what happened.
+
+**What it did not fix, and this review's real finding.** The split reorganized the *repo memory* and the *vault folder structure*; **it did not put the vault Status files under any size or freshness discipline.** Today the AAI Status & Todo is ~1,915 lines / ~80K tokens — roughly 3.3× the read cap, with its `Current Status` narrative dated 2026-05-27 sitting ~1,000 lines below the newest Focus block, i.e. effectively invisible. The repo memory got the archiver on 07-01 and `watches.md` got it on 08-03; **the vault Status files are the same failure mode on the one surface the guard never covered.** That is the successor decision this one now implies.
+
+**Actions carried out of this score** (both flagged for Pedro, not executed — Status files are his):
+1. Delete or rename the orphan `EH - Status and Todo.md` stub at vault root.
+2. Apply the archive/roll-up discipline to the AAI Status & Todo, the way `archive_memory.py` did for repo memory.

@@ -42,3 +42,8 @@
 | H-001 — 10-minute attention drop | RESOLVED | ✅ **Killed 2026-05-27** (untested/deprioritized) → resolved.md. No field test in 2+ months, no decision riding on it. |
 | H-002 — pictures 6.5x recall | RESOLVED | ✅ **Killed 2026-05-27** (untested/deprioritized) → resolved.md. Same pattern as H-001. |
 | H-005 substrate sub-belief ("Rubin won't replace Felix's substrate") | **2026-07-01: resolved as a NUMBERING MISMATCH (judge catch).** Archived H-005 (cross-org influence) is *reinforced, not contradicted* → stays RESOLVED, not demoted. The substrate-replacement claim was an unlogged sub-belief on H-005's number. | ✅ **Done** — logged as new **H-009** (Testing) in `active.md`. Resolves when the AOv1-observation decommission is actually decided (Anil/Manas DACI, not a Slack position). |
+
+## Open ops closed out (moved from `state.md` at the 2026-08-03 System Review)
+
+- ✅ **DONE 2026-06-05 — ingest EH-EW-Skills transcript** (`Agent Owner Alignement/20260605 - ExpHub, WE, Skills design alignement .md`). EW-no-AEM-licence reconciled (open question, not a fact), Guliz/Silvia/Bertrand positions + C1 landed in EH memory. Cleared at the 2026-06-07 review.
+- ✅ **DONE 2026-07-03 — `One AEM, Many Harnesses` v4 republished live** (Confluence `3908567486`, version 4): brand-travel table split (visual skin vs structure/voice/behavior, per Brian) + "Claude → an LLM" in check/definition, mermaid→CleanShot-image swap. Root cause of the recurring 401s = **VPN not connected**, not PAT expiry — check VPN first next time a Confluence 401 appears.

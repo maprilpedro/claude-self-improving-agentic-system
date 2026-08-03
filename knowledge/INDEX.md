@@ -77,7 +77,7 @@
 | Managing laterally (peers, cross-org) | `interpersonal/` (Managing Laterally) | `leadership/` (Cross-Org Influence) |
 | Dealing with an adversary or difficult person | `interpersonal/` (Conflict and Adversaries) | `false-beliefs/` |
 | Building trust with a new team or stakeholder | `interpersonal/` (Building Trust) | `patterns/` |
-| Senior Director visibility | `leadership/` | `hypotheses/active.md` (H-007), `hypotheses/resolved.md` (H-003 promoted) |
+| Senior Director visibility | `leadership/` — start with *Say the Sentence That Obliges*, *The Game Itself — Position Over Merit*, *The Director→SD Gap Is a Communication/Visibility Gap* | `hypotheses/resolved.md` (H-003, H-005, H-007 — all resolved; no active hypothesis on this axis) |
 | Cross-org influence | `leadership/` (Cross-Org Influence Without Authority) | `interpersonal/`, `patterns/` (Capacity-Ask Mismatch) |
 | AI product / agent work | `ai-product/` | `false-beliefs/` (FB-006, FB-007, FB-008) |
 | Agent measurement | `ai-product/` (Measurement section) | `hypotheses/resolved.md` (H-005) |

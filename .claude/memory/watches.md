@@ -82,14 +82,16 @@ metadata:
 - **✅ BERTRAND HEADS-UP WAS SENT.** Pedro DM'd Bertrand re the client-id blocker (*"Un nouveau client_id a fait sauter les allowlists… Ian veut passer par un service proxy avec signed headers. Ticket GRANITE-70593"*) — found via the GRANITE-70593 search 07-20. The "not confirmed sent" question is closed.
 
 
-### ⏳ CARRIED FORWARD from the 2026-08-03 archive split (still-live items from sections ≤ 07-17; full context in `watches_ARCHIVE_2026-07.md`)
+### ⏳ CARRIED FORWARD from the 2026-08-03 archive split (reconciled at the 2026-08-03 System Review — the reconcile the split owed is DONE)
 
-- **⏳ ~mid-Sept 2026 — Forms→Rubin port** is an external 6–8-week promise (made ~07-17); Forms usage invisible in reports until then. Ties H-009.
-- **⏳ Manas follow-ups** (bi-weekly to set, written agent-context brief, org→manifest artifact to PRODUCE, audit to Yunyao Li) — already summarized in the 07-20 close-out block above; detail in archive.
-- **⏳ Brandon (Coworker UI owner) back ≈ 07-30** — the answer to "UI is the biggest bottleneck"; set the intro via Manas's bi-weekly.
-- **⏳ Rachel back ~07-29** — owes the Miro (EH placements), the coexistence/cohort-0 write-down, POD answers; EH placements question still owed a deliberate answer.
-- **⏳ Delete `.claude/memory-backups/20260702-pre-P1/`** (2-week retention Pedro OK'd 07-02, long past) — confirm then remove.
-- **🔴 2026-08-01 — monthly System Review** (H-007 hard deadline, parked-cap enforcement, retrieval-audit pass, EH staleness) — **OVERDUE as of 08-03**.
+- **✅ 2026-08-03 — monthly System Review RAN** (2 days late). H-007 resolved, parked cap enforced 15→2, retrieval-audit pass done, decisions scored. **Next due 2026-09-01.** EH/AAI Status staleness flagged to Pedro, not rewritten.
+- **🔴 OVERDUE, NOW ESCALATE NOT WATCH — Brandon (Coworker UI owner) was back ≈ 07-30**, 4 days ago, uncaptured. He is the answer to "UI is the biggest bottleneck". The planned route was *via Manas's bi-weekly*, and that bi-weekly **was never set** (07-20 sweep: "no movement on… the AEM bi-weekly"). **The route is dead, so the watch cannot fire — go direct or drop it.**
+- **🔴 OVERDUE — Rachel was back ~07-29**, 5 days ago, uncaptured. She owes the **Miro of EH placements**, the coexistence/cohort-0 write-down, and the POD answers. ⚠️ **The 07-15 ask — *"where are all the placements in AEM that we can take over?"* — is still unanswered by AEM**, and the EH task carrying it is past due (📅 07-30). This is the most direct ask anyone has made on Pedro's own product in this migration; it does not get answered by waiting.
+- **⏳ ~mid-Sept 2026 — Forms→Rubin port** is an external 6–8-week promise (made ~07-17); Forms usage invisible in reports until then. Ties H-009. Correctly dated, no action.
+- **🔴 Manas follow-ups, now ~18 days and ownerless** — the **org→manifest artifact Bertrand has asked for three times** has no owner-date anywhere; Manas handed convergence to Yelena Doliner on 07-20 and is **not** producing it, so it stays Pedro's. Plus: the bi-weekly to set, the written agent-context brief, the audit to Yunyao Li (⚠️ presets moved to 19/17/0).
+- **⏳ Delete `.claude/memory-backups/20260702-pre-P1/`** (976K, 8 items) — 2-week retention Pedro OK'd 07-02, expired 07-16, now **18 days over** and has survived three reviews. One command, needs one word from Pedro.
+- **🔴 2026-07-31 was "code complete" for the rail, and it passed** — `project_experience_hub` 07-15 block says in terms *"Everything EH-side planned against 'the rail ships 07-31' needs re-dating"*. **Not done.** Availability was always mid-to-late August; re-date the EH-side plan.
+- **⏳ Ken's provisioning window opens now** — *"the SKU won't be available in AEP Provisioning until after the 1st week of August"*. That is this week, and **the scale question (does it take a ~2.6k-org patch in one go, or is there a ceiling?) was never asked.**
 
 ## History (closed)
 

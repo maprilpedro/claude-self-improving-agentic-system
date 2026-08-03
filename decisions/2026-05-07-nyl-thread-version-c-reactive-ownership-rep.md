@@ -79,3 +79,17 @@ The decision's value is as evidence for **H-007** (reactive vs proactive ownersh
 ## Outcome note (2026-07-01 — System Review)
 
 Still deferred to H-007, which did not resolve. Nine months of prepped reactive reps later, **NYL remains the only cold real-time reactive rep in the dataset (the single cold miss)** — it is now the pivotal data point for H-007's 2026-08-01 resolution deadline (resolve on a cold rep, or archive inconclusive). The two feedback memories this decision spawned (`feedback_first_reply_ownership_sentence`, `feedback_dont_litigate_prior_replies`) have fired repeatedly and are durable. No re-score today; bound to H-007's 08-01 deadline.
+
+## Outcome (final score 2026-08-03 — System Review, closed with H-007)
+
+**Two things were decided here, and they score in opposite directions.**
+
+**The recovery move (Version C) — sound, and it still reads sound.** Yanira was leading correctly, Bertrand had assigned both of them, and it was May-11 deck week. Choosing the 5-minute ack over the 1-2 hour solo play protected the deliverable that mattered more. Nothing since has made that look like the wrong call.
+
+**The first reply — the miss, and the diagnosis on file was wrong for three months.** This decision framed the miss as *reactive-vs-proactive* and spawned H-007 on that basis. H-007 is now resolved **partially disconfirmed**: direction was not the variable (6+ reactive successes against this one miss), and neither was cold-vs-prepared. **NYL was not a case of Pedro lacking a prepared position — he had one and cited it** (Raul's git README, the Grafana dashboard). What he wrote was *"Raul is maintaining…"* and *"I'm not aware of other way."* **A present position, stated without obligation.** The variable was authority-locus: the ask had to be his, so he described instead of obliging, and Corey and Bertrand drew the conclusion for him.
+
+**Score: the recovery decision holds; the hypothesis it spawned was mis-framed and cost ~12 weeks of evidence logged on the wrong axis.** The durable output is not H-007 — it is the two feedback memories this decision spawned on day one, one of which (`feedback_first_reply_ownership_sentence`) turned out to contain the correct variable the whole time and is now promoted to `leadership/` as **"Say the Sentence That Obliges — the Hedge Transfers the Ask"**. NYL is instance #1 of that rule.
+
+**Lesson for the decision journal itself**: when a decision spawns both a hypothesis and a behavioural rule from the same event, **the rule is likelier to be right** — it is written from the concrete sentence, the hypothesis from an abstraction over it. Check the rule before re-scoping the hypothesis a third time.
+
+**Closed.** No further re-score.

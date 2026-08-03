@@ -7,11 +7,11 @@
 - [Coworker Customer PODs](reference_coworker_pods.md) — **Anjul's co-innovation program. Type B = co-innovation, NOT migration (the vocabulary that carries the coexistence argument). The Named Generalization Owner is unclaimed for AEM.** Read before any AMEX / Coke / AstraZeneca conversation.
 - [Coworker — productized AOv2](reference_coworker.md) — ao.adobe.io/chat, semantic layer = the context differentiator over raw-MCP Claude.
 - [Coworker rail access](reference_coworker_rail_access.md) — stage flags; the panel replaces the rail in place; two chat entry points in transition.
-- [AOv2 marketplace ≠ manifest](reference_aov2_marketplace_manifest.md) — convergence happens at the MANIFEST. ⚠️ read the 07-09 correction before quoting counts.
+- [AOv2 marketplace ≠ manifest](reference_aov2_marketplace_manifest.md) — convergence happens at the MANIFEST. ⚠️ **never quote the 34.3% `when-to-use` figure — it is carried by excat (dev tooling). The customer-facing number is ~11% on 45 skills.** Read the 07-09 + 07-22 corrections before quoting any count.
 - [cx-coworker FAQ](reference_coworker_faq.md) — CXO enablement runbook (Babu Ramaraj). Raj Patel = AIA-migration owner.
 - [AI Observation architecture](reference_ai_observation_architecture.md) — OTel → LangFuse → DaaS NEXT → Rubin. The V2 substrate displacing Felix's AOv1 pipeline.
 - [AIA vs Coworker axes](reference_aia_vs_coworker_axes.md) — AIA = front, Coworker/AOv2 = backend. Don't collapse a backend migration into a UI swap.
-- [AIA Platform Architecture](reference_aia_platform_architecture.md) — Vineet Barshikar's federated-renderer model. ⚠️ superseded in part: Josh removed renderers 07-10.
+- [AIA Platform Architecture](reference_aia_platform_architecture.md) — Vineet Barshikar's federated-renderer model. ⚠️ **superseded in part, reconciled into the entry 2026-08-03** — Josh removed the renderers 07-10; ownership answer still valid, registration mechanism is not.
 - [One AEM MCP repo](reference_one_aem_mcp_repo.md) — adobe-rnd/aem-sites-content-service (Tanju). Catalog, skill headers, eval semantics.
 - [AEM AI Mapping surface-map](reference_aem_ai_mapping.md) — Confluence intake pages owners fill. Pedro's canonical definition surface.
 - [AEM Agent Ownership Matrix](reference_aem_agent_ownership.md) — canonical PgM/PM/Eng/JIRA for the 10 AEM agents.
@@ -112,6 +112,7 @@
 - [Watches archive 2026-07](watches_ARCHIVE_2026-07.md) — sections ≤ 07-17 split out 2026-08-03 (file hit ~63K tokens). Grep only; System Review owes the reconcile.
 - [Check-in 2026 prep](project_checkin_2026.md) — **the 3 captured goals verbatim, the Apr→Jul mapping (~70 G2 / ~48 G1 / ~14 G3), the G2-has-no-OKR gap, the Workday 3-question format, the AI-usage framing.** Read before any check-in / self-review / promotion-case work.
 - [AEM Agents Intelligence](project_aem_agents_intelligence.md) — the active lane. Coworker migration, comms ownership, agent reporting. Hot state + durable reference.
-- [AAI archive](project_aem_agents_intelligence_ARCHIVE.md) — weekly ISO shards. Read the `_ARCHIVE_INDEX.md` first, then grep. Never full-Read.
+- [AAI archive index](project_aem_agents_intelligence_ARCHIVE_INDEX.md) — router over the weekly ISO shards (+ `_ARCHIVE_reference.md` for long-form). Read the index, then grep the shard. Never full-Read a shard.
+- [EH archive index](project_experience_hub_ARCHIVE_INDEX.md) — same pattern, EH side.
 - [AEM Experience Hub](project_experience_hub.md) — EH surface, contribution model, Sorin team, O2 KRs.
 - [Adobe AEM PM org](project_adobe_org.md) — Pedro → Bertrand (Sr Dir) → Loni (VP).

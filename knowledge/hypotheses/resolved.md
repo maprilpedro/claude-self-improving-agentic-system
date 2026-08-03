@@ -23,6 +23,26 @@
 - **Superseded by**: H-[number] (if applicable)
 -->
 
+## H-007: Reactive Ownership Is a Harder Muscle Than Proactive Ownership
+
+- **Status**: **Partially disconfirmed — the registered claim is false, and the live residue is folded into a rule that explains the data better.** Not "inconclusive"; not resolved on the successor framing it drifted into.
+- **Date proposed**: 2026-05-08
+- **Date resolved**: 2026-08-03 (System Review; `promotion-judge` verdict "kill as framed + fold", concurred by the review thread, which reached the same read independently before seeing the judge)
+- **Category**: Senior Director Behaviors / Self-Diagnosis
+- **Original hypothesis**: "Reactive ownership (responding when a thread lands on you) is a structurally harder muscle to build than proactive ownership (shipping artifacts unprompted), because the reactive muscle requires real-time recognition + override of the data-instinct + an ownership sentence under time pressure."
+- **Resolution — three findings, in order of confidence:**
+  1. **The registered directional claim is disconfirmed.** Over ~12 weeks the file logged **6+ reactive-ownership successes against 1 reactive miss** (NYL, 2026-05-07). Direction is not the variable. If reactive were structurally harder, that ratio would not exist.
+  2. **The successor framing — "cold without a prepared position to stand on" — is also wrong, and its counter-evidence is inside its own file.** It cannot explain **2026-07-16 Manas** (Pedro's *own prepared* TBYB lane; Manas still had to ask twice whether there was an ask) or **2026-07-17 07:40 Tokyo** (the manifest idea *was* his prepared position; he hedged it and Namita posted it as a plan 12 minutes later). Resolving H-007 on that framing would also have been procedurally wrong: it was opened after the fact, never registered, and proposed for confirmation on H-007's ticket. That is the same self-preferential move the 2026-07-01 review already rejected once.
+  3. **A rival variable explains every cold data point on file, 7 for 7 — and it was already written down.** `feedback_first_reply_ownership_sentence`: **Pedro fires when the authority of the sentence sits in an object outside him** (a missing CODEOWNER, an audit number, a merged PR) **and hedges when the authority has to be his own.** Checked against NYL 05-07 (hedge), 07-06 Ian-routes-Felix (fires), 07-16 first half (fires), 07-16 second half (hedge), 07-17 08:07 (fires, 180-second result), 07-17 07:40 (hedge, idea lost), 07-22 Gilles (hedge).
+- **Key evidence — the controlled experiment that settles it**: 2026-07-17, one Slack thread, 27 minutes apart, identical cold conditions and identical prep-time. At **07:40** the ask was his own idea → *"might work — checking"* → Namita took it. At **08:07** the ask rested on an object → *"there is no CODEOWNER on that path"* → two named approvers in the room by 08:10. Prep-time and cold-ness are held constant; only authority-locus varies; the outcomes are opposite.
+- **A counting error worth keeping**: the file's tally read "2 cold successes-equivalent, 2 cold misses". That is **3 independent cold events**, with 2026-07-16 counted on *both* sides of the same ledger. A hypothesis that scores one event twice will confirm itself.
+- **Lesson learned** (the methodological one is the more valuable):
+  - **A hypothesis that gets re-scoped three times is usually measuring a proxy for something else.** H-007 went direction → prep-time → preparedness, each time preserving the ticket. The variable it was circling had been isolated in a *memory* rule the whole time, in a different part of the system, so neither lens saw both. **Hypotheses and behavioural feedback rules must be judged against each other, not only within their own file.**
+  - **Nine weeks of the evidence log accumulated on the wrong axis** (prepped reactive reps that could not discriminate). The 07-01 review's instruction to stop feeding the off-axis count was correct and should have come sooner.
+  - The substantive finding: the gap is not reactive-vs-proactive and not cold-vs-prepared. It is **whether the sentence's authority has to be your own** — which is a positioning problem, not a reflex problem, and therefore trainable by rewriting the sentence rather than by rehearsing more.
+- **Impact**: the live residue is promoted to `leadership/` as **"Say the Sentence That Obliges — the Hedge Transfers the Ask"** (3+ independent instances: NYL 05-07, Manas 07-16, Tokyo 07-17, Gilles 07-22, with the 08:07 positive control). No `knowledge/` entry was written for "cold without a prepared position" — it would duplicate and partly contradict the memory rule. `decisions/2026-05-07-nyl-thread-version-c-reactive-ownership-rep.md` is scored in the same pass.
+- **Superseded by**: `leadership/` "Say the Sentence That Obliges — the Hedge Transfers the Ask" (not a formal H-number).
+
 ## H-005: Owning Cross-Agent Measurement Standardization Creates Structural Cross-Org Influence for the Experience Hub PM
 
 - **Status**: Confirmed

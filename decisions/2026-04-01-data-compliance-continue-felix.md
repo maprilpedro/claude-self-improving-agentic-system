@@ -27,3 +27,15 @@ Risk accepted, **not yet triggered** (8 weeks on). Felix's pipeline is still LIV
 ## Outcome checkpoint (2026-07-01 — System Review, score-lite)
 
 Bet still holds: Felix's pipeline is live, VP-sponsored, no external-BU flag has shut it down (~13 weeks). The residency vector never triggered. **But the decisive re-score data is not here yet — the ISO-42001 / Tech GRC audit evidence is due 2026-07-17** (audit narrowed to Discovery + Governance). Defer the definitive re-score to 07-17. **New frame this review:** the pipeline's relevance is now sunsetting for a *different* reason than the one this decision guarded against — not a compliance shutdown, but the **Rubin/Coworker substrate migration** (see new [[H-009]]). So the compliance bet held; the pipeline itself is depreciating via platform migration. Re-score at 07-17 on the audit outcome.
+
+## Outcome (re-scored 2026-08-03 — System Review). **Score: the bet held on outcome, but its premise has broken.**
+
+**On outcome, 18 weeks on: the bet held.** No external-BU flag, no shutdown, no residency enforcement action. Bertrand's *"important but not critical"* has cost nothing measurable to date.
+
+**On premise, it broke on 2026-07-16, and that is the material change.** The bet rested on Ian Boston's objection staying **one architect's opinion**. In the Manas sync (Bertrand in the room) Ian restated the red line — *"what I really want to avoid is teams… throw it in some database in VA7, including prompts… it would destroy trust"* — and **Manas Garg, who owns the AEP platform the data would move onto, agreed on the spot**: *"I do think that you should not do your own data forking or whatever copy."* Two orgs' architects now hold the same position in front of Pedro's manager. **A calculated risk whose downside was "one person disagrees" is a different risk when the receiving platform's owner disagrees too.**
+
+**Deferred datum still missing.** The ISO-42001 / Tech GRC evidence deadline (2026-07-17) passed with **no captured outcome** — nothing in memory records what was submitted or how it landed. Auditors collect Aug-Oct, so a real signal is still ahead. This is a debrief ask, not a finding.
+
+**What actually decides this decision's fate is no longer compliance.** The pipeline is being displaced by the Rubin/Coworker substrate migration ([[H-009]]), and the counter-play Pedro is executing — own the reporting *definition* and port it, don't defend the implementation — is the same move whether the compliance risk ever fires or not. **Practical read: stop tracking this as a live compliance bet. The copy-the-data posture it authorized is now contradicted by both architects, so any *new* aggregation should not lean on this decision as cover.**
+
+**Next re-score**: only if (a) the ISO-42001 audit returns a finding against Discovery or Governance, or (b) someone proposes a new cross-region copy citing this decision. Otherwise close it out at the 2026-09-01 review as *held on outcome, premise superseded*.

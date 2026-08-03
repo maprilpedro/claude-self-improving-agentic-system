@@ -1,0 +1,22 @@
+# Say the Sentence That Obliges — the Hedge Transfers the Ask
+
+_Section: Operating at Senior Director Level — part of `leadership/`; router = README.md._
+- **Date identified**: 2026-08-03 (System Review) · promoted from the memory rule `feedback_first_reply_ownership_sentence`, which carries the operational form. This entry is the generalized PM rule; **it also absorbs the residue of the killed [[H-007]]**.
+- **Insight**: **A request only transfers work if the sentence obliges someone.** An imperative, a named owner with a date, or a direct question obliges. A hedge (*"might work — checking"*), a preference (*"we would like"*), or a bare description (*"probably the current process isn't fit for it"*) leaves the reader free to do nothing, so they do nothing — and **the idea goes to whoever states it as a plan.**
+- **The test**: *can someone read this and do nothing without being at fault?* If yes, it was information, not a request.
+- **The discriminant — and this is the part that makes it fixable.** The variable is not seniority, not preparation, and not time pressure. **People fire cleanly when the authority of the sentence sits in an object outside them** — a missing CODEOWNER, an audit number, a merged PR, a config file. **They hedge when the authority has to be their own** — *I want this, this is my idea, do this for me* — and convert the ask into description, waiting for the other person to draw the conclusion.
+- **The evidence, including the positive control**:
+
+| | The sentence | Outcome |
+|---|---|---|
+| ❌ Authority had to be his · 2026-05-07, written, NYL escalation | *"Data is 3 weeks old, I asked for an update… I'm not aware of other way"* | Corey: *"This is a broken process alert."* Bertrand had to assign it. |
+| ❌ Authority had to be his · 2026-07-16, spoken, his own prepared lane | *"we would like to have all of our try-before-you-buy customers enabled… probably the current process isn't fit to it"* | Manas asked **twice** whether there was an ask, then built the request himself so he could act on it. |
+| ❌ Authority had to be his · 2026-07-17 **07:40**, written | *"Compose a single enablement manifest… might work — checking"* | **Namita posted the same idea as a plan 12 minutes later and it became hers.** |
+| ✅ **Authority in an object · 2026-07-17 08:07, same thread, 27 minutes later** | *"need a name on your side who approves and merges today. Felix's last manifest PR sat without a reviewer, there is no CODEOWNER on that path."* | Two named approvers in the room at **08:10**. 180 seconds. |
+| ❌ Authority had to be his · 2026-07-22, public, Gilles hands him the pen | *"I guess i am the closest to the subject :P if it causes no technical issues or limitations, agreed"* | Justified his standing instead of using it; endorsed someone else's proposal instead of producing one; handed the veto back to engineering. |
+
+  **The 07-17 pair is the controlled experiment**: same person, same thread, same day, same cold conditions, 27 minutes apart. Only the locus of authority differs, and the outcomes are opposite. That is why the variable is authority-locus and not prep-time.
+- **Why it is a Senior Director rule, not a writing tip**: this is [[The Game Itself — Position Over Merit]] in its operational form. Supplying the evidence and waiting for someone to draw the conclusion is the merit game. **A Director supplies the analysis; a Senior Director states what must now happen.** The merit of an observation does not carry an ask — obligation carries it, and authorship follows obligation.
+- **How to apply**: scan the *mood* of the sentence, not its content. Kill the insurance words when the claim is yours. Keep a hedge only where the uncertainty is real and load-bearing — and then name who resolves it and by when ([[feedback_lead_with_the_condition]]). When you hold only half the ask, state your half as an obligation and name the half you don't own; splitting honestly still obliges, hedging the whole thing does not.
+- **Distinct from**: [[Bank Your Authorship in Writing When You Contribute Into a Peer's Artifact]] (that is the written trace *after* you contribute; this is the mood of the sentence *at* the moment of the ask).
+- **Related**: [[The Game Itself — Position Over Merit]], `feedback_first_reply_ownership_sentence` (the operational form, with Pedro-specific triggers), [[H-007]] in `hypotheses/resolved.md` (this rule is what H-007 was circling for three months).
