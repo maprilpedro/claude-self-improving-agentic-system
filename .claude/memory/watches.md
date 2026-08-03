@@ -22,7 +22,7 @@ metadata:
 
 ### ⏳ 2026-07-27 (MON) — OKR REVIEW HELD TODAY: CAPTURE THE OUTCOME
 
-- **⏳ Debrief the 7/27 OKR review next session** — speaking notes in vault (`20260727 - OKR Review KR1e - Speaking Notes.md`). Watch for: reactions to the metric-migration plant (*"67 thousand is the number I will report from now on"*), the 1,202-vs-665 MCP-reach line, and any challenge on Q3 28.5% = On Watch. ⚠️ Memory says Pedro out from 07-27 but he worked 07-26/27 — confirm his actual out-window. **⚠️ 2026-08-03: still uncaptured a week after the review — top debrief ask.**
+- **⏳ Debrief the 7/27 OKR review next session** — speaking notes in vault (`20260727 - OKR Review KR1e - Speaking Notes.md`). Watch for: reactions to the metric-migration plant (*"67 thousand is the number I will report from now on"*), the 1,202-vs-665 MCP-reach line, and any challenge on Q3 28.5% = On Watch. ✅ **OUT-WINDOW RESOLVED 2026-08-03: PTO from the evening of Fri 07-24 to his return the morning of 08-02/03.** ❗ **So the OKR review, recorded as held 07-27, falls INSIDE his PTO.** Before chasing the outcome, establish whether it was held that day at all, whether he presented from holiday, or whether the date on file is wrong. **⚠️ 2026-08-03: still uncaptured a week after the review — top debrief ask.**
 
 ### ⏳ 2026-07-30 (THU) — TWO OUTCOMES TO CAPTURE + ONE ARTIFACT HOME
 
