@@ -115,6 +115,14 @@ Related: [[reference_okr_structure]] · [[reference_promotion_strategy]] · [[fe
 
 ---
 
+## 📅 THE CHECK-IN WAS HELD **2026-07-21** (confirmed by Pedro 2026-08-03)
+
+The date was an open question in this file for two weeks. It is **2026-07-21** — the same week as the prep push, so the Apr→Jul mapping, the dashboard and the goals rewrite were all built same-week for it. **Bertrand's written manager response in `Downloads/Goals.pdf` is this check-in's output.**
+
+**🔑 The authoritative goals text is the SUBMITTED Workday version** (read in full 08-03, banked below). ⚠️ **The iA Writer draft is retired — Pedro, 2026-08-03: *"Les goals sont ceux que je t'ai donnés, oublie ia writter."*** The vault's `Experience Hub - 2026 Yearly Review Goals.md` still carries the April draft; treat it as history, not as a copy to reconcile.
+
+**→ The next real checkpoint is the MID-YEAR REVIEW with Bertrand, still undated.** Ask for the date. That is where the AI-phrasing commitment (*"I have moved back to writing my own communications"*) and the G1 caveat (*"needs to be… redone for a large part"*) actually get tested.
+
 ## ✅🔑 2026-08-03 — THE CHECK-IN IS SUBMITTED AND BERTRAND HAS RESPONDED. (Source: `Downloads/Goals.pdf`, printed 2026-08-03, 3 pages, Workday "Goals". Read in full.)
 
 ### 🟢🔑 BERTRAND'S RESPONSE — SHORT, AND IT CONTAINS THE PROMOTION SENTENCE
