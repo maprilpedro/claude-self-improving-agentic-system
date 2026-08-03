@@ -54,6 +54,8 @@
 - [Mark inference in his-voice drafts](feedback_voice_drafts_mark_inference.md) — unconfirmed claims in his voice are his exposure.
 - [Don't overread VP quotes](feedback_dont_overread_vp_quotes.md) — audit subject + preposition before promoting to narrative.
 - [Don't conflate pattern with object](feedback_dont_conflate_pattern_with_object.md) — same phrasing ≠ same product. Read both sources.
+- [🔒 HARD RULE — Pedro writes, Claude critiques](feedback_pedro_writes_claude_critiques.md) — **he drafts everything outward-facing; Claude never writes the first draft and never offers to.** Locked 2026-08-03.
+- [🔴 Claude's own chat prose must be plain](feedback_claude_chat_prose_plain.md) — **no abstraction chains, one idea per sentence, no apposition-punchlines. Repeat offence. Register is contagious.**
 - [🔴 AI-phrasing feedback (Workday 07-2026)](feedback_ai_phrasing_workday_2026.md) — **Ian Boston + Felix Meschberger independently flagged his writing as AI-sounding; Meschberger reads him as a scribe, not a peer. The voice rules are now a defence, not a preference. Read before drafting anything outward.**
 - [Draft in Pedro's voice](feedback_draft_in_pedros_voice.md) — plain English, no idioms, no meta-narration, no reciting the other's position, no em-dashes. **Aphorisms are the tell.**
 - [Edit the span, not the artifact](feedback_edit_the_span_not_the_artifact.md) — one phrase flagged = fix that line only.
