@@ -11,6 +11,28 @@ metadata:
 
 ## Open
 
+### 🔴 2026-08-04 (TUE) — FIRST FULL DAY BACK. FOUR ITEMS WITH A CLOCK ([[project_aem_agents_intelligence]] 08-03 sweep block)
+
+- **🔴 CLINT GOUDIE-NICE — 5 days unanswered in Pedro's OWN forum** (`#aem-agent-owners-alignement` `C0BARAMM89Z`, 07-29 23:19, ts `1785359985.004509`). Ian Reasor routed him there. His PR `aep-ai#8220` installs two plugins at 0.2.0 into the shared `aem-aia` manifest **in prod**. Two questions: scope skills to co-innovation IMS orgs only, and stop an admin-only skill being selected before the user is verified as an AEM admin (he filed `PLAT-290634`). **He has a Gartner demo + customer onboarding this week.** Same shape unanswered: **Gerald Prendi 07-29** on `required_entitlements` gating for the Governance plugin.
+- **🔴 TINA NGO — blocked** (DM 07-30 20:07): GA timelines for all AEM skills in Coworker; *"we cant let customers use coworker since our skills arent in there yet (this is what aep tells me)"*. She confirmed 07-30 that AEM skills are not GA, so the claim stands.
+- **🔴 ALEJANDRO MORATINOS — one sentence closes it.** He asked 07-30 09:03 *"I can change it. What should be the naming convention?"* after Bertrand wrote *"there's urgency in getting all of that renamed/resrtructured"*. **Still the last message in `#aem-agent-experience-governance`.** Engineers meanwhile converged on 4 dash-separated tokens in a group DM (`aem-cloudmanager-release-update_schedule-management`).
+- **⏳ RAMON BISSWANGER — waiting on Pedro's return** to sync the Security Health internal Go-Live. He holds **74% LA remediation vs 28% overall (20 LA customers)** and **914 production programs / 51,101 open third-party vulnerabilities**.
+- **⏳ PHILIPPE KAPFER — DM 2026-08-03 10:47.** Offers to update the canvas himself; reports a prod problem (Foundation Internal, skills replaced by One AEM MCP, *"not working well"*).
+- **⏳ HEMANTA GUPTA — confirm or kill the Rubin blocker** with Angela Han or Manas: does Rubin's ETL really have no ingress for non-AEP teams? If true, the port target changes. Ties [[H-009]].
+- **⏳ GILLES KNOBLOCH — asked 08-03, awaiting reply:** did the KR 1e video play in full, or did reviewers get the broken 1-second version?
+
+### ⚠️ 2026-08-04 — COHORT 1B ENABLES (info, no action)
+
+- Criteria explicitly exclude AEM: *"AEP + Apps stand alone customer (no AEM or Workfront)"*. Timeline was 7/28 draft → 7/29 opt-outs → 7/30 final list → **8/4 enable**. No message confirms the 7/30 final list was produced.
+
+### 🔵 2026-08-06 — BEFORE QUOTING ANY MCP NUMBER
+
+- **Eli Lilly is in the management dashboard but absent from the per-customer deep-dive** (Brian Chaikelson, 07-31, unanswered). ⚠️ **Eli Lilly is in the OKR-review speaking notes.**
+- **Jabran Asghar, 07-24: 30-day window only** — *"found a bug in some panels not respecting the time filter, will fix that next week"*. No fix confirmation since.
+- **🔴 The "Tool Calls" lock is slipping.** Tanju's report now uses the unit **"operation"**; Christian Meyer challenged it 07-28 and it is undecided. Pedro owns this term ([[reference_mcp_terminology]]).
+- Unresolvable IMS orgs in the dashboard (`127B272369BC84400A495C0A@AdobeOrg`, 19,922 requests) — Jabran suspects AEM trial envs, still looking.
+
+
 ### 🔴 CORRECTED 2026-08-03 — THE MARKETPLACE AUDIT WAS **NEVER POSTED**, AND THE 07-24 "✅ DONE" ENTRY WAS FALSE. ⚠️ **Read with the PTO in front of it: 07-24 was Pedro's LAST WORKING DAY (off from that evening to 08-02/03), so this slipped on the way out the door and the 07-28 decision happened while he was away. Ordinary. Do not stack it into a behaviour pattern — n=1.**
 
 > **What this entry used to claim:** *"✅ Extended audit + written plugin-boundary position done and posted (`#p42-architecture` `C09KKLW1N86`, thread `1784720330.787079`)."* **That is wrong.** Verified three ways on 2026-08-03: (1) full read of thread `1784720330.787079` — it has **5 replies and ends at Pedro's 07-22 17:01 hedge**; (2) `from:@Pedro in:#p42-architecture after:2026-07-22` returns **zero results**; (3) a channel sweep of #p42-architecture over 07-24→08-03 finds no Pedro message. **He posted nothing in that channel after 07-22.** The task was banked as done on the day it was planned, never verified against Slack. **Lesson: never mark a Slack deliverable ✅ without reading the thread back.**
