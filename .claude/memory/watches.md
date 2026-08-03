@@ -97,3 +97,11 @@ metadata:
 
 <!-- ✅-closed watches move here with close date; prune below ~10 lines -->
 - 2026-08-03: sections ≤ 2026-07-17 moved verbatim to `watches_ARCHIVE_2026-07.md` (file was ~63K tokens, unreadable in one shot). System Review owes the reconcile.
+
+### 🔴🔑 2026-08-03 — WORKDAY FEEDBACK ROUND + BERTRAND MID-YEAR REVIEW ([[feedback_ai_phrasing_workday_2026]])
+
+- **⏳ Bertrand's mid-year review is PENDING and it is the next real checkpoint.** Pedro has already told him he is aware of the AI-phrasing feedback and will stop. ⚠️ **Do not re-open that conversation backward** ([[feedback_dont_litigate_prior_replies]]). What counts now is evidence between today and the review.
+- **🔴 The AI-phrasing item is the symptom; the "good scribe" read is the damage.** Felix Meschberger doubts Pedro understands the topics he works on. Plainer prose does not move that. **One visible judgment per outward artifact does.** Watch specifically for a Meschberger-facing moment where Pedro takes a position and holds it.
+- **⏳ THREE reviewers independently asked for MORE broadcast** (Felix Delval = public visibility of small-room discussions · Yanira = early decisions/exec updates · Razvan = a **monthly** adoption/metrics/strategy info point). **The artifact already exists at v7.** This is a distribution decision, not new work — widen it and tell those three it is theirs to read. Cheapest promotion-case move available.
+- **🔴 SCOPE RISK — Ramon Bisswanger proposed in writing that a Bucharest PM take over the release track.** Not hostile, but it is a scope-transfer sitting in a record Bertrand reads. **Decide before the mid-year review whether to defend it or trade it deliberately** — don't let it be decided by silence.
+- **⏳ Depth, named by two of seven** (Meschberger "not sure he understands the topic"; Valentin "fewer initiatives, more depth throughout the lifecycle" — the enterprise adoption-lag point). Coordination praise is universal; depth is where the doubt clusters, and depth is the Senior Director marker. Feeds [[project_checkin_2026]].
