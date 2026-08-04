@@ -47,6 +47,7 @@
 | [A Rendering Contract Carries Structure, Not Skin — the Brand Travels Only Where You Own the Renderer](a-rendering-contract-carries-structure-not-skin-the-brand-travels-only.md) | An open rendering contract makes the structure/semantics of the UI portable (this is an asset card, these fields, these actions). It does n… |
 | [Three-Layer AI Skill Governance Architecture (Customer-Side)](three-layer-ai-skill-governance-architecture-customer-side.md) | In an enterprise AI product where hundreds of skills could be loaded, *who sees and uses which skills* decomposes into three nested, non-co… |
 | [Dynamic Workflows — the Orchestrator Moves Off the Model (Code Coordinates, the Model Judges)](dynamic-workflows-the-orchestrator-moves-off-the-model-code-coordinate.md) | A *dynamic workflow* is a short JavaScript program Claude writes on the fly to coordinate a fleet of subagents. The model does the judgment… |
+| [A Packaging Unit Is a Customer Taxonomy — Ownership Needs Its Own Record](a-packaging-unit-is-a-customer-taxonomy-ownership-needs-its-own-record.md) | The plugin (bundle, pack) is what the customer installs and sees, so its granularity is a customer-taxonomy call, not an org-chart one — ye… |
 
 ## Agent Measurement Infrastructure
 
