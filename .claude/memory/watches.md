@@ -11,6 +11,30 @@ metadata:
 
 ## Open
 
+### 🔴🔑 2026-08-07 (THU NIGHT) — CLINT'S OWN 72-HOUR CLOCK EXPIRES. HE SET IT, NOT ADOBE.
+
+- **Clint Goudie-Nice, 2026-08-04 00:42 CEST:** *"Silence is acceptance? Without further input, and in accordance with standard Apache voting rules I'll be merging this PR in 72 hours from now."* → **expires 2026-08-07 ~00:42 CEST**, so the last working day to act is **Thursday 08-06**. PR = `aep-ai#8220`, two plugins at 0.2.0 into the shared `aem-aia` manifest across local/dev/stage/prod.
+- **⚠️ DO NOT BLOCK THE MERGE.** Ian Boston approved under one condition (**pin the version**, so a skill-description change cannot break prod) and Carsten is making the placement retroactively correct (*"the aem-aia manifest will become the co-innovation manifest"*). Blocking would be wrong on the facts.
+- **🔴 THE ONE QUESTION NOBODY ANSWERED IS THE PM ONE.** Clint asked whether `experimental` is the correct **lifecycle label** for co-innovation capabilities. Six replies, zero on it. **The same field answers Tina Ngo's GA question** — one vocabulary, two blocked people.
+- **⚠️ THE ENTITLEMENTS ANSWER IS NARROWER THAN OUR RECORD SAID.** Ian Boston: *"CoWorker entitlements selecting skills operate at the Org level so you could use entitlements to select orgs but not admins."* → **2A closes Clint's question 1 (co-innovation orgs), NOT question 2 (admin-only).** And Ian Reasor: *"nobody has tested with the entitlements flag at all"*, one week after it was declared mandatory.
+- **⏳ `PLAT-290634` IS THE REAL FIX AND IT IS DEAD** — created **2026-06-16** (not 07-29), status New, **Unassigned**, zero comments, seven weeks untouched. It extends epic **PLAT-269752**, which already shipped IMS (PLAT-283543) + Workfront (PLAT-283281) providers and caching (PLAT-283985). **So an owner exists on that epic. Getting 290634 attached to them with a date is the object-backed move.**
+- **⏳ Ian Boston also asked, unanswered:** where are the CODEOWNERS for the `aem-aia` manifest, none were pinged on the PR. **Pedro holds that answer already** (one broken owner `aem-p42-forms`, EPA and Governance absent).
+
+### 🔴🔑 2026-08-10 (MON) — THE GA CHECKLIST IS DUE AT THE OWNERS CALL, AND PEDRO COMMITTED TO IT OUT LOUD
+
+- **He said it in the room 08-03:** *"I'll work on that, and we can discuss next week with the status and next steps."* Corey's ask: *"really really get clear on, okay, what do we need to do to be GA at Dev Live."*
+- **🔁 THE ARTIFACT ALREADY EXISTS AS A PLAN — it is the V4 status doc's Dimension A table** (one row per agent: skills ported, manifest, readiness date), designed 07-13 with the explicit move "put the empty table on screen and make each owner fill their own row". **It did not go on screen on 08-03; the naming canvas did. Then the room asked for exactly that table.**
+- **🔴 THE PRIOR DECISION GATES IT.** Corey, Brian, Guliz and Ankur proposed replacing the composite gate with **"in the manifest = GA", per agent, now**. Pedro acknowledged and did not decide. **Decide which model before writing the checklist, or the checklist answers a question the room has already moved past.**
+- **Two rows are already filled verbally and unbanked:** Corey for EPA (*"I'm giving you the check mark"*), Ankur for Discovery + Content Optimization (*"we are ready with the skills"*, bundle with EPA for the first cohort).
+- ⚠️ **This is the second time Corey has asked in the same words** — 07-09: *"How can we provide a date when we're going to be ready if we don't know what we need to do to be ready?"* Four weeks, no checklist. [[An Undefined Gate Is a Date Nobody Can Give]], with Pedro as the one who owes the gate.
+
+### 🔴 ~2026-08-24 → 2026-09-01 — DEVELOPERS LIVE IS THE FORCING DATE AND IT IS IN NO MIGRATION PLAN
+
+- Weekly public webinars from **~2026-08-24**; **Corey Dulimba + Brian Chaikelson's session moved to 2026-09-01**. Both stated they will demo **Coworker only, no AI Assistant**.
+- **Tina Ngo:** *"this is the first time when we will be publicly talking about our skills in a public forum… I kind of see this as a GA moment, meaning people are going to be interested in our skills. They should be readily available in Coworker."*
+- ⚠️ **In-room dates are approximate.** **Marius Duta owns a Slack thread** to pin date, milestones, event link and agenda. Watch for it, then re-date.
+- ⏳ **Tina owes the Coworker-side documentation link** (structured **by use case, not by skill**). Corey named documentation as an unlisted GA gate.
+
 ### 🔴🔑 2026-08-03 — MANIFEST CONTENT HAS NO OWNER, AND A PER-ORG BLAST-RADIUS HYPOTHESIS IS SITTING UNCONFIRMED ON A MAJOR TICKET (source: Tanju's 07-29 thread `#aem-mcp-engineering` `C0BAEF9DXT3` ts `1785338723.736529` + `AEMAGT-2435`; surfaced to Pedro by Philippe Kapfer 08-03)
 
 - **🔴 NOBODY OWNS THE CONTENT OF THE AEM MANIFESTS, AND THIS IS THE CONCRETE INSTANCE.** Tanju, 07-29: *"There seems to have been a **mishap** in one of the manifests where the Brand Governance MCP Server was removed, leaving only the One AEM MCP Server."* An entry vanished, nobody noticed, **a PM found it by testing**. → This is exactly **Bertrand's 07-29 `#p42-architecture` question that is still unanswered**: *"Who owns 'fixing' this and making sure we (AEM) are also represented properly in the other official manifests?"* **Pedro's lane. The incident is the evidence.**
