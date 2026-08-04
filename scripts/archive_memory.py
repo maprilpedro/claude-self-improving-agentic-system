@@ -196,6 +196,31 @@ def split_oversized(memfile):
     return done
 
 
+def warn_stranded_blocks(memfile):
+    """Loud warning when dated event blocks sit BELOW the living-reference sections.
+
+    split_active() treats the first non-blockquoted '## ' heading as the start of the
+    living reference and everything after it as unmovable. If dated '> ###' blocks have
+    drifted below that line, the archiver silently sees zero movable blocks and reports
+    "moving 0 block(s)" while the file keeps growing past the read cap — which is the
+    exact silent-truncation failure this script exists to prevent (hit 2026-08-04, the
+    AAI file sat at 29K while the guard reported success). Reorder, then re-run.
+    """
+    try:
+        lines = pathlib.Path(memfile).read_text().split("\n")
+        _, _, living = split_active(lines)
+    except Exception:
+        return
+    stranded = [l for l in living if BQ_HEADER.match(l) and DATE_RE.search(l)]
+    if stranded:
+        print(f"  🔴 LAYOUT WARNING: {len(stranded)} dated event block(s) sit BELOW the "
+              f"living-reference sections, so the archiver cannot move them:")
+        for l in stranded[:5]:
+            print(f"       {l[:72]}")
+        print("     Fix: move them directly under the RESUME block (above the first "
+              "'## ' section), then re-run. Reordering is content-preserving.")
+
+
 def do_check(memfile):
     t = tokens(pathlib.Path(memfile).read_text())
     over = t > CAP_TOKENS
@@ -206,6 +231,7 @@ def do_check(memfile):
         status = "OVER — archive due"
     print(f"{os.path.basename(memfile)}: ~{t//1000}K tokens (cap {CAP_TOKENS//1000}K, "
           f"read-cap {READ_CAP_TOKENS//1000}K) {status}")
+    warn_stranded_blocks(memfile)
     return 1 if over else 0
 
 
