@@ -12,6 +12,7 @@
 - [AI Observation architecture](reference_ai_observation_architecture.md) — OTel → LangFuse → DaaS NEXT → Rubin. The V2 substrate displacing Felix's AOv1 pipeline.
 - [AIA vs Coworker axes](reference_aia_vs_coworker_axes.md) — AIA = front, Coworker/AOv2 = backend. Don't collapse a backend migration into a UI swap.
 - [AIA Platform Architecture](reference_aia_platform_architecture.md) — Vineet Barshikar's federated-renderer model. ⚠️ **superseded in part, reconciled into the entry 2026-08-03** — Josh removed the renderers 07-10; ownership answer still valid, registration mechanism is not.
+- [aem-coworker-audits](reference_aem_coworker_audits.md) — **the audit repo. Five audits over the AEM skill estate, published redacted into git.** Read before quoting any skill count. Gerald's PR #29 repo is READ-ONLY; the salt lives only in Pedro's keychain.
 - [One AEM MCP repo](reference_one_aem_mcp_repo.md) — adobe-rnd/aem-sites-content-service (Tanju). Catalog, skill headers, eval semantics.
 - [AEM AI Mapping surface-map](reference_aem_ai_mapping.md) — Confluence intake pages owners fill. Pedro's canonical definition surface.
 - [AEM Agent Ownership Matrix](reference_aem_agent_ownership.md) — canonical PgM/PM/Eng/JIRA for the 10 AEM agents.

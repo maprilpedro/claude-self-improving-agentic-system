@@ -13,7 +13,9 @@ metadata:
 >
 > 🔴 **LAYOUT INVARIANT, learned the hard way 2026-08-04 — DATED EVENT BLOCKS MUST SIT ABOVE THE LIVING-REFERENCE SECTIONS.** `split_active()` in the archiver treats the first non-blockquoted `## ` heading as the start of the living reference and everything after it as unmovable. This file had drifted so that four dated `> ###` blocks sat *below* `## 2026 Yearly Goal — G1`, so the archiver saw **one** block (the protected RESUME) and reported *"moving 0 block(s)"* while the file sat at **29K tokens, 5K past the read cap** — i.e. **the cap guard reported success while the file was silently truncating at session start, which is the exact 2026-06 awareness-loss failure it was built to prevent.** Fixed by reordering (content-preserving, verified line-multiset-identical), after which the same script moved 29K → 19K on the first try. **When appending a new dated block, put it directly after the RESUME, never at the end of the file.**
 
-> ## ▶️ RESUME HERE — left off **2026-08-04** (Clint thread read live, then the 08-03 Agent Owners Alignment ingested)
+> ## ▶️ RESUME HERE — left off **2026-08-05** (audit repo built and published; before that, the Clint thread read live and the 08-03 Agent Owners Alignment ingested)
+>
+> **🟢 There are now numbers where there were opinions.** The audit repo `OneAdobe/aem-coworker-audits` ran on 2026-08-05: **27 of 88 AEM skills are in the consolidation target**, **112 of 215 manifests** reach an AEM marketplace, naming is **14 conform / 34 warn / 29 fail** on the user-visible cut, and **13 of the 24 skills carrying a `when-to-use` restate their own description.** See the **2026-08-05 AUDIT REPO block** directly below, and [[reference_aem_coworker_audits]] for how to re-run it.
 >
 > **🔴 THE OPEN DECISION IS THE GA MODEL, AND IT IS PEDRO'S.** At the **2026-08-03 Agent Owners Alignment** (block archived 2026-08-05 to shard `..._ARCHIVE_2026-W32.md` — grep `AGENT OWNERS ALIGNMENT` there) Corey Dulimba, Brian Chaikelson, Guliz Sicotte and Ankur Arora aligned on **"whoever is in the manifest is GA", per agent, now** — against Pedro's composite gate (skills, naming, manifest, UI, provisioning, security, ORR, legal, quality, reporting). Pedro acknowledged and did not decide. He committed to bring a **per-agent GA checklist to Monday 2026-08-10**. That checklist is the **Dimension A table** the V4 status doc has planned since 07-13. **Forcing date: Developers Live, weekly from ~08-24, Corey + Brian's session 09-01, both demoing Coworker only.**
 >
@@ -28,6 +30,31 @@ metadata:
 > ⏳ **Open with Gilles Knobloch:** Pedro asked him 08-03 whether the KR 1e video played in full or as the broken 1-second version. Awaiting reply.
 >
 > **Prior sessions:** 07-27 OKR-review prep → shard **W30**; 07-20/21/22 rollout, marketplace + TBYB blocks → shard **W30**; 07-16/17 Manas → **W29**. Read `..._ARCHIVE_INDEX.md`, then grep the shard.
+>
+> ### 🔑 2026-08-05 — THE AUDIT REPO EXISTS AND IT PUT NUMBERS ON THE CONSOLIDATION. **27 OF 88 SKILLS ARE IN THE TARGET MARKETPLACE**
+>
+> **Built `OneAdobe/aem-coworker-audits`** (private, service_id 615301) — five audits over the AEM skill estate, published redacted into git. Design ported from **Gerald Prendi's `governance-agent-marketplace` PR #29**, credited; 🔴 **his repo stays read-only, Pedro's explicit instruction.** Full reference: [[reference_aem_coworker_audits]].
+>
+> **The numbers, from the 2026-08-05 published run** (commit-stamped, salt fingerprint `dd9d1181`):
+>
+> | Question | Answer |
+> |---|---|
+> | Skills in the consolidation target `aem-aia-extensions` | **27 of 88.** The other 61 across 8 marketplaces |
+> | Manifests reaching ≥1 AEM marketplace | **112 of 215** |
+> | Naming, whole catalogue | 14 conform · 37 warn · 37 fail |
+> | Naming, **user-visible cut (the quotable one)** | **14 conform · 34 warn · 29 fail of 77** |
+> | `domain` declared | **18 of 88** |
+> | `when-to-use` declared | 24 of 88 |
+> | `when-NOT-to-use` declared | 18 of 88 |
+> | Of the 24 with a `when-to-use`, how many **restate their own description** | **13** (median self-similarity 0.5056, threshold 0.45) |
+>
+> 🔑 **Coverage is not the number.** More than half the skills that carry a `when-to-use` gain nothing from it. Asking teams for coverage again will not move them — it is a rewrite, not an addition. This is the evidence for the naming-canvas fix-list and for anything said to Clint about cross-skill routing.
+>
+> 🔴 **"Which application owns this skill" is not answerable from the data.** 21 of 88 names give no application at all, and `domain:` is declared on 18 in **three different formats** (`Assets`, `aem-forms / form authoring (field rules)`, empty). Direct measurement of [[A Packaging Unit Is a Customer Taxonomy — Ownership Needs Its Own Record]] point 3 — the ownership axis stops being derivable and needs its own record. The sixth audit (`skill-in-target-marketplace`, half-built) answers it with a four-tier ladder, and its top rung is a hand-maintained map only Pedro can seed.
+>
+> **`adaptive-forms-authoring` is duplicated and already diverging** — 0.1.37 in `aem-aia-extensions`, 0.1.41 in `aemforms-aia-extensions`, copied 07-30 and the source never emptied. Two copies, one of them being routed. That is a live bug for whoever calls the skill, not a tidiness problem.
+>
+> **Method note worth keeping:** a review agent graded the work and was right on a call Claude got wrong — `index` does not belong in the verb vocabulary, because `aem-search-index` reads as *the search index*, a thing, which is the warn the audit exists to raise. Separate-context grading caught what the producing thread could not.
 >
 > ### 🔴🔑 2026-08-04 — SLACK VERIFICATION OF THE "WAITING ON PEDRO" LIST + THE ROAD-TO-GA CANVAS. THREE OF FOUR WERE STALE, AND THE GA MODEL IS BEING SETTLED IN ARCHITECTURE WHILE PEDRO HOLDS IT
 >

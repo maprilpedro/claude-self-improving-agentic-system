@@ -11,6 +11,10 @@ metadata:
 
 ## Open
 
+### 2026-11-01 — RE-CHECK `aem-experience-catalyst` (excat) EXCLUSION
+
+Set 2026-08-05. **What to check:** whether any AO manifest has started referencing excat. **Where:** `recheck_after` in `~/GitHub/aem-coworker-audits/aem-audits.yaml`, and re-run `scripts/publish.py`. **Why it matters:** excat carries **61 skills, more than the other nine marketplaces' 88 combined for any single repo**, and it is excluded from every audit because no manifest reaches it. The day one does, every roster, every naming count and every collision number in `docs/STATUS.md` changes at once — and nothing will announce it. Flip `role: excluded` to `peer` when it happens. Lives only inside a repo config file today, which is why it is registered here.
+
 ### 🔴🔑 2026-08-07 (THU NIGHT) — CLINT'S OWN 72-HOUR CLOCK EXPIRES. HE SET IT, NOT ADOBE.
 
 - **Clint Goudie-Nice, 2026-08-04 00:42 CEST:** *"Silence is acceptance? Without further input, and in accordance with standard Apache voting rules I'll be merging this PR in 72 hours from now."* → **expires 2026-08-07 ~00:42 CEST**, so the last working day to act is **Thursday 08-06**. PR = `aep-ai#8220`, two plugins at 0.2.0 into the shared `aem-aia` manifest across local/dev/stage/prod.

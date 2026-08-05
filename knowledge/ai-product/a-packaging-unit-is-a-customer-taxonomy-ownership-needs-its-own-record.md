@@ -34,6 +34,22 @@ Teams reach for the packaging unit as an ownership record because it is the only
 
 Note the last row: even the team that did the work put a *product* value in the field others hoped would carry *ownership*. The classification field will not become an ownership field by wishing.
 
+## Measured again, wider — 2026-08-05
+
+A repeatable audit over **88 skills across nine marketplaces** (`OneAdobe/aem-coworker-audits`, published run) put numbers on point 3 below, and they are worse than the first read suggested.
+
+| Signal | State |
+|---|---|
+| `domain` declared | **18 of 88** — and in **three incompatible formats**: `Assets`, `aem-forms / form authoring (field rules)`, empty |
+| Application derivable from the skill *name* | 67 of 88 |
+| Application derivable from **anything at all** | **67 of 88. Twenty-one skills say nothing.** |
+
+Two things this settles.
+
+**A field that exists is not a field that answers.** Coverage of `domain` went from 2/107 to 18/88 as more teams filled it in, and it still cannot be grouped on, because nobody agreed a format. The same audit found the parallel case on a different field: of the 24 skills carrying a `when-to-use`, **13 restate their own description** — full coverage, zero disambiguation. Asking for coverage a second time moves neither.
+
+**So the record has to be ranked, not single.** The working design is a four-tier ladder — hand-maintained map → declared field → inferred from the name → unassigned — where **every row reports which rung classified it**. That is the honest version of an ownership record when no single source covers the corpus: not one field pretending to be authoritative, but an explicit precedence with the guess labelled as a guess. The hand map goes *first*, not last, because it is the only rung anyone ratified and it must be able to correct a wrong inference rather than only fill a blank behind one.
+
 ## What to do
 
 1. Decide the packaging axis on customer legibility. That is the PM call, and it is the one the platform owner will (correctly) refuse to make for you.
