@@ -10,6 +10,8 @@ metadata:
 
 **Built 2026-08-05.** Local `~/GitHub/aem-coworker-audits`, remote `OneAdobe/aem-coworker-audits`, **private**, Adobe service_id `615301`.
 
+🔑 **What it is FOR, said by Pedro 2026-08-05: showing progress while the teams migrate.** They are renaming skills and filling `domain` / `when-to-use` right now, so the audit is a **measuring instrument for a migration in flight**, not a one-off diagnostic. Consequences: (1) it has to be **re-run on a cadence** — the 08-05 run is the baseline; (2) the interesting number is the **delta**, not the snapshot; (3) the marketplace repos keep their git history and every collector already takes a `ref`, so **earlier snapshots can be backfilled later** and nothing is lost by not starting the series today; (4) a trend must **re-grade the past with current rules** rather than compare stored numbers, or a vocabulary edit reads as thirty teams renaming overnight.
+
 Design ported from **Gerald Prendi's `Adobe-AEM-Foundation/governance-agent-marketplace` PR #29**, credited in `CREDITS.md` + a `provenance:` block in the config. 🔴 **That repo is READ-ONLY — no PR, no branch, no issue, ever.** Pedro's standing instruction, 2026-08-05.
 
 ## The five audits
