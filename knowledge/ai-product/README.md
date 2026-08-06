@@ -31,6 +31,7 @@
 | [The Human vs Agent Surface Split](the-human-vs-agent-surface-split.md) | AI products need two fundamentally different interaction surfaces: (1) human practitioners who need a guided, visual, discoverable UI; (2) … |
 | [Hero Surfaces Strategy](hero-surfaces-strategy.md) | In a product ecosystem with many surfaces, you cannot run effective PLG, measure discovery, or build compounding feature awareness without … |
 | [Too Many Surfaces Is a PLG Killer](too-many-surfaces-is-a-plg-killer.md) | Every time a team builds a new surface, they fragment the audience. Users can't form habits with a product they reach through four differen… |
+| [Announce a Forced Surface Migration With an Opt-Out — the Refusals Come Back as Replies Instead of Escalations](announce-a-forced-surface-migration-with-an-opt-out.md) | Promoted 2026-08-05 (2 obs, 3 weeks apart: Rachel Hanessian 07-15 draws the sequence, Namita Krishnan 08-05 states it as a learning *and* reports the outcome). ~1 week before each cohort flips, banner + admin email, with an explicit way to say no. The refusal happens either way — the window controls whether it arrives as a calm reply or a live escalation. The opt-outs are the cheapest research the migration produces, and the announcement is what puts a date on the "whose surface carries it" question. |
 
 ## Distributed-Harness Architecture (AOv2 / Agentic NorthStar)
 
