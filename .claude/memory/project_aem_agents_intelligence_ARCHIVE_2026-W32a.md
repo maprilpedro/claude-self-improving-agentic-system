@@ -1,4 +1,4 @@
-> ## Archive shard — project_aem_agents_intelligence — ISO week 2026-W32
+> ## Archive shard — project_aem_agents_intelligence — 2026-W32a (split 1/2 for size)
 
 > ### 🔴 2026-08-03 — FULL SLACK SWEEP (16 channels + all DMs/group-DMs, window 07-24→08-03, 4 parallel readers + a direct DM search).
 >
@@ -100,4 +100,3 @@
 
 
 ---
-
