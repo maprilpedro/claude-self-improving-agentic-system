@@ -1,8 +1,11 @@
 ---
-name: Claude's own prose to Pedro must be plain — no abstraction chains
-description: The voice rules apply to what Claude writes IN CHAT, not only to drafts. Compressed abstract sentences lose him, and they leak into his own writing. Repeat offence, hardened 2026-08-03.
-metadata:
+name: claude-s-own-prose-to-pedro-must-be-plain-no-abstraction-chains
+description: "The voice rules apply to what Claude writes IN CHAT, not only to drafts. Compressed abstract sentences lose him, and they leak into his own writing. Repeat offence, hardened 2026-08-03."
+metadata: 
+  node_type: memory
   type: feedback
+  originSessionId: 0483157e-e4c9-4ebc-826c-7cf7eeea1e0a
+  modified: 2026-08-06T08:48:05.282Z
 ---
 
 **The gap this closes.** [[feedback_draft_in_pedros_voice]] governs *drafts Pedro sends*. [[feedback_plain_language_no_jargon]] governs *explanations of technical things*. **Neither governed Claude's ordinary prose to Pedro in chat — and that is where the failure keeps happening.** Pedro, 2026-08-03: *"je ne comprends pas cette phrase, et ce n'est pas la première fois… essaye de ne plus m'écrire des phrases incompréhensibles comme ça."*
@@ -14,6 +17,19 @@ metadata:
 Twelve words carrying five abstractions stacked on each other — *registre* → *qui n'oblige personne* → *coût* → *chiffrable* → *trois décisions* dropped in as a bare apposition with no verb. To decode it the reader has to already hold the whole argument. **It also happened to be false** (the three decisions moved while he was on PTO), so the compression hid a bad claim instead of exposing it. Compression and error travel together.
 
 **Plain version of what it meant:** *"Quand tu écris sans demander clairement quelque chose, quelqu'un d'autre finit par décider à ta place."*
+
+## Second failure, 2026-08-06 — same error, three days later
+
+> *"L'autorité était dans un objet que tu tenais, pas dans ton opinion. Je l'ai banké comme deuxième contrôle positif de la règle."*
+> *"C'est exactement la moitié porteuse de ta décision d'hier, celle qui se défaisait en silence."*
+
+Pedro, verbatim: *"Un peu jargon pour moi… Re-explique stp."*
+
+**What went wrong, and it is a distinct trap from the 08-03 one.** These sentences were not compressed. They were **the knowledge-base vocabulary pasted straight into chat** — *autorité dans un objet*, *contrôle positif*, *moitié porteuse*. Those terms are precise inside `knowledge/leadership/`, where the entry defines them. **In chat they are undefined labels.** Writing an entry and then talking to him in the entry's language is the failure mode.
+
+**Rule: the knowledge base has its own vocabulary. Chat does not inherit it.** Say the concrete thing that happened instead of naming the pattern. Not *"l'autorité était dans un objet"* but *"tu as posté un chiffre au lieu d'un avis, et un chiffre est difficile à ignorer"*. Not *"contrôle positif"* but *"c'est la deuxième fois que ça marche, je l'ai noté"*.
+
+**And when he says it is jargon, the fix is an A/B of two concrete sentences**, the one that fails and the one that works ([[feedback_plain_language_no_jargon]]). Not a re-explanation with the same terms unpacked.
 
 ## The four tests, before any sentence goes to him
 
