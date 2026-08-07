@@ -50,11 +50,29 @@ Two things this settles.
 
 **So the record has to be ranked, not single.** The working design is a four-tier ladder — hand-maintained map → declared field → inferred from the name → unassigned — where **every row reports which rung classified it**. That is the honest version of an ownership record when no single source covers the corpus: not one field pretending to be authoritative, but an explicit precedence with the guess labelled as a guess. The hand map goes *first*, not last, because it is the only rung anyone ratified and it must be able to correct a wrong inference rather than only fill a blank behind one.
 
+## The corollary that costs the most — the telemetry has to carry the axis you chose
+
+*Added 2026-08-06 (AEM Rubin sync). Source: transcript `20260806 - AEM Rubin Sync`, Karthik Penikalapati + Venkatesh Kunda (Rubin), with Angela Han present.*
+
+Picking the axis is the visible half of the decision. The invisible half is whether the **measurement substrate logs it** — and the two can be settled on the same day, by different people, in opposite directions.
+
+The AEM case, in hours:
+
+- **Morning.** The agent axis is rooted on the **plugin**, on measured evidence: the plugin is declared on 88 of 88 skills and no plugin has ever belonged to two agents, whereas the name's application token is *inferred*, covers 67 of 88, and **disagrees with the declared `domain:` on 14 of the 18 skills carrying both**.
+- **Afternoon.** The reporting platform is asked to group by plugin. It does not log plugins. *"We still did not get that logging data, but I think we can start with the skill grouping."* The only grouping available is **the skill name — the axis just disqualified.**
+
+The failure mode is that nothing announces it. Nobody re-opens the decision; the report simply gets built on whatever the substrate can group by, and every number published afterwards silently rides the rejected axis while the decision record still says otherwise. The disagreement lives on in a footnote nobody writes.
+
+**So the axis decision has a second question attached, and it should be asked in the same breath as the first: is this axis in the telemetry, or only in the artefact?** A packaging axis that exists only in the repository layout is a documentation fact. A packaging axis that arrives in the event stream is a reportable one. If they differ, there are exactly two honest exits — get the field logged, or publish on the axis you have and state its known error rate — and choosing neither means the substrate has quietly overruled the PM.
+
+Note the asymmetry with the ownership record above: an ownership record can be hand-maintained and ranked, because it is read at human speed. **A reporting axis cannot** — it is read per event, so it must be emitted at write time or it does not exist. That is why this one has to be fixed upstream rather than patched with a map.
+
 ## What to do
 
 1. Decide the packaging axis on customer legibility. That is the PM call, and it is the one the platform owner will (correctly) refuse to make for you.
-2. Then name the record that carries the other axis, explicitly, and make it enforceable. A path-based reviewer file beats a free-text metadata field, because the platform validates it and a broken entry surfaces on its own.
-3. Do not let a packaging change quietly delete an ownership signal. When several source repos consolidate into one, "which repo is it in" stops discriminating — and if that was the de-facto ownership proxy, ownership becomes unknowable the day the merge lands.
+2. **Then check the telemetry carries it, before anything is promised on top of it.** Ask the reporting team what the event stream actually groups by. If the chosen axis is absent, that is a logging request with a lead time, not a reporting preference.
+3. Then name the record that carries the other axis, explicitly, and make it enforceable. A path-based reviewer file beats a free-text metadata field, because the platform validates it and a broken entry surfaces on its own.
+4. Do not let a packaging change quietly delete an ownership signal. When several source repos consolidate into one, "which repo is it in" stops discriminating — and if that was the de-facto ownership proxy, ownership becomes unknowable the day the merge lands.
 
 ## Related
 
