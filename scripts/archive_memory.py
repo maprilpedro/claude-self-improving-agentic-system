@@ -16,6 +16,8 @@ Structure per project memory file `<stem>.md`:
 
 Modes:
   --check <memfile>       print token estimate; exit 1 if over CAP. Read-only.
+  --check-startup [root]  warn if any session-start file is near/over the read cap.
+                          SILENT when all are fine. Wired to the SessionStart hook.
   --dry-run <memfile>     show what active-file archiving would move. No writes.
   <memfile>               archive event blocks older than RETENTION_DAYS until under TARGET.
   --migrate <archivefile> one-time: shard an existing monolithic _ARCHIVE.md by week.
@@ -235,6 +237,46 @@ def do_check(memfile):
     return 1 if over else 0
 
 
+# Files loaded into context at every session start. If one of these crosses the read
+# cap it truncates SILENTLY — the 2026-07-01 incident (project memory) and the
+# 2026-08-07 one (watches.md, at 30.7K, dropping dated follow-ups from the one file
+# whose job is to surface them). Nothing warned in either case; this is that warning.
+STARTUP_FILES = [
+    (".claude/memory/watches.md",
+     "compress to the one-line rule (date · action · pointer); "
+     "narrative belongs in the project memory blocks"),
+    (".claude/memory/project_aem_agents_intelligence.md", "run: archive_memory.py <file>"),
+    (".claude/memory/project_experience_hub.md", "run: archive_memory.py <file>"),
+    (".claude/memory/MEMORY.md", "compact the index; hooks are pointers, not content"),
+]
+
+
+def do_check_startup(root=None):
+    """Warn only when a session-start file is at or over the read cap. Silent otherwise.
+
+    Deliberately quiet on the happy path: a hook that prints on every session start
+    gets ignored, and an ignored warning is the same as no warning.
+    """
+    base = pathlib.Path(root or os.environ.get("CLAUDE_PROJECT_DIR") or ".")
+    warned = []
+    for rel, fix in STARTUP_FILES:
+        f = base / rel
+        if not f.exists():
+            continue
+        t = tokens(f.read_text())
+        if t > READ_CAP_TOKENS:
+            warned.append(f"  🔴 {os.path.basename(rel)}: ~{t//1000}K tokens "
+                          f"— OVER the {READ_CAP_TOKENS//1000}K read cap, TRUNCATING NOW. {fix}")
+        elif t > CAP_TOKENS:
+            warned.append(f"  🟡 {os.path.basename(rel)}: ~{t//1000}K tokens "
+                          f"— approaching the {READ_CAP_TOKENS//1000}K read cap. {fix}")
+    if warned:
+        print("⚠️  Session-start memory files are outgrowing the read cap:")
+        print("\n".join(warned))
+        return 1
+    return 0
+
+
 def do_archive(memfile, dry):
     p = pathlib.Path(memfile)
     stem = p.stem
@@ -345,6 +387,8 @@ def main():
         print(__doc__); sys.exit(2)
     if a[0] == "--check":
         sys.exit(do_check(a[1]))
+    if a[0] == "--check-startup":
+        sys.exit(do_check_startup(a[1] if len(a) > 1 else None))
     if a[0] == "--dry-run":
         do_archive(a[1], dry=True); return
     if a[0] == "--migrate":

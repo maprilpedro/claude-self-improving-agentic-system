@@ -1,5 +1,18 @@
 {
   "enabledPlugins": {
     "obsidian-cli@obsidian-cli-skill": false
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/scripts/archive_memory.py\" --check-startup \"$CLAUDE_PROJECT_DIR\" || true",
+            "statusMessage": "Checking session-start memory files against the read cap..."
+          }
+        ]
+      }
+    ]
   }
 }
