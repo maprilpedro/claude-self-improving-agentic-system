@@ -113,8 +113,9 @@
 - [No meeting setup help](feedback_no_meeting_setup.md).
 
 ## Projects
-- [Watches — dated follow-ups](watches.md) — **the single registry.** Read at session start and by /reply.
+- [Watches — dated follow-ups](watches.md) — **the single registry.** Read at session start and by /reply. **Reshaped to a one-line index 2026-08-07** (30.7K → ~14K tokens; it was truncating at session start). Keep it that way: a new watch is a line plus a pointer, never a paragraph.
 - [Watches archive 2026-07](watches_ARCHIVE_2026-07.md) — sections ≤ 07-17 split out 2026-08-03 (file hit ~63K tokens). Grep only; System Review owes the reconcile.
+- [Watches archive 2026-08](watches_ARCHIVE_2026-08.md) — **verbatim pre-compression snapshot, 2026-08-07**, byte-identical to the file before the reshape. Every open item in the live registry has its full history here. Grep only, never full-Read.
 - [Check-in 2026 prep](project_checkin_2026.md) — **the 3 captured goals verbatim, the Apr→Jul mapping (~70 G2 / ~48 G1 / ~14 G3), the G2-has-no-OKR gap, the Workday 3-question format, the AI-usage framing.** Read before any check-in / self-review / promotion-case work.
 - [AEM Agents Intelligence](project_aem_agents_intelligence.md) — the active lane. Coworker migration, comms ownership, agent reporting. Hot state + durable reference.
 - [AAI archive index](project_aem_agents_intelligence_ARCHIVE_INDEX.md) — router over the weekly ISO shards (+ `_ARCHIVE_reference.md` for long-form). Read the index, then grep the shard. Never full-Read a shard.
