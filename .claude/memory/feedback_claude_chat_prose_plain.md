@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 0483157e-e4c9-4ebc-826c-7cf7eeea1e0a
-  modified: 2026-08-06T08:48:05.282Z
+  modified: 2026-08-06T12:49:26.897Z
 ---
 
 **The gap this closes.** [[feedback_draft_in_pedros_voice]] governs *drafts Pedro sends*. [[feedback_plain_language_no_jargon]] governs *explanations of technical things*. **Neither governed Claude's ordinary prose to Pedro in chat — and that is where the failure keeps happening.** Pedro, 2026-08-03: *"je ne comprends pas cette phrase, et ce n'est pas la première fois… essaye de ne plus m'écrire des phrases incompréhensibles comme ça."*
@@ -30,6 +30,18 @@ Pedro, verbatim: *"Un peu jargon pour moi… Re-explique stp."*
 **Rule: the knowledge base has its own vocabulary. Chat does not inherit it.** Say the concrete thing that happened instead of naming the pattern. Not *"l'autorité était dans un objet"* but *"tu as posté un chiffre au lieu d'un avis, et un chiffre est difficile à ignorer"*. Not *"contrôle positif"* but *"c'est la deuxième fois que ça marche, je l'ai noté"*.
 
 **And when he says it is jargon, the fix is an A/B of two concrete sentences**, the one that fails and the one that works ([[feedback_plain_language_no_jargon]]). Not a re-explanation with the same terms unpacked.
+
+## Third failure, 2026-08-06 afternoon — this one is VOLUME, not vocabulary
+
+Pedro: *"dingue comme je ne comprends rien de ce que tu m'écris."*
+
+The message that failed was not jargon-heavy by the 08-03 or the morning test. It failed because it carried **one real question, one sub-ambiguity, two defaults Claude had picked, and one operational caution — five things — each of which needed him to be holding the previous answer.** Phrases like *"elle décide du raccordement"* and *"une colonne pour joindre, une pour lire"* only parse if you already hold the join model.
+
+**Rule: one decision per message.** If Claude has four things to say and one of them is a question for him, send the question alone and decide the rest silently. Defaults Claude has already chosen are not news — apply them and mention them later, or never.
+
+**What worked instead:** `AskUserQuestion` with two concrete rendered options and a preview table. He answered in one click. **When the ask is a fork with nameable options, use the tool rather than prose** — reading is the cost, not deciding.
+
+Also note the trend across a single day. Long answers with many verified numbers are correct and still unreadable. **Correctness is not the bar; one idea he can act on is.**
 
 ## The four tests, before any sentence goes to him
 
