@@ -47,6 +47,7 @@
 - [UI/CX comfort gap](user_ui_cx_gap.md) — route design/spatial detail to Eugene/Silvia; scaffold those explanations.
 
 ## Feedback — how to work
+- [🔒 HARD RULE — Claude does not code, ever](feedback_claude_does_not_code.md) — **no scripts, no collectors, no one-off analysis, not even in the scratchpad.** Hand back the specification instead. Locked 2026-08-07.
 - [Position over merit](feedback_position_over_merit.md) — **his core false belief is "good work gets recognized". Return to this always.**
 - [Lead with the condition](feedback_lead_with_the_condition.md) — an unverified dependency goes ABOVE the draft. A caveat in the wrong place is a caveat not communicated.
 - [Confirm the ask, read the source](feedback_confirm_ask_before_producing.md) — don't act on an assumed delegation or characterize an unread source.

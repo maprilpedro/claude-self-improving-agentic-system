@@ -74,6 +74,20 @@ Note the asymmetry with the ownership record above: an ownership record can be h
 3. Then name the record that carries the other axis, explicitly, and make it enforceable. A path-based reviewer file beats a free-text metadata field, because the platform validates it and a broken entry surfaces on its own.
 4. Do not let a packaging change quietly delete an ownership signal. When several source repos consolidate into one, "which repo is it in" stops discriminating — and if that was the de-facto ownership proxy, ownership becomes unknowable the day the merge lands.
 
+## Refinement 2026-08-10 — the third exit does not exist, and taking one of the two has a shape
+
+The telemetry corollary above named two honest exits. **Worked live on 2026-08-07 and the second one is viable, but only with a specific discipline attached.** Pedro had rooted the agent axis on the plugin (declared on 88 of 88, never forks) and Rubin then said it does not log plugins, offering the skill name — the axis the same decision had disqualified. He published on the name.
+
+**What makes that defensible rather than a quiet capitulation is three things done together.**
+
+1. **The rejected axis stays the record of record.** The plugin map is still the source of truth for who owns what. The name is what ships to the reporting surface. Two artefacts, one of them explicitly downstream — not a reversal of the decision.
+2. **The error rate is measured and published with the number, not held in reserve.** On the 2026-08-07 catalogue the name resolved the grouping key from a clean segment on **51 of 98 rows**; 18 were inferred from loose tokens, 14 came from a *declared* field that the name contradicted, 4 from the plugin, and 11 did not resolve at all. **One skill carried the whole argument** — a governance-plugin skill whose name filed it under a different application than its three siblings. A single named misfile does more work in a room than the percentage.
+3. **The logging request stays open.** Publishing on the fallback is what you do while the field lands, not instead of asking for it. The footnote is the standing reminder that the workaround has a cost.
+
+🔑 **The general form: when the substrate cannot carry the axis you chose, publish on the axis it can carry with the disagreement rate attached, and keep the chosen axis as the record of record.** The failure mode is not choosing the fallback — it is choosing it silently, because then the substrate has made the taxonomy decision and no one can see that it did.
+
+⚠️ **The cost is real and should be said out loud.** A footnote depends on someone reading it, and a number travels further than its caveat. This exit buys time; it does not close the gap.
+
 ## Related
 
-[[Selection and Cross-Surface Consistency Are a PM Mandate]] · [[Success Definitions Must Be Agreed Before Metrics Are Scaled]] · [[A Single-Harness Marketplace Is Not a Cross-Harness Standard — Publish vs Find]] · [[Three-Layer AI Skill Governance Architecture (Customer-Side)]] · [[Govern a Consistency Layer Over Primitives You Don't Own]]
+[[Selection and Cross-Surface Consistency Are a PM Mandate]] · [[Lead the Slide With the Honest Read of Your Own Metric, Not the Flattering Number]] · [[Success Definitions Must Be Agreed Before Metrics Are Scaled]] · [[A Single-Harness Marketplace Is Not a Cross-Harness Standard — Publish vs Find]] · [[Three-Layer AI Skill Governance Architecture (Customer-Side)]] · [[Govern a Consistency Layer Over Primitives You Don't Own]]
