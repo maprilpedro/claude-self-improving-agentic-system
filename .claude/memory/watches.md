@@ -18,7 +18,9 @@ metadata:
 ### 🔴 2026-08-07 → 08-24 — BERTRAND IS ON PTO FOR THE RUN-UP, BACK ON GA DAY
 
 - ✅ **CORRECTED 2026-08-10 from his Slack status — he returns 08-24, the GA day itself.** The prior "returns AFTER 08-24 / misses the GA" line was wrong. He misses **08-10, the 08-14 sign-offs and the 08-17→21 bug bash**, then lands the day of the GA and the announcement **with zero runway**.
-- Heads-up drafted 08-07 (Pedro's draft, Claude critiqued); sign-off line rewritten 08-10 against the canvas.
+- ✅ **SENT 2026-08-10 13:37 CEST** (DM `DQ6H0AV7H`, ts `1786361855.054289`), with the 08-10 audit catalogue linked as the readiness receipt.
+- **⏳ WEEKLY UPDATES PROMISED IN THAT DM — due 08-14 and 08-21.** 🔑 **The 08-21 one is the pre-read: it is the last thing he sees before landing on GA day.** Format is already dictated by Bertrand's own 07-21 review ([[feedback_bertrand_status_comms]]) — concrete win first, no table detail, plain mechanisms, what is moving not "TBD".
+- **🔴 08-14 — DECIDE THE LONI QUESTION HIMSELF.** He asked Bertrand *"dis moi si tu veux que je loop Loni directement"* and Bertrand is on PTO, so silence will default it to Jaclyn. ⚠️ **Jaclyn Eckersley is a Director under Alexander Saar, i.e. a peer — routing through her is lateral, not escalation.** State the call in the 08-14 update instead of waiting.
 - **Two slots left blank on purpose, only Pedro can fill them:** what he does if the **AI Ethics sign-off on EPA** is not there by 08-21, and **who covers escalation 08-10 → 08-21**.
 - 🔑 **The gap is narrower than first framed but sharper — the run-up is uncovered and he lands cold on announcement day.** The ask is a named cover for those two weeks plus a pre-read before the 24th. Nobody is named today. ⚠️ **Ian Boston is away too** (08-06, *"if you want to revert that while I am away, please feel free to take the approval over"*).
 - **⏳ Owed on his return** — two lines with what actually happened, the day he is back. The landing note is what makes the heads-up worth having sent.
@@ -66,7 +68,7 @@ metadata:
 - **⏳ Yelena Doliner's cross-product wiki row is owed THIS WEEK** and Yanira committed for both (*"Pedro's putting a list of the Git repo"*). Workfront's row is filled. 🔑 `OneAdobe/aem-coworker-audits` is that repository — ⚠️ **private and redacted; decide what leaves it before linking it** ([[reference_aem_coworker_audits]]).
 - **⏳ Order the TBYB cohort by prior usage** (Namita). Unassigned, and it needs the usage data Pedro's reporting lane holds — which is blocked on the SKU/TBYB split above.
 - **⚠️ Before quoting any credit or usage figure:** expired promo $0 SKUs were never returned, so those orgs still show unlimited credits (Namita: *"for reporting purposes, it's a little wrong"*). ⚠️ Adjacent to [[H-008]] but **not** its second observation — the discriminant question still has not been asked.
-- **⏳ Answer Namita + Huong Vu on AEM surfaces for the pre-flip announcement** (banners + admin emails, ~1 week before each cohort flip). **Second independent ask for AEM's front door in three weeks.** EH-side.
+- **🔴 Answer Namita + Huong Vu on AEM surfaces for the pre-flip announcement** (banners + admin emails, ~1 week before each cohort flip). **Second independent ask for AEM's front door in three weeks.** EH-side. 🔑 **PROMOTED 2026-08-10 — this is no longer only an EH item.** Pedro's own definition of GA that day includes *"il faudra des annonces clients avant quand même"*, and this is the machinery those announcements run on. **A GA on 08-24 with a one-week pre-flip notice means the placement answer is owed around 08-17, and nobody has written it.**
 
 ### 🔴 2026-08-04 → open — THE CHEAP UNBLOCKS
 

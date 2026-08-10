@@ -1,5 +1,17 @@
 ## Decision: GA is two milestones, not one — the release is per-plugin and belongs to the teams, the announcement is portfolio-wide and belongs to Pedro
 
+> 🔴🔴 **SUPERSEDED IN PART — 2026-08-10, by Pedro, on reading it back.**
+>
+> **What survives, and it is now the operative definition of GA:** *"GA = Adobe dit publiquement que les agents AEM sont disponibles, avec legal, security, docs, PMM derrière."* The "announcement" half of this file **is** the GA. It is Pedro's. ➕ **New on 08-10: customer announcements are owed BEFORE the GA** — which is the same machinery Namita Krishnan and Huong Vu asked AEM for on 08-05 (one-week pre-flip Gainsight banners + admin emails) and that AEM has still not answered. That open EH item is now on this file's critical path.
+>
+> **What is wrong:** the "**release belongs to the teams, per-plugin**" half. Pedro, verbatim, on the sentence built from it — *"complètement faux."* All three phrasings it has worn are dead: a plugin move between `experimental` / `ga` marketplace json files (as written 08-06), the skill's `lifecycle` field (as "corrected" 08-07), and "each team sets its own GA". **The `lifecycle` field was banked as the release mechanism twice and corrected twice. It is not the mechanism.**
+>
+> **And "two milestones" does not mean what this file says.** The operative split, as Pedro stated it to Bertrand on 2026-08-10, is **GA without the Coworker panel (08-24) vs GA with the panel (~09-21)** — matching the canvas column "Coworker UI with Panel GA" and the Post-GA Fast Follow.
+>
+> **Predictions below are void** except the 08-24 one. The 08-10 test ("does the room argue about the split itself") cannot be scored, because the split it names was never the live one.
+>
+> **Root cause, worth keeping.** Pedro said one true thing on 08-06 — *"sépare les deux choses qu'on confond"* — and the elaboration written around it invented a mechanism he never named. **Quote the decision; do not extend it.** See [[feedback_proposal_vs_decision]] and [[feedback_confirm_ask_before_producing]].
+
 **Date:** 2026-08-06. **Decision owner: Pedro Ferreira.** Not escalated, not delegated — he was asked for a call and made it.
 
 ## Context
