@@ -7,7 +7,9 @@ metadata:
 
 # Slack audit — channel roster
 
-Last full audit: **2026-08-03** (window 07-24→08-03, 4 parallel readers + a `to:me` DM/group-DM search; prior 2026-07-03, window 06-12→07-03).
+Last full audit: **2026-08-10** (window 08-07→08-10, in-thread + `to:me`; prior 2026-08-03, window 07-24→08-03; 2026-07-03).
+
+> **🔑 2026-08-10 — THE HIGH-VALUE ITEMS WERE AGAIN NOT IN CHANNELS.** The manifest fight, the Tina/Loni interception, the on-call gate and the EDA slip all sat in **DMs and group DMs**. The channel sweep alone would have returned canvas-update noise. **`to:me after:<date>` is not the supplement, it is the main pass.**
 
 > **⚠️ METHOD BUG, found 2026-08-03 — `oldest` filters on the PARENT timestamp only.** A quiet-looking channel can hold in-window replies hanging off an older parent. `#aem-agent-reports-pilot` looked dead and had six replies incl. two direct asks to Pedro; **Pedro's own 07-24 marketplace work was expected in a 07-22 thread and a windowed read would never have shown it.** **Every audit needs a second pass on live older threads.**
 
@@ -36,3 +38,8 @@ Last full audit: **2026-08-03** (window 07-24→08-03, 4 parallel readers + a `t
 | **#aep-coworker-core** | ⚠️ **NO ACCESS** | **Pedro was REMOVED 2026-07-28 19:41 by Yelena Doliner.** Same day she redirected the opt-in/out + eng/product/PMM detail traffic there from `#aia_coworker_convergence` (*"its used to be our trial channel, now changed name"*). **The war room's substantive traffic now happens where he cannot read it.** Fact, not motive. |
 | **#coworker-customer-pod** | C0BLD5KU325 | Created 2026-07-28 by Rituparna Dutta. Delivery/consulting enablement traffic (FAC use cases, Experiment reporting, GHEC access). Pedro not a member. ⚠️ **Do NOT assume this is Anjul's Customer POD program** ([[reference_coworker_pods]]) — different object, unverified. |
 | **#coworker-sap-pod** · **#coworker-target** · **#coworker-cx-analytics-adobe-feedback** | C0BLJ1VNMDM · C0BKNFBJD6U · C0BL52CRF09 | All created 2026-07-21→07-30, during Pedro's window out. Not assessed. |
+| **#aem-coworker-reporting** | **C0BMVMA7DJS** | **added 2026-08-10.** Created 08-04. Pedro + Yanira + **Angela Han, Karthik Penikalapati, Venkatesh Kunda**, then Ian Reasor 08-07 and Ramkesh Meena 08-10. **The Rubin working channel** — Pedro's three-level report spec lives here (overall TBYB/SKU, grouped by application token, per skill). He routes agent teams here for reporting questions. |
+| **#aem-agents-documentation** | **C09RG80E7B2** | **added 2026-08-10.** Was dormant since 06-01; **Yanira restarted it 08-07** with the use-case documentation kickoff for the Aug GA (Tyler Rushton, Alison Heimoz + all agent PMs, Pedro and Tina cc'd). Documentation is a named GA gate. |
+| **Group DMs that carried more than the channels (2026-08-10)** | `C0BN1GS1M27` · `C0BPMVDECSU` · `C0B20PQDEG0` · `C0BP6BL713L` · `C0BN3HU53GU` | Rollout w/ Namita+Yelena+Huong+Tina · on-call w/ Carsten+Hariprasad · **PM/PMM w/ Tina Ngo** · Forms sign-off w/ Anurag+Prashant · ORR w/ Toby Such+Michael Campbell+Ken Russell. **Sweep these by ID, not by channel search.** |
+| **#aem-p42-leadership** | C0ASX6AJR8X | ⚠️ **2026-08-10: effectively dead** — last message 07-31, Pedro's own @here, zero replies. Second consecutive audit finding the same. Drop unless it revives. |
+| **#aem-aep-coworker-rendering** | C0BCBSG5X43 | ⚠️ **2026-08-10: no top-level post since 07-17**, unchanged from the 08-03 finding. |
