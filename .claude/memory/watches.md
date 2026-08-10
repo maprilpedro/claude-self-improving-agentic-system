@@ -15,11 +15,12 @@ metadata:
 
 ## Open
 
-### 🔴 2026-08-07 → AFTER 08-24 — BERTRAND IS ON PTO ACROSS THE WHOLE GA
+### 🔴 2026-08-07 → 08-24 — BERTRAND IS ON PTO FOR THE RUN-UP, BACK ON GA DAY
 
-- He misses **08-10, the 08-14 sign-offs, the 08-17→21 bug bash and the 08-24 GA itself.** Heads-up drafted 08-07 (Pedro's draft, Claude critiqued).
-- **Two slots left blank on purpose, only Pedro can fill them:** what he does if the **AI Ethics sign-off on EPA** is not there by 08-21, and **who covers the escalation path while Bertrand is out**.
-- 🔑 **The second is the real gap. Bertrand is Pedro's channel to Loni, and 08-24 is a portfolio moment with that channel closed.** Nobody is named today.
+- ✅ **CORRECTED 2026-08-10 from his Slack status — he returns 08-24, the GA day itself.** The prior "returns AFTER 08-24 / misses the GA" line was wrong. He misses **08-10, the 08-14 sign-offs and the 08-17→21 bug bash**, then lands the day of the GA and the announcement **with zero runway**.
+- Heads-up drafted 08-07 (Pedro's draft, Claude critiqued); sign-off line rewritten 08-10 against the canvas.
+- **Two slots left blank on purpose, only Pedro can fill them:** what he does if the **AI Ethics sign-off on EPA** is not there by 08-21, and **who covers escalation 08-10 → 08-21**.
+- 🔑 **The gap is narrower than first framed but sharper — the run-up is uncovered and he lands cold on announcement day.** The ask is a named cover for those two weeks plus a pre-read before the 24th. Nobody is named today. ⚠️ **Ian Boston is away too** (08-06, *"if you want to revert that while I am away, please feel free to take the approval over"*).
 - **⏳ Owed on his return** — two lines with what actually happened, the day he is back. The landing note is what makes the heads-up worth having sent.
 
 ### 🔴🔑 MON 2026-08-10 — THE OWNERS CALL. Four things land in one room
