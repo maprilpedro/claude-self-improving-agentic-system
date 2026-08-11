@@ -15,6 +15,14 @@ metadata:
 
 ## Open
 
+### 🔴 TUE 2026-08-11 — AEM SITES TRIAL IS BEING PROPOSED BACK IN, AND COREY PULLED IT OUT FIVE DAYS AGO
+
+- Pedro opened panel-in-prod testing 08-11 09:51 in `#aem-agent-owners-alignement` (thread `1786434688.973389`). **Apoorva + Ankur proposed `AEM Showcase` + `AEM Sites Trial`; Apoorva then asked Pedro at 10:55 whether that is risky *"as they used by SC team and customers"* — unanswered.**
+- 🔑 **THE RECEIPT: `05791F3F677F1AE80A495CB0@AdobeOrg` (AEM Sites Trial) was REMOVED from the Coworker-enabled feature flag on 2026-08-06 20:36** by Stephen Gould at Corey Dulimba's request. Group DM `C0BNEQALB45` (Corey, Namita, Cole, Stephen, **Pedro is in it**). Reason: enabling an org brings the **Gainsight banner** (Namita confirmed *"ya"*), and Corey: *"its a internal Org but we also use it for some external work as well"*. His exact want, per Stephen 19:18 — *"available if you have the link, but not show up in all the navigation and promotion"*. Wiki `3973983995` Unified Shell x Coworker enablement.
+- ⚠️ **Check whether Rodson's panel-in-prod flag is the same switch as the Coworker-enabled flag** ([[reference_coworker_enablement]] — activation ≠ migration, two Unified Shell flags). The reason Corey gave applies either way.
+- ⏳ **Marius Duta 11:34, separate thread:** Sites Trial is not relevant for EDA, they bug-bash on Showcase which has the environments and pipelines. → **Sites Trial carries exposure and little test value. Showcase is defensible if someone warns SC enablement, and nobody has been named for that.**
+- 🔑 Philippe and Arneh both posted purely internal orgs (Foundation Internal, AEM Sec Alpha, Forms Internal01, Forms PM). **Two teams already did what Apoorva is proposing as the alternative.**
+
 ### 🔴 2026-08-07 → 08-24 — BERTRAND IS ON PTO FOR THE RUN-UP, BACK ON GA DAY
 
 - ✅ **CORRECTED 2026-08-10 from his Slack status — he returns 08-24, the GA day itself.** The prior "returns AFTER 08-24 / misses the GA" line was wrong. He misses **08-10, the 08-14 sign-offs and the 08-17→21 bug bash**, then lands the day of the GA and the announcement **with zero runway**.
