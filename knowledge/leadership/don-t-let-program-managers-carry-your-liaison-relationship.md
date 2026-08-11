@@ -22,4 +22,16 @@ The ask was never Saar's. It was never even a letter. It was a **running status 
 
 Ironically, the correction was an upgrade. A letter is read once. A status everyone consults makes you the person who defines the state of the world — which is what the ask was for all along.
 
-Related: `feedback_confirm_ask_before_producing` (the rule existed and did not fire), [[Govern a Consistency Layer Over Primitives You Don't Own]].
+## Third instance — 2026-08-11. Not a PgM this time, and the counter-move is the useful part. ⏳ Outcome pending.
+
+Same mechanism through a different door. On **2026-08-10 18:27**, hours after Pedro had been weighing whether to brief Loni directly, **Tina Ngo (Principal PMM)** wrote: *"before you let loni know, can you tell me first? think we should communicate a joint plan PM/PMM"*. Pedro agreed at 18:32. **Reasonable ask, not hostile — PMM does own what Adobe says publicly. But it attached a co-authorship to his access to his own skip-level, and it would have made him a co-author of an update he had been asked, by his own manager, to send.**
+
+**The counter-move: split the artifact, do not merge it.** A status to a VP has one author. A go-to-market plan has two. They are different objects and only one of them was asked for. Pedro gave Tina a **one-sentence PMM placeholder to replace by EOB the next day**, inside a note he wrote and sent, with the note going out Wednesday morning either way. She is named and credited; the timing is not hers.
+
+**Two details that make it work rather than merely refuse.** (1) **Concede loudly what is genuinely theirs** — saying go-to-market sits with PMM costs nothing, because it already did, and it buys the half that matters. (2) **Bound the contribution with a deadline plus a default**, so the artifact is never hostage to the other party's calendar.
+
+**Ordering matters as much as the split.** The manager who commissioned the note reviews before the peer does. Reversed, the peer shapes the document before the commissioner sees it, and the manager then reviews a text already carrying someone else's frame.
+
+⚠️ **Logged as an instance, not as a validated technique.** The outcome is unknown at time of writing — whether Tina fills the block in time, and whether the joint GTM plan ever reaches Loni with Pedro's name on it, are both open ([[feedback_position_over_merit]], watches). ⚠️ **The split was proposed by Claude, so the thread recording it as a success is the thread that recommended it** — the self-preferential composition the 2026-08-03 System Review killed H-007 over. Score it on the outcome, not on the reasoning.
+
+Related: `feedback_confirm_ask_before_producing` (the rule existed and did not fire), [[Govern a Consistency Layer Over Primitives You Don't Own]], [[Lateral Influence — Getting Peers to Move Without Authority]] (rule 3, find what the peer is protecting), [[Get Leadership's Name Alongside Yours]].
