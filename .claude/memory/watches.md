@@ -15,6 +15,15 @@ metadata:
 
 ## Open
 
+### 🆕🔴 2026-08-11 — MCP IS AN UNDECLARED GA DEPENDENCY, AND "THE OBO DISCUSSION" IS NOT ABOUT OBO
+
+- ✅ **OBO on One AEM MCP is DONE.** `AEMAGT-1361` *"MCP Servers need to switch to OBO"* — **Closed**, Tanju Erinmez, comment 2026-08-06: *"Has been rolled to production and activated."* Christian Meyer handed Pedro the link 08-11 17:00. **Pedro's own hedge that day (*"One AEM MCP might have it implemented yet"*) is settled — it is shipped.**
+- 🔴 **But Carsten Ziegeler, 08-11 16:54: *"we are currently untangeling the OBO discussion - which frankly is a pain - it seems it is not really about OBO...stay tuned."*** ⚠️ **Two objects are wearing one name** ([[feedback_dont_conflate_pattern_with_object]]). He did not say what the second one is. **Likely the client-id / service-proxy fight he inherited on 08-10** (`gpt_power_client` allowlisting vs Ian Boston's *"all traffic must go via the service proxy"*, `GRANITE-70593`) — **inference, not confirmed. Ask him rather than assume.**
+- 🔴🔑 **THE UNANSWERED ONE, AND IT IS AIMED AT PEDRO.** Christian opened `#aem-agent-experience-production` thread `1786454864.103779` asking whether the **MCP ARB review** (wiki `3908581554`) is a Coworker GA requirement for One AEM MCP. **The process has not started.** Carsten bounced it to Pedro and Yanira (*"Do you know? So far, no such requirement was mentioned to me"*) and **nobody has answered.**
+- ⚠️ **Carsten's warning is the sentence to carry into the announcement bar:** *"we have to be careful that we are not running into the same situation as with v1 were new requirements popped up one after the other."* → [[An Undefined Gate Is a Date Nobody Can Give]], now pointed at Pedro's own bar.
+- 🔴 **Pedro surfaced a new GA dependency himself, 13 days out:** *"some AEM skills are using MCP for tasks - thus have a dependency on MCP. It's not explicit in the GA."* **It is in no artifact. Decide whether MCP readiness is in the announcement bar or explicitly out of it.**
+- 🔑 **Same two names keep appearing on gateway prerequisites AEM has not filled** — Tanju Erinmez + Christian Meyer are the owners on record for the missing AEM **golden eval dataset** (Georgiana Copil, 08-11) *and* the missing AEM **dev-environment config** (08-07), both in `#cx-coworker-gateway-collaboration` `C0ASGEU1BT9`. **Two engineers carrying three product-quality gates, and nobody from the product side is in that channel.** Add it to [[reference_slack_audit_channels]].
+
 ### 🔴 TUE 2026-08-11 — AEM SITES TRIAL IS BEING PROPOSED BACK IN, AND COREY PULLED IT OUT FIVE DAYS AGO
 
 - Pedro opened panel-in-prod testing 08-11 09:51 in `#aem-agent-owners-alignement` (thread `1786434688.973389`). **Apoorva + Ankur proposed `AEM Showcase` + `AEM Sites Trial`; Apoorva then asked Pedro at 10:55 whether that is risky *"as they used by SC team and customers"* — unanswered.**
