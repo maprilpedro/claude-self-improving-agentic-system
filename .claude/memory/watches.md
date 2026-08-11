@@ -75,6 +75,12 @@ metadata:
 - **🔴 SKU vs TBYB still cannot be split**, and it blocks Namita's cohort ordering. Yanira named the older blocker (**Andre, DAS team: no quick indicator**) and is surfacing it on Slack. Angela's bar: a **root provisioning API**, not a weekly spreadsheet. Interim: two digests, one filtered to each org list.
 - **🔑 Free distribution win:** Report Builder reports carry a subscriber list and others can clone them. **Three Workday reviewers asked for more broadcast** (Felix Delval, Yanira, Razvan). Cheapest promotion-case move available.
 
+### 🔴 ~2026-08-17 — THE EH PLACEMENT ANSWER NOW HAS A DEADLINE
+
+- GA 08-24 with a **one-week pre-flip customer announcement** means the answer on which EH surfaces carry the banners plus the Gainsight notification is owed around **08-17**. **Cole Connelly delivered the banner Figma on 08-07** (pre-rollout and post-rollout); Pedro routed it to Eugene and Sorin *"when you guys are back"*, and both were away.
+- Huong Vu's split still stands: **admin emails go from one central channel**, the **in-product banner needs coordinated AEM work**. Copy exists, with two variants for prior-AIA versus newly-onboarded TBYB.
+- ⚠️ **Fourth consecutive staleness flag raised on the EH Status & Todo `Current Status` on 2026-08-11** — 11½ weeks behind, flagged not rewritten. It is Pedro's to refresh.
+
 ### 🔵 TUE 2026-08-11 — RE-RUN THE AUDIT (a baseline is not progress)
 
 - Teams are renaming and filling `domain` / `when-to-use` **now**; GA is 08-10 and the bug bash 08-17→08-21, so the delta lands either side of 08-10. A September run captures a finished state with no curve.
