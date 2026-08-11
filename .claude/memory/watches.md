@@ -22,6 +22,8 @@ metadata:
 - ⚠️ **Check whether Rodson's panel-in-prod flag is the same switch as the Coworker-enabled flag** ([[reference_coworker_enablement]] — activation ≠ migration, two Unified Shell flags). The reason Corey gave applies either way.
 - ⏳ **Marius Duta 11:34, separate thread:** Sites Trial is not relevant for EDA, they bug-bash on Showcase which has the environments and pipelines. → **Sites Trial carries exposure and little test value. Showcase is defensible if someone warns SC enablement, and nobody has been named for that.**
 - 🔑 Philippe and Arneh both posted purely internal orgs (Foundation Internal, AEM Sec Alpha, Forms Internal01, Forms PM). **Two teams already did what Apoorva is proposing as the alternative.**
+- ✅ **ANSWERED 08-11 11:41** — Pedro posted the Sites Trial precedent in the thread, object-backed (org ID, date, Corey's name, the Gainsight reason), ending *"correct me if that changed since"*. **He deliberately left AEM Showcase alone**, so by omission it is approved.
+- ⏳ **TWO REPLIES NOW GATE THE SAME THING, both sent 08-11.** (1) **Rodson Clavel**, in his own thread `C0BCKG35NFP` ts `1786405114.307519` — is the panel prod flag the same switch as the Coworker-enabled flag? **If it is, the Gainsight banner follows onto AEM Showcase, which is the SC live-demo org — the same problem one org over.** (2) **Corey**, on whether the 08-06 removal still stands. **Until one of them lands, Assets and Sites should hold off on posting Showcase.** 🔴 Nobody is still named for the SC-enablement heads-up.
 
 ### 🔴 2026-08-07 → 08-24 — BERTRAND IS ON PTO FOR THE RUN-UP, BACK ON GA DAY
 
