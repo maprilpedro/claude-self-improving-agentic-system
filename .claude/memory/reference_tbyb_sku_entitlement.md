@@ -27,17 +27,31 @@ So: **Cloud Service (incl. Edge Delivery) → TBYB · Managed Services → playg
 
 ⚠️ **The field deck contradicts itself on the same axis:** the Governance prerequisite reads *"AEM Assets/Sites on AEM CS"* while its own table shows Brand Governance supported on MS.
 
-## The counts — Pedro's own read, never verified
+## The counts — ✅ NOW PEDRO'S OWN, 2026-08-12
 
-From the Skyline P42 org list ([[reference_skyline_p42_orglist]], hand-maintained by Raul Hudea), Pedro's read of **2026-07-08**:
+He joined the loaded Skyline P42 list ([[reference_skyline_p42_orglist]], hand-maintained by Raul Hudea) to his own traffic DB. ⚠️ **Approximate — he said the extract re-runs later the same day.**
 
-| | Count |
-|---|---|
-| SKU or TBYB, total | 2,819 |
-| External | 2,801 → **318 SKU + 2,483 TBYB** |
-| Adobe-owned internal, gated out | 18 |
+| Category | Orgs listed | Orgs with traffic | Interactions |
+|---|---|---|---|
+| TryBeforeBuy | **2,484** | 1,224 (49%) | 41,796 |
+| SKU | **335** | 171 (51%) | 20,363 |
+| Explorer | 31 | 26 | 5,022 |
+| Partner | 19 | 17 | 2,110 |
+| Internal | 141 | 83 | 49,305 |
+| uncategorized | — | 116 | 2,133 |
 
-🔴 **Raul's double-check was never done.** Competing figures in circulation: **Corey says ~1,500 TBYB**; Pedro said "2,600" once, approximately, in a meeting. **Do not reconcile these publicly.**
+**What the table says, and each line is usable:**
+- 🔑 **The split itself is the win.** Yanira, Andre (DAS team) and Angela Han had all said SKU vs TBYB could not be separated without a root provisioning API. It can, from the classification list plus traffic.
+- **Activation rate is the same both sides** — 49% TBYB, 51% SKU. Paying does not make an org more likely to use it.
+- **Intensity differs 3.5×** — 119 interactions per active SKU org against 34 per active TBYB org. That is the value story, not volume.
+- 🔴 **Internal is 41% of all interactions** (49,305 of 120,729), more than all TBYB combined, off 83 orgs. **Any headline that does not exclude Internal is mostly Adobe talking to itself** — [[Raw Call Volume Is Mostly the Agent Talking to Itself — Classify Before You Headline]].
+- 🔑 **Corey's "~1,500 TBYB" probably reconciles at last** — he was quoting orgs *using* it (1,224), not orgs listed (2,484). The old "do not reconcile publicly" caution can be retired once the extract is final.
+- **116 orgs with traffic are in no category.** Report them as unclassified, never redistribute them — Raul's list lags.
+- **Explorer still exists: 31 orgs, 26 active.** This answers Bertrand's May question about whether all Explorer customers had migrated to TBYB in the classification. **They have not.**
+
+⚠️ **Terminology:** "Interactions" here is not the MCP-side locked term. [[reference_mcp_terminology]] locks **"Tool Calls"** and bans "interaction" for MCP. If both land in one report, define each column head or the lock breaks.
+
+**Superseded:** Pedro's 2026-07-08 read of 318 SKU / 2,483 TBYB (2,819 total, 18 internal gated out), which was never double-checked by Raul. **It was essentially right.**
 
 ## The contradiction that gates the comms audience — STILL OPEN
 

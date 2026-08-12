@@ -15,6 +15,22 @@ metadata:
 
 ## Open
 
+### 🆕🔴 WED 2026-08-12 — OUT OF THE SEND-DAY SESSION
+
+- 🔴 **TODAY, and the default is contested:** the manifest decision. **Carsten 08-11 11:26 is the only reply and he is against `cx-coworker`** (own manifest, identical to it); **Corey 08-10 is for it.** Thread `1786385530.374199` → https://adobe.enterprise.slack.com/archives/C0BARAMM89Z/p1786385530374199
+- 🔴 **VERIFY THE NON-BLOCK EXISTS, ask Yanira.** The 08-12 EPA decision rests on an informal AI Ethics non-blocking; **what is on file is Legal/ORR/Security only, no named person for AI Ethics.** `decisions/2026-08-12-announce-epa-on-informal-ai-ethics-non-block.md`
+- 🔴 **CONFIRM THE GA SCOPE IS CLOUD-SERVICE-ONLY, same ask to Yanira.** Pedro told **three PMM** (Tina + Haresh + Vaishnav) *"we aim for GA on CS only"* on 08-12, sourced to a 2026-04-13 statement that itself says Managed Services agents *"may land H2"*. **PMM turns this into field messaging.** [[reference_tbyb_sku_entitlement]]
+- 🔴 **`aep-ai#10061` sets One AEM MCP tools to `deferred` on the `aem-aia` manifest. Does that setting travel to `cx-coworker` or a clone?** Unverified, and it gates today's decision. Corey filed the underlying issue as **GA-blocking** (`#p42-architecture` thread `1786441401.253719`). Also open: Ian Reasor asked someone to move that thread to a Coworker channel; nobody did.
+- ⏳ **EDA asked for a ROLLING GA, not a delay.** Brian 08-10 15:53 DM: dev skills GA on the **31st**, *"we would pull things from the main manifest"*. Pedro pushed back, **Brian never answered that half**, and the Loni note says "may run a week late".
+- 🔴 **THE EH ROADMAP SLIDES ARE DUE 2026-08-17 AND BRIAN IS ON PTO FROM 08-13.** Third ask. `FY26 Q4 AEM Roadmap.pptx`, ~slide 57 — links + full state in [[project_experience_hub]]. **The Coworker-in-the-deck hold is released now the Loni note is sent.**
+- ⏳ **Re-run the audit before quoting any count.** Four EDA-side plugins renamed inside 24h (08-11/08-12); the **21 GA-ready skills** figure published 08-11 19:55 is already behind them.
+
+### 📕 CLOSED 2026-08-12
+
+- ✅ **The Loni note is SENT** (~12:00), Bertrand reviewed by email, both his questions answered in it, Tina killed her own PMM placeholder and takes GTM separately.
+- ✅ **AEM Showcase is settled and the watch dies with it — Corey posted `38931D6666E3ECDA0A495E80` (AEM Showcase) and Sites Internal to Rodson's panel thread himself.** The person who pulled Sites Trial on 08-06 put Showcase in on 08-11. Nobody was ever named for the SC-enablement heads-up; that residual is dropped with it.
+- ✅ **Paul Pop's gateway finding is FIXED** — `aep-ai#10104`, Daniel-Cristian Miu, retested clean. It is no longer an argument in the manifest decision. ⚠️ It was reported here as "unanswered"; the thread had 11 replies. Read before characterising.
+
 ### 🆕🔴 2026-08-11 — MCP IS AN UNDECLARED GA DEPENDENCY, AND "THE OBO DISCUSSION" IS THREE LAYERS WEARING ONE NAME
 
 > ⚠️ **Compressed to the one-line rule 2026-08-11. Full detail — the three-layer table, the ARB thread, the gateway-channel findings — is the `#### Companion` under `### Focus — 2026-08-11` in the AAI Status & Todo.** This section carries only what is dated and owed.
@@ -26,7 +42,7 @@ metadata:
 - 🔴 **AEM HAS NO ROW ON THE GATEWAY QUALITY DASHBOARD.** Golden eval dataset missing (Georgiana Copil, 08-11), dev config missing (08-07), both owned by Tanju + Christian. **That surface scores whether the model picks the right AEM tool — the outcome the naming audit proxies for.** Channel `C0ASGEU1BT9`, now in [[reference_slack_audit_channels]].
 - ⚠️ **BEFORE CLOSING THE 08-12 MANIFEST CALL:** Paul Pop 08-10 — gateway tools reachable from prod `cx-coworker.yaml` **all fail and hijack tool selection** away from working dx-api tools.
 
-### 🔴 TUE 2026-08-11 — AEM SITES TRIAL IS BEING PROPOSED BACK IN, AND COREY PULLED IT OUT FIVE DAYS AGO
+### 📕 CLOSED 2026-08-12 — AEM SITES TRIAL / SHOWCASE (kept for the receipt, no action left)
 
 - Pedro opened panel-in-prod testing 08-11 09:51 in `#aem-agent-owners-alignement` (thread `1786434688.973389`). **Apoorva + Ankur proposed `AEM Showcase` + `AEM Sites Trial`; Apoorva then asked Pedro at 10:55 whether that is risky *"as they used by SC team and customers"* — unanswered.**
 - 🔑 **THE RECEIPT: `05791F3F677F1AE80A495CB0@AdobeOrg` (AEM Sites Trial) was REMOVED from the Coworker-enabled feature flag on 2026-08-06 20:36** by Stephen Gould at Corey Dulimba's request. Group DM `C0BNEQALB45` (Corey, Namita, Cole, Stephen, **Pedro is in it**). Reason: enabling an org brings the **Gainsight banner** (Namita confirmed *"ya"*), and Corey: *"its a internal Org but we also use it for some external work as well"*. His exact want, per Stephen 19:18 — *"available if you have the link, but not show up in all the navigation and promotion"*. Wiki `3973983995` Unified Shell x Coworker enablement.
