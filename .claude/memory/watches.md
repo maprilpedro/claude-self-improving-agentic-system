@@ -76,7 +76,7 @@ metadata:
 - 🔑 **The gap is narrower than first framed but sharper — the run-up is uncovered and he lands cold on announcement day.** The ask is a named cover for those two weeks plus a pre-read before the 24th. Nobody is named today. ⚠️ **Ian Boston is away too** (08-06, *"if you want to revert that while I am away, please feel free to take the approval over"*).
 - **⏳ Owed on his return** — two lines with what actually happened, the day he is back. The landing note is what makes the heads-up worth having sent.
 
-### 🔴🔑 WED 2026-08-12 — THE MANIFEST DECISION (out of the 08-10 owners call, which HAPPENED — full read: [[project_aem_agents_intelligence]] 08-10 block)
+### 🔴🔑 WED 2026-08-12 — THE MANIFEST DECISION (out of the 08-10 owners call, which HAPPENED — full read: shard `project_aem_agents_intelligence_ARCHIVE_2026-W33.md`, grep `THE OWNERS CALL`)
 
 - **Pedro posted the fork 08-10 20:12 in `#aem-agent-owners-alignement` with `cx-coworker` as the named default and a WED 08-12 deadline**, so teams can still PR their manifests. Alternative was a throwaway `aem-bugbash-cx-coworker`.
 - **🔑 The object that decides it:** `cx-coworker.yaml` holds **1 AEM plugin of the 18 in `aem-aia`**, and `aem-aia.yaml` explicitly `disabled_plugins` cja / dx-api / experimentation / predictive-ai. **GA on `aem-aia` = an AEM-only assistant, not Coworker.** ⚠️ Read from a clone at `f648493` (08-06) — **re-verify on `main` before quoting**.
