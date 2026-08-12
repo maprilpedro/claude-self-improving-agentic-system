@@ -21,6 +21,7 @@
 - [Splunk MCP dashboard](reference_splunk_mcp.md) — Bertrand's source for MCP adoption metrics.
 - [MCP terminology](reference_mcp_terminology.md) — locked term: "Tool Calls". Never "interaction" or "invocation".
 - [Power BI — token usage per org](reference_powerbi_token_usage.md) — ties FinOps (Jaclyn) + AO 2.0 pricing risk.
+- [TBYB vs SKU entitlement](reference_tbyb_sku_entitlement.md) — **who is eligible (CS = TBYB, MS = playground, a third set excluded), the 318/2,483 counts and why they're unverified, and the Bertrand-vs-field-deck entitlement contradiction that still gates the comms audience.** Read before quoting any TBYB/SKU number.
 - [AEP TryBuy artifacts](reference_aep_trybuy_artifacts.md) — AEP-side source of truth for TBYB.
 - [Brand Concierge lightup](reference_brand_concierge_lightup.md) — Confluence 3815569799. EH-side.
 - [Namita scope](reference_namita_scope.md) — **Namita Krishnan** (`@namitak`) = AEP AOv1 PM, NOT the MCP-reports track. Runs the Coworker rollout weekly while Rachel is out. ✅ Surname resolved 07-17 — "Kavadi" never existed.
@@ -71,6 +72,7 @@
 - [Response window for exec questions](feedback_response_window_for_exec_questions.md) — 30 min, not 90. Match their literal frame.
 - [Never send Slack messages](feedback_never_send_slack.md) — **HARD RULE.** Draft only. Reading/searching is fine.
 - [Slack permalink with every draft](feedback_slack_permalink_with_drafts.md) — he runs many threads in parallel.
+- [Give the URL, not just the ID](feedback_give_url_not_just_id.md) — every `pageId` / canvas / JIRA / PR reference needs a clickable link. He verifies sources himself.
 - [Keep Claude private](feedback_keep_claude_private.md) — never surface Claude to colleagues; pace deliverables as human work.
 - [Plain language, no jargon](feedback_plain_language_no_jargon.md) — on "I don't understand", strip to plain words + a concrete A/B.
 - [Language split](feedback_language_split.md) — French in chat, English in the vault. Verbatim quotes stay original.
