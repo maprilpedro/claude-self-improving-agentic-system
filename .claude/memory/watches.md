@@ -25,6 +25,17 @@ metadata:
 - 🔴 **THE EH ROADMAP SLIDES ARE DUE 2026-08-17 AND BRIAN IS ON PTO FROM 08-13.** Third ask. `FY26 Q4 AEM Roadmap.pptx`, ~slide 57 — links + full state in [[project_experience_hub]]. **The Coworker-in-the-deck hold is released now the Loni note is sent.**
 - ⏳ **Re-run the audit before quoting any count.** Four EDA-side plugins renamed inside 24h (08-11/08-12); the **21 GA-ready skills** figure published 08-11 19:55 is already behind them.
 
+### 🆕🔴 THE FOUR COWORKER GA BLOCKERS — PEDRO'S DATED COMMITMENTS, SENT 2026-08-12
+
+> Full read and the reusable move: the 2026-08-12 block in [[project_aem_agents_intelligence]]. He answered the whole list with owners and dates so it closes without being refused.
+
+- 📅 **FRI 2026-08-15 — confirm the suggested-prompts approach.** EH-side, and **decision #3 of the 07-03 chat-entry note is still unreconciled**; Eugene wants them hidden before 08-24 and cannot test in time. Route: Fu Chi (pipeline) + Zeus Courtois (AO2).
+- 📅 **MON 2026-08-17 — send Cole the AEM instance-selection outline** for the Coworker UI. His 08-05 ask, *"really painful in AI assistant"*, never surfaced in any AEM bug bash.
+- ⏳ **Chase Ilya Grafutko's front-matter document link** — Pedro asked for it in-thread and is committed to work against it *"as it stands today"*. **Without the link the commitment has no object.**
+- 📅 **TUE+WED 2026-08-18/19 — all-in AEM bug bash across every agent.**
+- 📅 **THU 2026-08-20 — AEM declares the confidence level**, on the bug bash output. 🔑 **Deliberately not "EOW"**, which would have put the decision one working day from GA and in someone else's hands.
+- ⚠️ **TWO UNVERIFIED CLAIMS ARE NOW PUBLIC AND BOTH WERE FLAGGED BEFORE SENDING.** (1) *"Each agent team has run its own bug bash"* — seven teams, and Brian said 08-10 that the 24th was unrealistic for dev skills. (2) *"We are also running co-innovation projects and PODs with customers for a couple of weeks"* — **Ian Boston, publicly 07-31, *"CoWorker is not enabled for AEM customers yet"*, and Namita runs the rollout.** **Close both quietly this week rather than wait to be corrected.**
+
 ### 📕 CLOSED 2026-08-12
 
 - ✅ **The Loni note is SENT** (~12:00), Bertrand reviewed by email, both his questions answered in it, Tina killed her own PMM placeholder and takes GTM separately.
