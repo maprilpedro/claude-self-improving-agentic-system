@@ -11,6 +11,43 @@ metadata:
 
 Whenever the question is "unify the AEM skills" / "put them in the same marketplace" / "is the multi-marketplace split a problem" — this is the corrective frame. The convergence unit is the **manifest**, not the marketplace.
 
+## 🟢🔑 2026-08-14 — THE OFFICIAL DOC SAYS IT IN ONE LINE. QUOTE THE DOC, NOT THE INFERENCE.
+
+**The question that keeps being asked:** if we declare `aem-aia-extensions` in the `cx-coworker` manifest, do all its plugins come in automatically, or do we list them one by one? **Answer: one by one.** And AO's own developer reference states it, so this never needs to be argued from a code read again.
+
+**📕 The two pages, both public-internal:**
+- **Manifests** — https://aep-ao.pages.adobeitc.com/developer-reference/manifests/ (source `docs/public/site/developer-reference/manifests.md` in `Adobe-Experience-Platform/aep-ai`)
+- **Plugins & Marketplaces** — https://aep-ao.pages.adobeitc.com/developer-reference/plugins/ (source `docs/public/site/developer-reference/plugins.md`)
+
+**🔑 The field table, verbatim, and the second row is the sentence to cite:**
+
+| Field | Description | End-user impact |
+|---|---|---|
+| `plugins` | Pre-installed plugins (`ref: name@marketplace`) | **Active out of the box** — users get these skills without changing settings |
+| `known_marketplaces` | Registered marketplace repos | Makes plugin catalogs **browsable** in Settings > Plugins **(does not auto-install)** |
+
+**The five-step lifecycle from the plugins page** — Register marketplace → Sync content → **Install plugin into manifest** → Bootstrap on startup → Auto-update on sync. **Declaring the marketplace is step 1; step 3 is what loads.**
+
+**⚠️ Three fields nobody in the AEM threads has mentioned, all documented on the same page:**
+- **`visible_marketplaces`** — *"Manifest-declared marketplaces are hidden from Settings > Marketplaces by default; only allow-listed ones appear."* **`cx-coworker.yaml` does not carry the key** (verified on `main` 2026-08-14), so `aem-aia-extensions` will not show on that tab. Display only, plugins stay installable — **but someone checking AEM's presence via that tab will see nothing and report a failure.**
+- **`marketplace_hiding: disabled`** — the documented escape hatch that turns the allowlist off entirely.
+- **`plugin_deduplication_strategy`** — *"Earliest-listed marketplace in `known_marketplaces` wins; off by default."* ⚠️ **`cx-coworker` has it ON (`overwrite`)**, with ~21 marketplaces declared, so **where `aem-aia-extensions` is inserted in that list decides who wins a plugin-name collision.** Insert high.
+
+**🔴 CODEOWNERS, read live 2026-08-14 — and it CORRECTS the team name recorded further down this file.**
+```
+# Base manifests — changes affect all customers. High blast radius, requires explicit approval.
+config/**/manifests/cx-coworker.yaml @Adobe-Experience-Platform/aep-ai-review-bypass
+```
+The 07-14/07-17 entries below say `@Adobe-Experience-Platform/aep-ai-ao-committers`. **Today's file says `aep-ai-review-bypass`.** Either it was renamed or it was misread; **use `aep-ai-review-bypass` and re-check before quoting.** Membership is not listable without `admin:org`, which Pedro's account lacks. ⚠️ **There is NO CODEOWNERS rule for the `.ao/manifests/` copy.**
+
+**⚠️ THERE ARE TWO COPIES OF THE MANIFEST AND ONE HAS ALREADY DRIFTED.** `.ao/manifests/aep-aia/cx-coworker.yaml` and `config/aep-aia/environments/{dev,stage,prod}/manifests/cx-coworker.yaml`. The `.ao/` copy carries its own admission that the gateway MCP servers were *"synced from config/aep-aia/environments/prod/manifests/cx-coworker.yaml"* and that **"this `.ao/` copy never got the backport"**. **Which one the runtime reads is unknown** — Pedro asked the architects on 2026-08-14 10:28 (`#p42-architecture`, ts `1786696117.382779`), unanswered at time of writing.
+
+**🔑 WHO WRITES THE PR: THE PRODUCT TEAM, NOT A COWORKER ENGINEER.** The last 15 commits on the prod `cx-coworker.yaml` are each authored by the owning product team (Target by `psangra_adobe`, GenStudio by `jedelson_adobe`, data-validation by `psnep_adobe`, …). **AEM has done it five times**, all Governance: `gprendi_adobe` (Gerald Prendi) ×3 and `amoratinos_adobe` (Alejandro Moratinos) ×2. **`pfaffm_adobe` (Marc Pfaff) has authored zero** — he approved one and is CODEOWNER on `governance_mcp.yaml`, a different path. Approvals observed in practice: `lnonino_adobe`, `slohiya_adobe`, `trifan_adobe`, and the AEM authors approving each other.
+
+**⏱️ THE ONLY REAL PRECEDENT FOR AN INITIAL ADD, AND IT IS THE NUMBER TO PLAN WITH.** `aep-ai#5773`, *"feat(cx-coworker): enable experience-governance plugin OOTB on prod"*, Gerald Prendi. One reviewer, **Alex Trifan**: `CHANGES_REQUESTED` 2026-07-03, `APPROVED` 2026-07-10, merged 2026-07-10. **Roughly ten days from open to merge.** Everything faster in the history is a **version bump on an already-present plugin**, which is a different operation. ⚠️ **What Trifan asked to change was never read — do that before seven teams open the same shape of PR.**
+
+**🔴🔑 AND THERE IS NO PROCESS DOC.** The reference documents the *fields* and a CLI/API `plugins/install` that targets a local manifest. **Nothing documents the human path for the versioned prod manifest** — who opens the PR, who approves, how long it takes, that there are two copies. **Pedro is about to run seven teams through that path; writing the missing ten lines and getting them merged into `developer-reference` puts his name on the doc everyone follows afterwards.** Cheap, real gap, and unclaimed.
+
 ## 🔴🔑 CORRECTION 2026-07-17 — READ THIS BLOCK FIRST. Three things below were verified against `Adobe-Experience-Platform/ao` @ `main` on 2026-07-17 and three earlier claims in this file are wrong or over-stated.
 
 **1. AIR INDIA DOES NOT COMPOSE ACROSS MARKETPLACES. Do not cite it as the composition precedent.** `cx-coworker-air-india.yaml` declares **one** marketplace, `Adobe-Experience-Platform/rtcdp-aia-marketplace` at **ref `air-india`** (a dedicated branch), and all 11 plugins resolve to it, including `aem-experience-production@air-india-marketplace`. That is a **copy-everything-into-a-branch** pattern, effectively a fork. The line further down this file — *"Air India references plugins across products"* — is true about product **domains** and **false about the mechanism**. ⚠️ Citing it argues FOR a fork, which is the opposite of Ian Boston's consume-vs-fork principle.
