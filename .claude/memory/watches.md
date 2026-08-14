@@ -15,15 +15,40 @@ metadata:
 
 ## Open
 
-### 🆕🔴 WED 2026-08-12 — OUT OF THE SEND-DAY SESSION
+### 🆕🔴 FRI 2026-08-14 — OWED NOW
 
-- 🔴 **TODAY, and the default is contested:** the manifest decision. **Carsten 08-11 11:26 is the only reply and he is against `cx-coworker`** (own manifest, identical to it); **Corey 08-10 is for it.** Thread `1786385530.374199` → https://adobe.enterprise.slack.com/archives/C0BARAMM89Z/p1786385530374199
-- 🔴 **VERIFY THE NON-BLOCK EXISTS, ask Yanira.** The 08-12 EPA decision rests on an informal AI Ethics non-blocking; **what is on file is Legal/ORR/Security only, no named person for AI Ethics.** `decisions/2026-08-12-announce-epa-on-informal-ai-ethics-non-block.md`
-- 🔴 **CONFIRM THE GA SCOPE IS CLOUD-SERVICE-ONLY, same ask to Yanira.** Pedro told **three PMM** (Tina + Haresh + Vaishnav) *"we aim for GA on CS only"* on 08-12, sourced to a 2026-04-13 statement that itself says Managed Services agents *"may land H2"*. **PMM turns this into field messaging.** [[reference_tbyb_sku_entitlement]]
-- 🔴 **`aep-ai#10061` sets One AEM MCP tools to `deferred` on the `aem-aia` manifest. Does that setting travel to `cx-coworker` or a clone?** Unverified, and it gates today's decision. Corey filed the underlying issue as **GA-blocking** (`#p42-architecture` thread `1786441401.253719`). Also open: Ian Reasor asked someone to move that thread to a Coworker channel; nobody did.
-- ⏳ **EDA asked for a ROLLING GA, not a delay.** Brian 08-10 15:53 DM: dev skills GA on the **31st**, *"we would pull things from the main manifest"*. Pedro pushed back, **Brian never answered that half**, and the Loni note says "may run a week late".
-- 🔴 **THE EH ROADMAP SLIDES ARE DUE 2026-08-17 AND BRIAN IS ON PTO FROM 08-13.** Third ask. `FY26 Q4 AEM Roadmap.pptx`, ~slide 57 — links + full state in [[project_experience_hub]]. **The Coworker-in-the-deck hold is released now the Loni note is sent.**
-- ⏳ **Re-run the audit before quoting any count.** Four EDA-side plugins renamed inside 24h (08-11/08-12); the **21 GA-ready skills** figure published 08-11 19:55 is already behind them.
+- 🔴 **ANSWER NAMITA, she asked at 00:28 and five people wait.** Ken Russell wants the ~2,000-org rollout in **waves of 20-50 then +500 every couple of days** (*"dead on arrival last time"*); Namita says 50-100 over 4-5 weeks; **Pedro's 08-13 plan has an order but no lot sizes.** Ken also asks whether AO 1.0 prompts still hold for a skill-selection sanity check — that is the disambiguation outcome measured directly. Group DM `C0BQ4L7BVL2` → https://adobe.enterprise.slack.com/archives/C0BQ4L7BVL2/p1786660097959949
+- 🔴 **ASK RAUL WHETHER `dma_aem_ams` COUNTS.** He flagged it 08-13 10:18 for EDA; **Pedro's mandate and the audit both know only `dma_aem_cloud`.** If AMS counts, every entitlement number published from 08-13 measures the wrong predicate for at least one team. Before Monday.
+- 🔴 **THE WEEKLY UPDATE TO BERTRAND IS DUE TODAY** (promised in the 08-10 DM `DQ6H0AV7H`). The 08-21 one is the pre-read before he lands on GA day. Format per [[feedback_bertrand_status_comms]].
+- 📅 **FRI 2026-08-15 — confirm the suggested-prompts approach.** Pedro's own dated commitment to the Coworker team. Still open; Sorin's Monday EH update touches the same surface.
+- ⏳ **RE-OWN THE THREE EPA FAST-FOLLOWS.** Yanira attached them as the price of skipping Legal/AI Ethics on the Content Fragments skills (Security threat model · ORR runbook in `#skyline-oncall` · CCF onboarding), then the conclusion changed and **all three vanished with it.** Group DM `C0BPS8BS39C`.
+- 🔵 **QUOTE CARSTEN'S ONCALL LINE IN THE MONDAY REMINDER** — *"each team not in the monorepo on GA date has to take over oncall for one month completely"* (08-13, manifest thread). An architect attaching a personal cost is stronger than another red audit row, and nobody has repeated it.
+- 🆕 **CONRAD WOLTGE HAS THE COWORKER "LEAD" PER JEAN-MICHEL** (Bertrand, DM 08-13 09:15, *"ah ah"*; he forwarded the Loni note on). **Watch what "lead" means in practice and whether Pedro's GA authorship survives it.** [[feedback_position_over_merit]]
+
+### 📕 CLOSED 2026-08-13 — THE MANIFEST DECISION
+
+- ✅ **`cx-coworker` (dev/stage/prod), announced 08-13 11:41.** Carsten's objection was rendered moot by the entitlement mechanism, not by silence — **but Pedro framed it as *"given the low feedback here, consider it as both options are fine"*, which re-uses the move the 08-11 note recorded as dead. It worked here because a mechanism arrived, not because the silence meant anything.**
+- 🔑 **Carsten also settled the prod question:** *"for as long as we have the entitlements in our skills, we dont regard this as a problem if that happens before the factual GA date"* → **prod can be populated before 08-24.** Written nowhere else.
+- ⏳ **Residual, unverified and still gating:** `aep-ai#10061` sets One AEM MCP tools to `deferred` on the `aem-aia` manifest — **does that setting travel to `cx-coworker`?** Corey filed the underlying issue as GA-blocking (`#p42-architecture` `1786441401.253719`). Ian Reasor asked someone to move that thread to a Coworker channel; nobody did.
+
+### 🆕🔴 MON 2026-08-17 COB — THE TWO DEADLINES PEDRO SET HIMSELF
+
+- 🔴 **`required_entitlements` in every skill.** Mandate sent 08-13 09:44; five teams moved inside eight hours (Governance PR #44 · EPA `AEMAGT-2511` · Forms `AEMAGT-2513` · EDA done · Discovery + Content Optimization done). **Carsten adds a monorepo PR check next week**, which makes it structural. Chase the teams that did not answer.
+- 🔴 **Bug bash details and use cases on wiki `4002944931`**, target **AEM Showcase `38931D6666E3ECDA0A495E80@AdobeOrg`**. ⚠️ **Testing has already started decentralised** (Corey and Christian pushed back on waiting; EPA and EDA both ran sessions 08-13) — **the 08-20 confidence declaration will rest on a week of uneven coverage, so say what it covers.**
+- 🔴 **THE EH ROADMAP SLIDES ARE DUE 2026-08-17 AND BRIAN HAS BEEN ON PTO SINCE 08-13.** Third ask. `FY26 Q4 AEM Roadmap.pptx`, ~slide 57 — links + full state in [[project_experience_hub]].
+- ⏳ **Sorin updates Experience Hub 08-17** (Coworker input, navigation item, announcement + top-bar message), validating on AEM Showcase, tracking thread open with an `EH — Checklist GA 24th` doc. **The EH placement answer is arriving as execution rather than as the written decision that was owed.**
+- ⏳ **Tanju is back 08-17** — the One-AEM-MCP-as-single-OBO-fix-point question is his. Object now exists: Carsten's wiki `4003355459`.
+
+### 🆕⚠️ 2026-08-13 — BEFORE QUOTING ANY READINESS NUMBER
+
+- **The funnel is 66 → 56 → 30 → 19** (correct marketplace · name not a fail · disambiguation not a fail · entitlement declared), published 08-13 21:41. **19 is not a regression from the 21 of 08-11 — a fourth criterion was added.** Say so, or the movement reads as decay ([[Lead the Slide With the Honest Read of Your Own Metric, Not the Flattering Number]]).
+- ⚠️ **And the entitlement predicate itself may be incomplete** — see the `dma_aem_ams` item above.
+
+### 🔴 STILL OPEN FROM THE 08-12 SEND DAY
+
+- 🔴 **VERIFY THE NON-BLOCK EXISTS, ask Yanira.** The 08-12 EPA decision rests on an informal AI Ethics non-blocking; **what is on file is Legal/ORR/Security only, no named person for AI Ethics.** `decisions/2026-08-12-announce-epa-on-informal-ai-ethics-non-block.md` ⚠️ **Sharper now: on 08-12 evening a second EPA skill set (Content Fragments) was also cleared of AI Ethics, this time by the four people in the thread. Two clearances in two days, no named reviewer on either.**
+- 🔴 **CONFIRM THE GA SCOPE IS CLOUD-SERVICE-ONLY, same ask to Yanira.** Pedro told **three PMM** (Tina + Haresh + Vaishnav) *"we aim for GA on CS only"* on 08-12, sourced to a 2026-04-13 statement that itself says Managed Services agents *"may land H2"*. **PMM turns this into field messaging.** [[reference_tbyb_sku_entitlement]] ⚠️ Raul's `dma_aem_ams` flag cuts across this — if EDA entitles AMS, the CS-only line is already not what the skills say.
+- ⏳ **ROLLING GA IS NOW A TWO-TEAM PATTERN.** Brian 08-10 (dev skills on the 31st, *"we would pull things from the main manifest"*, never answered Pedro's push-back) and **Corey 08-12 (*"if we miss the 24th we'll just add them in the following week"*)**. Nobody has said no to either. **A third instance turns the single date into a start date.**
 
 ### 🆕🔴 THE FOUR COWORKER GA BLOCKERS — PEDRO'S DATED COMMITMENTS, SENT 2026-08-12
 
@@ -36,12 +61,6 @@ metadata:
 - 📅 **THU 2026-08-20 — AEM declares the confidence level**, on the bug bash output. 🔑 **Deliberately not "EOW"**, which would have put the decision one working day from GA and in someone else's hands.
 - ⚠️ **TWO UNVERIFIED CLAIMS ARE NOW PUBLIC AND BOTH WERE FLAGGED BEFORE SENDING.** (1) *"Each agent team has run its own bug bash"* — seven teams, and Brian said 08-10 that the 24th was unrealistic for dev skills. (2) *"We are also running co-innovation projects and PODs with customers for a couple of weeks"* — **Ian Boston, publicly 07-31, *"CoWorker is not enabled for AEM customers yet"*, and Namita runs the rollout.** **Close both quietly this week rather than wait to be corrected.**
 
-### 📕 CLOSED 2026-08-12
-
-- ✅ **The Loni note is SENT** (~12:00), Bertrand reviewed by email, both his questions answered in it, Tina killed her own PMM placeholder and takes GTM separately.
-- ✅ **AEM Showcase is settled and the watch dies with it — Corey posted `38931D6666E3ECDA0A495E80` (AEM Showcase) and Sites Internal to Rodson's panel thread himself.** The person who pulled Sites Trial on 08-06 put Showcase in on 08-11. Nobody was ever named for the SC-enablement heads-up; that residual is dropped with it.
-- ✅ **Paul Pop's gateway finding is FIXED** — `aep-ai#10104`, Daniel-Cristian Miu, retested clean. It is no longer an argument in the manifest decision. ⚠️ It was reported here as "unanswered"; the thread had 11 replies. Read before characterising.
-
 ### 🆕🔴 2026-08-11 — MCP IS AN UNDECLARED GA DEPENDENCY, AND "THE OBO DISCUSSION" IS THREE LAYERS WEARING ONE NAME
 
 > ⚠️ **Compressed to the one-line rule 2026-08-11. Full detail — the three-layer table, the ARB thread, the gateway-channel findings — is the `#### Companion` under `### Focus — 2026-08-11` in the AAI Status & Todo.** This section carries only what is dated and owed.
@@ -53,15 +72,12 @@ metadata:
 - 🔴 **AEM HAS NO ROW ON THE GATEWAY QUALITY DASHBOARD.** Golden eval dataset missing (Georgiana Copil, 08-11), dev config missing (08-07), both owned by Tanju + Christian. **That surface scores whether the model picks the right AEM tool — the outcome the naming audit proxies for.** Channel `C0ASGEU1BT9`, now in [[reference_slack_audit_channels]].
 - ⚠️ **BEFORE CLOSING THE 08-12 MANIFEST CALL:** Paul Pop 08-10 — gateway tools reachable from prod `cx-coworker.yaml` **all fail and hijack tool selection** away from working dx-api tools.
 
-### 📕 CLOSED 2026-08-12 — AEM SITES TRIAL / SHOWCASE (kept for the receipt, no action left)
+### 🔴 RE-OPENED 2026-08-13 — THE GAINSIGHT BANNER ON AEM SHOWCASE
 
-- Pedro opened panel-in-prod testing 08-11 09:51 in `#aem-agent-owners-alignement` (thread `1786434688.973389`). **Apoorva + Ankur proposed `AEM Showcase` + `AEM Sites Trial`; Apoorva then asked Pedro at 10:55 whether that is risky *"as they used by SC team and customers"* — unanswered.**
-- 🔑 **THE RECEIPT: `05791F3F677F1AE80A495CB0@AdobeOrg` (AEM Sites Trial) was REMOVED from the Coworker-enabled feature flag on 2026-08-06 20:36** by Stephen Gould at Corey Dulimba's request. Group DM `C0BNEQALB45` (Corey, Namita, Cole, Stephen, **Pedro is in it**). Reason: enabling an org brings the **Gainsight banner** (Namita confirmed *"ya"*), and Corey: *"its a internal Org but we also use it for some external work as well"*. His exact want, per Stephen 19:18 — *"available if you have the link, but not show up in all the navigation and promotion"*. Wiki `3973983995` Unified Shell x Coworker enablement.
-- ⚠️ **Check whether Rodson's panel-in-prod flag is the same switch as the Coworker-enabled flag** ([[reference_coworker_enablement]] — activation ≠ migration, two Unified Shell flags). The reason Corey gave applies either way.
-- ⏳ **Marius Duta 11:34, separate thread:** Sites Trial is not relevant for EDA, they bug-bash on Showcase which has the environments and pipelines. → **Sites Trial carries exposure and little test value. Showcase is defensible if someone warns SC enablement, and nobody has been named for that.**
-- 🔑 Philippe and Arneh both posted purely internal orgs (Foundation Internal, AEM Sec Alpha, Forms Internal01, Forms PM). **Two teams already did what Apoorva is proposing as the alternative.**
-- ✅ **ANSWERED 08-11 11:41** — Pedro posted the Sites Trial precedent in the thread, object-backed (org ID, date, Corey's name, the Gainsight reason), ending *"correct me if that changed since"*. **He deliberately left AEM Showcase alone**, so by omission it is approved.
-- ⏳ **TWO REPLIES NOW GATE THE SAME THING, both sent 08-11.** (1) **Rodson Clavel**, in his own thread `C0BCKG35NFP` ts `1786405114.307519` — is the panel prod flag the same switch as the Coworker-enabled flag? **If it is, the Gainsight banner follows onto AEM Showcase, which is the SC live-demo org — the same problem one org over.** (2) **Corey**, on whether the 08-06 removal still stands. **Until one of them lands, Assets and Sites should hold off on posting Showcase.** 🔴 Nobody is still named for the SC-enablement heads-up.
+> Full history (the Sites Trial removal receipt, Apoorva's unanswered risk question, the two 08-11 replies) is in `watches_ARCHIVE_2026-08.md` — grep `SITES TRIAL`.
+
+- 🔴 **Pedro confirmed AEM Showcase as the bug bash target on 08-13** (`38931D6666E3ECDA0A495E80@AdobeOrg`), and **the question that got AEM Sites Trial pulled from the Coworker flag on 08-06 was never answered for Showcase.** Enabling an org brings the **Gainsight banner**; Corey's reason for pulling Sites Trial — *"its an internal Org but we also use it for some external work as well"* — applies to Showcase, which is the SC live-demo org.
+- ⏳ **Two replies still gate it, both sent 08-11 and both unanswered:** Rodson Clavel (`C0BCKG35NFP` ts `1786405114.307519`) on whether the panel prod flag is the same switch as the Coworker-enabled flag ([[reference_coworker_enablement]]), and Corey on whether the 08-06 removal still stands. 🔴 **Nobody has ever been named for the SC-enablement heads-up.**
 
 ### 🔴 2026-08-07 → 08-24 — BERTRAND IS ON PTO FOR THE RUN-UP, BACK ON GA DAY
 
@@ -101,19 +117,10 @@ metadata:
 - **⏰ Also due Tue AM UK:** the AEM Agents Reporting Status **ahead of Jean-Michel's staff call**, bot reminder cc Jaclyn. Pedro has just told Bertrand he reports via Jaclyn, so this is the surface that carries it.
 - **⏳ Answer Corey's 08-10 16:52 bar question precisely** — warnings vs failures, and hidden vs customer-facing skills. **That is the 0-vs-4 and the 87-vs-98.**
 
-### 📕 CLOSED 2026-08-10 — the pre-call state of the owners call (kept for the reasoning, not for action)
+### 📕 CLOSED 2026-08-10 — the pre-call state of the owners call (compressed 2026-08-14; full text in `watches_ARCHIVE_2026-08.md`, grep `pre-call state`)
 
-- **📍 The artifacts: canvas `F0BMUV76DHU` "AEM Agents Road to GA"** (Yanira + Pedro) is the Monday deliverable — dates skills+manifest GA 08-10 · sign-offs 08-14 · bug bash 08-17→08-21 · docs 08-21 · **GA + announcements 08-24** · TBYB 08-26 · SKU 09-14 · Panel GA 09-21. 🟢 It quietly concedes both of Corey's objections (provisioning and panel now *after* GA) — **say that out loud, nobody will notice otherwise.** 🔴 Fix before posting: still **all-or-nothing** (*"sign-off by all teams across all orgs"* → Forms and Onboarding set EPA's date), **sign-offs precede the bug bash they sign off**, the Artefact row and sign-off matrix are **empty**, and TBYB/SKU/Panel carry dates with **no owner**. ⚠️ The older canvas **`F0BD4RALNHF`** still reads *"As of 2026-07-03. Target window = end of July"* — five weeks stale, and Corey named it by ID. **Three surfaces now answer one question** (`F0BD4RALNHF`, `F0BMUV76DHU`, Dimension A in the v7 status note) → **say at the top of each what it is now for** ([[feedback_one_artifact_per_ask]]).
-- **The GA checklist is due, and Pedro committed to it out loud on 08-03** (*"I'll work on that, and we can discuss next week"*). ⚠️ **The table exists and is missing the columns being asked for** — `## Dimension A` in `AAI - Project Folder/AEM Agents on Coworker — Status.md` (v7), seven rows filled, **no readiness date and no gate column** because Bertrand's 07-21 review trimmed it to bug-bash status. **Monday is the missing columns, not a new artifact.** ✅ **Model decided 08-06: two milestones.** Release = a team moves its plugin `experimental` → `ga`, per plugin, teams own it. Announcement = the 08-24 portfolio event, Pedro owns it. → **Monday is TWO artifacts, not one.** Record: `decisions/2026-08-06-ga-model-separate-release-from-announcement.md`. ✅ **Decided 08-07: the checklist is the announcement bar, not a release gate** — a red row does not block a `ga` manifest write. **Say that out loud; it is what keeps the split intact and it is what the room could fight on.**
-- **🔴 The number to walk in with: the bar evaluates to ZERO.** On 87 user-visible skills (08-06 run) — conform on all three audits = **0**; conform-or-warn = **4**, warn everywhere. Funnel **4 / 30 / 29 / 24**. 🔑 **13 fail only disambiguation → 17 announceable for writing effort, no migration**; 16 fail only the marketplace move. **Three exits: lower the bar, announce a named subset, or move the date.**
-- **🔴 The live risk is vocabulary, not the model.** If "GA" keeps naming both states the decision reverts silently. 🟢 Already on the agenda in public (Pedro in Clint's thread 08-05, cc Ian Boston + Carsten); **Carsten agreed in 29 min** but said *"not blocking GA"* — ⚠️ **that phrase reads two ways and the second is the reversion. Pin that `lifecycle` IS what release means.**
-- **🔑 The object-backed sentence for the room** (verified in AO code 08-06): `skill_inclusion_policy` exists and is wired end to end, **zero of 217 manifests use it**, and a skill declaring nothing **defaults to `stable`** — so a `['stable']` gate **deletes AEM's 62-of-63 `experimental` skills while every team that filled in nothing survives.** The field rewards silence and punishes honest declaration. Detail: [[project_aem_agents_intelligence]] 08-06 lifecycle block.
-- **🟢 The argument that makes `lifecycle` unarguable** (Ramkesh Meena, 08-06): Rubin's *CX Enterprise Coworker* tab *"appears to be available only for GA skills"* → a non-GA skill is **invisible in per-customer reporting**. ⚠️ **Unverified, one person's dashboard read. Angela Han and Karthik were in the room on 08-06 and it was not asked** — see the Rubin section.
-- **🔴 Seven agent-map decisions only Pedro can take. 51 of 88 skills have no agent, so no agent-cut number is publishable.** Two governance ids (`experience_governance_agent` vs `governance_agent`, 11 skills pinned to the first) · Cloud Manager 14 across 5 plugins · Content Fragments 13 · `aem-codeveloper-plugin` 6 (EDA or Modernization, which has no reporting id) · Onboarding 12 (real agent, **no reporting id exists, mint one**) · 5 leftovers · ⚠️ `.claude` is not a plugin (`aem-clean-users` counts wrongly).
-- **⚠️ Restate the denominator first.** The three 08-06 Slack posts link reports that were republished the same day: catalogue **88 → 98**, naming fails **28 → 37**. Anyone opening them reads different numbers than the messages say.
-- **⚠️ What the decision does NOT solve:** AI Ethics on EPA still reads *"team will evaluate end of Aug"*, after both 08-14 and 08-24, on Corey's own agent. Isolated to the announcement now, not fixed.
-- **🔎 The test, so it can be scored:** if the split is right, **Corey and Ankur take the release half without argument** and the room moves to the bar's contents. **If the room argues about the split itself, the framing is wrong.** Two rows already filled verbally and unbanked — Corey/EPA, Ankur/Discovery + Content Optimization.
-- ⚠️ **Second time Corey has asked in the same words** (07-09: *"How can we provide a date when we're going to be ready if we don't know what we need to do to be ready?"*). [[An Undefined Gate Is a Date Nobody Can Give]], Pedro owing the gate.
+- **The three residuals that are still live and are tracked above or in the project memory:** the **seven agent-map decisions only Pedro can take** (51 of 88 skills with no agent, so no agent-cut number is publishable) · **AI Ethics on EPA** (*"team will evaluate end of Aug"*, after both 08-14 and 08-24) · **`skill_inclusion_policy` rewards silence** (zero of 217 manifests use it; absent defaults to `stable`, which would delete AEM's honest 62-of-63 `experimental`).
+- **The 08-06 funnel it carried (0 of 87 conform / 4 conform-or-warn) is superseded** by the 08-13 run — 66 / 56 / 30 / 19. Do not requote the old one.
 
 ### 🔴🔑 WEEK OF 2026-08-10 — RUBIN ([[project_aem_agents_intelligence]] 2026-08-06 RUBIN SYNC block)
 
