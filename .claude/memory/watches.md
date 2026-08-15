@@ -15,6 +15,23 @@ metadata:
 
 ## Open
 
+### 🔴🔴 MON 2026-08-17 — THE BUG BASH CANNOT RUN AS PLANNED UNTIL ONE OF THESE IS DECIDED
+
+> Found 2026-08-15. Full read: the 2026-08-14/15 block in [[project_aem_agents_intelligence]]. Mechanics: [[reference_aov2_marketplace_manifest]] 08-15 addendum.
+
+- 🔴 **THE TARGET IS A PROD ORG AND THE PLUGINS ARE ON DEV+STAGE ONLY.** AEM Showcase `38931D6666E3ECDA0A495E80@AdobeOrg` sits in **prod segments only, zero of 30 stage segment files** — so the stage shell is not an option, it is an identity gate not a config one. **Bug bash starts Tue 08-18.**
+- 🔴 **AND THE PROD PORT IS BIGGER THAN ANYONE HAS SAID: `prod/cx-coworker.yaml` HAS NO `api_configs` AT ALL.** Pushing only the plugin list ships AEM skills that cannot call AEM. **Nobody has costed porting the block.** Ask Lenard Palko + Ian Reasor + Grant Russell, and reframe from "endpoints" to **"who ports `api_configs` and is it doable by Monday COB"**.
+- 🟢 **The pattern to copy rather than invent:** prod already carries per-server `env_overrides` with a `stage:` branch for *"stage IMS users"* — CJA, AJO, GenStudio, Marketo, Workfront all declare one. AEM has none.
+- ⏳ **Ask AO ops what `AEM_DISCOVERY_URL` resolves to on each deployment.** Undecidable from the repo. It decides what Assets can cover. **`cm` needs no ask — it is stage-bound on two independent grounds.**
+- ⏳ **Ask Marius Duta which shell the EDA bug bash used** on Showcase. One line, and it may settle the whole thing.
+- ⏳ **Yanira's readiness call, Mon 13:30 CET** with agent owners. Her two open questions: what role exactly, and which of Showcase's many programs. She asked **Florin Florescu** whether the Dev Agent needs a Developer role — unanswered since 08-13.
+
+### 🔴 2026-08-17 — THE ONE GATE THAT MAY BE THE ONLY GATE
+
+- 🔴 **`aem-aia-extensions` has 16 open PRs, six older than ten days, and no named approver.** **Alejandro Moratinos asked "who could help us to merge our changes" on 08-14 10:23 and nobody answered.**
+- 🔑 **Why it is now load-bearing:** Ian Reasor, 08-15 — *"Coworker just pulls in the latest plugin and the version isn't actually read."* If that describes the runtime, **the marketplace merge is the only thing standing between a team's commit and prod behaviour.**
+- ⚠️ **It contradicts the spec and nobody has reconciled it.** `05-update-strategy.md` FR-UPD-005 says `manual` is the default and is notify-only; FR-UPD-002 says a catalog refresh must not alter installed content. **Requirements doc with unchecked acceptance criteria, so it may describe intent.** ⏳ **Carsten has not answered.** There is also a third value, **`auto_patch`**, absent from every AEM discussion.
+
 ### 🆕🔴 FRI 2026-08-14 — OWED NOW
 
 - 🔴 **ANSWER NAMITA, she asked at 00:28 and five people wait.** Ken Russell wants the ~2,000-org rollout in **waves of 20-50 then +500 every couple of days** (*"dead on arrival last time"*); Namita says 50-100 over 4-5 weeks; **Pedro's 08-13 plan has an order but no lot sizes.** Ken also asks whether AO 1.0 prompts still hold for a skill-selection sanity check — that is the disambiguation outcome measured directly. Group DM `C0BQ4L7BVL2` → https://adobe.enterprise.slack.com/archives/C0BQ4L7BVL2/p1786660097959949
@@ -25,11 +42,12 @@ metadata:
 - 🔵 **QUOTE CARSTEN'S ONCALL LINE IN THE MONDAY REMINDER** — *"each team not in the monorepo on GA date has to take over oncall for one month completely"* (08-13, manifest thread). An architect attaching a personal cost is stronger than another red audit row, and nobody has repeated it.
 - 🆕 **CONRAD WOLTGE HAS THE COWORKER "LEAD" PER JEAN-MICHEL** (Bertrand, DM 08-13 09:15, *"ah ah"*; he forwarded the Loni note on). **Watch what "lead" means in practice and whether Pedro's GA authorship survives it.** [[feedback_position_over_merit]]
 
-### 📕 CLOSED 2026-08-13 — THE MANIFEST DECISION
+### 📕 CLOSED 2026-08-13/14 — THE MANIFEST DECISION AND ITS EXECUTION
 
-- ✅ **`cx-coworker` (dev/stage/prod), announced 08-13 11:41.** Carsten's objection was rendered moot by the entitlement mechanism, not by silence — **but Pedro framed it as *"given the low feedback here, consider it as both options are fine"*, which re-uses the move the 08-11 note recorded as dead. It worked here because a mechanism arrived, not because the silence meant anything.**
-- 🔑 **Carsten also settled the prod question:** *"for as long as we have the entitlements in our skills, we dont regard this as a problem if that happens before the factual GA date"* → **prod can be populated before 08-24.** Written nowhere else.
+- ✅ **`cx-coworker` decided 08-13, shipped to dev+stage 08-14 16:04** (`aep-ai#10608`, Lenard Palko, approved Gerald Prendi). Reach 23 → 86 of 241 manifests. Governance migrated to `aem-aia-extensions` 0.6.0 in the same PR.
+- 🔑 **Carsten settled the prod question:** *"for as long as we have the entitlements in our skills, we dont regard this as a problem if that happens before the factual GA date"* → prod can be populated before 08-24. ⚠️ **But see the 08-17 section — the prod port is bigger than that answer implies.**
 - ⏳ **Residual, unverified and still gating:** `aep-ai#10061` sets One AEM MCP tools to `deferred` on the `aem-aia` manifest — **does that setting travel to `cx-coworker`?** Corey filed the underlying issue as GA-blocking (`#p42-architecture` `1786441401.253719`). Ian Reasor asked someone to move that thread to a Coworker channel; nobody did.
+- ⏳ **Fifteen of the sixteen ported plugins are unexercised.** Only EPA was verified on stage. Lenard: *"I'm not sure how to test the rest of the plugins."* Nobody owns it before the bash.
 
 ### 🆕🔴 MON 2026-08-17 COB — THE TWO DEADLINES PEDRO SET HIMSELF
 

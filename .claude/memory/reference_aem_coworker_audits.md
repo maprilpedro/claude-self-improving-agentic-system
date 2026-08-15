@@ -14,6 +14,18 @@ metadata:
 
 Design ported from **Gerald Prendi's `Adobe-AEM-Foundation/governance-agent-marketplace` PR #29**, credited in `CREDITS.md` + a `provenance:` block in the config. 🔴 **That repo is READ-ONLY — no PR, no branch, no issue, ever.** Pedro's standing instruction, 2026-08-05.
 
+## 🔴 2026-08-15 — `docs/runs/<date>/` IS OVERWRITTEN IN PLACE, AND LINKS SENT TO TEAMS NOW SAY SOMETHING ELSE
+
+**A rerun on the same day rewrites the same folder.** `runs/2026-08-14/` took **six commits** on 08-14 (last at 17:01, *"Rerun 2026-08-14: cx-coworker loads the target marketplace"*); `runs/2026-08-15/` took two, the last at 16:56.
+
+**Why it matters, concretely.** Pedro linked `runs/2026-08-13/ga-ready-skills-catalogue.md` in the entitlement mandate to every agent team. That file now reads **19 of 66** and carries a line his message did not: *"17 of the 19 are one plugin, `experience-generation`."* Anyone opening the link reads a different claim than the one they were sent.
+
+🔴 **Third occurrence.** On 2026-08-06 three Slack posts linked reports republished the same day (catalogue **88 → 98**, naming fails **28 → 37**). **The pattern is the audit's publishing model, not carelessness in any one message.**
+
+**Two mechanical fixes, either works:** make dated folders immutable and suffix a rerun (`2026-08-14b`), or always cite the commit SHA in the link. **Until one is in place, never quote a figure to someone without also stating the run and the criteria count** — the bar itself moved on 08-13 (a fourth criterion) and again on 08-15.
+
+⚠️ Deliberately **not** logged as a third instance of the parked *Your Own Artifacts Disagreeing in Front of the Same Reader* candidate — that row requires an instance from outside the Coworker programme.
+
 ## The five audits
 
 | Audit | Answers |
