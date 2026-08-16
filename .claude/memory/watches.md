@@ -217,8 +217,10 @@ metadata:
 
 ### 🔵 BEFORE QUOTING ANY MCP NUMBER
 
-- **Eli Lilly is in the management dashboard but absent from the per-customer deep-dive** (Brian Chaikelson, 07-31, unanswered). ⚠️ **Eli Lilly is in the OKR-review speaking notes.**
-- **Jabran, 07-24: 30-day window only** — *"a bug in some panels not respecting the time filter"*. No fix confirmation since.
+- 🔴🔑 **ASSUME THE MCP DATA IS STALE UNTIL JABRAN SAYS OTHERWISE (checked 2026-08-16).** The AWS→Splunk import is **manual**, and **there is no message from him announcing a refresh since 07-24**, when he said he had not done one *"in last few weeks"*. **Ping him before pulling any number for the KR video, the Tina deck or the Bertrand weekly.**
+- 🔴 **AND THE AUTOMATION THAT WOULD FIX IT IS DEAD WHILE READING `Done`.** `LOGREQ-16791` (onboard AEM MCP CloudWatch logs to Splunk) is **Status Done / Resolution Done, updated 08-06** — but its only comment is the LPT bot **auto-closing it as a process rejection**, *"This ticket has been closed — no automated provisioning will occur from it"*, because it was not filed through the DevHome portal. **Nobody re-submitted.** Re-file at https://devhome.corp.adobe.com/toolbox/discover/324036 or ask on `#splunk-users`. ⚠️ Its own description dates the last snapshot to **30 days to 2026-07-07**.
+- ✅ **`correct:` 2026-08-16 — the Eli Lilly deep-dive gap WAS answered.** Jabran to Brian, in-thread: *"I can see it in the list ... could be a splunk loading delay ... can you please recheck?"* **Not a data gap, the blue-circle load delay.** ⚠️ Eli Lilly is in the OKR-review speaking notes, so let the panel finish loading before concluding anything about it.
+- **Jabran, 07-24: 30-day window only** — *"a bug in some panels not respecting the time filter"*, fix promised *"next week"*. **Still no fix confirmation as of 08-16.**
 - **🔴 The "Tool Calls" lock is slipping.** Tanju's report now says **"operation"**; Christian Meyer challenged it 07-28, undecided. **Pedro owns this term** ([[reference_mcp_terminology]]).
 - Unresolvable IMS orgs (`127B272369BC84400A495C0A@AdobeOrg`, 19,922 requests) — Jabran suspects AEM trial envs.
 
