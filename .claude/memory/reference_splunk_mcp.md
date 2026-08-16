@@ -31,6 +31,29 @@ Same Splunk app (`TA-aem_skyline`), different dashboard (`aem_mcp_usage`) = the 
 
 **Coordination channel:** ping Jabran on `#am-mcp` (engineering) for data/cells. Full context in `project_aem_agents_intelligence.md` 2026-06-30 MCP Reporting Strategy entry.
 
+---
+
+## 🔑 THE CANONICAL PAIR — Jabran's 2026-07-08 post, re-pointed to Pedro on 07-24
+
+> **Source of record:** Jabran Asghar, `#aem-mcp` `C098RGRNYHW`, 2026-07-08 16:02, ts `1783519340.160459` → https://adobe.enterprise.slack.com/archives/C098RGRNYHW/p1783519340160459
+> **Re-sent 2026-07-24 18:24** in group DM `C0BE2P6J00M` (Pedro + Christian + Jabran) → https://adobe.enterprise.slack.com/archives/C0BE2P6J00M/p1784910259601649, verbatim: *"BTW, You are using an older dashboard, these are the ones that you should be using."*
+
+⚠️ **`correct:` — `aem_mcp_usage` (the URL above, saved 06-30 and labelled "the newer dashboard") IS THE OLD ONE.** Jabran superseded it on 07-24. **Use the two boards below.**
+
+**1. AEM Sites MCP — Business value, usage, customers** (the management dashboard; source of the validated 07-24 number set)
+`https://splunk.or1.adobe.net/en-GB/app/TA-aem_skyline/aem_mcp_-_management_dashboard_value_usage_customers?form.global_time.earliest=-30d%40d&form.global_time.latest=now&form.server_tok=aem&form.server_tok=content&form.server_tok=content-readonly&form.threshold_tok=100&form.regular_days_tok=3&form.new_since_tok=-30d%40d&form.scope_tok=external`
+
+**2. AEM Sites MCP — Per-customer deep dive**
+`https://splunk.or1.adobe.net/en-GB/app/TA-aem_skyline/aem_sites_mcp_-_per-customer_deep_dive?form.customer_tok=*&form.global_time.earliest=-30d%40d&form.global_time.latest=now&form.server_tok=aem&form.server_tok=content&form.server_tok=content-readonly`
+
+**Access:** both live under the `TA-aem_skyline` app in Splunk, available to all — if they do not appear, switch the app selection in Splunk (Jabran to Hiroyuki Miyata, 07-09). VPN + SSO required; not fetchable by Claude.
+
+🔴 **THE STALENESS TRAP, AND IT IS THE ONE THAT BITES BEFORE A REPORTING CYCLE.** The AWS→Splunk import is **manual** — Jabran uploads the last 30 days as lookup data by hand. On 2026-07-24 he said *"I haven't done that in last few weeks"*, which is what produced Pedro's phantom "345k → 48k collapse" and the "32 → 445 orgs" jump. **Before pulling any number for a status, a video or a deck, ping Jabran to refresh the lookup first.** Automation tracked in `LOGREQ-16791`.
+
+⚠️ **Two more handling rules, both Jabran's own words (07-24):** wait for the **blue spinning circles** on every panel to disappear before treating a number as final, and **use the 30d window only** — *"found a bug in some panels not respecting the time filter, will fix that next week"*. **No fix confirmation since**, so re-verify before trusting any other window.
+
+📎 **Two PDF snapshots exist in the 07-08 thread** — the full management report (`F0BFQTHNUR5`, 07-09 09:49) and an Eli Lilly per-customer deep dive (`F0BFW2N6CPP`, 07-08). ⚠️ Snapshot dated windows, not live.
+
 **✅ 2026-07-24 — THE VALIDATED MCP NUMBER SET (use these; earlier same-day partials were wrong-filter/transient).** Source = the management dashboard `aem_mcp_-_management_dashboard_value_usage_customers` ("AEM Sites MCP — Business value, usage, customers"), last 30d, external, aem+content+content-readonly. Pedro's decision: "on part sur ces données validées."
 
 | Metric | Value |
