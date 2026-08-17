@@ -15,6 +15,25 @@ metadata:
 
 ## Open
 
+### 🔴🔴 GA WEEK — THE THREE OUTWARD MOMENTS AND WHAT EACH CAN GET WRONG (set 2026-08-17)
+
+> Full read: the 2026-08-16/17 block in [[project_aem_agents_intelligence]].
+
+- 📅 **TUE 08-18 — AEM & Agentic Web Field Global All-Hands, 10 min.** Pedro 5 + **Greg Klebus live demo** 5, to **AEM customers and sales**. 🔴 **It is two days before the confidence call**, so nothing said there can rest on the bug bash.
+- 🔴 **Demo safety, and it is the one that fails in public.** Plugins are on **dev+stage only**; prod carries 11 skills in 1 plugin. **Greg must run end to end on the stage shell, on the machine and account of the day.** Cleanest surfaces are `experience-generation` (18 of 18 declared) and `experience-governance` (14 of 14). **Avoid** `aem-edge-dispatcher`, `aem-platform-codeveloper`, `aem-pipeline-troubleshooter` — nothing declared, mostly hidden.
+- 🔴 **Three unsourced claims still in the deck** — *"gapping 9 months of AI technologies"*, *"state of the art"*, and **`memory`** as a named Coworker capability. ⚠️ `Create a new site` has **no matching skill** in the catalogue.
+- 🔴 **`Progressive rollout to all AEM customers` must read `all AEM Cloud Service customers`**, and the slide calls two different things `GA`.
+- ⏳ **Verify the official product name.** The public page is `business.adobe.com/uk/products/**cx-enterprise-coworker**.html` — likely **CX Enterprise Coworker**, not "Adobe Coworker". Sales will repeat whichever he says. (The page is unreachable from Claude, a WAF blocks the product path — paste it.)
+- 📅 **TUE 08-17 — KR 1e review**, notes at `AAI - Project Folder/20260817 - OKR Review KR1e - Speaking Notes.md`. **Time markers are stale after the quality beat was cut** — renumber on the read-aloud.
+- 📅 **TUE 08-17 — Loni follow-up with Tina Ngo.** Agenda is the narrative for why AEM stays critical in an agentic world, and how agents, skills, MCP, context, Coworker and Claude/ChatGPT fit one operating model. **That is a Senior-Director-shaped ask arriving unprompted from a VP** — [[feedback_position_over_merit]].
+
+### 🔴 GA-BLOCKER THE LIST DOES NOT HAVE (found 2026-08-17)
+
+- 🔴 **Every AEM skill declares `lifecycle: experimental`** and the field must change before any of them ships. *"No skill anywhere declares anything else."* Absent from the four-blocker list and from the Bertrand report.
+- 🔴 **`dma_aem_ams` is already declared on four Cloud Manager skills**, so **"GA on Cloud Service only" is not what the skills say.** Pedro told Tina Ngo, Haresh Kumar and Vaishnav Gorur the opposite on 08-12. **Correct it before it reaches sales.** ⚠️ `entitlements.expected` in `aem-audits.yaml` lists one pair and so grades them `declared` without flagging it — **the audit config is behind the corpus.**
+- ⚠️ **A skill with no entitlement declaration is offered to every org that reaches the manifest.** Red means more exposure, not less. 44 of 126 declare nothing.
+- ⚠️ **Layer 1 is invisible.** `ENTITLEMENT_FILTERING_ENABLED` is a server env set by AO ops and sits in no repository, so no gating statement is verifiable from git.
+
 ### 🔴🔴 MON 2026-08-17 — THE BUG BASH CANNOT RUN AS PLANNED UNTIL ONE OF THESE IS DECIDED
 
 > Found 2026-08-15. Full read: the 2026-08-14/15 block in [[project_aem_agents_intelligence]]. Mechanics: [[reference_aov2_marketplace_manifest]] 08-15 addendum.
@@ -50,12 +69,9 @@ metadata:
 - 🔵 **QUOTE CARSTEN'S ONCALL LINE IN THE MONDAY REMINDER** — *"each team not in the monorepo on GA date has to take over oncall for one month completely"* (08-13, manifest thread). An architect attaching a personal cost is stronger than another red audit row, and nobody has repeated it.
 - 🆕 **CONRAD WOLTGE HAS THE COWORKER "LEAD" PER JEAN-MICHEL** (Bertrand, DM 08-13 09:15, *"ah ah"*; he forwarded the Loni note on). **Watch what "lead" means in practice and whether Pedro's GA authorship survives it.** [[feedback_position_over_merit]]
 
-### 📕 CLOSED 2026-08-13/14 — THE MANIFEST DECISION AND ITS EXECUTION
+### 📕 CLOSED 2026-08-13/14 — THE MANIFEST DECISION (full read: shard `..._ARCHIVE_2026-W33.md`)
 
-> Compressed 2026-08-16. Full read: the 2026-08-13/14 block in `project_aem_agents_intelligence_ARCHIVE_2026-W33.md` and the matching Focus blocks in the AAI Status & Todo.
-
-- ✅ **`cx-coworker` decided 08-13, shipped dev+stage 08-14 16:04** (`aep-ai#10608`, Lenard Palko, approved Gerald Prendi). Reach 23 → 86 of 241. Carsten: prod may be populated before 08-24 while entitlements are in place.
-- ⏳ **Two residuals still gating.** Does `aep-ai#10061`'s `deferred` setting on One AEM MCP travel to `cx-coworker` (Corey filed it GA-blocking)? And **fifteen of sixteen ported plugins were unexercised** — ✅ **partly closed 08-15, Pedro ran the Cloud Manager skill end to end on stage**; the rest still have no owner.
+- ⏳ **Two residuals still gating.** Does `aep-ai#10061`'s `deferred` setting on One AEM MCP travel to `cx-coworker` (Corey filed it GA-blocking)? And **fifteen of sixteen ported plugins are still unexercised** — Pedro ran the Cloud Manager one on stage 08-15, the rest have no owner and the demo is 08-18.
 
 ### 🆕🔴 MON 2026-08-17 COB — THE TWO DEADLINES PEDRO SET HIMSELF
 
@@ -107,16 +123,13 @@ metadata:
 
 ### 🔴 2026-08-07 → 08-24 — BERTRAND IS ON PTO FOR THE RUN-UP, BACK ON GA DAY
 
-- ✅ **CORRECTED 2026-08-10 from his Slack status — he returns 08-24, the GA day itself.** The prior "returns AFTER 08-24 / misses the GA" line was wrong. He misses **08-10, the 08-14 sign-offs and the 08-17→21 bug bash**, then lands the day of the GA and the announcement **with zero runway**.
-- ✅ **SENT 2026-08-10 13:37 CEST** (DM `DQ6H0AV7H`, ts `1786361855.054289`), with the 08-10 audit catalogue linked as the readiness receipt.
-- **⏳ WEEKLY UPDATES PROMISED IN THAT DM — due 08-14 and 08-21.** 🔑 **The 08-21 one is the pre-read: it is the last thing he sees before landing on GA day.** Format is already dictated by Bertrand's own 07-21 review ([[feedback_bertrand_status_comms]]) — concrete win first, no table detail, plain mechanisms, what is moving not "TBD".
-- ✅ **THE PREMISE SOFTENED 2026-08-10/11 — HE IS ANSWERING FROM PTO AND FAST.** Replies at 22:15, 22:43 and 08:43. The "uncovered run-up" framing below still holds for the 08-17→21 bug bash, **but he is reachable right now and that window can close at any moment.** Use it.
-- ✅ **CLOSED 2026-08-10 22:15 — THE LONI QUESTION IS ANSWERED BY BERTRAND HIMSELF.** *"et donc oui, c'est mieux et important de tenir Loni au courant (cc: me)"*. He said **cc me**, not route through PMM. ⏳ Note drafted 08-11, **goes out Wed 08-12 morning**; Bertrand asked to review first (*"Oui je veux bien relire avant"*, 22:43). ⚠️ **The draft claims *"Bertrand has reviewed this"* — false until he actually replies. Check before send.** Jaclyn stays the interim reporting line, never the escalation path.
-- 🔴 **DATE DRIFT IS THE REAL EXPOSURE NOW.** In 24h Bertrand got **four** answers on GA scope, **three** panel dates (09-11 · 09-21 · *"milieu-fin novembre"*), **two** bug-bash dates (17-21 vs 19) and **two** activation dates (25 vs 26). ✅ Panel settled at **09-21 TBC** (Pedro corrected Slack + the note, 08-11); the November figure is withdrawn. **He is cc'd on the Loni note — every remaining divergence is visible to him.**
-- **🔴🔑 AND THE LONI PATH GOT ROUTED THROUGH PMM THE SAME EVENING.** Tina Ngo, 08-10 18:27, group DM `C0B20PQDEG0`: *"before you let loni know, can you tell me first? think we should communicate a joint plan PM/PMM"*. Pedro agreed at 18:32, *"let me draft as joint plan and it to you first"*. **Reasonable ask, and not hostile — but on the day he was weighing going direct, he became co-author instead of sender.** ⏳ **Watch whether the joint plan actually reaches Loni, and whose name is on it** ([[feedback_position_over_merit]]). ✅ **HANDLED 2026-08-11 BY SPLITTING THE ARTIFACT, NOT MERGING IT.** A status to a VP has one author; a GTM plan has two. Pedro sent Tina a **one-sentence PMM placeholder to replace by EOB 08-11**, with the note going Wed morning either way — she is named and credited, he stays the sender, and the message is not hostage to her calendar. 🔑 **The reusable move: give the peer a bounded block with a deadline, not a review right over the whole document.** ⏳ Still watch whether she replaces it in time and whether the joint GTM plan ever lands.
-- **Two slots left blank on purpose, only Pedro can fill them:** what he does if the **AI Ethics sign-off on EPA** is not there by 08-21, and **who covers escalation 08-10 → 08-21**.
-- 🔑 **The gap is narrower than first framed but sharper — the run-up is uncovered and he lands cold on announcement day.** The ask is a named cover for those two weeks plus a pre-read before the 24th. Nobody is named today. ⚠️ **Ian Boston is away too** (08-06, *"if you want to revert that while I am away, please feel free to take the approval over"*).
-- **⏳ Owed on his return** — two lines with what actually happened, the day he is back. The landing note is what makes the heads-up worth having sent.
+> Compressed 2026-08-17 — the resolved half (his return date, the 08-10 heads-up, the Loni question, the date drift, the Tina artifact split) is in `watches_ARCHIVE_2026-08.md`, grep `BERTRAND IS ON PTO`. Only what is still owed stays here.
+
+- 🔴 **THE 08-14 WEEKLY IS WRITTEN BUT NOT SENT.** Pedro drafted the full report 08-16 (`20260816 - Report to Bertrand`). **Owed before it goes:** an exec summary, the fifth blocker (`lifecycle: experimental`), a prod line (11 skills in 1 plugin, none of the 16 stage plugins), the dead OBO link, and the 38-of-71-not-64 denominator. Format per [[feedback_bertrand_status_comms]].
+- 🔴 **THE 08-21 UPDATE IS THE PRE-READ** — the last thing he sees before landing on GA day 08-24 with zero runway.
+- **Two slots only Pedro can fill:** what he does if the **AI Ethics sign-off on EPA** is not there by 08-21, and **who covers escalation to 08-21**. Nobody is named. ⚠️ Ian Boston is away too.
+- **⏳ Owed on his return 08-24** — two lines with what actually happened. The landing note is what makes the heads-up worth having sent.
+- ⏳ **Still watch the joint PM/PMM GTM plan with Tina Ngo** — whether it ever reaches Loni and whose name is on it ([[feedback_position_over_merit]]).
 
 ### 🔴🔑 WED 2026-08-12 — THE MANIFEST DECISION (out of the 08-10 owners call, which HAPPENED — full read: shard `project_aem_agents_intelligence_ARCHIVE_2026-W33.md`, grep `THE OWNERS CALL`)
 
@@ -143,10 +156,9 @@ metadata:
 - **⏰ Also due Tue AM UK:** the AEM Agents Reporting Status **ahead of Jean-Michel's staff call**, bot reminder cc Jaclyn. Pedro has just told Bertrand he reports via Jaclyn, so this is the surface that carries it.
 - **⏳ Answer Corey's 08-10 16:52 bar question precisely** — warnings vs failures, and hidden vs customer-facing skills. **That is the 0-vs-4 and the 87-vs-98.**
 
-### 📕 CLOSED 2026-08-10 — the pre-call state of the owners call (compressed 2026-08-14; full text in `watches_ARCHIVE_2026-08.md`, grep `pre-call state`)
+### 📕 CLOSED 2026-08-10 — the pre-call state (full text in `watches_ARCHIVE_2026-08.md`, grep `pre-call state`)
 
-- **The three residuals that are still live and are tracked above or in the project memory:** the **seven agent-map decisions only Pedro can take** (51 of 88 skills with no agent, so no agent-cut number is publishable) · **AI Ethics on EPA** (*"team will evaluate end of Aug"*, after both 08-14 and 08-24) · **`skill_inclusion_policy` rewards silence** (zero of 217 manifests use it; absent defaults to `stable`, which would delete AEM's honest 62-of-63 `experimental`).
-- **The 08-06 funnel it carried (0 of 87 conform / 4 conform-or-warn) is superseded** by the 08-13 run — 66 / 56 / 30 / 19. Do not requote the old one.
+- **Three residuals still live:** the **seven agent-map decisions only Pedro can take** (51 of 88 skills with no agent, so no agent-cut number is publishable) · **AI Ethics on EPA** (*"team will evaluate end of Aug"*, after both 08-14 and 08-24) · **`skill_inclusion_policy` rewards silence** — zero manifests use it and absent defaults to `stable`. 🔑 **Sharper 08-17: every AEM skill declares `experimental`**, so that default would silently flip the whole estate.
 
 ### 🔴🔑 WEEK OF 2026-08-10 — RUBIN ([[project_aem_agents_intelligence]] 2026-08-06 RUBIN SYNC block)
 
@@ -270,10 +282,9 @@ metadata:
 
 - ⚠️ **THERE IS NO AEP-IMPOSED "WEDNESDAY DEADLINE". Do not escalate on one** — it would be a wrong fact in front of Bertrand. The RCA is retrospective SEV3; the only time signal was a revert-hold window.
 - ✅ **The revert is in place and works.** No outage. Blast radius was **Governance MCP only** (other AEM MCPs have no client_id enforcement).
-- ✅ **`correct:` 2026-08-16 — THE OBO GAP IS MUCH SMALLER THAN THIS SECTION SAYS, per the 08-13 `#p42-architecture` thread** → https://adobe.enterprise.slack.com/archives/C09KKLW1N86/p1786612368780989. **Jabran Asghar, verbatim:** *"We already OBO-exchange the incoming token before calling AEM, and the exchanged token carries our `client_id`, not `gpt_power_client` — so AEM effectively never sees `gpt_power_client` on those calls. The wiki's 'swap to an allowed client_id' is largely already there. The piece that's not there yet… is the 'only allow `gpt_power_client` when it's Coworker' check. Today nothing in our code reads the `act` claim."* **Tanju:** *"We already enforce client ID validation, and extending that enforcement to the act claim is straightforward."* → **the swap exists, the missing piece is one named check, and two engineers call it straightforward.** ⚠️ Scope is the **AEM MCP servers**, not every path.
-- 🔴 **But no direction is concluded. Carsten Ziegeler, 08-13, verbatim:** *"we had various discussions around this topic since the CSO, none got to a final conclusion."* His options write-up is wiki **`4003355459`** → https://wiki.corp.adobe.com/spaces/AEMCSMC/pages/4003355459/20260813+Supporting+Coworker+with+OBO+enabled (Confluence MCP returns no-permission on it — read it on VPN).
-- 🔴 **The architecture fight framing still stands at fleet level:** the RCA says allowlist `gpt_power_client` on a team's own MCP server; **Ian Boston blocks allowlisting on the AEM fleet** (*"all traffic must go via the service proxy"*). **`GRANITE-70593` must decide.**
-- 📍 **The incident record moved repo.** The 07-15 runbook is now `Adobe-Experience-Platform/**aep-ai**/services/cx-gateway/docs/runbooks/incidents/2026-0715-Governance-OBO-ClientID.md` — the `.../ao/...` URL Felix sent on 07-17 is the pre-rename path. 🟢 Alex Trifan agreed to request-signing with a service token instead of re-pushing. ⏳ **Watch: does Ian's commentable proposal land, and does the Coworker team hold the re-push until the proxy is in place.**
+- ✅ **`correct:` 08-16 — the OBO gap is ONE named check, not an architecture fight.** Jabran: the AEM MCP servers already OBO-exchange the token so AEM never sees `gpt_power_client`; what is missing is the *"only allow it when the caller is Coworker"* check on the `act` claim, which Tanju calls straightforward. Thread → https://adobe.enterprise.slack.com/archives/C09KKLW1N86/p1786612368780989. Scope = the AEM MCP servers, not every path.
+- 🔴 **But no direction concluded. Carsten, 08-13:** *"none got to a final conclusion."* Options wiki **`4003355459`** (Confluence MCP no-permission — read on VPN). **`GRANITE-70593` still owns the fleet-level call** (RCA says allowlist on a team's own server, Ian Boston blocks it on the AEM fleet).
+- 📍 **Runbook moved repo** — use `Adobe-Experience-Platform/**aep-ai**/…/2026-0715-Governance-OBO-ClientID.md`; the `/ao/` URL is dead. 🟢 Alex Trifan agreed to request-signing with a service token instead of re-pushing. ⏳ **Watch: does Ian's commentable proposal land, and does the Coworker team hold the re-push until the proxy is in place.**
 - **🔑 VW is the shaping test case** — co-innovation wants **only Governance for specific people**. Ian answered the per-AGENT half; **the per-PERSON half is still unanswered.**
 - ⏳ **Wouter's Tokyo test is still partial** — AEP/CJA/AJO work; the AEM part was blocked by env startup failures, **not** the client-id path. The AEM-skills-through-Coworker question is unanswered end to end.
 
