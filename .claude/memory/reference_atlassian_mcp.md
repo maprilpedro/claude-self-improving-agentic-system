@@ -28,6 +28,12 @@ metadata:
 - Some items have stale parents in JIRA — e.g. LLMO-4141 has JIRA parent DX-1134 (Closed) while Slack source doc places it under LLMO-4023.
 - **🔴 `confluence_create_page` has NO view-restriction parameter** (takes only `space_key` + `title` + `content` + optional `parent_id`/`content_format`/`emoji`). The MCP **cannot make a page private.** To publish something sensitive: create it in Pedro's **personal space** (restricted to him by default), or set view-restrictions **manually in the Confluence UI** right after creation. Never assume an MCP-created page in a team space is private. (Surfaced 2026-06-17 publishing the Coworker proposals page.)
 - **Token expires** — `confluence_search` / page calls return `401 Authentication failed` when the connector token lapses. Fix = re-auth the Atlassian connector (claude.ai → Connectors), not retry. Hit 2026-06-17.
+- 🔴 **2026-08-17 — THE CONFLUENCE HALF CAN DIE WHILE JIRA KEEPS WORKING, AND ITS ERROR MESSAGE LIES.** `confluence_get_page` returned *"There is no content with the given id, or the calling user does not have permission to view the content"* for **every** id tried, including `3815569799` (Brand Concierge), which this file records as previously readable. `confluence_search` returned **HTTP 404**. In the same session `jira_get_issue` worked normally. → **the whole Confluence side was down, not one page's permissions.**
+  - **Diagnose in this order, it takes 30 seconds.** (1) hit any *known-good* page id, not only the one asked for; (2) run `confluence_search` — a **404 means the Confluence endpoint itself, not a permission**; (3) call a JIRA tool to see whether the connector is authenticated at all.
+  - **Read the error literally and do not repeat it to Pedro as "you don't have access to that page".** It is Confluence's generic 404/403 string and it says nothing about that page.
+  - **Network is a separate axis.** `curl` on `wiki.corp.adobe.com` returned **302 → `login.action?...&permissionViolation=true`**, i.e. host reachable, request simply anonymous. **A reachable host plus a working JIRA plus a dead Confluence = connector config, not VPN and not the page.**
+  - ⚠️ **Retro-suspect earlier "no-permission" notes** — the `4003355459` OBO-options wiki was banked in `watches.md` as *"Confluence MCP no-permission"*. That may have been this same failure, misdiagnosed at the page level.
+  - **Fallback while it is down:** ask Pedro to paste the page or an export. Do not present the wiki as unreachable in principle.
 
 **How to apply:**
 
