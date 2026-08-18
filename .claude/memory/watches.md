@@ -27,6 +27,13 @@ metadata:
 - 📅 **TUE 08-17 — KR 1e review**, notes at `AAI - Project Folder/20260817 - OKR Review KR1e - Speaking Notes.md`. **Time markers are stale after the quality beat was cut** — renumber on the read-aloud.
 - 📅 **TUE 08-17 — Loni follow-up with Tina Ngo.** Agenda is the narrative for why AEM stays critical in an agentic world, and how agents, skills, MCP, context, Coworker and Claude/ChatGPT fit one operating model. **That is a Senior-Director-shaped ask arriving unprompted from a VP** — [[feedback_position_over_merit]].
 
+### 🆕🔴 WED 2026-08-19 — ASK NAMITA: THE DATA-USAGE OPT-OUT IS NOT THE ROLLOUT OPT-OUT
+
+- 🔴 **How does Coworker treat orgs that have opted out of their data being used for product enhancement?** Nobody has written it down, and it is a different object from the rollout opt-out Namita already runs (the admin email that lets an admin refuse the flip). **Two opt-outs wearing one word** — do not let them be answered as one.
+- 🔑 **The object that makes it his question, not a relay.** `20260814-AEM_COHORTS.xlsx` already carries the adjacent fields — **`No GenAI` on 45 orgs and `Unknown GenAI Rider Status - Sensitive Industry` on 113**, against 104 rows marked `Opt out`. **Ask whether those three are the same restriction, overlapping ones, or unrelated.** If they are unrelated, up to 158 orgs sit in the migration list with a consent question nobody has asked.
+- 🔴 **And it lands on Pedro's own lane, which is the part to say out loud.** Prompt and response events flow into the observation pipeline and into Rubin ([[reference_ai_observation_architecture]], [[project_aem_agents_intelligence]] Rubin block) — *"regardless of their origin, if they touch AEP AO we should have it in Rubin"*. **So a customer who refused product-enhancement usage may still be feeding the reporting layer Pedro owns.** Ask who enforces the exclusion and at which layer. ⚠️ Adjacent to Ian Boston's residency red line, do not merge them.
+- ⏳ **Where:** the rollout weekly / group DM `C0BQ4L7BVL2`. Namita runs the rollout while Rachel is out ([[reference_namita_scope]]).
+
 ### 🔴 GA-BLOCKER THE LIST DOES NOT HAVE (found 2026-08-17)
 
 - 🔴 **Every AEM skill declares `lifecycle: experimental`** and the field must change before any of them ships. *"No skill anywhere declares anything else."* Absent from the four-blocker list and from the Bertrand report.
