@@ -15,17 +15,25 @@ metadata:
 
 ## Open
 
-### 🔴🔴 GA WEEK — THE THREE OUTWARD MOMENTS AND WHAT EACH CAN GET WRONG (set 2026-08-17)
+### 🔴🔴 MON 2026-08-24 — GA DAY, AND FIVE THINGS ARE OWED AROUND IT (set 2026-08-21)
 
-> Full read: the 2026-08-16/17 block in [[project_aem_agents_intelligence]].
+> Full read: the 2026-08-19/21 block in [[project_aem_agents_intelligence]].
 
-- 📅 **TUE 08-18 — AEM & Agentic Web Field Global All-Hands, 10 min.** Pedro 5 + **Greg Klebus live demo** 5, to **AEM customers and sales**. 🔴 **It is two days before the confidence call**, so nothing said there can rest on the bug bash.
-- 🔴 **Demo safety, and it is the one that fails in public.** Plugins are on **dev+stage only**; prod carries 11 skills in 1 plugin. **Greg must run end to end on the stage shell, on the machine and account of the day.** Cleanest surfaces are `experience-generation` (18 of 18 declared) and `experience-governance` (14 of 14). **Avoid** `aem-edge-dispatcher`, `aem-platform-codeveloper`, `aem-pipeline-troubleshooter` — nothing declared, mostly hidden.
-- 🔴 **Three unsourced claims still in the deck** — *"gapping 9 months of AI technologies"*, *"state of the art"*, and **`memory`** as a named Coworker capability. ⚠️ `Create a new site` has **no matching skill** in the catalogue.
-- 🔴 **`Progressive rollout to all AEM customers` must read `all AEM Cloud Service customers`**, and the slide calls two different things `GA`.
-- ⏳ **Verify the official product name.** The public page is `business.adobe.com/uk/products/**cx-enterprise-coworker**.html` — likely **CX Enterprise Coworker**, not "Adobe Coworker". Sales will repeat whichever he says. (The page is unreachable from Claude, a WAF blocks the product path — paste it.)
-- 📅 **TUE 08-17 — KR 1e review**, notes at `AAI - Project Folder/20260817 - OKR Review KR1e - Speaking Notes.md`. **Time markers are stale after the quality beat was cut** — renumber on the read-aloud.
-- 📅 **TUE 08-17 — Loni follow-up with Tina Ngo.** Agenda is the narrative for why AEM stays critical in an agentic world, and how agents, skills, MCP, context, Coworker and Claude/ChatGPT fit one operating model. **That is a Senior-Director-shaped ask arriving unprompted from a VP** — [[feedback_position_over_merit]].
+- 🔴 **SEND THE LONI EMAIL, and four fact divergences were still open when the session ended.** (1) `Monday 21th` must read **31st**, and `announced publicly` on that date contradicts his own 08-24 GA definition — decide which is true. (2) `no release blocker has been raised - covering AEM and Coworker` is contradicted by `NXUI-1904`. (3) The Major count moved 10 → 11 against JIRA's 4 — pin it to a source. (4) `with clear review dates` is false for DA and Governance.
+- 🔴 **THE GOVERNANCE MCP ARB REVIEW IS PEDRO'S AND IS STILL `TBD`.** `DXARB-1064` exists (filed by Marc Pfaff); Christian named Pedro on 08-19 to chase **Philippe / Marc's stand-in** for a session. **It is the only one of the three with no date, and it is the one he owns.**
+- 🔴 **BERTRAND LANDS ON GA DAY WITH ZERO RUNWAY.** The 08-14 weekly was never sent and the 08-21 pre-read is the last thing he reads before landing. Format per [[feedback_bertrand_status_comms]].
+- ⏳ **KEEP TRENT DAVIES'S WRITTEN AGREEMENT.** His exception to *"all MCP servers behind the Coworker Gateway + ARB review"* is what the GA rests on and **it is not visible in Slack**. Same for Coworker's agreement to start deploying.
+- 📅 **2026-09-02 — the feature-parity plan for paying/SKU customers**, Pedro's own date in the Loni mail. ⚠️ **UHG is named in it as on-hold and UHG is already provisioned** — the sentence describes intent, not state.
+- 🔵 **BEFORE 2026-09-01, read one blog post — it decides whether [[H-008]] lives.** *"Razor + Blades, Slower This Time"*, AEM, 08-20 → https://re-think.adobe.com/en/publish/2026/08/20/aem-blog-razor-blades-slower-this-time. **Discriminant: is razor-and-blades used as a justification for giving the tool away, or as a pre-planned model being reported on?** First second-sighting in eight weeks; H-008 auto-kills on 09-01 without it.
+- 🔵 **09-01 review input — the instrumentation candidate now has a MISS as well as two hits.** 08-15 he reproduced four AO-ops questions in a browser; 08-16 he answered Raul's entitlement question from his own audit output; **08-19 he asked Raul for a Gainsight contact when Huong Vu's written ask had been sitting in his own Slack for 13 days.** Two hits and one miss in five days. **Still deliberately not parked** (cap full, all one programme).
+
+### 📕 CLOSED 2026-08-21 — THE THREE OUTWARD MOMENTS ALL HAPPENED
+
+> 08-17 KR 1e review · 08-17 Loni follow-up with Tina Ngo · 08-18 Field All-Hands with Greg's live demo. Three residuals only.
+
+- ⏳ **Verify the official product name before the next outward artifact.** Public page `business.adobe.com/uk/products/cx-enterprise-coworker.html` points to **CX Enterprise Coworker**, not "Adobe Coworker". Unreachable from Claude, a WAF blocks it — paste it.
+- ⚠️ **Three unsourced claims are now in a deck that will be reused** — *"gapping 9 months of AI technologies"*, *"state of the art"*, and **`memory`** as a named Coworker capability. Also `Create a new site` has no matching skill. **Source or cut before the deck travels again.**
+- ⚠️ **`Progressive rollout to all AEM customers` must read `all AEM Cloud Service customers`** wherever that slide is reused — and the CS-only line is itself contradicted by `dma_aem_ams` below.
 
 ### 🆕🔴 WED 2026-08-19 — ASK NAMITA: THE DATA-USAGE OPT-OUT IS NOT THE ROLLOUT OPT-OUT
 
@@ -43,24 +51,14 @@ metadata:
 - ⚠️ **A skill with no entitlement declaration is offered to every org that reaches the manifest.** Red means more exposure, not less. 44 of 126 declare nothing.
 - ⚠️ **Layer 1 is invisible.** `ENTITLEMENT_FILTERING_ENABLED` is a server env set by AO ops and sits in no repository, so no gating statement is verifiable from git.
 
-### 🔴🔴 MON 2026-08-17 — THE BUG BASH CANNOT RUN AS PLANNED UNTIL ONE OF THESE IS DECIDED
+### 📕 CLOSED 2026-08-21 — THE BUG BASH RAN 08-18/19 ON THE PROD SHELL AND THE ENVIRONMENT QUESTION IS SETTLED
 
-> Found 2026-08-15. Full read: the 2026-08-14/15 block in [[project_aem_agents_intelligence]]. Mechanics: [[reference_aov2_marketplace_manifest]] 08-15 addendum.
+> The whole "cannot run as planned" section is closed. Full history: git, and the 2026-08-14/15 + 08-15-evening blocks in shard `project_aem_agents_intelligence_ARCHIVE_2026-W33.md`. **Outcome: 24 tickets on label `p42-ga-bug-bash`, 1 Blocker, 4 Critical, 4 Major, 15 Normal, ZERO closed, 7 unassigned.**
 
-- 🔴 **THE TARGET IS A PROD ORG AND THE PLUGINS ARE ON DEV+STAGE ONLY.** AEM Showcase `38931D6666E3ECDA0A495E80@AdobeOrg` sits in **prod segments only, zero of 30 stage segment files** — so the stage shell is not an option, it is an identity gate not a config one. **Bug bash starts Tue 08-18.**
-- 🔴 **AND THE PROD PORT IS BIGGER THAN ANYONE HAS SAID: `prod/cx-coworker.yaml` HAS NO `api_configs` AT ALL.** Pushing only the plugin list ships AEM skills that cannot call AEM. **Nobody has costed porting the block.** Ask Lenard Palko + Ian Reasor + Grant Russell, and reframe from "endpoints" to **"who ports `api_configs` and is it doable by Monday COB"**.
-- 🟢 **The pattern to copy rather than invent:** prod already carries per-server `env_overrides` with a `stage:` branch for *"stage IMS users"* — CJA, AJO, GenStudio, Marketo, Workfront all declare one. AEM has none.
-- ✅ **YANIRA'S BLOCKER IS CLEARED (she wrote 08-15 03:32 → https://adobe.enterprise.slack.com/archives/D018PT00155/p1786757531908129, Pedro answered that evening).** She had assigned **no author roles** because program, environment and AEM role were all unknown. Her prep stands: user group `AEM Agents on Coworker - GA Bug Bash - Authors` + the **CM Developer Role** required for EDA skills. ⏳ **Her thread to Florin Florescu is still unanswered** → https://adobe.enterprise.slack.com/archives/C0BARAMM89Z/p1786714657830989?thread_ts=1786714378.824629&cid=C0BARAMM89Z
-- ✅ **THE STAGE ROUTE IS DEAD, PROVEN NOT ARGUED (08-15 evening).** `401 invalid OAuth token`, different IMS org. The fallback org `AEM Sites Engineering` returns `403025` + `User is not provisioned` and has no Admin Console in its launcher. → **The bash runs on the prod shell.**
-- ✅ **THE MERGED PLUGIN SET WORKS** — `/aem-cloudmanager-program-management` made a live API call and returned 13 programs on stage. **First real exercise of it, by Pedro.**
-- 🔴 **EVERY WALL WAS AN ENTITLEMENT, FIVE FOR FIVE.** Admin rights are not access. **The dominant failure mode on Tuesday will be product profiles, and the bash would report provisioning as agent quality.**
-- 📍 **THE THREE URLS TO HAND ~30 BUG BASHERS (resolved 2026-08-17).** AEM stage-author **`https://author-p149891-e1546482.adobeaemcloud.com`** (convention `author-p<program>-e<environment>`; prod-author swaps `e1546482` → `e1546481`) · Experience Hub **`https://experience.adobe.com/#/@aemshowcase/experiencemanager/`**, then pick the environment in the picker. ⚠️ **Confirm the tenant slug `aemshowcase` belongs to `38931D6666E3ECDA0A495E80@AdobeOrg`** and not another Showcase org before distributing.
-- 🟢🔑 **AND THE PROD SHELL IS THE RIGHT ONE EVEN TO REACH THE STAGE AUTHOR.** `api_configs.aem` is `kind: dynamic` with `host_allowlist: adobeaemcloud.com`, so **the AEM environment is passed per call and is independent of which shell you open**. Identity is what gates, and Showcase is a prod IMS org. → **there is no EH or Coworker on stage for Showcase, and there does not need to be.** ⚠️ **This does not move the plugins** — they are still dev+stage only.
-- ✅ **YANIRA ANSWERED 2026-08-15 evening, Pedro** — `149891` · `1546481` (prod-author; stage-author is `1546482`) · `AEM Users` + `AEM Sites Content Managers`. 🔑 **Note for Monday: the AEM environment does NOT depend on Carsten.** Options 1 and 2 both point at Showcase, so program `149891` holds either way; only the stage-org option would move it and it is ranked last. **So the product-profile attachment can proceed before his answer, and it is the difference between finding the entitlement wall on Sunday or on Tuesday morning with 30 people watching.**
-- 🟢 **BEST OPTION: a Showcase-scoped prod manifest**, precedent `cx-coworker-lloyds.yaml` / `cx-coworker-prada.yaml`. Dissolves Ian Reasor's regression objection. ⏳ Ask Lenard or Gerald how an org is bound to a manifest.
-- 📤 **Posted 08-15 21:23**, Carsten group DM → https://adobe.enterprise.slack.com/archives/C0BPSMZBRPB/p1786821819886959. No replies at 21:30. **Missing from it: the 401 itself, the lloyds/prada precedent, and a date.**
-- ⏳ **Ask Marius Duta which shell the EDA bug bash used** on Showcase. 🔑 **Sharper now — ask which *instance*: `eda-dev-author`, or one of the `CxCowork-2` set.** The existence of that program is evidence he already answered it in practice.
-- ⏳ **Yanira's readiness call, Mon 13:30 CET** with agent owners. Her two open questions: what role exactly, and which of Showcase's many programs. She asked **Florin Florescu** whether the Dev Agent needs a Developer role — unanswered since 08-13.
+- 🔴 **THE ONE BLOCKER, AND AEM RAISED IT.** `NXUI-1904`, mailto links prepended with the Unified Shell base URL. Reporter **Yanira**, screenshots **Eugene**, found in the AEM bash 08-18. Filed into **NXUI** under `NXUI-1902 AEM Coworker MVP Launch`, assignee **Tim Lynn**, PM Cole Connelly. **`New`, zero comments, zero PRs.** ⚠️ Its title says *"Coworker Panel Bugbash 4 August 14"* only because it was **cloned from `NXUI-1903`** — do not let that date mislead a reader. Same root cause as `SITES-49997`. **Ask for an owner and a date.**
+- 🔑 **`AEMAGT-2581` is the only cross-agent finding and it is filed `Normal` and unassigned** — *"Delete/cleanup is systematically unreliable across AEM agents (3 of 4 surfaces)"*. At that priority nobody will look at it.
+- ⏳ **Two prod-manifest residuals survive the bash.** `prod/cx-coworker.yaml` still has **no `api_configs`**, and the Showcase-scoped prod manifest (precedent `cx-coworker-lloyds.yaml` / `-prada.yaml`) was never built. Both matter the day prod carries more than 11 skills.
+- ⏳ **Still unanswered:** Yanira's thread to **Florin Florescu** on whether the Dev Agent needs a Developer role (since 08-13), and **Marius Duta** on which instance the EDA bash used.
 
 ### 🔴 2026-08-17 — THE ONE GATE THAT MAY BE THE ONLY GATE
 
@@ -84,13 +82,13 @@ metadata:
 
 - ⏳ **Two residuals still gating.** Does `aep-ai#10061`'s `deferred` setting on One AEM MCP travel to `cx-coworker` (Corey filed it GA-blocking)? And **fifteen of sixteen ported plugins are still unexercised** — Pedro ran the Cloud Manager one on stage 08-15, the rest have no owner and the demo is 08-18.
 
-### 🆕🔴 MON 2026-08-17 COB — THE TWO DEADLINES PEDRO SET HIMSELF
+### 📕 CLOSED 2026-08-21 — THE 08-17 COB DEADLINES AND THE FOUR-BLOCKER LIST BOTH RAN THEIR COURSE. Residuals kept:
 
-- 🔴 **`required_entitlements` in every skill.** Mandate sent 08-13 09:44; five teams moved inside eight hours (Governance PR #44 · EPA `AEMAGT-2511` · Forms `AEMAGT-2513` · EDA done · Discovery + Content Optimization done). **Carsten adds a monorepo PR check next week**, which makes it structural. Chase the teams that did not answer.
-- 🔴 **Bug bash details and use cases on wiki `4002944931`**, target **AEM Showcase `38931D6666E3ECDA0A495E80@AdobeOrg`**. ⚠️ **Testing has already started decentralised** (Corey and Christian pushed back on waiting; EPA and EDA both ran sessions 08-13) — **the 08-20 confidence declaration will rest on a week of uneven coverage, so say what it covers.**
-- ✅ **BRIAN'S EH ASK CLOSED 08-15 — Pedro handled it live with him, verbally.** ⏳ **Residual, and it is the only one — confirm the slide itself was edited in `FY26 Q4 AEM Roadmap.pptx` (~slide 57) before the 08-17 deadline.** Done-live closes the conversation, not the document. Links in [[project_experience_hub]].
-- ⏳ **Sorin updates Experience Hub 08-17** (Coworker input, navigation item, announcement + top-bar message), validating on AEM Showcase, tracking thread open with an `EH — Checklist GA 24th` doc. **The EH placement answer is arriving as execution rather than as the written decision that was owed.**
-- ⏳ **Tanju is back 08-17** — the One-AEM-MCP-as-single-OBO-fix-point question is his. Object now exists: Carsten's wiki `4003355459`.
+- 🔴 **`required_entitlements` — chase the teams that never answered.** Five moved inside eight hours on 08-13 (Governance PR #44 · EPA `AEMAGT-2511` · Forms `AEMAGT-2513` · EDA · Discovery + Content Optimization). **Carsten's monorepo PR check makes it structural — confirm it landed.**
+- ⏳ **Confirm the roadmap slide was actually edited** in `FY26 Q4 AEM Roadmap.pptx` (~slide 57). Brian's ask was closed verbally 08-15; the 08-17 document deadline passed without confirmation. Links in [[project_experience_hub]].
+- ⏳ **Suggested prompts in Coworker still unreconciled** — decision #3 of the 07-03 chat-entry note, Eugene wants them hidden before 08-24. Route Fu Chi (pipeline) + Zeus Courtois (AO2). EH-side.
+- ⏳ **Cole Connelly's AEM instance-selection outline** is still owed, and **Ilya Grafutko's front-matter document link** still has no object.
+- ⚠️ **Two unverified claims went public on 08-12 and are still open** — *"each agent team has run its own bug bash"* and *"we are running co-innovation projects and PODs with customers"* against Ian Boston's public 07-31 *"CoWorker is not enabled for AEM customers yet"*. **Close them quietly rather than be corrected.**
 
 ### 🆕⚠️ 2026-08-13 — BEFORE QUOTING ANY READINESS NUMBER
 
@@ -102,17 +100,6 @@ metadata:
 - 🔴 **VERIFY THE NON-BLOCK EXISTS, ask Yanira.** The 08-12 EPA decision rests on an informal AI Ethics non-blocking; **what is on file is Legal/ORR/Security only, no named person for AI Ethics.** `decisions/2026-08-12-announce-epa-on-informal-ai-ethics-non-block.md` ⚠️ **Sharper now: on 08-12 evening a second EPA skill set (Content Fragments) was also cleared of AI Ethics, this time by the four people in the thread. Two clearances in two days, no named reviewer on either.**
 - 🔴 **CONFIRM THE GA SCOPE IS CLOUD-SERVICE-ONLY, same ask to Yanira.** Pedro told **three PMM** (Tina + Haresh + Vaishnav) *"we aim for GA on CS only"* on 08-12, sourced to a 2026-04-13 statement that itself says Managed Services agents *"may land H2"*. **PMM turns this into field messaging.** [[reference_tbyb_sku_entitlement]] ⚠️ Raul's `dma_aem_ams` flag cuts across this — if EDA entitles AMS, the CS-only line is already not what the skills say.
 - ⏳ **ROLLING GA IS NOW A TWO-TEAM PATTERN.** Brian 08-10 (dev skills on the 31st, *"we would pull things from the main manifest"*, never answered Pedro's push-back) and **Corey 08-12 (*"if we miss the 24th we'll just add them in the following week"*)**. Nobody has said no to either. **A third instance turns the single date into a start date.**
-
-### 🆕🔴 THE FOUR COWORKER GA BLOCKERS — PEDRO'S DATED COMMITMENTS, SENT 2026-08-12
-
-> Full read and the reusable move: the 2026-08-12 block in [[project_aem_agents_intelligence]]. He answered the whole list with owners and dates so it closes without being refused.
-
-- 📅 **FRI 2026-08-15 — confirm the suggested-prompts approach.** EH-side, and **decision #3 of the 07-03 chat-entry note is still unreconciled**; Eugene wants them hidden before 08-24 and cannot test in time. Route: Fu Chi (pipeline) + Zeus Courtois (AO2).
-- 📅 **MON 2026-08-17 — send Cole the AEM instance-selection outline** for the Coworker UI. His 08-05 ask, *"really painful in AI assistant"*, never surfaced in any AEM bug bash.
-- ⏳ **Chase Ilya Grafutko's front-matter document link** — Pedro asked for it in-thread and is committed to work against it *"as it stands today"*. **Without the link the commitment has no object.**
-- 📅 **TUE+WED 2026-08-18/19 — all-in AEM bug bash across every agent.**
-- 📅 **THU 2026-08-20 — AEM declares the confidence level**, on the bug bash output. 🔑 **Deliberately not "EOW"**, which would have put the decision one working day from GA and in someone else's hands.
-- ⚠️ **TWO UNVERIFIED CLAIMS ARE NOW PUBLIC AND BOTH WERE FLAGGED BEFORE SENDING.** (1) *"Each agent team has run its own bug bash"* — seven teams, and Brian said 08-10 that the 24th was unrealistic for dev skills. (2) *"We are also running co-innovation projects and PODs with customers for a couple of weeks"* — **Ian Boston, publicly 07-31, *"CoWorker is not enabled for AEM customers yet"*, and Namita runs the rollout.** **Close both quietly this week rather than wait to be corrected.**
 
 ### 🆕🔴 2026-08-11 — MCP IS AN UNDECLARED GA DEPENDENCY, AND "THE OBO DISCUSSION" IS THREE LAYERS WEARING ONE NAME
 
@@ -323,6 +310,15 @@ metadata:
 - **Cohort 1B criteria explicitly exclude AEM** (*"AEP + Apps stand alone customer (no AEM or Workfront)"*). The 7/30 final list was never confirmed produced, **and is now unverifiable from where Pedro sits** — the channel carrying it went silent 07-28 and he is not in its replacement. Most recent AEM-side statement: **Ian Boston, 07-31, *"CoWorker is not enabled for AEM customers yet."***
 - **⏳ ~mid-Sept 2026 — Forms→Rubin port**, an external 6–8-week promise made ~07-17. Forms usage invisible in reports until then. Correctly dated, no action.
 - **🔴 2026-07-31 was "code complete" for the panel and it passed.** Availability was always mid-to-late August. **The EH-side plan built on "the rail ships 07-31" still needs re-dating.**
+
+### 🟡 STALENESS + SIZE FLAGS (raised 2026-08-21 at `/consolidate`, Pedro's call on all of them)
+
+- 🔴 **The AAI Status & Todo has regrown to ~104K bytes / ~43K tokens.** It was split down to 331 lines / ~19.5K on 2026-08-06. **Two weeks later it is back to nearly twice the 24K read cap.** The archive siblings exist (`ARCHIVE 2026-08 / 2026-07 / 2026-05-06`) so the fix is mechanical, but the regrowth rate says the split alone does not hold.
+- 🔴 **`## Focus — Do in This Order` in that file still carries the Top 3 re-triaged on 2026-08-04**, and all three items are marked superseded in their own text. **Seventeen days stale on the one block whose job is to say what to do now, three days before GA.**
+- ⚠️ **Fifth consecutive flag on the EH Status & Todo `Current Status`**, now ~13 weeks behind. **Deliberately not banner-stacked in the note** — the 08-06 cleanup named stacked banners as the failure mode. It is Pedro's to refresh.
+- 🟡 **`project_aem_agents_intelligence.md` sits at ~23K tokens** after archiving two blocks to shard W33. Under the 24K read cap, above the 20K target. **Candidate for a trim at the next System Review: the superseded GA-model decision box, half of which is marked "complètement faux" and kept only for the record.**
+- 🟡 **This file hit 24.4K tokens, over the read cap, and was compressed to 22.4K here** by closing the bug-bash, three-outward-moments and 08-17-COB sections. **It regrew from ~10K in fourteen days.** The one-line rule is not holding under GA pressure.
+- 📅 **Full System Review due 2026-09-01**, eleven days out. Queue: H-008's fate (a candidate second observation now exists, see above), H-009's frozen decision arm, the parked cap, and the two size regressions above.
 
 ## History (closed)
 
