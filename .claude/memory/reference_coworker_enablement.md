@@ -25,6 +25,17 @@ The three mechanics that decide what an AEM customer sees. Confused constantly, 
 
 **→ ACTIVATION IS NOT MIGRATION.** Enabling Coworker does not remove AI Assistant. Deprecation is the second flag, and it is what cohort 3 does.
 
+🔴🔑 **CORRECTED 2026-08-25 BY PEDRO — DO NOT USE THE TWO-FLAG MECHANISM TO REASSURE A CUSTOMER.** The table above describes what the *flags* can do. It does **not** describe what happens to a customer who actually moves. **Pedro, 2026-08-24, verbatim: *"un client migre sur Coworker ne peut plus utiliser AIA."*** Claude argued the opposite twice that day, reasoning from cohort 3 (AEM Cloud Service is excluded from AIA deprecation, Ken Russell 07-14 *"cohort 3 probably doesn't have a date"*) and pushed Pedro away from a true statement he had already made.
+
+**The two objects, and they are not the same question:**
+
+| Question | Answer |
+|---|---|
+| When does AEP switch AIA off for everyone? | Cohort 3. **No date.** A two-team negotiation (Ken Russell, written, 07-14). |
+| What does a customer lose the day they migrate to Coworker? | **AI Assistant.** Immediately. Regardless of cohort 3. |
+
+**Why it matters, concretely.** A customer can migrate *before* cohort 3 forces them — that is exactly what the 08-27 internal and 08-31 TBYB batches are. For them, a capability that only exists on the AIA surface (**ABAC**) is not *"not yet available"*, it is **gone, with no replacement and no date**. Any limitation note, doc paragraph or comms line that says "AI Assistant remains available" is **false for the population being migrated**, which is the only population reading it. ⚠️ **Coexistence remains technically real** (Mark Doten confirmed flag 1 without flag 2 on 07-13) — but it is a state someone must choose, not the default a migrating customer lands in. Related: [[feedback_dont_conflate_pattern_with_object]].
+
 ✅ **CONFIRMED 2026-07-13 15:39.** Asked whether flag 1 can be set without flag 2, **Mark Doten: *"Technically, yes, but that is not my decision."*** The coexistence state is real.
 
 🔴 **AND IT OPENED A BETTER QUESTION: nobody owns the policy.** The state exists, it is **already in use** (adobe.com, AMEX), and no one has decided whether an AEM customer may run both assistants during the transition. **Practice is ahead of policy.** That decision shapes the migration experience of AEM's own customers, so AEM should hold it — Pedro took the position with Mark at 16:59 (*"coexistence is the state we need… Happy to own that position if nobody else has"*) and is awaiting his answer on who does make the call. Same shape as the parity list: an unowned decision that sets AEM's outcome, claimed rather than requested.

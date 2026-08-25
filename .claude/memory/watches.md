@@ -15,13 +15,22 @@ metadata:
 
 ## Open
 
-### 🔴🔴 MON 2026-08-24 — GA DAY, AND FIVE THINGS ARE OWED AROUND IT (set 2026-08-21)
+### 🔴🔴 TUE 2026-08-25 → WED 08-26 — GA HAPPENED, PUBLICATION SLIPPED A DAY, AND FOUR THINGS ARE DATED THIS WEEK (set 2026-08-25)
 
-> Full read: the 2026-08-19/21 block in [[project_aem_agents_intelligence]].
+> Full read: the 2026-08-24/25 block in [[project_aem_agents_intelligence]].
 
-- 🔴 **SEND THE LONI EMAIL, and four fact divergences were still open when the session ended.** (1) `Monday 21th` must read **31st**, and `announced publicly` on that date contradicts his own 08-24 GA definition — decide which is true. (2) `no release blocker has been raised - covering AEM and Coworker` is contradicted by `NXUI-1904`. (3) The Major count moved 10 → 11 against JIRA's 4 — pin it to a source. (4) `with clear review dates` is false for DA and Governance.
+- 🔴 **BEFORE 11:00 TUE 08-25 — ALISON HEIMOZ.** Her question from 08-24 15:43 is unanswered: *"Is that for the Coworker chat page, or the AEM agentic capabilities overview page, or both?"* **Third branch now: Khushwant Singh's new standalone Forms article, still a PR on his fork.** ⚠️ **She is in Basel 08-25 morning, travelling the afternoon, OOO Wednesday.** Group DM `C0BSBHKHLU9`.
+- 🔴 **WED 08-26 — THE AEM ALL-HANDS, AND BERTRAND REJECTED THE SLIDES.** He wants a **live demo** with two conversations prepared in advance, and a talk track on the routing problem of the previous generation. *"Il faut monter d'un cran."* **Not rehearsed.** The asset that clears his bar is the bug-bash data (59 skills / 1,838 queries / 540 conversations / 31 users), not the deck.
+- 🔴 **CONFIRM THE ENGINEERING GO/NO-GO BEFORE THE INTERNAL ANNOUNCEMENT GOES OUT.** Unsigned at 08-24 15:40. **Mitch Nelson `W4R5W3ZCH` + Conrad**, driven by Jaclyn. Yanira, 15:34: *"I'm going to start a slack conversation because that email will do nothing."*
+- 🔴 **THE INTERNAL ALL-ADOBE GA ANNOUNCEMENT IS DRAFTED, NOT SENT, AND CARRIES TWO FALSE CLAIMS** — *"all AEM Agents are now available"* (prod has 11 skills in 1 plugin) and *"we will reach feature parity on UI"* (the word he removed from the external doc the same day).
+- 🔴 **ANSWER THE TWO ONE AEM MCP QUESTIONS FROM GA DAY.** Apoorva 08-24 12:19 (`C0BS499NFQD`) on whether it GAs with the skills; **Anuj Kapoor via Alison** 15:45 on docs and ownership. Answer: `adobe-rnd/aem-sites-content-service`, Tanju Erinmez, `DXARB-1073` green 08-19.
+- 🔑 **ANSWERABLE FROM THE COHORT FILE — does anyone in the 08-27 internal or 08-31 TBYB batches use ABAC or the panel-dependent use cases today?** If yes, the published note undersells it: a migrating customer **loses** the capability, it is not "not yet available". See the correction in [[reference_coworker_enablement]].
 - 🔴 **THE GOVERNANCE MCP ARB REVIEW IS PEDRO'S AND IS STILL `TBD`.** `DXARB-1064` exists (filed by Marc Pfaff); Christian named Pedro on 08-19 to chase **Philippe / Marc's stand-in** for a session. **It is the only one of the three with no date, and it is the one he owns.**
-- 🔴 **BERTRAND LANDS ON GA DAY WITH ZERO RUNWAY.** The 08-14 weekly was never sent and the 08-21 pre-read is the last thing he reads before landing. Format per [[feedback_bertrand_status_comms]].
+- 🔴 **SEND THE LONI EMAIL, and four fact divergences were still open when the session ended.** (1) `Monday 21th` must read **31st**, and `announced publicly` on that date contradicts his own 08-24 GA definition — decide which is true. (2) `no release blocker has been raised - covering AEM and Coworker` is contradicted by `NXUI-1904`. (3) The Major count moved 10 → 11 against JIRA's 4 — pin it to a source. (4) `with clear review dates` is false for DA and Governance.
+
+### 📕 MOSTLY CLOSED 2026-08-25 — the 08-24 GA-day list ran its course. The two still-live reds were hoisted above; these are the dated residuals:
+
+- ✅ **Bertrand landed 08-24 and picked the work straight up** — *"ca depile, ca depile"* 11:58. The 08-14 weekly still never went; the 08-21 pre-read was the last thing he read.
 - ⏳ **KEEP TRENT DAVIES'S WRITTEN AGREEMENT.** His exception to *"all MCP servers behind the Coworker Gateway + ARB review"* is what the GA rests on and **it is not visible in Slack**. Same for Coworker's agreement to start deploying.
 - 📅 **2026-09-02 — the feature-parity plan for paying/SKU customers**, Pedro's own date in the Loni mail. ⚠️ **UHG is named in it as on-hold and UHG is already provisioned** — the sentence describes intent, not state.
 - 🔵 **BEFORE 2026-09-01, read one blog post — it decides whether [[H-008]] lives.** *"Razor + Blades, Slower This Time"*, AEM, 08-20 → https://re-think.adobe.com/en/publish/2026/08/20/aem-blog-razor-blades-slower-this-time. **Discriminant: is razor-and-blades used as a justification for giving the tool away, or as a pre-planned model being reported on?** First second-sighting in eight weeks; H-008 auto-kills on 09-01 without it.
@@ -31,7 +40,7 @@ metadata:
 
 > 08-17 KR 1e review · 08-17 Loni follow-up with Tina Ngo · 08-18 Field All-Hands with Greg's live demo. Three residuals only.
 
-- ⏳ **Verify the official product name before the next outward artifact.** Public page `business.adobe.com/uk/products/cx-enterprise-coworker.html` points to **CX Enterprise Coworker**, not "Adobe Coworker". Unreachable from Claude, a WAF blocks it — paste it.
+- ✅ **CLOSED 2026-08-24 — the official name is `CX Enterprise Coworker`.** Settled from the live doc itself, quoted by Alison Heimoz 15:19: *"New AEM agentic capabilities through **CX Enterprise Coworker**, an evolution of AI Assistant built to help you do more, faster."* Not "Adobe Coworker", not "CX-Coworker". ⚠️ **Pedro mixes all three inside single drafts — check every outward artifact for one consistent name.**
 - ⚠️ **Three unsourced claims are now in a deck that will be reused** — *"gapping 9 months of AI technologies"*, *"state of the art"*, and **`memory`** as a named Coworker capability. Also `Create a new site` has no matching skill. **Source or cut before the deck travels again.**
 - ⚠️ **`Progressive rollout to all AEM customers` must read `all AEM Cloud Service customers`** wherever that slide is reused — and the CS-only line is itself contradicted by `dma_aem_ams` below.
 

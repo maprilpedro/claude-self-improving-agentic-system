@@ -1,4 +1,4 @@
-> ## Archive shard — project_aem_agents_intelligence — ISO week 2026-W33
+> ## Archive shard — project_aem_agents_intelligence — 2026-W33a (split 1/2 for size)
 
 > ### 🔴🔑 2026-08-10 — THE OWNERS CALL. THE MANIFEST WAS THE REAL GATE ALL ALONG, AND THE AUDIT HAD NEVER MEASURED THE DESTINATION
 >
@@ -136,4 +136,3 @@
 > **📤 Posted 21:23**, Carsten group DM `C0BPSMZBRPB` → https://adobe.enterprise.slack.com/archives/C0BPSMZBRPB/p1786821819886959, three ranked options, no replies that evening. ⚠️ Missing from the post: the 401 verbatim, the lloyds/prada precedent, a date.
 > **🟢🔑 The best option is his own third — a Showcase-scoped prod manifest** with its own `api_configs`, precedent `cx-coworker-lloyds.yaml` / `cx-coworker-prada.yaml`. **Dissolves Ian Reasor's regression objection** and voids the CODEOWNERS high-blast-radius warning. ⚠️ Unknown to Lenard and Gerald: how an org is bound to a manifest.
 >
-
