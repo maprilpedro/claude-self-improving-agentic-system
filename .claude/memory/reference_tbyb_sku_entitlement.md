@@ -27,6 +27,24 @@ So: **Cloud Service (incl. Edge Delivery) → TBYB · Managed Services → playg
 
 ⚠️ **The field deck contradicts itself on the same axis:** the Governance prerequisite reads *"AEM Assets/Sites on AEM CS"* while its own table shows Brand Governance supported on MS.
 
+## 🆕 2026-08-24 — BERTRAND'S NUMBER IS 90 / 24 / 66, AND IT IS NOT THE SAME OBJECT AS THE 335
+
+`#aem-agent-owners-alignement`, 2026-08-24 18:34, verbatim *"regarding the 'SKU customers', here's the actual breakdow"*:
+
+| Segment | 2026-Q1 | 2026-Q2 | Combined (unique) |
+|---|---|---|---|
+| Paid (paid some money) | 8 | 16 | **24** |
+| $0 (no revenue) | 46 | 23 | **66** |
+| Total licensed | 54 | 39 | **90** |
+
+His read: *"so 24 'real' customers and a lot of $0 SKU customers"*.
+
+🔑 **DO NOT CALL THIS A CONTRADICTION WITH THE 335 BELOW — the denominators differ and nobody has said so out loud.** Bertrand counts orgs **resolvable to a contract in DaaS across 2026-Q1 and Q2 only**; the 335 counts orgs **classified `SKU` in Raul Hudea's hand-maintained Skyline P42 list, regardless of quarter**. A $0 SKU is still classified SKU, which is what the 66 is. **Unreconciled, and it needs to be before the 2026-09-02 parity plan**, because that plan is scoped to "paying customers" and the population is either 24 or 335.
+
+⚠️ **A third number is Pedro's own and went to a different audience the same day** — *"all AEM TBYB and AEM SKU customers (around 3K)"*, to Ashok Kumar and Neerav Aggarwal in `#aem-agents-ams`, 2026-08-12 13:25.
+
+**Where the named list lives, per Bertrand himself (2026-06-08, `#aem-mcp`):** *"we should really be using **DaaS** for the IMS orgs filtering, this is our official reference for 'licensed' customer (those that we can resolve to a contract)"* — cc **Jean-Claude Jung** and **Andre Cascais**. ⏳ Pedro asked them for a named list on 2026-08-20 (*"tried DaaS Assistant but asks me for tech stuff i have no clue"*) and **got no reply**. **Ask Bertrand for the query, not the result.**
+
 ## The counts — ✅ NOW PEDRO'S OWN, 2026-08-12
 
 He joined the loaded Skyline P42 list ([[reference_skyline_p42_orglist]], hand-maintained by Raul Hudea) to his own traffic DB. ⚠️ **Approximate — he said the extract re-runs later the same day.**
