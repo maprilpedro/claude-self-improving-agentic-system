@@ -134,3 +134,4 @@
 | [Six Strategy Traps — Audit Checklist Before Calling Something a Strategy](six-strategy-traps-audit-checklist-before-calling-something-a-strategy.md) | Source: Lafley & Martin, *Playing to Win*, Ch 8 |
 | [Six Telltale Signs of a Winning Strategy — Positive Diagnostics](six-telltale-signs-of-a-winning-strategy-positive-diagnostics.md) | Source: Lafley & Martin, *Playing to Win*, Ch 8 |
 | [Outside Strategy Partner — The Sparring Partner Pattern](outside-strategy-partner-the-sparring-partner-pattern.md) | Source: Lafley & Martin, *Playing to Win*, Ch 8 (Lafley + Martin's own working relationship as the canonical example) |
+| [Three-Storey Test — Conversation / Intelligence / Governance, Rent the Brain but Own the Learning](three-storey-test-conversation-intelligence-governance-rent-the-brain-own-the-learning.md) | Source: *IA et Stratégie* on Claude Force, 2026-09-02. Applied to Adobe/Coworker/AEM: AEM owns governance, the learning loop sits in the harness |
