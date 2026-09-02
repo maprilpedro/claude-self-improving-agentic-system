@@ -11,6 +11,33 @@ metadata:
 
 Whenever the question is "unify the AEM skills" / "put them in the same marketplace" / "is the multi-marketplace split a problem" — this is the corrective frame. The convergence unit is the **manifest**, not the marketplace.
 
+## 🔴🔑 2026-09-01 — POST-GA, WHERE AEM'S SKILLS ACTUALLY LIVE. READ THIS BEFORE NAMING AN "AEM MANIFEST".
+
+**✅ Pedro's correction, and it supersedes the `aem-aia` framing further down this file.** The prod manifest carrying AEM's GA'd Coworker skills is **`config/aep-aia/environments/prod/manifests/cx-coworker.yaml`** — the **shared** GA manifest, not an AEM one. `aem-aia` is the **AI Assistant** lane (`name: AEM AI Assistant`), still routed in prod (`aem-orgs-to-aem-aia`, `enabled: true`) but being deprecated. **Do not call `aem-aia` "AEM's manifest" in anything outward.**
+
+**📦 The two files and the one-skill delta (read on `main` 2026-09-01):**
+
+| | `cx-coworker.yaml` | `aem-cx-coworker.yaml` |
+|---|---|---|
+| `name:` | CX Coworker | **AEM Bug Bash Coworker** |
+| Role | shared GA manifest, all products | **temporary copy**, by its own header comment |
+| `aem-aia-extensions` plugins | **18** | **19** |
+| Routing | broad | segments `aem-bug-bash`, `ohio-hands-on-labs-orgs` |
+
+**The only difference is `aem-pipeline-troubleshooter`** — excluded from GA, live in the bug bash. It is one of the three `IMS + PAT` skills that write to a customer's git repo. ⚠️ **`aem-cx-coworker.yaml` exists in prod ONLY** (absent from dev and stage) and says of itself: *"This is a temporary copy of the cx-coworker manifest until the AEM additions are merged in after a successful bug bash."* The bug bash was ~08-26. **No removal date is written anywhere.**
+
+**🗓️ Carsten Ziegeler (`cziegele_adobe`) is the author of AEM's arrival in the GA manifest.** PR **#11524**, 2026-08-27, `feat(cx-coworker): onboard aem-aia-extensions plugins and gateway`. Then #12439 on 08-31 *pinned* the plugins to a stable skill policy, and **#12431 on 09-01 dropped the pinned versions again** — two days later, eight days after GA, on both files. Reason unstated.
+
+**🔎 THE EXCLUDE POLICY, and it may answer the 08-27 Showcase-scope question.** Prod `cx-coworker.yaml` carries on the `aem-aia-extensions` marketplace, commented *"Hidden from Settings > Plugins and not installable, even by name"*:
+```yaml
+exclude: ["aem-edge-dispatcher", "aem-workflow-ops", "aem-workflow-api", "experience-replication",
+          "aem-replication", "aem-platform-codeveloper", "aem-pipeline-troubleshooter",
+          "*-dev", "*-stage", "*-beta"]
+```
+`aem-cx-coworker.yaml` carries the same list **minus `aem-pipeline-troubleshooter`**. 🔑 **Three of the five families "missing" from the Showcase CSV are named here** — Dispatcher, Workflow, Replication — **and the bug-bash manifest installs 19 plugins against that file's 19 skills.** → **Hypothesis: the Showcase CSV is an extract of what the bug-bash manifest installs, not a rival inventory.** Content Supply Chain and Asset Sourcing are absent for a different reason — they are not in `aem-aia-extensions` at all. **Verifiable by comparing 19 names.**
+
+**🔴 And the consequence that is Pedro's lane: a shared manifest cannot carry an AEM system prompt.** Every AEM skill on the GA manifest runs under the `app/aep` prompt blocks. Full read → **[[reference_coworker_system_prompt_blocks]]**.
+
 ## 🟢🔑 2026-08-14 — THE OFFICIAL DOC SAYS IT IN ONE LINE. QUOTE THE DOC, NOT THE INFERENCE.
 
 **The question that keeps being asked:** if we declare `aem-aia-extensions` in the `cx-coworker` manifest, do all its plugins come in automatically, or do we list them one by one? **Answer: one by one.** And AO's own developer reference states it, so this never needs to be argued from a code read again.
@@ -64,7 +91,7 @@ The 07-14/07-17 entries below say `@Adobe-Experience-Platform/aep-ai-ao-committe
 **1. AIR INDIA DOES NOT COMPOSE ACROSS MARKETPLACES. Do not cite it as the composition precedent.** `cx-coworker-air-india.yaml` declares **one** marketplace, `Adobe-Experience-Platform/rtcdp-aia-marketplace` at **ref `air-india`** (a dedicated branch), and all 11 plugins resolve to it, including `aem-experience-production@air-india-marketplace`. That is a **copy-everything-into-a-branch** pattern, effectively a fork. The line further down this file — *"Air India references plugins across products"* — is true about product **domains** and **false about the mechanism**. ⚠️ Citing it argues FOR a fork, which is the opposite of Ian Boston's consume-vs-fork principle.
 
 **2. THE REAL MULTI-MARKETPLACE PROOF, AND AEM ALREADY DOES IT.** `known_marketplaces` is a list and plugin refs are `plugin@marketplace`, so one manifest legitimately pulls from several. Verified in prod:
-- **`aem-aia.yaml` itself declares TWO marketplaces** — `Adobe-AEM-Foundation/aem-aia-extensions` + `Adobe-AEM-Foundation/governance-agent-marketplace`. **AEM's own central manifest already composes. Adding EPA's marketplace is adding a row to a list that already has two, not inventing a pattern.**
+- **`aem-aia.yaml` itself declares TWO marketplaces** — `Adobe-AEM-Foundation/aem-aia-extensions` + `Adobe-AEM-Foundation/governance-agent-marketplace`. **AEM's own central manifest already composes. Adding EPA's marketplace is adding a row to a list that already has two, not inventing a pattern.** ⚠️ **SUPERSEDED IN PART 2026-09-01 — the mechanism claim still holds, the words "AEM's own central manifest" do not.** `aem-aia` is the **AI Assistant** lane (its own `name:` is `AEM AI Assistant`), the front being deprecated. **Post-GA the AEM prod manifest is the shared `cx-coworker.yaml`** — Pedro's correction, see the 2026-09-01 block at the top of this file.
 - `cx-coworker.yaml` pulls across **different GitHub orgs** — `aia-extensions` (Adobe-Experience-Platform), `cja-extensions` (AdobeAnalytics), `target-extensions` (Adobe-TnT), `ajo-marketplace` (Adobe-CJM), `experimentation-extensions`, `product-support-marketplace`, `data-validation-extensions`.
 - `cx-coworker-wells-fargo.yaml` combines a dedicated branch (`rtcdp-aia-marketplace` @ `wells-fargo`) **with** a shared product marketplace (`cja-extensions`) — the closest analog to a scoped AEM manifest.
 
@@ -159,7 +186,7 @@ His 07-07 question "quite a few AEM manifests in Coworker today, who owns what?"
 | **AEM Coworker** ✅ (his selection) | `aem-aia.yaml` → `aem-aia-extensions` (22 skills / 10 plugins) + One AEM MCP | shared, multi-team; every plugin authored "AEM Team"; Pedro curates |
 | AEM Content Fragments Coworker | `aem-content-fragments-extensions` (Adobe-AEM-Sites) | **unknown** |
 | AEM Forms Experience Builder | `aemforms-aia-extensions` (adobe-aem-forms) | Hemanta Gupta building; Satya Deep Maheshwari's side |
-| AEM Guides AI Assistant | `aem-guides-extensions` (OneAdobe) | **unknown** |
+| AEM Guides AI Assistant | `aem-guides-extensions` (OneAdobe) | ✅ **RESOLVED 2026-09-01 — Manav Mittal** (`manavm@adobe.com`, MTS) shipped the manifest + prompts, PR #5113 2026-06-22; **Gunjan Kumar** (`gukumar@adobe.com`, Principal Scientist) added the prompt-layer guardrails, PR #7486 2026-07-22. Its `block_dir: app/aem-guides` is the only AEM-owned system-prompt directory that exists — see [[reference_coworker_system_prompt_blocks]] |
 | AEM Onboarding Coworker | `ao-plugin-extensions-aem-onboarding` (AEM-Assets-Adobe) | Ian Reasor (said so in-thread) |
 
 **The picker is the "who owns what" surface, and it carries no ownership.** A user picks a manifest with no idea whose skills they get. The checkmark also makes the one-manifest-active-at-a-time rule visible to Bertrand directly.

@@ -9,7 +9,15 @@ metadata:
 
 Source: Eugene Bannykh relayed Rodson Clavel's instructions in cq-dev Slack (channel `C07MVKU1APJ`, msg `1782407495.189399`, screenshot file `F0BE1L86M96` — kept in Slack, NOT copied to this repo per [[feedback_no_internal_to_personal_repos]]).
 
-## Access (how to see the Coworker rail)
+## 🔑 POST-GA ACCESS (2026-08-24) — THE URL FLAG, and it goes after `/ui`, not in the hash
+
+**`?shell_aiChatEnabled=true`** → `adobeaemcloud.com/ui?shell_aiChatEnabled=true`
+
+Source: `#aem-agentic-owners-alignement` 2026-08-24 18:13, [thread](https://adobe.enterprise.slack.com/archives/C0BARAMM89Z/p1787587984719469). **Apoorva Gupta** asked Corey + Pedro why rail mode had stopped working in AEM Showcase. **Corey Dulimba gave the pointer** (*"there is a flag you need to set in the URL now"* + a link into `#cxue-coworker-panel-hybrid-collaborators`); **Mark Doten gave the parameter**, then corrected her when she put it in the hash and still saw the popover: *"because you added it to the hash… you have to add it after `/ui`"*. She relayed it to Thirumalaivasan M + Ankur Arora 19 min later in `#aem-agent-discovery`.
+
+⚠️ **Mark Doten's framing in the same thread, which is the caveat to carry:** *"if an org has Coworker, the rail is not accessible because the Coworker rail is not available yet… there are select applications that have the button enabled, but those show a popover that links to the Coworker application… as applications are ready for Coworker rail, they can be enabled to show it."* **So the flag opens the rail per application; it does not make the rail generally available.**
+
+## Access (how to see the Coworker rail) — pre-GA stage recipe, kept for history
 - **Stage:** enable two feature flags → `ao2-aia-enabled` + `shell-coworker-enabled`.
 - **Prod:** not GA yet — use the prod build link `experience.adobe.com/?unified-shell_version=PR-12141-…`.
 - The rail's backend = **AO stage endpoint** `agent-orchestrator-stage-va7.adobe.io` (shown in the panel footer) = the **Coworker harness**. Flag names confirm Bertrand's cutover model: `ao2-aia-enabled` = AOv2 behind an AIA-style rail ("AIA 2.0"), `shell-coworker-enabled` = Unified Shell loads Coworker.
