@@ -1,6 +1,6 @@
 {
   "enabledPlugins": {
-    "obsidian-cli@obsidian-cli-skill": false
+    "obsidian-cli@obsidian-cli-skill": true
   },
   "hooks": {
     "SessionStart": [

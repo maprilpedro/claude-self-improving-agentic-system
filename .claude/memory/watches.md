@@ -15,12 +15,27 @@ metadata:
 
 ## Open
 
+### 🆕🔴 2026-09-02/03 — THE SLACK AUDIT LEFTOVERS (full read: [[project_aem_agents_intelligence]] 2026-09-02/03 block)
+
+- 🔴 **Lianne Ramos: deploy the AEM Gainsight "You will soon have access to Coworker!" for the 09-08 cohort (AEM tab of Paul's Cohort 3 file) and reply in her thread.** Asked for 09-02. https://adobe.enterprise.slack.com/archives/C0ABFLYLZK7/p1788303738883819?thread_ts=1788299118.059049&cid=C0ABFLYLZK7
+- 🔴 **Confirm `#12863` to Yelena + Corey** (23 orgs stay on their manifests, 28 added to `cx-coworker`) and say whether UPS and the other `aem-aia` orgs move to default. Corey: "please confirm tomorrow" = 09-03. https://adobe.enterprise.slack.com/archives/C0ABFLYLZK7/p1788287042298669?thread_ts=1788287042.298669&cid=C0ABFLYLZK7
+- 🔴 **Siddharth: ABAC Content Hub live in prod (09-01), works without the panel (Philippe 09-02) → move his 34 orgs to early cohorts.** ⚠️ Conflicts with what you told Paul 09-02 09:11 ("any cohort with SKU = not before Panel"); settle it once in the file. https://adobe.enterprise.slack.com/archives/C0BDAF2H2AG/p1788283915326929?thread_ts=1787563649.301049&cid=C0BDAF2H2AG
+- 🔴 **Answer the field on AMS customers in Cohort 2** — Stephanie (Commonwealth Bank) and David Zepeda (Honeywell). Sophia Gray's "opt them out" is unconfirmed. 📅 09-03 https://adobe.enterprise.slack.com/archives/C070SDG809J/p1788310504113279?thread_ts=1787554074.319519&cid=C070SDG809J
+- 🟡 Rodson Clavel, one line on `?shell_aiChatEnabled=true`. https://adobe.enterprise.slack.com/archives/C0BCKG35NFP/p1788281672808259?thread_ts=1788249231.451749&cid=C0BCKG35NFP
+- 📅 **09-10 — Tatyana Kozachek's September release review: list every AEM agent and Coworker integration on the release wiki.** https://adobe.enterprise.slack.com/archives/C06NCR238DS/p1788273000655649
+- 📅 **09-08 — David Gonzalez back from OOO; his demo org activated with AEM in Coworker** ("let me follow-through", 09-02).
+- ⏳ Rachel / Raj / Eric: the <2-min demo video + script promised for 09-01 — verify Babu's 08-31 demo links are that deliverable. https://adobe.enterprise.slack.com/archives/C0BT9J90SRZ/p1787937174748749
+- ⏳ Guliz: the brand-governance / enterprise-context thread with Bertrand + Philippe promised 08-28 "next week". Not opened.
+- ⏳ Emil Serban: Rubin walkthrough once his access works (login `access_denied` 09-02).
+- 🔵 **Bertrand's 08-31 `#p42-architecture` question, an "active" AEM instance in Coworker like the EH rail — unanswered; it is the instance picker Cole owes.** https://adobe.enterprise.slack.com/archives/C09KKLW1N86/p1788164868708439
+- 🔵 Ethos CORS blocker `EON-73057` (no wildcard CORS on `author-pNNN` domains) now has a channel, `#aem-wildcard-cors-enablement` `C0BTZS3APGF`; Felix joins the Ethos office hour 09-03 17:00 CEST. Next-phase gate, not GA.
+
 ### 🆕🔴 2026-09-01 — AEM HAS NO PROMPT SURFACE ON ITS OWN GA MANIFEST
 
 > Full read: [[reference_coworker_system_prompt_blocks]] + the 2026-09-01 blocks in [[project_aem_agents_intelligence]] and [[reference_aov2_marketplace_manifest]].
 
 - 🔴 **Pedro writes the ask to Shubham Lohiya** — can a plugin/marketplace contribute a `block_dir`, or get a plugin-scoped PreTurn hook? Authority sits in their own design decision #4. Namespace `aem_*` (suppression is global by `block_id`). 📅 09-03
-- 🔴 **Two one-line questions to Carsten** — when does the temporary `aem-cx-coworker` bug-bash manifest leave prod, and why pin the AEM plugin versions 08-31 (#12439) then un-pin 09-01 (#12431)? 📅 09-03
+- 🔴 **One question to Carsten** — when does the temporary `aem-cx-coworker` bug-bash manifest leave prod. ✅ The pin/un-pin is explained: 09-02 the prod manifest switched to the `prod` branch of `aem-aia-extensions`, `main` no longer affects production. 📅 09-03
 - ⚠️ **Never call `aem-aia` "AEM's manifest" outward.** It is the AI Assistant lane; the GA home is the shared `cx-coworker.yaml`.
 - 🟢 **Compare the 19 Showcase CSV names to the 19 bug-bash plugin refs** — probably closes the 08-27 scope question. 📅 09-05
 - 🟢 **Ask Danny Miller for the guardrails Excel** (Zan Chu asked 08-27, never got it). No AEM guardrail list exists. 📅 09-05
@@ -31,7 +46,8 @@ metadata:
 
 > Full read: the 2026-08-25/26 block in [[project_aem_agents_intelligence]]. Pre-compression verbatim in `watches_ARCHIVE_2026-08.md`, grep `Verbatim snapshot appended 2026-08-31`.
 
-- 🔴 **09-01 — do the five ABAC orgs come out of the batch?** Qantas · NWL Brands · Corporate & Investment Bank · Warner Bros Marketing Cloud · Okta. The only 5 of the 34 `ABAC Customer = YES` that sit on Paul's list, all dated 09-01, landing the day before the parity plan is due.
+- 🔴 **09-01 — do the five ABAC orgs come out of the batch?** Qantas · NWL Brands · Corporate & Investment Bank · Warner Bros Marketing Cloud · Okta. ⚠️ 09-01 Siddharth: ABAC Content Hub is live in prod, the hold reason is gone — see the 09-02/03 section.
+- 🔴 **LG Uplus Corp (`472883976A0E01D20A495CE8`) opted out late (08-28); Paul removed it from `Cohort_AEM_2.1_TBYB` 09-01 — move it to an Opt Out cohort in your file.** The only 5 of the 34 `ABAC Customer = YES` that sit on Paul's list, all dated 09-01, landing the day before the parity plan is due.
 - 🔴 **`Cohort_AEM_WF_SKU` holds 15 named ABAC customers and has no rollout list on any of Paul's three tabs.** Costco · Pfizer · Delta · PNC · Sams Club · Edwards · Steelcase · PwC GLSC · Microsoft Project Supreme · BAT · Havas · OXXO · Koch · Hottinger · Freddy.Connect. Pedro created the bucket 08-18. Open a line for it or ask Paul to fold it into `Workfront+Target`.
 - 🔴 **Before 2026-09-02, reconcile the SKU population.** Bertrand 08-24 says 90 licensed / 24 paid / 66 at $0; Pedro's file says 335; he told AMS ~3K. Ask Bertrand for the DaaS query, not the result. [[reference_tbyb_sku_entitlement]]
 - 🔴 **Send the Loni email — four fact divergences still open.** `Monday 21th` → 31st, and `announced publicly` contradicts his own GA definition · `no release blocker` contradicted by `NXUI-1904` · Major count 10 → 11 against JIRA's 4 · `with clear review dates` false for DA and Governance.
@@ -118,23 +134,14 @@ metadata:
 - 🔴 **Pedro confirmed AEM Showcase as the bug bash target on 08-13** (`38931D6666E3ECDA0A495E80@AdobeOrg`), and **the question that got AEM Sites Trial pulled from the Coworker flag on 08-06 was never answered for Showcase.** Enabling an org brings the **Gainsight banner**; Corey's reason for pulling Sites Trial — *"its an internal Org but we also use it for some external work as well"* — applies to Showcase, which is the SC live-demo org.
 - ⏳ **Two replies still gate it, both sent 08-11 and both unanswered:** Rodson Clavel (`C0BCKG35NFP` ts `1786405114.307519`) on whether the panel prod flag is the same switch as the Coworker-enabled flag ([[reference_coworker_enablement]]), and Corey on whether the 08-06 removal still stands. 🔴 **Nobody has ever been named for the SC-enablement heads-up.**
 
-### 🔴 2026-08-07 → 08-24 — BERTRAND IS ON PTO FOR THE RUN-UP, BACK ON GA DAY
+### 🔴 2026-08-07 → 08-24 — BERTRAND'S PTO RUN-UP (compressed 2026-09-03 — verbatim in `watches_ARCHIVE_2026-08.md`, grep `appended 2026-09-03`)
 
-> Compressed 2026-08-17 — the resolved half (his return date, the 08-10 heads-up, the Loni question, the date drift, the Tina artifact split) is in `watches_ARCHIVE_2026-08.md`, grep `BERTRAND IS ON PTO`. Only what is still owed stays here.
+- 🔴 **The 08-14 weekly to Bertrand is written and still unsent** (`20260816 - Report to Bertrand`); owed on top: exec summary, the fifth blocker, the prod line, the dead OBO link, the 38-of-71 denominator. [[feedback_bertrand_status_comms]]
+- ⏳ Still watch the joint PM/PMM GTM plan with Tina Ngo — whether it reaches Loni and whose name is on it ([[feedback_position_over_merit]]).
 
-- 🔴 **THE 08-14 WEEKLY IS WRITTEN BUT NOT SENT.** Pedro drafted the full report 08-16 (`20260816 - Report to Bertrand`). **Owed before it goes:** an exec summary, the fifth blocker (`lifecycle: experimental`), a prod line (11 skills in 1 plugin, none of the 16 stage plugins), the dead OBO link, and the 38-of-71-not-64 denominator. Format per [[feedback_bertrand_status_comms]].
-- 🔴 **THE 08-21 UPDATE IS THE PRE-READ** — the last thing he sees before landing on GA day 08-24 with zero runway.
-- **Two slots only Pedro can fill:** what he does if the **AI Ethics sign-off on EPA** is not there by 08-21, and **who covers escalation to 08-21**. Nobody is named. ⚠️ Ian Boston is away too.
-- **⏳ Owed on his return 08-24** — two lines with what actually happened. The landing note is what makes the heads-up worth having sent.
-- ⏳ **Still watch the joint PM/PMM GTM plan with Tina Ngo** — whether it ever reaches Loni and whose name is on it ([[feedback_position_over_merit]]).
+### 🔴🔑 WED 2026-08-12 — THE MANIFEST DECISION (happened; compressed 2026-09-03 — verbatim in `watches_ARCHIVE_2026-08.md`, grep `appended 2026-09-03`; full read shard `project_aem_agents_intelligence_ARCHIVE_2026-W33.md`, grep `THE OWNERS CALL`)
 
-### 🔴🔑 WED 2026-08-12 — THE MANIFEST DECISION (out of the 08-10 owners call, which HAPPENED — full read: shard `project_aem_agents_intelligence_ARCHIVE_2026-W33.md`, grep `THE OWNERS CALL`)
-
-- **Pedro posted the fork 08-10 20:12 in `#aem-agent-owners-alignement` with `cx-coworker` as the named default and a WED 08-12 deadline**, so teams can still PR their manifests. Alternative was a throwaway `aem-bugbash-cx-coworker`.
-- **🔑 The object that decides it:** `cx-coworker.yaml` holds **1 AEM plugin of the 18 in `aem-aia`**, and `aem-aia.yaml` explicitly `disabled_plugins` cja / dx-api / experimentation / predictive-ai. **GA on `aem-aia` = an AEM-only assistant, not Coworker.** ⚠️ Read from a clone at `f648493` (08-06) — **re-verify on `main` before quoting**.
-- **⏳ Two preconditions nobody has costed:** `required_entitlements` per plugin (Gerald, mandatory, `aep-ai#7241`/`#7225`, only Governance has done it) and `plugin_deduplication_strategy: overwrite` with AEM's marketplace 10th of 13, so a name collision loses silently.
-- **🔴 Ask the Coworker team who is CODEOWNER of `cx-coworker.yaml` and on what conditions.** That answer is what makes this three days or three weeks. Not verifiable from Pedro's clone (sparse, no `.github`).
-- **⏳ Carsten's PR `aep-ai#8457`** (pattern-based plugin inclusion) would replace 18 entries with one pattern. Check where it stands before enumerating.
+- Residual only: `cx-coworker` is the GA default, decided 08-12; teams that never PR'd their manifest are in the 08-27 inventory gaps.
 
 ### 🔴 THE AUDIT HAS NEVER MEASURED THE DESTINATION (opened 2026-08-10)
 

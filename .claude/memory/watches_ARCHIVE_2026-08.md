@@ -406,3 +406,26 @@ Set 2026-08-05. **What to check:** whether any AO manifest has started referenci
 - Tina Ngo: *"this is the first time when we will be publicly talking about our skills in a public forum… I kind of see this as a GA moment."*
 - ⚠️ In-room dates are approximate. **Marius Duta owns the Slack thread** to pin date, milestones, link and agenda (posted 08-03, doc `F0BK09AHGQ3`, channel `C0BKA5CD0P6`) — re-date from it.
 - ⏳ **Tina owes the Coworker-side documentation link**, structured **by use case, not by skill**. Corey named documentation as an unlisted GA gate. **She still has no GA date, which is what she asked for.**
+
+
+## Verbatim snapshot appended 2026-09-03 — two sections compressed in the live registry
+
+### 🔴 2026-08-07 → 08-24 — BERTRAND IS ON PTO FOR THE RUN-UP, BACK ON GA DAY
+
+> Compressed 2026-08-17 — the resolved half (his return date, the 08-10 heads-up, the Loni question, the date drift, the Tina artifact split) is in `watches_ARCHIVE_2026-08.md`, grep `BERTRAND IS ON PTO`. Only what is still owed stays here.
+
+- 🔴 **THE 08-14 WEEKLY IS WRITTEN BUT NOT SENT.** Pedro drafted the full report 08-16 (`20260816 - Report to Bertrand`). **Owed before it goes:** an exec summary, the fifth blocker (`lifecycle: experimental`), a prod line (11 skills in 1 plugin, none of the 16 stage plugins), the dead OBO link, and the 38-of-71-not-64 denominator. Format per [[feedback_bertrand_status_comms]].
+- 🔴 **THE 08-21 UPDATE IS THE PRE-READ** — the last thing he sees before landing on GA day 08-24 with zero runway.
+- **Two slots only Pedro can fill:** what he does if the **AI Ethics sign-off on EPA** is not there by 08-21, and **who covers escalation to 08-21**. Nobody is named. ⚠️ Ian Boston is away too.
+- **⏳ Owed on his return 08-24** — two lines with what actually happened. The landing note is what makes the heads-up worth having sent.
+- ⏳ **Still watch the joint PM/PMM GTM plan with Tina Ngo** — whether it ever reaches Loni and whose name is on it ([[feedback_position_over_merit]]).
+
+
+### 🔴🔑 WED 2026-08-12 — THE MANIFEST DECISION (out of the 08-10 owners call, which HAPPENED — full read: shard `project_aem_agents_intelligence_ARCHIVE_2026-W33.md`, grep `THE OWNERS CALL`)
+
+- **Pedro posted the fork 08-10 20:12 in `#aem-agent-owners-alignement` with `cx-coworker` as the named default and a WED 08-12 deadline**, so teams can still PR their manifests. Alternative was a throwaway `aem-bugbash-cx-coworker`.
+- **🔑 The object that decides it:** `cx-coworker.yaml` holds **1 AEM plugin of the 18 in `aem-aia`**, and `aem-aia.yaml` explicitly `disabled_plugins` cja / dx-api / experimentation / predictive-ai. **GA on `aem-aia` = an AEM-only assistant, not Coworker.** ⚠️ Read from a clone at `f648493` (08-06) — **re-verify on `main` before quoting**.
+- **⏳ Two preconditions nobody has costed:** `required_entitlements` per plugin (Gerald, mandatory, `aep-ai#7241`/`#7225`, only Governance has done it) and `plugin_deduplication_strategy: overwrite` with AEM's marketplace 10th of 13, so a name collision loses silently.
+- **🔴 Ask the Coworker team who is CODEOWNER of `cx-coworker.yaml` and on what conditions.** That answer is what makes this three days or three weeks. Not verifiable from Pedro's clone (sparse, no `.github`).
+- **⏳ Carsten's PR `aep-ai#8457`** (pattern-based plugin inclusion) would replace 18 entries with one pattern. Check where it stands before enumerating.
+
