@@ -255,7 +255,7 @@ metadata:
 ### 🟡 STALENESS + SIZE FLAGS (refreshed 2026-09-03 at the System Review, Pedro's call on all of them)
 
 - ✅ **System Review ran 2026-09-03** (H-008 killed, parked table back under cap at 6, two decisions scored). Next due **2026-10-01**.
-- 🔴 **AAI Status & Todo at ~123K bytes, ≈2× the read cap, 13 Focus blocks in one file, Top 3 dated 08-04 with no live item, 53 🔴 against 2 🟡.** The `ARCHIVE 2026-08` sibling exists; the archive pass is mechanical once you say go. Logged in `state.md` Open ops.
+- 🟢 **AAI Status & Todo archived 2026-09-03 on Pedro's go: 123K → 63.5K bytes, live note starts at Focus 08-13.** Still his: the Top 3 (flagged dead in place), the `Current Status` refresh (two stale claims named in the flag), two May-dated tasks under Scheduled (Next). 53 🔴 against 2 🟡 unchanged.
 - ⚠️ **EH Status & Todo `Current Status`, fifth consecutive review, 14 weeks.** Six banners above it now say the same thing. A refresh, not an archive. Pedro's.
 - ⚠️ **O1 / O2 KR notes untouched since 07-14** while the AAI Status carries Bertrand's Q2 line and the 28.5% Q3 figure; the roll-up is ahead of the detail.
 - ⚠️ **Three predicted dates passed with no outcome captured:** the 08-26 all-hands AEM+Coworker segment, the 09-01 Developers Live session, the 08-14 weekly to Bertrand (unsent at 20 days).
