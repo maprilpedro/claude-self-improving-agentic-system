@@ -67,3 +67,12 @@ And the composite gate was never wrong about *content*, only about *scope*. Prov
 - [[An Undefined Gate Is a Date Nobody Can Give]] — the gate finally has contents; this decision says which gate.
 - [[Success Definitions Must Be Agreed Before Metrics Are Scaled]] — the same failure one layer down.
 - `knowledge/hypotheses/parked.md` → *Two Milestones Wearing One Word* — the candidate pattern this decision is the third instance of. ⚠️ Parked, not promoted, and deliberately so.
+
+## Outcome (scored 2026-09-03, System Review)
+
+**Partial hold, scored inside the 08-10 supersession banner** — only the surviving half and the 08-24 prediction are scoreable.
+
+- **The surviving half held.** GA = the announcement with legal, security, docs and PMM behind it, owned by Pedro: GA shipped 08-24 without the panel, Alison Heimoz published the Known-limitations note 15:43, the internal announcement went out 08-25 12:42 with both over-claims removed (no *"all AEM agents"*, no *"feature parity"*). Pedro authored it; the split by panel (08-24 vs ~09-21) is the vocabulary everyone now uses.
+- **The composite list was incomplete — the 08-24 test's second branch.** On 08-28 three skills were cut from GA (`cloud-manager-pipeline-troubleshooting`, `aem-assets-search-indexing`, `aem-assets-environment-provisioning`) for a Coworker dev/arch concern about how AEM manages sandboxes. That reason was on nobody's list. The customer-facing GA also slipped, 08-31 → 09-08, for rollout mechanics, not for a listed gate.
+- **The failure mode to watch did not materialise.** No team treated a `ga` manifest write as permission to tell customers; Bertrand's 08-31 *"customer count is 0 because we have not started rolling out"* is the receipt.
+- **What it says about the reasoning:** the *separation* was right (two events wearing one word), the *mechanism* attached to it was invented in the write-up, and Pedro caught it. The lasting lesson is the banner's own: quote the decision, do not extend it.

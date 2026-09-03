@@ -47,3 +47,9 @@
 
 - ✅ **DONE 2026-06-05 — ingest EH-EW-Skills transcript** (`Agent Owner Alignement/20260605 - ExpHub, WE, Skills design alignement .md`). EW-no-AEM-licence reconciled (open question, not a fact), Guliz/Silvia/Bertrand positions + C1 landed in EH memory. Cleared at the 2026-06-07 review.
 - ✅ **DONE 2026-07-03 — `One AEM, Many Harnesses` v4 republished live** (Confluence `3908567486`, version 4): brand-travel table split (visual skin vs structure/voice/behavior, per Brian) + "Claude → an LLM" in check/definition, mermaid→CleanShot-image swap. Root cause of the recurring 401s = **VPN not connected**, not PAT expiry — check VPN first next time a Confluence 401 appears.
+
+## Open hypothesis-lifecycle decisions closed out (moved from `state.md` at the 2026-09-03 System Review)
+
+| H-008 — razor-and-blades rhetoric is a decline tell | n=1 since 2026-06-25, no 2nd observation in 5.5 weeks, discriminant question never asked of the live Adobe PLG / TBYB / $0-SKU case. Kept one cycle at the 08-03 review **on the condition that the question actually gets asked**. | **Ask the discriminant question in the strat-plan** — is the agent given free *because confident paid usage follows* (healthy) or *because paid usage isn't decoupling* (the tell)? **Hard auto-kill 2026-09-01** if there is still no 2nd observation and no answer. |
+
+> Verdict 2026-09-03: **KILLED**, untested and deprioritized. Reasoning in `knowledge/hypotheses/resolved.md`.

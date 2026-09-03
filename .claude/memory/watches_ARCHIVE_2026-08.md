@@ -429,3 +429,55 @@ Set 2026-08-05. **What to check:** whether any AO manifest has started referenci
 - **🔴 Ask the Coworker team who is CODEOWNER of `cx-coworker.yaml` and on what conditions.** That answer is what makes this three days or three weeks. Not verifiable from Pedro's clone (sparse, no `.github`).
 - **⏳ Carsten's PR `aep-ai#8457`** (pattern-based plugin inclusion) would replace 18 entries with one pattern. Check where it stands before enumerating.
 
+
+
+## Verbatim snapshot appended 2026-09-03 review — six pre-GA sections compressed in the live registry
+
+### 🔴 GA-BLOCKER THE LIST DOES NOT HAVE (found 2026-08-17)
+
+- 🔴 **Every AEM skill declares `lifecycle: experimental`** and the field must change before any of them ships. *"No skill anywhere declares anything else."* Absent from the four-blocker list and from the Bertrand report.
+- 🔴 **`dma_aem_ams` is already declared on four Cloud Manager skills**, so **"GA on Cloud Service only" is not what the skills say.** Pedro told Tina Ngo, Haresh Kumar and Vaishnav Gorur the opposite on 08-12. **Correct it before it reaches sales.** ⚠️ `entitlements.expected` in `aem-audits.yaml` lists one pair and so grades them `declared` without flagging it — **the audit config is behind the corpus.**
+- ⚠️ **A skill with no entitlement declaration is offered to every org that reaches the manifest.** Red means more exposure, not less. 44 of 126 declare nothing.
+- ⚠️ **Layer 1 is invisible.** `ENTITLEMENT_FILTERING_ENABLED` is a server env set by AO ops and sits in no repository, so no gating statement is verifiable from git.
+
+
+### 🔴 2026-08-17 — THE ONE GATE THAT MAY BE THE ONLY GATE
+
+- 🔴 **`aem-aia-extensions` has 16 open PRs, six older than ten days, and no named approver.** **Alejandro Moratinos asked "who could help us to merge our changes" on 08-14 10:23 and nobody answered.**
+- 🔑 **Why it is now load-bearing:** Ian Reasor, 08-15 — *"Coworker just pulls in the latest plugin and the version isn't actually read."* If that describes the runtime, **the marketplace merge is the only thing standing between a team's commit and prod behaviour.**
+- ⚠️ **It contradicts the spec and nobody has reconciled it.** `05-update-strategy.md` FR-UPD-005 says `manual` is the default and is notify-only; FR-UPD-002 says a catalog refresh must not alter installed content. **Requirements doc with unchecked acceptance criteria, so it may describe intent.** ⏳ **Carsten has not answered.** There is also a third value, **`auto_patch`**, absent from every AEM discussion.
+
+
+### 🆕🔴 FRI 2026-08-14 — OWED NOW
+
+- ⚠️ **`correct:` 08-15 — MOSTLY ANSWERED ALREADY, do not re-raise as "five people waiting".** Pedro answered Ken on the AO 1.0 prompts at 08-14 07:58 and posted his `Progressive activation` doc at 09:19 (https://adobe.enterprise.slack.com/docs/T02CAQ0B2/F0BPBFCST5F), **which already carries the lot sizes (50 first, then batches of 500, triaged by org interactions)**. Group DM https://adobe.enterprise.slack.com/archives/C0BQ4L7BVL2 · her question https://adobe.enterprise.slack.com/archives/C0BQ4L7BVL2/p1786660097959949
+- 🔴 **WHAT IS ACTUALLY OPEN — reconcile two rollout speeds, in one line to Namita.** His doc says 50 then batches of 500 (Ken's shape); **she said 50-100 over 4-5 weeks**; her literal *"Pedro what do you think about above?"* still has no textual reply. 🔑 **And say the thing nobody has said in that room — his timeline is post-GA on purpose (`08-27` internals, `08-31` top-50 TBYB, against GA 08-24).**
+- ⏳ **Two asks land on Pedro inside his own doc** — the **HIPAA customer check**, and adding **AEM Forms Product Management `99A27D6C5F569E170A495E8E@AdobeOrg`** to the internal org list.
+- 🔴 **ASK RAUL WHETHER `dma_aem_ams` COUNTS.** He flagged it 08-13 10:18 for EDA; **Pedro's mandate and the audit both know only `dma_aem_cloud`.** If AMS counts, every entitlement number published from 08-13 measures the wrong predicate for at least one team. Before Monday.
+- 🔴 **THE WEEKLY UPDATE TO BERTRAND IS LATE — confirmed not sent by Pedro on 2026-08-15 17:52.** It was due Fri 08-14, promised in the 08-10 DM `DQ6H0AV7H`. **He is on PTO and answering, so the window is open, but it closes.** The 08-21 one is the pre-read before he lands on GA day, so a missed 08-14 makes 08-21 the only one he gets. Format per [[feedback_bertrand_status_comms]]. 🔑 **The week has a concrete win to lead with: 23 → 86 manifest surfaces in one merge.**
+- 📅 **FRI 2026-08-15 — confirm the suggested-prompts approach.** Pedro's own dated commitment to the Coworker team. Still open; Sorin's Monday EH update touches the same surface.
+- ⏳ **RE-OWN THE THREE EPA FAST-FOLLOWS.** Yanira attached them as the price of skipping Legal/AI Ethics on the Content Fragments skills (Security threat model · ORR runbook in `#skyline-oncall` · CCF onboarding), then the conclusion changed and **all three vanished with it.** Group DM `C0BPS8BS39C`.
+- 🔵 **QUOTE CARSTEN'S ONCALL LINE IN THE MONDAY REMINDER** — *"each team not in the monorepo on GA date has to take over oncall for one month completely"* (08-13, manifest thread). An architect attaching a personal cost is stronger than another red audit row, and nobody has repeated it.
+- 🆕 **CONRAD WOLTGE HAS THE COWORKER "LEAD" PER JEAN-MICHEL** (Bertrand, DM 08-13 09:15, *"ah ah"*; he forwarded the Loni note on). **Watch what "lead" means in practice and whether Pedro's GA authorship survives it.** [[feedback_position_over_merit]]
+
+
+### 🆕⚠️ 2026-08-13 — BEFORE QUOTING ANY READINESS NUMBER
+
+- **The funnel is 66 → 56 → 30 → 19** (correct marketplace · name not a fail · disambiguation not a fail · entitlement declared), published 08-13 21:41. **19 is not a regression from the 21 of 08-11 — a fourth criterion was added.** Say so, or the movement reads as decay ([[Lead the Slide With the Honest Read of Your Own Metric, Not the Flattering Number]]).
+- ⚠️ **And the entitlement predicate itself may be incomplete** — see the `dma_aem_ams` item above.
+
+
+### 🔴 TUE 2026-08-11 — THE COHORT ANSWER, AND TWO PEOPLE ARE WAITING ON IT
+
+- **Brian Chaikelson** (*"Is this just the pods? When would the next group be?"*) — ⏰ **he records his Developers Live segment WEDNESDAY, before his PTO.** **Silvia Mulet Ferre**, same question in her words on 08-10 20:19. Neither answered.
+- **EDA may slip a week.** Pedro's two options on the table with Brian: announce all agents with no special mention, or tell the few onboarded customers *"EDA not present yet"*. Undecided.
+- **⏰ Also due Tue AM UK:** the AEM Agents Reporting Status **ahead of Jean-Michel's staff call**, bot reminder cc Jaclyn. Pedro has just told Bertrand he reports via Jaclyn, so this is the surface that carries it.
+- **⏳ Answer Corey's 08-10 16:52 bar question precisely** — warnings vs failures, and hidden vs customer-facing skills. **That is the 0-vs-4 and the 87-vs-98.**
+
+
+### 🔴 ~2026-08-17 — THE EH PLACEMENT ANSWER NOW HAS A DEADLINE
+
+- GA 08-24 with a **one-week pre-flip customer announcement** means the answer on which EH surfaces carry the banners plus the Gainsight notification is owed around **08-17**. **Cole Connelly delivered the banner Figma on 08-07** (pre-rollout and post-rollout); Pedro routed it to Eugene and Sorin *"when you guys are back"*, and both were away.
+- Huong Vu's split still stands: **admin emails go from one central channel**, the **in-product banner needs coordinated AEM work**. Copy exists, with two variants for prior-AIA versus newly-onboarded TBYB.
+- ⚠️ **Fourth consecutive staleness flag raised on the EH Status & Todo `Current Status` on 2026-08-11** — 11½ weeks behind, flagged not rewritten. It is Pedro's to refresh.
+

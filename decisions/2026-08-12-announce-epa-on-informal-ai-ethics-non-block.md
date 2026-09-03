@@ -41,3 +41,13 @@ If AI Ethics returns a finding on EPA after 08-24, Adobe has already said public
 ## Links
 
 [[project_aem_agents_intelligence]] · `decisions/2026-08-06-ga-model-separate-release-from-announcement.md` (the announcement-bar half, which is what makes this Pedro's call) · [[Surface the Risk Before Leadership Has to Ask]] (⚠️ knowingly not applied here, and the reason is written above) · [[feedback_lead_with_the_condition]].
+
+## Outcome — interim (scored 2026-09-03, System Review; final score 2026-09-14)
+
+| Date | Prediction | Result |
+|---|---|---|
+| 2026-08-21 | AI Ethics on EPA not landed, announcement goes ahead anyway | **Held.** No AI Ethics evaluation on EPA is recorded anywhere in memory through 09-03; the internal announcement went out 08-25 12:42. |
+| 2026-08-24 | EPA is in the portfolio announcement | **Held.** The three skills cut on 08-28 were Cloud Manager and Assets onboarding, not EPA. |
+| 2026-09-14 | No AI Ethics finding has forced a public correction | **Pending.** None recorded as of 09-03. |
+
+**Caveat that outranks the two holds:** condition 1 of this decision, *verify a named AI Ethics non-block actually exists for EPA (route: Yanira)*, was never done (`watches.md`, 08-12 send-day residuals). The bet has been running 22 days on an unverified premise, and conditions 2 and 3 (in writing with a name; tell Corey the basis) have no record either. A hold on an unverified premise is luck until the premise is checked. If the 09-14 score goes wrong, the 2026-08-12 carve-out written into [[Surface the Risk Before Leadership Has to Ask]] is the refinement to reverse.

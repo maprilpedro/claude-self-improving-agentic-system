@@ -80,35 +80,15 @@ metadata:
 - 🔴 **And it lands on Pedro's own lane, which is the part to say out loud.** Prompt and response events flow into the observation pipeline and into Rubin ([[reference_ai_observation_architecture]], [[project_aem_agents_intelligence]] Rubin block) — *"regardless of their origin, if they touch AEP AO we should have it in Rubin"*. **So a customer who refused product-enhancement usage may still be feeding the reporting layer Pedro owns.** Ask who enforces the exclusion and at which layer. ⚠️ Adjacent to Ian Boston's residency red line, do not merge them.
 - ⏳ **Where:** the rollout weekly / group DM `C0BQ4L7BVL2`. Namita runs the rollout while Rachel is out ([[reference_namita_scope]]).
 
-### 🔴 GA-BLOCKER THE LIST DOES NOT HAVE (found 2026-08-17)
+### 📕 PRE-GA AUGUST SECTIONS, COMPRESSED AT THE 2026-09-03 REVIEW (six sections; verbatim in `watches_ARCHIVE_2026-08.md`, grep `appended 2026-09-03 review`)
 
-- 🔴 **Every AEM skill declares `lifecycle: experimental`** and the field must change before any of them ships. *"No skill anywhere declares anything else."* Absent from the four-blocker list and from the Bertrand report.
-- 🔴 **`dma_aem_ams` is already declared on four Cloud Manager skills**, so **"GA on Cloud Service only" is not what the skills say.** Pedro told Tina Ngo, Haresh Kumar and Vaishnav Gorur the opposite on 08-12. **Correct it before it reaches sales.** ⚠️ `entitlements.expected` in `aem-audits.yaml` lists one pair and so grades them `declared` without flagging it — **the audit config is behind the corpus.**
-- ⚠️ **A skill with no entitlement declaration is offered to every org that reaches the manifest.** Red means more exposure, not less. 44 of 126 declare nothing.
-- ⚠️ **Layer 1 is invisible.** `ENTITLEMENT_FILTERING_ENABLED` is a server env set by AO ops and sits in no repository, so no gating statement is verifiable from git.
-
-### 🔴 2026-08-17 — THE ONE GATE THAT MAY BE THE ONLY GATE
-
-- 🔴 **`aem-aia-extensions` has 16 open PRs, six older than ten days, and no named approver.** **Alejandro Moratinos asked "who could help us to merge our changes" on 08-14 10:23 and nobody answered.**
-- 🔑 **Why it is now load-bearing:** Ian Reasor, 08-15 — *"Coworker just pulls in the latest plugin and the version isn't actually read."* If that describes the runtime, **the marketplace merge is the only thing standing between a team's commit and prod behaviour.**
-- ⚠️ **It contradicts the spec and nobody has reconciled it.** `05-update-strategy.md` FR-UPD-005 says `manual` is the default and is notify-only; FR-UPD-002 says a catalog refresh must not alter installed content. **Requirements doc with unchecked acceptance criteria, so it may describe intent.** ⏳ **Carsten has not answered.** There is also a third value, **`auto_patch`**, absent from every AEM discussion.
-
-### 🆕🔴 FRI 2026-08-14 — OWED NOW
-
-- ⚠️ **`correct:` 08-15 — MOSTLY ANSWERED ALREADY, do not re-raise as "five people waiting".** Pedro answered Ken on the AO 1.0 prompts at 08-14 07:58 and posted his `Progressive activation` doc at 09:19 (https://adobe.enterprise.slack.com/docs/T02CAQ0B2/F0BPBFCST5F), **which already carries the lot sizes (50 first, then batches of 500, triaged by org interactions)**. Group DM https://adobe.enterprise.slack.com/archives/C0BQ4L7BVL2 · her question https://adobe.enterprise.slack.com/archives/C0BQ4L7BVL2/p1786660097959949
-- 🔴 **WHAT IS ACTUALLY OPEN — reconcile two rollout speeds, in one line to Namita.** His doc says 50 then batches of 500 (Ken's shape); **she said 50-100 over 4-5 weeks**; her literal *"Pedro what do you think about above?"* still has no textual reply. 🔑 **And say the thing nobody has said in that room — his timeline is post-GA on purpose (`08-27` internals, `08-31` top-50 TBYB, against GA 08-24).**
-- ⏳ **Two asks land on Pedro inside his own doc** — the **HIPAA customer check**, and adding **AEM Forms Product Management `99A27D6C5F569E170A495E8E@AdobeOrg`** to the internal org list.
-- 🔴 **ASK RAUL WHETHER `dma_aem_ams` COUNTS.** He flagged it 08-13 10:18 for EDA; **Pedro's mandate and the audit both know only `dma_aem_cloud`.** If AMS counts, every entitlement number published from 08-13 measures the wrong predicate for at least one team. Before Monday.
-- 🔴 **THE WEEKLY UPDATE TO BERTRAND IS LATE — confirmed not sent by Pedro on 2026-08-15 17:52.** It was due Fri 08-14, promised in the 08-10 DM `DQ6H0AV7H`. **He is on PTO and answering, so the window is open, but it closes.** The 08-21 one is the pre-read before he lands on GA day, so a missed 08-14 makes 08-21 the only one he gets. Format per [[feedback_bertrand_status_comms]]. 🔑 **The week has a concrete win to lead with: 23 → 86 manifest surfaces in one merge.**
-- 📅 **FRI 2026-08-15 — confirm the suggested-prompts approach.** Pedro's own dated commitment to the Coworker team. Still open; Sorin's Monday EH update touches the same surface.
-- ⏳ **RE-OWN THE THREE EPA FAST-FOLLOWS.** Yanira attached them as the price of skipping Legal/AI Ethics on the Content Fragments skills (Security threat model · ORR runbook in `#skyline-oncall` · CCF onboarding), then the conclusion changed and **all three vanished with it.** Group DM `C0BPS8BS39C`.
-- 🔵 **QUOTE CARSTEN'S ONCALL LINE IN THE MONDAY REMINDER** — *"each team not in the monorepo on GA date has to take over oncall for one month completely"* (08-13, manifest thread). An architect attaching a personal cost is stronger than another red audit row, and nobody has repeated it.
-- 🆕 **CONRAD WOLTGE HAS THE COWORKER "LEAD" PER JEAN-MICHEL** (Bertrand, DM 08-13 09:15, *"ah ah"*; he forwarded the Loni note on). **Watch what "lead" means in practice and whether Pedro's GA authorship survives it.** [[feedback_position_over_merit]]
-
-### 🆕⚠️ 2026-08-13 — BEFORE QUOTING ANY READINESS NUMBER
-
-- **The funnel is 66 → 56 → 30 → 19** (correct marketplace · name not a fail · disambiguation not a fail · entitlement declared), published 08-13 21:41. **19 is not a regression from the 21 of 08-11 — a fourth criterion was added.** Say so, or the movement reads as decay ([[Lead the Slide With the Honest Read of Your Own Metric, Not the Flattering Number]]).
-- ⚠️ **And the entitlement predicate itself may be incomplete** — see the `dma_aem_ams` item above.
+- 🔴 **`dma_aem_ams` is declared on four Cloud Manager skills, so "GA on Cloud Service only" is not what the skills say.** Pedro told Tina, Haresh and Vaishnav the opposite 08-12. Ask Raul whether AMS counts; every entitlement number since 08-13 may measure the wrong predicate for one team. Correct it before it reaches sales.
+- 🔴 **Namita's *"Pedro what do you think about above?"* on rollout speed (50 then batches of 500 vs her 50-100 over 4-5 weeks) never got a textual reply.** Overtaken in practice by the 09-08 cohort, still unanswered in writing.
+- ⏳ **Two asks inside Pedro's own Progressive-activation doc:** the HIPAA customer check, and adding AEM Forms PM `99A27D6C5F569E170A495E8E@AdobeOrg` to the internal org list.
+- ⏳ **Re-own the three EPA fast-follows** Yanira attached as the price of skipping Legal/AI Ethics on the Content Fragments skills (security threat model · ORR runbook in `#skyline-oncall` · CCF onboarding); they vanished when the conclusion changed. Group DM `C0BPS8BS39C`.
+- ⏳ **Answer Corey's 08-10 bar question precisely** — warnings vs failures, hidden vs customer-facing skills (the 0-vs-4 and the 87-vs-98).
+- 🆕 **Conrad Woltge has the Coworker "lead" per Jean-Michel** (Bertrand DM 08-13). Watch what "lead" means and whether Pedro's GA authorship survives it. [[feedback_position_over_merit]]
+- ⚠️ `aem-aia-extensions` merge gate (16 open PRs / no named approver on 08-17) — superseded 09-02 by the `prod` branch switch; only the *"Coworker pulls the latest plugin, version not read"* spec contradiction (Ian Reasor 08-15) is unreconciled.
 
 ### 🔴 STILL OPEN FROM THE 08-12 SEND DAY
 
@@ -153,13 +133,6 @@ metadata:
 - Agents were never onboarded to `#skyline-oncall`; runbooks are written for **a2a**, not the skills model. **Carsten: *"the incident will first land with coworker and then it might be unclear which teams is responsible for a skill."*** Yanira drives, starting with the EPA runbook; Carsten covers for Ian (PTO); **Toby Such, who framed it as the pending ORR work, is out all month.**
 - 🔑 **Pedro's move: the audit can emit the skill→team column from CODEOWNERS.** Offer it before seven teams build it by hand. This is the consumer the parked "repoint the ownership axis onto CODEOWNERS" item never had. ⚠️ **Different column from the agent map** (plugin→AOv1 agent); do not merge them.
 
-### 🔴 TUE 2026-08-11 — THE COHORT ANSWER, AND TWO PEOPLE ARE WAITING ON IT
-
-- **Brian Chaikelson** (*"Is this just the pods? When would the next group be?"*) — ⏰ **he records his Developers Live segment WEDNESDAY, before his PTO.** **Silvia Mulet Ferre**, same question in her words on 08-10 20:19. Neither answered.
-- **EDA may slip a week.** Pedro's two options on the table with Brian: announce all agents with no special mention, or tell the few onboarded customers *"EDA not present yet"*. Undecided.
-- **⏰ Also due Tue AM UK:** the AEM Agents Reporting Status **ahead of Jean-Michel's staff call**, bot reminder cc Jaclyn. Pedro has just told Bertrand he reports via Jaclyn, so this is the surface that carries it.
-- **⏳ Answer Corey's 08-10 16:52 bar question precisely** — warnings vs failures, and hidden vs customer-facing skills. **That is the 0-vs-4 and the 87-vs-98.**
-
 ### 🔴🔑 WEEK OF 2026-08-10 — RUBIN ([[project_aem_agents_intelligence]] 2026-08-06 RUBIN SYNC block)
 
 - **✅ AXIS SETTLED 2026-08-07 — publish on the skill NAME with the error rate footnoted.** PR15's plugin rooting stays the record of record; the name is what ships. **The footnote is not optional, it is what makes it defensible.** Measured on the 08-07 run, **98 rows / 85 distinct skills**, the name gives a clean application segment on **51 of 98**; 18 loose tokens, 14 from declared `domain:`, 4 from plugin, **11 unresolved**. Live artifact = canvas **`F0BN06V01GF`**. ⏳ Still worth asking Rubin to log `plugin` — it retires the footnote.
@@ -169,12 +142,6 @@ metadata:
 - **🔴 Ask the two questions that were missed** while Angela Han and Karthik sat in the room 22 minutes: (1) Ramkesh's GA-skills-only claim, **needed for 08-10**; (2) Hemanta Gupta's no-ingress finding. ⚠️ Angela's side-load answer is adjacent and cuts mildly against Hemanta — she objected to the **cadence** (*"are you going to side load them every week?"*), not the capability. **Not an answer, do not bank it as one.**
 - **🔴 SKU vs TBYB still cannot be split**, and it blocks Namita's cohort ordering. Yanira named the older blocker (**Andre, DAS team: no quick indicator**) and is surfacing it on Slack. Angela's bar: a **root provisioning API**, not a weekly spreadsheet. Interim: two digests, one filtered to each org list.
 - **🔑 Free distribution win:** Report Builder reports carry a subscriber list and others can clone them. **Three Workday reviewers asked for more broadcast** (Felix Delval, Yanira, Razvan). Cheapest promotion-case move available.
-
-### 🔴 ~2026-08-17 — THE EH PLACEMENT ANSWER NOW HAS A DEADLINE
-
-- GA 08-24 with a **one-week pre-flip customer announcement** means the answer on which EH surfaces carry the banners plus the Gainsight notification is owed around **08-17**. **Cole Connelly delivered the banner Figma on 08-07** (pre-rollout and post-rollout); Pedro routed it to Eugene and Sorin *"when you guys are back"*, and both were away.
-- Huong Vu's split still stands: **admin emails go from one central channel**, the **in-product banner needs coordinated AEM work**. Copy exists, with two variants for prior-AIA versus newly-onboarded TBYB.
-- ⚠️ **Fourth consecutive staleness flag raised on the EH Status & Todo `Current Status` on 2026-08-11** — 11½ weeks behind, flagged not rewritten. It is Pedro's to refresh.
 
 ### 🔵 TUE 2026-08-11 — RE-RUN THE AUDIT (a baseline is not progress)
 
@@ -285,14 +252,15 @@ metadata:
 - **🔴 Bertrand also wrote G1's work *"needs to be… redone for a large part given the move to Coworker."*** → the Rubin/definition port is the H2 G1 story, not insurance. **G3 got four words ("well noted") and no outcome comment. That asymmetry is where H2 gets allocated.**
 - **⏳ One paragraph to reframe if it comes up** — *"I did not try to debate - what I did was to share as much informations as I collected"* **reads as the scribe posture in the first person.** The true version is a judgment: he declined the engine-topology fork and owned the customer-facing boundary, validated by Felix and Ian within the hour on 07-22.
 
-### 🟡 STALENESS + SIZE FLAGS (refreshed 2026-09-02 at `/consolidate`, Pedro's call on all of them)
+### 🟡 STALENESS + SIZE FLAGS (refreshed 2026-09-03 at the System Review, Pedro's call on all of them)
 
-- 🔴🔴 **THE FULL SYSTEM REVIEW IS NOW OVERDUE — due 2026-09-01, not run.** Queue, unchanged plus one: **H-008's hard auto-kill condition is MET** (09-01 passed with no second observation and no discriminant answer; the 08-20 blog post was never read) — flagged in `hypotheses/active.md`, deliberately not acted on at consolidation because the kill is `/system-review`'s call · **H-009's decision arm, frozen since 07-16** · the parked-candidate cap · the size regressions below.
-- 🔴 **`watches.md` is at ~24K tokens, i.e. AT the read cap, and the SessionStart hook warned about it this session.** It was compressed to ~14K on 08-07 and has regrown twice since. **The next regrowth truncates it at session start, which is the exact failure it exists to prevent.** A real pass means triaging the live August follow-ups — Pedro's call, not `/consolidate`'s.
-- 🔴 **The AAI Status & Todo regrowth flag is now twelve days old and unactioned** — ~104K bytes / ~43K tokens measured 08-21 against 19.5K right after the 08-06 split, and this consolidation added a Focus block to it. The archive siblings exist, so the fix is mechanical.
-- 🔴 **`## Focus — Do in This Order` in that file still carries the Top 3 re-triaged 2026-08-04**, all three marked superseded in their own text. **Twenty-nine days stale on the block whose job is to say what to do now, and GA plus the whole instruction-layer finding have happened since.**
-- ⚠️ **Seventh consecutive flag on the EH Status & Todo `Current Status`**, now ~14½ weeks behind. Deliberately not banner-stacked ([[feedback_refresh_stale_status_sections]]). It is Pedro's to refresh.
-- 🟢 **Repo memory is healthy** — `project_aem_agents_intelligence.md` ~18K after this session's block plus an archive run (the 08-25/26 cohort block moved to shard W35), `project_experience_hub.md` ~18K, `state.md` ~8K. All under the 20K target.
+- ✅ **System Review ran 2026-09-03** (H-008 killed, parked table back under cap at 6, two decisions scored). Next due **2026-10-01**.
+- 🔴 **AAI Status & Todo at ~123K bytes, ≈2× the read cap, 13 Focus blocks in one file, Top 3 dated 08-04 with no live item, 53 🔴 against 2 🟡.** The `ARCHIVE 2026-08` sibling exists; the archive pass is mechanical once you say go. Logged in `state.md` Open ops.
+- ⚠️ **EH Status & Todo `Current Status`, fifth consecutive review, 14 weeks.** Six banners above it now say the same thing. A refresh, not an archive. Pedro's.
+- ⚠️ **O1 / O2 KR notes untouched since 07-14** while the AAI Status carries Bertrand's Q2 line and the 28.5% Q3 figure; the roll-up is ahead of the detail.
+- ⚠️ **Three predicted dates passed with no outcome captured:** the 08-26 all-hands AEM+Coworker segment, the 09-01 Developers Live session, the 08-14 weekly to Bertrand (unsent at 20 days).
+- 🟢 `watches.md` compressed at this review (six pre-GA sections → one); repo memory healthy (AAI ~17K, EH ~18K, state ~10K).
+
 ### 📕 RESIDUALS OF THE CLOSED AUGUST SECTIONS (consolidated 2026-08-31 — six 📕 sections moved out; verbatim in `watches_ARCHIVE_2026-08.md`, grep `Verbatim snapshot appended 2026-08-31`)
 
 - 📅 **2026-09-02 — the feature-parity plan for paying/SKU customers**, Pedro's own date in the Loni mail. ⚠️ UHG is named in it as on-hold and is already provisioned.
