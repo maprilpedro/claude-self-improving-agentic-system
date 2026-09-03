@@ -36,7 +36,7 @@ Pull out, with dates and verbatim where it matters:
 - **Quotes worth banking** — exec verbatim, especially VP. Audit the grammatical subject before promoting a quote to promotion-grade narrative (`feedback_dont_overread_vp_quotes`).
 - **Reconcile** — anything the transcript resolves or contradicts vs the project memory you loaded (a predicted date that moved, a hypothesis confirmed/killed, a "still owed" item now closed).
 
-Route each item to the project that **owns the outcome** (CLAUDE.md table). The mirror rule is retired — do not duplicate across EH and AAI. Cross-cutting 1-1s (Bertrand) split by surface: EH signals to EH, AAI signals to AAI.
+Route each item to the one project that **owns the outcome** (CLAUDE.md table); never duplicate an item across EH and AAI. Cross-cutting 1-1s (Bertrand) split by surface: EH signals to EH, AAI signals to AAI.
 
 ## Step 3 — Update the canonical Status & Todo
 
@@ -65,16 +65,16 @@ Edit the owning project's memory file under `.claude/memory/` (use the GitHub re
 
 ## Step 5 — Knowledge reflection (only when it earns it)
 
-**Retrieval first (P6, 2026-07-02).** Before reflecting anything new OUT, pull existing knowledge IN: name which existing `knowledge/` entries apply to this meeting's situations (route via the folder READMEs, cite as `[[entry title]]` in the memory block), or state plainly "none apply". If an entry applied but the live work didn't use it, say so in the summary ("next time, lead with [[X]]") — a rule that never gets retrieved at decision time is dead weight, and the citation is what the retrieval audit counts.
+**Retrieval first.** Before reflecting anything new OUT, pull existing knowledge IN: name which existing `knowledge/` entries apply to this meeting's situations (route via the folder READMEs, cite as `[[entry title]]` in the memory block), or state plainly "none apply". If an entry applied but the live work didn't use it, say so in the summary ("next time, lead with [[X]]") — a rule that never gets retrieved at decision time is dead weight, and the citation is what the retrieval audit counts.
 
-This is a Learning-Mode repo: when the transcript carries a genuine PM insight, pattern, hypothesis, false belief, or tool comparison, update `knowledge/` without asking — route via `knowledge/INDEX.md`, never load everything. Promotion rules from CLAUDE.md hold: a pattern needs **2+ supporting observations** before it moves from project memory into `knowledge/`; a hypothesis flips to resolved only with evidence. Update INDEX.md only if a new external source was ingested (Sources Ingested row) — entry counts and the Access Log are retired; the git commit is the access record.
+This is a Learning-Mode repo: when the transcript carries a genuine PM insight, pattern, hypothesis, false belief, or tool comparison, update `knowledge/` without asking — route via `knowledge/INDEX.md`, never load everything. Promotion rules from CLAUDE.md hold: a pattern needs **2+ supporting observations** before it moves from project memory into `knowledge/`; a hypothesis flips to resolved only with evidence. Update INDEX.md only if a new external source was ingested (Sources Ingested row); INDEX.md carries no entry counts and no access log, the git commit is the access record.
 
 If the meeting produced no new PM-pattern substance (a status sync with no insight), do **not** invent a learning to look productive — hygiene-only is a valid outcome (`feedback_consolidation_without_substance`). Say so.
 
 ## Step 6 — Summarize, offer trio, commit
 
 1. **Brief change summary** (`feedback_document_updates`): what changed in the doc, what changed in memory, what knowledge moved, and the substantive meeting takeaways — short, skimmable, with the 🔴/🟢 carry-forward items called out.
-2. **Offer the trio** — do not auto-write it. After a meeting analysis the project's trio (Stakeholder Map / State of the Project / Questions for next 1-1) often wants updating. The EH/Sorin trio rule (`feedback_update_trio`) is EH-specific; the AAI trio is different. Name the specific trio for the owning project and ask if Pedro wants it synced (State of the Project = headline-only, 3-5 lines + a Status & Todo link — one home per info, P4 2026-07-02), unless this transcript introduced a new stakeholder (then flag the Stakeholder Map gap directly).
+2. **Offer the trio** — do not auto-write it. After a meeting analysis the project's trio (Stakeholder Map / State of the Project / Questions for next 1-1) often wants updating. The EH/Sorin trio rule (`feedback_update_trio`) is EH-specific; the AAI trio is different. Name the specific trio for the owning project and ask if Pedro wants it synced (State of the Project = headline-only, 3-5 lines + a Status & Todo link, one home per info), unless this transcript introduced a new stakeholder (then flag the Stakeholder Map gap directly).
 3. **Commit** (`Commit Rule`): stage `knowledge/` and `.claude/memory/` and commit with the right prefix (`learn:` for meeting ingest, `pattern:` / `hypothesis:` / `correct:` if that was the dominant change). Use `rtk git` per the global RTK rule. End the commit message with the Co-Authored-By trailer. **Never push** — this repo's push is auth-blocked. Vault files (Status & Todo, trio) live outside the repo and are not committed here; OneDrive/Obsidian sync carries them.
 
 ## What success looks like

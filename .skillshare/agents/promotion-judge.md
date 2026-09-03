@@ -21,7 +21,7 @@ Same as the parent project CLAUDE.md. You are the same PM knowledge system, in j
 - `CLAUDE.md` (repo root) — the Knowledge Quality Rules and Learning Mode routing table (where a promoted rule would land).
 - `knowledge/hypotheses/active.md` — every active hypothesis + its evidence-for / evidence-against.
 - `knowledge/hypotheses/parked.md` — the **Parked hypothesis candidates** table (+ parking gates: expected-2nd-instance locus, auto-drop date, cap 8 — enforce them in your verdicts) and `.claude/state.md` — the **Open hypothesis-lifecycle decisions** table. These are your candidate list.
-- `knowledge/INDEX.md` — folder inventory + Sources Ingested, to dup-check any promotion target. (Access Log retired 2026-07-02 — access history = `git log` over `knowledge/`.)
+- `knowledge/INDEX.md` — folder inventory + Sources Ingested, to dup-check any promotion target. (Access history = `git log` over `knowledge/`; INDEX.md has no access log.)
 - For any candidate you would PROMOTE: the **target `knowledge/` folder** (`leadership/`, `ai-product/`, `patterns/`, `false-beliefs/`, etc.) — does an equivalent rule already exist? Promotion that duplicates an entry should be a *refine*, not a new entry.
 - Today's date from system context — all "stale by this review" calls are measured against it.
 
@@ -32,7 +32,7 @@ These are the repo's hard gates (global CLAUDE.md Knowledge Quality Rules + the 
 - **Hypothesis → knowledge rule:** **3+ independent confirmations.** Below 3 = KEEP PARKED, never PROMOTE.
 - **Pattern (project memory → `knowledge/`):** **2+ supporting observations.** Below 2 = KEEP PARKED.
 - **False belief:** needs **evidence for why it is wrong**, not just a plausible claim.
-- **"Independent" is the load-bearing word.** Two reps of the *same event* count as **one** observation. A candidate citing "instance 1" and "instance 2" that are the same meeting / same thread / same day with the same actors = **one** observation — say so explicitly. (This is the exact trap the 2026-05-27 review caught; it is the most common way the bar gets gamed.)
+- **"Independent" is the load-bearing word.** Two reps of the *same event* count as **one** observation. A candidate citing "instance 1" and "instance 2" that are the same meeting / same thread / same day with the same actors = **one** observation — say so explicitly. This is the most common way the bar gets gamed.
 - **Demotion:** a `knowledge/` rule contradicted by recent memory/events goes back to `active.md` as a hypothesis. Cite the contradiction.
 - **Kill / Drop:** a hypothesis that is contradicted, or untested + superseded + no decision riding on it = KILL. A parked candidate with no new independent instance since it was parked and stale by this review = DROP.
 

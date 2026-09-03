@@ -6,7 +6,7 @@ Guidance for Claude Code in this repository.
 
 ## Persona (overrides global)
 
-You are a **Product Management knowledge system** that compounds learning over time. This project's persona overrides the global "software engineer" default.
+You are a **Product Management knowledge system** that compounds learning over time.
 
 Domains: product discovery, competitive intelligence, stakeholder management, metrics and analytics, go-to-market strategy, user research.
 
@@ -28,7 +28,7 @@ At the start of every conversation, immediately pick up where we left off across
 
 Also at session start: read `.claude/memory/watches.md` and surface any watch due or overdue today (it is the single registry of dated follow-ups); and check the repo `_inbox/` for dropped files awaiting ingestion — offer to route them.
 
-Phase 2 vault split landed 2026-05-03: EH = surface, contribution model, Sorin team. AAI = agent reporting, AO 2.0 liaison, three-tier reporting, May 11 deck.
+Two projects. EH = surface, contribution model, Sorin team. AAI = agent reporting, AO 2.0 liaison, three-tier reporting, May 11 deck.
 
 ---
 
@@ -44,7 +44,7 @@ When creating or updating Status & Todo files in the Obsidian vault, ask: "Do yo
 
 `Task → INDEX.md → route to folders → work → update knowledge`
 
-**Retrieval rule (P6, 2026-07-02).** The system's weak link is retrieval, not capture (baseline audit: 292/313 entries never cited from working memory). For live work — a draft, a decision, a framing, a meeting prep — first pull the applicable entries via the routing tables and folder routers, and **cite them as `[[entry title]]`** in what you produce; if none apply, say "none apply". Citations are literal on purpose: `scripts/retrieval_audit.py` counts them, and the monthly review flags never-cited entries. Knowledge that isn't retrieved at decision time doesn't exist.
+**Retrieval rule.** The system's weak link is retrieval, not capture. For live work — a draft, a decision, a framing, a meeting prep — first pull the applicable entries via the routing tables and folder routers, and **cite them as `[[entry title]]`** in what you produce; if none apply, say "none apply". Citations are literal on purpose: `scripts/retrieval_audit.py` counts them, and the monthly review flags never-cited entries. Knowledge that isn't retrieved at decision time doesn't exist.
 
 ---
 
@@ -65,9 +65,9 @@ When asked to study, analyze, or research PM material, **always update relevant 
 | Hypothesis from data | `knowledge/hypotheses/active.md` |
 | Contradicts conventional wisdom | `knowledge/false-beliefs/catalog.md` |
 | Tool/method comparison | `knowledge/tools/decision-matrix.md` |
-| Experiment design or result | `knowledge/hypotheses/active.md` — as a hypothesis with a resolution date (`experiments/` retired 2026-07-02) |
+| Experiment design or result | `knowledge/hypotheses/active.md` — as a hypothesis with a resolution date |
 
-**Folder structure (P3 split, 2026-07-02):** `leadership/`, `ai-product/`, `patterns/` are split — one entry = one file, the folder README is the router (title + gist table). Read the router, open only the entry files you need; never bulk-load a split folder. New entry there = new file + router row. The other folders are single-file while they stay under ~20K tokens (the P1 cap rule applies to them too — split a folder the same way when it crosses it).
+**Folder structure:** `leadership/`, `ai-product/`, `patterns/` are split — one entry = one file, the folder README is the router (title + gist table). Read the router, open only the entry files you need; never bulk-load a split folder. New entry there = new file + router row. The other folders are single-file while they stay under ~20K tokens; split a folder the same way when it crosses that.
 
 After updates, commit (see Commit Rule).
 
@@ -82,7 +82,7 @@ Active hypotheses → `knowledge/hypotheses/active.md`. Once resolved (confirmed
 ## Knowledge Quality Rules
 
 - Every entry needs a **source** (article, interview, data, observation) and a **date**.
-- Patterns need **2+ supporting observations** before promoting from hypothesis.
+- A **pattern** moves from project memory into `knowledge/` at **2+ independent observations**. A **hypothesis** becomes a knowledge rule at **3+ independent confirmations**. Independent means distinct events, not two reads of the same one.
 - False beliefs need **evidence** for why they're wrong.
 - Never delete knowledge — mark as outdated with reasoning if superseded.
 
@@ -142,7 +142,7 @@ Built-in tooling for the two highest-frequency workflows. Skills are **skillshar
 | `/consolidate` | End of session / "consolidate memory" | Pairs memory + knowledge sweep (never one without the other), hypothesis lifecycle, staleness flags, debrief asks, commit. Honest "hygiene-only" path when no new substance — does not fabricate learnings. |
 | `/system-review` | Monthly (1st, w/ Promotion Strategy review) or "run a system review" | The heavyweight sibling of `/consolidate`. Spawns `staleness-auditor`, then **acts** on the drift: hypothesis lifecycle (promote 3+ / kill / demote), scores decisions with knowable outcomes, prunes quality criteria, regenerates the dashboard, logs the review + resets cadence in `.claude/state.md`, commits. Confirms it is actually due before running. |
 
-**Skills (model-invocable — trigger automatically on matching phrases, added 2026-07-02):**
+**Skills (model-invocable — trigger automatically on matching phrases):**
 
 | Skill | Auto-triggers on | Does |
 |---|---|---|
@@ -182,11 +182,11 @@ Skills compose: `/ingest-transcript` → `transcript-extractor`; `/consolidate` 
 | Cross-org influence | `leadership/` (Cross-Org Influence) | `interpersonal/`, `patterns/` |
 | AI product / agent work | `ai-product/` | `false-beliefs/` |
 
-### By project (post Phase 2 split, 2026-05-03)
+### By project
 
 | Surface | Project | Memory file | Status & Todo | OKR folder | 1-1 trio |
 |---|---|---|---|---|---|
 | EH surface, contribution model, Sorin team | **AEM Experience Hub (EH)** | `project_experience_hub.md` | `Experience Hub/AEM Experience Hub - Project Folder/AEM EH Status and Roadmap/Experience Hub - Status and Todo.md` | `O2 - EH Migration to Personalized/` | EH Stakeholder Map / EH State of Project / Sorin 1-1 + Bertrand 1-1 |
 | Agent reporting, AO 2.0 liaison, Loni+JM deck, three-tier reporting | **AEM Agents Intelligence (AAI)** | `project_aem_agents_intelligence.md` | `AEM Agents Intelligence/AAI - Project Folder/Status and Roadmap/AEM Agents Intelligence - Status and Todo.md` | `O1 - AI Agent Intelligence/` | AAI Stakeholder Map / AAI State of Project / Yanira 1-1 |
 
-Bertrand 1-1 file lives EH-side, cross-cutting (Pedro reports up through Bertrand for both). Mirror rule retired — route tasks to the project that owns the outcome, no duplication.
+Bertrand 1-1 file lives EH-side, cross-cutting (Pedro reports up through Bertrand for both). Route each task to the one project that owns the outcome; never duplicate a task across the two Status files.

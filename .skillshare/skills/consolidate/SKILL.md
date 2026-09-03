@@ -33,14 +33,14 @@ Edit memory files via the GitHub repo path, not the symlink target (`reference_o
 
 Read `knowledge/INDEX.md` first, route to relevant folders, never load everything (Progressive Disclosure).
 
-**Retrieval first (P6, 2026-07-02).** Before adding anything, name which existing entries the session's events are instances of — cite them as `[[entry title]]` in the memory block ("no new entry — instance of [[X]]" already does this; keep the citation literal so the retrieval audit can count it). If an entry applied but wasn't used during the live work, flag it ("next time, lead with [[X]]").
+**Retrieval first.** Before adding anything, name which existing entries the session's events are instances of — cite them as `[[entry title]]` in the memory block ("no new entry — instance of [[X]]" already does this; keep the citation literal so the retrieval audit can count it). If an entry applied but wasn't used during the live work, flag it ("next time, lead with [[X]]").
 
-Route new material per the CLAUDE.md Learning Mode table: PM-practice insight → `domain/`; recurring framework → `patterns/`; data hypothesis → `hypotheses/active.md`; contradicts conventional wisdom → `false-beliefs/`; tool/method comparison → `tools/`; experiment-shaped material → `hypotheses/active.md` (a hypothesis with a resolution date; `experiments/` retired 2026-07-02); leadership/visibility → `leadership/`; person-reading → `interpersonal/`; AI-product → `ai-product/`.
+Route new material per the CLAUDE.md Learning Mode table: PM-practice insight → `domain/`; recurring framework → `patterns/`; data hypothesis → `hypotheses/active.md`; contradicts conventional wisdom → `false-beliefs/`; tool/method comparison → `tools/`; experiment-shaped material → `hypotheses/active.md` (a hypothesis with a resolution date); leadership/visibility → `leadership/`; person-reading → `interpersonal/`; AI-product → `ai-product/`.
 
 Promotion rules are hard gates:
 - A pattern moves from project memory into `knowledge/` only with **2+ supporting observations**.
 - A false belief needs **evidence** for why it is wrong.
-- Update `INDEX.md` only if a new external source was ingested (add a Sources Ingested row). No per-session INDEX edit otherwise — access history = the git commit itself (entry counts retired 2026-07-01, Access Log retired 2026-07-02).
+- Update `INDEX.md` only if a new external source was ingested (add a Sources Ingested row). INDEX.md carries no entry counts and no access log; the git commit is the access record.
 
 If Step 0 said "substance present" but you genuinely find nothing knowledge-grade, that is allowed — but state it explicitly. The bar is real insight, not volume.
 
@@ -53,11 +53,11 @@ Walk `hypotheses/active.md`. For each:
 
 ## Step 4 — Vault sync (when substance entered via conversation, not `/ingest-transcript`)
 
-When PM substance arrived **in the session itself** (a Slack thread Pedro pasted, a live decision, a source-read finding) rather than through `/ingest-transcript`, the canonical vault notes do **not** get updated automatically — `/consolidate` historically touched only repo memory + knowledge, so conversation-borne events fell through the crack. Close it here.
+When PM substance arrived **in the session itself** (a Slack thread Pedro pasted, a live decision, a source-read finding) rather than through `/ingest-transcript`, nothing else writes it to the canonical vault notes. This step does.
 
 Skip this step only if the session was hygiene-only (Step 0) or all substance already landed in the vault via `/ingest-transcript` this session.
 
-For the owning project (route by the CLAUDE.md project table), update the three canonical Key Files **and** the Status & Todo. **One home per info (P4, 2026-07-02):** session narrative → the memory RESUME block (once); tasks + event detail → Status & Todo; people → Stakeholder Map; State of the Project → headline only. Never write the same detail in two of them.
+For the owning project (route by the CLAUDE.md project table), update the three canonical Key Files **and** the Status & Todo. **One home per info:** session narrative → the memory RESUME block (once); tasks + event detail → Status & Todo; people → Stakeholder Map; State of the Project → headline only. Never write the same detail in two of them.
 - **State of the Project** — **headline-only**: add a dated `## Headline State (YYYY-MM-DD — <topic>)` block of **3-5 lines max** + one link to the Status & Todo for the detail. No task lists, no event narrative here — that's Status & Todo's home. Do **not** silently rewrite an older headline; older headlines stay as history (`feedback_refresh_stale_status_sections`).
 - **Stakeholder Map** — add any new people (role, status, dated note) to the right section; append a dated note to existing entries whose posture shifted. Don't duplicate EH-only stakeholders.
 - **Status & Todo** — add a dated `### Focus — week of <date>` block: closed items as `- [x] … ✅ <date>`, forward asks as `- [ ] … 📅 <date>`. Roll-up not task-tracker (`feedback_status_rollup_not_tracker`); rich tasks → one-liner + companion section (`feedback_rich_task_companion_section`).
@@ -74,9 +74,9 @@ This is the lightweight half of the periodic System Review directive (CLAUDE.md)
 
 For depth here, you may spawn the `staleness-auditor` subagent (read-only drift report across Status files + memory dates) and fold its findings in rather than scanning inline.
 
-**Hot-file size check (the token-cap guard).** The three hot files (`project_experience_hub.md`, `project_aem_agents_intelligence.md`, `.claude/state.md`) load at every session start. Past ~25K tokens they truncate on read and the content at the bottom is silently cut — the awareness-loss failure of 2026-06/07-01. Enforce the cap here:
+**Hot-file size check (the token-cap guard).** The three hot files (`project_experience_hub.md`, `project_aem_agents_intelligence.md`, `.claude/state.md`) load at every session start. Past ~25K tokens they truncate on read and the content at the bottom is silently cut. Enforce the cap here:
 
-- Run `python3 scripts/archive_memory.py --check` on **all three** (both `project_*.md` + `.claude/state.md`). Token estimate = bytes/2.4, calibrated 2026-07-02 against real Read counts (the old bytes/4 under-counted ~1.7x and let files truncate while "passing" — trust the script, not gut feel).
+- Run `python3 scripts/archive_memory.py --check` on **all three** (both `project_*.md` + `.claude/state.md`). Trust the script's token estimate over a byte count or gut feel.
 - If a **project memory file** reports OVER (> ~20K tokens), run the script **without `--check`** on it: it moves event blocks older than ~1 week into that project's weekly ISO shard (`..._ARCHIVE_<year>-W<wk>.md`), rebuilds `..._ARCHIVE_INDEX.md`, and targets ~18K. Dense recent week: it tolerates 20-24K rather than archive same-week blocks, and only overrides retention past the 24K read-cap — a residual "OVER — archive due" between 20-24K after a run is fine, the file still loads in one Read. It **moves, never deletes** — old context stays grep-able via the index.
 - If **`.claude/state.md`** reports OVER, move the oldest dated `## Notes` journal bullets (older than ~2 weeks) into `.claude/state_ARCHIVE.md` by hand — they are self-contained one-line bullets, cut the line and append it there, original order. Never touch the Review log or the open-decisions tables.
 - Regenerate the entity index: `python3 scripts/entity_index.py` (generated lookup for /reply — cheap, run it every consolidation).
@@ -84,7 +84,7 @@ For depth here, you may spawn the `staleness-auditor` subagent (read-only drift 
 
 ## Step 6 — Debrief, summarize, commit
 
-0. **No state.md journal** (P4, 2026-07-02) — do NOT append a session-journal bullet to `state.md` `## Notes`; the memory RESUME block is the single home for session narrative. `state.md` is touched only by `/system-review` (Review log row) or when a hypothesis/decision table row genuinely changes.
+0. **No state.md journal** — do NOT append a session-journal bullet to `state.md` `## Notes`; the memory RESUME block is the single home for session narrative. `state.md` is touched only by `/system-review` (Review log row) or when a hypothesis/decision table row genuinely changes.
 1. **Debrief asks** — list the specific things only Pedro can answer that would unblock the next session (e.g. "Loni+JM deck outcome still uncaptured"). Short, pointed.
 2. **Change summary** (`feedback_document_updates`) — what changed in memory, what moved in knowledge, hypotheses transitioned, staleness flags raised. Skimmable, with 🔴/🟢 carry-forward called out.
 3. **Commit** (`Commit Rule`) — stage `knowledge/` and `.claude/memory/`, commit with the right prefix (`learn:` default; `pattern:` / `hypothesis:` / `correct:` / `experiment:` if that dominated; `note:` for memory-only / hygiene-only). Use `rtk git`. End with the Co-Authored-By trailer. **Never push** (auth-blocked). A session summary file in the vault `Meeting Notes/` is optional and only when the session warrants a durable narrative — do not spawn one by reflex (`feedback_one_artifact_per_ask`).

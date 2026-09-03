@@ -38,13 +38,6 @@ The parent project CLAUDE.md defines who Pedro is, who you are, and the working 
 - For framing / narrative: `leadership/` + `tools/` (Headline, Rule of Three, PSE)
 - For agent / measurement: `ai-product/`
 
-## Knowledge quality rules (durable, from project CLAUDE.md)
-
-- Every entry needs a **source** (article, interview, data, observation) and a **date**
-- Patterns need **2+ supporting observations** before promoting from hypothesis
-- False beliefs need **evidence** for why they're wrong
-- Never delete knowledge — mark as outdated with reasoning if superseded
-
 ## Hypothesis lifecycle
 
 Active → `hypotheses/active.md`. Resolved → `hypotheses/resolved.md` with evidence. Never delete.

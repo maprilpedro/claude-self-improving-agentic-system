@@ -69,7 +69,7 @@ The script selects the period's notes, builds against local Qwen (big sets → m
 ## Workflow
 1. Pick engine (default claude; `--qwen` or "local/privé/sensible" → qwen).
 2. Resolve the period's files (via `--list-only` for claude, or the script itself for qwen). If zero notes match, say so — don't fabricate a day.
-3. claude → read fresh + fuse + write + a 3-line summary naming the notes used. qwen → run the script, relay metadata only.
+3. claude → read fresh + fuse + write + a short summary naming the notes used. qwen → run the script, relay metadata only.
 
 ## What this is NOT
 - Not a task tracker (follow-ups land in the entry, not in JIRA/Status — that's `/ingest-transcript` and the canonical files).
