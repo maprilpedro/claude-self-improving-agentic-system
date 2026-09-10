@@ -46,3 +46,9 @@ Sorin posted the recipe publicly, answering Corey's "is this available now for t
 - **Sorin's post contradicts Shankari's *"None of this is available yet"*** (07-09 15:22, 2 facepalm reactions). It is available on stage behind one flag. Pedro surfaced it with an ⬆️ to Gilles Knobloch + Shankari at 09:52, no commentary. Correct handling ([[feedback_additive_not_corrective]]).
 
 **Why it's Pedro's:** this is the EH front door with two chat entry points — the "which one does the user land in / how is it one coherent surface" question made literal on screen. = the EH **selection + consistency layer** lane ([[project_experience_hub]]), and the migration-window UX confusion (mixed surfaces) flagged before. The lever: own how EH routes/consolidates the entry during the transition, not let two bars sit side by side.
+
+---
+
+## ✅ 2026-09-08 update — the flag is now TWO params (Rodson Clavel, pinned in `C0BCKG35NFP`)
+
+`?shell_aiChatEnabled=true&shell_nextGenAIEnabled=true#` after `/ui`. Prerequisite: the org is already Coworker-enabled (ask in `#coworker-general-questions` `C070SDG809J`). ⚠️ QA/debug overrides silently force the legacy AIA panel; turn them off, or set `shell-coworker-enabled`, `ai-ui-kill-switch`, `ao2-aia-enabled` all to `true`. The older `devMode=true&shell_aiPanelEnv=dev…` method is retired ("Episode not found"). Coworker panel GA is still only Workfront + Target. Source: https://adobe.enterprise.slack.com/archives/C0BCKG35NFP/p1788905115110679 (Lénárd Palkó pointed Pedro at it 09-09).
