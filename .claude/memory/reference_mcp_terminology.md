@@ -20,3 +20,7 @@ originSessionId: c3970bb1-0fc5-47cd-80ee-cd157b1b93c6
 **Walk-out line for Loni/JM (May 11 deck):** *"MCP usage is reaction to AEM agents from non-Adobe surfaces. We measure it as Tool Calls, separately from agent interactions, because the units don't compare."*
 
 **Source:** `Meeting Notes/Felix Pedro 1 1/20260506 - Felix Pedro 1 1.md`. Felix verbatim: *"Hit. Je mettrais hit tout simplement. C'est vraiment une API pour agent. Si tu dois faire 3 recherches pour avoir ton truc, c'est 3 hits, tout le call."*
+
+## 2026-09-11 — "OneAEM MCP" is retired; the name is "AEM MCP"
+
+Tanju Erinmez, `#aem-agentic-owners-alignement` 09-11 15:29: "we have moved away from calling it OneAEM MCP. It is simply AEM MCP going forward. In Coworker it appears as 'AEM'." Bertrand asked the same for the adoption report the week before (thread 09-07 → 09-10): the "AEM" surface is reported as "AEM MCP". Pedro's 09-11 reply to Apoorva already used it ("AEM MCP (renamed)"). Repo memory still says "One AEM MCP" in older entries — read them as the same object. The metric term stays **Tool Calls**; the 09-09 OKR review moved the *instrument* to server-log "operations" (Tanju's team), which is a source change, not a term change.

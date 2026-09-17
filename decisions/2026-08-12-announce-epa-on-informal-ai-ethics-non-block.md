@@ -51,3 +51,11 @@ If AI Ethics returns a finding on EPA after 08-24, Adobe has already said public
 | 2026-09-14 | No AI Ethics finding has forced a public correction | **Pending.** None recorded as of 09-03. |
 
 **Caveat that outranks the two holds:** condition 1 of this decision, *verify a named AI Ethics non-block actually exists for EPA (route: Yanira)*, was never done (`watches.md`, 08-12 send-day residuals). The bet has been running 22 days on an unverified premise, and conditions 2 and 3 (in writing with a name; tell Corey the basis) have no record either. A hold on an unverified premise is luck until the premise is checked. If the 09-14 score goes wrong, the 2026-08-12 carve-out written into [[Surface the Risk Before Leadership Has to Ask]] is the refinement to reverse.
+
+## Outcome — final (scored 2026-09-16, two days late)
+
+| Date | Prediction | Result |
+|---|---|---|
+| 2026-09-14 | No AI Ethics finding has forced a public correction on EPA | **Held.** Through 09-16 no AI Ethics evaluation, finding or correction on EPA appears anywhere — not in memory, not in the 09-03 → 09-16 Slack audit (18 channels + DMs), not in the W37 journal. EPA shipped in the 08-24/25 announcement and in the 09-08/09-15 cohorts without incident. |
+
+**Score: the decision held on all three predictions.** The caveat from 09-03 stands and outranks the score: condition 1 (a *named* AI Ethics non-block for EPA, via Yanira) was never verified, and conditions 2 and 3 have no record. A bet that held on an unverified premise is a good outcome, not a validated method — the 08-12 carve-out in `leadership/surface-the-risk-before-leadership-has-to-ask.md` stays as written, and the next time this shape recurs the condition gets verified before the send, not after. Closed.

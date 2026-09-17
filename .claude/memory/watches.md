@@ -15,70 +15,53 @@ metadata:
 
 ## Open
 
-### 🆕🔴 2026-09-02/03 — THE SLACK AUDIT LEFTOVERS (full read: [[project_aem_agents_intelligence]] 2026-09-02/03 block)
+### 🆕🔴 2026-09-16 — AFTER THE 09-03 → 09-16 SLACK AUDIT (full read: [[project_aem_agents_intelligence]] 2026-09-16 block)
 
-- 🔴 **Lianne Ramos: deploy the AEM Gainsight "You will soon have access to Coworker!" for the 09-08 cohort (AEM tab of Paul's Cohort 3 file) and reply in her thread.** Asked for 09-02. https://adobe.enterprise.slack.com/archives/C0ABFLYLZK7/p1788303738883819?thread_ts=1788299118.059049&cid=C0ABFLYLZK7
-- 🔴 **Confirm `#12863` to Yelena + Corey** (23 orgs stay on their manifests, 28 added to `cx-coworker`) and say whether UPS and the other `aem-aia` orgs move to default. Corey: "please confirm tomorrow" = 09-03. https://adobe.enterprise.slack.com/archives/C0ABFLYLZK7/p1788287042298669?thread_ts=1788287042.298669&cid=C0ABFLYLZK7
-- 🔴 **Siddharth: ABAC Content Hub live in prod (09-01), works without the panel (Philippe 09-02) → move his 34 orgs to early cohorts.** ⚠️ Conflicts with what you told Paul 09-02 09:11 ("any cohort with SKU = not before Panel"); settle it once in the file. https://adobe.enterprise.slack.com/archives/C0BDAF2H2AG/p1788283915326929?thread_ts=1787563649.301049&cid=C0BDAF2H2AG
-- 🔴 **Answer the field on AMS customers in Cohort 2** — Stephanie (Commonwealth Bank) and David Zepeda (Honeywell). Sophia Gray's "opt them out" is unconfirmed. 📅 09-03 https://adobe.enterprise.slack.com/archives/C070SDG809J/p1788310504113279?thread_ts=1787554074.319519&cid=C070SDG809J
-- 🟡 Rodson Clavel, one line on `?shell_aiChatEnabled=true`. https://adobe.enterprise.slack.com/archives/C0BCKG35NFP/p1788281672808259?thread_ts=1788249231.451749&cid=C0BCKG35NFP
-- 📅 **09-10 — Tatyana Kozachek's September release review: list every AEM agent and Coworker integration on the release wiki.** https://adobe.enterprise.slack.com/archives/C06NCR238DS/p1788273000655649
-- 📅 **09-08 — David Gonzalez back from OOO; his demo org activated with AEM in Coworker** ("let me follow-through", 09-02).
-- ⏳ Rachel / Raj / Eric: the <2-min demo video + script promised for 09-01 — verify Babu's 08-31 demo links are that deliverable. https://adobe.enterprise.slack.com/archives/C0BT9J90SRZ/p1787937174748749
-- ⏳ Guliz: the brand-governance / enterprise-context thread with Bertrand + Philippe promised 08-28 "next week". Not opened.
-- ⏳ Emil Serban: Rubin walkthrough once his access works (login `access_denied` 09-02).
-- 🔵 **Bertrand's 08-31 `#p42-architecture` question, an "active" AEM instance in Coworker like the EH rail — unanswered; it is the instance picker Cole owes.** https://adobe.enterprise.slack.com/archives/C09KKLW1N86/p1788164868708439
-- 🔵 Ethos CORS blocker `EON-73057` (no wildcard CORS on `author-pNNN` domains) now has a channel, `#aem-wildcard-cors-enablement` `C0BTZS3APGF`; Felix joins the Ethos office hour 09-03 17:00 CEST. Next-phase gate, not GA.
+- 🔴 **Panel date — settle it with Yanira today.** 09-24 prod release (Mikaela) vs 09-28 enablement (Yanira) vs "our last release is 9/24" (Mark Doten); the 09-22/23 bug bash may pivot. Loni still holds 09-21. https://adobe.enterprise.slack.com/archives/C0BTZS3APGF/p1789484984583589
+- 🔴 **Yanira DM 09-15 22:57, "does using a special url impact any use cases? Like for UE?"** — unanswered. https://adobe.enterprise.slack.com/archives/D018PT00155/p1789505826143179
+- 🔴 **Six AEM-Gainsight removals on opt-outs tagged to Pedro, none acknowledged** (LG Electronics, BT Consumer, Lloyds, Nissan JPN, Securian, GM Financial), plus Lianne's 09-02 deployment thread still empty. One line each, or one line saying Huong's removal covers AEM. https://adobe.enterprise.slack.com/archives/C0ABFLYLZK7/p1789487314144829
+- 🔴 **Corey 09-10: Humana asked for cohort 1, never enabled, zero replies from anyone.** https://adobe.enterprise.slack.com/archives/C0ABFLYLZK7/p1789048512607749
+- 🔴 **Soumya Sharma 09-12: review the AEM rows of the Sep-9 go-live report.** Yanira took the process; Pedro's read is still owed. https://adobe.enterprise.slack.com/archives/C0C1DQJS3U1/p1789173775019269
+- 🔴 **Tina 09-12: positive skill feedback and agent usage for her enablement** (live session 09-17). https://adobe.enterprise.slack.com/archives/C0B20PQDEG0/p1789237005492389
+- 🔴 **Siddharth 09-15: NWL Brands `6A0F02095FAB0D640A495FE8` wants Coworker v2 for ABAC** — one of the five ABAC orgs pulled from the batch 08-26. https://adobe.enterprise.slack.com/archives/C06K2E373SA/p1789390963162599
+- 🔴 **Hemanta Gupta 09-07: Rubin has no bulk-export API, how do the reports migrate.** Answer him; H-009 architecture arm, do not log it as a signal. https://adobe.enterprise.slack.com/archives/C0AS8RV5997/p1788770340374949
+- 🟡 Vlad Bailescu 09-16: update `uber-release-registry` with the new Rotary schedule; Vikas Bharti wants the meeting outcome for support. https://adobe.enterprise.slack.com/archives/C04NLQFCXK9/p1789542336257729
+- 🟡 Yanira: remove skill canvases 4+5+8 from the owners channel (wiki 4036529200 holds them); name who moves bug-bash content off Showcase.
+- 🟡 Bertrand's 08-31 instance question was answered by Peter Klassen 09-07 — say whether that is AEM's answer; Cole's outline still owed.
+- 🟡 EH: reply to Mihai Copae on the 09-14 announcement improvements; go/no-go to Laurentiu (LLM Apps nav) and Peter Klassen (Content AI nav); Prodesp per-profile restriction with Sorin.
+- 📅 **09-17 — tech enablement live session** (Gina Miller MC); content touch base 09-16 17:00 CEST.
+- 📅 **09-21 — Gateway Stateless prod** (AEM signed off 09-15). 📅 **09-22/23 — panel bug bash** (may pivot). 📅 **09-24 — last Unified Shell release before RCP; AEM panel announcement.** 📅 **10-05 — SKU customers with panel** (Pedro's plan, 09-11).
+- 📅 **10-01 — System Review, H-009 re-assess, promotion-judge on the two parked candidates that gained an instance** (`Two Milestones Wearing One Word`, `Your Own Artifacts Disagreeing`).
+- ⏳ Vitaly's eval rerun after the Coworker naming fix (`AEMAGT-2763`); the "eval capped at 50%" issue Georgiana asked Tanju to open on `q/cx-coworker-gateway`.
+- ⏳ Shubham Lohiya prompt-block ask — still no trace. ⏳ Carsten: when does the `aem-cx-coworker` bug-bash manifest leave prod. ⏳ Danny Miller guardrails Excel. ⏳ Compare the 19 Showcase CSV names to the 19 bug-bash plugin refs.
+- ⏳ Workday 09-15 meeting outcome (Tina) → [[reference_customer_workday]]. ⏳ Capture the 09-09 OKR review outcome and the 09-10 Tatyana release review — no trace anywhere.
 
-### 🆕🔴 2026-09-01 — AEM HAS NO PROMPT SURFACE ON ITS OWN GA MANIFEST
+### 📕 CLOSED BY THE 09-16 AUDIT (from the 09-02/03 and 09-01 sections)
 
-> Full read: [[reference_coworker_system_prompt_blocks]] + the 2026-09-01 blocks in [[project_aem_agents_intelligence]] and [[reference_aov2_marketplace_manifest]].
+- ✅ Corey `#12863` — Pedro answered 09-02, "ok to move to cx-coworker manifest". ✅ AMS field question — Pedro confirmed 09-02 after Sophia Gray; AMS customers to a specific cohort. ✅ Rodson's flag one-liner — Rodson pinned it himself 09-08. ✅ Lianne's 09-08 Gainsight — went out (09-09 speech, Huong's 09-10 checklist "checked, all good!"); the thread itself is still empty, kept above. ✅ David Gonzalez back — demo access handled with Tina 09-09. ✅ Ethos CORS — channel `C0BTZS3APGF` live, date moved up, stage from 09-14. ✅ Rachel/Raj/Eric demo video — overtaken by the 09-17 enablement session. ✅ LG Uplus — Opt Out handling; LG Electronics (different org) opted out 09-04.
 
-- 🔴 **Pedro writes the ask to Shubham Lohiya** — can a plugin/marketplace contribute a `block_dir`, or get a plugin-scoped PreTurn hook? Authority sits in their own design decision #4. Namespace `aem_*` (suppression is global by `block_id`). 📅 09-03
-- 🔴 **One question to Carsten** — when does the temporary `aem-cx-coworker` bug-bash manifest leave prod. ✅ The pin/un-pin is explained: 09-02 the prod manifest switched to the `prod` branch of `aem-aia-extensions`, `main` no longer affects production. 📅 09-03
-- ⚠️ **Never call `aem-aia` "AEM's manifest" outward.** It is the AI Assistant lane; the GA home is the shared `cx-coworker.yaml`.
-- 🟢 **Compare the 19 Showcase CSV names to the 19 bug-bash plugin refs** — probably closes the 08-27 scope question. 📅 09-05
-- 🟢 **Ask Danny Miller for the guardrails Excel** (Zan Chu asked 08-27, never got it). No AEM guardrail list exists. 📅 09-05
-- 🔧 Panel/rail flag: `?shell_aiChatEnabled=true`, after `/ui`, not in the hash. [[reference_coworker_rail_access]]
-- 📌 Deferred, Pedro's call: spec a `/deck` skill via `/skill-creator` — 3 PPTX memory files + 10 `patterns/` presentation entries exist, nothing wires them.
+### 🔴 2026-08-26 → 09-03 RESIDUALS (compressed 2026-09-16; verbatim in `watches_ARCHIVE_2026-08.md`, grep `Verbatim snapshot appended 2026-08-31`)
 
-### 🔴🔴 2026-08-26 → TUE 09-01 — THE COHORT DECISION IS THE LIVE ONE (compressed 2026-08-31)
+- 🔴 **`Cohort_AEM_WF_SKU` (15 named ABAC customers) still has no rollout line on Paul's tabs.** Fold it into `Workfront+Target` or open a line.
+- 🔴 **Reconcile the SKU population before it reaches Loni again.** Bertrand 08-24: 90 licensed / 24 paid / 66 at $0; Pedro's file 335; he told AMS ~3K. Ask for the DaaS query, not the result. [[reference_tbyb_sku_entitlement]]
+- 🔴 **Loni email — four fact divergences** (`21th` → 31st; "no release blocker" vs `NXUI-1904`; Major count 10 → 11 vs JIRA's 4; "clear review dates" false for DA and Governance). Now a fifth: panel 09-21 → 09-24.
+- 🔴 **Governance MCP ARB review `DXARB-1064` still `TBD`**, Pedro's to chase (Philippe, or Marc Pfaff's stand-in).
+- 🟢 **Send Bertrand the skill-vs-MCP duplications** (five families in the catalogue, three pairs in the Showcase file; say which file).
+- ⚠️ 18 of 34 opt-out requests absent from Pedro's `Cohorts` tab; Paul's `Cohort` column is an XLOOKUP into Pedro's workbook, so a gap is a stale link first. The internal GA announcement (08-25) still quotes `62 AEM skills`, the marketplace count. Jaclyn's success-criteria-between-cohorts ask is unanswered.
+- 🔧 `AEM Agents on Coworker - GA Bug Bash - Authors` is an Admin Console user group in AEM Showcase (`38931D6666E3ECDA0A495E80`).
 
-> Full read: the 2026-08-25/26 block in [[project_aem_agents_intelligence]]. Pre-compression verbatim in `watches_ARCHIVE_2026-08.md`, grep `Verbatim snapshot appended 2026-08-31`.
+### 🔑 2026-08-27 / 09-01 RESIDUALS — INVENTORY + PROMPT SURFACE (full read: [[project_aem_agents_intelligence]] 09-01 block, [[reference_coworker_system_prompt_blocks]], [[reference_aov2_marketplace_manifest]])
 
-- 🔴 **09-01 — do the five ABAC orgs come out of the batch?** Qantas · NWL Brands · Corporate & Investment Bank · Warner Bros Marketing Cloud · Okta. ⚠️ 09-01 Siddharth: ABAC Content Hub is live in prod, the hold reason is gone — see the 09-02/03 section.
-- 🔴 **LG Uplus Corp (`472883976A0E01D20A495CE8`) opted out late (08-28); Paul removed it from `Cohort_AEM_2.1_TBYB` 09-01 — move it to an Opt Out cohort in your file.** The only 5 of the 34 `ABAC Customer = YES` that sit on Paul's list, all dated 09-01, landing the day before the parity plan is due.
-- 🔴 **`Cohort_AEM_WF_SKU` holds 15 named ABAC customers and has no rollout list on any of Paul's three tabs.** Costco · Pfizer · Delta · PNC · Sams Club · Edwards · Steelcase · PwC GLSC · Microsoft Project Supreme · BAT · Havas · OXXO · Koch · Hottinger · Freddy.Connect. Pedro created the bucket 08-18. Open a line for it or ask Paul to fold it into `Workfront+Target`.
-- 🔴 **Before 2026-09-02, reconcile the SKU population.** Bertrand 08-24 says 90 licensed / 24 paid / 66 at $0; Pedro's file says 335; he told AMS ~3K. Ask Bertrand for the DaaS query, not the result. [[reference_tbyb_sku_entitlement]]
-- 🔴 **Send the Loni email — four fact divergences still open.** `Monday 21th` → 31st, and `announced publicly` contradicts his own GA definition · `no release blocker` contradicted by `NXUI-1904` · Major count 10 → 11 against JIRA's 4 · `with clear review dates` false for DA and Governance.
-- 🔴 **The Governance MCP ARB review is Pedro's and is still `TBD`.** `DXARB-1064`, filed by Marc Pfaff; Christian named Pedro 08-19 to chase Philippe or Marc's stand-in. The only one of the three with no date.
-- 🟢 **Send Bertrand the skill-vs-MCP duplications.** He asked 08-24/25. **Five families in the full catalogue** (Brand Governance · Permissions Governance · Content Supply Chain · Document Authoring · Asset Sourcing); **three pairs in the Showcase file** (Governance · Experience Generation · DA). ⚠️ The list differs by file — say which one you are quoting.
-- ⚠️ **18 of the 34 opt-out requests are absent from Pedro's own `Cohorts` tab**, many `Org Not Found`, all seven Samsung orgs among them. ✅ No opt-out org appears on Paul's list.
-- 🔑 **Paul's `Cohort` column is an `XLOOKUP` into Pedro's own workbook** — his list is derived, so a gap is a stale-link symptom first and a disagreement second.
-- ⚠️ **The internal GA announcement went out 08-25 12:42** (`C0BSBN56403`), both false claims removed. Residual: it quotes `62 AEM skills`, which is the marketplace and not what a customer sees. Jaclyn's ask for success criteria between cohorts is still unanswered.
-- 🔧 **`AEM Agents on Coworker - GA Bug Bash - Authors` is an Admin Console USER GROUP** → `adminconsole.adobe.com/38931D6666E3ECDA0A495E80@AdobeOrg/users/groups` (AEM Showcase). As created 08-15 it carried only the CM Developer role, no author roles.
+- 🔴 **Pedro writes the ask to Shubham Lohiya** — a plugin-contributed `block_dir` or a plugin-scoped PreTurn hook; the authority is their own design decision #4; namespace `aem_*`.
+- ⚠️ Never call `aem-aia` "AEM's manifest" outward; the GA home is the shared `cx-coworker.yaml`. Internal orgs moved off `aem-aia` 09-14.
+- 🔴 **Counts: `table (3)` = 93 rows / 85 skills / 8 MCP / 60 user-reachable; `table (4)` is byte-identical.** Five families absent from the Showcase file (Dispatcher 8, Content Supply Chain, Workflow, Asset Sourcing + its 76-tool MCP, Replication); two exist only in it (`aem-sites-figma-read`, `aem-sites-visualcontentfragments-create`). Likely: the Showcase CSV is the 19-plugin bug-bash manifest — verify by name before quoting either count.
+- 🟢 Cheapest rationalisation, Pedro alone: demote the API-reference layer, 19 → 12 skills, nothing removed. Then merge AEM MCP / OneAEM MCP (post-GA, Carsten froze it 08-19) and fold figma-read.
+- 🔴 **Usage is measured nowhere** on the 27 Showcase rows; the only usage-shaped object is `aem-onboarding-progress`. Pedro's lane. ⚠️ Naming: one conversation, not five renames.
+- 📌 Deferred, Pedro's call: spec a `/deck` skill via `/skill-creator`.
 
-### 🆕🔑 2026-08-27 — TWO INVENTORY FILES, DIFFERENT SCOPES, AND THE 08-27 COUNTS WERE WRONG
+### 🆕🔴 2026-08-19 — TWO OPT-OUTS WEARING ONE WORD (ask Namita)
 
-> Full read: the 2026-08-27 block in [[project_aem_agents_intelligence]].
-
-- 🔴 **CORRECTED COUNTS for `table (3)`/`table (4)`. 93 data rows, 85 skills, 8 MCP — not 92 / 84.** 50 `Skill` · 23 `Skill (Sub)` · **8** `Skill (API Ref)` · 2 Orchestrator · 1 Router · 1 Internal. **User-reachable = 60**, not ~59 (85 minus 25 rows at Access Point `Internal`). The 8th API Ref, never named before, is `aem-cloudmanager-releases-access`.
-- 🟢 **LIKELY ANSWERED 2026-09-01, verify in one name comparison.** The prod `aem-cx-coworker.yaml` ("AEM Bug Bash Coworker") installs **19** `aem-aia-extensions` plugins; the Showcase CSV lists **19** skills. And the marketplace `exclude` policy on the GA manifest names **three of the five "missing" families** (`aem-edge-dispatcher`, `aem-workflow-ops`/`-api`, `experience-replication`/`aem-replication`). → **The CSV is probably an extract of what the bug-bash manifest installs, not a rival inventory.** Content Supply Chain + Asset Sourcing are absent for a different reason — not in `aem-aia-extensions` at all. **Compare the 19 names before quoting either count.** [[reference_aov2_marketplace_manifest]] 2026-09-01 block.
-- ⚠️ **`table (4).csv` is byte-identical to `table (3).csv`.** A re-download, not a new extract. Run `cmp` before treating a new file as an update.
-- 🔴 **Five families are in the catalogue and absent from the Showcase file:** AEM Dispatcher (8 skills) · Content Supply Chain (2 + its MCP) · AEM Workflow (2) · Asset Sourcing (1 + its 76-tool MCP) · AEM Replication (1). Two skills exist only in the Showcase file — `aem-sites-figma-read`, `aem-sites-visualcontentfragments-create`.
-- 🟢 **CHEAPEST RATIONALISATION, and Pedro can decide it alone: demote the API-reference layer.** The Showcase file's 7 `Skill (API ref)` rows describe **4 backends**, and only 3 are declared as `API Service` (`bps-il-admin-console` is not; `update-profile-api` names no service). Doing it takes the Showcase skill count **19 → 12** with no capability removed. Manas's 07-16 tiered-documentation point arriving as data.
-- 🟢 **Two more cheap ones.** AEM MCP and OneAEM MCP are 14 tools each with near-identical use cases, the only stated difference being `code-mode org` ⚠️ but Carsten froze MCP consolidation 08-19, so post-GA. And `aem-sites-figma-read` is a step of `aem-sites-visualcontentfragments-create` with no other consumer.
-- 🔴 **Usage is measured nowhere.** On all 27 Showcase rows `Usage Metrics = No` and `Alerting = No`. The five MCP `Partial` values are a **connection health check** — liveness, not usage. The only usage-shaped object in either file is `Progress log (aem-onboarding-progress)` on `aem-onboarding-workflow`, built by one team for itself. **That is the pattern to generalise and it is Pedro's lane.**
-- ⚠️ **Naming: one conversation, not five renames.** `adaptive-forms-authoring`, `experience-generation`, `experience-governance`, `update-profile-api`, `bps-il-admin-console` break `aem-<app>-<feature>-<action>`, and `aem-cloud-manager-ops` spells `cloud-manager` where `aem-cloudmanager-api` spells `cloudmanager`.
-
-### 🆕🔴 WED 2026-08-19 — ASK NAMITA: THE DATA-USAGE OPT-OUT IS NOT THE ROLLOUT OPT-OUT
-
-- 🔴 **How does Coworker treat orgs that have opted out of their data being used for product enhancement?** Nobody has written it down, and it is a different object from the rollout opt-out Namita already runs (the admin email that lets an admin refuse the flip). **Two opt-outs wearing one word** — do not let them be answered as one.
-- 🔴🔑 **THE FILE ALREADY ANSWERS IT AND THE ANSWER IS BAD (read 2026-08-19).** Column **N `GenAI Status`** in `20260814-AEM_COHORTS.xlsx` carries the rider status on all 3,104 rows. **Only 533 orgs (17%) are cleared for `Providing the Service and Product Improvement/Dev`.** **905 are `Providing the Service Only (Oct 25 Rider)`** (891 external), 45 `No GenAI`, 5 `No Data Access or Data Usage`, 325 `Unvalidated`, and **1,291 are `#N/A` — a broken lookup, 42% of the file with no status at all.**
-- 🔴 **AND THE RESTRICTED ONES ARE ALREADY LIVE. 100 of the 905 `Service Only` orgs are already provisioned, plus 209 of the 1,291 `#N/A`** — **309 orgs on Coworker today that are either contractually restricted or unknown.** Named example, **United Health Group** `8E391C8B533058250A490D4D@AdobeOrg`, Cohort_AEM_3.1, `Providing the Service Only (Oct 25 Rider)`, already provisioned `Ad Hoc`. **Do not present this as an accusation — ask what the rider forbids at which layer, and who enforces it.**
-- 🔑 **The three adjacent markers, still to disambiguate.** `No GenAI` 45 · `Unknown GenAI Rider Status - Sensitive Industry` 113 in column G · 104 rows marked `Opt out`. **Ask whether they are the same restriction, overlapping, or unrelated.**
-- 🔴 **And it lands on Pedro's own lane, which is the part to say out loud.** Prompt and response events flow into the observation pipeline and into Rubin ([[reference_ai_observation_architecture]], [[project_aem_agents_intelligence]] Rubin block) — *"regardless of their origin, if they touch AEP AO we should have it in Rubin"*. **So a customer who refused product-enhancement usage may still be feeding the reporting layer Pedro owns.** Ask who enforces the exclusion and at which layer. ⚠️ Adjacent to Ian Boston's residency red line, do not merge them.
-- ⏳ **Where:** the rollout weekly / group DM `C0BQ4L7BVL2`. Namita runs the rollout while Rachel is out ([[reference_namita_scope]]).
+- 🔴 **How does Coworker treat orgs that opted out of their data being used for product enhancement?** A different object from the rollout opt-out. Column N `GenAI Status` in `20260814-AEM_COHORTS.xlsx`: only 533 orgs (17%) cleared for product improvement; 905 `Service Only`; 1,291 `#N/A`; **309 already-provisioned orgs are restricted or unknown** (e.g. United Health Group, Cohort_AEM_3.1). Ask what the rider forbids at which layer and who enforces it — not an accusation. ⚠️ Prompt and response events flow into Rubin regardless; adjacent to Ian Boston's residency line, do not merge. Where: the rollout weekly / `C0BQ4L7BVL2`. ✅ Half-answered 09-09: Paul's 3B list is "GenAI Rider Green only, HIPAA / Category 5 / opt-outs excluded", so the rollout side now filters on the rider; the reporting-layer half is still unasked.
 
 ### 📕 PRE-GA AUGUST SECTIONS, COMPRESSED AT THE 2026-09-03 REVIEW (six sections; verbatim in `watches_ARCHIVE_2026-08.md`, grep `appended 2026-09-03 review`)
 

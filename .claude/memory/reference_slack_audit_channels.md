@@ -7,7 +7,26 @@ metadata:
 
 # Slack audit — channel roster
 
-Last full audit: **2026-08-10** (window 08-07→08-10, in-thread + `to:me`; prior 2026-08-03, window 07-24→08-03; 2026-07-03).
+Last full audit: **2026-09-16** (window 09-03→09-16; four parallel readers on 18 channels + Pedro's own `<@me>` / `to:me` / group-DM pass; prior 2026-09-02/03 window 08-23→09-02; 2026-08-10; 2026-08-03; 2026-07-03).
+
+> **🔑 2026-09-16 — THREE METHOD NOTES.** (1) **Compute the epoch bound with `date -j -f '%Y-%m-%d %H:%M' '2026-09-03 00:00' +%s`, never by hand** — the bound handed to the readers resolved to 09-04 and left a one-day gap that two of four readers had to backfill. (2) `slack_read_thread` `oldest` must be a decimal string, not a bare integer, or long threads (100+ replies) are not truncated. (3) The decisions again sat in DMs and group DMs (the 09-11 panel re-date, the Clint/Shankari co-innovation fight, the Tina Workday ask). **The `<@WM9TYS877>` mention search paginated to 8 pages for 13 days — run it first, then the channels.**
+>
+> **Renames 2026-08-31 (Bertrand, five channels `agent` → `agentic`):** `#aem-agentic-owners-alignement` (was owners-alignement), `#aem-agentic-architecture` (was `#p42-architecture`), `#aem-agentic` (was `#aem-agents`), `#aem-agentic-development-management`, `#aem-agentic-experience-governance`, `#aem-agentic-experience-production`, `#aem-agentic-discovery`. IDs unchanged. `#aem-p42-pgm` → `#aem-agentic-program-management` `C09LU35JTFX` (Jaclyn, 09-14).
+>
+> **New rows from the 09-16 audit:**
+>
+> | Channel | ID | Lane / note |
+> |---|---|---|
+> | **#cx-coworker-trial-rollout-core** | **C0ABFLYLZK7** | 🔴 **The cohort machine.** Paul Midura (lists), Lianne Ramos (game plans), Yelena Doliner (provisioning), Huong Vu / Young Ah Bang (Gainsight + admin emails), Stephen Gould (UI flags), Namita. Every AEM opt-out lands here as "Pedro to remove AEM Gainsight". Read every session. |
+> | **#coworker-general-questions** | **C070SDG809J** | Field questions, high volume, mostly non-AEM. Akin's "100s now, thousands next month" line; Brunswick/UPS threads. Scan for AEM only. |
+> | **#aem-wildcard-cors-enablement** | **C0BTZS3APGF** | Ethos CORS `EON-73057` + the panel render workaround. Mikaela Symanovich, Mark Doten, Rodson, Yanira. The 09-15 panel-date wobble lives here. |
+> | **#tmp-enable-ao-for-aem-customers** | **C0BSHAA3NEQ** | Co-innovation enablement fight (Clint / Shankari vs Namita / Ken / Tim Lynn). Created 09-11. See [[reference_coworker_pods]]. |
+> | **#aem-coworker-activation-signals** | **C0BRJRDG56J** | Created by Yanira, live 09-14: Coworker-reported AEM issues per cohort (Soumya Sharma, Dmytro Vavriv post the go-live reports). JIRA label `aem-cw-reported-bugs`, filter 737071. |
+> | **#aem-in-coworker-tech-session-planning** | **C0BSR96969J** | Gina Miller's 09-17 tech enablement session; deck + run of show. Temporary. |
+> | **#tmp-coworker-aem-skill-ga-aem-only** | **C0BSSJ0FDRB** | Sergiu / Carsten / Yanira on the AEM-only skill-GA proposal; call with Manas set for Monday 09-14 09:30 PT. |
+> | **#assets-contenthub-feedback** | **C06K2E373SA** | Where Content Hub ABAC / Coworker v2 customer cases arrive (Prabath T, Siddharth Sahni). |
+> | **Group DMs that carried the decisions (09-16)** | `C0C0SE3N29K` · `C0C0ZFFP20Z` · `C0C1DQJS3U1` · `C0C2EUT3HR6` · `C0C1MQ1TZH9` · `C0C173JEFNK` · `C0BQDB1TJ7K` | Panel re-date w/ Bertrand+Ian+Carsten+Jaclyn+Yanira · Clint+Shankari co-innovation · Soumya+Dmytro+Namita reported issues · Prashant Jain (Forms) cohorts · Ashok Kumar opt-out cohort · Prashant+Yanira comms samples · Corey+Yanira Humana. Plus the standing ones below. |
+> | **#aia_coworker_convergence** / **#aem-coworker-reporting** / **#aem-agents-documentation** | C0BDRAMULQ0 / C0BMVMA7DJS / C09RG80E7B2 | ⚠️ **All three silent the whole window** (convergence since 08-12, reporting since 08-20, documentation since 08-12). Drop to a monthly check.
 
 > **🔑 2026-08-10 — THE HIGH-VALUE ITEMS WERE AGAIN NOT IN CHANNELS.** The manifest fight, the Tina/Loni interception, the on-call gate and the EDA slip all sat in **DMs and group DMs**. The channel sweep alone would have returned canvas-update noise. **`to:me after:<date>` is not the supplement, it is the main pass.**
 
