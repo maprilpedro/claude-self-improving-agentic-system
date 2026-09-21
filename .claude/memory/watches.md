@@ -17,6 +17,8 @@ metadata:
 
 ### 🆕🔴 2026-09-16 — AFTER THE 09-03 → 09-16 SLACK AUDIT (full read: [[project_aem_agents_intelligence]] 2026-09-16 block)
 
+- ⏳ **09-17 enablement session — what went out?** The recap slide had "Coworker MCP" (does not exist), no Experience Workspace, no doc/channel/demo-org on the last line. Confirm what was fixed, and ask Tina whether Experience Workspace was in the deck. Ask Gina for the recording link.
+- ⏳ **09-21 — did the panel plan survive the 09-15 wobble?** Bug bash 09-22/23, announcement 09-24, TBYB activation the week after. Whatever Yanira and Pedro settled on 09-16 is not on record.
 - 🔴 **Panel date — settle it with Yanira today.** 09-24 prod release (Mikaela) vs 09-28 enablement (Yanira) vs "our last release is 9/24" (Mark Doten); the 09-22/23 bug bash may pivot. Loni still holds 09-21. https://adobe.enterprise.slack.com/archives/C0BTZS3APGF/p1789484984583589
 - 🔴 **Yanira DM 09-15 22:57, "does using a special url impact any use cases? Like for UE?"** — unanswered. https://adobe.enterprise.slack.com/archives/D018PT00155/p1789505826143179
 - 🔴 **Six AEM-Gainsight removals on opt-outs tagged to Pedro, none acknowledged** (LG Electronics, BT Consumer, Lloyds, Nissan JPN, Securian, GM Financial), plus Lianne's 09-02 deployment thread still empty. One line each, or one line saying Huong's removal covers AEM. https://adobe.enterprise.slack.com/archives/C0ABFLYLZK7/p1789487314144829
