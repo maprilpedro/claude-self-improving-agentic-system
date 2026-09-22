@@ -104,7 +104,7 @@
 - [Separate facts from proposals](feedback_separate_facts_from_proposals.md) — never let a bet read as a fact.
 - [HTML dashboards, not markdown](feedback_html_dashboard_preference.md).
 - [Big-file parallel chunk extract](feedback_big_file_parallel_chunk_extract.md) — >2000 lines → 3-5 parallel extractors.
-- [No Obsidian task checkboxes](feedback_no_obsidian_task_checkboxes.md) — **never `- [ ]` / `- [x]` / 📅 ✅ Tasks syntax in the vault.** Plain bullets. Journals cleaned + `/journal` patched 2026-09-22; Status & Todo conversion pending his call.
+- [No Obsidian task checkboxes](feedback_no_obsidian_task_checkboxes.md) — **never `- [ ]` / `- [x]` / 📅 ✅ Tasks syntax in the vault.** Plain bullets. Journals cleaned + `/journal` patched 2026-09-22; Status & Todo converted on his go the same day.
 - [Don't auto-reload Obsidian](feedback_obsidian_reload_after_write.md). ⚠️ Its editor buffer also **overwrites** disk writes — close the note before editing.
 - [No internal content to personal repos](feedback_no_internal_to_personal_repos.md) — `--private` doesn't make it safe.
 - [🔴 The audit repo works by PR](feedback_audit_repo_works_by_pr.md) — **`aem-coworker-audits` is branch → PR → merge. Never commit to main. Check `gh pr list` before writing to any repo of his.**

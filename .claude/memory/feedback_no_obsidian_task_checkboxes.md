@@ -13,7 +13,7 @@ metadata:
 
 **How to apply:**
 - Journal, digest, meeting-note, memory-to-vault writes: `- <action> — owner — due <date>`, never a checkbox.
-- The two Status & Todo files carry ~200 `- [ ]` / `- [x]` lines in their Todo sections; whether those convert too is Pedro's call (asked 2026-09-22, pending).
+- The two Status & Todo files were converted the same day on his go (119 + 78 lines → plain bullets; done items keep their `✅ <date>` marker). The ARCHIVE Status files were left as they are.
 - Leave the `# Day planner` checkboxes in `050 Sources/daily notes/` alone.
 
 Related: [[feedback_task_vs_progress_log]] · [[feedback_status_rollup_not_tracker]] · [[reference_local_ai_toolkit]]
