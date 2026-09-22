@@ -10,7 +10,7 @@ End-of-day rollup. Finds the notes Pedro touched today and distills them into on
 
 - **What happened** — 3-6 bullets, the day's substance
 - **Decisions & positions** — decided vs proposed (does NOT promote proposals)
-- **Open follow-ups** — forward-looking only, checkbox + owner + due
+- **Open follow-ups** — forward-looking only, plain bullet + owner + due. **Never `- [ ]` checkboxes: Pedro does not use Obsidian tasks (ruled 2026-09-22).**
 - **So-what** — what today changed for the Director→Senior-Director positioning
 
 ## Periods (the invocation)

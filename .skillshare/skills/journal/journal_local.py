@@ -207,7 +207,7 @@ Write the entry in {lang_name(args.lang)}, in this exact structure, plain langua
 What got decided vs merely proposed. Do NOT promote a proposal to a decision — mark proposals as such. Name the owner where known.
 
 ## Open follow-ups
-Forward-looking items only (not a log of what already happened). Checkbox format: '- [ ] <action> — owner: <name or unassigned> — due: <date or no date>'.
+Forward-looking items only (not a log of what already happened). Plain bullet format, never a checkbox: '- <action> — owner: <name or unassigned> — due: <date or no date>'.
 
 ## So-what
 1 to 3 lines: what {period_word} changed for Pedro's positioning toward Senior Director (visibility, ownership, narrative). Position over merit — good work alone does not move him up.
