@@ -15,3 +15,6 @@ _inbox/*
 !_inbox/README.md
 # pre-change safety copies (P1-P7); delete 2026-07-16 per watches.md
 .claude/memory-backups/
+
+# scratch files
+.tmp_*
