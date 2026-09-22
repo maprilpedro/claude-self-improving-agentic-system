@@ -46,3 +46,8 @@ Felix reply: for customer reporting the big open = **provisioning** — it's on 
 **Named leads (= Pedro's "who else to pull in", already in-thread):** **Alexander Falca** (AEP AI-Observation access), **Samir Sharma** (`monitoring-requirements.md`, OneAdobe/cxo-enterprise-coworker), **Chris Luby** (customer-facing reporting arch, wiki "AO Conversation Events Data Collection", pageId 3716255161), + `ao-quality-platform.png` diagram.
 
 **PM consequence:** confirms Pedro's own 06-17 note ("no OTel, Coworker not sharing its DataLake, DaaS Next going away"). The reach-out to Boston is NOT "does OTel work" (he answered) — it's the point-4 gap: **data not shared with AEM Databricks → where does AEM reporting land without depending on a 12-day AEP UI.** Own-the-definition, same move. Thread link: `adobe.enterprise.slack.com/archives/C09KKLW1N86/p1782223598515279`.
+
+
+## Access, added 2026-09-22
+
+- **DPaaS AI connections page:** https://dpaas.ai.corp.adobe.com/settings/connections — where the Databricks personal access token is registered (Settings > Developer > Access tokens > Generate new token in the Databricks workspace, scopes per the DPaaS doc). Pedro opened the flow 2026-09-22 while Lénárd Palkó was blocked on `403027 User region is missing` for the datalake API (`#aem-coworker-activation-signals`, 09-17).
