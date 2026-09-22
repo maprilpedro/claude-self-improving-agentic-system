@@ -7,7 +7,21 @@ metadata:
 
 # Slack audit — channel roster
 
-Last full audit: **2026-09-16** (window 09-03→09-16; four parallel readers on 18 channels + Pedro's own `<@me>` / `to:me` / group-DM pass; prior 2026-09-02/03 window 08-23→09-02; 2026-08-10; 2026-08-03; 2026-07-03).
+Last full audit: **2026-09-22** (window 09-16→09-22; five parallel readers on 35 channels + group DMs, plus Pedro's own `<@me>` (3 pages) / `to:me` / 1:1-DM pass; prior 2026-09-16 window 09-03→09-16; 2026-09-02/03; 2026-08-10; 2026-08-03; 2026-07-03).
+
+> **🔑 2026-09-22 — ROSTER DRIFT.** Six of the seven "decision" group DMs from 09-16 were silent; the week's decisions sat in **new** group DMs and in the owners channel. Sweep the `is:dm after:<date>` search (mpim,im) every time, not the fixed list. Renamed: `#cx-coworker-gateway-collaboration` → **`#coworker-gateway`** (09-16, Ittai Baratz). `C04NLQFCXK9` is **`#aem-always-current`** (Rotary / URR), not a Vlad channel.
+>
+> | Channel | ID | Lane / note |
+> |---|---|---|
+> | **#coworker-skill-development** | **C0AMKB79AJX** | Lénárd Palkó's 09-22 prod regression (webMCP tools picked over skills). Skill-dev traffic, cc's Pedro. |
+> | **#aem-mcp-engineering** | **C0BAEF9DXT3** | Christian Meyer / Ashok / Tanju on AMS MCP gaps (Lufthansa, AstraZeneca-Digital). Tanju's AMS answers live here. |
+> | **#experience-workspace-cm** | **C0C2WJKBXU0** | Created 09-21 by Martin Buergi. Felix Meschberger's brand/bucket model vs CM programs; Bertrand, Ian, Carsten, Raul, Laurentiu, Pedro. |
+> | **#tmp-cw-pipeline-activation-ui** | **C0C2BLB1YS0** | Pedro's temp channel 09-16, the EH "troubleshoot with AI" button. Brian's 09-17 removal decision. |
+> | **#aem-bc-trial** | **C0B1Z1FKZRS** | Brand Concierge trial orgs + announcement design (Sorin, Mihai Copae, Peter Klassen, Ankush Khosla). Mihai's design updates land here, not in `#experience-hub`. |
+> | **#project-starfish** | **C06QTG9JMNZ** | Ramon Bisswanger's security lane; his EH-priorities asks appear here. |
+> | **#aem-agentic-discovery** | **C09L7B53UQH** | Siddharth's cutover asks, Apoorva's Coworker-vs-Claude speed thread. |
+> | **Group DMs that carried the week (09-22)** | `C0C2EUT3HR6` · `C0C3MA96YGH` · `C0C335HBXBM` · `C0C3D1E80NP` · `C0C26UKEMNK` · `C0BUJH0JP9Q` · `C0C2BPCHP28` · `C08D32CBVGV` | Prashant+Vijay+Gaurav (Forms cohorts, LPL) · Paul+Prashant+Yanira (LPL cohort) · Tina+Fabian+Stefanie (Infineon credits) · Pierre+Daniel Burwitz (John Lewis, AMS) · Tina's T-Mobile/Gradial sheet (9 people) · Brian+Yanira+Tina (pipeline troubleshooting) · Nikhil Dassi+Yanira (Rubin) · Nina Mokoosio+Yanira (UHG access control). |
+> | 1:1 DMs to read every audit | `DQ6H0AV7H` Bertrand · `D018PT00155` Yanira · `D0BCELF88Q1` Guliz · `D093ZRJ0UGK` Laurentiu · `D0802F5QVT5` Florin · `D07550GLV9T` Amit Gupta · `D0BJAJ9HP27` Rubin bot | The Bertrand and Yanira DMs carry the real asks. Rubin bot = digest links only, no numbers in text. |
 
 > **🔑 2026-09-16 — THREE METHOD NOTES.** (1) **Compute the epoch bound with `date -j -f '%Y-%m-%d %H:%M' '2026-09-03 00:00' +%s`, never by hand** — the bound handed to the readers resolved to 09-04 and left a one-day gap that two of four readers had to backfill. (2) `slack_read_thread` `oldest` must be a decimal string, not a bare integer, or long threads (100+ replies) are not truncated. (3) The decisions again sat in DMs and group DMs (the 09-11 panel re-date, the Clint/Shankari co-innovation fight, the Tina Workday ask). **The `<@WM9TYS877>` mention search paginated to 8 pages for 13 days — run it first, then the channels.**
 >
