@@ -35,3 +35,7 @@ The rule above says it has **no override clause**, unlike its sibling [[feedback
 **How to apply:** when a task seems to need code, stop and hand back the specification. Name the input, the operation and the shape of the answer, then let Pedro write it. Do not offer to code it "just to check". Do not narrate the script you would have written.
 
 Sibling rules: [[feedback_pedro_writes_claude_critiques]] · [[feedback_audit_outward_artifacts]] · [[feedback_one_artifact_per_ask]]
+
+## ⚖️ SECOND EXCEPTION 2026-09-23 — /fewer-permission-prompts
+
+Pedro invoked the skill; Claude asked first, he chose "lever pour ce cas". Throwaway jq/grep over 50 transcripts (deleted after), 14 read-only rules added to `.claude/settings.json`. Same scope as the first exception: one case, no standing carve-out. Ask again next time.
