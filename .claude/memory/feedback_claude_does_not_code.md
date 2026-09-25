@@ -43,3 +43,4 @@ Pedro invoked the skill; Claude asked first, he chose "lever pour ce cas". Throw
 ## ⚖️ THIRD EXCEPTION 2026-09-25 — per-org AOv1 activity lookup
 
 Pedro asked whether 40 named orgs show activity. Claude first answered "no access" because it had not checked the local repos. Wrong: the AOv1 data is `~/GitHub/aem-agent-reports/database/copilot_interactions.db` (SQLite, ~10.5 GB, Jan 1 → last fetch). **Look there before saying there is no data.** No recent CSV export existed, so it needed SQL; Claude asked, he chose "lever pour ce cas". Read-only `sqlite3 -readonly` queries, nothing kept. Same scope as the first two: one case, ask again next time.
+Same session, second scope step: he asked to consolidate the result with two Rubin CSVs (`adbe-coworker-rubin-reports/reports/`) into `~/Downloads/2026 AEM Champions Licence and Usage.xlsx`. Treated as inside the same exception (same list, same session), flagged to him in the reply. Throwaway openpyxl script, deleted after.
