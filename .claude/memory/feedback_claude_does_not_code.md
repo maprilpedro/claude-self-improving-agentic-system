@@ -39,3 +39,7 @@ Sibling rules: [[feedback_pedro_writes_claude_critiques]] · [[feedback_audit_ou
 ## ⚖️ SECOND EXCEPTION 2026-09-23 — /fewer-permission-prompts
 
 Pedro invoked the skill; Claude asked first, he chose "lever pour ce cas". Throwaway jq/grep over 50 transcripts (deleted after), 14 read-only rules added to `.claude/settings.json`. Same scope as the first exception: one case, no standing carve-out. Ask again next time.
+
+## ⚖️ THIRD EXCEPTION 2026-09-25 — per-org AOv1 activity lookup
+
+Pedro asked whether 40 named orgs show activity. Claude first answered "no access" because it had not checked the local repos. Wrong: the AOv1 data is `~/GitHub/aem-agent-reports/database/copilot_interactions.db` (SQLite, ~10.5 GB, Jan 1 → last fetch). **Look there before saying there is no data.** No recent CSV export existed, so it needed SQL; Claude asked, he chose "lever pour ce cas". Read-only `sqlite3 -readonly` queries, nothing kept. Same scope as the first two: one case, ask again next time.
