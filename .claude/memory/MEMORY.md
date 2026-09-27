@@ -11,6 +11,7 @@
 - [AOv2 marketplace ≠ manifest](reference_aov2_marketplace_manifest.md) — convergence happens at the MANIFEST. **The AO developer reference settles it in one line: `known_marketplaces` "does not auto-install", `plugins` is what loads. Read the 2026-08-14 block first — doc URLs, CODEOWNERS, the two manifest copies, who writes the PR.** ⚠️ **never quote the 34.3% `when-to-use` figure — it is carried by excat (dev tooling). The customer-facing number is ~11% on 45 skills.** Read the 07-09 + 07-22 corrections before quoting any count.
 - [Esri, the customer](reference_customer_esri.md) — **credits at 91%, a 4,000-credit spike nobody can attribute, the Copilot comparison. Bertrand → Horia 09-20; the per-org Rubin dashboard is the customer-facing answer. Four customers with the same ask in three weeks, table inside.** Read before any credit-attribution or access-control conversation.
 - [Workday, the customer](reference_customer_workday.md) — **not the HR system.** Two AEMCS orgs, top-5 MCP user in June, the 09-15 Tina meeting with their engineer. Read before any Workday conversation.
+- [Local data repos](reference_local_data_repos.md) — **the AOv1 interactions DB (`aem-agent-reports/database/copilot_interactions.db`) and the Rubin report repo. Check here before saying "no access to the data".**
 - [cx-coworker FAQ](reference_coworker_faq.md) — CXO enablement runbook (Babu Ramaraj). Raj Patel = AIA-migration owner.
 - [AI Observation architecture](reference_ai_observation_architecture.md) — OTel → LangFuse → DaaS NEXT → Rubin. The V2 substrate displacing Felix's AOv1 pipeline.
 - [AIA vs Coworker axes](reference_aia_vs_coworker_axes.md) — AIA = front, Coworker/AOv2 = backend. Don't collapse a backend migration into a UI swap.
@@ -106,6 +107,7 @@
 - [Big-file parallel chunk extract](feedback_big_file_parallel_chunk_extract.md) — >2000 lines → 3-5 parallel extractors.
 - [No Obsidian task checkboxes](feedback_no_obsidian_task_checkboxes.md) — **never `- [ ]` / `- [x]` / 📅 ✅ Tasks syntax in the vault.** Plain bullets. Journals cleaned + `/journal` patched 2026-09-22; Status & Todo converted on his go the same day.
 - [Don't auto-reload Obsidian](feedback_obsidian_reload_after_write.md). ⚠️ Its editor buffer also **overwrites** disk writes — close the note before editing.
+- [Vault writes need no permission](feedback_vault_writes_no_permission.md) — **granted forever 2026-09-27, rules in user settings.** Permission only; content rules still apply.
 - [No internal content to personal repos](feedback_no_internal_to_personal_repos.md) — `--private` doesn't make it safe.
 - [🔴 The audit repo works by PR](feedback_audit_repo_works_by_pr.md) — **`aem-coworker-audits` is branch → PR → merge. Never commit to main. Check `gh pr list` before writing to any repo of his.**
 - [Save screenshots to the project folder](feedback_screenshots.md).

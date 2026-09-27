@@ -17,3 +17,5 @@ Not Workday the HR system (the check-in and the AI-phrasing feedback live there)
 **How to apply:** before quoting Workday usage, pull a fresh per-org cut (Rubin `filter by aem*`, or the Splunk MCP dashboard in [[reference_splunk_mcp]]); June is the only figure on file. Two orgs, name both.
 
 Related: [[reference_tbyb_sku_entitlement]], [[project_aem_agents_intelligence]].
+
+**2026-09-25 — usage check (AEM Champions list).** AOv1: 261 interactions / 78 users YTD, 12 since 08-18, last 09-08. Coworker (Rubin 08-18 → 09-24): org found, zero activity. Still on AOv1, not migrated. [[project_aem_agents_intelligence]] 2026-09-25 block.
