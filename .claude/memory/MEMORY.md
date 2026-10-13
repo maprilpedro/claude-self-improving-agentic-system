@@ -49,6 +49,7 @@
 
 ## User
 - [Pedro's favorite calls](user_calls.md) — 6 quotes he uses as thinking lenses.
+- [CliftonStrengths 34 (2026-10-12)](user_cliftonstrengths.md) — Learner, Achiever, Strategic top 3; Communication, Woo, Significance in the bottom ten. Read before career or visibility work.
 - [UI/CX comfort gap](user_ui_cx_gap.md) — route design/spatial detail to Eugene/Silvia; scaffold those explanations.
 
 ## Feedback — how to work
