@@ -15,6 +15,8 @@ metadata:
 
 ## Open
 
+- 🔁 **EVERY TUESDAY · weekly update to Bertrand (Pedro's routine, set 2026-10-13).** At Tuesday session start, surface it and pull the week's facts (dates and numbers checked) from memory. Five lines: one concrete win, one choice he made, one risk or ask with an owner, what moves next week. Goes out even incomplete. Pedro writes, Claude checks facts, never sends. Why and format: vault `Career/Gallup Call to Action.md`, [[user_cliftonstrengths]], [[feedback_bertrand_status_comms]].
+
 ### 🆕🔴 2026-10-13 — BACK FROM PTO (full read: [[project_aem_agents_intelligence]] 2026-10-13 block; SJ links live in the vault page `AEM Champion Forum 2026 - San Jose.md`)
 
 - 🟡 **Dustin / UPS RO pause 11-01 → 01-11: answered 10-13 10:20.** Pedro pointed him to the RO wiki ("Pause Updates for a program in RO", https://wiki.corp.adobe.com/spaces/WEM/pages/1971265640) and asked for the ticket in the DM; customer is opening a support ticket (Dustin 10-12). ⏳ Ticket number not yet shared. Razvan's 09-28 UnderArmour / Best Buy ask still open. https://adobe.enterprise.slack.com/archives/C0C6UD4G5V0
