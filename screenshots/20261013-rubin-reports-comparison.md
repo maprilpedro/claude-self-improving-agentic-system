@@ -29,3 +29,22 @@ Last AOv1 report: `~/GitHub/aem-agent-reports/reports/week_20260914/all_agents.h
 | Oct 06–13 | Rubin dashboard, customer view | 280 | 171 | 1.5K |
 
 ABAC = 354 of the 1,060 AOv1 interactions in W38 (one third), and ABAC has no Coworker equivalent.
+
+## Weekly table, exact dates (v2, 2026-10-13)
+
+Weeks Monday to Sunday. AOv1 = external customers (Skyline list), from the weekly `all_agents.html` reports; when a later report revised a week, the revised value is used (W31: 283/450/1,921 first, 305/482/2,017 revised; W37: 159/223/1,002 first, 160/224/1,003 revised). Coworker dashboard values are read off the weekly chart (approximate), scope (internal included or not) not stated. sub-192 = Sites section only, internal included, exact.
+
+| Week | Dates | AOv1 ext orgs | AOv1 ext users | AOv1 ext interactions | Coworker dashboard users / orgs / interactions (≈) | sub-192 Sites users / interactions |
+|---|---|---|---|---|---|---|
+| W30 | Jul 20–26 | 274 | 409 | 1,837 | ≈3 / 3 / 20 | – |
+| W31 | Jul 27–Aug 2 | 305 | 482 | 2,017 | ≈5 / 4 / 45 | – |
+| W32 | Aug 3–9 | 295 | 477 | 1,775 | ≈2 / 2 / 10 | – |
+| W33 | Aug 10–16 | 287 | 477 | 1,456 | ≈8 / 5 / 35 | 15 / 99 |
+| W34 | Aug 17–23 | 272 | 436 | 1,211 | ≈10 / 4 / 45 | 53 / 853 |
+| W35 | Aug 24–30 | 288 | 455 | 1,510 | ≈20 / 9 / 135 | 64 / 1,503 |
+| W36 | Aug 31–Sep 6 | 287 | 447 | 1,369 | ≈39 / 19 / 270 | 111 / 1,690 |
+| W37 | Sep 7–13 | 160 | 224 | 1,003 | ≈72 / 46 / 450 | 104 / 1,144 |
+| W38 | Sep 14–20 | 176 | 269 | 941 | ≈109 / 72 / 810 | 170 / 2,103 |
+| W39 | Sep 21–27 | no data | no data | no data | ≈160 / 115 / 710 | 168 / 789 |
+| W40 | Sep 28–Oct 4 | no data | no data | no data | ≈228 / 151 / 950 | 208 / 851 |
+| W41 | Oct 5–11 | no data | no data | no data | ≈249 / 156 / 1,200 | 242 / 1,468 |
