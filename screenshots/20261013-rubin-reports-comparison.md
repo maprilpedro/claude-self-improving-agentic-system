@@ -14,3 +14,18 @@ Sources: Rubin "CX Enterprise Coworker" dashboard, 12 screenshots in `screenshot
 Exact org matches: LGCNS Korea 71 interactions / 1 user, VC BRANDS 65, MACYS 49, IBM DX Platforms 37, HOBBY LOBBY 27, EVONIK 22, Jazeera 3 users.
 Near: Intuit 63 vs 55, Lumen 34 vs 40, Jazeera 103-136 vs 126, Trane 29 vs 42, Abbvie 19 vs 30, Suncorp 23 vs 18.
 Absent from the dashboard customer list: Newell Brands (146 / 15 users in Pedro's report, the top external org there), all Adobe demo / internal / trial orgs.
+
+## Against the last AOv1 report (added 2026-10-13)
+
+Last AOv1 report: `~/GitHub/aem-agent-reports/reports/week_20260914/all_agents.html`, 2026-W38 (Sep 14–20), generated 09-21. The AOv1 DB was last fetched 09-21, so there is no AOv1 data for 10-06 → 10-13.
+
+| Week | Source | Users | Orgs | Interactions |
+|---|---|---|---|---|
+| W38 Sep 14–20 | AOv1, external (Skyline list) | 269 | 176 | 941 |
+| W38 | AOv1, all | 301 | 194 | 1,060 |
+| W38 | Rubin dashboard, 68 families (read off the chart) | ~110 | ~70 | ~800 |
+| W38 | sub-192, Sites section only, incl. internal | 170 | n/a | 2,103 (enablement session 09-17 that week) |
+| W38 | Rubin digest "GEM & AO1" (memory, 09-22) | 57 | n/a | 129 |
+| Oct 06–13 | Rubin dashboard, customer view | 280 | 171 | 1.5K |
+
+ABAC = 354 of the 1,060 AOv1 interactions in W38 (one third), and ABAC has no Coworker equivalent.
