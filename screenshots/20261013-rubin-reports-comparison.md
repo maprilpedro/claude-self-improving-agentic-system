@@ -68,3 +68,18 @@ External interactions per month, all agents: Apr 10,504 · May 6,083 · Jun 7,85
 Rolling 4 weeks Aug 24 to Sep 20, all agents, distinct: **562 orgs, 1,258 users** (MoM −11.8% orgs, −24.9% users). Implied prior 4 weeks (computed from MoM, not read): ~637 orgs, ~1,675 users.
 
 Reading: per-agent lines overlap (45% cross-agent), so they do not add up. Monthly is about 3x weekly (weekly external users ran ~450 in W30 to W36). Compare Coworker to AOv1 only at the same window.
+
+### Same table one week earlier (Pedro's 09-15 screenshot, `aov1-customers-20260915-b.png`)
+
+Window not printed on the screenshot. Inferred: rolling 4 weeks Aug 17 to Sep 13.
+
+| Agent | Ext orgs (MoM) | Users (MoM) | Returning users, latest week |
+|---|---|---|---|
+| Discovery | 359 (−7%) | 703 (−16.5%) | 14 |
+| Experience Production | 305 (−13.4%) | 493 (−18%) | 15 |
+| Experience Development | 169 (−16.3%) | 210 (−18%) | 6 |
+| Content Optimization | 50 (−5.7%) | 60 (+3.4%) | 0 |
+| Governance | 112 (−7.4%) | 161 (−10.1%) | 12 |
+| **All AO agents (distinct)** | **599 (−6.3%)** | **1,409 (−14.7%)** | 52 |
+
+Implied prior 4 weeks (computed): ~639 orgs, ~1,652 users. Matches the ~637 / ~1,675 computed from the Aug 24 to Sep 20 version. So AOv1 pre-migration baseline ≈ 640 external orgs and ≈ 1,650 users per 4 weeks.
