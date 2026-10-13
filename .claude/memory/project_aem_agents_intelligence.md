@@ -29,6 +29,7 @@ metadata:
 > - **Shankari:** "Our customers are turning blue in the face waiting for access to coinnovation." Her real ask is two layers: Coworker on for the org, pre-GA skills for a few customers only.
 > - **Decision (Lianne 09-26):** Walmart NOT on the trial; path = Ken's Jira. Whether it was filed or worked is not on record.
 > - **Read for Pedro:** user-level access (the 10-15 release, new customers only, existing ones on a migration with no date per Mihai Fecioru 10-07/09) and per-customer pre-GA skill access are two objects. Ken's Jira covers both for a handful of accounts. `PLAT-290634` (admin-only skill selection) is a third, still unowned. Fifth access-control customer in five weeks (after VW/Centene, Esri, UHG/Capital Group, Infineon; Workday opted out over it).
+> - **Pedro moved 10-13 09:57:** DM to Kapil (group DM `C0C8M97T0F7`), asking for doc + roadmap and how AEM can use it. Reply pending.
 > - **🔎 KNOWLEDGE (P6):** H-010 (instance, arm (a)); [[Govern a Consistency Layer Over Primitives You Don't Own]]; [[reference_coworker_pods]]. **No new entry.**
 >
 > ### 🔴🔑 2026-10-13 — BACK FROM PTO: THE SJ FORUM IS LOCKED, RUBIN IS ON LEGAL HOLD, AND FOUR PEOPLE ARE WAITING
