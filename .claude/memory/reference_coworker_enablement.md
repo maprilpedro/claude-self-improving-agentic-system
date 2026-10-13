@@ -96,3 +96,15 @@ The three replacement paths, his words: **hybrid** (*"the coworker harness has v
 Lianne Ramos's cohort-1 contingency table (2026-07-08, image `F0BG059MNMC`) has a row: **"Customer has AEM → Do we revert the customer to AIA? → Yes."** So when someone asks to put an AEM customer into cohort 1, **AEP's own plan says to take them back out.** Use it in-thread, not in a status doc.
 
 Related: [[reference_coworker_rail_access]], [[reference_aov2_marketplace_manifest]], [[reference_coworker]], [[project_aem_agents_intelligence]].
+
+## 6. "Access control" is five layers, and the 10-15 release touches one (synthesis 2026-10-13)
+
+| Layer | Question | Mechanism today | Who asked |
+|---|---|---|---|
+| 1. Org | Does the org get Coworker? | git segment in `Adobe-Experience-Platform/ao` + Unified Shell "Enable Coworker" flag; all users of the org | everyone |
+| 2. User | Which users of the org see Coworker? | manual only: Pods, or Ken's provisioning-form Jira locking Unified Shell to n users (09-25). **10-15 release: admin-managed, new customers only; existing = migration, no date (Mihai Fecioru 10-07/09)** | Walmart, Workday, UHG/Capital Group (+ program level) |
+| 3. Skills per user | Which skills does this user get? | manifest routing: segments + first-match targeting rules; per-user allowlists (`scope_kind: user` on `user.email`) are hand-edited exceptions (Coca-Cola, AEM Sites Trial) | VW (Governance only, named people), Shankari (pre-GA skills, few customers) |
+| 4. What a skill can do | Read / write on which content? | the user's own AEM permissions via product profiles ("Coworker does not act as a backdoor", Lianne 09-24); skill `required_entitlements` are org-level (`dma_aem_cloud` / `dma_aem_ams`) | Workday (read/write), UHG (per program) |
+| 5. Admin-only skills | Can a non-admin trigger an admin skill? | nothing; `PLAT-290634` (per-user remote permission provider) New / Unassigned since 06-16 | Clint |
+
+Credit attribution (Esri, Infineon, VW/Centene 09-02) is a separate object, not access. ⚠️ Inference, unverified until Kapil answers: "new customers only" suggests the release moves layer 2 from the org-wide flag to an admin assignment, so an existing org would lose access for everyone not yet assigned, hence a migration. Open: is a TBYB org "new" or "existing" (Corey asked 10-08 about UPS, unanswered).
