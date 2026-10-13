@@ -5,7 +5,7 @@ metadata:
   type: user
 ---
 
-Source: `~/Downloads/20261013 - Gallup Ferreira-Pedro-ALL_34.pdf` (Gallup report dated 2026-10-12). Results were owed to Angela / Valentin by 10-15 (see [[watches]]).
+Source: `~/Downloads/20261013 - Gallup Ferreira-Pedro-ALL_34.pdf` (Gallup report dated 2026-10-12). Angela / Valentin see the results through admin access (Pedro, 10-13).
 
 **Top 10:** 1 Learner · 2 Achiever · 3 Strategic · 4 Individualisation · 5 Arranger · 6 Ideation · 7 Self-Assurance · 8 Intellection · 9 Restorative · 10 Command.
 **Middle:** 11 Activator · 12 Focus · 13 Empathy · 14 Analytical · 15 Competition · 16 Context · 17 Relator · 18 Responsibility · 19 Futuristic · 20 Input · 21 Developer · 22 Includer · 23 Belief · 24 Discipline.
