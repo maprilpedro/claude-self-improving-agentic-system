@@ -17,7 +17,7 @@ metadata:
 
 ### 🆕🔴 2026-10-13 — BACK FROM PTO (full read: [[project_aem_agents_intelligence]] 2026-10-13 block; SJ links live in the vault page `AEM Champion Forum 2026 - San Jose.md`)
 
-- 🔴 **10-13 · Dustin Christensen, UPS peak-season RO pause 11-01 → 01-11 ("Jan 2026" is likely 2027): who handles it, ticket or not.** Bumped 10-12 "asap". Answer together with Razvan's 09-28 UnderArmour / Best Buy ask. https://adobe.enterprise.slack.com/archives/C0C6UD4G5V0/p1791820135677559
+- 🟡 **Dustin / UPS RO pause 11-01 → 01-11: answered 10-13 10:20.** Pedro pointed him to the RO wiki ("Pause Updates for a program in RO", https://wiki.corp.adobe.com/spaces/WEM/pages/1971265640) and asked for the ticket in the DM; customer is opening a support ticket (Dustin 10-12). ⏳ Ticket number not yet shared. Razvan's 09-28 UnderArmour / Best Buy ask still open. https://adobe.enterprise.slack.com/archives/C0C6UD4G5V0
 - 🔴 **10-13 · Tatyana: Nov/Dec/Jan release review dates** (bump 10-12; AEM Release Review Thu 10-15). Nicu Melcioiu owns the calendar now. https://adobe.enterprise.slack.com/archives/D06K07DHUTU/p1791821657048099
 - 🔴 **10-13 · Rubin access: AEP Datalake onboarding (wiki 4070164622, needs VPN) + events dataset request.** Legal approves AEM per person; Yanira escalated 10-08. Without it, no Chat Analysis for SJ.
 - 🟡 **10-13 · Mircea Salan (EH): Content AI nav item under Home, before Coworker?** https://adobe.enterprise.slack.com/archives/C0BPMFYLTJL/p1791810384727359
