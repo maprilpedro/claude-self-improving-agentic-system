@@ -48,3 +48,23 @@ Weeks Monday to Sunday. AOv1 = external customers (Skyline list), from the weekl
 | W39 | Sep 21–27 | no data | no data | no data | ≈160 / 115 / 710 | 168 / 789 |
 | W40 | Sep 28–Oct 4 | no data | no data | no data | ≈228 / 151 / 950 | 208 / 851 |
 | W41 | Oct 5–11 | no data | no data | no data | ≈249 / 156 / 1,200 | 242 / 1,468 |
+
+## AOv1 monthly external users (Pedro's 09-15 screenshot), added 2026-10-13
+
+Source: `aem-agent-reports/reports/portfolio/current/briefing.html` (rolling 4 weeks Aug 24 to Sep 20). Screenshot copied to `20261013-rubin-coworker-reporter/aov1-customers-20260915.png`.
+
+Monthly distinct external users per agent (Sep = month to date):
+
+| Agent | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep (partial) |
+|---|---|---|---|---|---|---|---|---|
+| Discovery | 569 | 1,080 | 1,913 | 931 | 964 | 921 | 903 | 394 |
+| Experience Production | 19 | 479 | 1,812 | 666 | 705 | 670 | 625 | 275 |
+| Experience Development | 292 | 330 | 445 | 263 | 306 | 315 | 254 | 123 |
+| Governance | 12 | 162 | 238 | 161 | 211 | 199 | 185 | 90 |
+| Content Optimization | 20 | 80 | 159 | 72 | 71 | 77 | 62 | 32 |
+
+External interactions per month, all agents: Apr 10,504 · May 6,083 · Jun 7,856 · Jul 8,008 · Aug 6,290.
+
+Rolling 4 weeks Aug 24 to Sep 20, all agents, distinct: **562 orgs, 1,258 users** (MoM −11.8% orgs, −24.9% users). Implied prior 4 weeks (computed from MoM, not read): ~637 orgs, ~1,675 users.
+
+Reading: per-agent lines overlap (45% cross-agent), so they do not add up. Monthly is about 3x weekly (weekly external users ran ~450 in W30 to W36). Compare Coworker to AOv1 only at the same window.
