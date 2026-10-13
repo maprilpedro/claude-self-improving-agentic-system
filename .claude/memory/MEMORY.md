@@ -107,7 +107,7 @@
 - [Big-file parallel chunk extract](feedback_big_file_parallel_chunk_extract.md) — >2000 lines → 3-5 parallel extractors.
 - [No Obsidian task checkboxes](feedback_no_obsidian_task_checkboxes.md) — **never `- [ ]` / `- [x]` / 📅 ✅ Tasks syntax in the vault.** Plain bullets. Journals cleaned + `/journal` patched 2026-09-22; Status & Todo converted on his go the same day.
 - [Don't auto-reload Obsidian](feedback_obsidian_reload_after_write.md). ⚠️ Its editor buffer also **overwrites** disk writes — close the note before editing.
-- [Vault writes need no permission](feedback_vault_writes_no_permission.md) — **granted forever 2026-09-27, rules in user settings.** Permission only; content rules still apply.
+- [Vault writes + Slack reads need no permission](feedback_vault_writes_no_permission.md) — **vault 2026-09-27, Slack reads on request 2026-10-13; the prompts came from auto mode, fixed in `autoMode.allow`.** Deletes, Slack sends, push still ask.
 - [No internal content to personal repos](feedback_no_internal_to_personal_repos.md) — `--private` doesn't make it safe.
 - [🔴 The audit repo works by PR](feedback_audit_repo_works_by_pr.md) — **`aem-coworker-audits` is branch → PR → merge. Never commit to main. Check `gh pr list` before writing to any repo of his.**
 - [Save screenshots to the project folder](feedback_screenshots.md).
