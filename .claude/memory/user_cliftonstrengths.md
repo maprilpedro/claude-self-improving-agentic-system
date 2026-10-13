@@ -15,7 +15,7 @@ Domains in the top 10: Strategic Thinking 4 (Learner, Strategic, Ideation, Intel
 
 **Reading given 2026-10-13 (Claude's inference, not Gallup's):**
 - Learner + Achiever at the top matches his own "bias for delivery" diagnosis and the "scribe" read from Meschberger: he collects and ships; the missing step is saying the choice out loud (Strategic #3).
-- Communication 27, Woo 28, Significance 26 sit in the bottom ten: the visibility gap is visible in the data, and low Significance fits the "good work gets recognized" belief [[feedback_position_over_merit]]. Manage it with routine (scheduled broadcasts), not by trying to change temperament.
+- Communication 27, Woo 28, Significance 26 sit in the bottom ten: the visibility gap is visible in the data, and low Significance fits the "good work gets recognized" belief [[feedback_position_over_merit]]. Manage it with routine, not by trying to change temperament: weekly Tuesday update to Bertrand, set 2026-10-13 (vault `Career/Gallup Call to Action.md`).
 - Command 10 + Self-Assurance 7: the talent to take a position is there; the hedge is situational, when the authority has to be his [[feedback_first_reply_ownership_sentence]].
 - Deliberative 32: fast, light on risk checks; fits the fact divergences across his own messages [[feedback_critique_check_facts_not_prose]].
 - Maximiser 31: breadth over polish; fits Valentin's "fewer initiatives, more depth".
