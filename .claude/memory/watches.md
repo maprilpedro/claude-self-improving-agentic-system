@@ -15,6 +15,18 @@ metadata:
 
 ## Open
 
+### 🆕🔴 2026-10-13 — BACK FROM PTO (full read: [[project_aem_agents_intelligence]] 2026-10-13 block; SJ links live in the vault page `AEM Champion Forum 2026 - San Jose.md`)
+
+- 🔴 **10-13 · Dustin Christensen, UPS peak-season RO pause 11-01 → 01-11 ("Jan 2026" is likely 2027): who handles it, ticket or not.** Bumped 10-12 "asap". Answer together with Razvan's 09-28 UnderArmour / Best Buy ask. https://adobe.enterprise.slack.com/archives/C0C6UD4G5V0/p1791820135677559
+- 🔴 **10-13 · Tatyana: Nov/Dec/Jan release review dates** (bump 10-12; AEM Release Review Thu 10-15). Nicu Melcioiu owns the calendar now. https://adobe.enterprise.slack.com/archives/D06K07DHUTU/p1791821657048099
+- 🔴 **10-13 · Rubin access: AEP Datalake onboarding (wiki 4070164622, needs VPN) + events dataset request.** Legal approves AEM per person; Yanira escalated 10-08. Without it, no Chat Analysis for SJ.
+- 🟡 **10-13 · Mircea Salan (EH): Content AI nav item under Home, before Coworker?** https://adobe.enterprise.slack.com/archives/C0BPMFYLTJL/p1791810384727359
+- 🟡 **10-13 · Clint (10-05): access management answer** (10-15 release = new customers; existing = migration, no date). https://adobe.enterprise.slack.com/archives/C0BSHAA3NEQ/p1791214990969299
+- 📅 **10-15 · Clifton Strengths results to Angela/Valentin** (asked for 10-07). · **10-15 · Coworker user-level access release** (H-010 arm (a) test). · **10-15 · push the 8 zero-Coworker champions.**
+- 📅 **Before 10-20 · SJ session: settle 45 vs 60 min against the official agenda; answer Corey's 90-min ask; cover Brian's Coworker content-production gap; check champion Coworker access (SKU cohorts 10-13 / 10-20); avoid overlap with Huong/Risha's Tue Coworker session.** Attendee list, budget approval and rehearsal date still unknown.
+- 📅 **10-19 · re-run the champions workbook after SKU activation.** · **10-21 · Gateway deadline for MCP servers bypassing it.**
+- ⏳ **System Review overdue since 10-01** — Pedro's call; recommended after SJ.
+
 ### 🆕🔴 2026-09-22 — AFTER THE 09-16 → 09-22 SLACK AUDIT (full read: [[project_aem_agents_intelligence]] 2026-09-22 block; supersedes the 09-16 section, closed items in the 📕 list below)
 
 - 🔴 **FOUR DATES FOR ONE PANEL ACTIVATION. Reconcile before Loni's GA email goes out** (Yanira asked Tina 09-22 02:42 when it ships). Pedro 09-16 owners post: prod 09-24 · go/no-go THU 10-01 · TBYB 10-05 · SKU 10-12. Marius 09-22: go/no-go + INT/TBYB **09-30** · SKU 10-12. Mark Doten 09-16: "can't release in october w/o an exception… can we target the 28th or 30th?" (Yanira ↑ to Pedro, no reply) then "2 more shell releases, 9/24 and 9/30". Paul Midura 09-21 to the field: AEM held until **10-12**, script says "targeting Oct 2026 for the right-rail". Loni still holds 09-21. https://adobe.enterprise.slack.com/archives/C0BTZS3APGF/p1789574823757829?thread_ts=1789484984.583589 · Marius: `#aem-agentic-development-management` 09-22 10:10
