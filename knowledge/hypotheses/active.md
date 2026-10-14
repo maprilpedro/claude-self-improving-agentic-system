@@ -65,3 +65,16 @@ Observe signal --> Propose hypothesis --> Design test --> Collect evidence --> R
 - **Test / resolution**: by **2026-12-15**, either (a) Coworker or Rubin ships per-user attribution or program-level access control and at least one of the four customers cites it when expanding, or (b) two of the four expand usage without it. Confirmation bar per the repo rule: **3+ independent instances** of a purchase or expansion decision explicitly conditioned on attribution or control. Decision signal, not a Slack position ([[feedback_proposal_vs_decision]]).
 - **If confirmed**: the per-org Rubin view Bertrand handed Pierre is the seed of a customer-facing report, and the reporting lane (Pedro) owns that artifact rather than Horia's team; ties to [[migrate-leadership-from-a-volume-metric-to-a-value-metric-without-a-cliff]] (the customer is asking for the value metric).
 - **If disconfirmed**: attribution is a FinOps nicety ([[reference_powerbi_token_usage]]); the gating factor is elsewhere (skill coverage, the panel, HIPAA).
+- **Scope note, 2026-10-14:** the AEM in-chat permission blocks found 10-14 (Rubin Quality VA7: ~14% of AEM chats vs ~3% across Coworker) are **not** evidence for this hypothesis. They are content rights refused at execution (e.g. a 403 on an asset title), not an admin's ability to control who uses Coworker. Tracked separately as H-011.
+
+## H-011: A User Whose AEM Chat Ends on a Permission Block Does Not Come Back
+
+- **Status**: Testing — opened 2026-10-14 (brainstorm on Coworker AEM adoption).
+- **Date proposed**: 2026-10-14
+- **Category**: AI-product / adoption measurement (G1 reporting lane; feeds the adoption plan for Bertrand and Loni)
+- **Hypothesis** (Pedro's, verbatim intent: "il travaille beaucoup, et au moment de commit/executer, il a une limite de droits, il ne va pas revenir"): users whose AEM Coworker chat ends on an org permission or process block return the following week at a materially lower rate than users whose chat resolved.
+- **Evidence for**: Rubin Quality VA7 7-day windows 10-13/10-14 (screenshots, Pedro): AEM chats resolve 54% vs 70% across Coworker; org-permission blocks ~14% of AEM chats vs ~3%; abandonment among unresolved 31% AEM vs 19% Coworker. Newell Brands: 32 turns ending on "[Permission requested for: api_request]". Weekly retention 160 of 576 users (Rubin weekly report, 10-14). All indirect: no user-level return data yet.
+- **Evidence against**: Rubin labels 32 of 33 abandons as user-cancelled, not system failures; AEM Sites Trial's 403 came after 4 turns, not after long work; sample is one region, ~112 chats.
+- **Test / resolution**: by **2026-11-30**, once Rubin access is restored (legal hold since 09-25): for the AEM chats labelled "org permissions or process", check whether the same user opened a Coworker chat in the following 7 days; compare with users of resolved chats. **Confirm** if the blocked group's return rate is half or less of the resolved group's on 30+ blocked chats. **Kill** if the gap is under ~10 points or the data cannot be split by user.
+- **If confirmed**: permission blocks are an adoption leak, not just a quality metric; the handoff fix outranks value promotion in the plan.
+- **If disconfirmed**: blocked users come back anyway; the permission fix is a quality item, and the value story carries the +20%.
