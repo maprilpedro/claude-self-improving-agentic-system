@@ -39,6 +39,10 @@ Two people, three weeks apart, same mechanism, and the second states both that i
 - **Log the opt-outs as a cohort attribute, not a failure.** They are the cheapest customer research the migration will produce.
 - **If you own the surface being borrowed, answer the placement question in writing before the first cohort.** Which placements, whose copy, who owns the trigger. Silence here is answered by someone else's banner on your front door.
 
+## Instance, 2026-10-13: the opt-out list read as research
+
+Pedro captured 59 opt-out reasons from the Coworker rollout. Read as the entry says (cohort attribute, cheapest customer research), the list answers a question no survey had: **37 of 59 refusals are "our AI governance has not approved this yet"**, 7 are "let us choose who or where", 6 are cost. So under default-on with opt-out, the refusals mostly measure the customer's approval calendar, not the product. The 7 control refusals are the only ones a product decision unblocks, and they include an org that says it is "eager to adopt" (BofA). One line is a provisioning error (a regulated bank got the new surface in production), which the pre-announcement window did not catch. Refinement: **sort opt-outs into "not yet approved", "needs a control", "cost", before counting them**; only the middle bucket belongs on a roadmap. Source: [[project_aem_agents_intelligence]] 2026-10-13 block.
+
 ## Related
 
 - ai-product/ [[The Real Cost of a Platform Migration Lands as Rework in Teams Nobody Consulted]] — the engineering half of the same migration; this entry is the customer-facing half.
