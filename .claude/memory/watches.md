@@ -34,7 +34,8 @@ metadata:
 - 🟡 **EH Coworker left-nav item (Adrian 10-13):** Unified Shell says left-menu Coworker is an anti-pattern, keep only the top button; open question = fallback when the panel is off. Sync booked 10-14 am. https://adobe.enterprise.slack.com/archives/D0BHLEE6UCX
 - 🟡 **Internal orgs in AEM_SKU cohorts (Yanira 10-13 18:30):** Paul/Yelena want them through the internal-org activation process; to discuss. Also Ashok Kumar parity tracking (Loni's ask), "EOM to restart". · Florin 10-13: Rubin "563 orgs used Cloud Manager skills"; Pedro 10-14 flagged orgs > interactions as suspicious, to recheck once Rubin access lands. · Nicu: Norfolk meeting today 10-14.
 - 📅 **Adoption plan (10-14):** ✅ x4.5 message SENT to Bertrand 10-14 ~11:12 (VA7, 112 chats, 14% vs 3%, 16 blocked chats to read, full plan ~10-23) → watch his reply; full plan ~10-23; Pedro's pings to Shubham (Newell), Corey (UPS naming), Pritom (access date); action 1 = read the 16 blocked AEM chats once Rubin is back (~10-20), then fix with Corey + Apoorva (11-14 date withdrawn). Same Rubin pass: read the Macy's 49-turn chat (bulk-action value test). → AAI memory 10-14 adoption block + vault note.
-- ⏳ **System Review overdue since 10-01** — Pedro's call; recommended after SJ.
+- 🔴 **Before 10-23 (full plan) · the AEM-Coworker denominator: 37 (aep-insights credits) / 57 (Ian) / 811 (Shankar, "wrong") / 1,000+ (GA).** Reconcile with Shankar Muthan or Soumya Sharma before any slide carries an org count. Yanira's 10-01 "fyi" tag to Pedro unanswered. https://cq-dev.slack.com/archives/C0AB9GHQRD2/p1790843332421809
+- ✅ **System Review done 2026-10-14** (next 11-02). ~~System Review overdue since 10-01~~ — Pedro's call; recommended after SJ.
 
 ### 🆕🔴 2026-09-22 — AFTER THE 09-16 → 09-22 SLACK AUDIT (full read: [[project_aem_agents_intelligence]] 2026-09-22 block; supersedes the 09-16 section, closed items in the 📕 list below)
 
