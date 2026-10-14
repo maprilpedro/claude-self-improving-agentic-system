@@ -6,23 +6,23 @@ _478 entities (min 2 mentions) across 168 files._
 
 | Entity | Total | Files (count) |
 |---|---|---|
-| Ian Boston | 137 | `watches_ARCHIVE_2026-08.md`(12), `watches_ARCHIVE_2026-07.md`(9), `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(7), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(6), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(6), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(6) +39 more |
-| Tim Lynn | 50 | `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(7), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(3), `project_experience_hub.md`(3), `reference_slack_audit_channels.md`(3) +17 more |
-| Ian Reasor | 49 | `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(6), `project_aem_agents_intelligence_ARCHIVE_2026-W27a.md`(5), `reference_aov2_marketplace_manifest.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(3) +14 more |
+| Ian Boston | 137 | `watches_ARCHIVE_2026-08.md`(13), `watches_ARCHIVE_2026-07.md`(9), `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(7), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(6), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(6), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(6) +39 more |
+| Tim Lynn | 50 | `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(7), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(4), `watches_ARCHIVE_2026-08.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(3), `project_experience_hub.md`(3) +17 more |
+| Ian Reasor | 49 | `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(6), `project_aem_agents_intelligence_ARCHIVE_2026-W27a.md`(5), `reference_aov2_marketplace_manifest.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(3) +13 more |
 | Felix Delval | 45 | `project_aem_agents_intelligence_ARCHIVE_2026-W19.md`(6), `project_aem_agents_intelligence_ARCHIVE_2026-W27b.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(3), `watches_ARCHIVE_2026-07.md`(3), `feedback_ai_phrasing_workday_2026.md`(2), `feedback_keep_claude_private.md`(2) +19 more |
 | Felix Meschberger | 40 | `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(7), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(5), `project_aem_agents_intelligence_ARCHIVE_2026-W19.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(3), `feedback_ai_phrasing_workday_2026.md`(2) +14 more |
 | Ken Russell | 38 | `watches_ARCHIVE_2026-07.md`(4), `reference_coworker_enablement.md`(3), `reference_slack_audit_channels.md`(3), `project_adobe_org.md`(2), `project_aem_agents_intelligence.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(2) +16 more |
 | Can Give | 35 | `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(6), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(3), `watches_ARCHIVE_2026-07.md`(3) +9 more |
-| Cole Connelly | 35 | `project_experience_hub.md`(4), `watches_ARCHIVE_2026-08.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(3), `watches.md`(3), `project_adobe_org.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W24.md`(2) +16 more |
+| Cole Connelly | 35 | `watches_ARCHIVE_2026-08.md`(6), `project_experience_hub.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(3), `project_adobe_org.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W24.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(2) +16 more |
+| Consistency Layer | 35 | `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(3), `state.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(2) +15 more |
 | Date Nobody | 35 | `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(6), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(3), `watches_ARCHIVE_2026-07.md`(3) +9 more |
 | Mark Doten | 35 | `watches_ARCHIVE_2026-07.md`(6), `reference_coworker_enablement.md`(4), `watches.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(3), `reference_coworker_rail_access.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(2) +12 more |
-| Consistency Layer | 34 | `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(3), `state.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(2) +14 more |
 | Rachel Hanessian | 34 | `watches_ARCHIVE_2026-07.md`(8), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(3), `project_experience_hub_ARCHIVE_2026-W29.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29a.md`(2) +11 more |
 | Corey Dulimba | 32 | `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(5), `project_aem_agents_intelligence.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W27a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(2) +12 more |
+| Over Primitives | 32 | `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(2) +14 more |
+| You Don | 32 | `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(2) +14 more |
 | Daniel Mrose | 31 | `reference_cxo_org_daniel_mrose.md`(7), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(5), `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(3), `reference_transcript_glossary.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W24.md`(2) +6 more |
-| Over Primitives | 31 | `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(2) +13 more |
-| You Don | 31 | `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(2) +13 more |
-| Tina Ngo | 30 | `watches_ARCHIVE_2026-07.md`(5), `watches_ARCHIVE_2026-08.md`(5), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(2), `project_checkin_2026.md`(2), `reference_slack_audit_channels.md`(2), `reference_transcript_glossary.md`(2) +11 more |
+| Tina Ngo | 30 | `watches_ARCHIVE_2026-08.md`(7), `watches_ARCHIVE_2026-07.md`(5), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(2), `project_checkin_2026.md`(2), `reference_slack_audit_channels.md`(2), `reference_transcript_glossary.md`(2) +10 more |
 | Angela Han | 28 | `project_aem_agents_intelligence.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(3), `watches_ARCHIVE_2026-08.md`(3), `project_adobe_org.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W24.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(2) +10 more |
 | When Pedro | 27 | `feedback_one_artifact_per_ask.md`(3), `feedback_concise_reminder_when_forgotten.md`(2), `feedback_consolidation_without_substance.md`(2), `feedback_critique_check_facts_not_prose.md`(2), `feedback_edit_the_span_not_the_artifact.md`(2), `feedback_jira_mcp_before_opining.md`(2) +12 more |
 | Stephen Gould | 26 | `project_adobe_org.md`(5), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W21.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W38.md`(2), `project_experience_hub.md`(2), `reference_slack_audit_channels.md`(2) +10 more |
@@ -42,14 +42,14 @@ _478 entities (min 2 mentions) across 168 files._
 | Namita Krishnan | 20 | `reference_namita_scope.md`(5), `reference_transcript_glossary.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W28b.md`(2), `watches_ARCHIVE_2026-07.md`(2), `feedback_proposal_vs_decision.md`(1), `project_aem_agents_intelligence.md`(1) +6 more |
 | Yanira Castaneda | 20 | `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(3), `reference_aem_agent_ownership.md`(3), `feedback_ai_phrasing_workday_2026.md`(1), `feedback_first_reply_ownership_sentence.md`(1), `project_adobe_org.md`(1), `project_aem_agents_intelligence.md`(1) +10 more |
 | Akin Ajayi | 18 | `project_aem_agents_intelligence_ARCHIVE_2026-W24.md`(4), `project_adobe_org.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(2), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W26b.md`(1) +6 more |
+| Paul Midura | 18 | `watches_ARCHIVE_2026-07.md`(5), `project_aem_agents_intelligence.md`(2), `watches.md`(2), `project_adobe_org.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(1) +6 more |
 | Promotion Strategy | 18 | `state_ARCHIVE.md`(10), `feedback_dont_overread_vp_quotes.md`(2), `reference_promotion_strategy.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W24.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(1) +1 more |
 | Slide With | 18 | `project_aem_agents_intelligence.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W35b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W32b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W34.md`(1) +6 more |
+| Surface Consistency | 18 | `project_experience_hub.md`(5), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W26b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(2), `project_experience_hub_ARCHIVE_2026-W29.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1) +4 more |
 | Babu Ramaraj | 17 | `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(6), `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(3), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W27b.md`(1) +4 more |
 | Horia Galatanu | 17 | `reference_transcript_glossary.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(2), `project_experience_hub_ARCHIVE_2026-W29.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(1) +5 more |
 | Michael Marth | 17 | `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(3), `project_adobe_org.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(2), `state_ARCHIVE.md`(2), `project_aem_agents_intelligence.md`(1) +3 more |
-| Paul Midura | 17 | `watches_ARCHIVE_2026-07.md`(5), `project_aem_agents_intelligence.md`(2), `project_adobe_org.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(1) +6 more |
 | Silvia Mulet | 17 | `project_aem_agents_intelligence.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(2), `user_ui_cx_gap.md`(2), `project_adobe_org.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(1) +7 more |
-| Surface Consistency | 17 | `project_experience_hub.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W26b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(2), `project_experience_hub_ARCHIVE_2026-W29.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1) +4 more |
 | Tanju Erinmez | 17 | `project_aem_agents_intelligence_ARCHIVE_2026-W27a.md`(4), `reference_transcript_glossary.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(1) +6 more |
 | Brian Chaikelson | 16 | `watches_ARCHIVE_2026-07.md`(3), `watches_ARCHIVE_2026-08.md`(3), `project_aem_agents_intelligence.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(1) +3 more |
 | Flattering Number | 16 | `project_aem_agents_intelligence.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W35b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W32b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W34.md`(1) +4 more |
@@ -69,10 +69,10 @@ _478 entities (min 2 mentions) across 168 files._
 | Anil Chakravarthy | 13 | `project_adobe_org.md`(7), `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(2), `project_experience_hub.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(1), `reference_cxo_org_daniel_mrose.md`(1) |
 | Eugene Bannykh | 13 | `project_experience_hub.md`(3), `project_adobe_org.md`(1), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(1) +5 more |
 | Guliz Sicotte | 13 | `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(2), `project_checkin_2026.md`(2), `project_experience_hub_ARCHIVE_2026-W23.md`(2), `project_adobe_org.md`(1), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(1) +4 more |
-| Ilya Grafutko | 13 | `project_aem_agents_intelligence_ARCHIVE_2026-W26b.md`(2), `reference_transcript_glossary.md`(2), `project_adobe_org.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W29a.md`(1), `project_aem_agents_intelligence_ARCHIVE_reference.md`(1) +5 more |
+| Ilya Grafutko | 13 | `project_aem_agents_intelligence_ARCHIVE_2026-W26b.md`(2), `reference_transcript_glossary.md`(2), `watches_ARCHIVE_2026-08.md`(2), `project_adobe_org.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W29a.md`(1) +4 more |
 | Joshua Hailpern | 13 | `project_experience_hub.md`(3), `reference_transcript_glossary.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W19.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W21.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(1) +4 more |
 | Klaasjan Tukker | 13 | `project_adobe_org.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(2), `watches_ARCHIVE_2026-07.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(1) +3 more |
-| Marius Duta | 13 | `watches_ARCHIVE_2026-08.md`(3), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1) +5 more |
+| Marius Duta | 13 | `watches_ARCHIVE_2026-08.md`(4), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1) +4 more |
 | Agreed Before | 12 | `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(6), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(3), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W32b.md`(1), `reference_tbyb_sku_entitlement.md`(1) |
 | Classify Before | 12 | `project_aem_agents_intelligence.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W27a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28b.md`(1) +4 more |
 | Eli Lilly | 12 | `project_aem_agents_intelligence_ARCHIVE_2026-W27a.md`(2), `reference_splunk_mcp.md`(2), `watches.md`(2), `watches_ARCHIVE_2026-08.md`(2), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(1) +2 more |
@@ -91,10 +91,10 @@ _478 entities (min 2 mentions) across 168 files._
 | Apoorva Gupta | 11 | `project_aem_agents_intelligence.md`(3), `reference_aem_agent_ownership.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W21.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(1), `reference_coworker_rail_access.md`(1) +2 more |
 | Kill Switch | 11 | `watches_ARCHIVE_2026-07.md`(5), `reference_coworker_enablement.md`(2), `feedback_lead_with_the_condition.md`(1), `feedback_proposal_vs_decision.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(1) |
 | Lianne Ramos | 11 | `reference_slack_audit_channels.md`(2), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(1) +4 more |
-| Mihai Copae | 11 | `project_experience_hub.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(2), `watches.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W26b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1), `reference_slack_audit_channels.md`(1) |
+| Mihai Copae | 11 | `project_experience_hub.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W26b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1), `reference_slack_audit_channels.md`(1), `watches.md`(1) +1 more |
 | Raul Hudea | 11 | `reference_tbyb_sku_entitlement.md`(2), `watches_ARCHIVE_2026-08.md`(2), `feedback_transcript_attribution.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1), `project_aem_agents_intelligence_ARCHIVE_reference.md`(1) +3 more |
 | Varun Kalra | 11 | `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(3), `project_aem_agents_intelligence.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W17.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W21.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1), `project_aem_agents_intelligence_ARCHIVE_INDEX.md`(1) +2 more |
-| Zeus Courtois | 11 | `project_experience_hub.md`(4), `watches.md`(2), `watches_ARCHIVE_2026-08.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W21.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(1), `reference_transcript_glossary.md`(1) |
+| Zeus Courtois | 11 | `project_experience_hub.md`(4), `watches_ARCHIVE_2026-08.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W21.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(1), `reference_transcript_glossary.md`(1), `watches.md`(1) |
 | Cedric Huesler | 10 | `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(2), `project_adobe_org.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1), `reference_customer_esri.md`(1), `reference_cxo_org_daniel_mrose.md`(1) |
 | Definition Ownership | 10 | `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(2), `state_ARCHIVE.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W29a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(1), `project_checkin_2026.md`(1) +1 more |
 | Ellis Dobkin | 10 | `watches_ARCHIVE_2026-07.md`(7), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W29a.md`(1), `reference_transcript_glossary.md`(1) |
@@ -129,8 +129,9 @@ _478 entities (min 2 mentions) across 168 files._
 | @adobe | 7 | `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(5), `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W26b.md`(1) |
 | Akash Maharaj | 7 | `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(2), `project_aem_agents_intelligence_ARCHIVE_reference.md`(1), `watches_ARCHIVE_2026-07.md`(1) |
 | Anjul Bhambhri | 7 | `project_adobe_org.md`(5), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(2) |
+| Ashok Kumar | 7 | `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(2), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(1), `reference_slack_audit_channels.md`(1), `reference_tbyb_sku_entitlement.md`(1) |
 | Bug Bash | 7 | `project_aem_agents_intelligence_ARCHIVE_2026-W38.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W35b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(1), `reference_aov2_marketplace_manifest.md`(1), `watches.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
-| Conrad Woltge | 7 | `project_adobe_org.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(2), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W21.md`(1), `watches.md`(1) |
+| Conrad Woltge | 7 | `project_adobe_org.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(2), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W21.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
 | Let Program | 7 | `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(2), `watches_ARCHIVE_2026-07.md`(2) |
 | Managers Carry | 7 | `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(2), `watches_ARCHIVE_2026-07.md`(2) |
 | Manish Bansal | 7 | `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(1), `project_checkin_2026.md`(1), `reference_aia_platform_architecture.md`(1), `watches.md`(1), `watches_ARCHIVE_2026-07.md`(1) +1 more |
@@ -149,7 +150,6 @@ _478 entities (min 2 mentions) across 168 files._
 | Alejandro Moratinos | 6 | `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(1), `reference_aov2_marketplace_manifest.md`(1), `reference_cxo_org_daniel_mrose.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
 | Andrei Stefan | 6 | `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W27a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(1), `reference_cxo_org_daniel_mrose.md`(1), `reference_slack_audit_channels.md`(1) |
 | Andrii Konosov | 6 | `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W26b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1) |
-| Ashok Kumar | 6 | `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(1), `reference_slack_audit_channels.md`(1), `reference_tbyb_sku_entitlement.md`(1) |
 | Bertrand Pedro | 6 | `project_experience_hub.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W19.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(1) |
 | Catalina Preda | 6 | `reference_transcript_glossary.md`(2), `watches_ARCHIVE_2026-07.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(1) |
 | Champion Forum | 6 | `project_aem_agents_intelligence.md`(5), `watches.md`(1) |
@@ -163,6 +163,7 @@ _478 entities (min 2 mentions) across 168 files._
 | Mayank Agarwal | 6 | `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1), `reference_transcript_glossary.md`(1), `watches_ARCHIVE_2026-07.md`(1) |
 | Metric Definition | 6 | `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W28b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(1) |
 | Mircea Salan | 6 | `project_experience_hub.md`(4), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(1) |
+| Mohit Arora | 6 | `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(1), `reference_aem_agent_ownership.md`(1), `reference_customer_esri.md`(1), `watches.md`(1), `watches_ARCHIVE_2026-07.md`(1) |
 | Narrative Before | 6 | `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W38.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W39.md`(2) |
 | Nick Whittenburg | 6 | `project_aem_agents_intelligence.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W38.md`(1), `reference_aem_agent_ownership.md`(1), `reference_customer_esri.md`(1) |
 | Owner Implements | 6 | `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W28b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(1) |
@@ -200,6 +201,7 @@ _478 entities (min 2 mentions) across 168 files._
 | Piyush Singhal | 5 | `reference_aem_agent_ownership.md`(4), `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(1) |
 | Portfolio Monthly | 5 | `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W18.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W21.md`(1), `reference_okr_structure.md`(1), `reference_powerbi_token_usage.md`(1) |
 | Principal Scientist | 5 | `project_adobe_org.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(1), `reference_aov2_marketplace_manifest.md`(1), `reference_cxo_org_daniel_mrose.md`(1) |
+| Pritom Baruah | 5 | `watches.md`(2), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W39.md`(1), `project_experience_hub.md`(1) |
 | Rendering Contract | 5 | `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(1), `reference_aia_platform_architecture.md`(1), `reference_coworker_enablement.md`(1) |
 | Robert Guthrie | 5 | `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W21.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1), `project_aem_agents_intelligence_ARCHIVE_reference.md`(1), `reference_aem_agent_ownership.md`(1) |
 | Shubham Lohiya | 5 | `reference_coworker_system_prompt_blocks.md`(2), `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(1), `watches.md`(1) |
@@ -214,6 +216,7 @@ _478 entities (min 2 mentions) across 168 files._
 | @nvenditto | 4 | `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(3), `state_ARCHIVE.md`(1) |
 | Abstract Proposition | 4 | `state_ARCHIVE.md`(2), `feedback_bertrand_concrete_first.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W24.md`(1) |
 | Admin Console | 4 | `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W35b.md`(1), `watches.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
+| Adrian Ciulea | 4 | `project_experience_hub.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W38.md`(1) |
 | Alexander Falca | 4 | `reference_ai_observation_architecture.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W27b.md`(1), `project_aem_agents_intelligence_ARCHIVE_reference.md`(1) |
 | Amit Gupta | 4 | `project_aem_agents_intelligence_ARCHIVE_2026-W39.md`(1), `project_experience_hub.md`(1), `reference_slack_audit_channels.md`(1), `watches.md`(1) |
 | Andreea Miruna | 4 | `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(1) |
@@ -233,9 +236,7 @@ _478 entities (min 2 mentions) across 168 files._
 | Karl Pauls | 4 | `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(3), `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1) |
 | Lenard Palko | 4 | `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(1), `reference_slack_audit_channels.md`(1) |
 | Manas Sync | 4 | `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(1), `reference_transcript_glossary.md`(1), `watches_ARCHIVE_2026-07.md`(1) |
-| Mihai Fecioru | 4 | `watches.md`(2), `project_aem_agents_intelligence.md`(1), `reference_coworker_enablement.md`(1) |
 | Mitch Nelson | 4 | `project_adobe_org.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
-| Mohit Arora | 4 | `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(1), `reference_aem_agent_ownership.md`(1), `reference_customer_esri.md`(1), `watches_ARCHIVE_2026-07.md`(1) |
 | Nicole Sanchez | 4 | `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(2), `watches_ARCHIVE_2026-07.md`(1), `state_ARCHIVE.md`(1) |
 | Paul Pop | 4 | `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1), `reference_slack_audit_channels.md`(1), `watches.md`(1) |
 | Peter Parker | 4 | `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W24.md`(1) |
@@ -252,14 +253,13 @@ _478 entities (min 2 mentions) across 168 files._
 | @vbarshikar | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(1), `reference_aia_platform_architecture.md`(1), `state_ARCHIVE.md`(1) |
 | @ybannykh | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(1) |
 | Adam Pazik | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(1) |
-| Adrian Ciulea | 3 | `project_experience_hub.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W38.md`(1) |
 | Agentic Capabilities | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W38.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(1) |
 | Alejandro Ramirez | 3 | `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1) |
 | Alignment Call | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(1), `project_aem_agents_intelligence_ARCHIVE_INDEX.md`(1), `state_ARCHIVE.md`(1) |
 | Aman Kumar | 3 | `watches_ARCHIVE_2026-07.md`(2), `reference_customer_esri.md`(1) |
 | Andy Petersen | 3 | `reference_customer_esri.md`(3) |
 | Angela Mon | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(2), `watches_ARCHIVE_2026-07.md`(1) |
-| Answer Corey | 3 | `watches_ARCHIVE_2026-08.md`(2), `watches.md`(1) |
+| Answer Corey | 3 | `watches_ARCHIVE_2026-08.md`(3) |
 | Archana Thiagarajan | 3 | `project_adobe_org.md`(1), `project_aem_agents_intelligence.md`(1), `project_experience_hub.md`(1) |
 | Arneh Jain | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W28a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(1), `watches_ARCHIVE_2026-07.md`(1) |
 | Build Unit | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W35b.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(1) |
@@ -279,7 +279,7 @@ _478 entities (min 2 mentions) across 168 files._
 | Executive Summary | 3 | `project_aem_agents_intelligence.md`(2), `project_checkin_2026.md`(1) |
 | Fabian Lotz | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W39.md`(1), `reference_customer_esri.md`(1), `watches.md`(1) |
 | Facilitation Sheet | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(2), `state_ARCHIVE.md`(1) |
-| Florin Florescu | 3 | `reference_slack_audit_channels.md`(1), `watches.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
+| Florin Florescu | 3 | `watches_ARCHIVE_2026-08.md`(2), `reference_slack_audit_channels.md`(1) |
 | Fluffy Jaws | 3 | `reference_transcript_glossary.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W18.md`(1) |
 | Future Work | 3 | `reference_coworker_system_prompt_blocks.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(1) |
 | Gael Mouello | 3 | `reference_coworker_rail_access.md`(1), `watches.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
@@ -291,29 +291,30 @@ _478 entities (min 2 mentions) across 168 files._
 | Jose Antonio | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W29.md`(1), `reference_cxo_org_daniel_mrose.md`(1), `watches_ARCHIVE_2026-07.md`(1) |
 | Josh Butikofer | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(2), `project_aem_agents_intelligence_ARCHIVE_reference.md`(1) |
 | Juliana Campbell | 3 | `reference_aem_agent_ownership.md`(2), `project_aem_agents_intelligence.md`(1) |
-| Kapil Gulshan | 3 | `project_aem_agents_intelligence.md`(1), `reference_slack_audit_channels.md`(1), `watches.md`(1) |
 | Khushwant Singh | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(2), `watches_ARCHIVE_2026-08.md`(1) |
 | Laurentiu Odoleanu | 3 | `project_aem_agents_intelligence.md`(1), `project_experience_hub.md`(1), `reference_aem_agent_ownership.md`(1) |
+| Leadership Has | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(2), `project_aem_agents_intelligence.md`(1) |
 | Learning Machine | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W23b.md`(3) |
 | Manav Mittal | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(1), `reference_aov2_marketplace_manifest.md`(1), `reference_coworker_system_prompt_blocks.md`(1) |
 | Marius Petria | 3 | `watches_ARCHIVE_2026-08.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W30.md`(1) |
 | Meredith Elder | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(1), `reference_transcript_glossary.md`(1), `watches_ARCHIVE_2026-07.md`(1) |
+| Mihai Fecioru | 3 | `project_aem_agents_intelligence.md`(1), `reference_coworker_enablement.md`(1), `watches.md`(1) |
 | Name Alongside | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1) |
 | Namita Kavadi | 3 | `reference_transcript_glossary.md`(2), `reference_namita_scope.md`(1) |
 | Nina Mokoosio | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W39.md`(1), `reference_customer_esri.md`(1), `reference_slack_audit_channels.md`(1) |
 | Ownership Seam | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(2), `state_ARCHIVE.md`(1) |
 | Pitney Bowes | 3 | `project_aem_agents_intelligence.md`(2), `watches.md`(1) |
 | Portfolio Briefing | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(2), `feedback_one_artifact_per_ask.md`(1) |
-| Pritom Baruah | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W39.md`(1), `project_experience_hub.md`(1), `watches.md`(1) |
 | Ramkesh Meena | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(1), `reference_slack_audit_channels.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
 | Remote Germany | 3 | `project_adobe_org.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(1) |
 | Renderer Extensibility | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(1), `reference_coworker_enablement.md`(1), `watches_ARCHIVE_2026-07.md`(1) |
+| Risk Before | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(2), `project_aem_agents_intelligence.md`(1) |
 | Sam Davis | 3 | `reference_customer_esri.md`(3) |
 | Samir Sharma | 3 | `reference_ai_observation_architecture.md`(2), `project_aem_agents_intelligence_ARCHIVE_2026-W27a.md`(1) |
 | Security Researcher | 3 | `reference_cxo_org_daniel_mrose.md`(1), `reference_transcript_glossary.md`(1), `watches_ARCHIVE_2026-07.md`(1) |
 | Shantanu Narayen | 3 | `project_adobe_org.md`(2), `project_experience_hub.md`(1) |
 | Siddharth Sahni | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(1), `reference_customer_esri.md`(1), `reference_slack_audit_channels.md`(1) |
-| Sophia Gray | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(2), `watches.md`(1) |
+| Sophia Gray | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(2), `watches_ARCHIVE_2026-08.md`(1) |
 | Sridhar Gantimahapatruni | 3 | `project_adobe_org.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(1), `reference_cxo_org_daniel_mrose.md`(1) |
 | Threat Models | 3 | `project_aem_agents_intelligence_ARCHIVE_2026-W28.md`(1), `reference_cxo_org_daniel_mrose.md`(1), `watches_ARCHIVE_2026-07.md`(1) |
 | Uma Subbu | 3 | `project_aem_agents_intelligence.md`(2), `project_adobe_org.md`(1) |
@@ -351,7 +352,7 @@ _478 entities (min 2 mentions) across 168 files._
 | Agentic Infrastructure | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(2) |
 | Agentic Workflows | 2 | `project_aem_agents_intelligence.md`(2) |
 | Alex Falca | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W25a.md`(2) |
-| Amanda Mahoney | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W39.md`(1), `watches.md`(1) |
+| Amanda Mahoney | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W39.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
 | Amit Arora | 2 | `project_aem_agents_intelligence.md`(1), `reference_aem_agent_ownership.md`(1) |
 | Amy Zhao | 2 | `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W34.md`(1) |
 | And Ian | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W29b.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(1) |
@@ -364,7 +365,7 @@ _478 entities (min 2 mentions) across 168 files._
 | Architecture Ask | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(1), `state_ARCHIVE.md`(1) |
 | Ask Bertrand | 2 | `reference_tbyb_sku_entitlement.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
 | Ask Gilles | 2 | `watches.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
-| Ask Raul | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1), `watches.md`(1) |
+| Ask Raul | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
 | Asset View | 2 | `reference_customer_esri.md`(2) |
 | Author With | 2 | `feedback_additive_not_corrective.md`(1), `feedback_co_author_dont_answer_over.md`(1) |
 | Basel Eng | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W22.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W24.md`(1) |
@@ -398,7 +399,7 @@ _478 entities (min 2 mentions) across 168 files._
 | Forced Surface | 2 | `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(1) |
 | Frontend Antipattern | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(2) |
 | Gallup Call | 2 | `user_cliftonstrengths.md`(1), `watches.md`(1) |
-| Gateway Stateless | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W38.md`(1), `watches.md`(1) |
+| Gateway Stateless | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W38.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
 | Gen Studio | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(1) |
 | Generalizable Hypothesis | 2 | `reference_coworker_pods.md`(2) |
 | Georgeta Vladescu | 2 | `project_aem_agents_intelligence.md`(1), `reference_aem_agent_ownership.md`(1) |
@@ -412,8 +413,9 @@ _478 entities (min 2 mentions) across 168 files._
 | John Lewis | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W39.md`(1), `reference_slack_audit_channels.md`(1) |
 | John Tapley | 2 | `reference_customer_esri.md`(2) |
 | Jonny Moon | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(1), `reference_slack_audit_channels.md`(1) |
+| Kapil Gulshan | 2 | `project_aem_agents_intelligence.md`(1), `reference_slack_audit_channels.md`(1) |
+| Kevin Gerard | 2 | `project_aem_agents_intelligence.md`(1), `watches.md`(1) |
 | Lane Can | 2 | `project_checkin_2026.md`(1), `reference_okr_structure.md`(1) |
-| Leadership Has | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(2) |
 | Legal Programs | 2 | `reference_aep_trybuy_artifacts.md`(2) |
 | Loni Strat | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(1), `project_aem_agents_intelligence_ARCHIVE_INDEX.md`(1) |
 | Machine Learning | 2 | `project_adobe_org.md`(2) |
@@ -430,7 +432,7 @@ _478 entities (min 2 mentions) across 168 files._
 | Nikhil Dassi | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W39.md`(1), `reference_slack_audit_channels.md`(1) |
 | Not Enough | 2 | `project_aem_agents_intelligence.md`(2) |
 | Not More | 2 | `feedback_bertrand_concrete_first.md`(1), `state_ARCHIVE.md`(1) |
-| Opt Out | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(1), `watches.md`(1) |
+| Opt Out | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W36.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
 | Owners Alignment | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W27a.md`(1), `reference_transcript_glossary.md`(1) |
 | Participation Terms | 2 | `reference_coworker_pods.md`(1), `watches_ARCHIVE_2026-07.md`(1) |
 | Pedro Slacked | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W20.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(1) |
@@ -446,12 +448,11 @@ _478 entities (min 2 mentions) across 168 files._
 | Remaining Prompts | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W17.md`(2) |
 | Removing Friction | 2 | `project_aem_agents_intelligence.md`(2) |
 | Replies Instead | 2 | `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W32a.md`(1) |
-| Reporter Yanira | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W34.md`(1), `watches.md`(1) |
+| Reporter Yanira | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W34.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
 | Resolution Done | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W33b.md`(1), `watches.md`(1) |
 | Response Queue | 2 | `reference_slack_audit_channels.md`(1), `watches_ARCHIVE_2026-07.md`(1) |
 | Result Rate | 2 | `project_aem_agents_intelligence.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W17.md`(1) |
 | Rich Fever | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W26a.md`(2) |
-| Risk Before | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W33a.md`(2) |
 | Roadmap Dashboard | 2 | `feedback_html_dashboard_preference.md`(1), `reference_roadmap_dashboard.md`(1) |
 | Sachin Kalra | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W25b.md`(2) |
 | Sams Club | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W35a.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
@@ -465,7 +466,6 @@ _478 entities (min 2 mentions) across 168 files._
 | Start Here | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `reference_slack_audit_channels.md`(1) |
 | Storage Account | 2 | `reference_ai_observation_architecture.md`(2) |
 | Sylvia Mulet | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W19.md`(1), `project_experience_hub.md`(1) |
-| Tanner Scoffield | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W39.md`(1), `watches.md`(1) |
 | Thanks Ian | 2 | `project_aem_agents_intelligence_ARCHIVE_2026-W23a.md`(1), `project_aem_agents_intelligence_ARCHIVE_2026-W27.md`(1) |
 | Three Workday | 2 | `watches.md`(1), `watches_ARCHIVE_2026-08.md`(1) |
 | Tracing Lib | 2 | `reference_ai_observation_architecture.md`(2) |
