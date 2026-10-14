@@ -20,6 +20,7 @@
 
 | Entry | Gist |
 |---|---|
+| [Two Milestones Wearing One Word — When a Date Is Contested, Check Whether the Parties Name the Same Event](two-milestones-wearing-one-word.md) | Promoted 2026-10-14 (2 independent: Sites rotary Dec 2025, Coworker panel Sep 2026). Split "release" into its events, one date each |
 | [Gap Recovery Framing — When You Don't Have What You Said You Had](gap-recovery-framing-when-you-don-t-have-what-you-said-you-had.md) | Date identified: 2026-04-09 |
 | [Self-Gate, Don't Gate Their Work](self-gate-don-t-gate-their-work.md) | Date identified: 2026-04-15 |
 | [Save Scoping Questions for the Live Call, Not the Written Reply](save-scoping-questions-for-the-live-call-not-the-written-reply.md) | Date identified: 2026-04-15 |

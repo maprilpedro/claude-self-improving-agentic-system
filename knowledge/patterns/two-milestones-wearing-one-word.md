@@ -1,0 +1,13 @@
+# Two Milestones Wearing One Word — When a Date Is Contested, Check Whether the Parties Name the Same Event
+
+_Section: Stakeholder Communication Patterns — part of `patterns/`; router = README.md._
+- **Date identified**: 2026-08-06 (parked) · **promoted 2026-10-14** (System Review)
+- **Source**: two independent observations, ten months and two programmes apart.
+  1. **Sites rotary release, December 2025.** Andreea Miruna Moise (group DM, 2025-12-11): the Romanian team is off until 01-07, so they cannot "rollout to group 1+2 starting 5th of January and also make the release public on the 6th". Pedro split the word in two: *"make it public on 23-24th, but deploy on 30+40 devs on Jan 5th"* (DM, 2025-12-12 10:22), then *"release public soon, but deployment as per calendar on Jan 12-14th"* (2025-12-18 11:09). Verified verbatim in Slack at the review.
+  2. **Coworker panel activation, September 2026.** In `#aem-wildcard-cors-enablement` (09-15) the panel "date" was argued for 45 minutes: Mikaela Symanovich "prod release 9/24", Yanira Castaneda "from customer pov we would be fine with enablement Sep 28", Mark Doten "doesn't match up with any releases". Three events, one word. Pedro's 09-11 plan had already split them (announce / TBYB activation / SKU). The four-dates episode of 09-16 → 09-22 is the same event, not a third instance.
+- **Pattern**: a date dispute that will not converge is often two or three milestones sharing one word (release, GA, activation, go-live). Each side is right about its own event, so nobody can concede. The fix is not to argue the date. Name the events separately (made public, deployed, enabled for customers, announced), give each its own date, then ask who owns each.
+- **Move**: when a date thread runs past two rounds, write the events as a short list with one date each and post it. The person who splits the word becomes the person who holds the plan.
+- **When it applies**: release and rollout planning, GA announcements, any cross-team date where engineering, field and customer-facing teams each speak about "the date".
+- **When it fails**: when the dispute is a real resource conflict on one event. Splitting the word then hides the conflict instead of resolving it.
+- **Related**: sibling of [[An Undefined Gate Is a Date Nobody Can Give]] (that one is a gate with no contents; this one is one word naming several events). Decision record: `decisions/2026-08-06-ga-model-separate-release-from-announcement.md`.
+- **Caveat on record**: the candidate was written by the thread whose recommendation it validated, and the December instance was surfaced and verified by review threads. The judge set the verification condition; the quotes are verbatim with timestamps.

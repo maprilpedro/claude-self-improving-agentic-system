@@ -76,3 +76,9 @@ And the composite gate was never wrong about *content*, only about *scope*. Prov
 - **The composite list was incomplete — the 08-24 test's second branch.** On 08-28 three skills were cut from GA (`cloud-manager-pipeline-troubleshooting`, `aem-assets-search-indexing`, `aem-assets-environment-provisioning`) for a Coworker dev/arch concern about how AEM manages sandboxes. That reason was on nobody's list. The customer-facing GA also slipped, 08-31 → 09-08, for rollout mechanics, not for a listed gate.
 - **The failure mode to watch did not materialise.** No team treated a `ga` manifest write as permission to tell customers; Bertrand's 08-31 *"customer count is 0 because we have not started rolling out"* is the receipt.
 - **What it says about the reasoning:** the *separation* was right (two events wearing one word), the *mechanism* attached to it was invented in the write-up, and Pedro caught it. The lasting lesson is the banner's own: quote the decision, do not extend it.
+
+## Outcome addendum (2026-10-14, System Review)
+
+- **Second milestone (GA with the panel): shipped to prod 2026-10-05** (AAI memory 2026-10-13 block; Pedro 10-14: "délivré la semaine passée", EH promo banner live, migrated SKU orgs get it by default). Predicted ~09-21, re-dated 09-24, landed two weeks after that. Four dates were in circulation in between (09-22 block).
+- **The 09-03 "composite list was incomplete" finding is reinforced:** four more skills were pulled from GA on 09-08 over customer-git access from the sandbox, DACI still open (shard W38).
+- **Score unchanged: partial hold.** The surviving half (announcement = GA, Pedro's) held; the gate list kept growing after the call. The date dispute in between became the second instance of [[Two Milestones Wearing One Word — When a Date Is Contested, Check Whether the Parties Name the Same Event]], promoted today.
