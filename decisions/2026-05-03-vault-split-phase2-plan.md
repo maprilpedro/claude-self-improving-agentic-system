@@ -301,3 +301,7 @@ After Phase 2:
 **Actions carried out of this score** (both flagged for Pedro, not executed — Status files are his):
 1. Delete or rename the orphan `EH - Status and Todo.md` stub at vault root.
 2. Apply the archive/roll-up discipline to the AAI Status & Todo, the way `archive_memory.py` did for repo memory.
+
+## Outcome addendum (2026-10-14, System Review)
+
+- **The last failing criterion now passes on state.** The orphan `EH - Status and Todo.md` stub at the vault root is gone (staleness-auditor 10-14: `ls`, vault-wide `find`, `mdfind` and `.trash` all return nothing). Pedro does not know who removed it. Scored **passed, removal unattributed**. Final tally: 8 of 8 written criteria pass, 23 weeks after the plan.
