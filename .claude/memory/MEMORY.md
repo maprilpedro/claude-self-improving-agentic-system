@@ -119,6 +119,7 @@
 - [Simple local reminders](feedback_simple_local_reminders.md) — surface at session start, not cloud automation.
 - [PPTX palette](feedback_pptx_palette.md) — white, greys, Adobe red, black ONLY.
 - [Transcript room-mic attribution](feedback_transcript_attribution.md) — "CR" labels are room mics, not people.
+- [Recall without prompts](feedback_recall_without_prompts.md) — **session-start reads via the Read tool, never compound cd/pipe Bash.** 5-6 prompts on 10-14.
 - [Session start behavior](feedback_session_start.md) — pick up both projects; concise status, then ask.
 - [Session-start env hygiene](feedback_session_setup.md) / [env vars](feedback_session_start_env_hygiene.md) — 1M context on; /color orange, /rename.
 - [No meeting setup help](feedback_no_meeting_setup.md).
