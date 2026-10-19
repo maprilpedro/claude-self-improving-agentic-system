@@ -17,6 +17,14 @@ metadata:
 
 - 🔁 **EVERY TUESDAY · weekly update to Bertrand (Pedro's routine, set 2026-10-13).** At Tuesday session start, surface it and pull the week's facts (dates and numbers checked) from memory. Five lines: one concrete win, one choice he made, one risk or ask with an owner, what moves next week. Goes out even incomplete. Pedro writes, Claude checks facts, never sends. Why and format: vault `Career/Gallup Call to Action.md`, [[user_cliftonstrengths]], [[feedback_bertrand_status_comms]].
 
+### 🆕🔴 2026-10-19 — DAY BEFORE SJ (full read: [[project_aem_agents_intelligence]] 2026-10-15 → 10-19 block)
+
+- 🔴 **Before the KR1e slide ships · Mike Tilburg: where does the live-pages jump come from** (36,995 on 10-08 per Timothee → 72,086 in growth-lab W42, one extra Go Live customer, importer reworked 10-15). Until confirmed, say "20 customers live, up from 13", not "x5.5".
+- 📅 **~10-19/20 · Tanju's W41 + W42 MCP Adoption Report** in `#aem-mcp` (biweekly, Sunday evening). Refresh the KR1e MCP block; check Workday / Ford / HPE are still in the org list. Link → [[reference_splunk_mcp]].
+- 🔴 **Before 10-20 · SJ challenge, Pedro's yes/no on Q1-Q5** (opening "every skill is available today", inventory by form, remote moderator, readout owner, vote). Changes go to Tina.
+- 🟡 **Open since 10-15/16, unanswered by Pedro as far as seen:** Felix on UPS manifest PRs #14609 / #19835; Yanira's Workfront approval of the Security doc; Caitlin Cody (VCP demo recording); Gina's Tech Insiders page to forward; Ellis's narrower Rubin access proposal; Horia ping on access control (Corey "push HARD").
+- 🟡 **Loni deck · which Rubin view is the measure (280 dashboard vs 576 subscription): ask Soumya;** confirm when Rubin access is back (~10-20). Slide 6 = B (Pedro 10-16).
+
 ### 🆕🔴 2026-10-13 — BACK FROM PTO (full read: [[project_aem_agents_intelligence]] 2026-10-13 block; SJ links live in the vault page `AEM Champion Forum 2026 - San Jose.md`)
 
 - 🟡 **Dustin / UPS RO pause 11-01 → 01-11: answered 10-13 10:20.** Pedro pointed him to the RO wiki ("Pause Updates for a program in RO", https://wiki.corp.adobe.com/spaces/WEM/pages/1971265640) and asked for the ticket in the DM; customer is opening a support ticket (Dustin 10-12). ⏳ Ticket number not yet shared. Razvan's 09-28 UnderArmour / Best Buy ask still open. https://adobe.enterprise.slack.com/archives/C0C6UD4G5V0

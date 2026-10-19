@@ -22,7 +22,7 @@
 - [AEM Agent Ownership Matrix](reference_aem_agent_ownership.md) — canonical PgM/PM/Eng/JIRA for the 10 AEM agents.
 - [CXO org — Daniel Mrose](reference_cxo_org_daniel_mrose.md) — Basel Eng org under Saar. Security review chain: Lars Krapf → Catalin Luta → Mrose → Saar.
 - [Skyline P42 org list](reference_skyline_p42_orglist.md) — Raul's hand-maintained External/Internal/TBYB classification. Every "numbers off" traces here.
-- [Splunk MCP dashboard](reference_splunk_mcp.md) — Bertrand's source for MCP adoption metrics.
+- [Splunk MCP dashboard](reference_splunk_mcp.md) — Bertrand's source for MCP adoption metrics. **Tanju's biweekly Adoption Report Slack link inside.**
 - [MCP terminology](reference_mcp_terminology.md) — locked term: "Tool Calls". Never "interaction" or "invocation".
 - [Power BI — token usage per org](reference_powerbi_token_usage.md) — ties FinOps (Jaclyn) + AO 2.0 pricing risk.
 - [TBYB vs SKU entitlement](reference_tbyb_sku_entitlement.md) — **who is eligible (CS = TBYB, MS = playground, a third set excluded), the 318/2,483 counts and why they're unverified, and the Bertrand-vs-field-deck entitlement contradiction that still gates the comms audience.** Read before quoting any TBYB/SKU number.

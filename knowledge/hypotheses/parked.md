@@ -24,8 +24,9 @@ Promote at a clean **2nd independent instance** (distinct events, not two reps o
 
 | Candidate | Parked | Status | Expected 2nd instance | Auto-drop |
 |---|---|---|---|---|
+| Re-pull One Old Number Before Quoting a New Trend. Before a refreshed metric goes upward, reproduce one value from the last version with the new pull; a match proves the cut is unchanged so the change is real, a miss means the instrument moved | 2026-10-19 | **2 instances, same instrument (Tanju's MCP explorer), so parked, NOT promoted.** (1) 09-27: the 9/9 cut re-applied to the 9/6 export gave 147,427 exactly, and exposed that the first 09-28 draft (170,007 ops) counted undetermined operations. (2) 10-19: W38 = 42,297 in the new W38-W40 pull, identical to the 09-28 slide, so the W39-W40 rise (59,677 / 70,017) could be quoted. Contrast the same day: growth-lab live pages 36,995 → 72,086 had no overlapping value to anchor on and was held back. Source: KR1e speaking notes 09-28, screenshots `screenshots/20261019-kr1e-slide/` | A different instrument (Rubin, growth-lab, AOv1 DB) where the anchor check catches or clears a change | 2026-12-01 |
 
-> **2026-10-14 System Review: table emptied.** All six rows had auto-drop 10-01, now passed. 1 promoted (Two Milestones → `patterns/`), 5 dropped stale. **0 live, cap 8.** Rows moved verbatim to History with their verdicts.
+> **2026-10-14 System Review: table emptied.** All six rows had auto-drop 10-01, now passed. 1 promoted (Two Milestones → `patterns/`), 5 dropped stale. **0 live, cap 8.** Rows moved verbatim to History with their verdicts. **10-19: 1 live** (Re-pull One Old Number).
 
 ## History (dropped / folded / promoted)
 

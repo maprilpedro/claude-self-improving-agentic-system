@@ -19,3 +19,25 @@
 > **🔎 KNOWLEDGE (P6):** applied — [[Two Milestones Wearing One Word]] (instance 3, judge 10-01) · [[H2 Planning Visibility — Own the Narrative Before It Gets Written Without You]] · [[feedback_critique_check_facts_not_prose]] · [[Govern a Consistency Layer Over Primitives You Don't Own]] (SLA wording, entitlement gating, allowlist model all decided by engineering) · [[feedback_response_window_for_exec_questions]] (NWL escalation) · [[migrate-leadership-from-a-volume-metric-to-a-value-metric-without-a-cliff]] (Esri's "usage-to-value" is the customer saying the same thing). **No new entry.**
 >
 
+> ### 🔴 2026-09-25 — THE AEM CHAMPIONS LIST: THE BIGGEST AOv1 USERS HAVE NOT MOVED TO COWORKER
+>
+> Pedro pasted 40 accounts (the 2026 AEM Champions, the SJ 10-20/22 audience per the file name he chose) and asked who is active. Workbook `~/Downloads/2026 AEM Champions Licence and Usage.xlsx` (5 sheets: summary, AOv1 by org with IMS IDs, Coworker by skill, AEMCS licensed list, caveats). Sources: AOv1 DB 01-01 → 09-21 ([[reference_local_data_repos]]) + his two Rubin CSVs 08-18 → 09-24.
+> - **13 champions on both AOv1 and Coworker**, all small on Coworker: Lumen 25, BNY 12, everyone else ≤ 8.
+> - **🔴 8 licensed champions still active on AOv1 since 08-18 with zero on Coworker:** Ford (31 since 08-18, 546 YTD, 133 users), ServiceNow 19, Workday 12, Pitney Bowes 10, Wipro 9, Prudential 7, HPE 6, City National Bank 1 (+ Genentech 1, parent Roche active on Coworker). **The heaviest AOv1 users are the ones not migrated.** The push list before SJ.
+> - **BNY and Fanatics active on Coworker but absent from the AEMCS licensed list.** 7 accounts show nothing anywhere (DX-ROI, Truist, International Motors, ecx.io, Meticulous Digital, NETBIIS, Cyber64).
+> - ⚠️ Unconfirmed matches: Blue Acorn iCi = Infosys sandboxes; ecx.io = IBM iX DACH (not counted); Prudential do Brasil / Distribution / Holdings excluded as Prudential plc. Lumen is `CenturyLink` in AOv1 (same IMS ID). Rubin has no org for Wipro, Pitney Bowes, TechDivision, which AOv1 has.
+> - Claude first said "no access" without checking the local repos; Pedro corrected it. Code built under a one-case exception → [[feedback_claude_does_not_code]].
+> - **🔎 KNOWLEDGE (P6):** instance of [[Lead the Slide With the Honest Read of Your Own Metric, Not the Flattering Number]] (Coworker WAU growth vs the champions who have not moved) and [[Removing Friction Is Not Enough — Agent Adoption Can Still Fail]]. H-009 not logged (the 08-03 restriction: only the three named signals count). **No new entry.**
+>
+
+> ### 🔴🔑 2026-09-27 — ZERO COWORKER IS NOT ZERO AI: THE CHAMPIONS ARE ON MCP DIRECT, AND WORKDAY SAID NO OVER RIGHTS
+>
+> Sources: Rubin `aemcs-licensed-orgs-activity-2026-08-18_2026-09-24.csv` (23 licensed champions, internal+external mixed) + `~/Downloads/aem-mcp-all-2026-04-26-to-2026-09-20-explorer.html` (CloudWatch prod, 536K operations). Analysis under a one-case exception → [[feedback_claude_does_not_code]].
+> - **Coworker (Rubin):** 7 real customers active, 40 interactions, ~9 users (Lumen 25, Qatar 5, JPMC, AbbVie, HKTB, T. Rowe, Sunstar); 4 partner sandboxes; 8 org-found-zero; 4 not in Rubin. Positive: regulated accounts trying it, ~40% page authoring, multi-product use (BNY, Qatar, JPMC). Depth still 1-2 users per org.
+> - **Pedro 09-27: Ford migrates after the panel. Workday opted out: user-rights management** (who uses it, what it reaches, read/write) → [[reference_customer_workday]], first decision-grade instance of H-010.
+> - **MCP, champions since W34:** Workday 714 (6,607 since June, Cursor), Sunstar 1,080, Ford 1,030 (Cursor/ChatGPT), HPE 247 (MS Copilot). Six champions silent on every channel.
+> - **MCP global:** 17K → 47K ops/week W22 → W38; customer orgs 156 → 255/week. First-party (`exc_app`) customer ops, internal-looking names removed: 1.2K W36 → 3.3K W37 → 5.3K W38, orgs 72 → 87; share of customer ops 9% → 20%. ⚠️ `exc_app` = AIA + Coworker, not separable; `cx-coworker` client is ~nothing (832 total), do not count Coworker with it; Bayer + Dun & Bradstreet = 46% of W37-38; the explorer's "customer" segment includes Sites Internal, CXO Enablement Training LAB, We.Retail-Prod (two thirds of `exc_app` "customer" ops in W34).
+> - **Framing Pedro can own:** big AEM customers already use AI on AEM; the question is which door, and for engineering-led customers Coworker has to say what it adds over Cursor + MCP, and let admins govern it. Nothing drafted.
+> - **🔎 KNOWLEDGE (P6):** [[Lead the Slide With the Honest Read of Your Own Metric, Not the Flattering Number]], [[Raw Call Volume Is Mostly the Agent Talking to Itself — Classify Before You Headline]]. H-010 updated. No new entry.
+>
+
