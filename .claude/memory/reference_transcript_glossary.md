@@ -120,7 +120,14 @@ metadata:
 | ⚠️ **"CXL application"** (Huong, 08-05: *"any customer licensing any CXL application"*) | Unverified as written. The sense is "any Experience Cloud application"; do not put the token `CXL` in an artifact off this transcript alone |
 | ⚠️ **"Razvan"** (Pedro, 08-05: *"we just started with Razvan and my team probably will be able to test further tomorrow"*, on panel testing) | Plausibly **Razvan** of the Release Management lane. ⚠️ Note the 07-16 precedent where "Razvan" was an Otter garble of **Rubin** — different context here, but confirm before acting |
 
+| **Ellis Dobkin** (Pedro, 10-19 KR review: "we have Elise from our side") | **"Elise"** (inference from context, Legal on the AEM side) |
+| **Ilya Grafutko** (10-19) | **"Ilia Grafunco"** |
+| **Champion Forum** (10-19) | **"Champions Farm"** |
+| **Brand Concierge** (Remus, 10-19) | **"Brent Concierge"** |
+
 ## Structural traps (not garbles)
+
+- ✅ **`CR SJ ET13/Innsbruck VC (12)` = LONI STARK + PEDRO** in `20261019 - KR Meeting Review` (Loni moved from her office to the room ~2:30). Mixed blocks in Pedro's section; attribution table in the vault file header. **`CR BUCH 04/Barzava VC (5)` = Remus** (same file).
 
 - **"CR <ROOM>" labels** = conference-room mics, not people; map per-meeting by content (`feedback_transcript_attribution`). **`CR BASL 05` (and `CR BASL 05 / WALENSEE VC (4)`) = PEDRO in BOTH the 07-08 Rachel rollout transcript AND the 07-09 credit-mapping transcript** — two independent confirmations. **In the 07-08 Rachel rollout transcript, `CR` (CR BASL 05) = PEDRO himself** — his own positions/commitments are under the room-mic label; do not misattribute them as a third party.
 - 🔴 **THE "CR BASL 05 = Pedro" DEFAULT IS DEAD — CHECK THE ROOM HEADER FIRST (correction 2026-07-16).** In `20260715 - Coworker w AEM Agent Team Demo`, the label is **`CR BASL 05/LAGO MAGGIORE VC (9)`** and the transcript header states the room outright: **"Present in the room: Bertrand de Coatpont, Gilles Knobloch, Pedro Ferreira."** One mic, three people, **no way to separate them from the label alone.** Proof it is not Pedro by default: after the Scopa demo spiel the room mic delivers, **Horia answers "Thank you, Bertrand. You made it really concrete"** → that block is **Bertrand**, filed under the same label as Pedro's questions. **Rule: read the "Present in the room" header before attributing a single `CR` line, attribute by content, and when three people share a mic, say "the Basel room" rather than guess a name.** A wrong name here is a fabricated quote in Pedro's mouth or a peer's.
