@@ -26,6 +26,7 @@
 - [MCP terminology](reference_mcp_terminology.md) — locked term: "Tool Calls". Never "interaction" or "invocation".
 - [Power BI — token usage per org](reference_powerbi_token_usage.md) — ties FinOps (Jaclyn) + AO 2.0 pricing risk.
 - [TBYB vs SKU entitlement](reference_tbyb_sku_entitlement.md) — **who is eligible (CS = TBYB, MS = playground, a third set excluded), the 318/2,483 counts and why they're unverified, and the Bertrand-vs-field-deck entitlement contradiction that still gates the comms audience.** Read before quoting any TBYB/SKU number.
+- [AEM licensed customers list](reference_aem_licensed_customers.md) — **DashDiscovery `AEMLicensedCustomers` on DaaS = the official licensed list; access via EDA Insights tile 272.** Not Raul's, Paul's or Shankar's lists.
 - [AEP TryBuy artifacts](reference_aep_trybuy_artifacts.md) — AEP-side source of truth for TBYB.
 - [Brand Concierge lightup](reference_brand_concierge_lightup.md) — Confluence 3815569799. EH-side.
 - [Namita scope](reference_namita_scope.md) — **Namita Krishnan** (`@namitak`) = AEP AOv1 PM, NOT the MCP-reports track. Runs the Coworker rollout weekly while Rachel is out. ✅ Surname resolved 07-17 — "Kavadi" never existed.
