@@ -17,7 +17,7 @@ metadata:
 
 - 🔁 **EVERY TUESDAY · weekly update to Bertrand (Pedro's routine, set 2026-10-13).** At Tuesday session start, surface it and pull the week's facts (dates and numbers checked) from memory. Five lines: one concrete win, one choice he made, one risk or ask with an owner, what moves next week. Goes out even incomplete. Pedro writes, Claude checks facts, never sends. Why and format: vault `Career/Gallup Call to Action.md`, [[user_cliftonstrengths]], [[feedback_bertrand_status_comms]].
 
-### 🆕 2026-10-20 — SJ SESSION "AGENTIC WORKFLOWS" (transcript in vault `Meeting Notes/AEM Champion Forum 2026/`; summary + 21 improvement asks with counts in the SJ page; `/ingest-transcript` not run yet)
+### 🆕 2026-10-20 — SJ SESSION "AGENTIC WORKFLOWS" (transcript in vault `Meeting Notes/AEM Champion Forum 2026/`; summary + 21 improvement asks with counts in the vault note `2026 AEM Champion Forum Feedback`, follow-ups on the SJ page; ingested 10-21)
 
 - 📅 **~11-03 · Tina's categorized readout to the champions** (promised "two weeks" in the room). The improvement table in the SJ page is the input. Check it went out and that the non-bug items have a named owner.
 - 🔴 **End of November · per-user Coworker access via Admin Console profiles was promised to the room.** The M1 plan (10-14) calls the same window "Tentative / Not Confirmed" (Wave B 2-23 Nov). If it moves, Kedar's and Dianne Eveler's orgs heard the date; tell the champions before they find out.
