@@ -124,8 +124,17 @@ metadata:
 | **Ilya Grafutko** (10-19) | **"Ilia Grafunco"** |
 | **Champion Forum** (10-19) | **"Champions Farm"** |
 | **Brand Concierge** (Remus, 10-19) | **"Brent Concierge"** |
+| **Coworker** (SJ champions session, 10-20) | **"Corture"**, **"Cowork"**, **"CX coworkers"** |
+| **Rubin dashboard** (Tina, 10-20, the customer-facing per-user credit view) | **"ribbon dashboard"** |
+| ⚠️ **AI credits** (10-20, *"track your overall usage of GAC credits"*) | **"GAC credits"**, expansion unverified, do not write GAC in an artifact |
+| **Jineet Vora** (10-20) | **"Genai"** (*"to your point, Genai"*) |
+| **LLM Optimizer** (Dianne Eveler, 10-20) | **"LMM Optimizer"** |
+| ⚠️ **"Brent" / "Brett"** (10-20, the partner voice, *"Sonnet instead of Opus"*) | same person, two spellings in one file, name unresolved |
+| ⚠️ **"Markus"** (10-20, *"Oh, well, Markus asked"*, the voice who turned repeated tasks into skills) | possibly a garble of **Martin** Buergi, unresolved |
 
 ## Structural traps (not garbles)
+
+- ✅ **`CR SJ FT08/Tidewater VC Managed (64)` = THE WHOLE ROOM** in `20261020 - AEM Champions Forum Day 2 Session AEM Coworker` (vault `Meeting Notes/AEM Champion Forum 2026/`). 64 participants on one label, Adobe (Tina Ngo, Corey Dulimba, Pedro, Martin Buergi) and every champion in the room. Attribute by content only, write "a champion in the room" when unsure. Named remote voices on their own labels, Dianne Eveler, Varadi Kedarnath, Jineet Vora. Greg = Bank of New York (says so himself).
 
 - ✅ **`CR SJ ET13/Innsbruck VC (12)` = LONI STARK + PEDRO** in `20261019 - KR Meeting Review` (Loni moved from her office to the room ~2:30). Mixed blocks in Pedro's section; attribution table in the vault file header. **`CR BUCH 04/Barzava VC (5)` = Remus** (same file).
 
