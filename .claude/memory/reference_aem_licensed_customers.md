@@ -11,7 +11,7 @@ metadata:
   - Overview: https://dashdiscovery.corp.adobe.com/#/views/AEMLicensedCustomers/MainOverview?%3Aiid=1
   - Export view: https://dashdiscovery.corp.adobe.com/#/views/AEMLicensedCustomers/LicensingExploration?:iid=1 (Andre Cascais posted it, `#aem-...` C04MQCRHLBY, 2026-03)
   - Export to XLSX reportedly includes customer, IMS org, tenant, region, solutions, SKUs, contract dates, contract status (FluffyJaws summary, `#aem-data-services-informed`, 2026-08-06; not checked by Pedro yet).
-- **Access:** request in EDA Insights, https://edainsights.corp.adobe.com/web/access-request-tile/?id=272&echo=true. Approvers Lydia Puric / Andre Cascais. Sync every ~4h. (Thread: https://adobe.enterprise.slack.com/archives/CN6EQPBLK/p1763396158108079)
+- **Access:** request in EDA Insights, https://edainsights.corp.adobe.com/web/access-request-tile/?id=272&echo=true. Approvers Lydia Puric / Andre Cascais. Sync every ~4h. ✅ **Pedro already has access** via group `TAB_AEM_ENGINEERING_OPERATIONS_EU` (confirmed 2026-10-20). (Thread: https://adobe.enterprise.slack.com/archives/CN6EQPBLK/p1763396158108079)
 - **Owners / people:** Andre Cascais (go-to for access), Lydia Puric, Jean-Claude Jung (AEM Data Services). Pedro asked JC + Andre for a named list 2026-08-20, no reply.
 - **Alternatives:** Data Advisory Agent (DAA) can export active AEMCS and AMS customers. Raw tables live in DPaaS / DaaS Next (e.g. `athena_extracts.consolidated_consumption_contract_year_to_date`).
 
