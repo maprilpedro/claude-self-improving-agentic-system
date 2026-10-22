@@ -6,9 +6,12 @@ type: project
 
 ## Reporting Chain (updated April 16, 2026)
 
+> **⚠️ CORRECTED 2026-10-22 (Pedro):** Shankari is **not** Pedro's manager. The paper-manager arrangement below lasted about one month in spring 2026 and ended long ago (exact end date not recorded). She is a Group PM peer in SJ with a close working relationship with Loni (office next to hers). Pedro reports to Bertrand. The April chain is kept below as history.
+
 ```
+(April 16, 2026, superseded)
 Pedro Ferreira (Senior PM, Experience Hub, Basel)
-  └── Shankari Panchapakesan (Group PM, San Jose) — PAPER MANAGER, TEMPORARY
+  └── Shankari Panchapakesan (Group PM, San Jose) — PAPER MANAGER, TEMPORARY (ended after ~1 month)
         └── Bertrand de Coatpont (Sr. Director PM, Basel) — EFFECTIVE MANAGER (check-ins direct)
               └── Loni Stark (VP, AEM & Commerce, San Jose)
                     └── Amit Ahuja
@@ -43,7 +46,7 @@ For full stakeholder details, see Obsidian Stakeholder Map.
 - **Jaclyn Eckersley** — Dir, Engineering Program Mgmt, Reading. Under Alexander Saar. H2 planning HC push + exec summary ask both came from her.
 - **Carsten Ziegeler** — Principal Scientist, Hamburg. Under Alexander Saar. AO 2.0 alongside Conrad and Ian.
 - **Yanira Castaneda** — Program Manager for Agents project. Runs the Monday Agent Owner meeting. Holds success definition wiki.
-- **Shankari Panchapakesan** — Previous EH PM, now Pedro's paper manager (6m trial under Loni). Handoff complete March 27. Still has Shweta Dua as other direct report.
+- **Shankari Panchapakesan** — Previous EH PM (handoff to Pedro complete March 27). Was Pedro's paper manager for about one month in spring 2026, no longer (Pedro, 2026-10-22). Group PM in SJ, office next to Loni's, good relationship with her. 2026-10-22, Pedro: she keeps running Coworker coordination meetings with key Coworker people (Horia, Pritom, Manas, Ken) without him and they are not in sync. Note the 10-08 "AEM / Coworker Coordination" meeting was Manas's invite and fell in Pedro's PTO (09-28 → 10-12).
 - **Sorin Slavic** — Lead engineer, Experience Hub. Primary technical source of truth.
 
 ## Adobe Design Org (Eugene's chain — relevant to EH UX)
