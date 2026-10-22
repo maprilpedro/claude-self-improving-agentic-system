@@ -17,6 +17,11 @@ metadata:
 
 - 🔁 **EVERY TUESDAY · weekly update to Bertrand (Pedro's routine, set 2026-10-13).** At Tuesday session start, surface it and pull the week's facts (dates and numbers checked) from memory. Five lines: one concrete win, one choice he made, one risk or ask with an owner, what moves next week. Goes out even incomplete. Pedro writes, Claude checks facts, never sends. Why and format: vault `Career/Gallup Call to Action.md`, [[user_cliftonstrengths]], [[feedback_bertrand_status_comms]].
 
+### 🆕 2026-10-22 — COWORKER SKILLS BETA FOR AEM (full read: [[project_aem_agents_intelligence]] 2026-10-22 block)
+
+- 📅 **~10-26 · Pedro's AEM-side answer on Namita's `AEM Skills Beta Program` proposal** (which beta skills first, which customers and users, who keeps the user list), committed in his 10-22 reply-all if the sent text kept the date. Also check Mihai and Ken's manifest + segments setup landed ("a couple of days").
+- 🟡 **Coworker coordination roles with Shankari.** Settle who does what in a call, Bertrand told first. Next time she convenes Coworker people, check Pedro is on the invite.
+
 ### 🆕 2026-10-21 — DA.LIVE WRITE ACCESS (full read: [[project_experience_hub]] 2026-10-21 block)
 
 - 🟡 **~10-23 · write access back on the announcements owners sheet** (`https://da.live/sheet#/oneadobe/aem-experience-hub-announcements/announcements-owners`). Row 10 of `https://da.live/config#/oneadobe/` lost the `eh-announcements-da` group. Pedro asks Mircea Salan, Sorin in copy, to restore the group and add him. Check an edit saves; if not, the CONFIG write row (rows 1 to 9) names who can fix it.
