@@ -20,6 +20,7 @@ metadata:
 ### 🆕 2026-10-22 — COWORKER SKILLS BETA FOR AEM (full read: [[project_aem_agents_intelligence]] 2026-10-22 block)
 
 - 📅 **~10-26 · Pedro's AEM-side answer on Namita's `AEM Skills Beta Program` proposal** (which beta skills first, which customers and users, who keeps the user list), committed in his 10-22 reply-all if the sent text kept the date. Also check Mihai and Ken's manifest + segments setup landed ("a couple of days").
+- 📅 **~10-26 · Pedro's H1'27 items in the canvas `H1'27 Foundation Planning`** (https://adobe.enterprise.slack.com/docs/T025FJ55H/F0C5A1D4GAJ) before Bertrand presents Cloud Services & Security on **Tue 10-27, 7-8 am PST** (Tracy Seibel, `#aem-foundation-leadership` 10-21). His TBD H2'26 lines there: SKYOPS-136515 Release Management Scalability, SKYOPS-136517 AI transformations of Rotary release tools, HOME-832 EH Product Adoption. Canvas rules: link each to an H1'27 DX initiative or close it, at least 5 HC per roadmap (no .5), one Invest label, remove TBD when committed. Customer-facing roadmap due 11-20.
 - 🟡 **Coworker coordination roles with Shankari.** Settle who does what in a call, Bertrand told first. Next time she convenes Coworker people, check Pedro is on the invite.
 
 ### 🆕 2026-10-21 — DA.LIVE WRITE ACCESS (full read: [[project_experience_hub]] 2026-10-21 block)
