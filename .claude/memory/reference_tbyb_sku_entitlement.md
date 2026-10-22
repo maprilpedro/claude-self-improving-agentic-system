@@ -11,6 +11,7 @@ metadata:
 
 - **TBYB** = Try Before You Buy. Agent access without buying the Agentic SKU.
 - **SKU** = the Agentic SKU, purchased.
+- **Its name (looked up 2026-10-22, not verified at the source).** The AEM Pricing Guide Jan 2026 (SharePoint, BusinessModelStrategyTeam) says agents are monetized through a single DX SKU, **"AEP Agents: AI Credits"**, as quoted by the FluffyJaws bot in `#aem-agent-experience-modernization-users` 07-13 (https://adobe.enterprise.slack.com/archives/C093G83UGBZ/p1783958450861969). Older channel guidance says "DX AI Agent SKU". Bertrand never names it in Slack. He says "a single CXO-wide Agentic SKU", credit-based (07-07, https://adobe.enterprise.slack.com/archives/C09J94L2TAR/p1783420878740519), and describes the offers as 10k credits to evaluate, a 6-month unlimited license for 20k, then a fixed credit amount or the unlimited license (ETLA), with no AI credit inside the AEM SKUs (09-11, https://adobe.enterprise.slack.com/archives/C081W9CFWM7/p1789116442363729).
 
 ## Eligibility — SOURCED 2026-08-12, and it has a third category
 
