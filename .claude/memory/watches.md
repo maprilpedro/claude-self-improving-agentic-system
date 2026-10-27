@@ -19,7 +19,7 @@ metadata:
 
 ### 🆕 2026-10-27 — COWORKER PERSISTENT INSTRUCTIONS, RAUL FIRST (full read: [[reference_coworker_system_prompt_blocks]] 2026-10-27 block)
 
-- 📅 **~10-30 · Raul Hudea's answer to Pedro's DM** (sent 10-27 13:07, https://adobe.enterprise.slack.com/archives/D02DQLX6TAL/p1793102822364299). Three questions: Herbie only or customer Coworker too; full replace or extend + disabled blocks once the AIF prompts are gone; one joint ask to Trent Davies. His answer decides whether the Trent ask is joint or AEM-only. Check the DM yourself, don't ask Pedro. Vault note `AO 2.0/Coworker Persistent Instructions Status.md`.
+- ✅ **CLOSED 10-27 13:10 · Raul answered three minutes later: Herbie only.** "Ask was Herbie specific - and the changes mentioned by Sebastian are for Herbie - the problem there is that the initial prompts were targeted to solve only AIF issues (Herbie being an agent for internal use-cases only)". No joint ask. The Trent ask is AEM-only, with Herbie's per-team instruction file as the precedent. DM: https://adobe.enterprise.slack.com/archives/D02DQLX6TAL/p1793102822364299. Vault note `AO 2.0/Coworker Persistent Instructions Status.md`.
 
 ### 🆕 2026-10-27 — SUMMIT 2027 LABS CANVAS (full read: [[project_aem_agents_intelligence]] 2026-10-27 block)
 
