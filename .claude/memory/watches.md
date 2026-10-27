@@ -17,6 +17,10 @@ metadata:
 
 - 🔁 **EVERY TUESDAY · weekly update to Bertrand (Pedro's routine, set 2026-10-13).** At Tuesday session start, surface it and pull the week's facts (dates and numbers checked) from memory. Five lines: one concrete win, one choice he made, one risk or ask with an owner, what moves next week. Goes out even incomplete. Pedro writes, Claude checks facts, never sends. Why and format: vault `Career/Gallup Call to Action.md`, [[user_cliftonstrengths]], [[feedback_bertrand_status_comms]].
 
+### 🆕 2026-10-27 — COWORKER PERSISTENT INSTRUCTIONS, RAUL FIRST (full read: [[reference_coworker_system_prompt_blocks]] 2026-10-27 block)
+
+- 📅 **~10-30 · Raul Hudea's answer to Pedro's DM** (sent 10-27 13:07, https://adobe.enterprise.slack.com/archives/D02DQLX6TAL/p1793102822364299). Three questions: Herbie only or customer Coworker too; full replace or extend + disabled blocks once the AIF prompts are gone; one joint ask to Trent Davies. His answer decides whether the Trent ask is joint or AEM-only. Check the DM yourself, don't ask Pedro. Vault note `AO 2.0/Coworker Persistent Instructions Status.md`.
+
 ### 🆕 2026-10-27 — SUMMIT 2027 LABS CANVAS (full read: [[project_aem_agents_intelligence]] 2026-10-27 block)
 
 - 📅 **~11-03 · Summit 2027 labs, Bertrand's canvas** (https://adobe.enterprise.slack.com/docs/T02CAQ0B2/F0CAF0U4V43). Which of the four went into Ron Nagy's form (deadline 10-26), did Lab 1 + Lab 2 merge, what Bertrand's team meeting kept. Labs 3 and 4 demo Coworker skills: check they are on track for GA before Summit.
