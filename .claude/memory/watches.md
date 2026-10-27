@@ -17,6 +17,11 @@ metadata:
 
 - 🔁 **EVERY TUESDAY · weekly update to Bertrand (Pedro's routine, set 2026-10-13).** At Tuesday session start, surface it and pull the week's facts (dates and numbers checked) from memory. Five lines: one concrete win, one choice he made, one risk or ask with an owner, what moves next week. Goes out even incomplete. Pedro writes, Claude checks facts, never sends. Why and format: vault `Career/Gallup Call to Action.md`, [[user_cliftonstrengths]], [[feedback_bertrand_status_comms]].
 
+### 🆕 2026-10-27 — SUMMIT 2027 LABS CANVAS (full read: [[project_aem_agents_intelligence]] 2026-10-27 block)
+
+- 📅 **~11-03 · Summit 2027 labs, Bertrand's canvas** (https://adobe.enterprise.slack.com/docs/T02CAQ0B2/F0CAF0U4V43). Which of the four went into Ron Nagy's form (deadline 10-26), did Lab 1 + Lab 2 merge, what Bertrand's team meeting kept. Labs 3 and 4 demo Coworker skills: check they are on track for GA before Summit.
+- 🟡 **Summit 2027 speaker sessions call not open** (Mike Stiles `#summit-questions` 10-22). When it opens, Pedro decides whether to propose a session. Nothing of his on the canvas today.
+
 ### 🆕 2026-10-23 — LEFT-NAV COWORKER ICON + MCP SECURITY FAQ (full read: [[project_experience_hub]] and [[project_aem_agents_intelligence]] 2026-10-23 blocks)
 
 - 🟡 **Pedro's reply to Guliz on the left-nav Coworker item** (drafted 10-23, not posted as of 10-27 10:30 CET): https://adobe.enterprise.slack.com/archives/C0BARAMM89Z/p1792779005879539. One line to Bertrand first (he accepted removal 10-02). Then check Silvia's answer on the icon and whether Mark Doten takes EXC-49877 to the change board during RCP.
