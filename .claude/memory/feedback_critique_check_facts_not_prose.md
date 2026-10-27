@@ -18,6 +18,8 @@ What was actually caught, and none of it was about writing quality:
 
 **How to apply:** before commenting on any sentence, diff every date, count and named commitment in the draft against what he has told the same recipients in the last 48h. Lead the review with the divergences. Put prose notes last, and cap them.
 
+**Extended 2026-10-23: positions too, not only facts.** On the reply to Guliz about the left-nav Coworker item, a first draft asked design "which pattern to use". Pedro had already told Mark Doten in public on 10-15 that he would not remove the item during adoption, and he rejected the draft ("bof. Le bouton a 100 clicks par semaine, je ne veux pas l'enlever maintenant"). The same pass caught a fact drift: his 10-15 line said "100+ users clicks", while the analytics count clicks. Before drafting or reviewing, read what he last said in public on the topic and keep the draft on that position unless he says he is changing it.
+
 ---
 
 **Second, smaller rule — the drafting register, if he ever lifts [[feedback_pedro_writes_claude_critiques]].**
