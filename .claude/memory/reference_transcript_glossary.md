@@ -132,6 +132,8 @@ metadata:
 | ⚠️ **"Brent" / "Brett"** (10-20, the partner voice, *"Sonnet instead of Opus"*) | same person, two spellings in one file, name unresolved |
 | ⚠️ **"Markus"** (10-20, *"Oh, well, Markus asked"*, the voice who turned repeated tasks into skills) | possibly a garble of **Martin** Buergi, unresolved |
 
+| **Otter FR garbles, Bertrand 1-1 2026-10-27** (Otter heard French as Spanish/Portuguese, "vale" and "pessoe" everywhere) | Trent Davies → **"treinte"**, **"trante"**, **"trainte"**, **"trende"** · Herbie → **"Herby"**, **"Herbi"** · Coworker → **"co-author"** (the Otter summary too), **"co-workcore"** · Huong → **"Hongue"** · Razvan → **"Rasvan"** · Gina Casagrande → **"Gina Casa Grande"** · rate card → **"red card"** (low confidence) · "le frein principal" → **"Le France Principal"** (low confidence). ⚠️ Unresolved: **"Larna"** (who updates the AOv1 → Coworker docs), **"Marc Such bier"** (Bertrand's demo meeting), **"Berdy"** (with Martin, the Experience Workspace ask), **"ECP"** (said several times, team or product unclear). Do not write any of the four into an artifact |
+
 ## Structural traps (not garbles)
 
 - ✅ **`CR SJ FT08/Tidewater VC Managed (64)` = THE WHOLE ROOM** in `20261020 - AEM Champions Forum Day 2 Session AEM Coworker` (vault `Meeting Notes/AEM Champion Forum 2026/`). 64 participants on one label, Adobe (Tina Ngo, Corey Dulimba, Pedro, Martin Buergi) and every champion in the room. Attribute by content only, write "a champion in the room" when unsure. Named remote voices on their own labels, Dianne Eveler, Varadi Kedarnath, Jineet Vora. Greg = Bank of New York (says so himself).

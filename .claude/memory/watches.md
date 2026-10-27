@@ -17,6 +17,11 @@ metadata:
 
 - 🔁 **EVERY TUESDAY · weekly update to Bertrand (Pedro's routine, set 2026-10-13).** At Tuesday session start, surface it and pull the week's facts (dates and numbers checked) from memory. Five lines: one concrete win, one choice he made, one risk or ask with an owner, what moves next week. Goes out even incomplete. Pedro writes, Claude checks facts, never sends. Why and format: vault `Career/Gallup Call to Action.md`, [[user_cliftonstrengths]], [[feedback_bertrand_status_comms]].
 
+### 🆕 2026-10-27 — BERTRAND 1-1 (full read: [[project_aem_agents_intelligence]] 2026-10-27 Bertrand block)
+
+- 📅 **~10-30 · Tina on the Coworker rate card and roles.** Bertrand asked in the 1-1; he had a Slack from her on the pricing model (cost per action plus a global cost). Pedro asks her.
+- 📅 **~11-03 · Coworker customer comms.** What Guillaume Carlino (docs) and Gina Casagrande (Experience Cloud Evangelism) already have, before Pedro builds use-case capsules or videos.
+
 ### 🆕 2026-10-27 — COWORKER PERSISTENT INSTRUCTIONS, RAUL FIRST (full read: [[reference_coworker_system_prompt_blocks]] 2026-10-27 block)
 
 - ✅ **CLOSED 10-27 13:10 · Raul answered three minutes later: Herbie only.** "Ask was Herbie specific - and the changes mentioned by Sebastian are for Herbie - the problem there is that the initial prompts were targeted to solve only AIF issues (Herbie being an agent for internal use-cases only)". No joint ask. The Trent ask is AEM-only, with Herbie's per-team instruction file as the precedent. DM: https://adobe.enterprise.slack.com/archives/D02DQLX6TAL/p1793102822364299. Vault note `AO 2.0/Coworker Persistent Instructions Status.md`.
