@@ -16,7 +16,7 @@ metadata:
 ## Open — cross-cutting
 
 - 🔁 **EVERY TUESDAY · weekly update to Bertrand (Pedro's routine, set 2026-10-13).** At Tuesday session start, surface it and pull the week's facts (dates and numbers checked) from memory. Five lines: one concrete win, one choice he made, one risk or ask with an owner, what moves next week. Goes out even incomplete. Pedro writes, Claude checks facts, never sends. Why and format: vault `Career/Gallup Call to Action.md`, [[user_cliftonstrengths]], [[feedback_bertrand_status_comms]].
-- 🟡 **Calibration #9, Pedro: pending.** What he changed in the RBI reply and the Aditi email before sending (10-28). **Asked once 10-28 ~12:48 (recall); do not ask again.** If he pastes the sent versions, log the diffs in [[feedback_draft_in_pedros_voice]].
+- 🟡 **Calibration #9, Pedro: pending.** What he changed in the RBI reply and the Aditi email before sending (10-28). **Asked once 10-28 ~12:48 (recall); do not ask again.** If he pastes the sent versions, log the diffs in [[feedback_draft_in_pedros_voice]]. Aditi half: sent text pasted 13:14 (in [[project_aem_agents_intelligence]] 10-28 block), but the Claude draft was not kept, so no diff is possible. RBI half still pending.
 
 > 🗂️ **Grouped by project since 2026-10-28** (Pedro's four projects: Coworker Lead, Experience Hub, Release Management, Security Health). Inside each project, dated sections stay newest first; lines moved out of a mixed section keep their text and sit under a "From <date>" sub-heading. Cross-cutting items (career, staleness) sit at the end. A new watch goes under the project that owns it.
 
@@ -27,6 +27,7 @@ metadata:
 - ✅ **CLOSED 10-28 · Coworker foundation roadmap line: Pedro keeps the distributed model** ("je garde ma position, mais je comprends le problème"). No note to Bertrand. The visibility problem stays open: Coworker coordination needs a slot in his own H1'27 goals, not in the product roadmap.
 - 📅 **10-29 · Aditi's answer to Pedro's biweekly AEM usage-stories proposal** (email 10-28, Bertrand cc). Then **Wed 11-11 · first 2-3 stories to Bertrand**; confirm Pedro can see Rubin per-org numbers before then. **Before every batch, read the vault note `Coworker Lead - Project Folder/AEM Coworker Usage Stories Findings.md`** (template, checks, candidates, run log; created 10-28). ⚠️ Confirm with Yanira that quoting chat content fits Legal's approved uses (#1/#2), not the pending "chat analysis" bucket. → [[project_aem_agents_intelligence]] 2026-10-28 block.
 - 🟡 **Rachel's answer to Bertrand: where the Slalom quote came from, and product attribution in her newsletter prompt.** Same email thread.
+- 🔴 **Bertrand 10-28 (reply to Pedro's proposal): is the Slalom usage prod or non prod?** Prod = program 90156 (https://aemcs-workspace.adobe.com/customer/program/90156#domainNames), sandbox = `slalompartnersandboxamericas`. Rubin 10-27: SLALOM LLC, 22 interactions. Pedro owes the answer (he wrote "checking which org they use"); compare the IMS org of program 90156 with the Rubin org.
 
 ### 🆕 2026-10-27 — BERTRAND 1-1 (full read: [[project_aem_agents_intelligence]] 2026-10-27 Bertrand block)
 
