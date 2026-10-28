@@ -17,6 +17,12 @@ metadata:
 
 - 🔁 **EVERY TUESDAY · weekly update to Bertrand (Pedro's routine, set 2026-10-13).** At Tuesday session start, surface it and pull the week's facts (dates and numbers checked) from memory. Five lines: one concrete win, one choice he made, one risk or ask with an owner, what moves next week. Goes out even incomplete. Pedro writes, Claude checks facts, never sends. Why and format: vault `Career/Gallup Call to Action.md`, [[user_cliftonstrengths]], [[feedback_bertrand_status_comms]].
 
+### 🆕 2026-10-28 — RBI ESCALATION + RELEASE PAUSES (full read: [[project_experience_hub]] 2026-10-28 block)
+
+- 📅 **11-03 · RBI customer call (Patrick Hauzel, Martin Floess).** How Pedro's 10-28 reply landed, whether RBI is in the "selected customers", and the date for the Update-Free extension (still not given).
+- 🟡 **Merit Vossmann: what replaces Visual Regressions** (asked 10-27 15:20, her customer call 10-28). https://adobe.enterprise.slack.com/archives/D0CBFJ858TD/p1793110852430919
+- 📅 **~10-30 · Five lines to Bertrand on the Coworker foundation roadmap line** (his 10-27 question), before the customer-facing roadmap 11-20. Pedro writes, Claude checks facts.
+
 ### 🆕 2026-10-27 — BERTRAND 1-1 (full read: [[project_aem_agents_intelligence]] 2026-10-27 Bertrand block)
 
 - 📅 **~10-30 · Tina on the Coworker rate card and roles.** Bertrand asked in the 1-1; he had a Slack from her on the pricing model (cost per action plus a global cost). Pedro asks her.
