@@ -25,6 +25,7 @@ metadata:
 - ✅ **CLOSED 10-28 · Coworker foundation roadmap line: Pedro keeps the distributed model** ("je garde ma position, mais je comprends le problème"). No note to Bertrand. The visibility problem stays open: Coworker coordination needs a slot in his own H1'27 goals, not in the product roadmap.
 - 📅 **10-29 · Aditi's answer to Pedro's biweekly AEM usage-stories proposal** (email 10-28, Bertrand cc). Then **Wed 11-11 · first 2-3 stories to Bertrand**; confirm Pedro can see Rubin per-org numbers before then. **Before every batch, read the vault note `AAI - Project Folder/AEM Coworker Usage Stories Findings.md`** (template, checks, candidates, run log; created 10-28). ⚠️ Confirm with Yanira that quoting chat content fits Legal's approved uses (#1/#2), not the pending "chat analysis" bucket. → [[project_aem_agents_intelligence]] 2026-10-28 block.
 - 🟡 **Rachel's answer to Bertrand: where the Slalom quote came from, and product attribution in her newsletter prompt.** Same email thread.
+- 🟡 **Calibration #9, Pedro: pending.** What he changed in the RBI reply and the Aditi email before sending (10-28). Ask once at next session start; if he pastes the sent versions, log the diffs in [[feedback_draft_in_pedros_voice]].
 
 ### 🆕 2026-10-27 — BERTRAND 1-1 (full read: [[project_aem_agents_intelligence]] 2026-10-27 Bertrand block)
 
