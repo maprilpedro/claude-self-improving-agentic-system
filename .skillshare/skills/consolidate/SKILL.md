@@ -15,7 +15,7 @@ This is distinct from `/ingest-transcript` (which processes one new external inp
 First, honestly assess: did real PM events, decisions, or insights enter this session, or was it hygiene / recall / mechanical work?
 
 - **Substance present** → full consolidation (Steps 1-6).
-- **No new substance** (recall-only, file maintenance, no new meeting or insight) → **hygiene-only**: ship staleness flags + a short debrief-asks list + commit. Do **not** fabricate learnings by re-reading existing memory to look productive (`feedback_consolidation_without_substance`). Say plainly "hygiene-only, no new substance" and skip Steps 2-3.
+- **No new substance** (recall-only, file maintenance, no new meeting or insight) → **hygiene-only**: ship staleness flags + a short debrief-asks list + commit. Do **not** fabricate learnings by re-reading existing memory to look productive (`feedback_consolidation_without_substance`). Say plainly "hygiene-only, no new substance" and skip Steps 2-3. Step 1b still runs: a recurring workflow can run in a session with no new substance.
 
 Calling this honestly is the skill's most important judgment. Productivity theater here pollutes the knowledge base permanently.
 
@@ -28,6 +28,15 @@ Edit memory files via the GitHub repo path, not the symlink target (`reference_o
 - If something earlier in memory turned out wrong, supersede it with reasoning — never delete (Knowledge Quality Rules).
 - Update `MEMORY.md` with a one-line pointer for any new memory file. Never put memory content in MEMORY.md itself.
 - **Maintain `watches.md`** — the single registry of dated follow-ups: add any new "check X on date Y" the session created, ✅-close what resolved (move to its History), never leave a dated promise buried in an event block.
+
+## Step 1b — Findings logs (recurring workflows)
+
+A recurring workflow only gets better if each run leaves a lesson that the next run reads (`reference_findings_files`). Reading is wired in at recall through `MEMORY.md`. Writing is the half that gets forgotten, so it happens here.
+
+- Open `.claude/memory/reference_findings_files.md`. For each workflow in its table that ran this session (a batch of usage stories went out, a draft in Pedro's voice was sent, a transcript was read), add one dated line to that workflow's findings file: what was done, and what you saw work or fail.
+- Then ask Pedro for his part, one line per workflow. For the usage stories it is the two questions in the file's Run log: what Bertrand reacted to, and what Rachel or Gina reused. Write his answer in as he gives it. If he has no answer yet, mark the line "Pedro: pending" and add a watch for the next session. Do not fill his part yourself; an invented reaction poisons every later run.
+- If a workflow repeated this session and has no findings file, propose one (a registry row plus the file). Do not create it by reflex.
+- Nothing ran → skip silently.
 
 ## Step 2 — Knowledge reflection (`knowledge/`) — paired, not optional
 
@@ -92,4 +101,4 @@ For depth here, you may spawn the `staleness-auditor` subagent (read-only drift 
 
 ## What success looks like
 
-Memory and knowledge moved together or not at all. No fabricated learning. Staleness is visible, not silently patched. Hypotheses that earned a transition got it, with evidence. The commit exists. Next session's `recall` lands on a clean, honest, current state.
+Memory and knowledge moved together or not at all. Every recurring workflow that ran left a lesson in its findings file. No fabricated learning. Staleness is visible, not silently patched. Hypotheses that earned a transition got it, with evidence. The commit exists. Next session's `recall` lands on a clean, honest, current state.
