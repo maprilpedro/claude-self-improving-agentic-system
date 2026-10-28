@@ -154,7 +154,7 @@ metadata:
 
 ### 🆕 2026-10-28 pm — THREE CUSTOMER PAUSES (full read: [[project_release_management]] 2026-10-28 pm block)
 
-- 🔴 **Before Sat 11-01 · UPS pause applied?** SKYROLL-1003 + SKYROLL-1006 carry both approvals, Rolling Stones applied them. Pedro answered 10-28 14:07 and added Razvan + Nicu to the DM ("can you give visibility from ops/R&D side ? Its quite urgent"); check their answer by 10-30. https://adobe.enterprise.slack.com/archives/C0C6UD4G5V0/p1793029217450869
+- 🔴 **Before Sat 11-01 · UPS pause applied?** SKYROLL-1003 + SKYROLL-1006 carry both approvals, Rolling Stones applied them. Pedro answered 10-28 14:07 and added Razvan + Nicu to the DM ("can you give visibility from ops/R&D side ? Its quite urgent"); check their answer by 10-30. Razvan 14:24 (separate DM C083T5XHFTL): Nicu fills the approval table for UPS, Sony and Victoria's Secret; Best Buy + UnderArmour already approved by Adam and Bertrand. https://adobe.enterprise.slack.com/archives/C0C6UD4G5V0/p1793029217450869
 - 🔴 **~10-30 · Sony exception (11-13 → 11-29, 12-18 → 01-05), SKYROLL-1004.** Nicu never in the group DM; get his answer or Pedro approves. https://adobe.enterprise.slack.com/archives/C0CC89D414Y/p1792692788733069
 - 🟡 **Microsoft Juliette SKYROLL-1020: two approval comments missing** (10-28 09:32). https://adobe.enterprise.slack.com/archives/CQVQGQ7F0/p1793176200934399
 
