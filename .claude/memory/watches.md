@@ -27,7 +27,7 @@ metadata:
 - ✅ **CLOSED 10-28 · Coworker foundation roadmap line: Pedro keeps the distributed model** ("je garde ma position, mais je comprends le problème"). No note to Bertrand. The visibility problem stays open: Coworker coordination needs a slot in his own H1'27 goals, not in the product roadmap.
 - 📅 **10-29 · Aditi's answer to Pedro's biweekly AEM usage-stories proposal** (email 10-28, Bertrand cc). Then **Wed 11-11 · first 2-3 stories to Bertrand**; confirm Pedro can see Rubin per-org numbers before then. **Before every batch, read the vault note `Coworker Lead - Project Folder/AEM Coworker Usage Stories Findings.md`** (template, checks, candidates, run log; created 10-28). ⚠️ Confirm with Yanira that quoting chat content fits Legal's approved uses (#1/#2), not the pending "chat analysis" bucket. → [[project_aem_agents_intelligence]] 2026-10-28 block.
 - 🟡 **Rachel's answer to Bertrand: where the Slalom quote came from, and product attribution in her newsletter prompt.** Same email thread.
-- 🔴 **Bertrand 10-28 (reply to Pedro's proposal): is the Slalom usage prod or non prod?** Prod = program 90156 (https://aemcs-workspace.adobe.com/customer/program/90156#domainNames), sandbox = `slalompartnersandboxamericas`. Answer found 10-28 13:18: the live usage is the customer org SLALOM LLC (22-30 interactions a day), the sandbox stopped after 09-15. Pedro owes the reply (he wrote "checking which org they use"). ✅ Verified 13:24: program 90156 = SLALOM LLC (`5EF652E25570B5E77F000101@AdobeOrg`), so the answer is prod. Next check: the reply went out.
+- ✅ **SENT 10-28 ~14:00 · Bertrand 10-28 (reply to Pedro's proposal): is the Slalom usage prod or non prod?** Prod = program 90156 (https://aemcs-workspace.adobe.com/customer/program/90156#domainNames), sandbox = `slalompartnersandboxamericas`. Answer found 10-28 13:18: the live usage is the customer org SLALOM LLC (22-30 interactions a day), the sandbox stopped after 09-15. Pedro owes the reply (he wrote "checking which org they use"). ✅ Verified 13:24: program 90156 = SLALOM LLC (`5EF652E25570B5E77F000101@AdobeOrg`), so the answer is prod. Next check: the reply went out.
 
 ### 🆕 2026-10-27 — BERTRAND 1-1 (full read: [[project_aem_agents_intelligence]] 2026-10-27 Bertrand block)
 
@@ -150,9 +150,15 @@ metadata:
 - 🟡 **Release management item in Bertrand's H1'27 plan = SKYOPS-163976** (+ SKYOPS-163977), both "HC: TBD"; Bertrand 10-27: "sans que je sache trop ce que ça veut dire". Pedro explains it to him (in person 10-28 possible) and asks Nicu to set 5 HC. Canvas F0C5A1D4GAJ.
 - 🟡 **Merit Vossmann: what replaces Visual Regressions** (asked 10-27 15:20, her customer call 10-28). https://adobe.enterprise.slack.com/archives/D0CBFJ858TD/p1793110852430919
 
+### 🆕 2026-10-28 pm — THREE CUSTOMER PAUSES (full read: [[project_release_management]] 2026-10-28 pm block)
+
+- 🔴 **Before Sat 11-01 · UPS pause applied?** SKYROLL-1003 + SKYROLL-1006 carry both approvals, Rolling Stones applied them, Dustin answered (chased 10-26 and 10-27). https://adobe.enterprise.slack.com/archives/C0C6UD4G5V0/p1793029217450869
+- 🔴 **~10-30 · Sony exception (11-13 → 11-29, 12-18 → 01-05), SKYROLL-1004.** Nicu never in the group DM; get his answer or Pedro approves. https://adobe.enterprise.slack.com/archives/C0CC89D414Y/p1792692788733069
+- 🟡 **Microsoft Juliette SKYROLL-1020: two approval comments missing** (10-28 09:32). https://adobe.enterprise.slack.com/archives/CQVQGQ7F0/p1793176200934399
+
 ### From 2026-10-13 — back from PTO
 
-- 🟡 **Dustin / UPS RO pause 11-01 → 01-11: answered 10-13 10:20.** Pedro pointed him to the RO wiki ("Pause Updates for a program in RO", https://wiki.corp.adobe.com/spaces/WEM/pages/1971265640) and asked for the ticket in the DM; customer is opening a support ticket (Dustin 10-12). ⏳ Ticket number not yet shared. Razvan's 09-28 UnderArmour / Best Buy ask still open. https://adobe.enterprise.slack.com/archives/C0C6UD4G5V0
+- 🟡 **Dustin / UPS RO pause 11-01 → 01-11: answered 10-13 10:20.** *(Superseded by the 10-28 pm section above.)* Pedro pointed him to the RO wiki ("Pause Updates for a program in RO", https://wiki.corp.adobe.com/spaces/WEM/pages/1971265640) and asked for the ticket in the DM; customer is opening a support ticket (Dustin 10-12). ⏳ Ticket number not yet shared. Razvan's 09-28 UnderArmour / Best Buy ask still open. https://adobe.enterprise.slack.com/archives/C0C6UD4G5V0
 - 🟡 **Tatyana release review dates: answered 10-12 18:53** (Nov 2026.11 → 11/19, early for the BF/CM exclusion; Dec 2026.12 → 12/10, early for the year-end exclusion). ⚠️ **January not given**, and her 18:14 bump asked for Jan too. https://adobe.enterprise.slack.com/archives/D06K07DHUTU/p1791821657048099
 
 ### From 2026-09-22 — Slack audit
