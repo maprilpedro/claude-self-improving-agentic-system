@@ -108,7 +108,7 @@
 - [Separate facts from proposals](feedback_separate_facts_from_proposals.md) — never let a bet read as a fact.
 - [HTML dashboards, not markdown](feedback_html_dashboard_preference.md).
 - [Big-file parallel chunk extract](feedback_big_file_parallel_chunk_extract.md) — >2000 lines → 3-5 parallel extractors.
-- [No Obsidian task checkboxes](feedback_no_obsidian_task_checkboxes.md) — **never `- [ ]` / `- [x]` / 📅 ✅ Tasks syntax in the vault.** Plain bullets. Journals cleaned + `/journal` patched 2026-09-22; Status & Todo converted on his go the same day.
+- [No Obsidian task checkboxes](feedback_no_obsidian_task_checkboxes.md) — **never `- [ ]` / `- [x]` / 📅 ✅ Tasks syntax in the vault.** Plain bullets. Journals cleaned + `/journal` patched 2026-09-22; Status & Todo converted on his go the same day. **Exception 10-28: the `Coworker Kanban` board (Kanban plugin format), where Coworker tasks now live.**
 - [Don't auto-reload Obsidian](feedback_obsidian_reload_after_write.md). ⚠️ Its editor buffer also **overwrites** disk writes — close the note before editing.
 - [Vault writes + Slack reads need no permission](feedback_vault_writes_no_permission.md) — **vault 2026-09-27, Slack reads on request 2026-10-13; the prompts came from auto mode, fixed in `autoMode.allow`.** Deletes, Slack sends, push still ask.
 - [No internal content to personal repos](feedback_no_internal_to_personal_repos.md) — `--private` doesn't make it safe.
