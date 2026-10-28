@@ -14,4 +14,12 @@ originSessionId: c3970bb1-0fc5-47cd-80ee-cd157b1b93c6
 - Pedro's tracker = items where action is on Pedro or someone Pedro coordinates. NOT items where action is on Bertrand.
 - Memory and State of Project notes can mention the friction or context — those aren't tasks.
 
+## 🔒 Standing domain, HARD RULE (Pedro, 2026-10-28): pricing is Bertrand's
+
+*"Tout ce qui est pricing, c'est Bertrand - hard rule sauf si il le mentionne explicitement."*
+
+- Any pricing topic (Coworker rate card, credits per prompt or per operation, Sites pricing, SKU price levels) is Bertrand's seat. It moves to Pedro only if Bertrand says so explicitly.
+- When Pedro names Bertrand on a pricing topic, that is the rule applied, **not** a seat deferred upward. Never coach him to claim a pricing seat or score it as a Director-level gap (Claude did both on 10-28 about rate card v2, corrected the same day).
+- Pedro's part on pricing: ask, relay, put Bertrand in the loop (e.g. tell him when he has been named). Track only those relays, never the pricing decision itself.
+
 **Example (May 5, 2026):** Pedro got Cédric annoyed via Slack push. Initial draft added "Cédric repair — Pedro 📅 2026-05-08" to EH Status & Todo. Pedro corrected: *"Cedric Repair is on Bertrand, dont trace it."* Removed task. Stakeholder Map entry rewritten to "Repair = Bertrand's call, not Pedro tracked. Note for context only."

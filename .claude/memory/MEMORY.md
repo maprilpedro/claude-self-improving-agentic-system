@@ -116,7 +116,7 @@
 - [🔴 The audit repo works by PR](feedback_audit_repo_works_by_pr.md) — **`aem-coworker-audits` is branch → PR → merge. Never commit to main. Check `gh pr list` before writing to any repo of his.**
 - [Save screenshots to the project folder](feedback_screenshots.md).
 - [Defuse vs defer](feedback_defuse_vs_defer.md) — scope clarity reroutes work, it doesn't eliminate it.
-- [Don't trace Bertrand-owned items](feedback_dont_trace_bertrand_owned.md).
+- [Don't trace Bertrand-owned items](feedback_dont_trace_bertrand_owned.md) — **🔒 HARD RULE 10-28: all pricing is Bertrand's** unless he says otherwise. Naming him on pricing is the rule, not a deferral.
 - [Overwhelm = miscalibrated priorities](feedback_overwhelm_calibration.md) — audit the 🔴 tags first.
 - [Concise reminder when he forgets context](feedback_concise_reminder_when_forgotten.md) — 5 sentences max.
 - [Simple local reminders](feedback_simple_local_reminders.md) — surface at session start, not cloud automation.
