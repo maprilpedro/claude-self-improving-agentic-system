@@ -11,6 +11,14 @@ metadata:
 
 > ## ▶️ RESUME HERE — **2026-10-28:** project created, no new event. Open: Ramon's EH-priorities meeting (asked 09-16, due 09-26, never held as far as recorded), the RS lines on SKYOPS-161584 / GRANITE-75092 for H1'27, the release-notes decision on the two doc limitations. Tasks in the vault Status.
 
+## Key links (Pedro, 2026-10-28)
+
+- Meeting notes: https://wiki.corp.adobe.com/spaces/WEM/pages/3602459718/Sync+Meeting+Notes (wiki 3602459718, "Sync Meeting Notes")
+- Roadmap: https://jira.corp.adobe.com/browse/CQ-4360481
+- Architecture: https://wiki.corp.adobe.com/display/WEM/Project+Starfish ("Project Starfish")
+- Board: https://jira.corp.adobe.com/secure/RapidBoard.jspa?rapidView=44923&view=planning.nodetail&epics=visible&issueLimit=100# (rapidView 44923)
+- Not read yet. Atlassian MCP was 401 on 10-22: reconnect (VPN first) before reading them.
+
 ## What shipped
 
 - **2026-07-30:** Security Health and Penetration Tests shipped through Experience Hub under a new "Security and Compliance" nav section (Admin & IT profile). The contribution model's first outcome-validated case: a non-EH team's capability surfacing through EH ([[project_experience_hub]] 07-30 block, now in the EH archive shards).
