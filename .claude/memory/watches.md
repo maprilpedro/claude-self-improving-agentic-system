@@ -29,7 +29,7 @@ metadata:
 
 - 📅 **~10-30 · Tina on the Coworker rate card, and AEM in the discussion.** Cost per operation instead of 25 credits per prompt; Bertrand worried it moves without AEM while Sites pricing is redone. Tina 10-28 `#aem-agentic` to Apoorva: official per-level pricing on Field Readiness, updated pricing not before Q1.
 - 📅 **~11-03 · Demo Hub with Gina Casagrande** (she runs it): the AEM row claims a demo video, script and clickable demo that do not exist. Two scenarios needed (existing customers, new customers on Experience Workspace), Bertrand with Mark Szulc (probable). Docs side: Guillaume Carlino, "on en reparle semaine prochaine" (10-27).
-- 🟡 **Manas is leaving** (Bertrand, 10-27). Who inherits his Coworker scope and the CXCO reviews (Yanira 10-21: merged before 11-01). Pedro works with Trent meanwhile.
+- 🟡 **Manas is leaving** (Bertrand, verbal, 10-27; no public announcement found 10-28, do not repeat it as fact). Watch for the announcement, then who inherits his Coworker scope and the CXCO reviews (Yanira 10-21: merged before 11-01). Pedro works with Trent meanwhile.
 
 ### 🆕 2026-10-27 — COWORKER PERSISTENT INSTRUCTIONS, RAUL FIRST (full read: [[reference_coworker_system_prompt_blocks]] 2026-10-27 block)
 
