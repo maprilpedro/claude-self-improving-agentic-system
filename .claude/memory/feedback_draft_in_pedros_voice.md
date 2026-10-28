@@ -96,4 +96,9 @@ When drafting a message Pedro will send (Slack, email), it must sound like **him
 
 **🟡 Calibration #12 (2026-10-28 15:48) — skills beta reply-all, not sent yet.** He rejected "I bring it to Mihai and Ken": "Je veux pas le faire !". Also cut the closing "I can send the first user lists". **Do not write operational carrying work into his drafts (bring, send, compile the lists).** He stays the contact; the owner of the source and the team that needs it do the carrying. Same instinct as #7 (minimum new responsibility), and it holds even when his own earlier message ("I'll be the AEM contact for the setup") seems to imply the work.
 
+**🟢 Calibration #13 (2026-10-28 15:56) — Soumya + Aditi group DM, Claude drafted on his ask, sent with edits** (https://adobe.enterprise.slack.com/archives/C0CCUMB09QE):
+- "late answer on the nudges" → **"just realized I did not answer on the nudges"**: he names his own miss plainly instead of a neutral label.
+- Aditi's intro: "she works on AEM customer use cases from Rubin" → **"she works on AEM customer success use cases"**: he dropped the data source. Reason not stated (Rubin chat use is still a Legal question, so likely deliberate). Do not name Rubin as the source of chat-based work in outward intros.
+- Kept everything else word for word, and the tags again.
+
 **How to apply:** after drafting, reread each line as *"would Pedro write this exact word?"* and strip anything above his register. Hedge situational claims in group emails, keep asks assertive, offer the manager a chime-in line when announcing calls, default design leadership to direct-recipient, sweep single-word metaphors, state wants not vetoes, no priority labels, footnote the receipts. Pairs with [[feedback_language_split]] (FR in chat, EN in the vault, verbatim quotes stay original) and [[pkd-chat-tone]] (one Dick turn per cluster in peer emails).
