@@ -15,6 +15,6 @@ metadata:
 - Journal, digest, meeting-note, memory-to-vault writes: `- <action> — owner — due <date>`, never a checkbox.
 - The two Status & Todo files were converted the same day on his go (119 + 78 lines → plain bullets; done items keep their `✅ <date>` marker). The ARCHIVE Status files were left as they are.
 - Leave the `# Day planner` checkboxes in `050 Sources/daily notes/` alone.
-- **Second exception, 2026-10-28, Pedro's choice (option B): the Kanban plugin board** `AAI - Project Folder/Coworker Kanban.md` (plugin `obsidian-kanban` v2.0.51, installed the same day). The plugin stores cards as `- [ ]` / `- [x]` under `## Todo`, `## Doing`, `## Done`; that format is required there and only there. Card text: `<branch> · <action>, <date>`, branches from the priorities map (Adoption, Commercials, AEM on Coworker, Marketing, Coworker roadmap). Doing holds 3 cards at most.
+- **Second exception, 2026-10-28, Pedro's choice (option B): the Kanban plugin board** `Coworker Lead - Project Folder/Coworker Kanban.md` (plugin `obsidian-kanban` v2.0.51, installed the same day). The plugin stores cards as `- [ ]` / `- [x]` under `## Todo`, `## Doing`, `## Done`; that format is required there and only there. Card text: `<branch> · <action>, <date>`, branches from the priorities map (Adoption, Commercials, AEM on Coworker, Marketing, Coworker roadmap). Doing holds 3 cards at most.
 
 Related: [[feedback_task_vs_progress_log]] · [[feedback_status_rollup_not_tracker]] · [[reference_local_ai_toolkit]]

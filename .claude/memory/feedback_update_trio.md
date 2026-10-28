@@ -12,10 +12,10 @@ After every analysis of meeting notes, transcript, Slack export, or significant 
 3. `Experience Hub - Questions for Next 1-1 with Sorin.md`
 4. `Experience Hub - Questions for Next 1-1 with Bertrand.md` — cross-cutting, lives EH-side
 
-**AAI trio** (`AEM Agents Intelligence/AAI - Project Folder/Key Files/`):
-1. `AEM Agents Intelligence - Stakeholder Map.md`
-2. `AEM Agents Intelligence - State of the Project.md`
-3. `AEM Agents Intelligence - Questions for Next 1-1 with Yanira.md`
+**AAI trio** (`Coworker Lead/Coworker Lead - Project Folder/Key Files/`):
+1. `Coworker Lead - Stakeholder Map.md`
+2. `Coworker Lead - State of the Project.md`
+3. `Coworker Lead - Questions for Next 1-1 with Yanira.md`
 
 **Why:** Standing rule since 2026-03-24. Phase 2 split (2026-05-03) carves AAI as its own project with its own counterpart (Yanira). Sorin = EH 1-1; Yanira = AAI 1-1; Bertrand = boss, cross-cutting (kept EH-side, but referenced from AAI when AAI items raised). Each trio is the living operational doc set for that project.
 

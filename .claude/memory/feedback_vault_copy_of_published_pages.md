@@ -12,7 +12,7 @@ metadata:
 **Why:** the vault is his source of truth + offline/search surface; Confluence is the published artifact. Keeping both means he can edit/recall locally and the record survives independent of the wiki. Matches the existing pattern (the 06-18 working-session page had a vault twin).
 
 **How to apply:**
-- After publishing to Confluence, write a markdown twin under the owning project folder (e.g. `AAI - Project Folder/`).
+- After publishing to Confluence, write a markdown twin under the owning project folder (e.g. `Coworker Lead - Project Folder/`).
 - Put the wiki URL in the note frontmatter (`wiki:` field) and a one-line banner ("Vault copy of the published wiki page [id]").
 - Mirror the content; carry over any honesty flags / open-to-confirm items (e.g. unresolved names).
 - Do NOT run `obsidian reload` after writing (see [[feedback-obsidian-reload-after-write]]).

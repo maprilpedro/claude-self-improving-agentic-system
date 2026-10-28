@@ -234,7 +234,7 @@ The "4 AEM marketplaces" the audit (`GitHub/adbe-skill-audit`) used was partly w
 - `dea-extensions` (Adobe-Experience-Platform) — Data Engineering
 - **+ ~12 AEP/Analytics marketplaces inherited via `cx-coworker`** (aia, cja, target, ajo, loyalty, …)
 
-→ `excat` (experience-catalyst) is referenced by **no** manifest = confirms it's a standalone app, not an AOv2 marketplace. **Re-point the overlap audit at the manifest-declared marketplaces** before the empirical run for Ian. Inheritance chain: `cx-coworker-base` → `cx-coworker` → `aem-* agent` → `cx-coworker-{customer}`. Full verified flow: vault `AAI - Project Folder/AEM Skills Flow — Front Door to Skill Selection (2026-06-26).md`.
+→ `excat` (experience-catalyst) is referenced by **no** manifest = confirms it's a standalone app, not an AOv2 marketplace. **Re-point the overlap audit at the manifest-declared marketplaces** before the empirical run for Ian. Inheritance chain: `cx-coworker-base` → `cx-coworker` → `aem-* agent` → `cx-coworker-{customer}`. Full verified flow: vault `Coworker Lead - Project Folder/AEM Skills Flow — Front Door to Skill Selection (2026-06-26).md`.
 
 ## The one-AEM-manifest proposal + the runtime constraints (thread-confirmed 2026-06-23→26, #p42-architecture)
 

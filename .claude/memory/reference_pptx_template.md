@@ -33,4 +33,4 @@ slide = prs.slides.add_slide(content_layout)
 
 **Reference build script:** `/tmp/build_aov2_deck.py` — last run 2026-05-05 for AOv2 May 11 deck section. Uses Adobe Clean font, Adobe red (`#EB1000`), DARK (`#1A1A1A`), GRAY (`#6E6E6E`).
 
-**Output destination convention:** vault deck folders, e.g. `2026/AEM Agents Intelligence/AAI - Project Folder/Loni JM May 11 deck/`.
+**Output destination convention:** vault deck folders, e.g. `2026/Coworker Lead/Coworker Lead - Project Folder/Loni JM May 11 deck/`.

@@ -4,7 +4,7 @@ description: After EH/AAI vault split, agent-reporting tasks live in AAI Status 
 type: feedback
 ---
 
-Rule (post Phase 2 split, 2026-05-03): tasks route by project, not by mirror. Agent reporting / AO 2.0 liaison / Felix / Apoorva validation / Rubin / report-to-JIRA / AEM agent intelligence layer → `AEM Agents Intelligence - Status and Todo.md` (canonical AAI status). EH-only items (surface, contribution model, prompting/skills, profiling, Sorin team) → `Experience Hub - Status and Todo.md`. Cross-cutting items go in the project they primarily serve, never both.
+Rule (post Phase 2 split, 2026-05-03): tasks route by project, not by mirror. Agent reporting / AO 2.0 liaison / Felix / Apoorva validation / Rubin / report-to-JIRA / AEM agent intelligence layer → `Coworker Lead - Status and Todo.md` (canonical AAI status). EH-only items (surface, contribution model, prompting/skills, profiling, Sorin team) → `Experience Hub - Status and Todo.md`. Cross-cutting items go in the project they primarily serve, never both.
 
 **Why:** The original mirror rule (April 23 2026) treated agent-reporting work as cross-surface. Phase 1 split (May 3) carved AAI as its own project. Mirroring is now duplication that drifts. Each file owns one project's task surface clean.
 

@@ -46,7 +46,7 @@ The 2026 yearly goals (G1/G2/G3, drafted with Bertrand April 2026) and this OKR 
 - `Close Apoorva validation punch-list.md` — KR1
 - `3 agent owners signed off on report.md` — KR2
 - `Deliver Loni + Jean-Michel presentation.md` — KR3 (rescheduled week of May 11). SD-1 Haresh, SD-2 JM warm-up Claude project, SD-3 $500K cost trace.
-- `Ship Priority Consolidation view.md` — KR4. Draft at `AAI - Project Folder/Agent Reports/20260424 - Priority Consolidation View.md`. Due moved May 1 → May 8.
+- `Ship Priority Consolidation view.md` — KR4. Draft at `Coworker Lead - Project Folder/Agent Reports/20260424 - Priority Consolidation View.md`. Due moved May 1 → May 8.
 - `Stable monthly metrics deck.md` — KR5. Portfolio Monthly Briefing v0 shipped Apr 30.
 - `Define SLA for AEM Agents with AEP.md` — KR6 (Jaclyn Apr 14 ask, Conrad/Trent/Sergey AO-side).
 - `Update Reports weekly for AI Intelligence.md`

@@ -16,6 +16,6 @@ Each intake captures: what the surface is / status / personas / contexts / the h
 | Slicc — Surface Intake | `3907904952` | https://wiki.corp.adobe.com/pages/viewpage.action?pageId=3907904952 |
 | AO 2.0 / AIA — Surface Intake | `3907904956` | https://wiki.corp.adobe.com/pages/viewpage.action?pageId=3907904956 |
 
-**Confluence pages = neutral intake only** (no Pedro strategy). Pedro's private live-capture versions (goal / opening / signal-to-give / must-ask) are separate **HTML** files in `AAI - Project Folder/` (`*Surface Intake*.html`) — never share those. Surfaces still to add: Experience Modernization, Forms assistant, AI Assistant.
+**Confluence pages = neutral intake only** (no Pedro strategy). Pedro's private live-capture versions (goal / opening / signal-to-give / must-ask) are separate **HTML** files in `Coworker Lead - Project Folder/` (`*Surface Intake*.html`) — never share those. Surfaces still to add: Experience Modernization, Forms assistant, AI Assistant.
 
 Strategic point: the map makes the "thousand flowers garden" fragmentation (Bertrand's public concern) legible, feeds the Loni/JM workshop, and is the artifact under Pedro's consistency / surface-map lane. See [[project_aem_agents_intelligence]] 2026-06-03 entry, [[feedback_one_artifact_per_ask]].

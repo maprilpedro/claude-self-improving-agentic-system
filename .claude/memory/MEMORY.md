@@ -34,7 +34,7 @@
 - [Co-Pilot Review Tool access](reference_copilot_review_access.md) — grant via JIRA NXUI-170 clone. Pedro is an approver.
 - [OKR structure O1-O6](reference_okr_structure.md) — O1 = AAI; O2-O6 = EH.
 - [Promotion Strategy v1](reference_promotion_strategy.md) — Playing-to-Win cascade for Director → Senior Director. Monthly review.
-- [Obsidian vault paths](reference_obsidian_paths.md) — **vault moved to `/Users/pedrofer/ObsidianAdobeVault` (2026-07-13)**. Memory edits via the GitHub repo path.
+- [Obsidian vault paths](reference_obsidian_paths.md) — **vault moved to `/Users/pedrofer/ObsidianAdobeVault` (2026-07-13)**. Memory edits via the GitHub repo path. **Four project folders since 2026-10-28** (Coworker Lead, Experience Hub, Release Management, Security Health).
 - [Roadmap dashboard](reference_roadmap_dashboard.md) — `2026/Roadmap Dashboard.html`, static.
 - [Slack MCP workspace gotcha](reference_slack_mcp_workspace.md) — connector must be OAuth'd to cq-dev or all Adobe reads fail.
 - [Slack canvas API gotchas](reference_slack_canvas_api.md) — section-replace is destructive. Full-content replace only.
@@ -122,7 +122,7 @@
 - [PPTX palette](feedback_pptx_palette.md) — white, greys, Adobe red, black ONLY.
 - [Transcript room-mic attribution](feedback_transcript_attribution.md) — "CR" labels are room mics, not people.
 - [Recall without prompts](feedback_recall_without_prompts.md) — **session-start reads via the Read tool, never compound cd/pipe Bash.** 5-6 prompts on 10-14.
-- [Session start behavior](feedback_session_start.md) — pick up both projects; concise status, then ask.
+- [Session start behavior](feedback_session_start.md) — pick up the four projects (since 2026-10-28); concise status, then ask.
 - [Session-start env hygiene](feedback_session_setup.md) / [env vars](feedback_session_start_env_hygiene.md) — 1M context on; /color orange, /rename.
 - [No meeting setup help](feedback_no_meeting_setup.md).
 
@@ -132,7 +132,9 @@
 - [Watches archive 2026-08](watches_ARCHIVE_2026-08.md) — **verbatim pre-compression snapshot, 2026-08-07**, byte-identical to the file before the reshape. Every open item in the live registry has its full history here. Grep only, never full-Read.
 - [Watches archive 2026-10](watches_ARCHIVE_2026-10.md) — 13 sections dated ≤ 09-03, moved verbatim at the 10-14 System Review (watches 50.8K → 21.9K bytes). Grep only.
 - [Check-in 2026 prep](project_checkin_2026.md) — **the 3 captured goals verbatim, the Apr→Jul mapping (~70 G2 / ~48 G1 / ~14 G3), the G2-has-no-OKR gap, the Workday 3-question format, the AI-usage framing.** Read before any check-in / self-review / promotion-case work.
-- [AEM Agents Intelligence](project_aem_agents_intelligence.md) — the active lane. Coworker migration, comms ownership, agent reporting. Hot state + durable reference.
+- [Coworker Lead (ex AEM Agents Intelligence)](project_aem_agents_intelligence.md) — the active lane, renamed 2026-10-28 (filename kept). Coworker migration, comms ownership, agent reporting. Hot state + durable reference.
+- [Release Management](project_release_management.md) — **created 2026-10-28.** RBI, customer update pauses, release activation (Victor), H1'27 SKYOPS-163976, Fred / Visual Regressions decommissions.
+- [Security Health](project_security_health.md) — **created 2026-10-28.** Security Health in EH, Heimdall support view, Ramon's numbers, CSO + vulnerabilities lines.
 - [AAI archive index](project_aem_agents_intelligence_ARCHIVE_INDEX.md) — router over the weekly ISO shards (+ `_ARCHIVE_reference.md` for long-form). Read the index, then grep the shard. Never full-Read a shard.
 - [EH archive index](project_experience_hub_ARCHIVE_INDEX.md) — same pattern, EH side.
 - [AEM Experience Hub](project_experience_hub.md) — EH surface, contribution model, Sorin team, O2 KRs.

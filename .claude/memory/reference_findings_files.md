@@ -9,7 +9,7 @@ Rule (Pedro, 2026-10-28, from the vault note `Build an Obsidian BACKEND Not a Se
 
 | Workflow | Findings file | Read when |
 |---|---|---|
-| AEM Coworker usage stories (every two weeks, first batch 2026-11-11) | vault `AAI - Project Folder/AEM Coworker Usage Stories Findings.md` | before preparing any batch, and whenever Bertrand, Aditi or Rachel bring up usage stories |
+| AEM Coworker usage stories (every two weeks, first batch 2026-11-11) | vault `Coworker Lead - Project Folder/AEM Coworker Usage Stories Findings.md` | before preparing any batch, and whenever Bertrand, Aditi or Rachel bring up usage stories |
 | Drafts and critiques in Pedro's voice (`/reply`) | [[feedback_draft_in_pedros_voice]] (calibrations #1 to #8) | before any draft or critique |
 | Transcript ingestion | [[reference_transcript_glossary]] | before reading any transcript |
 
