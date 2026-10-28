@@ -22,6 +22,8 @@ metadata:
 - 📅 **11-03 · RBI customer call (Patrick Hauzel, Martin Floess).** How Pedro's 10-28 reply landed, whether RBI is in the "selected customers", and the date for the Update-Free extension (still not given).
 - 🟡 **Merit Vossmann: what replaces Visual Regressions** (asked 10-27 15:20, her customer call 10-28). https://adobe.enterprise.slack.com/archives/D0CBFJ858TD/p1793110852430919
 - 📅 **~10-30 · Five lines to Bertrand on the Coworker foundation roadmap line** (his 10-27 question), before the customer-facing roadmap 11-20. Pedro writes, Claude checks facts.
+- 📅 **10-29 · Aditi's answer to Pedro's biweekly AEM usage-stories proposal** (email 10-28, Bertrand cc). Then **Wed 11-11 · first 2-3 stories to Bertrand**; confirm Pedro can see Rubin per-org numbers before then. → [[project_aem_agents_intelligence]] 2026-10-28 block.
+- 🟡 **Rachel's answer to Bertrand: where the Slalom quote came from, and product attribution in her newsletter prompt.** Same email thread.
 
 ### 🆕 2026-10-27 — BERTRAND 1-1 (full read: [[project_aem_agents_intelligence]] 2026-10-27 Bertrand block)
 
