@@ -22,7 +22,7 @@ metadata:
 - 📅 **11-03 · RBI customer call (Patrick Hauzel, Martin Floess).** How Pedro's 10-28 reply landed, whether RBI is in the "selected customers", and the date for the Update-Free extension (still not given).
 - 🟡 **Merit Vossmann: what replaces Visual Regressions** (asked 10-27 15:20, her customer call 10-28). https://adobe.enterprise.slack.com/archives/D0CBFJ858TD/p1793110852430919
 - ✅ **CLOSED 10-28 · Coworker foundation roadmap line: Pedro keeps the distributed model** ("je garde ma position, mais je comprends le problème"). No note to Bertrand. The visibility problem stays open: Coworker coordination needs a slot in his own H1'27 goals, not in the product roadmap.
-- 📅 **10-29 · Aditi's answer to Pedro's biweekly AEM usage-stories proposal** (email 10-28, Bertrand cc). Then **Wed 11-11 · first 2-3 stories to Bertrand**; confirm Pedro can see Rubin per-org numbers before then. → [[project_aem_agents_intelligence]] 2026-10-28 block.
+- 📅 **10-29 · Aditi's answer to Pedro's biweekly AEM usage-stories proposal** (email 10-28, Bertrand cc). Then **Wed 11-11 · first 2-3 stories to Bertrand**; confirm Pedro can see Rubin per-org numbers before then. **Before every batch, read the vault note `AAI - Project Folder/AEM Coworker Usage Stories Findings.md`** (template, checks, candidates, run log; created 10-28). ⚠️ Confirm with Yanira that quoting chat content fits Legal's approved uses (#1/#2), not the pending "chat analysis" bucket. → [[project_aem_agents_intelligence]] 2026-10-28 block.
 - 🟡 **Rachel's answer to Bertrand: where the Slalom quote came from, and product attribution in her newsletter prompt.** Same email thread.
 
 ### 🆕 2026-10-27 — BERTRAND 1-1 (full read: [[project_aem_agents_intelligence]] 2026-10-27 Bertrand block)
