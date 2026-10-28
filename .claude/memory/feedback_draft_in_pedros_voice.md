@@ -81,7 +81,12 @@ When drafting a message Pedro will send (Slack, email), it must sound like **him
 
 **🟡 Calibration #9 (2026-10-28) — run logged, Pedro's part pending.**
 - **RBI escalation reply (his draft, Claude critiqued twice).** What the critique caught, all fact or position, no prose: his first draft answered a neighbouring question (Quiet Hours hours) instead of RBI's ask (monthly updates at their own pace, discussed 09-08); his second draft said "we have started" 13 minutes after his first said "we are starting the evaluation", with the engineering manager in CC; one sentence ("manual updates are the only way I see to maintain the platform secure") contradicted a colleague's data on the same thread. His second draft was a clear jump: it answered the real ask with a mechanism and a guardrail. Sent ~10:10 CET; which edits he kept is not known.
-- **Aditi DM + email (Claude drafted, on his explicit override).** Sent ~10:45 CET with Bertrand in CC; his edits not known.
-- Pedro: pending (what he changed in both before sending).
+- **Aditi DM + email (Claude drafted, on his explicit override).** Sent 10:47 CET, To Bertrand + Aditi (not CC). **Sent text pasted 13:14** (in [[project_aem_agents_intelligence]] 10-28 block). The Claude draft was not kept, so no diff is possible. Visible in his sent text: "i" lowercase, a French space before ":" and "?", "say November 11th ?", a closing "Bertrand - please chime in if you see it differently".
+- Pedro: pending for the RBI half (what he changed before sending).
+
+**🟡 Calibration #10 (2026-10-28 ~13:55) — Bertrand reply on Slalom, run logged, Pedro's part pending.**
+- **Claude drafted on his explicit ask** ("Fait moi un draft pour Bertrand"), via `/reply`, the hard rule said once. Draft shape: the literal answer first ("Prod."), one concrete number set, the sandbox in half a line, the rule change credited to Bertrand's remark, a closed yes/no on 11-11. Cut from the draft on purpose: the unverified Governance-vs-content inference, the 518-org rank, the tools used (FluffyJaws, Rubin chat).
+- He asked twice what the reply was for ("il demandait quoi, et je lui réponds quoi ?") before writing: the facts list alone did not orient him; a two-line "his question / your answer" did.
+- Sent ~14:00, sent text not pasted. Pedro: pending (what he kept, cut or changed).
 
 **How to apply:** after drafting, reread each line as *"would Pedro write this exact word?"* and strip anything above his register. Hedge situational claims in group emails, keep asks assertive, offer the manager a chime-in line when announcing calls, default design leadership to direct-recipient, sweep single-word metaphors, state wants not vetoes, no priority labels, footnote the receipts. Pairs with [[feedback_language_split]] (FR in chat, EN in the vault, verbatim quotes stay original) and [[pkd-chat-tone]] (one Dick turn per cluster in peer emails).

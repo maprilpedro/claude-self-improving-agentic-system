@@ -21,3 +21,11 @@
 > - **Pedro's own recap of the session, 10-22 (three lines for an outward summary, his framing, recipient not named).** Team pleasantly surprised by the feedback; the step forward from AOv1 noted (one voice in the transcript, the British sandbox user); Coworker now a tool champions can use; value seen and foundations liked; but junior on content creation, and governance (access for specific users, credits per user) blocks wider use; Coworker UI gaps (input prompt hidden behind the spinner, silent tool-call failure, thumbs down without a reason). Critique narrowed "they see the value" to "champions who used it" because the room answered "no" at the start; whether the sent version kept that is not known. **Check later statements to the same readers against this framing.** Instance of [[Lead the Slide With the Honest Read of Your Own Metric, Not the Flattering Number]] (4th instance line added to the entry).
 >
 
+> ### 🟢 2026-10-20 — LEGAL APPROVED #1 + #2 FOR EVERYONE ON THE WIKI, ONE DAY AFTER PEDRO'S SCOPED ASK
+>
+> - **What happened.** Pedro answered Tonia Hashimoto with Loni's actual ask and a narrow request (Yanira's suggested scope): #1 usage reporting + #2 troubleshooting for all wiki users plus new users. Legal (Tonia + Carla) agreed the same day; Loni's Legal meeting cancelled; a streamlined approval workflow is coming. Loni's end-October deadline met ~10 days early.
+> - **Still open.** "Quality / chat analysis" uses unapproved. Yanira → PR to Ilya Grafutko. Pedro → tell Corey. ~~One line to Loni + Bertrand~~ not needed: both were in CC of the Legal thread (Pedro 10-28). The "~70 opt-outs" vs 59 Excel lines.
+> - **Also 10-20.** Licensed AEM customer list located (DashDiscovery `AEMLicensedCustomers`, Pedro has access): [[reference_aem_licensed_customers]].
+> - **🔎 KNOWLEDGE (P6):** instance of [[Say the Sentence That Obliges — the Hedge Transfers the Ask]] (a precise, bounded ask got a yes in a day where the 10-19 "asap" got a question back). One observation, no new entry.
+>
+

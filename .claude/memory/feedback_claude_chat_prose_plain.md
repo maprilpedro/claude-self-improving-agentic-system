@@ -43,6 +43,10 @@ The message that failed was not jargon-heavy by the 08-03 or the morning test. I
 
 Also note the trend across a single day. Long answers with many verified numbers are correct and still unreadable. **Correctness is not the bar; one idea he can act on is.**
 
+## Fourth instance, 2026-10-28 — orientation, not vocabulary
+
+In one hour on the Slalom thread he received four dense answers (facts table, verified table, a five-point content list, a "what not to include" list). Then: "Bon je suis un peu perdu - il demandait quoi, et je lui réponds quoi ?" The two-line answer ("Ce qu'il demandait… Ce que tu lui réponds…") was what he needed first. **When a thread runs over several pastes, open with the question on the table and its answer in two sentences, before any table.** Detail second, if at all.
+
 ## The four tests, before any sentence goes to him
 
 1. **One idea per sentence.** If there are two, split it.

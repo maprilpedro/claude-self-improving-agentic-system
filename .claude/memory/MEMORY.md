@@ -107,6 +107,7 @@
 - [Vault copy of published wiki pages](feedback_vault_copy_of_published_pages.md) — the vault is the source of truth.
 - [Separate facts from proposals](feedback_separate_facts_from_proposals.md) — never let a bet read as a fact.
 - [HTML dashboards, not markdown](feedback_html_dashboard_preference.md).
+- [Diagrams left to right, short labels](feedback_diagram_layout.md) — his trees as `flowchart LR` in his order, not a radial mindmap ("c'est confus", 10-28). Check the render before saying it works.
 - [Big-file parallel chunk extract](feedback_big_file_parallel_chunk_extract.md) — >2000 lines → 3-5 parallel extractors.
 - [No Obsidian task checkboxes](feedback_no_obsidian_task_checkboxes.md) — **never `- [ ]` / `- [x]` / 📅 ✅ Tasks syntax in the vault.** Plain bullets. Journals cleaned + `/journal` patched 2026-09-22; Status & Todo converted on his go the same day. **Exception 10-28: the `Coworker Kanban` board (Kanban plugin format), where Coworker tasks now live.**
 - [Don't auto-reload Obsidian](feedback_obsidian_reload_after_write.md). ⚠️ Its editor buffer also **overwrites** disk writes — close the note before editing.
