@@ -23,7 +23,7 @@ Reading is allowed; **never send or react** (`feedback_never_send_slack`).
 
 ## Step 3 — Route once (one home per info)
 
-Route by the CLAUDE.md project table (EH vs AAI):
+Route by the CLAUDE.md project table (four projects: Coworker Lead, EH, Release Management, Security Health):
 
 - **Project memory** — dated event block in the owning project's active memory file: what moved, why it matters, bankable verbatim, permalink. Cite applicable knowledge entries `[[...]]` or "none apply" (P6).
 - **Status & Todo** — only if the thread creates/closes tasks (forward checkbox + 📅, `feedback_task_vs_progress_log`).

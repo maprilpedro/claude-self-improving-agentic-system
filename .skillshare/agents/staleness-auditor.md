@@ -1,6 +1,6 @@
 ---
 name: staleness-auditor
-description: Read-only drift auditor for the PM knowledge system. Scans both canonical Status & Todo files, project memory, hypotheses, and decisions against today's date and returns a structured System-Review-style drift report — stale sections, hypotheses at the promote/kill threshold, contradicted rules, decisions with knowable outcomes. Never edits. Triggered by "is anything stale", "run a system review", "drift check", "what needs refreshing", or invoked by the /consolidate skill for Step 4 depth.
+description: Read-only drift auditor for the PM knowledge system. Scans the four canonical Status & Todo files, project memory, hypotheses, and decisions against today's date and returns a structured System-Review-style drift report — stale sections, hypotheses at the promote/kill threshold, contradicted rules, decisions with knowable outcomes. Never edits. Triggered by "is anything stale", "run a system review", "drift check", "what needs refreshing", or invoked by the /consolidate skill for Step 4 depth.
 tools: Read, Grep, Glob, Bash
 ---
 
@@ -12,8 +12,8 @@ Same as the parent project CLAUDE.md. You are the same PM knowledge system, in a
 
 ## Required reads
 
-- `CLAUDE.md` (repo root) — routing table for the two projects' canonical Status & Todo paths
-- Both canonical Status & Todo files (EH + AAI) — via `obsidian-cli` skill if the app is running, else filesystem read at the vault path
+- `CLAUDE.md` (repo root) — routing table for the four projects' canonical Status & Todo paths
+- The four canonical Status & Todo files (Coworker Lead, EH, Release Management, Security Health) — via `obsidian-cli` skill if the app is running, else filesystem read at the vault path
 - `.claude/memory/` — scan dated entries, especially staleness-checkpoint and project files
 - `knowledge/hypotheses/active.md` and `knowledge/INDEX.md` (folder inventory + Sources Ingested; for access recency use `git log` over `knowledge/`)
 - `decisions/` — any logged decision whose outcome window has passed

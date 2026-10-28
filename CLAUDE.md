@@ -24,11 +24,11 @@ Frame all work through the Director PM building toward Senior Director lens. Eve
 
 ## Session Start
 
-At the start of every conversation, immediately pick up where we left off across both projects: **AEM Experience Hub (EH)** and **AEM Agents Intelligence (AAI)**. Don't wait for the user to ask. Load `project_experience_hub.md` + `project_aem_agents_intelligence.md` from `.claude/memory/`, pull current state from each project's canonical Status & Todo, give a concise per-project status update, then ask what to work on. For which project currently leads, read the latest state in `.claude/state.md` and each project's Status & Todo — don't assume a fixed tilt. Starting fresh creates friction and makes Pedro repeat himself.
+At the start of every conversation, immediately pick up where we left off across Pedro's four projects (set 2026-10-28): **Coworker Lead** (ex AEM Agents Intelligence, AAI), **AEM Experience Hub (EH)**, **Release Management** and **Security Health**. Don't wait for the user to ask. Load `project_aem_agents_intelligence.md` (Coworker Lead, filename kept), `project_experience_hub.md`, `project_release_management.md` and `project_security_health.md` from `.claude/memory/`, pull current state from each project's canonical Status & Todo, give a concise per-project status update, then ask what to work on. For which project currently leads, read the latest state in `.claude/state.md` and each project's Status & Todo — don't assume a fixed tilt. Starting fresh creates friction and makes Pedro repeat himself.
 
 Also at session start: read `.claude/memory/watches.md` and surface any watch due or overdue today (it is the single registry of dated follow-ups); and check the repo `_inbox/` for dropped files awaiting ingestion — offer to route them.
 
-Two projects. EH = surface, contribution model, Sorin team. AAI = agent reporting, AO 2.0 liaison, three-tier reporting, May 11 deck.
+Four projects. Coworker Lead = AEM on Coworker (adoption, commercials, AEM on Coworker roadmap, marketing, following the Coworker roadmap), agent reporting, AO 2.0 liaison; Coworker tasks on the `Coworker Kanban` board. EH = surface, contribution model, Sorin team. Release Management = release activation and reviews, customer update pauses (Quiet Hours, Update-Free, RO), Rotary, Visual Regressions. Security Health = Security Health and pen tests in EH, the Heimdall support view, the CSO and vulnerabilities roadmap lines.
 
 ---
 
@@ -154,7 +154,7 @@ Built-in tooling for the two highest-frequency workflows. Skills are **skillshar
 | Subagent | Read-only | Use for |
 |---|---|---|
 | `transcript-extractor` | yes | Big-file pattern — spawn 3-5 in parallel on contiguous chunks of a >2000-line / >100K transcript; returns dated structured extracts. `/ingest-transcript` invokes it automatically for large files. |
-| `staleness-auditor` | yes | Drift report across both Status files + memory dates vs today (stale sections, hypotheses at threshold, rules to demote, decisions to score). The lightweight half of the System Review directive. `/consolidate` invokes it for Step 4 depth. |
+| `staleness-auditor` | yes | Drift report across the four Status files + memory dates vs today (stale sections, hypotheses at threshold, rules to demote, decisions to score). The lightweight half of the System Review directive. `/consolidate` invokes it for Step 4 depth. |
 | `promotion-judge` | yes | Independent promote / keep-parked / kill / drop / demote verdicts on every hypothesis at threshold + parked candidate, graded against the hard gates in fresh context (separate from the thread that produced them). The self-grading backstop for hypothesis lifecycle. `/system-review` invokes it at Step 2 before acting. |
 
 Skills compose: `/ingest-transcript` → `transcript-extractor`; `/consolidate` → `staleness-auditor`; `/system-review` → `staleness-auditor` (drift) + `promotion-judge` (lifecycle verdicts), then acts on both reports. `/consolidate` is the per-session light half; `/system-review` is the monthly heavy half that consumes the same drift report and makes the edits. Validation is qualitative (workflow-capture skills, not scoreable transforms) — the real test is the next real transcript / session-end / monthly review.
@@ -186,7 +186,9 @@ Skills compose: `/ingest-transcript` → `transcript-extractor`; `/consolidate` 
 
 | Surface | Project | Memory file | Status & Todo | OKR folder | 1-1 trio |
 |---|---|---|---|---|---|
+| AEM on Coworker, agent reporting, AO 2.0 liaison | **Coworker Lead** (ex AEM Agents Intelligence, AAI; renamed 2026-10-28) | `project_aem_agents_intelligence.md` (filename kept) | `Coworker Lead/Coworker Lead - Project Folder/Status and Roadmap/Coworker Lead - Status and Todo.md` + board `Coworker Lead - Project Folder/Coworker Kanban.md` | `O1 - AI Agent Intelligence/` | Coworker Lead Stakeholder Map / Coworker Lead State of Project / Yanira 1-1 |
 | EH surface, contribution model, Sorin team | **AEM Experience Hub (EH)** | `project_experience_hub.md` | `Experience Hub/AEM Experience Hub - Project Folder/AEM EH Status and Roadmap/Experience Hub - Status and Todo.md` | `O2 - EH Migration to Personalized/` | EH Stakeholder Map / EH State of Project / Sorin 1-1 + Bertrand 1-1 |
-| Agent reporting, AO 2.0 liaison, Loni+JM deck, three-tier reporting | **AEM Agents Intelligence (AAI)** | `project_aem_agents_intelligence.md` | `AEM Agents Intelligence/AAI - Project Folder/Status and Roadmap/AEM Agents Intelligence - Status and Todo.md` | `O1 - AI Agent Intelligence/` | AAI Stakeholder Map / AAI State of Project / Yanira 1-1 |
+| Release activation and reviews, customer update pauses, Rotary, Visual Regressions | **Release Management** (created 2026-10-28) | `project_release_management.md` | `Release Management/Release Management - Status and Todo.md` | `O3`, `O4`, `O6` | none yet (Status & Todo + MOC only) |
+| Security Health and pen tests in EH, Heimdall support view, CSO + vulnerabilities lines | **Security Health** (created 2026-10-28) | `project_security_health.md` | `Security Health/Security Health - Status and Todo.md` | `O5 - EH Security/` | none yet (Status & Todo + MOC only) |
 
-Bertrand 1-1 file lives EH-side, cross-cutting (Pedro reports up through Bertrand for both). Route each task to the one project that owns the outcome; never duplicate a task across the two Status files.
+Vault paths are relative to `020 Professional/Adobe/Projects/2026/`. Bertrand 1-1 file lives EH-side, cross-cutting (Pedro reports up through Bertrand for all four). Route each task to the one project that owns the outcome; never duplicate a task across the Status files.

@@ -35,7 +35,7 @@ Same as the parent project CLAUDE.md.
 ## Scope — what you do NOT do
 
 - Do NOT edit, write, or commit anything.
-- Do NOT route items to EH vs AAI, update Status & Todo, memory, or knowledge — that is the parent's job.
+- Do NOT route items to a project, update Status & Todo, memory, or knowledge — that is the parent's job.
 - Do NOT make strategic / promotion framing — extraction is neutral.
 
 ## Output format

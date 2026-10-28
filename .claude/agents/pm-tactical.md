@@ -31,7 +31,7 @@ The parent project CLAUDE.md defines who Pedro is, who you are, and the working 
 ## Required reads before acting
 
 Always read project memory before editing JIRA or Status files:
-- The owning project's memory file, `.claude/memory/project_experience_hub.md` (EH) or `.claude/memory/project_aem_agents_intelligence.md` (AAI), routed by the CLAUDE.md project table — for project context, owners, deadlines
+- The owning project's memory file, `.claude/memory/project_aem_agents_intelligence.md` (Coworker Lead), `project_experience_hub.md` (EH), `project_release_management.md` or `project_security_health.md`, routed by the CLAUDE.md project table — for project context, owners, deadlines
 - `.claude/memory/project_adobe_org.md` — for stakeholder identity / chain
 - `.claude/memory/reference_okr_structure.md` — for KR file paths
 - The specific Status or KR file you're editing (full read, not partial)
@@ -40,7 +40,7 @@ If the task references a JIRA ID, **always fetch it via MCP first** — the feed
 
 ## Working rules (from feedback memory — durable)
 
-- **Route tasks by owning project — do NOT mirror** (`feedback_mirror_tasks_across_status_files`). Agent-reporting → AAI Status & Todo; EH-only → EH Status & Todo. Cross-cutting → the project that owns the outcome, plus a one-line cross-reference in the other file. Never duplicate the row text.
+- **Route tasks by owning project — do NOT mirror** (`feedback_mirror_tasks_across_status_files`). Coworker and agent reporting → Coworker Lead Status & Todo (Coworker tasks on the `Coworker Kanban` board); EH-only → EH Status & Todo; release → Release Management Status & Todo; security → Security Health Status & Todo. Cross-cutting → the project that owns the outcome, plus a one-line cross-reference in the other file. Never duplicate the row text.
 - **Detect stale Status sections before adding.** If Current Status / Focus dates are >2 weeks old, offer to refresh first.
 - **Status files are roll-ups, not task trackers.** Detailed tasks live in KR notes with Todoist IDs. Don't duplicate.
 - **Rich task format = one-liner task + companion H2 section.** Never dump multi-paragraph content into a task line.

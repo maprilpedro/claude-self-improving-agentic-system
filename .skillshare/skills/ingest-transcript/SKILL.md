@@ -12,8 +12,8 @@ Turn one meeting transcript into durable, correctly-routed knowledge. This is th
 
 ## Before anything: orient
 
-1. Read `CLAUDE.md` in the repo root if not already in context. The **"Common PM Tasks Routing → By project"** table is authoritative for which project owns the outcome (EH vs AAI), which memory file, which canonical Status & Todo, which trio. Do not guess routing from the filename — a Bertrand 1-1 transcript can carry both EH and AAI signals.
-2. Load the relevant project memory file(s) from `.claude/memory/` (`project_experience_hub.md`, `project_aem_agents_intelligence.md`). These hold predicted future events ("call lands Tue May 19") that this transcript may resolve or contradict — you need them to reconcile.
+1. Read `CLAUDE.md` in the repo root if not already in context. The **"Common PM Tasks Routing → By project"** table is authoritative for which project owns the outcome (Coworker Lead, EH, Release Management or Security Health), which memory file, which canonical Status & Todo, which trio. Do not guess routing from the filename — a Bertrand 1-1 transcript can carry signals for several projects.
+2. Load the relevant project memory file(s) from `.claude/memory/` (`project_aem_agents_intelligence.md` = Coworker Lead, `project_experience_hub.md`, `project_release_management.md`, `project_security_health.md`). These hold predicted future events ("call lands Tue May 19") that this transcript may resolve or contradict — you need them to reconcile.
 3. Note today's date (system context). Convert every relative date in the transcript ("yesterday", "next week") to absolute before writing anything.
 
 ## Step 1 — Read the transcript
@@ -36,7 +36,7 @@ Pull out, with dates and verbatim where it matters:
 - **Quotes worth banking** — exec verbatim, especially VP. Audit the grammatical subject before promoting a quote to promotion-grade narrative (`feedback_dont_overread_vp_quotes`).
 - **Reconcile** — anything the transcript resolves or contradicts vs the project memory you loaded (a predicted date that moved, a hypothesis confirmed/killed, a "still owed" item now closed).
 
-Route each item to the one project that **owns the outcome** (CLAUDE.md table); never duplicate an item across EH and AAI. Cross-cutting 1-1s (Bertrand) split by surface: EH signals to EH, AAI signals to AAI.
+Route each item to the one project that **owns the outcome** (CLAUDE.md table); never duplicate an item across the project Status files. Cross-cutting 1-1s (Bertrand) split by surface: each signal goes to the project that owns it. Coworker tasks go on the `Coworker Kanban` board.
 
 ## Step 3 — Update the canonical Status & Todo
 

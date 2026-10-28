@@ -24,7 +24,7 @@ Then check today's date against the parked/pending dates so nothing silently rol
 
 ## Step 1 — Drift audit (spawn `staleness-auditor`)
 
-Spawn the `staleness-auditor` subagent (read-only). It scans both canonical Status & Todo files, project memory, `hypotheses/active.md`, `INDEX.md`, and `decisions/` against today's date, and returns a structured drift report: stale Status sections, hypotheses at the promote/kill threshold, rules to demote, decisions to score, quality-criteria drift, and the cadence check.
+Spawn the `staleness-auditor` subagent (read-only). It scans the four canonical Status & Todo files, project memory, `hypotheses/active.md`, `INDEX.md`, and `decisions/` against today's date, and returns a structured drift report: stale Status sections, hypotheses at the promote/kill threshold, rules to demote, decisions to score, quality-criteria drift, and the cadence check.
 
 Do not re-derive this by hand — the auditor exists so the review starts from a clean, dated inventory instead of an ad-hoc scan. Fold its report in as the worklist for Steps 2-4. If the Obsidian app is not running, the auditor falls back to filesystem reads at the vault path; that is fine.
 
