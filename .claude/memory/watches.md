@@ -21,14 +21,15 @@ metadata:
 
 - 📅 **11-03 · RBI customer call (Patrick Hauzel, Martin Floess).** How Pedro's 10-28 reply landed, whether RBI is in the "selected customers", and the date for the Update-Free extension (still not given).
 - 🟡 **Merit Vossmann: what replaces Visual Regressions** (asked 10-27 15:20, her customer call 10-28). https://adobe.enterprise.slack.com/archives/D0CBFJ858TD/p1793110852430919
-- 📅 **~10-30 · Five lines to Bertrand on the Coworker foundation roadmap line** (his 10-27 question), before the customer-facing roadmap 11-20. Pedro writes, Claude checks facts.
+- 📅 **~10-30 · Five lines to Bertrand on the Coworker foundation roadmap line** (his 10-27 question), before the customer-facing roadmap 11-20. Pedro writes, Claude checks facts. ⚠️ In the 1-1 Pedro defended the distributed model ("je pense que ça fait sens"); a central line is a change of position and has to be said as one.
 - 📅 **10-29 · Aditi's answer to Pedro's biweekly AEM usage-stories proposal** (email 10-28, Bertrand cc). Then **Wed 11-11 · first 2-3 stories to Bertrand**; confirm Pedro can see Rubin per-org numbers before then. → [[project_aem_agents_intelligence]] 2026-10-28 block.
 - 🟡 **Rachel's answer to Bertrand: where the Slalom quote came from, and product attribution in her newsletter prompt.** Same email thread.
 
 ### 🆕 2026-10-27 — BERTRAND 1-1 (full read: [[project_aem_agents_intelligence]] 2026-10-27 Bertrand block)
 
-- 📅 **~10-30 · Tina on the Coworker rate card and roles.** Bertrand asked in the 1-1; he had a Slack from her on the pricing model (cost per action plus a global cost). Pedro asks her.
-- 📅 **~11-03 · Coworker customer comms.** What Guillaume Carlino (docs) and Gina Casagrande (Experience Cloud Evangelism) already have, before Pedro builds use-case capsules or videos.
+- 📅 **~10-30 · Tina on the Coworker rate card, and AEM in the discussion.** Cost per operation instead of 25 credits per prompt; Bertrand worried it moves without AEM while Sites pricing is redone. Tina 10-28 `#aem-agentic` to Apoorva: official per-level pricing on Field Readiness, updated pricing not before Q1.
+- 📅 **~11-03 · Demo Hub with Gina Casagrande** (she runs it): the AEM row claims a demo video, script and clickable demo that do not exist. Two scenarios needed (existing customers, new customers on Experience Workspace), Bertrand with Mark Szulc (probable). Docs side: Guillaume Carlino, "on en reparle semaine prochaine" (10-27).
+- 🟡 **Manas is leaving** (Bertrand, 10-27). Who inherits his Coworker scope and the CXCO reviews (Yanira 10-21: merged before 11-01). Pedro works with Trent meanwhile.
 
 ### 🆕 2026-10-27 — COWORKER PERSISTENT INSTRUCTIONS, RAUL FIRST (full read: [[reference_coworker_system_prompt_blocks]] 2026-10-27 block)
 
@@ -60,7 +61,7 @@ metadata:
 ### 🆕 2026-10-20 — SJ SESSION "AGENTIC WORKFLOWS" (transcript in vault `Meeting Notes/AEM Champion Forum 2026/`; summary + 21 improvement asks with counts in the vault note `2026 AEM Champion Forum Feedback`, follow-ups on the SJ page; ingested 10-21)
 
 - 📅 **~11-03 · Tina's categorized readout to the champions** (promised "two weeks" in the room). The improvement table in the vault note `2026 AEM Champion Forum Feedback` is the input (moved off the SJ page 10-21). Check it went out and that the non-bug items have a named owner.
-- 🔴 **End of November · per-user Coworker access via Admin Console profiles was promised to the room.** The M1 plan (10-14) calls the same window "Tentative / Not Confirmed" (Wave B 2-23 Nov). If it moves, Kedar's and Dianne Eveler's orgs heard the date; tell the champions before they find out.
+- 🔴 **End of November · per-user Coworker access via Admin Console profiles was promised to the room.** The M1 plan (10-14) calls the same window "Tentative / Not Confirmed" (Wave B 2-23 Nov). **Pedro to Bertrand 10-27: "j'ai plutôt l'impression que ça va être janvier l'année prochaine."** If it moves, Kedar's and Dianne Eveler's orgs heard the date; tell the champions before they find out.
 - 🟡 **Share the per-user Rubin usage dashboard with the champions** (Tina in the room, answering Jineet Vora: "we should probably share it with you"). Same artifact Bertrand handed Pierre Tager for Esri. Owner unassigned.
 - 🟡 **H-010a candidates, not logged:** Dianne Eveler's org has Coworker disabled (regulated financial services, guardrails), Kedar will not open it to authors without profile-level control. Grade at the ingest, not here.
 
