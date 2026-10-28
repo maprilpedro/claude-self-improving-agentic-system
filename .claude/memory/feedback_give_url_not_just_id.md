@@ -1,6 +1,6 @@
 ---
 name: feedback-give-url-not-just-id
-description: Always give the clickable URL alongside any ID (Confluence page, Slack canvas/thread, JIRA, GitHub PR) — Pedro needs to open the source, not reconstruct the link.
+description: Always give the clickable URL alongside any ID or note name (Obsidian vault note via obsidian://, Confluence page, Slack canvas/thread, JIRA, GitHub PR) — Pedro needs to open the source, not reconstruct the link.
 metadata:
   type: feedback
 ---
@@ -13,7 +13,10 @@ Stated by Pedro 2026-08-12: *"en règle générale, c'est ok de me donner l'id m
 
 🔴 **SECOND FAILURE 2026-08-15, and it was the one form the recipe below did not cover.** A whole Slack read-back was reported using bare **channel and group-DM IDs** (`C0BQ4L7BVL2`, `DQ6H0AV7H`) and a bare **file ID** (`F0BPBFCST5F`). Pedro: *"je t'ai demandé de chaque fois me donner l'url pour slack - je ne peux rien faire juste avec l'id."* **The rule is every Slack object, not only canvases and threads.** A report he cannot open is a report he has to take on trust, which is the opposite of why he asks for sources.
 
+🔴 **THIRD FAILURE 2026-10-28, vault notes.** After the four-project restructure Claude told him "ouvre `Coworker Lead - Status and Todo` dans Obsidian" with no link. Pedro: *"donne moi le lien sur la feuille toujours - c'est innutile comme ca."* **The rule covers every vault note Claude names, created or edited.** A note name he has to search for is the same friction as a bare ID.
+
 **How to apply:**
+- **Obsidian vault note**: `obsidian://open?vault=ObsidianAdobeVault&file=<vault-relative path without .md, URL-encoded>` (space → `%20`, `/` → `%2F`). Example: `obsidian://open?vault=ObsidianAdobeVault&file=020%20Professional%2FAdobe%2FProjects%2F2026%2FRelease%20Management%2FRelease%20Management%20-%20Status%20and%20Todo`. Give it raw so the terminal makes it clickable, one link per note named in the reply.
 - Slack **channel or DM**: `https://adobe.enterprise.slack.com/archives/<CHANNEL_ID>` — works for `C…` channels, `C…`/`G…` group DMs and `D…` DMs alike
 - Slack **message/thread**: `https://adobe.enterprise.slack.com/archives/<CHANNEL_ID>/p<ts with the dot removed>` — ts `1786660097.959949` → `p1786660097959949`. Build it yourself; do not wait for a permalink field
 - Slack **file or doc**: `https://adobe.enterprise.slack.com/docs/T02CAQ0B2/<file_id>` (Slack docs/canvases) or `https://adobe.enterprise.slack.com/files/<uploader_user_id>/<file_id>` (uploads)
