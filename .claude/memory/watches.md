@@ -25,6 +25,8 @@ metadata:
 ### 🆕 2026-10-27 — COWORKER PERSISTENT INSTRUCTIONS, RAUL FIRST (full read: [[reference_coworker_system_prompt_blocks]] 2026-10-27 block)
 
 - ✅ **CLOSED 10-27 13:10 · Raul answered three minutes later: Herbie only.** "Ask was Herbie specific - and the changes mentioned by Sebastian are for Herbie - the problem there is that the initial prompts were targeted to solve only AIF issues (Herbie being an agent for internal use-cases only)". No joint ask. The Trent ask is AEM-only, with Herbie's per-team instruction file as the precedent. DM: https://adobe.enterprise.slack.com/archives/D02DQLX6TAL/p1793102822364299. Vault note `AO 2.0/Coworker Persistent Instructions Status.md`.
+- 📅 **~10-31 · Trent Davies DM, then the architects heads-up.** Not in Slack as of 10-28 09:30 CET. At next session start, search Slack for it (do not ask Pedro). Once sent: Trent's answer ~3 days later, then Pedro's reply in his 09-02 thread with "Also send to channel" (https://adobe.enterprise.slack.com/archives/C09KKLW1N86/p1788350207699419).
+- 🟡 **Felix Delval → Lénárd Palkó, unanswered since 10-14:** "do we have tools to choose a different manifest for a particular UI?" (https://adobe.enterprise.slack.com/archives/C09KKLW1N86/p1791986083941449). The answer decides both Felix's skills ask and Pedro's instructions ask.
 
 ### 🆕 2026-10-27 — SUMMIT 2027 LABS CANVAS (full read: [[project_aem_agents_intelligence]] 2026-10-27 block)
 
