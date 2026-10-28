@@ -151,7 +151,7 @@ metadata:
 ### 🆕 2026-10-28 — RBI ESCALATION + RELEASE PAUSES (full read: [[project_release_management]] 2026-10-28 block)
 
 - 📅 **11-03 · RBI customer call (Patrick Hauzel, Martin Floess).** How Pedro's 10-28 reply landed, whether RBI is in the "selected customers", and the date for the Update-Free extension (still not given).
-- 🟡 **Release management item in Bertrand's H1'27 plan = SKYOPS-163976** (+ SKYOPS-163977), both "HC: TBD"; Bertrand 10-27: "sans que je sache trop ce que ça veut dire". Pedro explains it to him (in person 10-28 possible) and asks Nicu to set 5 HC. Canvas F0C5A1D4GAJ.
+- 🟡 **Release management item in Bertrand's H1'27 plan = SKYOPS-163976** (+ SKYOPS-163977), both "HC: TBD"; Bertrand 10-27: "sans que je sache trop ce que ça veut dire". Pedro explains it to him (not 10-28: Bertrand sick) and asks Nicu to set 5 HC. Canvas F0C5A1D4GAJ.
 - 🟡 **Merit Vossmann: what replaces Visual Regressions** (asked 10-27 15:20, her customer call 10-28). https://adobe.enterprise.slack.com/archives/D0CBFJ858TD/p1793110852430919
 
 ### 🆕 2026-10-28 pm — THREE CUSTOMER PAUSES (full read: [[project_release_management]] 2026-10-28 pm block)
@@ -179,7 +179,7 @@ metadata:
 
 ### 🔴 CAREER — MID-YEAR REVIEW (undated, the next real checkpoint)
 
-- 🟡 **10-28 · ask Bertrand the date of the mid-year review** (he was at Pedro's office that day).
+- 🟡 **Next 1-1 · ask Bertrand the date of the mid-year review.** He was due at Pedro's office 10-28 but was sick, not there (Pedro 16:10).
 - **⏳ Bertrand's mid-year review is pending.** Pedro has already told him he is aware of the AI-phrasing feedback. ⚠️ **Do not re-open that conversation backward** ([[feedback_dont_litigate_prior_replies]]). **What counts is evidence between now and the review.**
 - **🔴 The AI-phrasing item is the symptom; the "good scribe" read is the damage.** Felix Meschberger doubts Pedro understands the topics he works on. **Plainer prose does not move that — one visible judgment per outward artifact does.** Watch for a Meschberger-facing moment where he takes a position and holds it.
 - **🔴 Scope risk: Ramon proposed in writing that a Bucharest PM take over the release track.** Not hostile, but it sits in a record Bertrand reads. **Decide before the review whether to defend it or trade it deliberately — don't let silence decide.**
