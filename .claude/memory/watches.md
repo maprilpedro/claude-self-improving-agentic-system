@@ -23,6 +23,10 @@ metadata:
 
 ## 🚀 Coworker Lead
 
+### 🆕 2026-10-29 — XL DOCS, EMA (full read: [[project_aem_agents_intelligence]] 2026-10-29 block)
+
+- 📅 **Mon 11-02 · Gabriel Walt's answer on EMA (Modernization Agent) under Agentic Capabilities.** Yanira chased Gabriel + Chris Bohnert by email (thread "AEM to Coworker Panel Updates Sync - Modernization Agent"); it gates retiring the "AIA + Agents" section in Experience League. Pedro is named in Alison Heimoz's 10-21 ask and said "follow-up" 10-29: if Gabriel is still silent on 11-02, Pedro nudges him. Then check the EPA overview pages once the Forms pages land.
+
 ### 🆕 2026-10-28 — USAGE STORIES + ROADMAP LINE (full read: [[project_aem_agents_intelligence]] 2026-10-28 blocks; the RBI lines of this section moved to Release Management)
 
 - 📅 **10-29 · Aditi's answer to Pedro's biweekly AEM usage-stories proposal** (email 10-28, Bertrand cc). Then **Wed 11-11 · first 2-3 stories to Bertrand**; confirm Pedro can see Rubin per-org numbers before then. **Before every batch, read the vault note `Coworker Lead - Project Folder/AEM Coworker Usage Stories Findings.md`** (template, checks, candidates, run log; created 10-28). ⚠️ Confirm with Yanira that quoting chat content fits Legal's approved uses (#1/#2), not the pending "chat analysis" bucket. → [[project_aem_agents_intelligence]] 2026-10-28 block.
