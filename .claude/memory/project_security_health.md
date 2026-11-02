@@ -9,7 +9,13 @@ metadata:
 >
 > **Layout invariant:** dated event blocks go directly under the RESUME, above the first `## ` reference section.
 
-> ## ▶️ RESUME HERE — **2026-10-28:** project created, no new event. Open: Ramon's EH-priorities meeting (asked 09-16, due 09-26, never held as far as recorded), the RS lines on SKYOPS-161584 / GRANITE-75092 for H1'27, the release-notes decision on the two doc limitations. Tasks in the vault Status.
+> ## ▶️ RESUME HERE — 2026-11-02 (full consolidation of the 10-29 session; today's state only)
+> - **Moved 10-29.** Vulnerabilities are available in Coworker + MCP. Brian prefers a link to the Dev Agentic page over a copied table, added Marius and Sergiu, and waits on Pedro's answer.
+> - **Late.** Ramon's EH-priorities meeting (asked 09-16, due 09-26, never held as far as recorded). RS lines on SKYOPS-161584 (CSO) / GRANITE-75092 (vulnerabilities) for H1'27.
+> - **Open.** The release-notes decision on the two doc limitations. Tasks in the vault Status.
+>
+> ### 🟡 2026-10-29 — VULNERABILITIES IN COWORKER + MCP, BRIAN WANTS A LINK, NOT A TABLE
+> - Brian (Chaikelson by context, the Development agent lead; group DM https://adobe.enterprise.slack.com/archives/C0CD57LK72M/p1793247510478909, 10-29 05:18 CET): vulnerabilities are available in Coworker + MCP; he prefers pointing to the Dev Agentic page over copying a table, added Marius and Sergiu, waits on Pedro. Knowledge: none apply.
 
 ## Key links (Pedro, 2026-10-28)
 

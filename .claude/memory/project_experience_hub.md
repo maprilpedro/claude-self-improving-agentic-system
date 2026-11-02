@@ -7,6 +7,18 @@ originSessionId: 298c09b0-7372-4e27-9660-87019bb7d26c
 
 > **Phase 2 vault split landed 2026-05-03.** AAI content (agent reporting, AO 2.0 liaison, Loni+JM May 11 deck, three-tier reporting, Felix/Rubin/Varun threads, Apoorva punch-list, KR3/4/5/6) lives in `project_aem_agents_intelligence.md`. This file is EH surface, contribution model, Sorin team, O2 personalization KRs only.
 
+> ## ▶️ RESUME HERE — 2026-11-02 (full consolidation of the 10-29 session; today's state only, rewritten each pass; first RESUME in this file)
+> - **Moved 10-29.** Apoorva's Content Advisor announcement is published for orgs with an Assets licence (Mircea). Sorin moved HOME-979 (EH's H1'27 line, 4 HC) to another DX roadmap. The 10-28 Sorin 1-1 was skipped (calibrations).
+> - **Waits on Pedro.** Mircea's three questions on the "New" pill. The announcement-tracker row Sorin asked for 10-21. The reply to Guliz on the left-nav item (drafted 10-23).
+> - **Late.** Write access to the announcements owners sheet (since 10-21, ask to Mircea). Eugene's date and who covers EH design (10-30). `Current Status` 22+ weeks stale.
+> - **Risk.** HOME-979 sits at 4 HC under the 5-HC canvas minimum, now under a roadmap Pedro has not seen yet.
+>
+> ## ▶️ 🟡 2026-10-29 — SLACK SWEEP, EH SIDE: THE "NEW" PILL, THE CONTENT ADVISOR ANNOUNCEMENT, HOME-979 MOVED
+> - **Mircea Salan waits on three answers about the "New" pill** in the EH nav: how long it stays, whether it disappears on click, what shows when the nav is collapsed (10-29 12:06 CET, https://adobe.enterprise.slack.com/archives/C07MVKU1APJ/p1793271962054799).
+> - **Content Advisor.** Apoorva's browser-extension announcement is published, targeted at orgs with an Assets licence (Mircea). Sorin 10-21 23:21 in `#experience-hub`: "@Pedro Ferreira - can you please add this to the announcement tracker / the ask would be to enable it for all AEM CS tenants; with Assets solutions; right @Apoorva Gupta?" (https://adobe.enterprise.slack.com/archives/C0842PPGECA/p1792617689269649?thread_ts=1791607373.080739&cid=C0842PPGECA). Which tracker is not confirmed; if it is the owners sheet, Pedro still has no write access (10-21 block).
+> - **HOME-979** is EH's H1'27 line, 4 HC. Sorin moved it the morning of 10-29 to another DX roadmap. The 10-28 Sorin 1-1 was skipped (he is in calibrations); he has built a promotion case for Mircea.
+> - Knowledge: none apply.
+>
 > ## ▶️ 🗂️ 2026-10-28 — FOUR PROJECTS: RELEASE AND SECURITY LEFT THIS FILE
 > - Pedro set four main projects: Coworker Lead (ex AAI), EH, Release Management, Security Health. The 10-28 RBI block (release lane) moved verbatim to [[project_release_management]]; Security Health facts are summarised in [[project_security_health]]. Older EH blocks that mention release or security (09-16, 09-22, 10-22) stay here as EH history; new release and security events go to the two new files.
 >

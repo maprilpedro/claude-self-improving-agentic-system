@@ -15,3 +15,5 @@ Rule. When the user says "track this" or "add a task" or "I need to do X," recor
 - After the work ships, THEN add a progress log entry summarizing outcome and lessons.
 
 **Quick check before writing.** Is this thing I'm about to write describing the past or the future? If future, it's a task. If past, it's a progress log entry. Don't mix.
+
+**Second instance, 2026-10-29.** In a recall list Claude marked AMEX (CXCW-787) "✅ links given" after handing Pedro the ticket links. Pedro: "amex c'est pas fait - je dois faire / doing". Giving him the material for a task does not close it. Only Pedro's word or a visible outcome closes it; until then it stays open (here, a Doing card).

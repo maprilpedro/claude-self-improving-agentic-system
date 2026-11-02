@@ -9,11 +9,17 @@ metadata:
 >
 > **Layout invariant (same as the other project files):** dated event blocks go directly under the RESUME, above the first `## ` reference section, or `scripts/archive_memory.py` cannot see them.
 
-> ## ▶️ RESUME HERE — 2026-10-29 (full consolidation of 10-28; today's state only)
-> - **Moved 10-28.** RBI answered (Update-Free extension), customer call Tue 11-03. UPS: Bertrand (sick) approved SKYROLL-1003 by DM; Razvan fills the "AEM Extended Update Freeze Exception Program" table and asks Adam. Best Buy + UnderArmour approved (Adam, Bertrand). Release activation with Victor Mirica since 10-27.
-> - **Waits, before Sat 11-01.** Adam's approval on UPS, and SKYROLL-1006 (program 2) covered. Then Sony (11-13) and Victoria's Secret in Nicu's table; Microsoft Juliette still two approvals short; Luke's CoreX program ID (Fluffyjaws mixed it up with Staubli).
-> - **Late.** Tatyana's January review date (since 10-16). SKYOPS-163976 to explain to Bertrand at the next 1-1, 5 HC to ask Nicu.
-> - **Risk.** Six customers on the pause limits; the policy question sits in Razvan's exception doc. Pedro's RBI numbers (10+ weeks a year, 2-3 releases behind) differ from his May UPF-Extended plan (8 periods, 4 releases late), and Razvan has seen both.
+> ## ▶️ RESUME HERE — 2026-11-02 (full consolidation of the 10-29 session, no session 10-30 → 11-01; today's state only)
+> - **Moved 10-29.** Nothing on UPS since 10-28 16:25. Norfolk raised its ask from 10 h to 12 h of Quiet Hours; Razvan wants an ETA from Nicu's team. Victor sent the Feature Ceremony invite and added Pedro to the IAM group.
+> - **Waits.** UPS pause (due to start Sat 11-01): Adam's approval and SKYROLL-1006 never seen, outcome not captured. Sony exception (was due 10-30), Victoria's Secret, Microsoft Juliette two approvals short, Luke's CoreX program ID.
+> - **Due.** RBI customer call Tue 11-03. Late: Tatyana's January review date (since 10-16); SKYOPS-163976 to explain to Bertrand, 5 HC to ask Nicu.
+> - **Risk.** Six customers on the pause limits, one ask now at 12 h against an 8 h limit; the policy question sits in Razvan's exception doc and is still answered account by account. Pedro's RBI numbers (10+ weeks a year, 2-3 releases behind) differ from his May UPF-Extended plan (8 periods, 4 releases late), and Razvan has seen both.
+>
+> ## ▶️ 🟡 2026-10-29 — SLACK SWEEP: UPS STILL WITHOUT ADAM'S OK, NORFOLK NOW ASKS 12 H (read 10-29 ~13:00 CET)
+> - **UPS.** Nothing since 10-28 16:25 (https://adobe.enterprise.slack.com/archives/C083T5XHFTL/p1793201118290739). Adam's approval not visible; SKYROLL-1006 (program 2) still named by nobody. Pause start Sat 11-01; what happened is not captured.
+> - **Norfolk asks 12 h of Quiet Hours now** (10 h on 10-22/23; Experience League limit 8 h). Razvan: Nicu's team has to build it, an ETA is needed (https://adobe.enterprise.slack.com/archives/C0C9BKH9T6Y/p1793215766081489). Same policy question as RBI, Microsoft and UPS (10-28 block).
+> - **Sony** (due 10-30): nothing new 10-29. **Victor Mirica** sent the Feature Ceremony invite (29023) and added Pedro to the IAM group.
+> - Knowledge: none apply beyond the 10-28 blocks.
 >
 > ## ▶️ 🔴 2026-10-28 pm — THREE CUSTOMER PAUSES WAITING ON PEDRO'S SIDE (Slack read ~14:05; JIRA 401, ticket approvals not checked)
 > - **UPS, Sat 11-01 → 01-11.** Dustin Christensen, group DM with Michael Pakaski (https://adobe.enterprise.slack.com/archives/C0C6UD4G5V0/p1793029217450869). SKYROLL-1003 (program 1, Pedro approved from PM 10-16, Razvan Bradea commented on a task 10-18, likely this one) and SKYROLL-1006 (program 2, different start time, created 10-20). Pedro 10-21: "let me sync with Razvan asap". Dustin 10-26: "As Nov. 1st is coming quick I want to make sure these Jira's are approved and will be paused"; 10-27: "Please let me know asap". **Pedro answered 10-28 14:07**, adding Razvan and Nicu to the DM: "catching up here >> … got approved from my side - can you give visibility from ops/R&D side ? Its quite urgent".
